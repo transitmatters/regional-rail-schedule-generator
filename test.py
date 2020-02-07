@@ -55,11 +55,8 @@ def create_problem_variables_dict(graph, services):
                 variables[name] = cp.Variable(name=name, nonneg=True)
     # For every node in the graph where two services intersect, we also need a boolean variable
     # to help us model the absolute value in the following constraint:
-    #   | ( T_i + D_i) - (T_j + D_j) | >= T_safe_follow
-    # Where i and j represent distinct trips, T_i and T_j represent the time that each trip takes
-    # to arrive at the node (constants based on the structure of the network) and D_i and D_j are
-    # sums of headway variables within a trip: sum(h_0...h_n) up to trip i or j.
-    # Sooooo...for each node...
+    #   | A_i - A_j | >= T_exclusion
+    # Where A_i and A_j represent distinct arrivals at the node.
     for node in graph:
         # For each pair of trips intersecting at the node...
         for (s1, t1, s2, t2) in get_trip_intersections_for_node(node, services):
@@ -100,7 +97,7 @@ def get_constraints_for_service(service, graph, variables):
 
 def get_departure_bounds_constraints(services, variables, period):
     for service in services:
-        # For conveniences' sake, ensure that every indexed trip leaves before the next one
+        # For convenience's sake, ensure that every indexed trip leaves before the next one
         # Otherwise the solver might decide that service A's trip 1 leaves before trip 0, which is
         # fine but annoying to deal with.
         for (dep_1, dep_2) in get_pairwise_departures_for_service(service, variables):
