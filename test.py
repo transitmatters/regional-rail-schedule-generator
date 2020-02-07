@@ -100,18 +100,20 @@ def get_departure_bounds_constraints(services, variables, period):
         # For convenience's sake, ensure that every indexed trip leaves before the next one
         # Otherwise the solver might decide that service A's trip 1 leaves before trip 0, which is
         # fine but annoying to deal with.
+        last = None
         for (dep_1, dep_2) in get_pairwise_departures_for_service(service, variables):
+            last = dep_2 or dep_1
             yield dep_1 <= dep_2
         # Finally ensure the last trip leaves before the period is over
-        yield dep_2 <= period
+        yield last <= period
 
 
 def get_objective_function(services, variables, period):
     fn = 0
     for service in services:
-        desired_headway = period / (service.trips_per_period + 1)
+        desired_headway = period / service.trips_per_period
         for (dep_1, dep_2) in get_pairwise_departures_for_service(service, variables):
-            fn += ((dep_2 - dep_1) - desired_headway) ** 4
+            fn += desired_headway * ((dep_2 - dep_1) - desired_headway) ** 2
     return fn
 
 
@@ -145,6 +147,6 @@ N.add_edge("c", "d", time=5)
 N.add_edge("d", "e", time=60)
 N.add_edge("d", "f", time=40)
 
-services = [Service("A", "acdf", 6), Service("B", "acde", 10), Service("C", "bcde", 4)]
+services = [Service("A", "acdf", 4), Service("B", "acde", 8), Service("C", "bcde", 4)]
 
 build_solver(N, services)
