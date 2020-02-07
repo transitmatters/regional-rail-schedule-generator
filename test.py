@@ -1,165 +1,143 @@
+import itertools
 import numpy as np
 import networkx as nx
-import solver
-import qpsolvers
+import cvxpy as cp
 
 
 class Service(object):
-    def __init__(self, route, trips_per_period):
+    def __init__(self, name, route, trips_per_period):
+        self.name = name
         self.route = route
         self.trips_per_period = trips_per_period
 
 
-def get_travel_time(graph, route, target_node):
-    total_time = 0
-    for first, second in zip(route, route[1:]):
-        if first == target_node:
-            return total_time
-        edge = graph.edges[first, second]
-        if not edge:
-            raise Exception(f"Graph does not contain route {route}.")
-        total_time += edge.get("time")
-    return total_time
+def get_arrival_time_variable_name(node, service, index):
+    return f"arrival_{service.name}_{index}_{node}"
 
 
-def create_trip_indexer(services):
-    service_tph = [service.trips_per_period for service in services]
-    trip_count = sum(service_tph)
-
-    def get_index(service, trip_index):
-        service_index = services.index(service)
-        return sum(service_tph[0:service_index]) + trip_index
-
-    return get_index, trip_count
+def get_safety_constraint_variable_name(node, service_a, index_a, service_b, index_b):
+    return f"bool_{node}_{service_a.name}_{index_a}_{service_b.name}_{index_b}"
 
 
-def get_travel_time_vector_for_node(
-    graph, node, services, get_trip_index, trip_count, dim
-):
-    T = np.zeros((dim, 1))
+def get_services_for_node(services, node):
     for service in services:
-        for trip_index in range(service.trips_per_period):
-            matrix_index = get_trip_index(service, trip_index)
-            if node in service.route:
-                travel_time = get_travel_time(graph, service.route, node)
-                T[matrix_index,] = travel_time
-    return T
+        if node in service.route:
+            yield service
 
 
-def get_trip_indices_for_node(node, services, get_trip_index):
-    indices = []
+def get_pairwise_departures_for_service(service, variables):
+    trips = list(range(service.trips_per_period))
+    depart_from = service.route[0]
+    for (trip_1, trip_2) in zip(trips, trips[1:]):
+        var_1 = variables[get_arrival_time_variable_name(depart_from, service, trip_1)]
+        var_2 = variables[get_arrival_time_variable_name(depart_from, service, trip_2)]
+        yield (var_1, var_2)
+
+
+def get_trip_intersections_for_node(node, services):
+    services_for_node = get_services_for_node(services, node)
+    for (s1, s2) in itertools.combinations_with_replacement(services_for_node, 2):
+        trips_1 = range(s1.trips_per_period)
+        trips_2 = range(s2.trips_per_period)
+        for (t1, t2) in itertools.product(trips_1, trips_2):
+            if not (s1 == s2 and t1 == t2):
+                yield (s1, t1, s2, t2)
+
+
+def create_problem_variables_dict(graph, services):
+    variables = {}
+    # For each node, for each trip on each service that passes through the node, create a variable
+    # that represents the arrival time of the trip at that node.
+    for node in graph:
+        for service in get_services_for_node(services, node):
+            for index in range(service.trips_per_period):
+                name = get_arrival_time_variable_name(node, service, index)
+                variables[name] = cp.Variable(name=name, nonneg=True)
+    # For every node in the graph where two services intersect, we also need a boolean variable
+    # to help us model the absolute value in the following constraint:
+    #   | ( T_i + D_i) - (T_j + D_j) | >= T_safe_follow
+    # Where i and j represent distinct trips, T_i and T_j represent the time that each trip takes
+    # to arrive at the node (constants based on the structure of the network) and D_i and D_j are
+    # sums of headway variables within a trip: sum(h_0...h_n) up to trip i or j.
+    # Sooooo...for each node...
+    for node in graph:
+        # For each pair of trips intersecting at the node...
+        for (s1, t1, s2, t2) in get_trip_intersections_for_node(node, services):
+            # Create a boolean variable for the node/trip/trip triplet.
+            name = get_safety_constraint_variable_name(node, s1, t1, s2, t2)
+            variables[name] = cp.Variable(name=name, boolean=True)
+    return variables
+
+
+def get_constraints_for_node(node, services, variables, exclusion_time, max_diff):
+    # Create safety constraints between all services on all routes
+    for (s1, t1, s2, t2) in get_trip_intersections_for_node(node, services):
+        # We want to create the constraint that abs(arrival_1 - arrival_2) > = exclusion_time
+        # See http://lpsolve.sourceforge.net/5.1/absolute.htm for the technique used here.
+        A_1 = variables[get_arrival_time_variable_name(node, s1, t1)]
+        A_2 = variables[get_arrival_time_variable_name(node, s2, t2)]
+        boolean = variables[get_safety_constraint_variable_name(node, s1, t1, s2, t2)]
+        # Yield one case where A_1 - A_2 >= 0
+        yield (A_1 - A_2) + max_diff * boolean - exclusion_time >= 0
+        # And one where A_2 - A_1 >= 0
+        yield (A_2 - A_1) + max_diff - max_diff * boolean - exclusion_time >= 0
+
+
+def get_constraints_for_service(service, graph, variables):
+    # For each trip on the service, for each node the service passes through, constraint the
+    # difference in arrival time variables to the travel time between nodes. For instance on route
+    # R with nodes a->b->c, where a->b takes 5 minutes and B=b->c takes 7 minutes we have:
+    # arrival_b_R_k - arrival_a_R_k - 5 = 0, arrival_c_R_k - arrival_b_R_k - 7 = 0, etc.
+    # So, for each trip on the service
+    for trip_index in range(service.trips_per_period):
+        # For each pair of nodes the service passes through...
+        for first, second in zip(service.route, service.route[1:]):
+            A_1 = variables[get_arrival_time_variable_name(first, service, trip_index)]
+            A_2 = variables[get_arrival_time_variable_name(second, service, trip_index)]
+            travel_time = graph.edges[first, second]["time"]
+            yield A_2 - A_1 == travel_time
+
+
+def get_departure_bounds_constraints(services, variables, period):
     for service in services:
-        for trip_index in range(service.trips_per_period):
-            if node in service.route:
-                indices.append(get_trip_index(service, trip_index))
-    return indices
+        # For conveniences' sake, ensure that every indexed trip leaves before the next one
+        # Otherwise the solver might decide that service A's trip 1 leaves before trip 0, which is
+        # fine but annoying to deal with.
+        for (dep_1, dep_2) in get_pairwise_departures_for_service(service, variables):
+            yield dep_1 <= dep_2
+        # Finally ensure the last trip leaves before the period is over
+        yield dep_2 <= period
 
 
-def get_qp_matrices_for_node(
-    graph, node, services, get_trip_index, trip_count, period, dim, safe_follow=1
-):
-    # Maximum value chosen to create constraints on absolute value:
-    # |(T_m + x_m) - (T_n + x_n)| >= T_safe
-    # (see http://lpsolve.sourceforge.net/5.1/absolute.htm)
-    M = 1000
-    # quadratic bunching matrix, item (m,n) indicates relationship between trips (m,n)
-    Bn = np.zeros((dim, dim))
-    # linear bunching matrix (denoted in the literature as c-transpose)
-    bn = np.zeros((1, dim))
-    # travel time matrix
-    Tn = get_travel_time_vector_for_node(
-        graph, node, services, get_trip_index, trip_count, dim
-    )
-    # Trip indices visited by this node
-    trip_indices = get_trip_indices_for_node(node, services, get_trip_index)
-
-    # Generate quadratic and linear bunching matrices
-    for row in range(trip_count):
-        for col in range(trip_count):
-            is_intersection = row in trip_indices and col in trip_indices
-            if row == col:
-                Bn[row, col] = 2
-            elif is_intersection:
-                Bn[row, col] = -2
-        if row == trip_indices[0]:
-            term = (2 * trip_count) / period + 1 + 1 / trip_count
-            bn[0, row] = term
-        elif row == trip_indices[-1]:
-            term = (1 / trip_count) - (2 * trip_count) / period + 1
-            bn[0, row] = term
-
-    # Generate safety constrain matrices
-    constraint_rows = []
-    constraint_constants = []
-    for first in range(trip_count):
-        period_max_row = np.zeros(dim)
-        period_max_row[first] = 1
-        constraint_rows.append(period_max_row)
-        constraint_constants.append(period)
-        period_min_row = np.zeros(dim)
-        period_min_row[first] = -1
-        constraint_rows.append(period_min_row)
-        constraint_constants.append(0)
-        for second in range(trip_count):
-            is_intersection = first in trip_indices and second in trip_indices
-            if is_intersection and first < second:
-                binary_offset = first + ((second - 1) ** 2 + (second - 1)) // 2
-                binary_constraint_index = trip_count + binary_offset
-                # Case of T_first_arrival - T_second_arrival > 0
-                positive_row = np.zeros(dim)
-                positive_row[first] = -1
-                positive_row[second] = 1
-                positive_row[binary_constraint_index] = 0 - M
-                positive_constant = Tn[first, 0] - Tn[second, 0] - safe_follow
-                constraint_rows.append(positive_row)
-                constraint_constants.append(positive_constant)
-                # Case of T_first_arrival - T_second_arrival < 0
-                negative_row = np.zeros(dim)
-                negative_row[first] = 1
-                negative_row[second] = -1
-                negative_row[binary_constraint_index] = M
-                negative_constant = M + Tn[second, 0] - Tn[first, 0] - safe_follow
-                constraint_rows.append(negative_row)
-                constraint_constants.append(negative_constant)
-                # Finally, B <= 1
-                binary_constraint_row = np.zeros(dim)
-                binary_constraint_row[binary_constraint_index] = 1
-                binary_constraint_constant = 1
-                constraint_rows.append(binary_constraint_row)
-                constraint_constants.append(binary_constraint_constant)
-                # print(positive_row, positive_constant)
-                # print(negative_row, negative_constant)
-                # print(binary_constraint_row, binary_constraint_constant)
-    Q = Bn
-    cT = bn + np.matmul(Bn, Tn).transpose() + np.matmul(Tn.transpose(), Bn)
-    A = np.array(constraint_rows).reshape((-1, dim))
-    B = np.array(constraint_constants)
-    return Q, cT, A, B
+def get_objective_function(services, variables, period):
+    fn = 0
+    for service in services:
+        desired_headway = period / (service.trips_per_period + 1)
+        for (dep_1, dep_2) in get_pairwise_departures_for_service(service, variables):
+            fn += ((dep_2 - dep_1) - desired_headway) ** 4
+    return fn
 
 
 def build_solver(graph, services, period=60):
-    get_trip_index, trip_count = create_trip_indexer(services)
-    dim = trip_count + (trip_count ** 2 - trip_count) // 2
-    Q = np.zeros((dim, dim))
-    cT = np.zeros((1, dim))
-    As = []
-    Bs = []
-    # Find constraint and objective matrices at each node in network
-    for node in graph.nodes:
-        Q_n, cT_n, A_n, B_n = get_qp_matrices_for_node(
-            graph, node, services, get_trip_index, trip_count, period, dim
-        )
-        Q = Q + Q_n
-        cT = cT + cT_n
-        As.append(A_n)
-        Bs.append(B_n)
-    A = np.concatenate(As, axis=0)
-    B = np.concatenate(Bs).reshape(-1)
-    cT = cT.reshape(-1)
-    print(dim, A.shape, B.shape, cT.shape, Q.shape)
-    print(A)
-    print(B)
-    print(solver.gurobi_solve_qp(Q, cT, A, B))
+    variables = create_problem_variables_dict(graph, services)
+    constraints = []
+    constraints += get_departure_bounds_constraints(services, variables, period)
+    for node in graph:
+        constraints += get_constraints_for_node(node, services, variables, 1, 120)
+    for service in services:
+        constraints += get_constraints_for_service(service, graph, variables)
+    objective = get_objective_function(services, variables, period)
+    print(objective)
+    problem = cp.Problem(cp.Minimize(objective), constraints)
+    problem.solve()
+    if problem.status not in ["infeasible", "unbounded"]:
+        print("STATUS", problem.status)
+        for service in services:
+            for index in range(service.trips_per_period):
+                for node in service.route[0:1]:
+                    var_name = get_arrival_time_variable_name(node, service, index)
+                    variable = variables[var_name]
+                    print(variable.name(), round(variable.value, 2) % period)
 
 
 N = nx.Graph()
@@ -170,5 +148,6 @@ N.add_edge("c", "d", time=5)
 N.add_edge("d", "e", time=60)
 N.add_edge("d", "f", time=40)
 
-services = [Service("acdf", 1), Service("acde", 1), Service("bcde", 1)]
+services = [Service("A", "acdf", 6), Service("B", "acde", 10), Service("C", "bcde", 4)]
+
 build_solver(N, services)
