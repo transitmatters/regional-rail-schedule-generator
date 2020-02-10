@@ -4,11 +4,38 @@ import networkx as nx
 import cvxpy as cp
 
 
+class Node(object):
+    def __init__(self, name, exclusion_time):
+        self.name = name
+        self.exclusion_time = exclusion_time
+
+    def __str__(self):
+        return self.name
+
+
+class Terminus(Node):
+    def __init__(self, name):
+        super().__init__(name, 3)
+
+
+class Junction(Node):
+    def __init__(self, name):
+        super().__init__(name, 1)
+
+
 class Service(object):
     def __init__(self, name, route, trips_per_period):
         self.name = name
         self.route = route
         self.trips_per_period = trips_per_period
+
+
+def create_route(graph, string):
+    route = []
+    for s in string:
+        print(s, graph[s])
+        route.append(graph.nodes[s])
+    return route
 
 
 def get_arrival_time_variable_name(node, service, index):
@@ -66,7 +93,7 @@ def create_problem_variables_dict(graph, services):
     return variables
 
 
-def get_constraints_for_node(node, services, variables, exclusion_time, max_diff):
+def get_constraints_for_node(node, services, variables, max_diff):
     # Create safety constraints between all services on all routes
     for (s1, t1, s2, t2) in get_trip_intersections_for_node(node, services):
         # We want to create the constraint that abs(arrival_1 - arrival_2) > = exclusion_time
@@ -75,9 +102,9 @@ def get_constraints_for_node(node, services, variables, exclusion_time, max_diff
         A_2 = variables[get_arrival_time_variable_name(node, s2, t2)]
         boolean = variables[get_safety_constraint_variable_name(node, s1, t1, s2, t2)]
         # Yield one case where A_1 - A_2 >= 0
-        yield (A_1 - A_2) + max_diff * boolean - exclusion_time >= 0
+        yield (A_1 - A_2) + max_diff * boolean - node.exclusion_time >= 0
         # And one where A_2 - A_1 >= 0
-        yield (A_2 - A_1) + max_diff - max_diff * boolean - exclusion_time >= 0
+        yield (A_2 - A_1) + max_diff - max_diff * boolean - node.exclusion_time >= 0
 
 
 def get_constraints_for_service(service, graph, variables):
@@ -100,12 +127,18 @@ def get_departure_bounds_constraints(services, variables, period):
         # For convenience's sake, ensure that every indexed trip leaves before the next one
         # Otherwise the solver might decide that service A's trip 1 leaves before trip 0, which is
         # fine but annoying to deal with.
-        last = None
-        for (dep_1, dep_2) in get_pairwise_departures_for_service(service, variables):
-            last = dep_2 or dep_1
-            yield dep_1 <= dep_2
-        # Finally ensure the last trip leaves before the period is over
-        yield last <= period
+        if service.trips_per_period > 1:
+            for (dep_1, dep_2) in get_pairwise_departures_for_service(
+                service, variables
+            ):
+                last = dep_2 or dep_1
+                yield dep_1 <= dep_2
+            # Finally ensure the last trip leaves before the period is over
+            yield last <= period
+        else:
+            name = get_arrival_time_variable_name(service.route[0], service, 0)
+            trip = variables[name]
+            yield trip <= period
 
 
 def get_objective_function(services, variables, period):
@@ -122,31 +155,58 @@ def build_solver(graph, services, period=60):
     constraints = []
     constraints += get_departure_bounds_constraints(services, variables, period)
     for node in graph:
-        constraints += get_constraints_for_node(node, services, variables, 1, 120)
+        constraints += get_constraints_for_node(node, services, variables, 12000)
     for service in services:
         constraints += get_constraints_for_service(service, graph, variables)
     objective = get_objective_function(services, variables, period)
-    print(objective)
     problem = cp.Problem(cp.Minimize(objective), constraints)
-    problem.solve()
+    problem.solve(solver=cp.GUROBI)
     if problem.status not in ["infeasible", "unbounded"]:
         print("STATUS", problem.status)
-        for service in services:
-            for index in range(service.trips_per_period):
-                for node in service.route[0:1]:
-                    var_name = get_arrival_time_variable_name(node, service, index)
-                    variable = variables[var_name]
-                    print(variable.name(), round(variable.value, 2) % period)
-
+        for node in graph:
+            service_times = []
+            for service in get_services_for_node(services, node):
+                for index in range(service.trips_per_period):
+                    name = get_arrival_time_variable_name(node, service, index)
+                    service_times.append(
+                        (service.name, int(variables[name].value), index)
+                    )
+            print(
+                node,
+                " ".join(
+                    [
+                        f"{name}-{time}"
+                        for (name, time, _) in sorted(service_times, key=lambda st: st[1])
+                    ]
+                ),
+            )
 
 N = nx.Graph()
-N.add_nodes_from("abcdef")
-N.add_edge("a", "c", time=20)
-N.add_edge("b", "c", time=30)
-N.add_edge("c", "d", time=5)
-N.add_edge("d", "e", time=60)
-N.add_edge("d", "f", time=40)
 
-services = [Service("A", "acdf", 4), Service("B", "acde", 8), Service("C", "bcde", 4)]
+q = Terminus("q")
+a = Terminus("a")
+b = Terminus("b")
+f = Terminus("f")
+e = Terminus("e")
+c = Terminus("c")
+d = Terminus("d")
+
+A = Service("A", [a, c, d, f], 6)
+B = Service("B", [a, c, d, e], 4)
+C = Service("C", [b, c, d, e], 4)
+D = Service("D", [q, c, d, f], 8)
+
+services = [A, B, C, D]
+
+
+N.add_nodes_from([q, a, f, e, c, d])
+
+N.add_edge(q, c, time=15)
+N.add_edge(a, c, time=20)
+N.add_edge(b, c, time=30)
+N.add_edge(c, d, time=5)
+N.add_edge(d, e, time=60)
+N.add_edge(d, f, time=40)
+
 
 build_solver(N, services)
