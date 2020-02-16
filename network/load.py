@@ -1,11 +1,11 @@
 import csv
-from os.path import dirname, join
+import os
 
-PATH_TO_GTFS_DATA = dirname(__file__) + "/../data/MBTA_GTFS-1"
+from .config import PATH_TO_GTFS_DATA
 
 
 def loader_by_file_name(file_name):
-    file_path = join(PATH_TO_GTFS_DATA, file_name + ".txt")
+    file_path = os.path.join(PATH_TO_GTFS_DATA, file_name + ".txt")
 
     def load():
         res = []
@@ -19,7 +19,8 @@ def loader_by_file_name(file_name):
 
 
 load_services = loader_by_file_name("calendar")
-load_stop_times = loader_by_file_name("relevant_stop_times")
+load_stop_times = loader_by_file_name("stop_times")
+load_relevant_stop_times = loader_by_file_name("relevant_stop_times")
 load_stops = loader_by_file_name("stops")
 load_transfers = loader_by_file_name("transfers")
 load_trips = loader_by_file_name("trips")

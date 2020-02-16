@@ -1,6 +1,16 @@
-from .load import load_services, load_stop_times, load_stops, load_transfers, load_trips
+from .load import load_services, load_relevant_stop_times, load_stops, load_transfers, load_trips
 from .models import StopTime, Station, Stop, LocationType, Network, Transfer, Trip
 from .time import time_from_string, DAYS_OF_WEEK
+
+
+def index_by_id(items, id_getter):
+    res = {}
+    if type(id_getter) == str:
+        id_getter_as_str = id_getter
+        id_getter = lambda dict: dict[id_getter_as_str]
+    for a_dict in items:
+        res[id_getter(a_dict)] = a_dict
+    return res
 
 
 def get_stations_from_stops(stop_dicts):
@@ -15,16 +25,6 @@ def link_station(station_dict):
         name=station_dict["stop_name"],
         location=(station_dict["stop_lat"], station_dict["stop_lon"]),
     )
-
-
-def index_by_id(items, id_getter):
-    res = {}
-    if type(id_getter) == str:
-        id_getter_as_str = id_getter
-        id_getter = lambda dict: dict[id_getter_as_str]
-    for a_dict in items:
-        res[id_getter(a_dict)] = a_dict
-    return res
 
 
 def get_trips_indexed_by_id(trip_dicts, service_dicts):
@@ -50,6 +50,7 @@ def get_trips_indexed_by_id(trip_dicts, service_dicts):
 
 def link_stop_times(stop, stop_time_dicts, trips_by_id):
     stop_times = []
+    added = 0
     for stop_time_dict in stop_time_dicts:
         if stop_time_dict["stop_id"] == stop.id:
             trip = trips_by_id.get(stop_time_dict["trip_id"])
@@ -59,6 +60,7 @@ def link_stop_times(stop, stop_time_dicts, trips_by_id):
                     trip=trip,
                     time=time_from_string(stop_time_dict["departure_time"]),
                 )
+                added += 1
                 stop_times.append(stop_time)
                 trip.add_stop_time(stop_time)
     stop.set_stop_times(sorted(stop_times))
@@ -111,7 +113,7 @@ def build_network_from_gtfs():
     # Do the loading...
     service_dicts = load_services()
     stop_dicts = load_stops()
-    stop_time_dicts = load_stop_times()
+    stop_time_dicts = load_relevant_stop_times()
     transfer_dicts = load_transfers()
     trip_dicts = load_trips()
     station_dicts = get_stations_from_stops(stop_dicts)
