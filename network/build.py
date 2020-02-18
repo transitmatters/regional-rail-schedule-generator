@@ -1,9 +1,15 @@
-from .load import load_services, load_relevant_stop_times, load_stops, load_transfers, load_trips
+from .load import (
+    load_services,
+    load_relevant_stop_times,
+    load_stops,
+    load_transfers,
+    load_trips,
+)
 from .models import StopTime, Station, Stop, LocationType, Network, Transfer, Trip
 from .time import time_from_string, DAYS_OF_WEEK
 
 
-def index_by_id(items, id_getter):
+def index_by(items, id_getter):
     res = {}
     if type(id_getter) == str:
         id_getter_as_str = id_getter
@@ -29,7 +35,7 @@ def link_station(station_dict):
 
 def get_trips_indexed_by_id(trip_dicts, service_dicts):
     res = {}
-    services_by_id = index_by_id(service_dicts, "service_id")
+    services_by_id = index_by(service_dicts, "service_id")
     for trip_dict in trip_dicts:
         trip_id = trip_dict["trip_id"]
         matching_service = services_by_id.get(trip_dict["service_id"])
@@ -130,6 +136,5 @@ def build_network_from_gtfs():
             link_transfers(stop, all_stops, transfer_dicts)
     ensure_trips_are_sorted(trips_by_id)
     return Network(
-        stations_by_name=index_by_id(stations, lambda st: st.name),
-        trips_by_id=trips_by_id,
+        stations_by_id=index_by(stations, lambda st: st.id), trips_by_id=trips_by_id,
     )

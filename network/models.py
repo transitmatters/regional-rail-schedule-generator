@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from typing import List, Tuple, Dict
+from typing import List, Tuple, Dict, Optional
 import functools
 import datetime
 
@@ -80,5 +80,21 @@ class Transfer(object):
 
 @dataclass
 class Network(object):
-    stations_by_name: Dict[str, Station]
+    stations_by_id: Dict[str, Station]
     trips_by_id: Dict[str, Trip]
+
+    def add_station(self, station: Station):
+        existing_station_by_id = self.stations_by_id.get(station.id)
+        if existing_station_by_id:
+            raise NameError(f"Station with id ${station.id} already exists in network")
+        self.stations_by_id[station.id] = station
+        return station
+
+    def get_station_by_id(self, station_id: str) -> Optional[Station]:
+        return self.stations_by_id.get(station_id)
+
+    def get_station_by_name(self, station_name: str) -> Optional[Station]:
+        for station in self.stations_by_id.values():
+            if station.name == station_name:
+                return station
+        return None
