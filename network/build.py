@@ -1,6 +1,7 @@
 from .load import (
-    load_services,
     load_relevant_stop_times,
+    load_services,
+    load_shapes,
     load_stops,
     load_transfers,
     load_trips,
@@ -19,6 +20,24 @@ def index_by(items, id_getter):
     return res
 
 
+def get_shapes_by_id(shapes):
+    res = {}
+    for shape in shapes:
+        shape_id = shape["shape_id"]
+        if not res.get(shape_id):
+            res[shape_id] = []
+        lat = float(shape["shape_pt_lat"])
+        lon = float(shape["shape_pt_lon"])
+        seq = int(shape["shape_pt_sequence"])
+        res[shape_id].append((lat, lon, seq))
+    for shape_id in res:
+        res[shape_id] = [
+            (lat, lon)
+            for (lat, lon, _) in sorted(res[shape_id], key=lambda entry: entry[2])
+        ]
+    return res
+
+
 def get_stations_from_stops(stop_dicts):
     for stop_dict in stop_dicts:
         if stop_dict["location_type"] == LocationType.STATION:
@@ -29,11 +48,11 @@ def link_station(station_dict):
     return Station(
         id=station_dict["stop_id"],
         name=station_dict["stop_name"],
-        location=(station_dict["stop_lat"], station_dict["stop_lon"]),
+        location=(float(station_dict["stop_lat"]), float(station_dict["stop_lon"])),
     )
 
 
-def get_trips_indexed_by_id(trip_dicts, service_dicts):
+def link_trips(trip_dicts, service_dicts, shapes_by_id):
     res = {}
     services_by_id = index_by(service_dicts, "service_id")
     for trip_dict in trip_dicts:
@@ -48,6 +67,7 @@ def get_trips_indexed_by_id(trip_dicts, service_dicts):
                     service_id=trip_dict["service_id"],
                     route_id=trip_dict["route_id"],
                     direction_id=trip_dict["direction_id"],
+                    shape=shapes_by_id[trip_dict["shape_id"]],
                     service_days=service_days,
                 )
                 res[trip_id] = trip
@@ -122,9 +142,11 @@ def build_network_from_gtfs():
     stop_time_dicts = load_relevant_stop_times()
     transfer_dicts = load_transfers()
     trip_dicts = load_trips()
-    station_dicts = get_stations_from_stops(stop_dicts)
-    trips_by_id = get_trips_indexed_by_id(trip_dicts, service_dicts)
+    shapes = load_shapes()
     # Now do the linking...
+    station_dicts = get_stations_from_stops(stop_dicts)
+    shapes_by_id = get_shapes_by_id(shapes)
+    trips_by_id = link_trips(trip_dicts, service_dicts, shapes_by_id)
     stations = [link_station(d) for d in station_dicts]
     all_stops = []
     for station in stations:
@@ -136,5 +158,7 @@ def build_network_from_gtfs():
             link_transfers(stop, all_stops, transfer_dicts)
     ensure_trips_are_sorted(trips_by_id)
     return Network(
-        stations_by_id=index_by(stations, lambda st: st.id), trips_by_id=trips_by_id,
+        stations_by_id=index_by(stations, lambda st: st.id),
+        trips_by_id=trips_by_id,
+        shapes_by_id=shapes_by_id,
     )

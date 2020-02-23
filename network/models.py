@@ -14,6 +14,7 @@ class Trip(object):
     id: str
     service_id: str
     route_id: str
+    shape: List[Tuple[float, float]]
     direction_id: str
     service_days: List[str]
 
@@ -28,7 +29,7 @@ class Trip(object):
 class Station(object):
     id: str
     name: str
-    location: Tuple[str, str]
+    location: Tuple[float, float]
 
     def __post_init__(self):
         self.child_stops = []
@@ -82,6 +83,7 @@ class Transfer(object):
 class Network(object):
     stations_by_id: Dict[str, Station]
     trips_by_id: Dict[str, Trip]
+    shapes_by_id: Dict[str, List[Tuple[float, float]]]
 
     def add_station(self, station: Station):
         existing_station_by_id = self.stations_by_id.get(station.id)

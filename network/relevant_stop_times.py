@@ -2,7 +2,7 @@ import csv
 import os
 
 from .load import load_stop_times, load_trips
-from .build import index_by_id
+from .build import index_by
 from .config import PATH_TO_GTFS_DATA
 
 PATH_TO_OUTPUT = os.path.join(PATH_TO_GTFS_DATA, "relevant_stop_times.txt")
@@ -41,7 +41,7 @@ def is_relevant_stop_time(stop_time_dict, trip_dicts_by_id):
 
 
 def generate_relevant_stop_times():
-    trip_dicts_by_id = index_by_id(load_trips(), "trip_id")
+    trip_dicts_by_id = index_by(load_trips(), "trip_id")
     stop_times = load_stop_times()
     relevant_stop_times = [
         stop_time
