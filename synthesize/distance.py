@@ -6,30 +6,17 @@ from geopy.distance import geodesic
 import numpy as np
 
 from network.models import Network, Station, Trip
+
 from .trainset import Trainset
+from .util import get_pairs, get_triples
 
 # From Wikipedia (it's the state house, cute)
 CENTER_OF_BOSTON = (42.358056, -71.063611)
-
 
 def debug_geo_shape(geo_shape):
     print("lat, lon")
     for lat, lon in geo_shape:
         print(f"{lat}, {lon}")
-
-
-def miles_to_km(miles):
-    return miles * 1.60934
-
-
-def get_triples(some_list):
-    for index in range(len(some_list) - 2):
-        yield some_list[index], some_list[index + 1], some_list[index + 2]
-
-
-def get_pairs(some_list):
-    for index in range(len(some_list) - 1):
-        yield some_list[index], some_list[index + 1]
 
 
 # Adapted from here: https://stackoverflow.com/a/50974391
@@ -50,7 +37,7 @@ def get_degree_of_curvature_for_radius(curve_radius_km):
 
 
 def get_max_speed_for_curve_radius_kmh(curve_radius_km):
-    return miles_to_km(
+    return 1.60934 * (
         math.sqrt(6 / (0.0007 * get_degree_of_curvature_for_radius(curve_radius_km)))
     )
 
@@ -59,12 +46,6 @@ def get_point_distance(p1, p2):
     (x1, y1) = p1
     (x2, y2) = p2
     return ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5
-
-
-def subtract_points(p1, p2):
-    (x1, y1) = p1
-    (x2, y2) = p2
-    return (x1 - x2, y1 - y2)
 
 
 def shoddily_convert_point_to_km(point, source=CENTER_OF_BOSTON):

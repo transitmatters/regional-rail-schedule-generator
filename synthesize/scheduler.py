@@ -1,7 +1,13 @@
 import itertools
+from typing import List, Tuple, Callable, Dict
+
 import numpy as np
 import networkx as nx
 import cvxpy as cp
+
+from network.models import Network, Station, Stop
+
+from .util import get_pairs, get_triples
 
 
 class Node(object):
@@ -13,29 +19,11 @@ class Node(object):
         return self.name
 
 
-class Terminus(Node):
-    def __init__(self, name):
-        super().__init__(name, 3)
-
-
-class Junction(Node):
-    def __init__(self, name):
-        super().__init__(name, 1)
-
-
 class Service(object):
     def __init__(self, name, route, trips_per_period):
         self.name = name
         self.route = route
         self.trips_per_period = trips_per_period
-
-
-def create_route(graph, string):
-    route = []
-    for s in string:
-        print(s, graph[s])
-        route.append(graph.nodes[s])
-    return route
 
 
 def get_arrival_time_variable_name(node, service, index):
@@ -118,7 +106,7 @@ def get_constraints_for_service(service, graph, variables):
         for first, second in zip(service.route, service.route[1:]):
             A_1 = variables[get_arrival_time_variable_name(first, service, trip_index)]
             A_2 = variables[get_arrival_time_variable_name(second, service, trip_index)]
-            travel_time = graph.edges[first, second]["time"]
+            travel_time = graph.edges[first, second]["time_minutes"]
             yield A_2 - A_1 == travel_time
 
 
@@ -150,7 +138,7 @@ def get_objective_function(services, variables, period):
     return fn
 
 
-def build_solver(graph, services, period=60):
+def solve_schedule(graph, services, period=60):
     variables = create_problem_variables_dict(graph, services)
     constraints = []
     constraints += get_departure_bounds_constraints(services, variables, period)
@@ -176,37 +164,88 @@ def build_solver(graph, services, period=60):
                 " ".join(
                     [
                         f"{name}-{time}"
-                        for (name, time, _) in sorted(service_times, key=lambda st: st[1])
+                        for (name, time, _) in sorted(
+                            service_times, key=lambda st: st[1]
+                        )
                     ]
                 ),
             )
 
-N = nx.Graph()
 
-q = Terminus("q")
-a = Terminus("a")
-b = Terminus("b")
-f = Terminus("f")
-e = Terminus("e")
-c = Terminus("c")
-d = Terminus("d")
-
-A = Service("A", [a, c, d, f], 6)
-B = Service("B", [a, c, d, e], 4)
-C = Service("C", [b, c, d, e], 4)
-D = Service("D", [q, c, d, f], 8)
-
-services = [A, B, C, D]
+def get_junction_numbers_by_id(routes_of_ids: List[List[str]]):
+    adjacent_stations_by_id = {}
+    junction_numbers_by_id = {}
+    all_station_ids = set()
+    for route in routes_of_ids:
+        for station_id in route:
+            all_station_ids = set()
+            adjacent_stations_by_id[station_id] = set()
+        for station_before, station, station_after in get_triples(route):
+            adjacent_stations_by_id[station] |= {station_before, station_after}
+    for station_id in all_station_ids:
+        junction_numbers_by_id[station_id] = len(adjacent_stations_by_id[station_id])
+    return junction_numbers_by_id
 
 
-N.add_nodes_from([q, a, f, e, c, d])
+def build_scheduler_graph(
+    network: Network,
+    routes: List[List[str]],
+    time_between_stations_minutes_fn: Callable[[Stop, Stop], float],
+):
+    graph = nx.Graph()
+    nodes_by_station_id = {}
+    junction_numbers_by_id = get_junction_numbers_by_id(routes)
 
-N.add_edge(q, c, time=15)
-N.add_edge(a, c, time=20)
-N.add_edge(b, c, time=30)
-N.add_edge(c, d, time=5)
-N.add_edge(d, e, time=60)
-N.add_edge(d, f, time=40)
+    def get_exclusion_time_minutes(station_id):
+        junction_number = junction_numbers_by_id[station_id]
+        if junction_number > 2:
+            return 2
+        if junction_number == 2:
+            return 1
+        if junction_number == 1:
+            return 3
+        raise Exception(f"Invalid junction number for station {station_id}")
+
+    def get_scheduler_graph_node_by_station_id(station_id):
+        existing_node = nodes_by_station_id.get(station_id)
+        if existing_node:
+            return existing_node
+        new_node = Node(
+            name=station_id, exclusion_time=get_exclusion_time_minutes(station_id)
+        )
+        nodes_by_station_id[station_id] = new_node
+        return new_node
+
+    for route in routes:
+        for station_id in route:
+            get_scheduler_graph_node_by_station_id(station_id)
+
+    graph.add_node_from(nodes_by_station_id.values())
+
+    for route in routes:
+        key_station_ids = [
+            station_id
+            for station_id in route
+            if junction_numbers_by_id[station_id] != 2
+        ]
+        for first_station_id, second_station_id in get_pairs(key_station_ids):
+            first_node = get_scheduler_graph_node_by_station_id(first_station_id)
+            second_node = get_scheduler_graph_node_by_station_id(second_station_id)
+            graph.add_edge(
+                first_node,
+                second_node,
+                time_minutes=time_between_stations_minutes_fn(
+                    first_station_id, second_station_id
+                ),
+            )
+    return graph
 
 
-build_solver(N, services)
+def build_scheduler_service(
+    graph: nx.Graph, name: str, station_ids: List[str], trips_per_period: int
+) -> Service:
+    return Service(
+        name=name,
+        route=[station_id for station_id in station_ids if station_id in graph.nodes],
+        trips_per_period=trips_per_period,
+    )

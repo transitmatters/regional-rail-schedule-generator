@@ -31,6 +31,9 @@ class Station(object):
     name: str
     location: Tuple[float, float]
 
+    def __str__(self):
+        return f"Station({self.id})"
+
     def __post_init__(self):
         self.child_stops = []
 
@@ -43,6 +46,9 @@ class Stop(object):
     parent_station: Station
     id: str
     name: str
+
+    def __str__(self):
+        return f"Stop({self.parent_station.id}.{self.id})"
 
     def __post_init__(self):
         self.stop_times = []
