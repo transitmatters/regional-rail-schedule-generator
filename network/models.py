@@ -1,7 +1,9 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import List, Tuple, Dict, Optional
 import functools
 import datetime
+
+DIRECTIONS = (0, 1)
 
 
 class LocationType:
@@ -14,8 +16,9 @@ class Trip(object):
     id: str
     service_id: str
     route_id: str
+    shape_id: str
     shape: List[Tuple[float, float]]
-    direction_id: str
+    direction_id: int
     service_days: List[str]
 
     def __post_init__(self):
@@ -23,6 +26,14 @@ class Trip(object):
 
     def add_stop_time(self, stop_time):
         self.stop_times.append(stop_time)
+
+
+@dataclass
+class Direction(object):
+    id: str
+    route: "Route"
+    direction: str
+    destination: str
 
 
 @dataclass
@@ -36,9 +47,17 @@ class Station(object):
 
     def __post_init__(self):
         self.child_stops = []
+        self.child_stops_by_direction = {}
 
     def add_child_stop(self, stop):
         self.child_stops.append(stop)
+
+    def tag_child_stop_with_direction(self, stop, direction):
+        assert stop in self.child_stops
+        self.child_stops_by_direction[direction] = stop
+
+    def get_child_stop_for_direction(self, direction):
+        return self.child_stops_by_direction[direction]
 
 
 @dataclass
@@ -106,3 +125,29 @@ class Network(object):
             if station.name == station_name:
                 return station
         return None
+
+
+@dataclass
+class RoutePattern(object):
+    id: str
+    route: "Route"
+    direction: int
+    stops: List[Stop]
+
+
+@dataclass
+class Route(object):
+    id: str
+    long_name: str
+    representative_trip: Trip = None
+    route_patterns: List[RoutePattern] = field(default_factory=list)
+
+    def add_route_pattern(self, pattern: RoutePattern):
+        self.route_patterns.append(pattern)
+        pattern.route = self
+
+
+@dataclass
+class Service(object):
+    id: str
+    days: List[str]

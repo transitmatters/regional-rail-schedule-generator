@@ -49,3 +49,16 @@ test_route_b = create_nsrl_route(
     southside_station_names=OC_KINGSTON_PLYMOUTH,
     nsrl_tunnel_number=1,
 )
+
+routes = {
+    'test_route_a': {
+        'route': test_route_a,
+        'service_frequency_tph': 6
+    'test_route_b': {
+        'test_route_b,
+}
+
+def get_ids_for_route(route: List[network.models.Stop]):
+    return [s.parent_station.id for s in route]
+
+print(get_ids_for_route(test_route_a))

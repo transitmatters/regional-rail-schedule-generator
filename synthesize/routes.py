@@ -7,7 +7,7 @@ EASTERN_SHARED = (
     "Beverly",
 )
 
-EASTERN_NEWBURYPORT = EASTERN_SHARED + (
+EASTERN_NEWBURYPORT = (
     "North Beverly",
     "Hamilton/Wenham",
     "Ipswich",
@@ -15,7 +15,7 @@ EASTERN_NEWBURYPORT = EASTERN_SHARED + (
     "Newburyport",
 )
 
-EASTERN_ROCKPORT = EASTERN_SHARED + (
+EASTERN_ROCKPORT = (
     "Montserrat",
     "Beverly Farms",
     "Manchester",

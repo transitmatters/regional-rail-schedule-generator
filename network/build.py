@@ -66,7 +66,8 @@ def link_trips(trip_dicts, service_dicts, shapes_by_id):
                     id=trip_dict["trip_id"],
                     service_id=trip_dict["service_id"],
                     route_id=trip_dict["route_id"],
-                    direction_id=trip_dict["direction_id"],
+                    direction_id=int(trip_dict["direction_id"]),
+                    shape_id=trip_dict["shape_id"],
                     shape=shapes_by_id[trip_dict["shape_id"]],
                     service_days=service_days,
                 )

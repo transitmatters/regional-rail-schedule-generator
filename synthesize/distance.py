@@ -13,6 +13,7 @@ from .util import get_pairs, get_triples
 # From Wikipedia (it's the state house, cute)
 CENTER_OF_BOSTON = (42.358056, -71.063611)
 
+
 def debug_geo_shape(geo_shape):
     print("lat, lon")
     for lat, lon in geo_shape:
@@ -75,8 +76,8 @@ def get_exemplar_trip_for_stations(
             for trip in all_trips
             if trip_serves_station(trip, first) and trip_serves_station(trip, second)
         )
-    except StopIteration:
-        raise Exception(f"No exemplar trip for {first.name} -> {second.name}")
+    except StopIteration as e:
+        raise Exception(f"No exemplar trip for {first.name} -> {second.name}") from e
 
 
 def get_shape_between_stations(network: Network, first: Station, second: Station):
@@ -100,7 +101,9 @@ def get_shape_between_stations(network: Network, first: Station, second: Station
 
     closest_to_first = closest_point_towards(first.location, second.location)
     closest_to_second = closest_point_towards(second.location, first.location)
-    return list(dict.fromkeys(trip_shape[closest_to_first : closest_to_second + 1]))
+    lower = min(closest_to_first, closest_to_second)
+    upper = max(closest_to_first, closest_to_second)
+    return list(dict.fromkeys(trip_shape[lower : upper + 1]))
 
 
 def get_distances_between_points_km(geo_shape):
@@ -168,3 +171,19 @@ def estimate_travel_time_between_stations_seconds(
         total_time_h += distance_km / plausible_speed_kmh
         total_distance_km += distance_km
     return 3600 * total_time_h
+
+
+def estimate_total_route_time(
+    route: List[str], network: Network, trainset: Trainset, dwell_time_seconds=45
+):
+    total_time_seconds = 0
+    for first_station_name, second_station_name in get_pairs(route):
+        first_station = network.get_station_by_name(first_station_name)
+        second_station = network.get_station_by_name(second_station_name)
+        total_time_seconds += (
+            dwell_time_seconds
+            + estimate_travel_time_between_stations_seconds(
+                network, first_station, second_station, trainset
+            )
+        )
+    return total_time_seconds

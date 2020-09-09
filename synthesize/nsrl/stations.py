@@ -66,10 +66,10 @@ def create_nsrl_route(
     def find_child_stop_by_id(station: Station, id: str):
         try:
             return next(stop for stop in station.child_stops if stop.id == id)
-        except StopIteration:
+        except StopIteration as e:
             raise Exception(
                 f"station {station.name} has no child_stop by id {id}. Has {station.child_stops}"
-            )
+            ) from e
 
     two_track_stop_name = direction
     four_track_stop_name = f"{direction}-{str(nsrl_tunnel_number)}"
@@ -94,4 +94,3 @@ def create_nsrl_route(
     ]
 
     return list(reversed(northside_stops)) + tunnel + southside_stops
-

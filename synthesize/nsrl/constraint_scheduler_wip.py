@@ -188,7 +188,6 @@ def get_junction_numbers_by_id(routes_of_ids: List[List[str]]):
 
 
 def build_scheduler_graph(
-    network: Network,
     routes: List[List[str]],
     time_between_stations_minutes_fn: Callable[[Stop, Stop], float],
 ):
@@ -239,6 +238,9 @@ def build_scheduler_graph(
                 ),
             )
     return graph
+
+
+def build_scheduler
 
 
 def build_scheduler_service(
