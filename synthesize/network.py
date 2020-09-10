@@ -20,7 +20,7 @@ def create_four_track_station(name, id, **kwargs):
 def create_two_track_station(name, id, **kwargs):
     station = Station(name=name, id=id, **kwargs)
     for direction in DIRECTIONS:
-        child_stop = Stop(station, f"{id}-direction", f"{direction} platform")
+        child_stop = Stop(station, f"{id}-direction", f"platform {direction}")
         station.add_child_stop(child_stop)
         station.tag_child_stop_with_direction(child_stop, direction)
     return station
@@ -54,7 +54,6 @@ def create_synthetic_network(
         network.add_station(synth_station)
     for route in routes:
         for station_name in get_all_station_names(route.stations):
-            print("SN", station_name)
             real_station = get_real_gtfs_station(real_network, station_name)
             if not network.get_station_by_id(real_station.id):
                 station = create_two_track_station(

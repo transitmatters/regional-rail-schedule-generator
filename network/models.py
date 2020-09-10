@@ -147,7 +147,14 @@ class Route(object):
         pattern.route = self
 
 
-@dataclass
+@dataclass(frozen=True)
 class Service(object):
     id: str
     days: List[str]
+    description: str
+    schedule_name: str
+    schedule_type: str
+    schedule_typicality: int
+
+    def __hash__(self):
+        return hash(self.id)

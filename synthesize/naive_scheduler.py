@@ -4,18 +4,14 @@ from datetime import timedelta
 from network.models import (
     DIRECTIONS,
     Network,
-    Network,
     Route,
     RoutePattern,
     Service,
-    Station,
     Stop,
     StopTime,
     Trip,
 )
-
 import synthesize.definitions as defn
-from synthesize.distance import estimate_travel_time_between_stations_seconds
 from synthesize.util import listify, get_pairs
 
 
@@ -39,7 +35,6 @@ def get_stops_in_direction(
     d_station_names = reversed(station_names) if direction == 1 else station_names
     for station_name in d_station_names:
         station = network.get_station_by_name(station_name)
-        print("SN", station_name, station)
         yield station.get_child_stop_for_direction(direction)
 
 
@@ -48,7 +43,6 @@ def get_route_patterns_for_direction(
     route: Route, route_defn: defn.Route, network: Network, direction: int
 ):
     for idx, path in enumerate(get_all_branch_paths(route_defn.stations)):
-        print("PATH", path)
         yield RoutePattern(
             id=f"{route_defn.id}-{direction}-{idx}",
             route=route,
@@ -70,15 +64,7 @@ def get_route_patterns_by_direction(
 def add_time_to_trip(previous_stop: Stop, current_stop: Stop, ctx: defn.EvalContext):
     if not previous_stop:
         return timedelta(seconds=0)
-    real_previous_station = ctx.real_network.get_station_by_id(
-        previous_stop.parent_station.id
-    )
-    real_current_station = ctx.real_network.get_station_by_id(
-        current_stop.parent_station.id
-    )
-    travel_time = estimate_travel_time_between_stations_seconds(
-        ctx.real_network, real_previous_station, real_current_station, ctx.trainset,
-    )
+    travel_time = ctx.estimate_travel_time(previous_stop, current_stop, ctx.trainset)
     return timedelta(seconds=ctx.trainset.dwell_time_seconds + travel_time)
 
 
@@ -120,9 +106,9 @@ def dispatch_trains(
     # Route frequences must be normalized (ordered and non-overlapping ranges)
     for (range_a, range_b) in get_pairs(ordered_ranges):
         (start_a, end_a) = range_a
-        (start_b) = range_b
+        (start_b, _) = range_b
         assert start_a < end_a
-        assert end_a < start_b
+        assert end_a <= start_b
     now = ordered_ranges[0][0]
     current_range_idx = 0
     while True:
@@ -133,29 +119,33 @@ def dispatch_trains(
         current_range = ordered_ranges[current_range_idx]
         advance_time_by = frequencies[current_range]
         now += timedelta(minutes=advance_time_by)
+        print(str(now))
         if now > current_range[1]:
             current_range_idx += 1
             if current_range_idx == len(ordered_ranges):
                 return
 
 
-def eval_route(route_defn: defn.Route, ctx: defn.EvalContext) -> List[Trip]:
+def schedule_route(route_defn: defn.Route, ctx: defn.EvalContext) -> List[Trip]:
     route = Route(id=route_defn.id, long_name=route_defn.name)
     route_patterns = get_route_patterns_by_direction(route, route_defn, ctx.network)
     trips = []
+
     for direction in DIRECTIONS:
         for route_pattern in route_patterns[direction]:
-            print("RP", route_pattern)
             route.add_route_pattern(route_pattern)
-    dispatch = dispatch_trains(route_defn.schedule.weekday, route_patterns)
-    for idx, (route_pattern, time) in enumerate(dispatch):
-        trip = get_trip(
-            trip_index=idx,
-            route=route_defn,
-            route_pattern=route_pattern,
-            service=ctx.weekday_service,
-            departure_time=time,
-            ctx=ctx,
-        )
-        trips.append(trip)
+
+    for (service, frequencies) in route_defn.schedule.items():
+        dispatch = dispatch_trains(frequencies, route_patterns)
+        for idx, (route_pattern, time) in enumerate(dispatch):
+            trip = get_trip(
+                trip_index=idx,
+                route=route_defn,
+                route_pattern=route_pattern,
+                service=service,
+                departure_time=time,
+                ctx=ctx,
+            )
+            trips.append(trip)
+
     return trips
