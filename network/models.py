@@ -11,15 +11,36 @@ class LocationType:
     STATION = "1"
 
 
+class VehicleType:
+    LIGHT_RAIL = "0"
+    SUBWAY = "1"
+    COMMUTER_RAIL = "2"
+    BUS = "3"
+    FERRY = "4"
+
+
+@dataclass(frozen=True)
+class Service(object):
+    id: str
+    days: List[str]
+    description: str
+    schedule_name: str
+    schedule_type: str
+    schedule_typicality: int
+
+    def __hash__(self):
+        return hash(self.id)
+
+
 @dataclass
 class Trip(object):
     id: str
-    service_id: str
     route_id: str
+    route_pattern_id: str
     shape_id: str
     shape: List[Tuple[float, float]]
     direction_id: int
-    service_days: List[str]
+    service: Service
 
     def __post_init__(self):
         self.stop_times = []
@@ -37,11 +58,22 @@ class Direction(object):
 
 
 @dataclass
-class Station(object):
+class StationStop(object):
     id: str
     name: str
+    municipality: str
     location: Tuple[float, float]
+    wheelchair_boarding: str
+    on_street: str
+    at_street: str
+    vehicle_type: str
+    zone_id: str
+    level_id: str
+    location_type: str
 
+
+@dataclass
+class Station(StationStop):
     def __str__(self):
         return f"Station({self.id})"
 
@@ -61,10 +93,8 @@ class Station(object):
 
 
 @dataclass
-class Stop(object):
+class Stop(StationStop):
     parent_station: Station
-    id: str
-    name: str
 
     def __str__(self):
         return f"Stop({self.parent_station.id}.{self.id})"
@@ -102,6 +132,10 @@ class Transfer(object):
     from_stop: Stop
     to_stop: Stop
     min_walk_time: int
+    min_wheelchair_time: int
+    min_transfer_time: int
+    suggested_buffer_time: int
+    wheelchair_transfer: str
 
 
 @dataclass
@@ -109,6 +143,8 @@ class Network(object):
     stations_by_id: Dict[str, Station]
     trips_by_id: Dict[str, Trip]
     shapes_by_id: Dict[str, List[Tuple[float, float]]]
+    routes_by_id: Dict[str, "Route"]
+    services_by_id: Dict[str, "Service"]
 
     def add_station(self, station: Station):
         existing_station_by_id = self.stations_by_id.get(station.id)
@@ -146,15 +182,3 @@ class Route(object):
         self.route_patterns.append(pattern)
         pattern.route = self
 
-
-@dataclass(frozen=True)
-class Service(object):
-    id: str
-    days: List[str]
-    description: str
-    schedule_name: str
-    schedule_type: str
-    schedule_typicality: int
-
-    def __hash__(self):
-        return hash(self.id)

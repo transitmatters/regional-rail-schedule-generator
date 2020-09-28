@@ -65,7 +65,7 @@ def add_time_to_trip(previous_stop: Stop, current_stop: Stop, ctx: defn.EvalCont
     if not previous_stop:
         return timedelta(seconds=0)
     travel_time = ctx.estimate_travel_time(previous_stop, current_stop, ctx.trainset)
-    return timedelta(seconds=ctx.trainset.dwell_time_seconds + travel_time)
+    return timedelta(seconds=int(ctx.trainset.dwell_time_seconds + travel_time))
 
 
 def get_trip(
@@ -78,11 +78,11 @@ def get_trip(
 ) -> List[StopTime]:
     trip = Trip(
         id=f"{route.id}-{trip_index}",
-        service_id=service.id,
+        service=service,
         route_id=route.id,
+        route_pattern_id=route_pattern.id,
         direction_id=route_pattern.direction,
-        service_days=service.days,
-        # TODO: add these
+        # TODO(ian): add these
         shape_id=None,
         shape=None,
     )
@@ -119,7 +119,6 @@ def dispatch_trains(
         current_range = ordered_ranges[current_range_idx]
         advance_time_by = frequencies[current_range]
         now += timedelta(minutes=advance_time_by)
-        print(str(now))
         if now > current_range[1]:
             current_range_idx += 1
             if current_range_idx == len(ordered_ranges):
@@ -148,4 +147,4 @@ def schedule_route(route_defn: defn.Route, ctx: defn.EvalContext) -> List[Trip]:
             )
             trips.append(trip)
 
-    return trips
+    return route, trips

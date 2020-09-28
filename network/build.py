@@ -1,18 +1,32 @@
 from .load import (
     load_relevant_stop_times,
-    load_services,
+    load_calendar,
+    load_calendar_attributes,
     load_shapes,
     load_stops,
     load_transfers,
     load_trips,
+    load_routes,
+    load_route_patterns,
 )
-from .models import StopTime, Station, Stop, LocationType, Network, Transfer, Trip
+from .models import (
+    StopTime,
+    Station,
+    Stop,
+    LocationType,
+    Network,
+    Transfer,
+    Trip,
+    Service,
+    Route,
+    RoutePattern,
+)
 from .time import time_from_string, DAYS_OF_WEEK
 
 
 def index_by(items, id_getter):
     res = {}
-    if type(id_getter) == str:
+    if isinstance(id_getter, str):
         id_getter_as_str = id_getter
         id_getter = lambda dict: dict[id_getter_as_str]
     for a_dict in items:
@@ -38,40 +52,68 @@ def get_shapes_by_id(shapes):
     return res
 
 
+def link_services(calendar_dicts, calendar_attribute_dicts):
+    services = []
+    calendar_attributes_by_id = index_by(calendar_attribute_dicts, "service_id")
+    for calendar_dict in calendar_dicts:
+        service_id = calendar_dict["service_id"]
+        attribute_dict = calendar_attributes_by_id[service_id]
+        services.append(
+            Service(
+                id=service_id,
+                days=[day for day in DAYS_OF_WEEK if calendar_dict[day] == "1"],
+                description=attribute_dict["service_description"],
+                schedule_name=attribute_dict["service_schedule_name"],
+                schedule_type=attribute_dict["service_schedule_type"],
+                schedule_typicality=int(attribute_dict["service_schedule_typicality"]),
+            )
+        )
+    return index_by(services, lambda s: s.id)
+
+
 def get_stations_from_stops(stop_dicts):
     for stop_dict in stop_dicts:
         if stop_dict["location_type"] == LocationType.STATION:
             yield stop_dict
 
 
+def get_station_stop_args_from_dict(stop_dict):
+    return {
+        "id": stop_dict["stop_id"],
+        "name": stop_dict["stop_name"],
+        "municipality": stop_dict["municipality"],
+        "location": (float(stop_dict["stop_lat"]), float(stop_dict["stop_lon"])),
+        "wheelchair_boarding": stop_dict["wheelchair_boarding"],
+        "on_street": stop_dict["on_street"],
+        "at_street": stop_dict["at_street"],
+        "vehicle_type": stop_dict["vehicle_type"],
+        "zone_id": stop_dict["zone_id"],
+        "level_id": stop_dict["level_id"],
+        "location_type": stop_dict["location_type"],
+    }
+
+
 def link_station(station_dict):
-    return Station(
-        id=station_dict["stop_id"],
-        name=station_dict["stop_name"],
-        location=(float(station_dict["stop_lat"]), float(station_dict["stop_lon"])),
-    )
+    return Station(**get_station_stop_args_from_dict(station_dict))
+    
 
-
-def link_trips(trip_dicts, service_dicts, shapes_by_id):
+def link_trips(trip_dicts, services_by_id, shapes_by_id):
     res = {}
-    services_by_id = index_by(service_dicts, "service_id")
     for trip_dict in trip_dicts:
         trip_id = trip_dict["trip_id"]
         matching_service = services_by_id.get(trip_dict["service_id"])
-        if matching_service:
-            service_days = [day for day in DAYS_OF_WEEK if matching_service[day] == "1"]
-            # Throw out special services with no regularly scheduled service days
-            if len(service_days) > 0:
-                trip = Trip(
-                    id=trip_dict["trip_id"],
-                    service_id=trip_dict["service_id"],
-                    route_id=trip_dict["route_id"],
-                    direction_id=int(trip_dict["direction_id"]),
-                    shape_id=trip_dict["shape_id"],
-                    shape=shapes_by_id[trip_dict["shape_id"]],
-                    service_days=service_days,
-                )
-                res[trip_id] = trip
+        # Throw out special services with no regularly scheduled service days
+        if matching_service and len(matching_service.days) > 0:
+            trip = Trip(
+                id=trip_dict["trip_id"],
+                service=matching_service,
+                route_id=trip_dict["route_id"],
+                route_pattern_id=trip_dict["route_pattern_id"],
+                direction_id=int(trip_dict["direction_id"]),
+                shape_id=trip_dict["shape_id"],
+                shape=shapes_by_id[trip_dict["shape_id"]],
+            )
+            res[trip_id] = trip
     return res
 
 
@@ -100,9 +142,7 @@ def link_child_stops(station, stop_dicts):
             and stop_dict["location_type"] == LocationType.STOP
         ):
             stop = Stop(
-                parent_station=station,
-                id=stop_dict["stop_id"],
-                name=stop_dict["stop_name"],
+                parent_station=station, **get_station_stop_args_from_dict(stop_dict)
             )
             yield stop
             if len(stop.stop_times) > 0:
@@ -121,14 +161,42 @@ def link_transfers(stop, all_stops, transfer_dicts):
                 None,
             )
             if to_stop:
-                min_walk_time_raw = transfer_dict["min_walk_time"]
-                min_walk_time = (
-                    int(min_walk_time_raw) if len(min_walk_time_raw) else None
-                )
                 transfer = Transfer(
-                    from_stop=stop, to_stop=to_stop, min_walk_time=min_walk_time,
+                    from_stop=stop,
+                    to_stop=to_stop,
+                    min_walk_time=int(transfer_dict["min_walk_time"] or 0),
+                    min_wheelchair_time=int(transfer_dict["min_wheelchair_time"] or 0),
+                    min_transfer_time=int(transfer_dict["min_transfer_time"] or 0),
+                    suggested_buffer_time=int(
+                        transfer_dict["suggested_buffer_time"] or 0
+                    ),
+                    wheelchair_transfer=transfer_dict["wheelchair_transfer"],
                 )
                 stop.add_transfer(transfer)
+
+
+def link_routes(route_dicts, route_pattern_dicts):
+    routes = []
+    for route_dict in route_dicts:
+        route_id = route_dict["route_id"]
+        route = Route(id=route_id, long_name=route_dict["route_long_name"])
+        matching_route_patterns = [
+            route_pattern_dict
+            for route_pattern_dict in route_pattern_dicts
+            if route_pattern_dict["route_id"] == route_id
+        ]
+        for route_pattern_dict in matching_route_patterns:
+            route.route_patterns.append(
+                RoutePattern(
+                    id=route_pattern_dict["route_pattern_id"],
+                    route=route,
+                    direction=int(route_pattern_dict["direction_id"]),
+                    # TODO(ian): consider filling this in
+                    stops=[],
+                )
+            )
+        routes.append(route)
+    return index_by(routes, lambda r: r.id)
 
 
 def ensure_trips_are_sorted(trips_by_id):
@@ -138,16 +206,23 @@ def ensure_trips_are_sorted(trips_by_id):
 
 def build_network_from_gtfs():
     # Do the loading...
-    service_dicts = load_services()
+    calendar_dicts = load_calendar()
+    calendar_attribute_dicts = load_calendar_attributes()
     stop_dicts = load_stops()
     stop_time_dicts = load_relevant_stop_times()
     transfer_dicts = load_transfers()
     trip_dicts = load_trips()
+    route_dicts = load_routes()
+    route_pattern_dicts = load_route_patterns()
     shapes = load_shapes()
     # Now do the linking...
     station_dicts = get_stations_from_stops(stop_dicts)
+    services_by_id = link_services(calendar_dicts, calendar_attribute_dicts)
+    routes_by_id = link_routes(route_dicts, route_pattern_dicts)
     shapes_by_id = get_shapes_by_id(shapes)
-    trips_by_id = link_trips(trip_dicts, service_dicts, shapes_by_id)
+    trips_by_id = link_trips(
+        trip_dicts, services_by_id, shapes_by_id
+    )
     stations = [link_station(d) for d in station_dicts]
     all_stops = []
     for station in stations:
@@ -162,4 +237,6 @@ def build_network_from_gtfs():
         stations_by_id=index_by(stations, lambda st: st.id),
         trips_by_id=trips_by_id,
         shapes_by_id=shapes_by_id,
+        routes_by_id=routes_by_id,
+        services_by_id=services_by_id
     )

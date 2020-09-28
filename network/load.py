@@ -18,10 +18,13 @@ def loader_by_file_name(file_name):
     return load
 
 
-load_services = loader_by_file_name("calendar")
+load_calendar = loader_by_file_name("calendar")
+load_calendar_attributes = loader_by_file_name("calendar_attributes")
 load_stop_times = loader_by_file_name("stop_times")
 load_relevant_stop_times = loader_by_file_name("relevant_stop_times")
 load_stops = loader_by_file_name("stops")
 load_transfers = loader_by_file_name("transfers")
 load_trips = loader_by_file_name("trips")
+load_routes = loader_by_file_name("routes")
+load_route_patterns= loader_by_file_name("route_patterns")
 load_shapes = loader_by_file_name("shapes")

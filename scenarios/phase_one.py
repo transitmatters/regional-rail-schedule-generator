@@ -2,6 +2,7 @@ from synthesize.definitions import Branching, Route, Time as T, Weekdays
 from synthesize.routes import EASTERN_SHARED, EASTERN_NEWBURYPORT, EASTERN_ROCKPORT
 from synthesize.trainset import Trainset
 from synthesize.evaluate import evaluate_scenario
+from synthesize.write_gtfs import write_scenario_gtfs
 
 eastern = Route(
     name="Newburyport/Rockport",
@@ -32,3 +33,4 @@ trainset = Trainset(
 
 
 scenario = evaluate_scenario([eastern], trainset)
+write_scenario_gtfs(scenario, "gtfs-phase-one")
