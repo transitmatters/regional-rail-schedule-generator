@@ -123,7 +123,7 @@ FRAMINGHAM_WORCESTER = (
     "Worcester",
 )
 
-FAIRMONT = (
+FAIRMOUNT = (
     "South Station",
     "Newmarket",
     "Uphams Corner",
@@ -180,7 +180,7 @@ ALL_ROUTES = [
     FITCHBURG,
     LOWELL,
     HAVERHILL,
-    FAIRMONT,
+    FAIRMOUNT,
     FRAMINGHAM_WORCESTER,
     GREENBUSH,
     NEEDHAM,
