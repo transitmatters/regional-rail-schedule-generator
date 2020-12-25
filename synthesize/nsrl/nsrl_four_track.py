@@ -4,13 +4,17 @@ import networkx as nx
 
 import network
 
-from .scheduler import build_scheduler_graph, build_scheduler_service, solve_schedule
-from .stations import (
+from synthesize.nsrl.constraint_scheduler_wip import (
+    build_scheduler_graph,
+    build_scheduler_service,
+    solve_schedule,
+)
+from synthesize.nsrl.stations import (
     create_four_track_station,
     create_network_from_routes_and_real_network,
     create_nsrl_route,
 )
-from .routes import (
+from synthesize.routes import (
     ALL_ROUTES,
     EASTERN_ROCKPORT,
     FRAMINGHAM_WORCESTER,
@@ -50,15 +54,11 @@ test_route_b = create_nsrl_route(
     nsrl_tunnel_number=1,
 )
 
-routes = {
-    'test_route_a': {
-        'route': test_route_a,
-        'service_frequency_tph': 6
-    'test_route_b': {
-        'test_route_b,
-}
+routes = {"test_route_a": {"route": test_route_a, "service_frequency_tph": 6}}
+
 
 def get_ids_for_route(route: List[network.models.Stop]):
     return [s.parent_station.id for s in route]
+
 
 print(get_ids_for_route(test_route_a))

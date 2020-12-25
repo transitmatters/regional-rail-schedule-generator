@@ -67,19 +67,10 @@ def create_two_track_station(real_station: Station):
             if child_stop != other_child_stop:
                 child_stop.add_transfer(
                     Transfer(
-                        from_stop=child_stop,
-                        to_stop=other_child_stop,
-                        **transfer_time_values,
+                        from_stop=child_stop, to_stop=other_child_stop, **transfer_time_values,
                     )
                 )
     return station
-
-
-def get_real_gtfs_station(real_gtfs_network: Network, station_name: str) -> Station:
-    real_gtfs_station = real_gtfs_network.get_station_by_name(station_name)
-    if not real_gtfs_station:
-        raise Exception(f"No real GTFS station by name {station_name}")
-    return real_gtfs_station
 
 
 def get_all_station_names(station_names: Union[List[str], defn.Branching]) -> List[str]:
@@ -102,11 +93,11 @@ def create_synthetic_network(
 ) -> Network:
     network = Network({}, {}, {}, {}, {})
     for synth_station in stations:
-        network.add_station(synth_station)
+        network.add_station(create_two_track_station(synth_station))
     for route in routes:
         for station_name in get_all_station_names(route.stations):
-            real_station = get_real_gtfs_station(real_network, station_name)
-            if not network.get_station_by_id(real_station.id):
+            real_station = real_network.get_station_by_name(station_name)
+            if real_station and not network.get_station_by_id(real_station.id):
                 station = create_two_track_station(real_station)
                 network.add_station(station)
     return network

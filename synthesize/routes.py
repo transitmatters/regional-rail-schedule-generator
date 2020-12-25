@@ -1,6 +1,7 @@
 EASTERN_SHARED = (
     "North Station",
     "Chelsea",
+    "River Works",
     "Lynn",
     "Swampscott",
     "Salem",
@@ -17,6 +18,7 @@ EASTERN_NEWBURYPORT = (
 
 EASTERN_ROCKPORT = (
     "Montserrat",
+    "Prides Crossing",
     "Beverly Farms",
     "Manchester",
     "West Gloucester",

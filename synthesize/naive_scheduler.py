@@ -64,7 +64,7 @@ def get_route_patterns_by_direction(
 def add_time_to_trip(previous_stop: Stop, current_stop: Stop, ctx: defn.EvalContext):
     if not previous_stop:
         return timedelta(seconds=0)
-    travel_time = ctx.estimate_travel_time(previous_stop, current_stop, ctx.trainset)
+    travel_time = ctx.get_travel_time(previous_stop, current_stop, ctx.trainset)
     return timedelta(seconds=int(ctx.trainset.dwell_time_seconds + travel_time))
 
 
