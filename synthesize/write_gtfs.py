@@ -29,6 +29,7 @@ class GtfsWriter(object):
         self.transfer_rows = []
         self.trip_rows = []
         self.route_rows = []
+        self.route_pattern_rows = []
         self.calendar_rows = []
 
     def add_route(self, route: Route):
@@ -49,6 +50,19 @@ class GtfsWriter(object):
                 "route": "",
             }
         )
+        for route_pattern in route.route_patterns:
+            self.route_pattern_rows.append(
+                {
+                    "route_pattern_id": route_pattern.id,
+                    "route_id": route.id,
+                    "direction_id": route_pattern.direction,
+                    "route_pattern_name": route_pattern.id,
+                    "route_pattern_time_desc": "",
+                    "route_pattern_typicality": "",
+                    "route_pattern_sort_order": "",
+                    "representative_trip_id": "",
+                }
+            )
 
     def add_stop(self, stop: Union[Stop, Station], override_parent_station_id: str = None):
         is_stop = isinstance(stop, Stop)
@@ -155,6 +169,7 @@ class GtfsWriter(object):
         self.write_rows_to_csv("transfers", self.transfer_rows)
         self.write_rows_to_csv("trips", self.trip_rows)
         self.write_rows_to_csv("routes", self.route_rows)
+        self.write_rows_to_csv("route_patterns", self.route_pattern_rows)
 
 
 def get_all_station_ids(scenario: Scenario):
