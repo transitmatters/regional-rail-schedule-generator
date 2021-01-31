@@ -1,9 +1,9 @@
 from dataclasses import dataclass
-from typing import Callable, Dict, List, Tuple, Union
+from typing import Callable, Dict, List, Tuple, Union, Optional
 from datetime import timedelta
 
 from network.models import Network, Service
-from network.time import DAYS_OF_WEEK, parse_schedule_dict, parse_travel_time_dict
+from network.time import DAYS_OF_WEEK, Timetable
 from synthesize.trainset import Trainset
 
 
@@ -26,24 +26,21 @@ class Direction(object):
     destination: str
 
 
+@dataclass
+class RoutePattern(object):
+    name: str
+    id: str
+    stations: List[str]
+    timetable: Timetable
+
+
+@dataclass
 class Route(object):
-    def __init__(
-        self,
-        name: str,
-        id: str,
-        shadows_real_route: str,
-        stations: Union[List[str], Branching],
-        schedule: Dict[str, float],
-        directions: Tuple[Direction, Direction],
-        travel_times: Dict[str, str] = None,
-    ):
-        self.name = name
-        self.id = id
-        self.shadows_real_route = shadows_real_route
-        self.stations = stations
-        self.schedule = parse_schedule_dict(schedule)
-        self.travel_times = parse_travel_time_dict(travel_times) if travel_times else None
-        self.directions = directions
+    name: str
+    id: str
+    shadows_real_route: Optional[str]
+    directions: Tuple[str, str]
+    patterns: List[RoutePattern]
 
 
 class Station(object):

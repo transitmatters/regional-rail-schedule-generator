@@ -1,0 +1,36 @@
+from synthesize.definitions import Station
+
+station_north_revere = Station(
+    name="Revere",
+    id="place-rr-north-revere",
+    location=(42.4154533, -70.9922548),
+    municipality="Revere",
+)
+
+station_south_salem = Station(
+    name="South Salem",
+    id="place-rr-south-salem",
+    location=(42.5073423, -70.8966044),
+    municipality="Salem",
+)
+
+station_ceylon_park = Station(
+    name="Ceylon Park",
+    id="place-rr-ceylon-park",
+    location=(42.3097728, -71.0735888),
+    municipality="Boston",
+)
+
+station_river_street = Station(
+    name="River Street",
+    id="place-rr-river-street",
+    location=(42.2637601, -71.1045547),
+    municipality="Boston",
+)
+
+infill_stations = [
+    station_north_revere,
+    station_south_salem,
+    station_ceylon_park,
+    station_river_street,
+]

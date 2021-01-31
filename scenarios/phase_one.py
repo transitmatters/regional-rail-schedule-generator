@@ -1,14 +1,26 @@
-from synthesize.definitions import Branching, Route, Weekdays, Station
+from synthesize.definitions import Branching, Route, Weekdays, Saturday, Sunday, Station
 from synthesize.routes import (
     EASTERN_SHARED,
     EASTERN_NEWBURYPORT,
     EASTERN_ROCKPORT,
     FAIRMOUNT,
+    FRAMINGHAM_WORCESTER
 )
 from synthesize.trainset import Trainset
 from synthesize.evaluate import evaluate_scenario
 from synthesize.util import infill
 from synthesize.write_gtfs import write_scenario_gtfs
+
+
+def all_day_frequencies(headway):
+    day_schedule = {  "05:00-23:59": headway }
+    return {
+        Weekdays: day_schedule,
+        Saturday: day_schedule,
+        Sunday: day_schedule,
+    }
+
+all_day_15 = all_day_frequencies(15)
 
 station_north_revere = Station(
     name="Revere",
@@ -46,7 +58,7 @@ infill_stations = [
 ]
 
 eastern = Route(
-    name="Newburyport/Rockport",
+    name="Newburyport/Rockport Line",
     id="CR-Newburyport",
     shadows_real_route="CR-Newburyport",
     stations=Branching(
@@ -75,7 +87,7 @@ eastern = Route(
         "West Gloucester": "0:42",
         "Gloucester": "0:45",
         "Rockport": "0:49",
-        # Newburyport branchj
+        # Newburyport branch
         "North Beverly": "0:31",
         "Hamilton/Wenham": "0:33",
         "Ipswich": "0:38",
@@ -83,19 +95,11 @@ eastern = Route(
         "Newburyport": "0:47",
     },
     directions=["Outbound", "Inbound"],
-    schedule={
-        Weekdays: {
-            "5:30-7:00": 15,
-            "7:00-10:00": 10,
-            "10:00-16:30": 15,
-            "16:30-19:30": 10,
-            "19:30-24:00": 15,
-        }
-    },
+    schedule=all_day_15,
 )
 
 fairmount = Route(
-    name="Fairmount",
+    name="Fairmount Line",
     id="CR-Fairmount",
     shadows_real_route="CR-Fairmount",
     stations=infill(
@@ -117,16 +121,17 @@ fairmount = Route(
         "Fairmount": "0:19",
         "Readville": "0:20",
     },
-    schedule={
-        Weekdays: {
-            "5:30-7:00": 15,
-            "7:00-10:00": 10,
-            "10:00-16:30": 15,
-            "16:30-19:30": 10,
-            "19:30-24:00": 15,
-        }
-    },
+    schedule=all_day_15,
 )
+
+worcester = Route(
+    name="Worcester Line"
+    id="CR-Worcester"
+    shadows_real_route="CR-Worcester",
+    stations=WORCESTER
+)
+
+routes = [eastern, fairmount]
 
 trainset = Trainset(
     max_acceleration_kms2=6.67e-4,
@@ -134,7 +139,6 @@ trainset = Trainset(
     max_velocity_kms=129,
     dwell_time_seconds=45,
 )
-
 
 scenario = evaluate_scenario([eastern, fairmount], trainset, infill_stations)
 write_scenario_gtfs(scenario, "gtfs-phase-one")

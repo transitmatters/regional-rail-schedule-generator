@@ -6,7 +6,6 @@ import network
 
 from synthesize.nsrl.constraint_scheduler_wip import (
     build_scheduler_graph,
-    build_scheduler_service,
     solve_schedule,
 )
 from synthesize.nsrl.stations import (
