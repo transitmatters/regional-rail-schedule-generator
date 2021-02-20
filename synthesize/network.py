@@ -67,37 +67,45 @@ def create_two_track_station(real_station: Station):
             if child_stop != other_child_stop:
                 child_stop.add_transfer(
                     Transfer(
-                        from_stop=child_stop, to_stop=other_child_stop, **transfer_time_values,
+                        from_stop=child_stop,
+                        to_stop=other_child_stop,
+                        **transfer_time_values,
                     )
                 )
     return station
 
 
-def get_all_station_names(station_names: Union[List[str], defn.Branching]) -> List[str]:
-    if isinstance(station_names, defn.Branching):
-        return set(
-            [
-                *station_names.shared_station_names,
-                *[
-                    name
-                    for branch in station_names.branch_station_names
-                    for name in get_all_station_names(branch)
-                ],
-            ]
-        )
-    return set(station_names)
+def create_station_from_station_defn(station_defn: defn.Station) -> Station:
+    real_station = Station(
+        id=station_defn.id,
+        name=station_defn.name,
+        municipality=station_defn.municipality,
+        location=station_defn.location,
+        vehicle_type=VehicleType.COMMUTER_RAIL,
+        location_type=LocationType.STATION,
+        wheelchair_boarding="1",
+        zone_id="",  # TODO: abolish fare zones
+        on_street="",
+        at_street="",
+        level_id="",
+    )
+    return create_two_track_station(real_station)
 
 
 def create_synthetic_network(
-    real_network: Network, routes: List[defn.Route], stations: List[Station],
+    real_network: Network,
+    route_patterns: List[defn.RoutePattern],
 ) -> Network:
     network = Network({}, {}, {}, {}, {})
-    for synth_station in stations:
-        network.add_station(create_two_track_station(synth_station))
-    for route in routes:
-        for station_name in get_all_station_names(route.stations):
-            real_station = real_network.get_station_by_name(station_name)
-            if real_station and not network.get_station_by_id(real_station.id):
-                station = create_two_track_station(real_station)
-                network.add_station(station)
+    for pattern in route_patterns:
+        for station_name_or_defn in pattern.stations:
+            if isinstance(station_name_or_defn, defn.Station):
+                if not network.get_station_by_id(station_name_or_defn.id):
+                    station = create_station_from_station_defn(station_name_or_defn)
+                    network.add_station(station)
+            else:
+                real_station = real_network.get_station_by_name(station_name_or_defn)
+                if real_station and not network.get_station_by_id(real_station.id):
+                    station = create_two_track_station(real_station)
+                    network.add_station(station)
     return network

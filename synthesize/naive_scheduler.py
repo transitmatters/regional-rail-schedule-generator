@@ -16,19 +16,6 @@ from synthesize.util import listify, get_pairs
 
 
 @listify
-def get_all_branch_paths(
-    station_names: Union[List[str], defn.Branching]
-) -> List[List[str]]:
-    if isinstance(station_names, defn.Branching):
-        for sub_path in station_names.branch_station_names:
-            all_paths_in_sub_path = get_all_branch_paths(sub_path)
-            for path in all_paths_in_sub_path:
-                yield [*list(station_names.shared_station_names), *list(path)]
-    else:
-        yield list(station_names)
-
-
-@listify
 def get_stops_in_direction(
     station_names: List[str], direction: int, network: Network
 ) -> List[Stop]:
@@ -38,17 +25,17 @@ def get_stops_in_direction(
         yield station.get_child_stop_for_direction(direction)
 
 
-@listify
-def get_route_patterns_for_direction(
-    route: Route, route_defn: defn.Route, network: Network, direction: int
-):
-    for idx, path in enumerate(get_all_branch_paths(route_defn.stations)):
-        yield RoutePattern(
-            id=f"{route_defn.id}-{direction}-{idx}",
-            route=route,
-            direction=direction,
-            stops=get_stops_in_direction(path, direction, network),
-        )
+# @listify
+# def get_route_patterns_for_direction(
+#     route: Route, route_defn: defn.Route, network: Network, direction: int
+# ):
+#     for idx, path in enumerate(get_all_branch_paths(route_defn.stations)):
+#         yield RoutePattern(
+#             id=f"{route_defn.id}-{direction}-{idx}",
+#             route=route,
+#             direction=direction,
+#             stops=get_stops_in_direction(path, direction, network),
+#         )
 
 
 @listify
@@ -96,9 +83,7 @@ def get_trip(
     return trip
 
 
-def dispatch_trains(
-    frequencies: defn.Frequencies, patterns_by_dir: List[List[RoutePattern]]
-):
+def dispatch_trains(frequencies: defn.Frequencies, patterns_by_dir: List[List[RoutePattern]]):
     # There should the same number of patterns for each direction
     assert len(set([len(patterns) for patterns in patterns_by_dir])) == 1
     route_pattern_index = 0

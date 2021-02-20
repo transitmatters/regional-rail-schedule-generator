@@ -64,7 +64,9 @@ class GtfsWriter(object):
                 }
             )
 
-    def add_stop(self, stop: Union[Stop, Station], override_parent_station_id: str = None):
+    def add_stop(
+        self, stop: Union[Stop, Station], override_parent_station_id: str = None
+    ):
         is_stop = isinstance(stop, Stop)
         location_type = LocationType.STOP if is_stop else LocationType.STATION
         inferred_parent_station_id = stop.parent_station.id if is_stop else ""
@@ -213,10 +215,14 @@ def add_synth_to_real_transfers(
             }
             # Make the sorely mistaken assumption that transfers are symmetric
             cr_to_non_cr = Transfer(
-                from_stop=synth_stop, to_stop=real_transfer.to_stop, **transfer_info_dict
+                from_stop=synth_stop,
+                to_stop=real_transfer.to_stop,
+                **transfer_info_dict,
             )
             non_cr_to_cr = Transfer(
-                from_stop=real_transfer.to_stop, to_stop=synth_stop, **transfer_info_dict
+                from_stop=real_transfer.to_stop,
+                to_stop=synth_stop,
+                **transfer_info_dict,
             )
             writer.add_transfer(cr_to_non_cr)
             writer.add_transfer(non_cr_to_cr)
@@ -248,7 +254,9 @@ def add_stops(scenario: Scenario, writer: GtfsWriter, station_id: str):
             for transfer in stop.transfers:
                 if transfer.to_stop in valid_real_stops:
                     writer.add_transfer(transfer)
-        add_synth_to_real_transfers(real_station.child_stops, synth_station.child_stops, writer)
+        add_synth_to_real_transfers(
+            real_station.child_stops, synth_station.child_stops, writer
+        )
     else:
         existing_station = real_station or synth_station
         writer.add_stop(existing_station)

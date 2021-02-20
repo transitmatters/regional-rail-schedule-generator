@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+
 @dataclass
 class Trainset(object):
     max_acceleration_kms2: float

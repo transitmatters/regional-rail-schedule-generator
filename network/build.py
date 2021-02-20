@@ -95,7 +95,7 @@ def get_station_stop_args_from_dict(stop_dict):
 
 def link_station(station_dict):
     return Station(**get_station_stop_args_from_dict(station_dict))
-    
+
 
 def link_trips(trip_dicts, services_by_id, shapes_by_id):
     res = {}
@@ -220,9 +220,7 @@ def build_network_from_gtfs():
     services_by_id = link_services(calendar_dicts, calendar_attribute_dicts)
     routes_by_id = link_routes(route_dicts, route_pattern_dicts)
     shapes_by_id = get_shapes_by_id(shapes)
-    trips_by_id = link_trips(
-        trip_dicts, services_by_id, shapes_by_id
-    )
+    trips_by_id = link_trips(trip_dicts, services_by_id, shapes_by_id)
     stations = [link_station(d) for d in station_dicts]
     all_stops = []
     for station in stations:
@@ -238,5 +236,5 @@ def build_network_from_gtfs():
         trips_by_id=trips_by_id,
         shapes_by_id=shapes_by_id,
         routes_by_id=routes_by_id,
-        services_by_id=services_by_id
+        services_by_id=services_by_id,
     )

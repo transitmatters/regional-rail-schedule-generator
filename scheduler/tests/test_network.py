@@ -10,4 +10,6 @@ def test_get_key_stations():
 
 def test_create_scheduler_network():
     sn = create_scheduler_network(route_patterns, trains_per_hour)
-    assert set(node.station_name for node in sn.nodes.values()) == get_key_stations(route_patterns)
+    assert set(node.station_name for node in sn.nodes.values()) == get_key_stations(
+        route_patterns
+    )

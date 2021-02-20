@@ -32,7 +32,9 @@ def get_degree_of_curvature_for_radius(curve_radius_km):
 
 
 def get_max_speed_for_curve_radius_kmh(curve_radius_km):
-    return 1.60934 * (math.sqrt(6 / (0.0007 * get_degree_of_curvature_for_radius(curve_radius_km))))
+    return 1.60934 * (
+        math.sqrt(6 / (0.0007 * get_degree_of_curvature_for_radius(curve_radius_km)))
+    )
 
 
 def get_point_distance(p1, p2):
@@ -52,11 +54,15 @@ def shoddily_convert_point_to_km(point, source=CENTER_OF_BOSTON):
     return (x_distance_signed, y_distance_signed)
 
 
-def get_exemplar_trip_for_stations(network: Network, first: Station, second: Station) -> Trip:
+def get_exemplar_trip_for_stations(
+    network: Network, first: Station, second: Station
+) -> Trip:
     all_trips = network.trips_by_id.values()
 
     def trip_serves_station(trip: Trip, station: Station):
-        return station in (stop_time.stop.parent_station for stop_time in trip.stop_times)
+        return station in (
+            stop_time.stop.parent_station for stop_time in trip.stop_times
+        )
 
     try:
         return next(
@@ -109,7 +115,9 @@ def get_acceleration_bounding_curve(distances, max_acceleration_kms2):
         # Solve the equation 0.5 * t * Amax ^ 2 + V * t - D = 0
         time_s = (
             -1 * current_velocity_kms
-            + math.sqrt(current_velocity_kms ** 2 + 2 * max_acceleration_kms2 * distance_km)
+            + math.sqrt(
+                current_velocity_kms ** 2 + 2 * max_acceleration_kms2 * distance_km
+            )
         ) / max_acceleration_kms2
         next_velocity_kms = current_velocity_kms + max_acceleration_kms2 * time_s
         velocity_curve_kms[index] = next_velocity_kms
@@ -166,7 +174,10 @@ def estimate_total_route_time(
     for first_station_name, second_station_name in get_pairs(route):
         first_station = network.get_station_by_name(first_station_name)
         second_station = network.get_station_by_name(second_station_name)
-        total_time_seconds += dwell_time_seconds + estimate_travel_time_between_stations_seconds(
-            network, first_station, second_station, trainset
+        total_time_seconds += (
+            dwell_time_seconds
+            + estimate_travel_time_between_stations_seconds(
+                network, first_station, second_station, trainset
+            )
         )
     return total_time_seconds

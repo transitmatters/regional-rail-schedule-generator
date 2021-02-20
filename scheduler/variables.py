@@ -7,6 +7,9 @@ class Variables(object):
     def __init__(self):
         self._variables = {}
 
+    def __str__(self):
+        return str(self._variables)
+
     def _get_or_create_variable(self, name: str, **kwargs):
         existing = self._variables.get(name)
         if existing:
@@ -27,6 +30,6 @@ class Variables(object):
         service_index_b: int,
     ):
         return self._get_or_create_variable(
-            f"exclusion_{node}_{service_a}_{service_index_a}_{service_b}_{service_index_b}"
+            f"exclusion_{node}_{service_a}_{service_index_a}_{service_b}_{service_index_b}",
+            boolean=True,
         )
-

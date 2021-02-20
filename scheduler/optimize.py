@@ -33,7 +33,7 @@ def get_indexed_arrival_expression(variables: Variables, service: Service, index
 
 def get_constraints_for_node(network: SchedulerNetwork, variables: Variables, node: Node):
     # Create safety constraints between all services at a given node
-    max_diff = 12000
+    max_diff = 3600
     for (s1, t1, s2, t2) in get_trip_intersections_for_node(network, node):
         # We want to create the constraint that abs(arrival_1 - arrival_2) > = exclusion_time
         # See http://lpsolve.sourceforge.net/5.1/absolute.htm for the technique used here.
@@ -70,17 +70,21 @@ def get_objective_function(network: SchedulerNetwork, variables: Variables):
         num_arrivals = len(arrivals_at_node)
         average_arrival_time = sum(arrivals_at_node) / num_arrivals
         sum_square_differences = sum((a - average_arrival_time) ** 2 for a in arrivals_at_node)
+        print(node, num_arrivals, average_arrival_time, sum_square_differences)
         variance = sum_square_differences / (num_arrivals - 1)
         fn += variance
     return fn
 
 
-def solve_departure_offsets_for_services(network: SchedulerNetwork):
+def solve_departure_offsets(network: SchedulerNetwork):
     variables = Variables()
     constraints = get_scheduler_constraints(network, variables)
     objective = get_objective_function(network, variables)
     problem = cp.Problem(cp.Minimize(objective), constraints)
     problem.solve(solver=cp.GUROBI)
+    print(problem.status, problem.value)
+    if problem.status in ["infeasible", "unbounded"]:
+        raise Exception("Failed to solve departure offsets")
     offsets = {}
     for service in network.services.values():
         departure_offset = variables.get_departure_offset_variable_name(service)

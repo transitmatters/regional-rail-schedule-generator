@@ -1,9 +1,9 @@
 from dataclasses import dataclass
 from typing import List, Dict
 
-from network.time import Timetable
+from synthesize.time import Timetable
 from synthesize.definitions import RoutePattern
-from synthesize.util import get_triples
+from synthesize.util import get_triples, listify
 
 
 @dataclass(eq=True, frozen=True)
@@ -51,7 +51,7 @@ def get_key_stations(route_patterns: List[RoutePattern]):
     all_station_names = set()
     key_station_names = set()
     for route_pattern in route_patterns:
-        stations = route_pattern.stations
+        stations = route_pattern.station_names
         for station_name in stations:
             all_station_names.add(station_name)
             if not adjacent_stations_by_name.get(station_name):
@@ -63,7 +63,7 @@ def get_key_stations(route_patterns: List[RoutePattern]):
     for route_pattern in route_patterns:
         stations = route_pattern.stations
         first, last = stations[0], stations[-1]
-        for station in route_pattern.stations:
+        for station in route_pattern.station_names:
             is_terminus = station == first or station == last
             is_junction = junction_numbers_by_name[station] > 2
             if is_terminus or is_junction:
@@ -88,13 +88,13 @@ def create_scheduler_network(
         existing_node = nodes_by_station_name.get(station_name)
         if existing_node:
             return existing_node
-        new_node = Node(station_name=station_name, exclusion_time=1)
+        new_node = Node(station_name=station_name)
         nodes_by_station_name[station_name] = new_node
         return new_node
 
     for route_pattern in route_patterns:
         calls_at_nodes = []
-        for station_name in route_pattern.stations:
+        for station_name in route_pattern.station_names:
             if station_name in key_stations:
                 station_node = get_scheduler_graph_node_by_station_name(station_name)
                 calls_at_nodes.append(station_node)

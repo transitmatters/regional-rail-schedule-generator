@@ -149,7 +149,7 @@ class Network(object):
     def add_station(self, station: Station):
         existing_station_by_id = self.stations_by_id.get(station.id)
         if existing_station_by_id:
-            raise NameError(f"Station with id ${station.id} already exists in network")
+            raise NameError(f"Station with id {station.id} already exists in network")
         self.stations_by_id[station.id] = station
         return station
 
@@ -181,4 +181,3 @@ class Route(object):
     def add_route_pattern(self, pattern: RoutePattern):
         self.route_patterns.append(pattern)
         pattern.route = self
-
