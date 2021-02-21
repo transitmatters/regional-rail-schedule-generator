@@ -3,16 +3,13 @@ from typing import List, Dict
 
 from synthesize.time import Timetable
 from synthesize.definitions import RoutePattern
-from synthesize.util import get_triples, listify
+from synthesize.util import get_triples
 
 
 @dataclass(eq=True, frozen=True)
 class Node:
     station_name: str
     exclusion_time: int = 60
-
-    def __str__(self):
-        return self.station_name
 
 
 @dataclass
@@ -38,9 +35,12 @@ class Service:
 class SchedulerNetwork:
     nodes: Dict[str, Node]
     services: Dict[str, Service]
+    order_determining_node: Node
 
-    def get_services_for_node(self, node: Node):
-        for service in self.services.values():
+    def get_services_for_node(self, node: Node, ordering=None):
+        if ordering is None:
+            ordering = self.services.values()
+        for service in ordering:
             if node in service.calls_at_nodes:
                 yield service
 
@@ -71,6 +71,17 @@ def get_key_stations(route_patterns: List[RoutePattern]):
     return key_station_names
 
 
+def get_order_determining_station(
+    route_patterns: List[RoutePattern], key_stations: List[str]
+) -> str:
+    for key_station in key_stations:
+        for route_pattern in route_patterns:
+            if key_station not in route_pattern.station_names:
+                break
+        else:
+            return key_station
+
+
 def get_node_timetable(
     route_pattern: RoutePattern, nodes_by_station_name: Dict[str, Node]
 ) -> Timetable:
@@ -81,6 +92,7 @@ def create_scheduler_network(
     route_patterns: List[RoutePattern], trips_per_hour_by_route_pattern: Dict[str, int]
 ):
     key_stations = get_key_stations(route_patterns)
+    order_determining_station = get_order_determining_station(route_patterns, key_stations)
     nodes_by_station_name = {}
     services_by_route_id = {}
 
@@ -106,4 +118,8 @@ def create_scheduler_network(
         )
         services_by_route_id[route_pattern.id] = service
 
-    return SchedulerNetwork(nodes=nodes_by_station_name, services=services_by_route_id)
+    return SchedulerNetwork(
+        nodes=nodes_by_station_name,
+        order_determining_node=nodes_by_station_name[order_determining_station],
+        services=services_by_route_id,
+    )

@@ -1,9 +1,10 @@
 from dataclasses import dataclass
-from typing import Callable, Dict, List, Tuple, Union
+from functools import cached_property
+from typing import Dict, List, Tuple, Union
 from datetime import timedelta
 
-from network.models import Network, Service
-from synthesize.time import DAYS_OF_WEEK, Timetable
+from network.models import Service
+from synthesize.time import Timetable
 from synthesize.trainset import Trainset
 from synthesize.util import listify
 
@@ -35,7 +36,7 @@ class RoutePattern(object):
     name: str = None
     trainset: Trainset = None
 
-    @property
+    @cached_property
     @listify
     def station_names(self):
         seen = set()

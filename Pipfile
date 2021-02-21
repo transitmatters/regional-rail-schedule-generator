@@ -11,6 +11,7 @@ numpy = "*"
 cvxpy = "*"
 flake8 = "*"
 gurobipy = {index = "https://pypi.gurobi.com", version = "*"}
+frozendict = "*"
 
 [dev-packages]
 black = "==20.8b1"

@@ -1,8 +1,16 @@
 import itertools
 import cvxpy as cp
+from dataclasses import dataclass
+from typing import List
 
 from scheduler.variables import Variables
 from scheduler.network import SchedulerNetwork, Service, Node
+
+
+@dataclass
+class OptimizeContext:
+    network: SchedulerNetwork
+    service_ordering: List[Service]
 
 
 def get_trip_arrivals_for_node(network: SchedulerNetwork, node: Node):
@@ -22,28 +30,34 @@ def get_trip_intersections_for_node(network: SchedulerNetwork, node: Node):
                 yield (s1, t1, s2, t2)
 
 
-def get_indexed_arrival_expression(variables: Variables, service: Service, index: int, node: Node):
-    # Returns an expression representing the time that a trip on a given service arrives at node.
-    offset = variables.get_departure_offset_variable_name(service)
-    trip_time = service.trip_time_to_node_seconds(node)
-    if trip_time is None:
-        raise ValueError("Got invalid trip time")
-    return offset + service.headway_seconds * index + trip_time
+def get_ordered_arrival_expressions_for_node(ctx: OptimizeContext, node: Node):
+    node_service_ordering = ctx.network.get_services_for_node(node, ordering=ctx.service_ordering)
+    for service in node_service_ordering:
+        pass
 
 
-def get_constraints_for_node(network: SchedulerNetwork, variables: Variables, node: Node):
-    # Create safety constraints between all services at a given node
-    max_diff = 3600
-    for (s1, t1, s2, t2) in get_trip_intersections_for_node(network, node):
-        # We want to create the constraint that abs(arrival_1 - arrival_2) > = exclusion_time
-        # See http://lpsolve.sourceforge.net/5.1/absolute.htm for the technique used here.
-        A_1 = get_indexed_arrival_expression(variables, s1, t1, node)
-        A_2 = get_indexed_arrival_expression(variables, s2, t2, node)
-        boolean = variables.get_exclusion_variable_name(node, s1, t1, s2, t2)
-        # Yield one case where A_1 - A_2 >= 0
-        yield (A_1 - A_2) + max_diff * boolean - node.exclusion_time >= 0
-        # And one where A_2 - A_1 >= 0
-        yield (A_2 - A_1) + max_diff - max_diff * boolean - node.exclusion_time >= 0
+# def get_indexed_arrival_expression(variables: Variables, service: Service, index: int, node: Node):
+#     # Returns an expression representing the time that a trip on a given service arrives at node.
+#     offset = variables.get_departure_offset_variable_name(service)
+#     trip_time = service.trip_time_to_node_seconds(node)
+#     if trip_time is None:
+#         raise ValueError("Got invalid trip time")
+#     return offset + service.headway_seconds * index + trip_time
+
+
+# def get_constraints_for_node(network: SchedulerNetwork, variables: Variables, node: Node):
+#     # Create safety constraints between all services at a given node
+#     max_diff = 3600
+#     for (s1, t1, s2, t2) in get_trip_intersections_for_node(network, node):
+#         # We want to create the constraint that abs(arrival_1 - arrival_2) > = exclusion_time
+#         # See http://lpsolve.sourceforge.net/5.1/absolute.htm for the technique used here.
+#         A_1 = get_indexed_arrival_expression(variables, s1, t1, node)
+#         A_2 = get_indexed_arrival_expression(variables, s2, t2, node)
+#         boolean = variables.get_exclusion_variable_name(node, s1, t1, s2, t2)
+#         # Yield one case where A_1 - A_2 >= 0
+#         yield (A_1 - A_2) + max_diff * boolean - node.exclusion_time >= 0
+#         # And one where A_2 - A_1 >= 0
+#         yield (A_2 - A_1) + max_diff - max_diff * boolean - node.exclusion_time >= 0
 
 
 def get_scheduler_constraints(network: SchedulerNetwork, variables: Variables):
@@ -68,15 +82,17 @@ def get_objective_function(network: SchedulerNetwork, variables: Variables):
             arrival = get_indexed_arrival_expression(variables, service, trip_number, node)
             arrivals_at_node.append(arrival)
         num_arrivals = len(arrivals_at_node)
-        average_arrival_time = sum(arrivals_at_node) / num_arrivals
-        sum_square_differences = sum((a - average_arrival_time) ** 2 for a in arrivals_at_node)
-        print(node, num_arrivals, average_arrival_time, sum_square_differences)
-        variance = sum_square_differences / (num_arrivals - 1)
+        desired_headway = 60 / num_arrivals
+        arrivals_vec = cp.affine.vstack.vstack(arrivals_at_node)
+        arrivals_first_diff = cp.atoms.affine.diff.diff(arrivals_vec)
+        sum_square_differences = cp.atoms.sum_squares(arrivals_first_diff - desired_headway)
+        variance = sum_square_differences / (num_arrivals - 2)
         fn += variance
     return fn
 
 
-def solve_departure_offsets(network: SchedulerNetwork):
+def solve_departure_offsets_for_context(ctx: OptimizeContext):
+    network = ctx.network
     variables = Variables()
     constraints = get_scheduler_constraints(network, variables)
     objective = get_objective_function(network, variables)
@@ -90,3 +106,10 @@ def solve_departure_offsets(network: SchedulerNetwork):
         departure_offset = variables.get_departure_offset_variable_name(service)
         offsets[service.id] = departure_offset.value
     return offsets
+
+
+def solve_departure_offsets(network: SchedulerNetwork):
+    potential_service_orderings = itertools.permutations(network.services)
+    for service_ordering in potential_service_orderings:
+        context = OptimizeContext(network=network, service_ordering=service_ordering)
+        solve_departure_offsets_for_context(context)

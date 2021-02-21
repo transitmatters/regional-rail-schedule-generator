@@ -1,5 +1,6 @@
 from synthesize.time import Timetable
 from synthesize.definitions import RoutePattern
+from synthesize.time import all_day_15
 
 route_x_stations = ("a", "b", "c", "d", "e", "f")
 route_x_timetable = Timetable(
@@ -15,13 +16,13 @@ route_z_stations = ("a", "d", "g", "i")
 route_z_timetable = Timetable({"a": "0:00", "d": "0:12", "g": "0:19", "i": "0:30"})
 
 X = RoutePattern(
-    name="X", id="x", stations=route_x_stations, timetable=route_x_timetable
+    name="X", id="x", stations=route_x_stations, timetable=route_x_timetable, schedule=all_day_15
 )
 Y = RoutePattern(
-    name="Y", id="y", stations=route_y_stations, timetable=route_y_timetable
+    name="Y", id="y", stations=route_y_stations, timetable=route_y_timetable, schedule=all_day_15
 )
 Z = RoutePattern(
-    name="Z", id="z", stations=route_z_stations, timetable=route_z_timetable
+    name="Z", id="z", stations=route_z_stations, timetable=route_z_timetable, schedule=all_day_15
 )
 
 route_patterns = [X, Y, Z]
