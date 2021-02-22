@@ -10,7 +10,8 @@ from network.models import (
     Stop,
     VehicleType,
 )
-from scheduler.subgraph_scheduler import schedule_subgraph
+from network.time import stringify_timedelta
+from scheduler.subgraph import schedule_subgraph
 
 from synthesize.network import create_synthetic_network
 from synthesize.definitions import (
@@ -46,8 +47,8 @@ def evaluate_scenario(subgraphs: List[List[RouteDefn]]) -> Scenario:
     for service in (Weekdays, Saturday, Sunday):
         network.services_by_id[service.id] = service
         for subgraph in subgraphs:
-            offsets = schedule_subgraph(subgraph, service)
-            print(offsets)
+            for route_pattern, direction, time in schedule_subgraph(subgraph, service):
+                print(route_pattern.id, direction, stringify_timedelta(time))
         # route, trips_for_route = schedule_route(route_defn, ctx)
         # for trip in trips_for_route:
         #     network.trips_by_id[trip.id] = trip

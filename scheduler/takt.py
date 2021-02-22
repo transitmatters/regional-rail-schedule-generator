@@ -6,7 +6,9 @@ from synthesize.util import listify, get_pairs
 
 Tph = Dict[str, int]
 TaktOrdering = List[Tuple[str, float, float]]
-EnumeratedTaktOrdering = List[Tuple[str, int, float]]
+TaktOffsets = Dict[str, float]
+
+HOUR = 3600
 
 
 @listify
@@ -75,8 +77,8 @@ def _get_initial_values(tph: Tph) -> Dict[str, int]:
     for service_id, trips_per_hour in tph.items():
         total_arrivals += trips_per_hour
         arrivals_pool[service_id] = trips_per_hour
-        headways[service_id] = 60 / trips_per_hour
-    takt = 60 / total_arrivals
+        headways[service_id] = HOUR / trips_per_hour
+    takt = HOUR / total_arrivals
     return frozendict(arrivals_pool), frozendict(headways), takt, total_arrivals
 
 
@@ -84,7 +86,7 @@ def _is_valid_ordering(ordering: TaktOrdering, expected_length: int, exclusion_t
     if len(ordering) != expected_length:
         return False
     for (_, t1, _), (_, t2, _) in get_pairs(ordering):
-        if t1 >= 60 or t2 >= 60:
+        if t1 >= HOUR or t2 >= HOUR:
             return False
         if t2 - t1 < exclusion_time_min:
             return False
@@ -97,16 +99,19 @@ def _get_ordering_cost(ordering: TaktOrdering, expected_length: int, exclusion_t
     return sum(deviation ** 2 for (_, _, deviation) in ordering)
 
 
-@listify
-def _enumerate_takt_ordering(ordering: TaktOrdering) -> EnumeratedTaktOrdering:
-    count_by_id = {}
-    for (service_id, time, deviation) in ordering:
-        index = count_by_id.get(service_id, 0)
-        count_by_id[service_id] = index + 1
-        yield (service_id, index, time)
+def _get_takt_offsets_from_ordering(ordering: TaktOrdering) -> TaktOffsets:
+    offsets_by_id = {}
+    for (service_id, time, _) in ordering:
+        if service_id not in offsets_by_id:
+            offsets_by_id[service_id] = round(time)
+    return offsets_by_id
 
 
-def get_takt_ordering_for_tph(tph: Tph, exclusion_time_min=1) -> TaktOrdering:
+def get_takt_offsets_for_tph(
+    tph: Tph,
+    recent_arrival_offsets: TaktOffsets = None,
+    exclusion_time_min=1,
+) -> TaktOrdering:
     arrivals, headways, takt, total_arrivals = _get_initial_values(tph)
     best_ordering = _takt_ordering_subproblem(
         now=0,
@@ -115,7 +120,8 @@ def get_takt_ordering_for_tph(tph: Tph, exclusion_time_min=1) -> TaktOrdering:
         remaining_length=total_arrivals,
         headways_by_service_id=headways,
         arrivals_pool_by_service_id=arrivals,
-        recent_arrivals_by_service_id=frozendict(),
+        recent_arrivals_by_service_id=frozendict(recent_arrival_offsets or {}),
     )
     if _is_valid_ordering(best_ordering, total_arrivals, exclusion_time_min):
-        return _enumerate_takt_ordering(best_ordering)
+        offsets = _get_takt_offsets_from_ordering(best_ordering)
+        return offsets

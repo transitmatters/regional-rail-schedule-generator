@@ -23,8 +23,8 @@ class Service:
         return self.id
 
     @property
-    def headway_seconds(self):
-        return 3600 / self.trips_per_hour
+    def headway_mins(self):
+        return 60 / self.trips_per_hour
 
     def trip_time_to_node_seconds(self, node: Node):
         first_node = self.calls_at_nodes[0]

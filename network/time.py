@@ -22,7 +22,7 @@ def stringify_timedelta(td):
     hours = seconds // 3600
     minutes = (seconds % 3600) // 60
     seconds = seconds % 60
-    return f"{int(hours)}:{int(minutes)}:{int(seconds)}"
+    return "{:02}:{:02}:{:02}".format(int(hours), int(minutes), int(seconds))
 
 
 DAYS_OF_WEEK = [
