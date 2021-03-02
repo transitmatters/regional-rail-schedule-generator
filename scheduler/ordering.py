@@ -1,13 +1,11 @@
 from dataclasses import dataclass
+from typing import Dict, List, Tuple
 import functools
-from typing import Dict, List, Tuple, Optional
 
-from synthesize.util import listify, get_pairs
+from synthesize.util import listify
 
-Tph = Dict[str, int]
-TaktOrdering = List[Tuple[str, float, float]]
-TaktOffsets = Dict[str, float]
-
+Sequence = List[str]
+ArrivalOrderConstraint = Tuple[str, str]
 
 HOUR = 3600
 
@@ -29,48 +27,24 @@ class TphPool(ServicePool):
                 yield TphPool(next_dict), key, next_count == 0
 
 
-class SubOrderingPool(ServicePool):
-    def __init__(self, sub_orders):
-        self.sub_orders = sub_orders
+class SubSequencePool(ServicePool):
+    def __init__(self, sub_sequences):
+        self.sub_sequences = sub_sequences
 
     def next_candidates(self):
-        for idx, order in enumerate(self.sub_orders):
+        for idx, order in enumerate(self.sub_sequences):
             if len(order) > 0:
                 first, rest = order[0], order[1:]
-                next_array = [rest if o == order else o for o in self.sub_orders]
-                yield SubOrderingPool(next_array), first, len(rest) == 0
-
-
-@dataclass(frozen=True, eq=True)
-class Range:
-    start: int
-    end: int
-
-    def intersect(self, other: "Range") -> "Range":
-        start = max(self.start, other.start)
-        end = min(self.end, other.end)
-        if start < end:
-            return Range(start, end)
-        return None
-
-    def offset(self, number: int) -> "Range":
-        return Range(self.start + number, self.end + number)
-
-    def bound_below(self, number: int) -> "Range":
-        start = max(self.start, number)
-        end = self.end
-        if start < end:
-            return Range(start, end)
-        return None
+                next_array = [rest if o is order else o for o in self.sub_sequences]
+                yield SubSequencePool(next_array), first, len(rest) == 0
 
 
 @dataclass
 class OrderingProblem:
-    offset_constraint_ranges_s: Dict[str, Range]
-    journey_times_s: Dict[str, int]
     exclusion_time_s: int
-    tph: Dict[str, int] = None
-    sub_orders: List[List[str]] = None
+    tph: Dict[str, int]
+    sub_sequences: List[Sequence] = None
+    order_constraints: List[ArrivalOrderConstraint] = None
 
     @functools.cached_property
     def headways_s(self):
@@ -80,6 +54,10 @@ class OrderingProblem:
         return res
 
     @functools.cached_property
+    def services(self):
+        return self.tph.keys()
+
+    @functools.cached_property
     def total_arrivals(self):
         total = 0
         for value in self.tph.values():
@@ -87,85 +65,90 @@ class OrderingProblem:
         return total
 
 
-def get_next_arrival_time_range(
-    headway: int,
-    journey_time: int,
-    constraint_range: Optional[Range],
-    previous_range: Optional[Range],
-):
-    if previous_range:
-        return previous_range.offset(headway)
-    elif constraint_range:
-        return constraint_range.offset(journey_time)
-    else:
-        return Range(0, HOUR)
+def _debug_is_subsequence(seq_str: str, subseq: Sequence):
+    return seq_str.startswith("".join(subseq))
+
+
+def last_index_of(sequence: Sequence, service: str):
+    return len(sequence) - sequence[::-1].index(service) - 1
+
+
+def can_arrive(sequence: Sequence, arrival: str, order_constraints: List[ArrivalOrderConstraint]):
+    if order_constraints:
+        for (before, after) in order_constraints:
+            if after == arrival and before not in sequence:
+                return False
+    return True
+
+
+def minimum_time_spanned_by_sequence(sequence: Sequence, problem: OrderingProblem):
+    now = 0
+    previous_minimum_times = {}
+    for arrival in sequence:
+        previous_minimum_time = previous_minimum_times.get(arrival)
+        min_now = now + problem.exclusion_time_s
+        if previous_minimum_time is not None:
+            now = max(min_now, previous_minimum_time + problem.headways_s[arrival])
+        else:
+            now = min_now
+        previous_minimum_times[arrival] = now
+    return now
+
+
+def arrives_too_late(sequence: Sequence, arrival: str, problem: OrderingProblem):
+    headway = problem.headways_s[arrival]
+    try:
+        previous_arrival_idx = last_index_of(sequence, arrival)
+        other_arrivals_since_previous = sequence[previous_arrival_idx + 1 :]
+        min_time_since_last = minimum_time_spanned_by_sequence(
+            other_arrivals_since_previous, problem
+        )
+        return min_time_since_last > headway
+    except ValueError:
+        return False
+
+
+def sequence_cannot_be_cyclical(sequence: Sequence, problem: OrderingProblem):
+    for service in problem.services:
+        headway = problem.headways_s[service]
+        last_index = last_index_of(sequence, service)
+        arrivals_since_last = sequence[last_index + 1 :]
+        min_time_since_last = minimum_time_spanned_by_sequence(arrivals_since_last, problem)
+        if min_time_since_last > headway:
+            return True
+    return False
 
 
 @listify
 def _candidates_for_next_arrival(
-    now: Range,
+    sequence: List[str],
     problem: OrderingProblem,
     pool: ServicePool,
-    recent_arrivals_by_service_id: Dict[str, Range],
 ) -> List[str]:
     for next_pool, service_id, is_last in pool.next_candidates():
-        journey_time = problem.journey_times_s[service_id]
-        headway = problem.headways_s[service_id]
-        arrival_range = get_next_arrival_time_range(
-            headway=headway,
-            journey_time=journey_time,
-            constraint_range=problem.offset_constraint_ranges_s.get(service_id),
-            previous_range=recent_arrivals_by_service_id.get(service_id),
-        )
-        if arrival_range:
-            meets_is_last_criterion = not is_last or (
-                Range(now.end - headway, now.end).intersect(arrival_range)
-            )
-            if meets_is_last_criterion and now.intersect(arrival_range):
-                yield arrival_range, next_pool, service_id
+        if can_arrive(sequence, service_id, problem.order_constraints):
+            if not arrives_too_late(sequence, service_id, problem):
+                yield service_id, next_pool
 
 
 @listify
 def _ordering_subproblem(
-    now: Range,
-    remaining_length: int,
     problem: OrderingProblem,
     pool: ServicePool,
-    recent_arrivals_by_service_id: Dict[str, float],
+    sequence: List[str],
 ):
-    if remaining_length == 0:
-        yield []
-        return
-    candidates = _candidates_for_next_arrival(now, problem, pool, recent_arrivals_by_service_id)
-    for arrival, next_pool, service_id in candidates:
-        if remaining_length == 1 and service_id == 'a':
-            print(remaining_length, service_id, now, arrival)
-        head = [service_id]
-        next_recent_arrivals_by_service_id = {**recent_arrivals_by_service_id, service_id: arrival}
-        tails = _ordering_subproblem(
-            now=now.bound_below(arrival.start + problem.exclusion_time_s),
-            remaining_length=remaining_length - 1,
-            problem=problem,
-            pool=next_pool,
-            recent_arrivals_by_service_id=next_recent_arrivals_by_service_id,
-        )
-        for tail in tails:
-            yield head + tail
+    if len(sequence) == problem.total_arrivals:
+        if not sequence_cannot_be_cyclical(sequence, problem):
+            yield sequence
+    candidates = _candidates_for_next_arrival(sequence, problem, pool)
+    for service_id, next_pool in candidates:
+        next_sequence = sequence + [service_id]
+        results = _ordering_subproblem(problem, next_pool, next_sequence)
+        for result in results:
+            yield result
 
 
-def get_hour_range(problem: OrderingProblem) -> Range:
-    min_journey_time = float("inf")
-    for time in problem.journey_times_s.values():
-        min_journey_time = min(min_journey_time, time)
-    return Range(0, HOUR).offset(min_journey_time)
-
-
-def get_orderings(problem: OrderingProblem) -> TaktOrdering:
-    orders = _ordering_subproblem(
-        now=get_hour_range(problem),
-        remaining_length=problem.total_arrivals,
-        problem=problem,
-        pool=TphPool(problem.tph),
-        recent_arrivals_by_service_id={},
-    )
-    return [o for o in orders if len(o) == problem.total_arrivals]
+def get_orderings(problem: OrderingProblem):
+    pool = SubSequencePool(problem.sub_sequences) if problem.sub_sequences else TphPool(problem.tph)
+    orders = _ordering_subproblem(problem=problem, pool=pool, sequence=[])
+    return orders

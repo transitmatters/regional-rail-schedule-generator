@@ -5,6 +5,8 @@ from network.models import DIRECTIONS
 
 from synthesize.definitions import Route, RoutePattern, Service, Frequencies, TimeRange
 from synthesize.util import listify, get_pairs, get_triples
+
+from scheduler.network import create_scheduler_network
 from scheduler.takt import get_takt_offsets_for_tph
 
 
@@ -149,13 +151,26 @@ def schedule_subgraph(subgraph: List[Route], service: Service):
     )
     previous_arrivals = None
     for (rng, route_pattern_id_to_tph) in constant_frequency_ranges.items():
-        takt_offsets = get_takt_offsets_for_tph(route_pattern_id_to_tph, previous_arrivals)
-        for direction in DIRECTIONS:
-            dispatch_offsets = _get_dispatch_offsets(
-                route_patterns, takt_offsets, takt_determining_station, t0_by_direction, direction
-            )
-            for route_pattern in route_patterns:
-                tph = route_pattern_id_to_tph[route_pattern.id]
-                dispatch_times = _get_dispatch_times(tph, dispatch_offsets[route_pattern.id], rng)
-                for time in dispatch_times:
-                    yield (route_pattern, direction, time)
+        scheduler_network = create_scheduler_network(route_patterns, route_pattern_id_to_tph)
+        print(scheduler_network.get_tree_root())
+        # takt_offsets = get_takt_offsets_for_tph(route_pattern_id_to_tph, previous_arrivals)
+        # for direction in DIRECTIONS:
+        #     dispatch_offsets = _get_dispatch_offsets(
+        #         route_patterns, takt_offsets, takt_determining_station, t0_by_direction, direction
+        #     )
+        #     for route_pattern in route_patterns:
+        #         tph = route_pattern_id_to_tph[route_pattern.id]
+        #         dispatch_times = _get_dispatch_times(tph, dispatch_offsets[route_pattern.id], rng)
+        #         for time in dispatch_times:
+        #             yield (route_pattern, direction, time)
+
+        # Create tree of subsets of services
+        # procedure get_orderings(node)
+        #   if node is leaf:
+        #       get_orderings(node tph) for each set of differing relative offsets among stations in node
+        #   else:
+        #       gather orderings from children
+        #       get_orderings(child orderings) for each set ...
+        #
+        # orderings = get_orderings(root)
+        # for each ordering, run cvx optimizer, pick best one
