@@ -62,10 +62,22 @@ Sunday = Service(
 
 def all_day_frequencies(headway):
     day_schedule = {
-        time_range_from_string("05:00-06:30"): headway * 2,
-        time_range_from_string("06:30-11:00"): headway,
-        time_range_from_string("11:00-16:30"): headway * 2,
-        time_range_from_string("16:30-23:59"): headway
+        time_range_from_string("05:00-23:59"): headway,
+    }
+    return {
+        Weekdays: day_schedule,
+        Saturday: day_schedule,
+        Sunday: day_schedule,
+    }
+
+
+def peak_offpeak_frequencies(peak_headway, off_peak_headway):
+    day_schedule = {
+        time_range_from_string("05:00-06:30"): off_peak_headway,
+        time_range_from_string("06:30-11:00"): peak_headway,
+        time_range_from_string("11:00-16:30"): off_peak_headway,
+        time_range_from_string("16:30-19:00"): peak_headway,
+        time_range_from_string("19:00-23:59"): off_peak_headway,
     }
     return {
         Weekdays: day_schedule,

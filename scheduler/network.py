@@ -11,26 +11,28 @@ from scheduler.key_stations import get_key_stations
 @dataclass(frozen=True, eq=True)
 class Node:
     id: str
-    exclusion_time_s: int = 60
+
+    def __repr__(self):
+        return f"Node({self.id})"
 
 
 @dataclass
 class Service:
     id: str
-    trips_per_hour: int
     calls_at_nodes: List[Node]
     timetable: Timetable
-
-    def __str__(self):
-        return self.id
-
-    @property
-    def headway_mins(self):
-        return 60 / self.trips_per_hour
 
     def trip_time_to_node_seconds(self, node: Node):
         first_node = self.calls_at_nodes[0]
         return self.timetable.get_travel_time(first_node, node)
+
+    def reverse(self):
+        return Service(
+            id=self.id, calls_at_nodes=list(reversed(self.calls_at_nodes)), timetable=self.timetable
+        )
+
+    def __repr__(self):
+        return f"Service({self.id})"
 
 
 @dataclass
@@ -45,25 +47,17 @@ class SchedulerNetwork:
             if node in service.calls_at_nodes:
                 yield service
 
-
-# def get_order_determining_station(
-#     route_patterns: List[RoutePattern], key_stations: List[str]
-# ) -> str:
-#     for key_station in key_stations:
-#         for route_pattern in route_patterns:
-#             if key_station not in route_pattern.station_names:
-#                 break
-#         else:
-#             return key_station
+    def reverse(self):
+        reversed_services = {k: s.reverse() for (k, s) in self.services.items()}
+        reversed_edges = {(b, a) for (a, b) in self.edges}
+        return SchedulerNetwork(nodes=self.nodes, services=reversed_services, edges=reversed_edges)
 
 
 def get_node_timetable(route_pattern: RoutePattern, nodes_by_id: Dict[str, Node]) -> Timetable:
     return route_pattern.timetable.map(lambda key: nodes_by_id.get(key))
 
 
-def create_scheduler_network(
-    route_patterns: List[RoutePattern], trips_per_hour_by_route_pattern: Dict[str, int]
-):
+def create_scheduler_network(route_patterns: List[RoutePattern]):
     key_stations = get_key_stations(route_patterns)
     nodes_by_id = {}
     services_by_route_id = {}
@@ -90,7 +84,6 @@ def create_scheduler_network(
 
         service = Service(
             id=route_pattern.id,
-            trips_per_hour=trips_per_hour_by_route_pattern[route_pattern.id],
             calls_at_nodes=calls_at_nodes,
             timetable=get_node_timetable(route_pattern, nodes_by_id),
         )

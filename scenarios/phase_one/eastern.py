@@ -41,7 +41,7 @@ timetable = Timetable(
     }
 )
 
-shared_station_names = infill(
+shared_stations = infill(
     EASTERN_SHARED,
     ["Chelsea", station_north_revere, "River Works"],
     ["Swampscott", station_south_salem, "Salem"],
@@ -50,7 +50,7 @@ shared_station_names = infill(
 newburyport = RoutePattern(
     name="Newburyport",
     id="newburyport",
-    stations=(shared_station_names + EASTERN_NEWBURYPORT),
+    stations=(shared_stations + EASTERN_NEWBURYPORT),
     timetable=timetable,
     schedule=all_day_15,
 )
@@ -58,7 +58,7 @@ newburyport = RoutePattern(
 rockport = RoutePattern(
     name="Rockport",
     id="rockport",
-    stations=(shared_station_names + EASTERN_ROCKPORT),
+    stations=(shared_stations + EASTERN_ROCKPORT),
     timetable=timetable,
     schedule=all_day_15,
 )

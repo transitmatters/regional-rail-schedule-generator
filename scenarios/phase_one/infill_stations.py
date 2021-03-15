@@ -28,9 +28,10 @@ station_river_street = Station(
     municipality="Boston",
 )
 
-infill_stations = [
-    station_north_revere,
-    station_south_salem,
-    station_ceylon_park,
-    station_river_street,
-]
+station_west_station = Station(
+    name="West Station", id="place-rr-west-station", location=(0, 0), municipality="Boston"
+)
+
+station_newton_corner = Station(
+    name="Newton Corner", id="place-rr-newton-corner", location=(0, 0), municipality="Newton"
+)

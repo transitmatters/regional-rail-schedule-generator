@@ -1,115 +1,133 @@
-import itertools
-import cvxpy as cp
-from dataclasses import dataclass
 from typing import List
+from dataclasses import dataclass
+import cvxpy as cp
 
-from scheduler.variables import Variables
+from synthesize.util import get_pairs, listify
+
 from scheduler.network import SchedulerNetwork, Service, Node
+from scheduler.ordering import Ordering
+from scheduler.scheduling_problem import SchedulingProblem
 
 
 @dataclass
 class OptimizeContext:
     network: SchedulerNetwork
-    service_ordering: List[Service]
+    ordering: Ordering
+    problem: SchedulingProblem
+
+    def __post_init__(self):
+        self._variables = {}
+
+    def _get_or_create_variable(self, name: str, **kwargs):
+        existing = self._variables.get(name)
+        if existing:
+            return existing
+        variable = cp.Variable(name=name, **kwargs)
+        self._variables[name] = variable
+        return variable
+
+    def get_departure_offset_variable(self, service: Service):
+        return self._get_or_create_variable(f"departure_offset_{service}", nonneg=True)
 
 
-def get_trip_arrivals_for_node(network: SchedulerNetwork, node: Node):
-    services_for_node = network.get_services_for_node(node)
-    for service in services_for_node:
-        for trip_number in range(service.trips_per_hour):
-            yield (service, trip_number)
+def get_indexed_arrival_expression(ctx: OptimizeContext, service: Service, index: int, node: Node):
+    offset = ctx.get_departure_offset_variable(service)
+    headway = ctx.problem.get_service_headway(service)
+    trip_time = service.trip_time_to_node_seconds(node)
+    if trip_time is None:
+        raise ValueError("Got invalid trip time")
+    return offset + headway * index + trip_time
 
 
-def get_trip_intersections_for_node(network: SchedulerNetwork, node: Node):
-    services_for_node = list(network.get_services_for_node(node))
-    for (s1, s2) in itertools.combinations_with_replacement(services_for_node, 2):
-        trips_1 = range(s1.trips_per_hour)
-        trips_2 = range(s2.trips_per_hour)
-        for (t1, t2) in itertools.product(trips_1, trips_2):
-            if not (s1 == s2 and t1 == t2):
-                yield (s1, t1, s2, t2)
-
-
+@listify
 def get_ordered_arrival_expressions_for_node(ctx: OptimizeContext, node: Node):
-    node_service_ordering = ctx.network.get_services_for_node(node, ordering=ctx.service_ordering)
-    for service in node_service_ordering:
-        pass
+    arrivals_by_id = ctx.ordering.arrival_orderings[node]
+    for (index, service) in arrivals_by_id:
+        yield get_indexed_arrival_expression(ctx, service, index, node)
 
 
-# def get_indexed_arrival_expression(variables: Variables, service: Service, index: int, node: Node):
-#     # Returns an expression representing the time that a trip on a given service arrives at node.
-#     offset = variables.get_departure_offset_variable_name(service)
-#     trip_time = service.trip_time_to_node_seconds(node)
-#     if trip_time is None:
-#         raise ValueError("Got invalid trip time")
-#     return offset + service.headway_seconds * index + trip_time
+def get_constraints_for_node(ctx: OptimizeContext, node: Node):
+    arrival_expressions = get_ordered_arrival_expressions_for_node(ctx, node)
+    for arrival_expr_a, arrival_expr_b in get_pairs(arrival_expressions):
+        yield arrival_expr_a + ctx.problem.exclusion_time
 
 
-# def get_constraints_for_node(network: SchedulerNetwork, variables: Variables, node: Node):
-#     # Create safety constraints between all services at a given node
-#     max_diff = 3600
-#     for (s1, t1, s2, t2) in get_trip_intersections_for_node(network, node):
-#         # We want to create the constraint that abs(arrival_1 - arrival_2) > = exclusion_time
-#         # See http://lpsolve.sourceforge.net/5.1/absolute.htm for the technique used here.
-#         A_1 = get_indexed_arrival_expression(variables, s1, t1, node)
-#         A_2 = get_indexed_arrival_expression(variables, s2, t2, node)
-#         boolean = variables.get_exclusion_variable_name(node, s1, t1, s2, t2)
-#         # Yield one case where A_1 - A_2 >= 0
-#         yield (A_1 - A_2) + max_diff * boolean - node.exclusion_time >= 0
-#         # And one where A_2 - A_1 >= 0
-#         yield (A_2 - A_1) + max_diff - max_diff * boolean - node.exclusion_time >= 0
+def get_global_constraints(ctx: OptimizeContext):
+    for idx, service in enumerate(ctx.ordering.dispatch_ordering):
+        headway = ctx.problem.get_service_headway(service)
+        offset = ctx.get_departure_offset_variable(service)
+        if idx == 0:
+            yield offset == 0
+        else:
+            yield offset + 1 <= headway
+    for (service_a, service_b) in get_pairs(ctx.ordering.dispatch_ordering):
+        offset_a = ctx.get_departure_offset_variable(service_a)
+        offset_b = ctx.get_departure_offset_variable(service_b)
+        yield offset_a <= offset_b
 
 
-def get_scheduler_constraints(network: SchedulerNetwork, variables: Variables):
-    constraints = []
-    for node in network.nodes.values():
-        constraints += get_constraints_for_node(network, variables, node)
-    for service in network.services.values():
-        last_trip_index = service.trips_per_hour - 1
-        first_trip_node = service.calls_at_nodes[0]
-        last_arrival_at_first_node = get_indexed_arrival_expression(
-            variables, service, last_trip_index, first_trip_node
-        )
-        constraints.append(last_arrival_at_first_node <= 60 * 59.999)
+def get_scheduler_constraints(ctx: OptimizeContext):
+    constraints = list(get_global_constraints(ctx))
+    for node in ctx.network.nodes.values():
+        constraints += get_constraints_for_node(ctx, node)
     return constraints
 
 
-def get_objective_function(network: SchedulerNetwork, variables: Variables):
-    fn = 0
-    for node in network.nodes.values():
-        arrivals_at_node = []
-        for (service, trip_number) in get_trip_arrivals_for_node(network, node):
-            arrival = get_indexed_arrival_expression(variables, service, trip_number, node)
-            arrivals_at_node.append(arrival)
-        num_arrivals = len(arrivals_at_node)
-        desired_headway = 60 / num_arrivals
-        arrivals_vec = cp.affine.vstack.vstack(arrivals_at_node)
-        arrivals_first_diff = cp.atoms.affine.diff.diff(arrivals_vec)
-        sum_square_differences = cp.atoms.sum_squares(arrivals_first_diff - desired_headway)
-        variance = sum_square_differences / (num_arrivals - 2)
-        fn += variance
-    return fn
+def get_objective_for_node(ctx: OptimizeContext, node: Node):
+    obj = 0
+    total_arrivals = len(ctx.ordering.arrival_orderings[node])
+    weight = 1 / total_arrivals
+    arrival_exprs = get_ordered_arrival_expressions_for_node(ctx, node)
+    desired_headway = ctx.problem.period // total_arrivals
+    for (first, second) in get_pairs(arrival_exprs):
+        term = ((second - first) - desired_headway) ** 2
+        obj += term
+    first = arrival_exprs[0]
+    last = arrival_exprs[-1]
+    term = ((first + ctx.problem.period - last) - desired_headway) ** 2
+    return weight * obj
 
 
-def solve_departure_offsets_for_context(ctx: OptimizeContext):
-    network = ctx.network
-    variables = Variables()
-    constraints = get_scheduler_constraints(network, variables)
-    objective = get_objective_function(network, variables)
-    problem = cp.Problem(cp.Minimize(objective), constraints)
-    problem.solve(solver=cp.GUROBI)
-    print(problem.status, problem.value)
-    if problem.status in ["infeasible", "unbounded"]:
-        raise Exception("Failed to solve departure offsets")
+def get_scheduler_objective(ctx: OptimizeContext):
+    obj = 0
+    for node in ctx.network.nodes.values():
+        obj += get_objective_for_node(ctx, node)
+    return obj
+
+
+def solve_departure_offsets(problem: SchedulingProblem, ordering: Ordering):
+    ctx = OptimizeContext(problem=problem, network=problem.network, ordering=ordering)
+    constraints = get_scheduler_constraints(ctx)
+    objective = get_scheduler_objective(ctx)
+    cvx_problem = cp.Problem(cp.Minimize(objective), constraints)
+    cvx_problem.solve()
+    if cvx_problem.status in ["infeasible", "unbounded"]:
+        return None, float("inf")
     offsets = {}
-    for service in network.services.values():
-        departure_offset = variables.get_departure_offset_variable_name(service)
-        offsets[service.id] = departure_offset.value
-    return offsets
+    arrivals = {}
+    for service in problem.network.services.values():
+        departure_offset = ctx.get_departure_offset_variable(service)
+        offsets[service.id] = round(departure_offset.value)
+    for node in problem.network.nodes.values():
+        exprs = get_ordered_arrival_expressions_for_node(ctx, node)
+        arrivals[node.id] = [round(e.value) for e in exprs]
+    return cvx_problem.value, offsets, arrivals
 
 
-def solve_departure_offsets(network: SchedulerNetwork):
-    potential_service_orderings = itertools.permutations(network.services)
-    for service_ordering in potential_service_orderings:
-        context = OptimizeContext(network=network, service_ordering=service_ordering)
-        solve_departure_offsets_for_context(context)
+def solve_departure_offsets_for_orderings(problem: SchedulingProblem, orderings: List[Ordering]):
+    best_offsets = None
+    best_arrivals = None
+    best_ordering = None
+    best_value = float("inf")
+    for ordering in orderings:
+        value, offsets, arrivals = solve_departure_offsets(problem, ordering)
+        if value < best_value:
+            best_ordering = ordering
+            best_value = value
+            best_offsets = offsets
+            best_arrivals = arrivals
+    print("---------")
+    print(best_ordering)
+    for node_id, arrivals in best_arrivals.items():
+        print(node_id, [a // 60 for a in arrivals])
+    return best_offsets

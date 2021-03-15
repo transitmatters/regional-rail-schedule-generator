@@ -1,10 +1,10 @@
 from scheduler.network import create_scheduler_network
 from scheduler.service_pattern_graph import ServicePatternGraph
-from scheduler.tests.data import route_patterns, trains_per_hour
+from scheduler.tests.data import route_patterns
 
 
 def test_create_service_pattern_graph():
-    sn = create_scheduler_network(route_patterns, trains_per_hour)
+    sn = create_scheduler_network(route_patterns)
     graph = ServicePatternGraph.from_scheduler_network(sn)
     # Check that the right nodes were created
     node_tags = [graph.get_node_tag(n) for n in graph.nodes]

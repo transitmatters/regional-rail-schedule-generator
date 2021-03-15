@@ -104,7 +104,7 @@ NEEDHAM = (
     "Needham Heights",
 )
 
-FRAMINGHAM_WORCESTER = (
+FRAMINGHAM = (
     "South Station",
     "Back Bay",
     "Lansdowne",
@@ -117,6 +117,13 @@ FRAMINGHAM_WORCESTER = (
     "Wellesley Square",
     "Natick Center",
     "West Natick",
+    "Framingham",
+)
+
+WORCESTER = (
+    "South Station",
+    "Back Bay",
+    "Lansdowne",
     "Framingham",
     "Ashland",
     "Southborough",
@@ -183,7 +190,8 @@ ALL_ROUTES = [
     LOWELL,
     HAVERHILL,
     FAIRMOUNT,
-    FRAMINGHAM_WORCESTER,
+    FRAMINGHAM,
+    WORCESTER,
     GREENBUSH,
     NEEDHAM,
     OC_KINGSTON_PLYMOUTH,
