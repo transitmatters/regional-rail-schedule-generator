@@ -67,6 +67,6 @@ eastern = Route(
     name="Newburyport/Rockport",
     id="CR-Newburyport",
     shadows_real_route="CR-Newburyport",
-    patterns=[newburyport, rockport],
+    route_patterns=[newburyport, rockport],
     trainset=emu_trainset,
 )

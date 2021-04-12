@@ -1,6 +1,5 @@
 from synthesize.definitions import Route, RoutePattern
 from synthesize.routes import FAIRMOUNT
-from synthesize.evaluate import evaluate_scenario
 from synthesize.infill import infill
 from synthesize.time import all_day_15, Timetable
 
@@ -44,6 +43,6 @@ fairmount = Route(
     name="Fairmount Line",
     id="CR-Fairmount",
     shadows_real_route="CR-Fairmount",
-    patterns=[fairmount_rp],
+    route_patterns=[fairmount_rp],
     trainset=emu_trainset,
 )

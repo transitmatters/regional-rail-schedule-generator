@@ -3,7 +3,9 @@ from functools import cached_property
 from typing import Dict, List, Tuple, Union
 from datetime import timedelta
 
-from network.models import Service
+from numpy import isin
+
+from network.models import Network, Service
 from synthesize.time import Timetable
 from synthesize.trainset import Trainset
 from synthesize.util import listify
@@ -11,12 +13,6 @@ from synthesize.util import listify
 TimeRange = Tuple[timedelta, timedelta]
 Frequencies = Dict[TimeRange, int]
 Schedule = Dict[Service, Frequencies]
-
-
-@dataclass
-class Direction(object):
-    name: str
-    destination: str
 
 
 @dataclass
@@ -57,7 +53,7 @@ class RoutePattern(object):
 class Route(object):
     name: str
     id: str
-    patterns: List[RoutePattern]
+    route_patterns: List[RoutePattern]
     trainset: Trainset = None
     directions: Tuple[str, str] = None
     shadows_real_route: str = None

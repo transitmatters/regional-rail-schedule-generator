@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Tuple, Dict, Optional
+from typing import List, Tuple, Dict, Optional, Union
 import functools
 import datetime
 
@@ -50,14 +50,6 @@ class Trip(object):
 
 
 @dataclass
-class Direction(object):
-    id: str
-    route: "Route"
-    direction: str
-    destination: str
-
-
-@dataclass
 class StationStop(object):
     id: str
     name: str
@@ -88,7 +80,7 @@ class Station(StationStop):
         assert stop in self.child_stops
         self.child_stops_by_direction[direction] = stop
 
-    def get_child_stop_for_direction(self, direction):
+    def get_child_stop_for_direction(self, direction) -> "Stop":
         return self.child_stops_by_direction[direction]
 
 

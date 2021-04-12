@@ -71,5 +71,5 @@ worcester_framingham = Route(
     name="Worcester/Framingham",
     id="CR-Worcester",
     shadows_real_route="CR-Worcester",
-    patterns=[framingham, worcester],
+    route_patterns=[framingham, worcester],
 )

@@ -46,10 +46,11 @@ def get_ordered_arrival_expressions_for_node(ctx: OptimizeContext, node: Node):
         yield get_indexed_arrival_expression(ctx, service, index, node)
 
 
+@listify
 def get_constraints_for_node(ctx: OptimizeContext, node: Node):
     arrival_expressions = get_ordered_arrival_expressions_for_node(ctx, node)
     for arrival_expr_a, arrival_expr_b in get_pairs(arrival_expressions):
-        yield arrival_expr_a + ctx.problem.exclusion_time
+        yield arrival_expr_a + ctx.problem.exclusion_time <= arrival_expr_b
 
 
 def get_global_constraints(ctx: OptimizeContext):
@@ -102,7 +103,7 @@ def solve_departure_offsets(problem: SchedulingProblem, ordering: Ordering):
     cvx_problem = cp.Problem(cp.Minimize(objective), constraints)
     cvx_problem.solve()
     if cvx_problem.status in ["infeasible", "unbounded"]:
-        return None, float("inf")
+        return float("inf"), None, None
     offsets = {}
     arrivals = {}
     for service in problem.network.services.values():
@@ -114,7 +115,11 @@ def solve_departure_offsets(problem: SchedulingProblem, ordering: Ordering):
     return cvx_problem.value, offsets, arrivals
 
 
-def solve_departure_offsets_for_orderings(problem: SchedulingProblem, orderings: List[Ordering]):
+def solve_departure_offsets_for_orderings(
+    problem: SchedulingProblem,
+    orderings: List[Ordering],
+    debug=False,
+):
     best_offsets = None
     best_arrivals = None
     best_ordering = None
@@ -126,8 +131,9 @@ def solve_departure_offsets_for_orderings(problem: SchedulingProblem, orderings:
             best_value = value
             best_offsets = offsets
             best_arrivals = arrivals
-    print("---------")
-    print(best_ordering)
-    for node_id, arrivals in best_arrivals.items():
-        print(node_id, [a // 60 for a in arrivals])
+    if debug:
+        print("---------")
+        print(best_ordering)
+        for node_id, arrivals in best_arrivals.items():
+            print(node_id, [a // 60 for a in arrivals])
     return best_offsets

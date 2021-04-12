@@ -55,61 +55,6 @@ def add_time_to_trip(previous_stop: Stop, current_stop: Stop, ctx: defn.EvalCont
     return timedelta(seconds=int(ctx.trainset.dwell_time_seconds + travel_time))
 
 
-def get_trip(
-    trip_index: str,
-    route: defn.Route,
-    route_pattern: RoutePattern,
-    service: Service,
-    departure_time: timedelta,
-    ctx: defn.EvalContext,
-) -> List[StopTime]:
-    trip = Trip(
-        id=f"{route.id}-{trip_index}",
-        service=service,
-        route_id=route.id,
-        route_pattern_id=route_pattern.id,
-        direction_id=route_pattern.direction,
-        # TODO(ian): add these
-        shape_id=None,
-        shape=None,
-    )
-    current_time = departure_time
-    previous_stop = None
-    for current_stop in route_pattern.stops:
-        current_time += add_time_to_trip(previous_stop, current_stop, ctx)
-        previous_stop = current_stop
-        stop_time = StopTime(stop=current_stop, trip=trip, time=current_time)
-        trip.add_stop_time(stop_time)
-    return trip
-
-
-def dispatch_trains(frequencies: defn.Frequencies, patterns_by_dir: List[List[RoutePattern]]):
-    # There should the same number of patterns for each direction
-    assert len(set([len(patterns) for patterns in patterns_by_dir])) == 1
-    route_pattern_index = 0
-    ordered_ranges = list(frequencies.keys())
-    # Route frequences must be normalized (ordered and non-overlapping ranges)
-    for (range_a, range_b) in get_pairs(ordered_ranges):
-        (start_a, end_a) = range_a
-        (start_b, _) = range_b
-        assert start_a < end_a
-        assert end_a <= start_b
-    now = ordered_ranges[0][0]
-    current_range_idx = 0
-    while True:
-        for patterns in patterns_by_dir:
-            route_pattern = patterns[route_pattern_index]
-            yield route_pattern, now
-        route_pattern_index = (route_pattern_index + 1) % len(patterns)
-        current_range = ordered_ranges[current_range_idx]
-        advance_time_by = frequencies[current_range]
-        now += timedelta(minutes=advance_time_by)
-        if now > current_range[1]:
-            current_range_idx += 1
-            if current_range_idx == len(ordered_ranges):
-                return
-
-
 def schedule_route(route_defn: defn.Route, ctx: defn.EvalContext) -> List[Trip]:
     route = Route(id=route_defn.id, long_name=route_defn.name)
     route_patterns = get_route_patterns_by_direction(route, route_defn, ctx.network)
