@@ -41,3 +41,10 @@ station_newton_corner = Station(
     location=(0, 0),
     municipality="Newton",
 )
+
+station_pawtucket = Station(
+    name="Pawtucket",
+    id="place-rr-pawtucket",
+    location=(0, 0),
+    municipality="Pawtucket, RI",
+)

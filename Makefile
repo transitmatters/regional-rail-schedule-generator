@@ -1,6 +1,9 @@
 install-git-hooks:
 	rm -f ./.git/hooks/* && cp ./.githooks/* ./.git/hooks && chmod +x ./.git/hooks/*
 
+format:
+	black .
+
 lint:
 	flake8 && black --check .
 

@@ -79,16 +79,12 @@ PROVIDENCE_STOUGHTON_SHARED = (
     "South Station",
     "Back Bay",
     "Ruggles",
+    "Forest Hills",
     "Hyde Park",
+    "Readville",
     "Route 128",
     "Canton Junction",
 )
-
-STOUGHTON = (
-    "Canton Center",
-    "Stoughton",
-)
-
 
 PROVIDENCE = (
     "Sharon",
@@ -97,6 +93,17 @@ PROVIDENCE = (
     "South Attleboro",
     "Providence",
 )
+
+STOUGHTON = (
+    "Canton Center",
+    "Stoughton",
+)
+
+WICKFORD_JUNCTION = (
+    "TF Green Airport",
+    "Wickford Junction",
+)
+
 
 NEEDHAM = (
     "South Station",
