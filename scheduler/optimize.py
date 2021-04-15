@@ -30,7 +30,9 @@ class OptimizeContext:
         return self._get_or_create_variable(f"departure_offset_{service}", nonneg=True)
 
 
-def get_indexed_arrival_expression(ctx: OptimizeContext, service: Service, index: int, node: Node):
+def get_indexed_arrival_expression(
+    ctx: OptimizeContext, service: Service, index: int, node: Node
+):
     offset = ctx.get_departure_offset_variable(service)
     headway = ctx.problem.get_service_headway(service)
     trip_time = service.trip_time_to_node_seconds(node)

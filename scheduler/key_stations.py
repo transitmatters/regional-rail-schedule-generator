@@ -18,7 +18,9 @@ def get_key_stations(route_patterns: List[RoutePattern]):
         for station_before, station_name, station_after in get_triples(stations):
             adjacent_stations_by_name[station_name] |= {station_before, station_after}
     for station_name in all_station_names:
-        junction_numbers_by_name[station_name] = len(adjacent_stations_by_name[station_name])
+        junction_numbers_by_name[station_name] = len(
+            adjacent_stations_by_name[station_name]
+        )
     for route_pattern in route_patterns:
         stations = route_pattern.stations
         first, last = stations[0], stations[-1]

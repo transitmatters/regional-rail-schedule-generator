@@ -40,7 +40,9 @@ def _get_routes_for_subgraph(subgraph: List[defn.Route], network: Network):
         route = Route(id=route_defn.id, long_name=route_defn.name)
         for pattern_defn in route_defn.route_patterns:
             stops = _get_stops_in_direction(pattern_defn, 0, network)
-            route_pattern = RoutePattern(id=pattern_defn.id, direction=0, stops=stops, route=route)
+            route_pattern = RoutePattern(
+                id=pattern_defn.id, direction=0, stops=stops, route=route
+            )
             route.add_route_pattern(route_pattern)
         yield route
 
@@ -62,7 +64,9 @@ def _resolve_station(network: Network, station_name_or_defn: Union[str, defn.Sta
     return network.get_station_by_name(station_name)
 
 
-def _add_time_to_trip(previous_stop: Stop, current_stop: Stop, route_pattern: defn.RoutePattern):
+def _add_time_to_trip(
+    previous_stop: Stop, current_stop: Stop, route_pattern: defn.RoutePattern
+):
     if not previous_stop:
         return timedelta(seconds=0)
     travel_time = route_pattern.timetable.get_travel_time(

@@ -21,7 +21,9 @@ def _canonicalize_travel_times(
     return res
 
 
-def _get_service_pattern(node: NetworkNode, network: SchedulerNetwork) -> ServicePattern:
+def _get_service_pattern(
+    node: NetworkNode, network: SchedulerNetwork
+) -> ServicePattern:
     items = []
     services_for_node = network.get_services_for_node(node)
     ordered_services = sorted(services_for_node, key=lambda s: s.id)
@@ -41,7 +43,9 @@ def _get_services_for_pattern(pattern: ServicePattern):
 
 
 @cache
-def _service_is_ancestor(maybe_ancestor: ServicePattern, maybe_descendant: ServicePattern):
+def _service_is_ancestor(
+    maybe_ancestor: ServicePattern, maybe_descendant: ServicePattern
+):
     if maybe_ancestor == maybe_descendant:
         return False
     ancestor_services = _get_services_for_pattern(maybe_ancestor)
@@ -49,12 +53,16 @@ def _service_is_ancestor(maybe_ancestor: ServicePattern, maybe_descendant: Servi
     return descendant_services < ancestor_services
 
 
-def _get_parents_for_service_pattern(patterns: Set[ServicePattern], target: ServicePattern):
+def _get_parents_for_service_pattern(
+    patterns: Set[ServicePattern], target: ServicePattern
+):
     parents = set()
     for other in patterns:
         is_ancestor = _service_is_ancestor(other, target)
         if is_ancestor:
-            is_ancestor_of_parent = any(_service_is_ancestor(other, parent) for parent in parents)
+            is_ancestor_of_parent = any(
+                _service_is_ancestor(other, parent) for parent in parents
+            )
             if not is_ancestor_of_parent:
                 parents.add(other)
                 for parent in set(parents):

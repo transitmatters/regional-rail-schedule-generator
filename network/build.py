@@ -46,7 +46,8 @@ def get_shapes_by_id(shapes):
         res[shape_id].append((lat, lon, seq))
     for shape_id in res:
         res[shape_id] = [
-            (lat, lon) for (lat, lon, _) in sorted(res[shape_id], key=lambda entry: entry[2])
+            (lat, lon)
+            for (lat, lon, _) in sorted(res[shape_id], key=lambda entry: entry[2])
         ]
     return res
 
@@ -140,7 +141,9 @@ def link_child_stops(station, stop_dicts):
             stop_dict["parent_station"] == station.id
             and stop_dict["location_type"] == LocationType.STOP
         ):
-            stop = Stop(parent_station=station, **get_station_stop_args_from_dict(stop_dict))
+            stop = Stop(
+                parent_station=station, **get_station_stop_args_from_dict(stop_dict)
+            )
             yield stop
             if len(stop.stop_times) > 0:
                 station.add_child_stop(stop)
@@ -164,7 +167,9 @@ def link_transfers(stop, all_stops, transfer_dicts):
                     min_walk_time=int(transfer_dict["min_walk_time"] or 0),
                     min_wheelchair_time=int(transfer_dict["min_wheelchair_time"] or 0),
                     min_transfer_time=int(transfer_dict["min_transfer_time"] or 0),
-                    suggested_buffer_time=int(transfer_dict["suggested_buffer_time"] or 0),
+                    suggested_buffer_time=int(
+                        transfer_dict["suggested_buffer_time"] or 0
+                    ),
                     wheelchair_transfer=transfer_dict["wheelchair_transfer"],
                 )
                 stop.add_transfer(transfer)

@@ -75,13 +75,22 @@ FITCHBURG = (
 )
 
 
-PROVIDENCE_STOUGHTON = (
+PROVIDENCE_STOUGHTON_SHARED = (
     "South Station",
     "Back Bay",
     "Ruggles",
     "Hyde Park",
     "Route 128",
     "Canton Junction",
+)
+
+STOUGHTON = (
+    "Canton Center",
+    "Stoughton",
+)
+
+
+PROVIDENCE = (
     "Sharon",
     "Mansfield",
     "Attleboro",

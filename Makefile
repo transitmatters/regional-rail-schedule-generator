@@ -2,7 +2,7 @@ install-git-hooks:
 	rm -f ./.git/hooks/* && cp ./.githooks/* ./.git/hooks && chmod +x ./.git/hooks/*
 
 lint:
-	flake8
+	flake8 && black --check .
 
 existing-network:
 	rm -f data/network.pickle
