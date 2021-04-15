@@ -1,3 +1,9 @@
+install-git-hooks:
+	rm -f ./.git/hooks/* && cp ./.githooks/* ./.git/hooks && chmod +x ./.git/hooks/*
+
+lint:
+	flake8
+
 existing-network:
 	rm -f data/network.pickle
 	python3 -m network.relevant_stop_times

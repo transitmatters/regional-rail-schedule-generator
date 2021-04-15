@@ -3,7 +3,7 @@ from functools import cached_property
 from typing import List, Dict, Tuple
 
 from synthesize.util import listify
-from scheduler.network import SchedulerNetwork, Service, Node
+from scheduler.network import Service, Node
 from scheduler.scheduling_problem import SchedulingProblem
 
 

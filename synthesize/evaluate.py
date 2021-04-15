@@ -1,9 +1,9 @@
 from dataclasses import dataclass
-from typing import List, Tuple, Union
+from typing import List, Union
 from datetime import timedelta
 
 from network.main import get_gtfs_network
-from network.models import Network, Service, StopTime, Stop, Trip, Route, RoutePattern, DIRECTIONS
+from network.models import Network, Service, StopTime, Stop, Trip, Route, RoutePattern
 from scheduler.departures import get_departures_for_subgraph
 
 from synthesize.network import create_synthetic_network

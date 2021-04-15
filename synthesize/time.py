@@ -1,5 +1,4 @@
 from typing import Dict
-import datetime
 
 from network.time import time_from_string, time_range_from_string, DAYS_OF_WEEK
 from network.models import Service

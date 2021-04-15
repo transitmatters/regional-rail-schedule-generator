@@ -1,5 +1,4 @@
 import math
-from itertools import zip_longest
 from typing import List
 
 from geopy.distance import geodesic

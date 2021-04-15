@@ -3,9 +3,7 @@ from functools import cached_property
 from typing import Dict, List, Tuple, Union
 from datetime import timedelta
 
-from numpy import isin
-
-from network.models import Network, Service
+from network.models import Service
 from synthesize.time import Timetable
 from synthesize.trainset import Trainset
 from synthesize.util import listify
