@@ -48,3 +48,66 @@ station_pawtucket = Station(
     location=(0, 0),
     municipality="Pawtucket, RI",
 )
+
+station_hingham_depot = Station(
+    name="Hingham Depot",
+    id="place-rr-hingham-depot",
+    location=(0, 0),
+    municipality="Hingham",
+)
+
+station_cohasset_center = Station(
+    name="Cohasset Center",
+    id="place-rr-cohasset-center",
+    location=(0, 0),
+    municipality="Cohasset Center",
+)
+
+station_braintree_highlands = Station(
+    name="Braintree Highlands",
+    id="place-rr-braintree-highlands",
+    location=(0, 0),
+    municipality="Braintree",
+)
+
+station_bridgewater_center = Station(
+    name="Bridgewater Center",
+    id="place-rr-bridgewater-center",
+    location=(0, 0),
+    municipality="Bridgewater",
+)
+
+station_middleborough_centre_st = Station(
+    name="Middleborough Centre St",
+    id="place-rr-mboro-centre-st",
+    location=(0, 0),
+    municipality="Middleborough",
+)
+
+station_weymouth_columbian_square = Station(
+    name="Weymouth Columbian Square",
+    id="place-rr-weymouth-col-sq",
+    location=(0, 0),
+    municipality="Weymouth",
+)
+
+station_rockland_north_abington = Station(
+    name="Rockland-North Abington",
+    id="place-rockland-n-abington",
+    location=(0, 0),
+    municipality="Abington",
+)
+
+station_kingston_junction = Station(
+    name="Kingston Junction",
+    id="place-kingston-jct",
+    location=(0, 0),
+    municipality="Kingston",
+)
+
+station_plymouth_center = Station(
+    name="Plymouth Center",
+    id="place-plymouth-center",
+    location=(0, 0),
+    municipality="Plymouth",
+)

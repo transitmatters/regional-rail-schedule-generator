@@ -104,7 +104,6 @@ WICKFORD_JUNCTION = (
     "Wickford Junction",
 )
 
-
 NEEDHAM = (
     "South Station",
     "Back Bay",
@@ -168,7 +167,6 @@ GREENBUSH = (
     "East Weymouth",
     "West Hingham",
     "Nantasket Junction",
-    "Cohasset",
     "North Scituate",
     "Greenbush",
 )
@@ -186,7 +184,6 @@ OC_KINGSTON_PLYMOUTH = OC_SHARED + (
     "Whitman",
     "Hanson",
     "Halifax",
-    "Kingston",
     "Plymouth",
 )
 

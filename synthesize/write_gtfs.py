@@ -274,7 +274,10 @@ def add_trip(trip: Trip, writer: GtfsWriter):
 
 def write_scenario_gtfs(scenario: Scenario, directory_path: str):
     writer = GtfsWriter(directory_path)
-    all_shadowed_route_ids = scenario.network.routes_by_id.keys()
+    all_shadowed_route_ids = [
+        *scenario.shadowed_route_ids,
+        *scenario.network.routes_by_id.keys(),
+    ]
     all_station_ids = get_all_station_ids(scenario)
     for station_id in all_station_ids:
         add_stops(scenario, writer, station_id)

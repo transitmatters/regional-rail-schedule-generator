@@ -30,6 +30,13 @@ class RoutePattern(object):
     name: str = None
     trainset: Trainset = None
 
+    def __post_init__(self):
+        for station in self.stations:
+            station_name = station.name if isinstance(station, Station) else station
+            assert self.timetable.contains(
+                station_name
+            ), f"Missing travel time info for {station_name}"
+
     @cached_property
     @listify
     def station_names(self):

@@ -18,6 +18,14 @@ class Scenario(object):
     services: List[Service]
     network: Network
     real_network: Network
+    shadowed_route_ids: List[str]
+
+
+@listify
+def _get_shadowed_route_ids(subgraph: List[defn.Route]):
+    for route in subgraph:
+        if route.shadows_real_route:
+            yield route.shadows_real_route
 
 
 @listify
@@ -65,7 +73,9 @@ def _resolve_station(network: Network, station_name_or_defn: Union[str, defn.Sta
 
 
 def _add_time_to_trip(
-    previous_stop: Stop, current_stop: Stop, route_pattern: defn.RoutePattern
+    previous_stop: Stop,
+    current_stop: Stop,
+    route_pattern: defn.RoutePattern,
 ):
     if not previous_stop:
         return timedelta(seconds=0)
@@ -133,11 +143,18 @@ def evaluate_scenario(subgraphs: List[List[defn.Route]]) -> Scenario:
     real_network = get_gtfs_network()
     pattern_defns = _get_route_pattern_definitions_from_subgraphs(subgraphs)
     network = create_synthetic_network(real_network, pattern_defns)
+    shadowed_route_ids = []
     for service in services:
         network.services_by_id[service.id] = service
     for subgraph in subgraphs:
+        shadowed_route_ids += _get_shadowed_route_ids(subgraph)
         for route in _get_routes_for_subgraph(subgraph, network):
             network.routes_by_id[route.id] = route
         for trip in _get_trips_for_subgraph(subgraph, services, network):
             network.trips_by_id[trip.id] = trip
-    return Scenario(services=services, real_network=real_network, network=network)
+    return Scenario(
+        services=services,
+        real_network=real_network,
+        network=network,
+        shadowed_route_ids=shadowed_route_ids,
+    )

@@ -14,6 +14,9 @@ class Timetable(object):
         else:
             self.travel_times = {}
 
+    def contains(self, key):
+        return key in self.travel_times
+
     def get_travel_time(self, from_key, to_key):
         from_time = self.travel_times.get(from_key)
         to_time = self.travel_times.get(to_key)
