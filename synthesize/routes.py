@@ -162,6 +162,23 @@ FAIRMOUNT = (
     "Readville",
 )
 
+FRANKLIN = (
+    "South Station",
+    "Back Bay",
+    "Ruggles",
+    "Readville",
+    "Endicott",
+    "Dedham Corp Center",
+    "Islington",
+    "Norwood Depot",
+    "Norwood Central",
+    "Windsor Gardens",
+    "Walpole",
+    "Norfolk",
+    "Franklin",
+    "Forge Park/495",
+)
+
 GREENBUSH = (
     "South Station",
     "JFK/UMass",
