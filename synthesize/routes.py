@@ -39,6 +39,15 @@ LOWELL = (
 
 HAVERHILL = (
     "North Station",
+    "Ballardvale",
+    "Andover",
+    "Lawrence",
+    "Bradford",
+    "Haverhill",
+)
+
+READING = (
+    "North Station",
     "Malden Center",
     "Wyoming Hill",
     "Melrose Cedar Park",
@@ -46,12 +55,6 @@ HAVERHILL = (
     "Greenwood",
     "Wakefield",
     "Reading",
-    "North Wilmington",
-    "Ballardvale",
-    "Andover",
-    "Lawrence",
-    "Bradford",
-    "Haverhill",
 )
 
 FITCHBURG = (
