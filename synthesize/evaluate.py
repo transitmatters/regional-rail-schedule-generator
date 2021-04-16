@@ -69,7 +69,9 @@ def _resolve_station(network: Network, station_name_or_defn: Union[str, defn.Sta
         if isinstance(station_name_or_defn, defn.Station)
         else station_name_or_defn
     )
-    return network.get_station_by_name(station_name)
+    station = network.get_station_by_name(station_name)
+    assert station, f"No station in network by name {station_name}"
+    return station
 
 
 def _add_time_to_trip(
