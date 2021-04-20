@@ -72,33 +72,54 @@ def _get_dispatch_times(tph: int, dispatch_offset: int, rng: TimeRange) -> List[
         now += timedelta(minutes=headway)
 
 
-def _get_departure_offsets(
-    network: SchedulerNetwork, route_pattern_id_to_tph: Dict[str, int]
-) -> Dict[str, int]:
-    problem = SchedulingProblem(
-        trips_per_period=route_pattern_id_to_tph, network=network
-    )
-    orderings = get_orderings(problem)
-    return solve_departure_offsets_for_orderings(problem, orderings)
+def _create_departure_offset_getter(network: SchedulerNetwork) -> Dict[str, int]:
+    tph_dict_cache = {}
+
+    def get_departure_offsets(route_pattern_id_to_tph: Dict[str, int]):
+        key = tuple(sorted(route_pattern_id_to_tph.items()))
+        cached_result = tph_dict_cache.get(key)
+        if cached_result:
+            return cached_result
+        problem = SchedulingProblem(
+            trips_per_period=route_pattern_id_to_tph, network=network
+        )
+        orderings = get_orderings(problem)
+        offsets = solve_departure_offsets_for_orderings(problem, orderings)
+        tph_dict_cache[key] = offsets
+        return offsets
+
+    return get_departure_offsets
 
 
-def get_departures_for_subgraph(subgraph: List[Route], service: Service):
+def create_departure_getter_for_subgraph(subgraph: List[Route]):
     route_patterns = _get_route_patterns(subgraph)
-    constant_frequency_ranges = _get_constant_frequency_time_ranges(
-        route_patterns, service
-    )
-    # previous_arrivals = None
     scheduler_network = create_scheduler_network(route_patterns)
     reverse_scheduler_network = scheduler_network.reverse()
-    for (time_range, route_pattern_id_to_tph) in constant_frequency_ranges.items():
-        for direction in DIRECTIONS:
-            network = scheduler_network if direction == 0 else reverse_scheduler_network
-            offsets = _get_departure_offsets(network, route_pattern_id_to_tph)
-            for route_pattern in route_patterns:
-                route_tph = route_pattern_id_to_tph[route_pattern.id]
-                route_offset = offsets[route_pattern.id]
-                dispatch_times = _get_dispatch_times(
-                    route_tph, route_offset, time_range
+    get_departure_offsets = _create_departure_offset_getter(scheduler_network)
+    get_reverse_departure_offsets = _create_departure_offset_getter(
+        reverse_scheduler_network
+    )
+
+    def get_departures_for_service(service: Service):
+        constant_frequency_ranges = _get_constant_frequency_time_ranges(
+            route_patterns,
+            service,
+        )
+        for (time_range, route_pattern_id_to_tph) in constant_frequency_ranges.items():
+            for direction in DIRECTIONS:
+                getter = (
+                    get_departure_offsets
+                    if direction == 0
+                    else get_reverse_departure_offsets
                 )
-                for time in dispatch_times:
-                    yield (route_pattern, direction, time)
+                offsets = getter(route_pattern_id_to_tph)
+                for route_pattern in route_patterns:
+                    route_tph = route_pattern_id_to_tph[route_pattern.id]
+                    route_offset = offsets[route_pattern.id]
+                    dispatch_times = _get_dispatch_times(
+                        route_tph, route_offset, time_range
+                    )
+                    for time in dispatch_times:
+                        yield (route_pattern, direction, time)
+
+    return get_departures_for_service

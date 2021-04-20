@@ -4,7 +4,7 @@ from datetime import timedelta
 
 from network.main import get_gtfs_network
 from network.models import Network, Service, StopTime, Stop, Trip, Route, RoutePattern
-from scheduler.departures import get_departures_for_subgraph
+from scheduler.departures import create_departure_getter_for_subgraph
 
 from synthesize.network import create_synthetic_network
 import synthesize.definitions as defn
@@ -123,8 +123,9 @@ def _get_trips_for_subgraph(
     network: Network,
 ) -> List[Trip]:
     trip_index = 0
+    get_departures = create_departure_getter_for_subgraph(subgraph)
     for service in services:
-        departures = get_departures_for_subgraph(subgraph, service)
+        departures = get_departures(service)
         for route_pattern, direction, departure_time in departures:
             route = next((r for r in subgraph if route_pattern in r.route_patterns))
             trip = _get_trip(
