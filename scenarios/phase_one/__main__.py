@@ -7,8 +7,7 @@ from scenarios.phase_one.lowell_haverhill import lowell, haverhill
 from scenarios.phase_one.fitchburg import fitchburg
 from scenarios.phase_one.worcester_framingham import worcester_framingham
 from scenarios.phase_one.needham import needham
-from scenarios.phase_one.fairmount import fairmount
-from scenarios.phase_one.franklin import franklin
+from scenarios.phase_one.fairmount_franklin import fairmount, franklin
 from scenarios.phase_one.providence import providence_stoughton
 from scenarios.phase_one.south_shore import greenbush, middleborough, plymouth
 
@@ -18,8 +17,8 @@ subgraphs = [
     [fitchburg],
     [worcester_framingham],
     [providence_stoughton],
-    [needham, franklin],
-    [fairmount],
+    [needham],
+    [fairmount, franklin],
     [greenbush, middleborough, plymouth],
 ]
 
