@@ -1,13 +1,14 @@
 from dataclasses import dataclass
-from typing import List, Union
+from typing import List, Union, Dict
 from datetime import timedelta
 
 from network.main import get_gtfs_network
 from network.models import Network, Service, StopTime, Stop, Trip, Route, RoutePattern
 from scheduler.departures import create_departure_getter_for_subgraph
 
-from synthesize.network import create_synthetic_network
 import synthesize.definitions as defn
+from synthesize.amenities import Amenities, RR_BASE_AMENITIES
+from synthesize.network import create_synthetic_network
 from synthesize.time import Weekdays, Saturday, Sunday
 
 from synthesize.util import listify
@@ -19,6 +20,7 @@ class Scenario(object):
     network: Network
     real_network: Network
     shadowed_route_ids: List[str]
+    route_pattern_amenities: Dict[str, Amenities]
 
 
 @listify
@@ -48,11 +50,22 @@ def _get_routes_for_subgraph(subgraph: List[defn.Route], network: Network):
         route = Route(id=route_defn.id, long_name=route_defn.name)
         for pattern_defn in route_defn.route_patterns:
             stops = _get_stops_in_direction(pattern_defn, 0, network)
-            route_pattern = RoutePattern(
-                id=pattern_defn.id, direction=0, stops=stops, route=route
-            )
+            route_pattern = RoutePattern(id=pattern_defn.id, direction=0, stops=stops, route=route)
             route.add_route_pattern(route_pattern)
         yield route
+
+
+def _get_amenities_by_route_pattern_id_for_subgraph(
+    subgraph: List[defn.Route],
+) -> Dict[str, Amenities]:
+    amenities_by_route_pattern_id = {}
+    for route_defn in subgraph:
+        for pattern_defn in route_defn.route_patterns:
+            resolved_amenities = RR_BASE_AMENITIES.cascade(route_defn.amenities).cascade(
+                pattern_defn.amenities
+            )
+            amenities_by_route_pattern_id[pattern_defn.id] = resolved_amenities
+    return amenities_by_route_pattern_id
 
 
 @listify
@@ -146,10 +159,15 @@ def evaluate_scenario(subgraphs: List[List[defn.Route]]) -> Scenario:
     real_network = get_gtfs_network()
     pattern_defns = _get_route_pattern_definitions_from_subgraphs(subgraphs)
     network = create_synthetic_network(real_network, pattern_defns)
+    route_pattern_amenities = {}
     shadowed_route_ids = []
     for service in services:
         network.services_by_id[service.id] = service
     for subgraph in subgraphs:
+        route_pattern_amenities = {
+            **route_pattern_amenities,
+            **_get_amenities_by_route_pattern_id_for_subgraph(subgraph),
+        }
         shadowed_route_ids += _get_shadowed_route_ids(subgraph)
         for route in _get_routes_for_subgraph(subgraph, network):
             network.routes_by_id[route.id] = route
@@ -160,4 +178,5 @@ def evaluate_scenario(subgraphs: List[List[defn.Route]]) -> Scenario:
         real_network=real_network,
         network=network,
         shadowed_route_ids=shadowed_route_ids,
+        route_pattern_amenities=route_pattern_amenities,
     )

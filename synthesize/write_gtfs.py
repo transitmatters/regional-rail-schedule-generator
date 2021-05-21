@@ -1,4 +1,4 @@
-from typing import Union, List
+from typing import Union, List, Dict
 import csv
 import shutil
 import os
@@ -15,7 +15,12 @@ from network.models import (
     Trip,
     VehicleType,
 )
+from synthesize.amenities import Amenities
 from synthesize.evaluate import Scenario
+
+
+def _boolish_num_string(val: bool):
+    return "1" if val else "0"
 
 
 class GtfsWriter(object):
@@ -31,6 +36,7 @@ class GtfsWriter(object):
         self.route_rows = []
         self.route_pattern_rows = []
         self.calendar_rows = []
+        self.amenity_rows = []
 
     def add_route(self, route: Route):
         self.route_rows.append(
@@ -64,9 +70,7 @@ class GtfsWriter(object):
                 }
             )
 
-    def add_stop(
-        self, stop: Union[Stop, Station], override_parent_station_id: str = None
-    ):
+    def add_stop(self, stop: Union[Stop, Station], override_parent_station_id: str = None):
         is_stop = isinstance(stop, Stop)
         location_type = LocationType.STOP if is_stop else LocationType.STATION
         inferred_parent_station_id = stop.parent_station.id if is_stop else ""
@@ -126,7 +130,7 @@ class GtfsWriter(object):
                 "wheelchair_accessible": "",
                 "trip_route_type": "",
                 "route_pattern_id": trip.route_pattern_id,
-                "bikes_allowed": 0,
+                "bikes_allowed": "0",
             }
         )
 
@@ -147,10 +151,21 @@ class GtfsWriter(object):
     def add_service(self, service: Service):
         days_dict = {}
         for day in DAYS_OF_WEEK:
-            days_dict[day] = "1" if day in service.days else "0"
+            days_dict[day] = _boolish_num_string(day in service.days)
         self.calendar_rows.append(
             {"service_id": service.id, **days_dict, "start_date": "", "end_date": ""}
         )
+
+    def add_amenities(self, amenities_by_route_pattern_id: Dict[str, Amenities]):
+        for route_pattern_id, amenities in amenities_by_route_pattern_id.items():
+            self.amenity_rows.append(
+                {
+                    "route_pattern_id": route_pattern_id,
+                    "electric_trains": _boolish_num_string(amenities.electric_trains),
+                    "level_boarding": _boolish_num_string(amenities.level_boarding),
+                    "increased_top_speed": _boolish_num_string(amenities.increased_top_speed),
+                }
+            )
 
     def write_rows_to_csv(self, file_name, rows):
         full_file_path = os.path.join(self.directory_path, file_name + ".txt")
@@ -172,6 +187,7 @@ class GtfsWriter(object):
         self.write_rows_to_csv("trips", self.trip_rows)
         self.write_rows_to_csv("routes", self.route_rows)
         self.write_rows_to_csv("route_patterns", self.route_pattern_rows)
+        self.write_rows_to_csv("amenities", self.amenity_rows)
 
 
 def get_all_station_ids(scenario: Scenario):
@@ -254,9 +270,7 @@ def add_stops(scenario: Scenario, writer: GtfsWriter, station_id: str):
             for transfer in stop.transfers:
                 if transfer.to_stop in valid_real_stops:
                     writer.add_transfer(transfer)
-        add_synth_to_real_transfers(
-            real_station.child_stops, synth_station.child_stops, writer
-        )
+        add_synth_to_real_transfers(real_station.child_stops, synth_station.child_stops, writer)
     else:
         existing_station = real_station or synth_station
         writer.add_stop(existing_station)
@@ -295,4 +309,5 @@ def write_scenario_gtfs(scenario: Scenario, directory_path: str):
         scenario.network.services_by_id.values()
     ):
         writer.add_service(service)
+    writer.add_amenities(scenario.route_pattern_amenities)
     writer.write()

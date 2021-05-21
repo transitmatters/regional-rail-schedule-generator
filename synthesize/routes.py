@@ -162,16 +162,15 @@ FAIRMOUNT = (
     "Readville",
 )
 
-FRANKLIN = (
-    "South Station",
-    "Back Bay",
-    "Ruggles",
-    "Readville",
+FRANKLIN_TO_NORWOOD = (
     "Endicott",
     "Dedham Corp Center",
     "Islington",
     "Norwood Depot",
     "Norwood Central",
+)
+
+FRANKLIN_TO_FORGE_PARK = (
     "Windsor Gardens",
     "Walpole",
     "Norfolk",
@@ -224,6 +223,8 @@ ALL_ROUTES = [
     HAVERHILL,
     FAIRMOUNT,
     FRAMINGHAM,
+    FRANKLIN_TO_NORWOOD,
+    FRANKLIN_TO_FORGE_PARK,
     WORCESTER,
     GREENBUSH,
     NEEDHAM,
