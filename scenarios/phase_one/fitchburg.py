@@ -1,6 +1,6 @@
 from synthesize.definitions import Route, RoutePattern
 from synthesize.routes import FITCHBURG
-from synthesize.time import all_day_frequencies, Timetable
+from synthesize.time import all_day_30, Timetable
 
 timetable = Timetable(
     {
@@ -32,7 +32,7 @@ fitchburg = Route(
         RoutePattern(
             id="fitchburg",
             stations=FITCHBURG,
-            schedule=all_day_frequencies(30),
+            schedule=all_day_30,
             timetable=timetable,
         )
     ],

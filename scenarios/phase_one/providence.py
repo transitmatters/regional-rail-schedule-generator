@@ -5,7 +5,7 @@ from synthesize.routes import (
     STOUGHTON,
     WICKFORD_JUNCTION,
 )
-from synthesize.time import Timetable, all_day_frequencies, peak_offpeak_frequencies
+from synthesize.time import Timetable, all_day_30, peak_offpeak_frequencies
 from synthesize.infill import infill
 
 from scenarios.phase_one.infill_stations import station_pawtucket
@@ -51,14 +51,14 @@ providence = RoutePattern(
     id="providence",
     stations=providence_stations,
     timetable=timetable,
-    schedule=all_day_frequencies(30),
+    schedule=all_day_30,
 )
 
 wickford_junction = RoutePattern(
     id="wickford-junction",
     stations=providence_stations + WICKFORD_JUNCTION,
     timetable=timetable,
-    schedule=all_day_frequencies(30),
+    schedule=all_day_30,
 )
 
 providence_stoughton = Route(

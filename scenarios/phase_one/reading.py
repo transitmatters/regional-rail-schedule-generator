@@ -1,6 +1,6 @@
 from synthesize.definitions import Route, RoutePattern
 from synthesize.routes import READING
-from synthesize.time import all_day_frequencies, Timetable
+from synthesize.time import all_day_30, Timetable
 
 timetable = Timetable(
     {
@@ -25,7 +25,7 @@ reading = Route(
             name="Reading",
             stations=READING,
             timetable=timetable,
-            schedule=all_day_frequencies(30),
+            schedule=all_day_30,
         )
     ],
 )

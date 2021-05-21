@@ -3,6 +3,7 @@ from synthesize.routes import FRAMINGHAM, WORCESTER
 from synthesize.infill import infill
 from synthesize.time import all_day_15, peak_offpeak_frequencies, Timetable
 
+from scenarios.phase_one.trainset import emu_trainset
 from scenarios.phase_one.infill_stations import (
     station_newton_corner,
     station_west_station,
@@ -14,9 +15,7 @@ framingham_stations = infill(
     ["Boston Landing", station_newton_corner, "Newtonville"],
 )
 
-worcester_stations = infill(
-    WORCESTER, ["Lansdowne", station_newton_corner, "Framingham"]
-)
+worcester_stations = infill(WORCESTER, ["Lansdowne", station_newton_corner, "Framingham"])
 
 timetable = Timetable(
     {
@@ -73,5 +72,6 @@ worcester_framingham = Route(
     name="Worcester/Framingham",
     id="CR-Worcester",
     shadows_real_route="CR-Worcester",
+    trainset=emu_trainset,
     route_patterns=[framingham, worcester],
 )

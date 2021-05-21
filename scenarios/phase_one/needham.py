@@ -1,6 +1,6 @@
 from synthesize.definitions import Route, RoutePattern
 from synthesize.routes import NEEDHAM
-from synthesize.time import Timetable, all_day_frequencies
+from synthesize.time import Timetable, all_day_30
 
 timetable = Timetable(
     {
@@ -29,7 +29,7 @@ needham = Route(
             name="Needham",
             stations=NEEDHAM,
             timetable=timetable,
-            schedule=all_day_frequencies(30),
+            schedule=all_day_30,
         )
     ],
 )

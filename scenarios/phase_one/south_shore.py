@@ -4,7 +4,7 @@ from synthesize.routes import (
     OC_KINGSTON_PLYMOUTH,
     OC_MIDDLEBOROUGH_LAKEVILLE,
 )
-from synthesize.time import Timetable, all_day_frequencies
+from synthesize.time import Timetable, all_day_30
 from synthesize.infill import infill
 
 from scenarios.phase_one.infill_stations import (
@@ -92,7 +92,7 @@ greenbush = Route(
             name="Greenbush",
             timetable=timetable,
             stations=stations_greenbush,
-            schedule=all_day_frequencies(30),
+            schedule=all_day_30,
         )
     ],
 )
@@ -108,7 +108,7 @@ middleborough = Route(
             name="Middleborough/Lakeville",
             timetable=timetable,
             stations=stations_middleborough_lakeville,
-            schedule=all_day_frequencies(30),
+            schedule=all_day_30,
         )
     ],
 )
@@ -124,7 +124,7 @@ plymouth = Route(
             name="Plymouth",
             timetable=timetable,
             stations=stations_plymouth,
-            schedule=all_day_frequencies(30),
+            schedule=all_day_30,
         )
     ],
 )

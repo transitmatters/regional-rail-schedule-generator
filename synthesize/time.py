@@ -29,8 +29,7 @@ class Timetable(object):
         map_values = map_values if map_values else lambda x: x
         new = Timetable()
         new.travel_times = {
-            map_keys(key): map_values(value)
-            for (key, value) in self.travel_times.items()
+            map_keys(key): map_values(value) for (key, value) in self.travel_times.items()
         }
         return new
 
@@ -90,3 +89,4 @@ def peak_offpeak_frequencies(peak_headway, off_peak_headway):
 
 
 all_day_15 = all_day_frequencies(15)
+all_day_30 = all_day_frequencies(30)

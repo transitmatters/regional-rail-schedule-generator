@@ -1,6 +1,6 @@
 from synthesize.definitions import Route, RoutePattern
 from synthesize.routes import HAVERHILL, LOWELL
-from synthesize.time import all_day_frequencies, Timetable
+from synthesize.time import all_day_30, Timetable
 
 timetable = Timetable(
     {
@@ -31,7 +31,7 @@ lowell = Route(
             name="Lowell",
             stations=LOWELL,
             timetable=timetable,
-            schedule=all_day_frequencies(30),
+            schedule=all_day_30,
         )
     ],
 )
@@ -46,7 +46,7 @@ haverhill = Route(
             name="Haverhill",
             stations=HAVERHILL,
             timetable=timetable,
-            schedule=all_day_frequencies(30),
+            schedule=all_day_30,
         )
     ],
 )
