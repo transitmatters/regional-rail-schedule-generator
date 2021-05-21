@@ -29,7 +29,8 @@ class Timetable(object):
         map_values = map_values if map_values else lambda x: x
         new = Timetable()
         new.travel_times = {
-            map_keys(key): map_values(value) for (key, value) in self.travel_times.items()
+            map_keys(key): map_values(value)
+            for (key, value) in self.travel_times.items()
         }
         return new
 

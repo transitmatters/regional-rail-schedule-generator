@@ -50,7 +50,9 @@ def _get_routes_for_subgraph(subgraph: List[defn.Route], network: Network):
         route = Route(id=route_defn.id, long_name=route_defn.name)
         for pattern_defn in route_defn.route_patterns:
             stops = _get_stops_in_direction(pattern_defn, 0, network)
-            route_pattern = RoutePattern(id=pattern_defn.id, direction=0, stops=stops, route=route)
+            route_pattern = RoutePattern(
+                id=pattern_defn.id, direction=0, stops=stops, route=route
+            )
             route.add_route_pattern(route_pattern)
         yield route
 
@@ -61,9 +63,9 @@ def _get_amenities_by_route_pattern_id_for_subgraph(
     amenities_by_route_pattern_id = {}
     for route_defn in subgraph:
         for pattern_defn in route_defn.route_patterns:
-            resolved_amenities = RR_BASE_AMENITIES.cascade(route_defn.amenities).cascade(
-                pattern_defn.amenities
-            )
+            resolved_amenities = RR_BASE_AMENITIES.cascade(
+                route_defn.amenities
+            ).cascade(pattern_defn.amenities)
             amenities_by_route_pattern_id[pattern_defn.id] = resolved_amenities
     return amenities_by_route_pattern_id
 

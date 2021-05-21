@@ -15,7 +15,9 @@ framingham_stations = infill(
     ["Boston Landing", station_newton_corner, "Newtonville"],
 )
 
-worcester_stations = infill(WORCESTER, ["Lansdowne", station_newton_corner, "Framingham"])
+worcester_stations = infill(
+    WORCESTER, ["Lansdowne", station_newton_corner, "Framingham"]
+)
 
 timetable = Timetable(
     {

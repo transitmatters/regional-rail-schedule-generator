@@ -75,7 +75,9 @@ franklin = Route(
         RoutePattern(
             id="franklin-forge-park",
             name="Franklin/Forge Park",
-            stations=fairmount_station_names + FRANKLIN_TO_NORWOOD + FRANKLIN_TO_FORGE_PARK,
+            stations=fairmount_station_names
+            + FRANKLIN_TO_NORWOOD
+            + FRANKLIN_TO_FORGE_PARK,
             timetable=timetable,
             schedule=all_day_30,
         ),

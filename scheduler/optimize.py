@@ -120,7 +120,7 @@ def solve_departure_offsets(problem: SchedulingProblem, ordering: Ordering):
 def solve_departure_offsets_for_orderings(
     problem: SchedulingProblem,
     orderings: List[Ordering],
-    debug=False,
+    debug=True,
 ):
     best_offsets = None
     best_arrivals = None
