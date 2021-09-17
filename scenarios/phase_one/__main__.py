@@ -15,9 +15,7 @@ subgraphs = [
     [eastern],
     [lowell, haverhill, reading],
     [fitchburg],
-    [worcester_framingham],
-    [providence_stoughton],
-    [needham],
+    [providence_stoughton, needham, worcester_framingham],
     [fairmount, franklin],
     [greenbush, middleborough, plymouth],
 ]

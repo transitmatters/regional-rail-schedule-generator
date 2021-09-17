@@ -1,6 +1,7 @@
 from typing import List
 from dataclasses import dataclass
 import cvxpy as cp
+from tqdm import tqdm
 
 from synthesize.util import get_pairs, listify
 
@@ -126,15 +127,18 @@ def solve_departure_offsets_for_orderings(
     best_arrivals = None
     best_ordering = None
     best_value = float("inf")
-    for ordering in orderings:
+    for ordering in tqdm(orderings):
         value, offsets, arrivals = solve_departure_offsets(problem, ordering)
         if value < best_value:
             best_ordering = ordering
             best_value = value
             best_offsets = offsets
             best_arrivals = arrivals
+        if value < 1e-3:
+            break
+        print(value)
     if debug:
-        print("---------")
+        print("---------", best_value)
         print(best_ordering)
         for node_id, arrivals in best_arrivals.items():
             print(node_id, [a // 60 for a in arrivals])

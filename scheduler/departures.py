@@ -83,7 +83,9 @@ def _create_departure_offset_getter(network: SchedulerNetwork) -> Dict[str, int]
         problem = SchedulingProblem(
             trips_per_period=route_pattern_id_to_tph, network=network
         )
+        print(problem)
         orderings = get_orderings(problem)
+        print(f"Checking {len(orderings)} orderings")
         offsets = solve_departure_offsets_for_orderings(problem, orderings)
         tph_dict_cache[key] = offsets
         return offsets

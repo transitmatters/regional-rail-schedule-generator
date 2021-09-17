@@ -45,6 +45,9 @@ class ServicePool:
     def __init__(self, trips_per_period_dict):
         self.trips_per_period_dict = trips_per_period_dict
 
+    def remaining_trips_for_service(self, service_id):
+        return self.trips_per_period_dict.get(service_id)
+
     def next_candidates(self):
         for key, count in self.trips_per_period_dict.items():
             if count > 0:
@@ -96,22 +99,28 @@ def minimum_time_spanned_by_sequence(sequence: List[str], problem: SchedulingPro
         previous_minimum_time = previous_minimum_times.get(dispatch)
         min_now = now + problem.dispatch_spacing_time
         if previous_minimum_time is not None:
-            now = max(
-                min_now, previous_minimum_time + problem.get_service_headway(dispatch)
-            )
+            now = max(min_now, previous_minimum_time + problem.get_service_headway(dispatch))
         else:
             now = min_now
         previous_minimum_times[dispatch] = now
     return now
 
 
+def minimum_remaining_time_required_for_state(state: OrderingState, problem: SchedulingProblem):
+    min_time = 0
+    for service in problem.services:
+        remaining_trips = state.service_pool.remaining_trips_for_service(service)
+        headway = problem.get_service_headway(service)
+        min_time_for_service = (remaining_trips - 1) * headway
+        min_time = max(min_time, min_time_for_service)
+    return min_time
+
+
 def last_index_of(sequence: List[str], service: str):
     return len(sequence) - sequence[::-1].index(service) - 1
 
 
-def proposed_dispatch_is_too_late(
-    sequence: List[str], dispatch: str, problem: SchedulingProblem
-):
+def proposed_dispatch_is_too_late(sequence: List[str], dispatch: str, problem: SchedulingProblem):
     headway = problem.get_service_headway(dispatch)
     try:
         previous_dispatch_idx = last_index_of(sequence, dispatch)
@@ -124,14 +133,22 @@ def proposed_dispatch_is_too_late(
         return False
 
 
+def proposed_dispatch_excludes_others(
+    state: OrderingState,
+    dispatch: str,
+    problem: SchedulingProblem,
+):
+    min_time_already = minimum_time_spanned_by_sequence(state.dispatch_ordering, problem)
+    min_time_remaining = minimum_remaining_time_required_for_state(state, problem)
+    return min_time_already + min_time_remaining > problem.period
+
+
 def sequence_cannot_be_cyclical(sequence: List[str], problem: SchedulingProblem):
     for service_id in problem.network.services.keys():
         headway = problem.get_service_headway(service_id)
         last_index = last_index_of(sequence, service_id)
         dispatches_since_last = sequence[last_index + 1 :]
-        min_time_since_last = minimum_time_spanned_by_sequence(
-            dispatches_since_last, problem
-        )
+        min_time_since_last = minimum_time_spanned_by_sequence(dispatches_since_last, problem)
         if min_time_since_last > headway:
             return True
     return False
@@ -187,19 +204,15 @@ def constrain_arrival_range_for_dispatch_headways(
         )
         if latest_arrival_of_any_service:
             earliest_possible_dispatch_time = (
-                latest_arrival_of_any_service.range.lower
-                + problem.dispatch_spacing_time
+                latest_arrival_of_any_service.range.lower + problem.dispatch_spacing_time
             )
             if latest_arrival_of_service:
                 minimum_time_since_latest_dispatch = (
-                    earliest_possible_dispatch_time
-                    - latest_arrival_of_service.range.lower
+                    earliest_possible_dispatch_time - latest_arrival_of_service.range.lower
                 )
                 if minimum_time_since_latest_dispatch > headway:
                     return None
-            return arrival_range.intersection(
-                Range(earliest_possible_dispatch_time, float("inf"))
-            )
+            return arrival_range.intersection(Range(earliest_possible_dispatch_time, float("inf")))
     return arrival_range
 
 
@@ -252,9 +265,7 @@ def get_possible_insertions_of_dispatch_or_arrival(
             else ordered_arrivals_of_previous_dispatches[idx].range.lower
         )
         boundary_below = (
-            0
-            if idx == 0
-            else ordered_arrivals_of_previous_dispatches[idx - 1].range.lower
+            0 if idx == 0 else ordered_arrivals_of_previous_dispatches[idx - 1].range.lower
         )
         boundary_range = Range(boundary_below, boundary_above)
         insertion_range = boundary_range.intersection(feasible_range)
@@ -322,9 +333,9 @@ def get_arrival_orderings_for_dispatch(
 @listify
 def get_next_ordering_states(state: OrderingState, problem: SchedulingProblem):
     for next_pool, candidate_service_id in state.service_pool.next_candidates():
-        if proposed_dispatch_is_too_late(
-            state.dispatch_ordering, candidate_service_id, problem
-        ):
+        if proposed_dispatch_is_too_late(state.dispatch_ordering, candidate_service_id, problem):
+            continue
+        if proposed_dispatch_excludes_others(state, candidate_service_id, problem):
             continue
         next_arrival_orderings = get_arrival_orderings_for_dispatch(
             state=state, problem=problem, dispatch_service_id=candidate_service_id
@@ -341,6 +352,7 @@ def get_next_ordering_states(state: OrderingState, problem: SchedulingProblem):
 
 def get_orderings_from_ordering_state(state: OrderingState, problem: SchedulingProblem):
     dispatch_ordering_of_services = []
+    seen_dispatch_ordering_tuples = set()
     for service_id in state.dispatch_ordering:
         service = problem.network.services[service_id]
         if service not in dispatch_ordering_of_services:
@@ -370,13 +382,18 @@ def get_orderings(problem: SchedulingProblem):
     initial_state = OrderingState(
         dispatch_ordering=[], arrival_orderings=[{}], service_pool=service_pool
     )
+    finished_count = 0
 
     def subproblem(state: OrderingState):
-        if state.finished and not sequence_cannot_be_cyclical(
-            state.dispatch_ordering, problem
-        ):
+        nonlocal finished_count
+        if state.finished:
+            print(finished_count, state.dispatch_ordering)
+        if state.finished and not sequence_cannot_be_cyclical(state.dispatch_ordering, problem):
+            finished_count += 1
             return [state]
         else:
+            if finished_count > 0:
+                return []
             results = []
             next_states = get_next_ordering_states(state, problem)
             for next_state in next_states:

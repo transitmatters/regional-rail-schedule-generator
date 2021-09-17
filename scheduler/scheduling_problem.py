@@ -15,6 +15,10 @@ class SchedulingProblem:
     period: int = 3600
 
     @cached_property
+    def services(self):
+        return self.trips_per_period.keys()
+
+    @cached_property
     def _headways_by_service_id(self):
         res = {}
         for key, value in self.trips_per_period.items():
