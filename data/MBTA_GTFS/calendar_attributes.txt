@@ -1,93 +1,95 @@
 service_id,service_description,service_schedule_name,service_schedule_type,service_schedule_typicality,rating_start_date,rating_end_date,rating_description
-BUS12020-hba10ns1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20191222,20200314,Winter
-BUS12020-hbb10ns1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20191222,20200314,Winter
-BUS12020-hbc10ns1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20191222,20200314,Winter
-BUS12020-hbf10ns1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20191222,20200314,Winter
-BUS12020-hbg10ns1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20191222,20200314,Winter
-BUS12020-hbl10ns1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20191222,20200314,Winter
-BUS12020-hbq10ns1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20191222,20200314,Winter
-BUS12020-hbs10ns1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20191222,20200314,Winter
-BUS12020-hbt10ns1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20191222,20200314,Winter
-BUS12020-htn10ns1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20191222,20200314,Winter
-Boat-F1-Frd,Friday schedule,Friday,Weekday,1,20190701,,
-Boat-F1-Wkd,Weekday schedule,Weekday,Weekday,1,20190701,,
-Boat-F4-Snd,Sunday schedule,Sunday,Sunday,1,20190701,,
-Boat-F4-Std,Saturday schedule,Saturday,Saturday,1,20190701,,
-Boat-F4-Wkd,Weekday schedule,Weekday,Weekday,1,20190701,,
-CR-Sa-Fairmount-Fall-19,Saturday schedule,Saturday,Saturday,1,20191021,,Fall
-CR-Sa-Fairmount-Fall-19C0,Holiday (Saturday schedule),Holiday,Saturday,3,20191021,,Fall
-CR-Sa-Fitchburg-Fall-19,Saturday schedule,Saturday,Saturday,1,20191021,,Fall
-CR-Sa-Fitchburg-Fall-19-FtgGLX,Saturday schedule,Saturday,Saturday,4,20191021,,Fall
-CR-Sa-Fitchburg-Fall-19C0,Holiday (Saturday schedule),Holiday,Saturday,3,20191021,,Fall
-CR-Sa-Franklin-Fall-19,Saturday schedule,Saturday,Saturday,4,20191021,,Fall
-CR-Sa-Franklin-Fall-19C0,Holiday (Saturday schedule),Holiday,Saturday,3,20191021,,Fall
-CR-Sa-Greenbush-Fall-19,Saturday schedule,Saturday,Saturday,1,20191021,,Fall
-CR-Sa-Greenbush-Fall-19C0,Holiday (Saturday schedule),Holiday,Saturday,3,20191021,,Fall
-CR-Sa-Haverhill-Fall-19,Saturday schedule,Saturday,Saturday,1,20191021,,Fall
-CR-Sa-Haverhill-Fall-19C0,Holiday (Saturday schedule),Holiday,Saturday,3,20191021,,Fall
-CR-Sa-Kingston-Fall-19,Saturday schedule,Saturday,Saturday,1,20191021,,Fall
-CR-Sa-Kingston-Fall-19C0,Holiday (Saturday schedule),Holiday,Saturday,3,20191021,,Fall
-CR-Sa-Lowell-Fall-19,Saturday schedule,Saturday,Saturday,1,20191021,,Fall
-CR-Sa-Lowell-Fall-19C0,Holiday (Saturday schedule),Holiday,Saturday,3,20191021,,Fall
-CR-Sa-Middleborough-Fall-19,Saturday schedule,Saturday,Saturday,1,20191021,,Fall
-CR-Sa-Middleborough-Fall-19C0,Holiday (Saturday schedule),Holiday,Saturday,3,20191021,,Fall
-CR-Sa-Needham-Fall-19,Saturday schedule,Saturday,Saturday,1,20191021,,Fall
-CR-Sa-Needham-Fall-19C0,Holiday (Saturday schedule),Holiday,Saturday,3,20191021,,Fall
-CR-Sa-Newburyport-Fall-19,Saturday schedule,Saturday,Saturday,1,20191021,,Fall
-CR-Sa-Newburyport-Fall-19C0,Holiday (Saturday schedule),Holiday,Saturday,3,20191021,,Fall
-CR-Sa-Providence-FallProvB-19,Saturday schedule,Saturday,Saturday,1,20191216,,Fall
-CR-Sa-Providence-FallProvB-19C0,Holiday (Saturday schedule),Holiday,Saturday,3,20191216,,Fall
-CR-Sa-Worcester-Fall-19,Saturday schedule,Saturday,Saturday,1,20191021,,Fall
-CR-Sa-Worcester-Fall-19C0,Holiday (Saturday schedule),Holiday,Saturday,3,20191021,,Fall
-CR-Su-Fairmount-Fall-19,Sunday schedule,Sunday,Sunday,1,20191021,,Fall
-CR-Su-Fitchburg-Fall-19,Sunday schedule,Sunday,Sunday,1,20191021,,Fall
-CR-Su-Fitchburg-Fall-19-FtgGLX,Sunday schedule,Sunday,Sunday,4,20191021,,Fall
-CR-Su-Franklin-Fall-19,Sunday schedule,Sunday,Sunday,4,20191021,,Fall
-CR-Su-Greenbush-Fall-19,Sunday schedule,Sunday,Sunday,1,20191021,,Fall
-CR-Su-Haverhill-Fall-19,Sunday schedule,Sunday,Sunday,1,20191021,,Fall
-CR-Su-Kingston-Fall-19,Sunday schedule,Sunday,Sunday,1,20191021,,Fall
-CR-Su-Lowell-Fall-19,Sunday schedule,Sunday,Sunday,1,20191021,,Fall
-CR-Su-Middleborough-Fall-19,Sunday schedule,Sunday,Sunday,1,20191021,,Fall
-CR-Su-Newburyport-Fall-19,Sunday schedule,Sunday,Sunday,1,20191021,,Fall
-CR-Su-Providence-FallProvB-19,Sunday schedule,Sunday,Sunday,1,20191216,,Fall
-CR-Su-Worcester-Fall-19,Sunday schedule,Sunday,Sunday,1,20191021,,Fall
-CR-Wdy-Fairmount-Fall-19,Weekday schedule,Weekday,Weekday,1,20191021,,Fall
-CR-Wdy-Fitchburg-Fall-19,Weekday schedule,Weekday,Weekday,1,20191021,,Fall
-CR-Wdy-Franklin-Fall-19,Weekday schedule,Weekday,Weekday,1,20191021,,Fall
-CR-Wdy-Greenbush-Fall-19,Weekday schedule,Weekday,Weekday,1,20191021,,Fall
-CR-Wdy-Haverhill-Fall-19,Weekday schedule,Weekday,Weekday,1,20191021,,Fall
-CR-Wdy-Kingston-Fall-19,Weekday schedule,Weekday,Weekday,1,20191021,,Fall
-CR-Wdy-Lowell-Fall-19,Weekday schedule,Weekday,Weekday,1,20191021,,Fall
-CR-Wdy-Middleborough-Fall-19,Weekday schedule,Weekday,Weekday,1,20191021,,Fall
-CR-Wdy-Needham-Fall-19,Weekday schedule,Weekday,Weekday,1,20191021,,Fall
-CR-Wdy-Newburyport-Fall-19,Weekday schedule,Weekday,Weekday,1,20191021,,Fall
-CR-Wdy-Providence-FallProvB-19,Weekday schedule,Weekday,Weekday,1,20191216,,Fall
-CR-Wdy-Worcester-Fall-19,Weekday schedule,Weekday,Weekday,1,20191021,,Fall
-LRV12020-hlb10011-Wdy-01,Weekday schedule,Weekday,Weekday,1,20191222,20200314,Winter
-LRV12020-hlb10011-Wdy-01-20:45-KnrRsr,Weekday schedule,Weekday,Weekday,4,20191222,20200314,Winter
-LRV12020-hlb10016-Sa-01,Saturday schedule,Saturday,Saturday,1,20191222,20200314,Winter
-LRV12020-hlb10016-Sa-01-KnrRsr,Saturday schedule,Saturday,Saturday,4,20191222,20200314,Winter
-LRV12020-hlb10017-Su-01,Sunday schedule,Sunday,Sunday,1,20191222,20200314,Winter
-LRV12020-hlb10017-Su-01-KnrRsr,Sunday schedule,Sunday,Sunday,4,20191222,20200314,Winter
-LRV12020-hlm10011-Wdy-01,Weekday schedule,Weekday,Weekday,1,20191222,20200314,Winter
-MartinLutherKingDay-WashingtonsBirthday,Holiday (Saturday schedule),Holiday,Saturday,3,20191222,20200314,Winter
-PRIV12020-hpa10011-Wdy-01,Weekday schedule,Weekday,Weekday,1,20191222,20200314,Winter
-PRIV12020-hpa10016-Sa-01,Saturday schedule,Saturday,Saturday,1,20191222,20200314,Winter
-PRIV12020-hpj10011-Wdy-01,Weekday schedule,Weekday,Weekday,1,20191222,20200314,Winter
-PRIV12020-hpj10016-Sa-01,Saturday schedule,Saturday,Saturday,1,20191222,20200314,Winter
-PRIV12020-hpp10ns1-Wdy-01,Weekday schedule (no school),Weekday (no school),Weekday,1,20191222,20200314,Winter
-RTL12020-hmb10011-Wdy-01,Weekday schedule,Weekday,Weekday,1,20191222,20200314,Winter
-RTL12020-hmo10011-Wdy-01,Weekday schedule,Weekday,Weekday,1,20191222,20200314,Winter
-RTL12020-hmo10011-Wdy-01-20:45-HSllTfs,Weekday schedule,Weekday,Weekday,4,20191222,20200314,Winter
-RTL12020-hmo10016-Sa-01,Saturday schedule,Saturday,Saturday,1,20191222,20200314,Winter
-RTL12020-hmo10016-Sa-01-HSllTfs,Saturday schedule,Saturday,Saturday,4,20191222,20200314,Winter
-RTL12020-hmo10017-Su-01,Sunday schedule,Sunday,Sunday,1,20191222,20200314,Winter
-RTL12020-hmo10017-Su-01-HSllTfs,Sunday schedule,Sunday,Sunday,4,20191222,20200314,Winter
-RTL12020-hms10011-Wdy-01,Weekday schedule,Weekday,Weekday,1,20191222,20200314,Winter
-RTL12020-hms10016-Sa-01,Saturday schedule,Saturday,Saturday,1,20191222,20200314,Winter
-RTL12020-hms10016-Sa-01-AlfHrd,Saturday schedule,Saturday,Saturday,4,20191222,20200314,Winter
-RTL12020-hms10017-Su-01,Sunday schedule,Sunday,Sunday,1,20191222,20200314,Winter
-RTL12020-hms10017-Su-01-AlfHrd,Sunday schedule,Sunday,Sunday,4,20191222,20200314,Winter
-WinterSaturday,Saturday schedule,Saturday,Saturday,1,20191222,20200314,Winter
-WinterSunday,Sunday schedule,Sunday,Sunday,1,20191222,20200314,Winter
-WinterWeekday,Weekday schedule,Weekday,Weekday,1,20191222,20200314,Winter
+BUS222-hba22pt1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20220313,20220618,Spring
+BUS222-hba22sn1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20220313,20220618,Spring
+BUS222-hbb22ns1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20220313,20220618,Spring
+BUS222-hbc22ns1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20220313,20220618,Spring
+BUS222-hbf22ns1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20220313,20220618,Spring
+BUS222-hbg22ns1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20220313,20220618,Spring
+BUS222-hbl22ns1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20220313,20220618,Spring
+BUS222-hbq22ns1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20220313,20220618,Spring
+BUS222-hbs22NS1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20220313,20220618,Spring
+BUS222-hbt22ns1-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20220313,20220618,Spring
+Boat-F1-Sa-Smr-22,Saturday schedule,Saturday,Saturday,1,20220528,,Fall
+Boat-F1-Su-Smr-22,Sunday schedule,Sunday,Sunday,1,20220528,,Fall
+Boat-F1-Wdy-Fll-21,Weekday schedule,Weekday,Weekday,1,20211012,20220331,Fall
+Boat-F1-Wdy-Smr-22,Weekday schedule,Weekday,Weekday,1,20220528,,Fall
+Boat-F1-Wdy-Spr-22,Weekday schedule,Weekday,Weekday,1,20220401,20220527,Fall
+Boat-F4-Sa-Fll-21,Saturday schedule,Saturday,Saturday,1,20211012,20220331,Fall
+Boat-F4-Sa-Smr-22,Saturday schedule,Saturday,Saturday,1,20220528,,Fall
+Boat-F4-Sa-Spr-22,Saturday schedule,Saturday,Saturday,1,20220401,20220527,Fall
+Boat-F4-Su-Fll-21,Sunday schedule,Sunday,Sunday,1,20211012,20220331,Fall
+Boat-F4-Su-Smr-22,Sunday schedule,Sunday,Sunday,1,20220528,,Fall
+Boat-F4-Su-Spr-22,Sunday schedule,Sunday,Sunday,1,20220401,20220527,Fall
+Boat-F4-Wdy-Fll-21,Weekday schedule,Weekday,Weekday,1,20211012,20220331,Fall
+Boat-F4-Wdy-Smr-22,Weekday schedule,Weekday,Weekday,1,20220528,,Fall
+Boat-F4-Wdy-Spr-22,Weekday schedule,Weekday,Weekday,1,20220401,20220527,Fall
+FLL 21-N-Sa-24,Saturday schedule (modified service),Saturday (modified service),Saturday,4,20211011,,Fall
+FLL 21-N-Sa-24-S9d378dcf-MRNwtBvRct,Saturday schedule (modified service),Saturday (modified service),Saturday,4,20211011,,Fall
+FLL 21-N-Sa-5-S6d,Saturday schedule (modified service),Saturday (modified service),Saturday,4,20211011,,Fall
+FLL 21-N-Sa-5-S72,Saturday schedule (modified service),Saturday (modified service),Saturday,4,20211011,,Fall
+FLL 21-N-Sa-5-S7d8482ee-LwlGLX,Saturday schedule (modified service),Saturday (modified service),Saturday,4,20211011,,Fall
+FLL 21-N-Sa-5-S9d378dcf-MRRct,Saturday schedule (modified service),Saturday (modified service),Saturday,1,20211011,,Fall
+FLL 21-N-Su-24,Sunday schedule (modified service),Sunday (modified service),Sunday,4,20211011,,Fall
+FLL 21-N-Su-24-S9d378dcf-MRNwtBvRct,Sunday schedule (modified service),Sunday (modified service),Sunday,4,20211011,,Fall
+FLL 21-N-Su-5,Sunday schedule (modified service),Sunday (modified service),Sunday,4,20211011,,Fall
+FLL 21-N-Su-5-S6d,Sunday schedule (modified service),Sunday (modified service),Sunday,4,20211011,,Fall
+FLL 21-N-Su-5-S72,Sunday schedule (modified service),Sunday (modified service),Sunday,4,20211011,,Fall
+FLL 21-N-Su-5-S7d8482ee-LwlGLX,Sunday schedule (modified service),Sunday (modified service),Sunday,4,20211011,,Fall
+FLL 21-N-Su-5-S9d378dcf-MRRct,Sunday schedule (modified service),Sunday (modified service),Sunday,1,20211011,,Fall
+FLL 21-N-Wdy-24,Weekday schedule (modified service),Weekday (modified service),Weekday,4,20211011,,Fall
+FLL 21-N-Wdy-5,Weekday schedule (modified service),Weekday (modified service),Weekday,4,20211011,,Fall
+FLL 21-N-Wdy-5-S6d,Weekday schedule (modified service),Weekday (modified service),Weekday,4,20211011,,Fall
+FLL 21-N-Wdy-5-S72,Weekday schedule (modified service),Weekday (modified service),Weekday,4,20211011,,Fall
+FLL 21-N-Wdy-5-S9d378dcf-MRRct,Weekday schedule (modified service),Weekday (modified service),Weekday,1,20211011,,Fall
+FLL 21-S-Sa-1,Saturday schedule,Saturday,Saturday,1,20211011,,Fall
+FLL 21-S-Sa-1-S0f,Saturday schedule,Saturday,Saturday,1,20211011,,Fall
+FLL 21-S-Sa-1-S8f,Saturday schedule,Saturday,Saturday,1,20211011,,Fall
+FLL 21-S-Sa-1-Sb4,Saturday schedule,Saturday,Saturday,1,20211011,,Fall
+FLL 21-S-Sa-1-Sb6,Saturday schedule,Saturday,Saturday,1,20211011,,Fall
+FLL 21-S-Sa-1-Sc0,Saturday schedule,Saturday,Saturday,1,20211011,,Fall
+FLL 21-S-Su-1,Sunday schedule,Sunday,Sunday,1,20211011,,Fall
+FLL 21-S-Su-1-S0f,Sunday schedule,Sunday,Sunday,1,20211011,,Fall
+FLL 21-S-Su-1-S8f,Sunday schedule,Sunday,Sunday,1,20211011,,Fall
+FLL 21-S-Su-1-Sb4,Sunday schedule,Sunday,Sunday,1,20211011,,Fall
+FLL 21-S-Su-1-Sb6,Sunday schedule,Sunday,Sunday,1,20211011,,Fall
+FLL 21-S-Su-1-Sc0,Sunday schedule,Sunday,Sunday,1,20211011,,Fall
+FLL 21-S-Wdy-1,Weekday schedule,Weekday,Weekday,1,20211011,,Fall
+FLL 21-S-Wdy-1-S0f,Weekday schedule,Weekday,Weekday,1,20211011,,Fall
+FLL 21-S-Wdy-1-Sb4,Weekday schedule,Weekday,Weekday,1,20211011,,Fall
+FLL 21-S-Wdy-BIKEADJ1-S8f,Weekday schedule (modified service),Weekday (modified service),Weekday,4,20211011,,Fall
+FLL 21-S-Wdy-BIKEADJ1-Sb6,Weekday schedule (modified service),Weekday (modified service),Weekday,4,20211011,,Fall
+FLL 21-S-Wdy-BIKEADJ1-Sc0,Weekday schedule (modified service),Weekday (modified service),Weekday,4,20211011,,Fall
+LRV222-hlb22011-Wdy-01,Weekday schedule,Weekday,Weekday,1,20220313,20220618,Spring
+LRV222-hlb22011-Wdy-01-GvNrhShl,Weekday schedule,Weekday,Weekday,4,20220313,20220618,Spring
+LRV222-hlb22011-Wdy-01-GvtCtrNrhSt,Weekday schedule,Weekday,Weekday,4,20220313,20220618,Spring
+LRV222-hlb22016-Sa-01,Saturday schedule,Saturday,Saturday,1,20220313,20220618,Spring
+LRV222-hlb22016-Sa-01-57d64499,Saturday schedule,Saturday,Saturday,4,20220313,20220618,Spring
+LRV222-hlb22017-Su-01,Sunday schedule,Sunday,Sunday,1,20220313,20220618,Spring
+LRV222-hlb22017-Su-01-57d64499,Sunday schedule,Sunday,Sunday,4,20220313,20220618,Spring
+LRV222-hlm22011-Wdy-01,Weekday schedule,Weekday,Weekday,1,20220313,20220618,Spring
+MemorialDay,Holiday (Sunday schedule),Holiday,Sunday,3,20220313,20220618,Spring
+PRIV222-hpa22011-Wdy-01,Weekday schedule,Weekday,Weekday,1,20220313,20220618,Spring
+PRIV222-hpj22011-Wdy-01,Weekday schedule,Weekday,Weekday,1,20220313,20220618,Spring
+PRIV222-hpj22017-Su-01,Sunday schedule,Sunday,Sunday,1,20220313,20220618,Spring
+PRIV222-hpp22ns1-Wdy-01,Weekday schedule (no school),Weekday (no school),Weekday,1,20220313,20220618,Spring
+RTL222-hmb22011-Wdy-01,Weekday schedule,Weekday,Weekday,1,20220313,20220618,Spring
+RTL222-hmb22011-Wdy-01-ArtBwn,Weekday schedule,Weekday,Weekday,4,20220313,20220618,Spring
+RTL222-hmb22016-Sa-01,Saturday schedule,Saturday,Saturday,1,20220313,20220618,Spring
+RTL222-hmb22016-Sa-01-ArtBwn,Saturday schedule,Saturday,Saturday,4,20220313,20220618,Spring
+RTL222-hmb22017-Su-01,Sunday schedule,Sunday,Sunday,1,20220313,20220618,Spring
+RTL222-hmb22017-Su-01-ArtBwn,Sunday schedule,Sunday,Sunday,4,20220313,20220618,Spring
+RTL222-hmo22011-Wdy-01,Weekday schedule,Weekday,Weekday,1,20220313,20220618,Spring
+RTL222-hmo22011-Wdy-01-1-GvNrhShl,Weekday schedule,Weekday,Weekday,4,20220313,20220618,Spring
+RTL222-hmo22011-Wdy-01-GvNrhShl,Weekday schedule,Weekday,Weekday,4,20220313,20220618,Spring
+RTL222-hmo22016-Sa-01,Saturday schedule,Saturday,Saturday,1,20220313,20220618,Spring
+RTL222-hmo22016-Sa-01-BckBNrhSt,Saturday schedule,Saturday,Saturday,4,20220313,20220618,Spring
+RTL222-hmo22017-Su-01,Sunday schedule,Sunday,Sunday,1,20220313,20220618,Spring
+RTL222-hmo22017-Su-01-BckBNrhSt,Sunday schedule,Sunday,Sunday,4,20220313,20220618,Spring
+RTL222-hms22011-Wdy-01,Weekday schedule,Weekday,Weekday,1,20220313,20220618,Spring
+RTL222-hms22016-Sa-01,Saturday schedule,Saturday,Saturday,1,20220313,20220618,Spring
+RTL222-hms22016-Sa-01-AlfHrd,Saturday schedule,Saturday,Saturday,4,20220313,20220618,Spring
+RTL222-hms22017-Su-01,Sunday schedule,Sunday,Sunday,1,20220313,20220618,Spring
+RTL222-hms22017-Su-01-AlfHrd,Sunday schedule,Sunday,Sunday,4,20220313,20220618,Spring
+SpringSaturday,Saturday schedule,Saturday,Saturday,1,20220313,20220618,Spring
+SpringSunday,Sunday schedule,Sunday,Sunday,1,20220313,20220618,Spring
+SpringWeekday,Weekday schedule,Weekday,Weekday,1,20220313,20220618,Spring
