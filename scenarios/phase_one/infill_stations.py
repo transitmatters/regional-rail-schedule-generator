@@ -1,8 +1,15 @@
 from synthesize.definitions import Station
 
-station_north_revere = Station(
-    name="Revere",
-    id="place-rr-north-revere",
+station_everett_jct = Station(
+    name="S. Broadway/Everett Jct",
+    id="place-rr-everett-jct",
+    location=(0, 0),
+    municipality="Everett",
+)
+
+station_revere_center = Station(
+    name="Revere Center",
+    id="place-rr-revere-center",
     location=(42.4154533, -70.9922548),
     municipality="Revere",
 )
@@ -12,6 +19,41 @@ station_south_salem = Station(
     id="place-rr-south-salem",
     location=(42.5073423, -70.8966044),
     municipality="Salem",
+)
+
+station_tufts_university = Station(
+    name="Tufts University",
+    id="place-rr-tufts-university",
+    location=(0, 0),
+    municipality="Medford",
+)
+
+station_montvale_avenue = Station(
+    name="Montvale Avenue",
+    id="place-rr-montvale-avenue",
+    location=(0, 0),
+    municipality="Woburn",
+)
+
+station_brickbottom = Station(
+    name="Brickbottom",
+    id="place-rr-brickbottom",
+    location=(0, 0),
+    municipality="Somerville",
+)
+
+station_clematis_brook = Station(
+    name="Clematis Brook/Warrendale",
+    id="place-rr-clematis-brook",
+    location=(0, 0),
+    municipality="Waltham",
+)
+
+station_weston_128 = Station(
+    name="Weston/128",
+    id="place-rr-weston-128",
+    location=(0, 0),
+    municipality="Weston",
 )
 
 station_ceylon_park = Station(

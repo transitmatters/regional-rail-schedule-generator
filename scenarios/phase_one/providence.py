@@ -1,12 +1,5 @@
 from synthesize.definitions import Route, RoutePattern
-from synthesize.routes import (
-    PROVIDENCE_STOUGHTON_SHARED,
-    PROVIDENCE,
-    STOUGHTON,
-    WICKFORD_JUNCTION,
-)
 from synthesize.time import Timetable, all_day_30, peak_offpeak_frequencies
-from synthesize.infill import infill
 
 from scenarios.phase_one.infill_stations import station_pawtucket
 from scenarios.phase_one.trainset import emu_trainset
@@ -36,27 +29,55 @@ timetable = Timetable(
     }
 )
 
-providence_stations = PROVIDENCE_STOUGHTON_SHARED + infill(
-    PROVIDENCE, ["South Attleboro", station_pawtucket, "Providence"]
+shared_stations = (
+    "South Station",
+    "Back Bay",
+    "Ruggles",
+    "Forest Hills",
+    "Hyde Park",
+    "Readville",
+    "Route 128",
+    "Canton Junction",
 )
+
+providence_stations = (
+    "Sharon",
+    "Mansfield",
+    "Attleboro",
+    "South Attleboro",
+    station_pawtucket,
+    "Providence",
+)
+
+stoughton_stations = (
+    "Canton Center",
+    "Stoughton",
+)
+
+wickford_junction_stations = (
+    "TF Green Airport",
+    "Wickford Junction",
+)
+
 
 stoughton = RoutePattern(
     id="stoughton",
-    stations=PROVIDENCE_STOUGHTON_SHARED + STOUGHTON,
+    stations=(shared_stations + stoughton_stations),
     timetable=timetable,
     schedule=peak_offpeak_frequencies(15, 30),
 )
 
+
 providence = RoutePattern(
     id="providence",
-    stations=providence_stations,
+    stations=(shared_stations + providence_stations),
     timetable=timetable,
     schedule=all_day_30,
 )
 
 wickford_junction = RoutePattern(
     id="wickford-junction",
-    stations=providence_stations + WICKFORD_JUNCTION,
+    stations=(providence_stations + wickford_junction_stations),
     timetable=timetable,
     schedule=all_day_30,
 )

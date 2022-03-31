@@ -1,25 +1,60 @@
 from synthesize.definitions import Route, RoutePattern
-from synthesize.routes import HAVERHILL, LOWELL
 from synthesize.time import all_day_30, Timetable
+
+from scenarios.phase_one.infill_stations import (
+    station_tufts_university,
+    station_montvale_avenue,
+)
 
 timetable = Timetable(
     {
         "North Station": "0:00",
-        "West Medford": "0:13",
-        "Wedgemere": "0:16",
-        "Winchester Center": "0:18",
-        "Anderson/Woburn": "0:25",
-        "Wilmington": "0:30",
+        "Tufts University": "0:05",
+        "West Medford": "0:08",
+        "Wedgemere": "0:10",
+        "Winchester Center": "0:12",
+        "Montvale Avenue": "0:15",
+        "Mishawum": "0:17",
+        "Anderson/Woburn": "0:19",
+        "Wilmington": "0:22",
+        # Haverhill
+        "Ballardvale": "0:27",
+        "Andover": "0:30",
+        "Lawrence": "0:34",
+        "Bradford": "0:39",
+        "Haverhill": "0:40",
+        # Lowell
         "North Billerica": "0:38",
         "Lowell": "0:46",
-        # Haverhill
-        "Ballardvale": "0:47",
-        "Andover": "0:53",
-        "Lawrence": "1:00",
-        "Bradford": "1:09",
-        "Haverhill": "1:11",
     }
 )
+
+shared_stations = (
+    "North Station",
+    station_tufts_university,
+    "West Medford",
+    "Wedgemere",
+    "Winchester Center",
+    station_montvale_avenue,
+    "Mishawum",
+    "Anderson/Woburn",
+    "Wilmington",
+)
+
+
+lowell_stations = (
+    "North Billerica",
+    "Lowell",
+)
+
+haverhill_stations = (
+    "Ballardvale",
+    "Andover",
+    "Lawrence",
+    "Bradford",
+    "Haverhill",
+)
+
 
 lowell = Route(
     id="CR-Lowell",
@@ -29,7 +64,7 @@ lowell = Route(
         RoutePattern(
             id="lowell",
             name="Lowell",
-            stations=LOWELL,
+            stations=(shared_stations + lowell_stations),
             timetable=timetable,
             schedule=all_day_30,
         )
@@ -44,7 +79,7 @@ haverhill = Route(
         RoutePattern(
             id="haverhill",
             name="Haverhill",
-            stations=HAVERHILL,
+            stations=(shared_stations + haverhill_stations),
             timetable=timetable,
             schedule=all_day_30,
         )

@@ -1,6 +1,4 @@
 from synthesize.definitions import Route, RoutePattern
-from synthesize.routes import FRAMINGHAM, WORCESTER
-from synthesize.infill import infill
 from synthesize.time import all_day_15, peak_offpeak_frequencies, Timetable
 
 from scenarios.phase_one.trainset import emu_trainset
@@ -9,23 +7,44 @@ from scenarios.phase_one.infill_stations import (
     station_west_station,
 )
 
-framingham_stations = infill(
-    FRAMINGHAM,
-    ["Lansdowne", station_west_station, "Boston Landing"],
-    ["Boston Landing", station_newton_corner, "Newtonville"],
+framingham_stations = (
+    "South Station",
+    "Back Bay",
+    "Lansdowne",
+    station_west_station,
+    "Boston Landing",
+    station_newton_corner,
+    "Newtonville",
+    "West Newton",
+    "Auburndale",
+    "Wellesley Farms",
+    "Wellesley Hills",
+    "Wellesley Square",
+    "Natick Center",
+    "West Natick",
+    "Framingham",
 )
 
-worcester_stations = infill(
-    WORCESTER, ["Lansdowne", station_newton_corner, "Framingham"]
+worcester_stations = (
+    "South Station",
+    "Back Bay",
+    "Lansdowne",
+    station_west_station,
+    "Framingham",
+    "Ashland",
+    "Southborough",
+    "Westborough",
+    "Grafton",
+    "Worcester",
 )
 
-timetable = Timetable(
+framingham_timetable = Timetable(
     {
         "South Station": "0:00",
         "Back Bay": "0:03",
         "Lansdowne": "0:05",
         "West Station": "0:08",
-        "Boston Landing": "0:16",
+        "Boston Landing": "0:10",
         "Newton Corner": "0:13",
         "Newtonville": "0:15",
         "West Newton": "0:17",
@@ -39,12 +58,12 @@ timetable = Timetable(
     }
 )
 
-express_timetable = Timetable(
+worcester_timetable = Timetable(
     {
         "South Station": "0:00",
         "Back Bay": "0:03",
         "Lansdowne": "0:05",
-        "Newton Corner": "0:10",
+        "West Station": "0:07",
         "Framingham": "0:21",
         "Ashland": "0:25",
         "Southborough": "0:29",
@@ -58,7 +77,7 @@ framingham = RoutePattern(
     name="Framingham",
     id="framingham",
     stations=framingham_stations,
-    timetable=timetable,
+    timetable=framingham_timetable,
     schedule=all_day_15,
 )
 
@@ -66,7 +85,7 @@ worcester = RoutePattern(
     name="Worcester",
     id="worcester",
     stations=worcester_stations,
-    timetable=express_timetable,
+    timetable=worcester_timetable,
     schedule=peak_offpeak_frequencies(15, 30),
 )
 

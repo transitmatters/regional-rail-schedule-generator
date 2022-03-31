@@ -1,9 +1,11 @@
 route_pattern_id,electric_trains,level_boarding,increased_top_speed
+salem,1,1,1
 newburyport,1,1,1
 rockport,1,1,1
 lowell,1,1,1
 haverhill,1,1,1
 reading,1,1,1
+brandeis,1,1,1
 fitchburg,1,1,1
 framingham,1,1,1
 worcester,1,1,1

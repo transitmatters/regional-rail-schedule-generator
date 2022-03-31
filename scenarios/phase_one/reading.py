@@ -1,18 +1,30 @@
 from synthesize.definitions import Route, RoutePattern
-from synthesize.routes import READING
-from synthesize.time import all_day_30, Timetable
+from synthesize.time import all_day_15, Timetable
 
 timetable = Timetable(
     {
         "North Station": "0:00",
+        "Sullivan Square": "0:04",
         "Malden Center": "0:11",
         "Wyoming Hill": "0:14",
-        "Melrose Cedar Park": "0:16",
+        "Melrose/Cedar Park": "0:16",
         "Melrose Highlands": "0:19",
         "Greenwood": "0:22",
         "Wakefield": "0:26",
         "Reading": "0:32",
     }
+)
+
+stations = (
+    "North Station",
+    "Sullivan Square",
+    "Malden Center",
+    "Wyoming Hill",
+    "Melrose/Cedar Park",
+    "Melrose Highlands",
+    "Greenwood",
+    "Wakefield",
+    "Reading",
 )
 
 reading = Route(
@@ -23,9 +35,9 @@ reading = Route(
         RoutePattern(
             id="reading",
             name="Reading",
-            stations=READING,
+            stations=stations,
             timetable=timetable,
-            schedule=all_day_30,
+            schedule=all_day_15,
         )
     ],
 )

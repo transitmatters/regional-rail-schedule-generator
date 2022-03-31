@@ -1,11 +1,5 @@
 from synthesize.definitions import Route, RoutePattern
-from synthesize.routes import (
-    GREENBUSH,
-    OC_KINGSTON_PLYMOUTH,
-    OC_MIDDLEBOROUGH_LAKEVILLE,
-)
 from synthesize.time import Timetable, all_day_30
-from synthesize.infill import infill
 
 from scenarios.phase_one.infill_stations import (
     station_braintree_highlands,
@@ -59,27 +53,51 @@ timetable = Timetable(
     }
 )
 
-stations_greenbush = infill(
-    GREENBUSH,
-    ["Nantasket Junction", station_cohasset_center, "North Scituate"],
+stations_greenbush = (
+    "South Station",
+    "JFK/UMass",
+    "Quincy Center",
+    "Weymouth Landing/East Braintree",
+    "East Weymouth",
+    "West Hingham",
+    "Nantasket Junction",
+    station_cohasset_center,
+    "North Scituate",
+    "Greenbush",
 )
 
-stations_middleborough_lakeville = infill(
-    OC_MIDDLEBOROUGH_LAKEVILLE,
-    ["Braintree", station_braintree_highlands, "Holbrook/Randolph"],
-    ["Campello", station_bridgewater_center, "Bridgewater"],
-    ["Bridgewater", station_middleborough_centre_st, "Middleborough/Lakeville"],
+stations_oc_shared = (
+    "South Station",
+    "JFK/UMass",
+    "Quincy Center",
+    "Braintree",
+)
+
+stations_middleborough_lakeville = (
+    station_braintree_highlands,
+    "Holbrook/Randolph",
+    "Montello",
+    "Brockton",
+    "Campello",
+    station_bridgewater_center,
+    "Bridgewater",
+    station_middleborough_centre_st,
+    "Middleborough/Lakeville",
 )
 
 stations_plymouth = (
-    *infill(
-        OC_KINGSTON_PLYMOUTH,
-        ["Braintree", station_weymouth_columbian_square, "South Weymouth"],
-        ["South Weymouth", station_rockland_north_abington, "Abington"],
-        ["Halifax", station_kingston_junction, "Plymouth"],
-    ),
+    station_weymouth_columbian_square,
+    "South Weymouth",
+    station_rockland_north_abington,
+    "Abington",
+    "Whitman",
+    "Hanson",
+    "Halifax",
+    station_kingston_junction,
+    "Plymouth",
     station_plymouth_center,
 )
+
 
 greenbush = Route(
     id="CR-Greenbush",
@@ -107,7 +125,7 @@ middleborough = Route(
             id="middleborough-lakeville",
             name="Middleborough/Lakeville",
             timetable=timetable,
-            stations=stations_middleborough_lakeville,
+            stations=(stations_oc_shared + stations_middleborough_lakeville),
             schedule=all_day_30,
         )
     ],
@@ -123,7 +141,7 @@ plymouth = Route(
             id="plymouth",
             name="Plymouth",
             timetable=timetable,
-            stations=stations_plymouth,
+            stations=(stations_oc_shared + stations_plymouth),
             schedule=all_day_30,
         )
     ],

@@ -1,6 +1,4 @@
 from synthesize.definitions import Route, RoutePattern
-from synthesize.routes import FAIRMOUNT, FRANKLIN_TO_FORGE_PARK, FRANKLIN_TO_NORWOOD
-from synthesize.infill import infill
 from synthesize.time import all_day_15, all_day_30, Timetable
 
 from scenarios.phase_one.infill_stations import (
@@ -25,7 +23,7 @@ timetable = Timetable(
         # Franklin
         "Readville": "0:20",
         "Endicott": "0:22",
-        "Dedham Corp Center": "0:24",
+        "Dedham Corporate Center": "0:24",
         "Islington": "0:26",
         "Norwood Depot": "0:29",
         "Norwood Central": "0:31",
@@ -37,12 +35,35 @@ timetable = Timetable(
     }
 )
 
-fairmount_station_names = infill(
-    FAIRMOUNT,
-    ["Uphams Corner", station_ceylon_park, "Four Corners/Geneva"],
-    ["Blue Hill Avenue", station_river_street, "Fairmount"],
+fairmount_stations = (
+    "South Station",
+    "Newmarket",
+    "Uphams Corner",
+    station_ceylon_park,
+    "Four Corners/Geneva",
+    "Talbot Avenue",
+    "Morton Street",
+    "Blue Hill Avenue",
+    station_river_street,
+    "Fairmount",
+    "Readville",
 )
 
+norwood_stations = (
+    "Endicott",
+    "Dedham Corporate Center",
+    "Islington",
+    "Norwood Depot",
+    "Norwood Central",
+)
+
+franklin_stations = (
+    "Windsor Gardens",
+    "Walpole",
+    "Norfolk",
+    "Franklin",
+    "Forge Park/495",
+)
 
 fairmount = Route(
     name="Fairmount Line",
@@ -52,7 +73,7 @@ fairmount = Route(
     route_patterns=[
         RoutePattern(
             id="fairmount",
-            stations=fairmount_station_names,
+            stations=fairmount_stations,
             timetable=timetable,
             schedule=all_day_15,
         )
@@ -68,16 +89,14 @@ franklin = Route(
         RoutePattern(
             id="franklin-norwood",
             name="Franklin/Norwood",
-            stations=fairmount_station_names + FRANKLIN_TO_NORWOOD,
+            stations=(fairmount_stations + norwood_stations),
             timetable=timetable,
             schedule=all_day_30,
         ),
         RoutePattern(
             id="franklin-forge-park",
             name="Franklin/Forge Park",
-            stations=fairmount_station_names
-            + FRANKLIN_TO_NORWOOD
-            + FRANKLIN_TO_FORGE_PARK,
+            stations=(fairmount_stations + norwood_stations + franklin_stations),
             timetable=timetable,
             schedule=all_day_30,
         ),

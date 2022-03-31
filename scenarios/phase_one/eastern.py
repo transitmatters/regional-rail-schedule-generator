@@ -1,23 +1,21 @@
 from synthesize.definitions import Route, RoutePattern
-from synthesize.routes import (
-    EASTERN_SHARED,
-    EASTERN_NEWBURYPORT,
-    EASTERN_ROCKPORT,
-)
-from synthesize.infill import infill
-from synthesize.time import all_day_15, Timetable
+from synthesize.time import Timetable, peak_offpeak_frequencies, all_day_30
 
 from scenarios.phase_one.infill_stations import (
-    station_north_revere,
+    station_revere_center,
     station_south_salem,
+    station_everett_jct,
 )
 from scenarios.phase_one.trainset import emu_trainset
 
 timetable = Timetable(
     {
         "North Station": "0:00",
+        "Sullivan Square": "0:04",
+        "S. Broadway/Everett Jct": "0:06",
         "Chelsea": "0:08",
-        "Revere": "0:11",
+        "Revere Center": "0:11",
+        "Wonderland": "0:13",
         "River Works": "0:16",
         "Lynn": "0:18",
         "Swampscott": "0:20",
@@ -41,32 +39,68 @@ timetable = Timetable(
     }
 )
 
-shared_stations = infill(
-    EASTERN_SHARED,
-    ["Chelsea", station_north_revere, "River Works"],
-    ["Swampscott", station_south_salem, "Salem"],
+shared_stations = (
+    "North Station",
+    station_everett_jct,
+    "Sullivan Square",
+    "Chelsea",
+    station_revere_center,
+    "Wonderland",
+    "River Works",
+    "Lynn",
+    "Swampscott",
+    station_south_salem,
+    "Salem",
+)
+
+newburyport_stations = (
+    "Beverly",
+    "North Beverly",
+    "Hamilton/Wenham",
+    "Ipswich",
+    "Rowley",
+    "Newburyport",
+)
+
+rockport_stations = (
+    "Beverly",
+    "Montserrat",
+    "Prides Crossing",
+    "Beverly Farms",
+    "Manchester",
+    "West Gloucester",
+    "Gloucester",
+    "Rockport",
+)
+
+salem = RoutePattern(
+    name="Salem",
+    id="salem",
+    stations=shared_stations,
+    timetable=timetable,
+    schedule=peak_offpeak_frequencies(15, 30),
 )
 
 newburyport = RoutePattern(
     name="Newburyport",
     id="newburyport",
-    stations=(shared_stations + EASTERN_NEWBURYPORT),
+    stations=(shared_stations + newburyport_stations),
     timetable=timetable,
-    schedule=all_day_15,
+    schedule=all_day_30,
 )
 
 rockport = RoutePattern(
     name="Rockport",
     id="rockport",
-    stations=(shared_stations + EASTERN_ROCKPORT),
+    stations=(shared_stations + rockport_stations),
     timetable=timetable,
-    schedule=all_day_15,
+    schedule=all_day_30,
 )
 
 eastern = Route(
     name="Newburyport/Rockport",
     id="CR-Newburyport",
     shadows_real_route="CR-Newburyport",
-    route_patterns=[newburyport, rockport],
+    route_patterns=[salem, newburyport, rockport],
     trainset=emu_trainset,
 )

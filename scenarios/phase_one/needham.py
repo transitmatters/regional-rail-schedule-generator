@@ -1,5 +1,4 @@
 from synthesize.definitions import Route, RoutePattern
-from synthesize.routes import NEEDHAM
 from synthesize.time import Timetable, all_day_30
 
 timetable = Timetable(
@@ -19,6 +18,21 @@ timetable = Timetable(
     }
 )
 
+stations = (
+    "South Station",
+    "Back Bay",
+    "Ruggles",
+    "Forest Hills",
+    "Roslindale Village",
+    "Bellevue",
+    "Highland",
+    "West Roxbury",
+    "Hersey",
+    "Needham Junction",
+    "Needham Center",
+    "Needham Heights",
+)
+
 needham = Route(
     id="CR-Needham",
     shadows_real_route="CR-Needham",
@@ -27,7 +41,7 @@ needham = Route(
         RoutePattern(
             id="needham",
             name="Needham",
-            stations=NEEDHAM,
+            stations=stations,
             timetable=timetable,
             schedule=all_day_30,
         )
