@@ -125,7 +125,7 @@ def proposed_dispatch_is_too_late(
 
 
 def sequence_cannot_be_cyclical(sequence: List[str], problem: SchedulingProblem):
-    for service_id in problem.network.services.keys():
+    for service_id in problem.services.keys():
         headway = problem.get_service_headway(service_id)
         last_index = last_index_of(sequence, service_id)
         dispatches_since_last = sequence[last_index + 1 :]
@@ -342,19 +342,19 @@ def get_next_ordering_states(state: OrderingState, problem: SchedulingProblem):
 def get_orderings_from_ordering_state(state: OrderingState, problem: SchedulingProblem):
     dispatch_ordering_of_services = []
     for service_id in state.dispatch_ordering:
-        service = problem.network.services[service_id]
+        service = problem.services[service_id]
         if service not in dispatch_ordering_of_services:
             dispatch_ordering_of_services.append(service)
     for arrival_ordering in state.arrival_orderings:
         arrival_orderings_of_nodes = {}
         for node_id, arrivals_at_node in arrival_ordering.items():
-            node = problem.network.nodes[node_id]
+            node = problem.nodes[node_id]
             service_id_indices = {}
             arrival_tuples = []
             for arrival in arrivals_at_node:
                 index = service_id_indices.setdefault(arrival.service_id, 0)
                 service_id_indices[arrival.service_id] += 1
-                service = problem.network.services[arrival.service_id]
+                service = problem.services[arrival.service_id]
                 arrival_tuple = (index, service)
                 arrival_tuples.append(arrival_tuple)
             arrival_orderings_of_nodes[node] = arrival_tuples

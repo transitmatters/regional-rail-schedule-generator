@@ -4,14 +4,13 @@ import cvxpy as cp
 
 from synthesize.util import get_pairs, listify
 
-from scheduler.network import SchedulerNetwork, Service, Node
+from scheduler.network import Service, Node
 from scheduler.ordering import Ordering
 from scheduler.scheduling_problem import SchedulingProblem
 
 
 @dataclass
 class OptimizeContext:
-    network: SchedulerNetwork
     ordering: Ordering
     problem: SchedulingProblem
 
@@ -71,7 +70,7 @@ def get_global_constraints(ctx: OptimizeContext):
 
 def get_scheduler_constraints(ctx: OptimizeContext):
     constraints = list(get_global_constraints(ctx))
-    for node in ctx.network.nodes.values():
+    for node in ctx.problem.nodes.values():
         constraints += get_constraints_for_node(ctx, node)
     return constraints
 
@@ -93,13 +92,13 @@ def get_objective_for_node(ctx: OptimizeContext, node: Node):
 
 def get_scheduler_objective(ctx: OptimizeContext):
     obj = 0
-    for node in ctx.network.nodes.values():
+    for node in ctx.problem.nodes.values():
         obj += get_objective_for_node(ctx, node)
     return obj
 
 
 def solve_departure_offsets(problem: SchedulingProblem, ordering: Ordering):
-    ctx = OptimizeContext(problem=problem, network=problem.network, ordering=ordering)
+    ctx = OptimizeContext(problem=problem, ordering=ordering)
     constraints = get_scheduler_constraints(ctx)
     objective = get_scheduler_objective(ctx)
     cvx_problem = cp.Problem(cp.Minimize(objective), constraints)
@@ -108,10 +107,10 @@ def solve_departure_offsets(problem: SchedulingProblem, ordering: Ordering):
         return float("inf"), None, None
     offsets = {}
     arrivals = {}
-    for service in problem.network.services.values():
+    for service in problem.services.values():
         departure_offset = ctx.get_departure_offset_variable(service)
         offsets[service.id] = round(departure_offset.value)
-    for node in problem.network.nodes.values():
+    for node in problem.nodes.values():
         exprs = get_ordered_arrival_expressions_for_node(ctx, node)
         arrivals[node.id] = [round(e.value) for e in exprs]
     return cvx_problem.value, offsets, arrivals

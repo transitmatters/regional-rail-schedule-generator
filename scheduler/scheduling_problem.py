@@ -27,6 +27,18 @@ class SchedulingProblem:
         return self._headways_by_service_id[service_id]
 
     @cached_property
+    def nodes(self):
+        return self.network.nodes
+
+    @cached_property
+    def services(self):
+        return {
+            service_id: value
+            for (service_id, value) in self.network.services.items()
+            if self.trips_per_period.get(service_id)
+        }
+
+    @cached_property
     def total_dispatches(self):
         total = 0
         for value in self.trips_per_period.values():

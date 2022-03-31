@@ -81,7 +81,8 @@ def _create_departure_offset_getter(network: SchedulerNetwork) -> Dict[str, int]
         if cached_result:
             return cached_result
         problem = SchedulingProblem(
-            trips_per_period=route_pattern_id_to_tph, network=network
+            trips_per_period=route_pattern_id_to_tph,
+            network=network,
         )
         orderings = get_orderings(problem)
         offsets = solve_departure_offsets_for_orderings(problem, orderings)
@@ -114,10 +115,14 @@ def create_departure_getter_for_subgraph(subgraph: List[Route]):
                 )
                 offsets = getter(route_pattern_id_to_tph)
                 for route_pattern in route_patterns:
-                    route_tph = route_pattern_id_to_tph[route_pattern.id]
+                    route_tph = route_pattern_id_to_tph.get(route_pattern.id)
+                    if not route_tph:
+                        continue
                     route_offset = offsets[route_pattern.id]
                     dispatch_times = _get_dispatch_times(
-                        route_tph, route_offset, time_range
+                        route_tph,
+                        route_offset,
+                        time_range,
                     )
                     for time in dispatch_times:
                         yield (route_pattern, direction, time)
