@@ -12,5 +12,5 @@ existing-network:
 	python3 -m network.relevant_stop_times
 	python3 -m network.main
 
-phase-one:
-	python3 -m scenarios.phase_one
+regional-rail:
+	python3 -m scenarios.regional_rail

@@ -1,12 +1,12 @@
 from synthesize.definitions import Route, RoutePattern
 from synthesize.time import Timetable, peak_offpeak_frequencies, all_day_30
 
-from scenarios.phase_one.infill_stations import (
+from scenarios.regional_rail.infill_stations import (
     station_revere_center,
     station_south_salem,
     station_everett_jct,
 )
-from scenarios.phase_one.trainset import emu_trainset
+from scenarios.regional_rail.trainset import emu_trainset
 
 timetable = Timetable(
     {
