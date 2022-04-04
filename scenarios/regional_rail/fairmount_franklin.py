@@ -1,11 +1,11 @@
 from synthesize.definitions import Route, RoutePattern
 from synthesize.time import all_day_15, all_day_30, Timetable
 
-from scenarios.phase_one.infill_stations import (
+from scenarios.regional_rail.infill_stations import (
     station_ceylon_park,
     station_river_street,
 )
-from scenarios.phase_one.trainset import emu_trainset
+from scenarios.regional_rail.trainset import emu_trainset
 
 
 timetable = Timetable(

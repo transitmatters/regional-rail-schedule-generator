@@ -1,7 +1,7 @@
 from synthesize.definitions import Route, RoutePattern
 from synthesize.time import Timetable, peak_offpeak_frequencies
 
-from scenarios.phase_one.infill_stations import (
+from scenarios.regional_rail.infill_stations import (
     station_brickbottom,
     station_clematis_brook,
     station_weston_128,

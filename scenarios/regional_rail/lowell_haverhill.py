@@ -1,7 +1,7 @@
 from synthesize.definitions import Route, RoutePattern
 from synthesize.time import all_day_30, Timetable
 
-from scenarios.phase_one.infill_stations import (
+from scenarios.regional_rail.infill_stations import (
     station_tufts_university,
     station_montvale_avenue,
 )
