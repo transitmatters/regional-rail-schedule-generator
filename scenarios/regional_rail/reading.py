@@ -5,13 +5,13 @@ timetable = Timetable(
     {
         "North Station": "0:00",
         "Sullivan Square": "0:04",
-        "Malden Center": "0:11",
-        "Wyoming Hill": "0:14",
-        "Melrose/Cedar Park": "0:16",
-        "Melrose Highlands": "0:19",
-        "Greenwood": "0:22",
-        "Wakefield": "0:26",
-        "Reading": "0:32",
+        "Malden Center": "0:07",
+        "Wyoming Hill": "0:10",
+        "Melrose/Cedar Park": "0:12",
+        "Melrose Highlands": "0:13",
+        "Greenwood": "0:15",
+        "Wakefield": "0:17",
+        "Reading": "0:20",
     }
 )
 
