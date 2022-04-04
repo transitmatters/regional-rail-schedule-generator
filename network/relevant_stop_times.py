@@ -30,7 +30,7 @@ RELEVANT_ROUTE_IDS = RAPID_TRANSIT + SILVER_LINE
 
 
 def is_relevant_route_id(route_id):
-    return route_id in RAPID_TRANSIT or route_id.startswith("CR-")
+    return route_id in RELEVANT_ROUTE_IDS or route_id.startswith("CR-")
 
 
 def is_relevant_stop_time(stop_time_dict, trip_dicts_by_id):

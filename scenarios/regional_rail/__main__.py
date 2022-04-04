@@ -1,4 +1,4 @@
-from synthesize.write_gtfs import write_scenario_gtfs
+from synthesize.write_gtfs import write_scenario_gtfs, archive_scenario_gtfs
 from synthesize.evaluate import evaluate_scenario
 
 from scenarios.regional_rail.eastern import eastern
@@ -24,3 +24,5 @@ subgraphs = [
 
 scenario = evaluate_scenario(subgraphs)
 write_scenario_gtfs(scenario, "gtfs-regional-rail")
+archive_scenario_gtfs("gtfs-present")
+archive_scenario_gtfs("gtfs-regional-rail")

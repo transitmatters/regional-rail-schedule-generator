@@ -5,3 +5,4 @@ env
 __pycache__
 data/*.pickle
 *.pyc
+.DS_Store

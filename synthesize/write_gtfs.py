@@ -2,6 +2,7 @@ from typing import Union, List, Dict
 import csv
 import shutil
 import os
+import tarfile
 
 from network.time import DAYS_OF_WEEK, stringify_timedelta
 from network.models import (
@@ -317,3 +318,14 @@ def write_scenario_gtfs(scenario: Scenario, directory_path: str):
         writer.add_service(service)
     writer.add_amenities(scenario.route_pattern_amenities)
     writer.write()
+
+
+def archive_scenario_gtfs(scenario_name: str):
+    output_filename = os.path.abspath(
+        os.path.join(__file__, "..", "..", "data", f"{scenario_name}.tar.gz")
+    )
+    directory_path = os.path.abspath(
+        os.path.join(__file__, "..", "..", "data", scenario_name)
+    )
+    with tarfile.open(output_filename, "w:gz") as tar:
+        tar.add(directory_path, arcname=os.path.basename(directory_path))
