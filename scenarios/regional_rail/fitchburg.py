@@ -38,6 +38,7 @@ shared_stations = (
     station_brickbottom,
     "Union Square",
     "Porter",
+    "Alewife",
     "Belmont",
     "Waverley",
     station_clematis_brook,
