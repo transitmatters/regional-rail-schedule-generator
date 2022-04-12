@@ -4,7 +4,7 @@ import shutil
 import os
 import tarfile
 
-from network.time import DAYS_OF_WEEK, stringify_timedelta
+from network.time import DAYS_OF_WEEK, time_seconds_to_string
 from network.models import (
     LocationType,
     Stop,
@@ -103,7 +103,7 @@ class GtfsWriter(object):
         )
 
     def add_stop_time(self, stop_time: StopTime):
-        time = stringify_timedelta(stop_time.time)
+        time = time_seconds_to_string(stop_time.time)
         self.stop_time_rows.append(
             {
                 "trip_id": stop_time.trip.id,

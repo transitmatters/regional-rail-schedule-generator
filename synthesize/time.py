@@ -1,14 +1,19 @@
-from typing import Dict
+from typing import Dict, Union
+from datetime import timedelta
 
 from network.time import time_from_string, time_range_from_string, DAYS_OF_WEEK
 from network.models import Service
 
 
 class Timetable(object):
-    def __init__(self, str_times_dict: Dict[any, str] = None):
+    def __init__(self, str_times_dict: Dict[any, Union[str, int]] = None):
         if str_times_dict:
             self.travel_times = {
-                station_name: time_from_string(time_offset)
+                station_name: (
+                    time_from_string(time_offset)
+                    if type(time_offset) is str
+                    else timedelta(seconds=time_offset)
+                )
                 for (station_name, time_offset) in str_times_dict.items()
             }
         else:

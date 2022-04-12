@@ -1,11 +1,12 @@
 import math
-from typing import List
-
-from geopy.distance import geodesic
+from time import time
 import numpy as np
+from typing import List
+from geopy.distance import geodesic
 
 from network.models import Network, Station, Trip
 
+from .time import Timetable
 from .trainset import Trainset
 from .util import get_pairs, get_triples
 
@@ -54,7 +55,9 @@ def shoddily_convert_point_to_km(point, source=CENTER_OF_BOSTON):
 
 
 def get_exemplar_trip_for_stations(
-    network: Network, first: Station, second: Station
+    network: Network,
+    first: Station,
+    second: Station,
 ) -> Trip:
     all_trips = network.trips_by_id.values()
 
@@ -115,7 +118,7 @@ def get_acceleration_bounding_curve(distances, max_acceleration_kms2):
         time_s = (
             -1 * current_velocity_kms
             + math.sqrt(
-                current_velocity_kms ** 2 + 2 * max_acceleration_kms2 * distance_km
+                current_velocity_kms**2 + 2 * max_acceleration_kms2 * distance_km
             )
         ) / max_acceleration_kms2
         next_velocity_kms = current_velocity_kms + max_acceleration_kms2 * time_s
@@ -135,7 +138,10 @@ def get_track_geometry_bounding_curve(shape):
 
 
 def estimate_travel_time_between_stations_seconds(
-    network: Network, first: Station, second: Station, trainset: Trainset
+    network: Network,
+    first: Station,
+    second: Station,
+    trainset: Trainset,
 ):
     assert first in network.stations_by_id.values()
     assert second in network.stations_by_id.values()
@@ -166,17 +172,23 @@ def estimate_travel_time_between_stations_seconds(
     return 3600 * total_time_h
 
 
-def estimate_total_route_time(
-    route: List[str], network: Network, trainset: Trainset, dwell_time_seconds=45
+def estimate_route_timetable(
+    route: List[str],
+    network: Network,
+    trainset: Trainset,
+    dwell_time_seconds=45,
 ):
+    timetable_dict = {}
     total_time_seconds = 0
     for first_station_name, second_station_name in get_pairs(route):
+        if len(timetable_dict) == 0:
+            timetable_dict[first_station_name] = total_time_seconds
         first_station = network.get_station_by_name(first_station_name)
         second_station = network.get_station_by_name(second_station_name)
-        total_time_seconds += (
-            dwell_time_seconds
-            + estimate_travel_time_between_stations_seconds(
-                network, first_station, second_station, trainset
-            )
+        travel_time_seconds = estimate_travel_time_between_stations_seconds(
+            network, first_station, second_station, trainset
         )
-    return total_time_seconds
+        total_time_seconds += travel_time_seconds
+        timetable_dict[second_station_name] = total_time_seconds
+        total_time_seconds += dwell_time_seconds
+    return Timetable(timetable_dict)

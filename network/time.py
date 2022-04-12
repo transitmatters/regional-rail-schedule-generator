@@ -16,7 +16,9 @@ def time_range_from_string(time_string):
     return tuple(time_from_string(piece.strip()) for piece in pieces)
 
 
-def stringify_timedelta(td):
+def time_seconds_to_string(td):
+    if type(td) is not datetime.timedelta:
+        td = datetime.timedelta(seconds=td)
     seconds = td.total_seconds()
     hours = seconds // 3600
     minutes = (seconds % 3600) // 60

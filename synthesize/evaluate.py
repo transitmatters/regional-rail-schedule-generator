@@ -10,8 +10,9 @@ import synthesize.definitions as defn
 from synthesize.amenities import Amenities, RR_BASE_AMENITIES
 from synthesize.network import create_synthetic_network
 from synthesize.time import Weekdays, Saturday, Sunday
-
+from synthesize.distance import estimate_route_timetable
 from synthesize.util import listify
+from synthesize.trainset import Trainset
 
 
 @dataclass
@@ -163,6 +164,7 @@ def evaluate_scenario(subgraphs: List[List[defn.Route]]) -> Scenario:
     network = create_synthetic_network(real_network, pattern_defns)
     route_pattern_amenities = {}
     shadowed_route_ids = []
+
     for service in services:
         network.services_by_id[service.id] = service
     for subgraph in subgraphs:

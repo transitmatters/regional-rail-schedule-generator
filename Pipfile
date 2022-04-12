@@ -15,6 +15,7 @@ black = "*"
 click = "*"
 tqdm = "*"
 requests = "*"
+geopy = "*"
 
 [dev-packages]
 black = "==20.8b1"
