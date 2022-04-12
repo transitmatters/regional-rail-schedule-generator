@@ -41,8 +41,8 @@ timetable = Timetable(
 
 shared_stations = (
     "North Station",
-    station_everett_jct,
     "Sullivan Square",
+    station_everett_jct,
     "Chelsea",
     station_revere_center,
     "Wonderland",

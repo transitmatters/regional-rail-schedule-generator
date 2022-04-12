@@ -13,13 +13,13 @@ from scenarios.regional_rail.south_shore import greenbush, middleborough, plymou
 
 subgraphs = [
     [eastern],
-    # [lowell, haverhill, reading],
-    # [fitchburg],
-    # [worcester_framingham],
-    # [providence_stoughton],
-    # [needham],
-    # [fairmount, franklin],
-    # [greenbush, middleborough, plymouth],
+    [lowell, haverhill, reading],
+    [fitchburg],
+    [worcester_framingham],
+    [providence_stoughton],
+    [needham],
+    [fairmount, franklin],
+    [greenbush, middleborough, plymouth],
 ]
 
 scenario = evaluate_scenario(subgraphs)
