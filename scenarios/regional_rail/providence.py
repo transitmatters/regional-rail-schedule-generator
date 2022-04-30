@@ -77,7 +77,7 @@ providence = RoutePattern(
 
 wickford_junction = RoutePattern(
     id="wickford-junction",
-    stations=(providence_stations + wickford_junction_stations),
+    stations=(shared_stations + providence_stations + wickford_junction_stations),
     timetable=timetable,
     schedule=all_day_30,
 )
