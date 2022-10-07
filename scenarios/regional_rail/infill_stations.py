@@ -35,6 +35,48 @@ station_montvale_avenue = Station(
     municipality="Woburn",
 )
 
+station_umass_lowell = Station(
+    name="UMass Lowell",
+    id="place-rr-umass-lowell",
+    location=(0, 0),
+    municipality="Lowell",
+)
+
+station_rourke_bridge = Station(
+    name="Rourke Bridge",
+    id="place-rr-rourke-bridge",
+    location=(0, 0),
+    municipality="Lowell",
+)
+
+station_willow_springs = Station(
+    name="Willow Springs",
+    id="place-rr-willow-springs",
+    location=(0, 0),
+    municipality="Nashua",
+)
+
+station_nashua = Station(
+    name="Nashua",
+    id="place-rr-nashua",
+    location=(0, 0),
+    municipality="Nashua",
+)
+
+station_merrimack = Station(
+    name="Merrimack",
+    id="place-rr-merrimack",
+    location=(0, 0),
+    municipality="Merrimack",
+)
+
+station_manchester_center = Station(
+    name="Manchester Center",
+    id="place-rr-manchester-center",
+    location=(0, 0),
+    municipality="Manchester",
+)
+
 station_brickbottom = Station(
     name="Brickbottom",
     id="place-rr-brickbottom",

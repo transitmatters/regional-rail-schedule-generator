@@ -4,6 +4,12 @@ from synthesize.time import all_day_30, Timetable
 from scenarios.regional_rail.infill_stations import (
     station_tufts_university,
     station_montvale_avenue,
+    station_umass_lowell,
+    station_rourke_bridge,
+    station_willow_springs,
+    station_nashua,
+    station_merrimack,
+    station_manchester_center,
 )
 
 timetable = Timetable(
@@ -23,9 +29,15 @@ timetable = Timetable(
         "Lawrence": "0:34",
         "Bradford": "0:39",
         "Haverhill": "0:40",
-        # Lowell
-        "North Billerica": "0:38",
-        "Lowell": "0:46",
+        # Lowell / NH
+        "North Billerica": "0:27",
+        "Lowell": "0:31",
+        "UMass Lowell": "0:33",
+        "Rourke Bridge": "0:35",
+        "Willow Springs": "0:42",
+        "Nashua": "0:46",
+        "Merrimack": "0:52",
+        "Manchester Center": "1:00",
     }
 )
 
@@ -45,6 +57,12 @@ shared_stations = (
 lowell_stations = (
     "North Billerica",
     "Lowell",
+    station_umass_lowell,
+    station_rourke_bridge,
+    station_willow_springs,
+    station_nashua,
+    station_merrimack,
+    station_manchester_center,
 )
 
 haverhill_stations = (
