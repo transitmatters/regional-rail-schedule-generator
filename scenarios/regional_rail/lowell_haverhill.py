@@ -2,7 +2,6 @@ from synthesize.definitions import Route, RoutePattern
 from synthesize.time import all_day_30, Timetable
 
 from scenarios.regional_rail.infill_stations import (
-    station_tufts_university,
     station_montvale_avenue,
     station_umass_lowell,
     station_rourke_bridge,
@@ -15,7 +14,7 @@ from scenarios.regional_rail.infill_stations import (
 timetable = Timetable(
     {
         "North Station": "0:00",
-        "Tufts University": "0:05",
+        "Medford/Tufts": "0:05",
         "West Medford": "0:08",
         "Wedgemere": "0:10",
         "Winchester Center": "0:12",
@@ -43,7 +42,7 @@ timetable = Timetable(
 
 shared_stations = (
     "North Station",
-    station_tufts_university,
+    "Medford/Tufts",
     "West Medford",
     "Wedgemere",
     "Winchester Center",
