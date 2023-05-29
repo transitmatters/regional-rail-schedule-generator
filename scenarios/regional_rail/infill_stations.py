@@ -21,13 +21,6 @@ station_south_salem = Station(
     municipality="Salem",
 )
 
-station_tufts_university = Station(
-    name="Tufts University",
-    id="place-rr-tufts-university",
-    location=(0, 0),
-    municipality="Medford",
-)
-
 station_montvale_avenue = Station(
     name="Montvale Avenue",
     id="place-rr-montvale-avenue",

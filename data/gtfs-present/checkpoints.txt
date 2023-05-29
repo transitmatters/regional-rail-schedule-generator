@@ -35,6 +35,7 @@ avnsq,Avon Square
 babck,Babcock Street
 baker,Baker & Vermont Streets
 bally,Harvard Bus Tunnels
+balsq,Ball Square
 baspt,Bass Point (Nahant)
 bauck,Bay Street @ Auckland Street
 bbsta,Back Bay
@@ -62,7 +63,6 @@ blcon,Blanchard & Concord
 blsqs,Bellingham Square
 bltal,Blue Hill Avenue @ Talbot Avenue
 bmall,Burlington Mall
-bmipk,Northern Avenue @ Tide Street
 bmmnl,Beachmont
 bndhl,Brandon Hall
 bntns,Benton Square
@@ -74,7 +74,6 @@ botul,Boylston @ Tully
 bowin,Boston Street @ Winthrop Street
 boxds,Box District
 boyls,Boylston
-brbkr,Brother Heeran Way @ Baker Street (Catholic Memorial High School)
 brcom,Brighton & Commonwealth Avenue
 brcon,Broadway @ Conomo Avenue (Pickering Middle School)
 brctr,Brighton Center
@@ -195,6 +194,7 @@ emlsq,East Milton Square
 engav,Englewood Avenue
 esaug,East Saugus
 esavs,Eastern Avenue
+esomr,East Somerville
 esqnb,East Squantum Street @ Newbury Avenue (North Quincy High School)
 essex,Essex Street @ Eastern Avenue
 estws,Eastern Avenue @ Western Avenue
@@ -233,6 +233,7 @@ gdmpk,Goodridge Street @ Memorial Park Avenue
 genbo,Geneva Avenue @ Bowdoin Street
 genco,Geneva Avenue @ Columbia Road
 ghall,Grove Hall
+gilmn,Gilman Square
 glndl,Glendale Square
 glnpk,Elm Street @ Ferry Street (Glendale Park)
 glrdg,Glen Ridge Nursing Home
@@ -246,7 +247,6 @@ grigg,Griggs Street
 grmnt,Germantown
 grnst,Green Street
 grnwd,Greenwood Commuter Rail
-grtpn,Greenough Street @ Tappan Street (Brookline High)
 gtown,Georgetowne
 guild,Guild Street (Norwood)
 haecl,Haymarket
@@ -262,8 +262,8 @@ hlcdr,Highland Avenue @ Cedar Street
 hlong,Huntington Avenue & Longwood Avenue
 hloop,Cambridge Common Loop
 hlscl,Highland Avenue @ School Street (Somerville High School)
-hltsq,Hallett Square
 hnann,Hancock Street @ Saint Anns Road
+hnbrk,Brookline Street @ Granite Street (Cambridge)
 hncot,Hancock Street @ Cottage Avenue
 hngdpt,Hingham Depot
 hnglf,Hancock Street @ Greenleaf Street (Central Middle School)
@@ -305,7 +305,6 @@ kntst,Kent Street
 LaCor,LaGrange & Corey Streets
 lake,Boston College
 latac,Warren Street @ Boston Latin Academy
-legac,Legacy Place (Dedham)
 lbrwy,L Street @ Broadway
 lchmr,Lechmere Station
 leban,Lebanon Street
@@ -336,6 +335,7 @@ matt,Mattapan
 mavck,Maverick Square (East Boston)
 mavj,Maverick to Jeffries
 mcgsm,McGrath Highway @ Somerville Avenue
+mdftf,Medford/Tufts
 mdgln,Locust @ Riverside (Meadow Glen Mall)
 mdlsc,Middlesex @ Second Streets (Medford)
 mdscl,Medford Street @ School Street (Somerville High School)
@@ -346,6 +346,7 @@ mfa,Museum of Fine Arts
 mfdmn,Medford Street @ Main Street
 mfran,North Main Street @ Francis Drive
 mglen,Main Street @ Glenwood Street
+mgngl,Magoun Square
 mgnsq,Magoun Square
 mgrov,Main & Grove
 mgrwa,McGrath Highway @ Washington Street
@@ -408,7 +409,6 @@ nuniv,Northeastern University
 nwbhl,Newbury Avenue @ Hollis Avenue (Atlantic Middle School)
 nwcor,Newton Corner (Bus)
 nwobn,North Woburn
-nwtar,Newton Street @ Arlington Road
 nwthl,Newton Highlands
 nwtup,Newton Upper Falls
 nwtvl,Newtonville
@@ -479,7 +479,6 @@ roxbs,Roxbury Crossing Station (Bus)
 rsmnl,Reservoir
 rugg,Ruggles
 rvcen,River Street @ Central Avenue
-rvmcg,River Street @ McGrath Way
 rvrwy,Riverway
 salem,Salem Center
 saspr,Salem Street @ Sprague Street
@@ -487,6 +486,7 @@ saug,Saugus Center
 saugpl,Saugus Plaza
 sbmnl,Stony Brook
 sbpfd,Sawmill Brook Pkwy
+school,Harvard Street @ School Street (Brookline)
 sdmnl,Suffolk Downs
 seasl,Seaport Boulevard @ Sleeper Street
 seast,Sea Street @ Palmer Street
