@@ -52,14 +52,10 @@ class SchedulerNetwork:
     def reverse(self):
         reversed_services = {k: s.reverse() for (k, s) in self.services.items()}
         reversed_edges = {(b, a) for (a, b) in self.edges}
-        return SchedulerNetwork(
-            nodes=self.nodes, services=reversed_services, edges=reversed_edges
-        )
+        return SchedulerNetwork(nodes=self.nodes, services=reversed_services, edges=reversed_edges)
 
 
-def get_node_timetable(
-    route_pattern: RoutePattern, nodes_by_id: Dict[str, Node]
-) -> Timetable:
+def get_node_timetable(route_pattern: RoutePattern, nodes_by_id: Dict[str, Node]) -> Timetable:
     return route_pattern.timetable.map(lambda key: nodes_by_id.get(key))
 
 

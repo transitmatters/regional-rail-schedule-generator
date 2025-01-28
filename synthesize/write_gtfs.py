@@ -26,9 +26,7 @@ def _boolish_num_string(val: bool):
 
 class GtfsWriter(object):
     def __init__(self, directory_path_from_data):
-        self.directory_path = os.path.abspath(
-            os.path.join(__file__, "..", "..", "data", directory_path_from_data)
-        )
+        self.directory_path = os.path.abspath(os.path.join(__file__, "..", "..", "data", directory_path_from_data))
         print(f"Writing to {self.directory_path}")
         self.stop_rows = []
         self.stop_time_rows = []
@@ -71,9 +69,7 @@ class GtfsWriter(object):
                 }
             )
 
-    def add_stop(
-        self, stop: Union[Stop, Station], override_parent_station_id: str = None
-    ):
+    def add_stop(self, stop: Union[Stop, Station], override_parent_station_id: str = None):
         is_stop = isinstance(stop, Stop)
         location_type = LocationType.STOP if is_stop else LocationType.STATION
         inferred_parent_station_id = stop.parent_station.id if is_stop else ""
@@ -155,9 +151,7 @@ class GtfsWriter(object):
         days_dict = {}
         for day in DAYS_OF_WEEK:
             days_dict[day] = _boolish_num_string(day in service.days)
-        self.calendar_rows.append(
-            {"service_id": service.id, **days_dict, "start_date": "", "end_date": ""}
-        )
+        self.calendar_rows.append({"service_id": service.id, **days_dict, "start_date": "", "end_date": ""})
 
     def add_amenities(self, amenities_by_route_pattern_id: Dict[str, Amenities]):
         for route_pattern_id, amenities in amenities_by_route_pattern_id.items():
@@ -166,9 +160,7 @@ class GtfsWriter(object):
                     "route_pattern_id": route_pattern_id,
                     "electric_trains": _boolish_num_string(amenities.electric_trains),
                     "level_boarding": _boolish_num_string(amenities.level_boarding),
-                    "increased_top_speed": _boolish_num_string(
-                        amenities.increased_top_speed
-                    ),
+                    "increased_top_speed": _boolish_num_string(amenities.increased_top_speed),
                 }
             )
 
@@ -196,16 +188,11 @@ class GtfsWriter(object):
 
 
 def get_all_station_ids(scenario: Scenario):
-    return set(
-        list(scenario.network.stations_by_id.keys())
-        + list(scenario.real_network.stations_by_id.keys())
-    )
+    return set(list(scenario.network.stations_by_id.keys()) + list(scenario.real_network.stations_by_id.keys()))
 
 
 # TODO(ian): This should be like, six functions
-def add_synth_to_real_transfers(
-    real_stops: List[Stop], synth_stops: List[Stop], writer: GtfsWriter
-):
+def add_synth_to_real_transfers(real_stops: List[Stop], synth_stops: List[Stop], writer: GtfsWriter):
     real_transfers_from_cr_to_non_cr = [
         transfer
         for stop in real_stops
@@ -213,9 +200,7 @@ def add_synth_to_real_transfers(
         if transfer.from_stop.vehicle_type == VehicleType.COMMUTER_RAIL
         and transfer.to_stop.vehicle_type != VehicleType.COMMUTER_RAIL
     ]
-    all_non_cr_stop_ids_to_transfer_to = set(
-        [transfer.to_stop.id for transfer in real_transfers_from_cr_to_non_cr]
-    )
+    all_non_cr_stop_ids_to_transfer_to = set([transfer.to_stop.id for transfer in real_transfers_from_cr_to_non_cr])
     # For every real non commuter rail stop...
     for non_cr_stop_id in all_non_cr_stop_ids_to_transfer_to:
         # Find a real transfer to this stop
@@ -261,11 +246,7 @@ def add_stops(scenario: Scenario, writer: GtfsWriter, station_id: str):
     synth_station = scenario.network.stations_by_id.get(station_id)
     if real_station and synth_station:
         writer.add_stop(synth_station)
-        valid_real_stops = [
-            stop
-            for stop in real_station.child_stops
-            if stop.vehicle_type != VehicleType.COMMUTER_RAIL
-        ]
+        valid_real_stops = [stop for stop in real_station.child_stops if stop.vehicle_type != VehicleType.COMMUTER_RAIL]
         for stop in synth_station.child_stops + valid_real_stops:
             writer.add_stop(stop, synth_station.id)
         for stop in synth_station.child_stops:
@@ -275,9 +256,7 @@ def add_stops(scenario: Scenario, writer: GtfsWriter, station_id: str):
             for transfer in stop.transfers:
                 if transfer.to_stop in valid_real_stops:
                     writer.add_transfer(transfer)
-        add_synth_to_real_transfers(
-            real_station.child_stops, synth_station.child_stops, writer
-        )
+        add_synth_to_real_transfers(real_station.child_stops, synth_station.child_stops, writer)
     else:
         existing_station = real_station or synth_station
         writer.add_stop(existing_station)
@@ -312,20 +291,14 @@ def write_scenario_gtfs(scenario: Scenario, directory_path: str):
             add_trip(trip, writer)
     for trip in scenario.network.trips_by_id.values():
         add_trip(trip, writer)
-    for service in list(scenario.real_network.services_by_id.values()) + list(
-        scenario.network.services_by_id.values()
-    ):
+    for service in list(scenario.real_network.services_by_id.values()) + list(scenario.network.services_by_id.values()):
         writer.add_service(service)
     writer.add_amenities(scenario.route_pattern_amenities)
     writer.write()
 
 
 def archive_scenario_gtfs(scenario_name: str):
-    output_filename = os.path.abspath(
-        os.path.join(__file__, "..", "..", "data", f"{scenario_name}.tar.gz")
-    )
-    directory_path = os.path.abspath(
-        os.path.join(__file__, "..", "..", "data", scenario_name)
-    )
+    output_filename = os.path.abspath(os.path.join(__file__, "..", "..", "data", f"{scenario_name}.tar.gz"))
+    directory_path = os.path.abspath(os.path.join(__file__, "..", "..", "data", scenario_name))
     with tarfile.open(output_filename, "w:gz") as tar:
         tar.add(directory_path, arcname=os.path.basename(directory_path))

@@ -77,11 +77,7 @@ def get_arrival_constraint_range(
     headway = problem.get_service_headway(arrival_service_id)
     trip_time = problem.trip_time_to_node(arrival_service_id, node_id)
     existing_arrival_for_service_id = next(
-        (
-            a
-            for a in reversed(ordered_arrivals_of_previous_dispatches)
-            if a.service_id == arrival_service_id
-        ),
+        (a for a in reversed(ordered_arrivals_of_previous_dispatches) if a.service_id == arrival_service_id),
         None,
     )
     if existing_arrival_for_service_id:
@@ -96,9 +92,7 @@ def minimum_time_spanned_by_sequence(sequence: List[str], problem: SchedulingPro
         previous_minimum_time = previous_minimum_times.get(dispatch)
         min_now = now + problem.dispatch_spacing_time
         if previous_minimum_time is not None:
-            now = max(
-                min_now, previous_minimum_time + problem.get_service_headway(dispatch)
-            )
+            now = max(min_now, previous_minimum_time + problem.get_service_headway(dispatch))
         else:
             now = min_now
         previous_minimum_times[dispatch] = now
@@ -109,16 +103,12 @@ def last_index_of(sequence: List[str], service: str):
     return len(sequence) - sequence[::-1].index(service) - 1
 
 
-def proposed_dispatch_is_too_late(
-    sequence: List[str], dispatch: str, problem: SchedulingProblem
-):
+def proposed_dispatch_is_too_late(sequence: List[str], dispatch: str, problem: SchedulingProblem):
     headway = problem.get_service_headway(dispatch)
     try:
         previous_dispatch_idx = last_index_of(sequence, dispatch)
         other_dispatches_since_previous = sequence[previous_dispatch_idx + 1 :]
-        min_time_since_last = minimum_time_spanned_by_sequence(
-            other_dispatches_since_previous, problem
-        )
+        min_time_since_last = minimum_time_spanned_by_sequence(other_dispatches_since_previous, problem)
         return min_time_since_last > headway
     except ValueError:
         return False
@@ -129,9 +119,7 @@ def sequence_cannot_be_cyclical(sequence: List[str], problem: SchedulingProblem)
         headway = problem.get_service_headway(service_id)
         last_index = last_index_of(sequence, service_id)
         dispatches_since_last = sequence[last_index + 1 :]
-        min_time_since_last = minimum_time_spanned_by_sequence(
-            dispatches_since_last, problem
-        )
+        min_time_since_last = minimum_time_spanned_by_sequence(dispatches_since_last, problem)
         if min_time_since_last > headway:
             return True
     return False
@@ -170,36 +158,22 @@ def constrain_arrival_range_for_dispatch_headways(
         headway = problem.get_service_headway(arrival_service_id)
         services_arriving_at_node = problem.dispatched_services_for_node_id(node_id)
         latest_arrival_of_service = next(
-            (
-                a
-                for a in reversed(ordered_arrivals_of_previous_dispatches)
-                if a.service_id == arrival_service_id
-            ),
+            (a for a in reversed(ordered_arrivals_of_previous_dispatches) if a.service_id == arrival_service_id),
             None,
         )
         latest_arrival_of_any_service = next(
-            (
-                a
-                for a in reversed(ordered_arrivals_of_previous_dispatches)
-                if a.service_id in services_arriving_at_node
-            ),
+            (a for a in reversed(ordered_arrivals_of_previous_dispatches) if a.service_id in services_arriving_at_node),
             None,
         )
         if latest_arrival_of_any_service:
-            earliest_possible_dispatch_time = (
-                latest_arrival_of_any_service.range.lower
-                + problem.dispatch_spacing_time
-            )
+            earliest_possible_dispatch_time = latest_arrival_of_any_service.range.lower + problem.dispatch_spacing_time
             if latest_arrival_of_service:
                 minimum_time_since_latest_dispatch = (
-                    earliest_possible_dispatch_time
-                    - latest_arrival_of_service.range.lower
+                    earliest_possible_dispatch_time - latest_arrival_of_service.range.lower
                 )
                 if minimum_time_since_latest_dispatch > headway:
                     return None
-            return arrival_range.intersection(
-                Range(earliest_possible_dispatch_time, float("inf"))
-            )
+            return arrival_range.intersection(Range(earliest_possible_dispatch_time, float("inf")))
     return arrival_range
 
 
@@ -251,11 +225,7 @@ def get_possible_insertions_of_dispatch_or_arrival(
             if idx == len(ordered_arrivals_of_previous_dispatches)
             else ordered_arrivals_of_previous_dispatches[idx].range.lower
         )
-        boundary_below = (
-            0
-            if idx == 0
-            else ordered_arrivals_of_previous_dispatches[idx - 1].range.lower
-        )
+        boundary_below = 0 if idx == 0 else ordered_arrivals_of_previous_dispatches[idx - 1].range.lower
         boundary_range = Range(boundary_below, boundary_above)
         insertion_range = boundary_range.intersection(feasible_range)
         if insertion_range:
@@ -265,9 +235,7 @@ def get_possible_insertions_of_dispatch_or_arrival(
             yield insertion_range, insertion_list
 
 
-def get_arrival_orderings_for_dispatch(
-    state: OrderingState, problem: SchedulingProblem, dispatch_service_id: str
-):
+def get_arrival_orderings_for_dispatch(state: OrderingState, problem: SchedulingProblem, dispatch_service_id: str):
     @listify
     def subproblem(
         node_ids: List[str],
@@ -297,9 +265,7 @@ def get_arrival_orderings_for_dispatch(
             constraining_range = previous_node_range.offset(offset_time)
         for insertion_range, insertion_order in possible_insertions:
             resulting_range = (
-                constraining_range.intersection(insertion_range)
-                if constraining_range
-                else insertion_range
+                constraining_range.intersection(insertion_range) if constraining_range else insertion_range
             )
             if resulting_range:
                 for partial in subproblem(
@@ -312,9 +278,7 @@ def get_arrival_orderings_for_dispatch(
     node_ids_in_service = problem.node_ids_for_service_id(dispatch_service_id)
     next_arrival_orderings = []
     for arrival_ordering in state.arrival_orderings:
-        for ordering in subproblem(
-            node_ids=node_ids_in_service, existing_arrivals=arrival_ordering
-        ):
+        for ordering in subproblem(node_ids=node_ids_in_service, existing_arrivals=arrival_ordering):
             next_arrival_orderings.append({**arrival_ordering, **ordering})
     return next_arrival_orderings
 
@@ -322,9 +286,7 @@ def get_arrival_orderings_for_dispatch(
 @listify
 def get_next_ordering_states(state: OrderingState, problem: SchedulingProblem):
     for next_pool, candidate_service_id in state.service_pool.next_candidates():
-        if proposed_dispatch_is_too_late(
-            state.dispatch_ordering, candidate_service_id, problem
-        ):
+        if proposed_dispatch_is_too_late(state.dispatch_ordering, candidate_service_id, problem):
             continue
         next_arrival_orderings = get_arrival_orderings_for_dispatch(
             state=state, problem=problem, dispatch_service_id=candidate_service_id
@@ -367,14 +329,10 @@ def get_orderings_from_ordering_state(state: OrderingState, problem: SchedulingP
 @listify
 def get_orderings(problem: SchedulingProblem):
     service_pool = ServicePool(problem.trips_per_period)
-    initial_state = OrderingState(
-        dispatch_ordering=[], arrival_orderings=[{}], service_pool=service_pool
-    )
+    initial_state = OrderingState(dispatch_ordering=[], arrival_orderings=[{}], service_pool=service_pool)
 
     def subproblem(state: OrderingState):
-        if state.finished and not sequence_cannot_be_cyclical(
-            state.dispatch_ordering, problem
-        ):
+        if state.finished and not sequence_cannot_be_cyclical(state.dispatch_ordering, problem):
             return [state]
         else:
             results = []

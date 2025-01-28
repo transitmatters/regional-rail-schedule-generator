@@ -36,9 +36,7 @@ def _get_stops_in_direction(
     direction: int,
     network: Network,
 ) -> List[Stop]:
-    station_names_or_defns = (
-        reversed(pattern_defn.stations) if direction == 1 else pattern_defn.stations
-    )
+    station_names_or_defns = reversed(pattern_defn.stations) if direction == 1 else pattern_defn.stations
     for station_name_or_defn in station_names_or_defns:
         station = _resolve_station(network, station_name_or_defn)
         stop = station.get_child_stop_for_direction(direction)
@@ -50,9 +48,7 @@ def _get_routes_for_subgraph(subgraph: List[defn.Route], network: Network):
         route = Route(id=route_defn.id, long_name=route_defn.name)
         for pattern_defn in route_defn.route_patterns:
             stops = _get_stops_in_direction(pattern_defn, 0, network)
-            route_pattern = RoutePattern(
-                id=pattern_defn.id, direction=0, stops=stops, route=route
-            )
+            route_pattern = RoutePattern(id=pattern_defn.id, direction=0, stops=stops, route=route)
             route.add_route_pattern(route_pattern)
         yield route
 
@@ -63,9 +59,7 @@ def _get_amenities_by_route_pattern_id_for_subgraph(
     amenities_by_route_pattern_id = {}
     for route_defn in subgraph:
         for pattern_defn in route_defn.route_patterns:
-            resolved_amenities = RR_BASE_AMENITIES.cascade(
-                route_defn.amenities
-            ).cascade(pattern_defn.amenities)
+            resolved_amenities = RR_BASE_AMENITIES.cascade(route_defn.amenities).cascade(pattern_defn.amenities)
             amenities_by_route_pattern_id[pattern_defn.id] = resolved_amenities
     return amenities_by_route_pattern_id
 
@@ -79,11 +73,7 @@ def _get_route_pattern_definitions_from_subgraphs(subgraphs: List[List[defn.Rout
 
 
 def _resolve_station(network: Network, station_name_or_defn: Union[str, defn.Station]):
-    station_name = (
-        station_name_or_defn.name
-        if isinstance(station_name_or_defn, defn.Station)
-        else station_name_or_defn
-    )
+    station_name = station_name_or_defn.name if isinstance(station_name_or_defn, defn.Station) else station_name_or_defn
     station = network.get_station_by_name(station_name)
     assert station, f"No station in network by name {station_name}"
     return station

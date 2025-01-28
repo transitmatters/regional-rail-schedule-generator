@@ -36,9 +36,7 @@ class RoutePattern(object):
         self.parent_route = None
         for station in self.stations:
             station_name = station.name if isinstance(station, Station) else station
-            assert self.timetable.contains(
-                station_name
-            ), f"Missing travel time info for {station_name}"
+            assert self.timetable.contains(station_name), f"Missing travel time info for {station_name}"
 
     def set_parent_route(self, parent_route: "Route"):
         self.parent_route = parent_route
@@ -52,9 +50,7 @@ class RoutePattern(object):
                 name = station_name_or_defn
             else:
                 name = station_name_or_defn.name
-            assert (
-                name not in seen
-            ), f"Encountered non-unique station name {name} in list of stations for scheduler"
+            assert name not in seen, f"Encountered non-unique station name {name} in list of stations for scheduler"
             seen.add(name)
             yield name
 

@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "regional-rail-schedule-generator"
+version = "0.1.0"
+description = "Generate a new GTFS schedule bundle for a proposed new MBTA service"
+authors = ["TransitMatters Labs Team"]
+license = "MIT"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "~3.12"
+requests = "~2.32.3"
+numpy = "~2.2.2"
+cvxpy = "~1.6.0"
+frozendict = "~2.4.6"
+click = "~8.1.8"
+tqdm = "~4.67.1"
+
+
+[tool.poetry.dev-dependencies]
+pip = ">=24.0"
+flake8 = "~7.1.1"
+black = "~24.10.0"
+pytest = "~8.3.4"
+
+
+[tool.poetry.requires-plugins]
+poetry-plugin-export = "^1.9.0"
+
+
+[tool.black]
+line-length = 120
+target-version = ['py312']
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

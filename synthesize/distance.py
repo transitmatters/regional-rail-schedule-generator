@@ -31,9 +31,7 @@ def get_degree_of_curvature_for_radius(curve_radius_km):
 
 
 def get_max_speed_for_curve_radius_kmh(curve_radius_km):
-    return 1.60934 * (
-        math.sqrt(6 / (0.0007 * get_degree_of_curvature_for_radius(curve_radius_km)))
-    )
+    return 1.60934 * (math.sqrt(6 / (0.0007 * get_degree_of_curvature_for_radius(curve_radius_km))))
 
 
 def get_point_distance(p1, p2):
@@ -53,21 +51,15 @@ def shoddily_convert_point_to_km(point, source=CENTER_OF_BOSTON):
     return (x_distance_signed, y_distance_signed)
 
 
-def get_exemplar_trip_for_stations(
-    network: Network, first: Station, second: Station
-) -> Trip:
+def get_exemplar_trip_for_stations(network: Network, first: Station, second: Station) -> Trip:
     all_trips = network.trips_by_id.values()
 
     def trip_serves_station(trip: Trip, station: Station):
-        return station in (
-            stop_time.stop.parent_station for stop_time in trip.stop_times
-        )
+        return station in (stop_time.stop.parent_station for stop_time in trip.stop_times)
 
     try:
         return next(
-            trip
-            for trip in all_trips
-            if trip_serves_station(trip, first) and trip_serves_station(trip, second)
+            trip for trip in all_trips if trip_serves_station(trip, first) and trip_serves_station(trip, second)
         )
     except StopIteration as e:
         raise Exception(f"No exemplar trip for {first.name} -> {second.name}") from e
@@ -82,10 +74,7 @@ def get_shape_between_stations(network: Network, first: Station, second: Station
         target_boundary_distance = get_point_distance(target, boundary)
         for index, point in enumerate(trip_shape):
             point_distance = get_point_distance(point, target)
-            if (
-                point_distance < closest
-                and get_point_distance(boundary, point) <= target_boundary_distance
-            ):
+            if point_distance < closest and get_point_distance(boundary, point) <= target_boundary_distance:
                 closest = point_distance
                 closest_index = index
         if closest_index is None:
@@ -113,10 +102,7 @@ def get_acceleration_bounding_curve(distances, max_acceleration_kms2):
         current_velocity_kms = velocity_curve_kms[index - 1] if index > 0 else 0
         # Solve the equation 0.5 * t * Amax ^ 2 + V * t - D = 0
         time_s = (
-            -1 * current_velocity_kms
-            + math.sqrt(
-                current_velocity_kms ** 2 + 2 * max_acceleration_kms2 * distance_km
-            )
+            -1 * current_velocity_kms + math.sqrt(current_velocity_kms**2 + 2 * max_acceleration_kms2 * distance_km)
         ) / max_acceleration_kms2
         next_velocity_kms = current_velocity_kms + max_acceleration_kms2 * time_s
         velocity_curve_kms[index] = next_velocity_kms
@@ -127,7 +113,7 @@ def get_acceleration_bounding_curve(distances, max_acceleration_kms2):
 def get_track_geometry_bounding_curve(shape):
     shape_km = list(map(shoddily_convert_point_to_km, shape))
     res = []
-    for (k1, k2, k3) in get_triples(shape_km):
+    for k1, k2, k3 in get_triples(shape_km):
         curve_radius = get_curve_radius_for_points(k1, k2, k3)
         max_speed_kmh = get_max_speed_for_curve_radius_kmh(curve_radius)
         res.append(max_speed_kmh)
@@ -141,15 +127,9 @@ def estimate_travel_time_between_stations_seconds(
     assert second in network.stations_by_id.values()
     geo_shape = get_shape_between_stations(network, first, second)
     distances_km = get_distances_between_points_km(geo_shape)
-    acceleration_curve_kmh = get_acceleration_bounding_curve(
-        distances_km, trainset.max_acceleration_kms2
-    )
+    acceleration_curve_kmh = get_acceleration_bounding_curve(distances_km, trainset.max_acceleration_kms2)
     decceleration_curve_kmh = list(
-        reversed(
-            get_acceleration_bounding_curve(
-                list(reversed(distances_km)), trainset.max_decceleration_kms2
-            )
-        )
+        reversed(get_acceleration_bounding_curve(list(reversed(distances_km)), trainset.max_decceleration_kms2))
     )
     track_geometry_bounding_curve_kmh = get_track_geometry_bounding_curve(geo_shape)
     total_time_h = 0
@@ -166,17 +146,12 @@ def estimate_travel_time_between_stations_seconds(
     return 3600 * total_time_h
 
 
-def estimate_total_route_time(
-    route: List[str], network: Network, trainset: Trainset, dwell_time_seconds=45
-):
+def estimate_total_route_time(route: List[str], network: Network, trainset: Trainset, dwell_time_seconds=45):
     total_time_seconds = 0
     for first_station_name, second_station_name in get_pairs(route):
         first_station = network.get_station_by_name(first_station_name)
         second_station = network.get_station_by_name(second_station_name)
-        total_time_seconds += (
-            dwell_time_seconds
-            + estimate_travel_time_between_stations_seconds(
-                network, first_station, second_station, trainset
-            )
+        total_time_seconds += dwell_time_seconds + estimate_travel_time_between_stations_seconds(
+            network, first_station, second_station, trainset
         )
     return total_time_seconds
