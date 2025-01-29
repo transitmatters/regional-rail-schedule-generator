@@ -2,7 +2,6 @@ from typing import List, Union
 from csv import DictReader
 from dataclasses import dataclass
 from datetime import date, datetime
-from os import rmdir
 from zipfile import BadZipFile, ZipFile
 from tqdm import tqdm
 import tempfile
@@ -81,9 +80,7 @@ def select_feed(feeds: List[GtfsFeed], date: Union[None, date]) -> GtfsFeed:
     if date is None:
         return feeds[0]
     try:
-        return next(
-            (feed for feed in feeds if feed.start_date <= date <= feed.end_date)
-        )
+        return next((feed for feed in feeds if feed.start_date <= date <= feed.end_date))
     except StopIteration:
         print(f"No GTFS feed available for {date}")
 

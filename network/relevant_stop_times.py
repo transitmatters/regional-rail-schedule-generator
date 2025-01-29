@@ -43,11 +43,7 @@ def is_relevant_stop_time(stop_time_dict, trip_dicts_by_id):
 def generate_relevant_stop_times():
     trip_dicts_by_id = index_by(load_trips(), "trip_id")
     stop_times = load_stop_times()
-    relevant_stop_times = [
-        stop_time
-        for stop_time in stop_times
-        if is_relevant_stop_time(stop_time, trip_dicts_by_id)
-    ]
+    relevant_stop_times = [stop_time for stop_time in stop_times if is_relevant_stop_time(stop_time, trip_dicts_by_id)]
     with open(PATH_TO_OUTPUT, "w") as file:
         fieldnames = relevant_stop_times[0].keys()
         writer = csv.DictWriter(file, fieldnames=fieldnames)

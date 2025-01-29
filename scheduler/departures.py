@@ -20,7 +20,7 @@ def _get_route_patterns(subgraph: List[Route]) -> List[RoutePattern]:
 
 
 def _query_frequencies_dict(frequencies: Frequencies, time: timedelta):
-    for (key, value) in frequencies.items():
+    for key, value in frequencies.items():
         (start, end) = key
         if time >= start and time < end:
             return value
@@ -29,10 +29,10 @@ def _query_frequencies_dict(frequencies: Frequencies, time: timedelta):
 def _get_disjoint_time_ranges(time_ranges: List[TimeRange]):
     time_points = set()
     disjoint_ranges = []
-    for (start, end) in time_ranges:
+    for start, end in time_ranges:
         time_points.add(start)
         time_points.add(end)
-    for (start, end) in get_pairs(list(sorted(time_points))):
+    for start, end in get_pairs(list(sorted(time_points))):
         disjoint_ranges.append((start, end))
     return disjoint_ranges
 
@@ -41,9 +41,7 @@ def _get_constant_frequency_time_ranges(
     route_patterns: List[RoutePattern],
     service: Service,
 ) -> Dict[TimeRange, Dict[str, int]]:
-    schedules = [
-        route_pattern.schedule.get(service) for route_pattern in route_patterns
-    ]
+    schedules = [route_pattern.schedule.get(service) for route_pattern in route_patterns]
     time_ranges = [rng for schedule in schedules for rng in schedule.keys()]
     constant_frequency_time_ranges = {}
     disjoint_ranges = _get_disjoint_time_ranges(time_ranges)
@@ -97,22 +95,16 @@ def create_departure_getter_for_subgraph(subgraph: List[Route]):
     scheduler_network = create_scheduler_network(route_patterns)
     reverse_scheduler_network = scheduler_network.reverse()
     get_departure_offsets = _create_departure_offset_getter(scheduler_network)
-    get_reverse_departure_offsets = _create_departure_offset_getter(
-        reverse_scheduler_network
-    )
+    get_reverse_departure_offsets = _create_departure_offset_getter(reverse_scheduler_network)
 
     def get_departures_for_service(service: Service):
         constant_frequency_ranges = _get_constant_frequency_time_ranges(
             route_patterns,
             service,
         )
-        for (time_range, route_pattern_id_to_tph) in constant_frequency_ranges.items():
+        for time_range, route_pattern_id_to_tph in constant_frequency_ranges.items():
             for direction in DIRECTIONS:
-                getter = (
-                    get_departure_offsets
-                    if direction == 0
-                    else get_reverse_departure_offsets
-                )
+                getter = get_departure_offsets if direction == 0 else get_reverse_departure_offsets
                 offsets = getter(route_pattern_id_to_tph)
                 for route_pattern in route_patterns:
                     route_tph = route_pattern_id_to_tph.get(route_pattern.id)

@@ -29,9 +29,7 @@ class OptimizeContext:
         return self._get_or_create_variable(f"departure_offset_{service}", nonneg=True)
 
 
-def get_indexed_arrival_expression(
-    ctx: OptimizeContext, service: Service, index: int, node: Node
-):
+def get_indexed_arrival_expression(ctx: OptimizeContext, service: Service, index: int, node: Node):
     offset = ctx.get_departure_offset_variable(service)
     headway = ctx.problem.get_service_headway(service)
     trip_time = service.trip_time_to_node_seconds(node)
@@ -43,7 +41,7 @@ def get_indexed_arrival_expression(
 @listify
 def get_ordered_arrival_expressions_for_node(ctx: OptimizeContext, node: Node):
     arrivals_by_id = ctx.ordering.arrival_orderings[node]
-    for (index, service) in arrivals_by_id:
+    for index, service in arrivals_by_id:
         yield get_indexed_arrival_expression(ctx, service, index, node)
 
 
@@ -62,7 +60,7 @@ def get_global_constraints(ctx: OptimizeContext):
             yield offset == 0
         else:
             yield offset + 1 <= headway
-    for (service_a, service_b) in get_pairs(ctx.ordering.dispatch_ordering):
+    for service_a, service_b in get_pairs(ctx.ordering.dispatch_ordering):
         offset_a = ctx.get_departure_offset_variable(service_a)
         offset_b = ctx.get_departure_offset_variable(service_b)
         yield offset_a <= offset_b
@@ -81,7 +79,7 @@ def get_objective_for_node(ctx: OptimizeContext, node: Node):
     weight = 1 / total_arrivals
     arrival_exprs = get_ordered_arrival_expressions_for_node(ctx, node)
     desired_headway = ctx.problem.period // total_arrivals
-    for (first, second) in get_pairs(arrival_exprs):
+    for first, second in get_pairs(arrival_exprs):
         term = ((second - first) - desired_headway) ** 2
         obj += term
     first = arrival_exprs[0]

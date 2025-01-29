@@ -8,15 +8,15 @@ lint:
 	flake8 && black --check .
 
 select-gtfs:
-	python3 -m network.mbta_gtfs --date=$(date)
+	poetry run python -m network.mbta_gtfs --date=$(date)
 
 existing-network:
 	rm -f data/network.pickle
-	python3 -m network.relevant_stop_times
-	python3 -m network.main
+	poetry run python -m network.relevant_stop_times
+	poetry run python -m network.main
 
 regional-rail:
-	python3 -m scenarios.regional_rail
+	poetry run python -m scenarios.regional_rail
 
 build:
 	make select-gtfs date=$(date)

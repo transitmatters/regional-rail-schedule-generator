@@ -8,8 +8,7 @@ class Timetable(object):
     def __init__(self, str_times_dict: Dict[any, str] = None):
         if str_times_dict:
             self.travel_times = {
-                station_name: time_from_string(time_offset)
-                for (station_name, time_offset) in str_times_dict.items()
+                station_name: time_from_string(time_offset) for (station_name, time_offset) in str_times_dict.items()
             }
         else:
             self.travel_times = {}
@@ -28,10 +27,7 @@ class Timetable(object):
         map_keys = map_keys if map_keys else lambda x: x
         map_values = map_values if map_values else lambda x: x
         new = Timetable()
-        new.travel_times = {
-            map_keys(key): map_values(value)
-            for (key, value) in self.travel_times.items()
-        }
+        new.travel_times = {map_keys(key): map_values(value) for (key, value) in self.travel_times.items()}
         return new
 
 

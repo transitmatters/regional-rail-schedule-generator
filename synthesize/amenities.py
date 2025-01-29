@@ -19,6 +19,4 @@ class Amenities:
         return Amenities(**field_values)
 
 
-RR_BASE_AMENITIES = Amenities(
-    level_boarding=True, increased_top_speed=True, electric_trains=True
-)
+RR_BASE_AMENITIES = Amenities(level_boarding=True, increased_top_speed=True, electric_trains=True)

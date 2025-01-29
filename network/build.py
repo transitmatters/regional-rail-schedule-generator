@@ -45,10 +45,7 @@ def get_shapes_by_id(shapes):
         seq = int(shape["shape_pt_sequence"])
         res[shape_id].append((lat, lon, seq))
     for shape_id in res:
-        res[shape_id] = [
-            (lat, lon)
-            for (lat, lon, _) in sorted(res[shape_id], key=lambda entry: entry[2])
-        ]
+        res[shape_id] = [(lat, lon) for (lat, lon, _) in sorted(res[shape_id], key=lambda entry: entry[2])]
     return res
 
 
@@ -137,13 +134,8 @@ def link_stop_times(stop, stop_time_dicts, trips_by_id):
 
 def link_child_stops(station, stop_dicts):
     for stop_dict in stop_dicts:
-        if (
-            stop_dict["parent_station"] == station.id
-            and stop_dict["location_type"] == LocationType.STOP
-        ):
-            stop = Stop(
-                parent_station=station, **get_station_stop_args_from_dict(stop_dict)
-            )
+        if stop_dict["parent_station"] == station.id and stop_dict["location_type"] == LocationType.STOP:
+            stop = Stop(parent_station=station, **get_station_stop_args_from_dict(stop_dict))
             yield stop
             if len(stop.stop_times) > 0:
                 station.add_child_stop(stop)
@@ -153,11 +145,7 @@ def link_transfers(stop, all_stops, transfer_dicts):
     for transfer_dict in transfer_dicts:
         if transfer_dict["from_stop_id"] == stop.id:
             to_stop = next(
-                (
-                    other_stop
-                    for other_stop in all_stops
-                    if other_stop.id == transfer_dict["to_stop_id"]
-                ),
+                (other_stop for other_stop in all_stops if other_stop.id == transfer_dict["to_stop_id"]),
                 None,
             )
             if to_stop:
@@ -167,9 +155,7 @@ def link_transfers(stop, all_stops, transfer_dicts):
                     min_walk_time=int(transfer_dict["min_walk_time"] or 0),
                     min_wheelchair_time=int(transfer_dict["min_wheelchair_time"] or 0),
                     min_transfer_time=int(transfer_dict["min_transfer_time"] or 0),
-                    suggested_buffer_time=int(
-                        transfer_dict["suggested_buffer_time"] or 0
-                    ),
+                    suggested_buffer_time=int(transfer_dict["suggested_buffer_time"] or 0),
                     wheelchair_transfer=transfer_dict["wheelchair_transfer"],
                 )
                 stop.add_transfer(transfer)
