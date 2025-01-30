@@ -75,7 +75,6 @@ bowin,Boston Street @ Winthrop Street
 boxds,Box District
 boyls,Boylston
 brcom,Brighton & Commonwealth Avenue
-brcon,Broadway @ Conomo Avenue (Pickering Middle School)
 brctr,Brighton Center
 brdwy,Broadway
 brfli,Broadway @ Felton Street
@@ -93,6 +92,7 @@ brnst,Braintree Station
 brntn,Braintree
 brown,Brown Circle
 brway,Broadway Station
+brwcr,Broadway @ Cross Street
 brypl,Broadway Plaza @ Broadway
 bryup,Bryant Avenue & Upton Street (West Quincy)
 bubrg,Commonwealth Avenue @ BU Bridge
@@ -105,8 +105,8 @@ burlc,Burlington Center
 butlr,Butler
 bvmnl,Brookline Village
 bwcen,Broadway & Central (Revere)
+bwsvl,Bow Street (Somerville)
 bwybc,Broadway & Beacon
-bwypk,Broadway & Park (Revere)
 bwysq,Broadway Square @ Salem Street
 cabgr,C @ Cabot Garage
 cacom,Causeway Street & Commercial Street
@@ -263,7 +263,6 @@ hlong,Huntington Avenue & Longwood Avenue
 hloop,Cambridge Common Loop
 hlscl,Highland Avenue @ School Street (Somerville High School)
 hnann,Hancock Street @ Saint Anns Road
-hnbrk,Brookline Street @ Granite Street (Cambridge)
 hncot,Hancock Street @ Cottage Avenue
 hngdpt,Hingham Depot
 hnglf,Hancock Street @ Greenleaf Street (Central Middle School)
@@ -313,6 +312,7 @@ lexrv,Lexington Street @ River Street
 libtr,Liberty Tree Mall
 lindn,Linden Square (Malden)
 linsh,Lincoln Street @ Silver Hill Lane
+linwh,Linwood Housing
 lngmd,Longwood Medical Area
 lnlab,Lincoln Lab
 logan,Logan Square (Hyde Park)
@@ -455,9 +455,7 @@ prsgc,Presidents Golf Course
 pshly,Point Shirley
 qadam,Quincy Adams Station (Busway)
 qamnl,Quincy Adams
-qctrr,Quincy Center Station (Rear)
 qnctr,Quincy Center
-quint,Brighton Avenue @ Quint Avenue
 quncy,Quincy Bus Garage
 rbmnl,Revere Beach
 rbrts,Roberts
@@ -480,20 +478,18 @@ rsmnl,Reservoir
 rugg,Ruggles
 rvcen,River Street @ Central Avenue
 rvrwy,Riverway
-salem,Salem Center
+salem,Salem Depot
 saspr,Salem Street @ Sprague Street
 saug,Saugus Center
 saugpl,Saugus Plaza
 sbmnl,Stony Brook
 sbpfd,Sawmill Brook Pkwy
-school,Harvard Street @ School Street (Brookline)
 sdmnl,Suffolk Downs
 seasl,Seaport Boulevard @ Sleeper Street
 seast,Sea Street @ Palmer Street
 shmnl,Savin Hill
 shosp,Shattuck Hospital
 shpyd,Hingham Shipyard
-shtpk,Shetland Park (Salem)
 shunt,Centre Street & South Huntington Avenue
 slmct,Salem Center
 slmhp,Salem & Humphrey (Swampscott)
@@ -511,7 +507,7 @@ sougr,South Street
 soust,South Station (Silver Line)
 south,Grove & South Streets
 spmnl,Science Park/West End
-sprhl,Spring Hill
+speve,Spruce Street & Everett
 sqntm,Squantum
 sqone,Sqaure One Mall
 sring,Spring Street @ Centre Street
@@ -577,6 +573,7 @@ wadsw,Wadsworth Road
 waher,Washington Street @ Herald Street
 wakav,Wakefield Avenue
 wakef,Wakefield Square
+waite,Waitt Avenue @ President Street (Lynn)
 walag,Washington Street @ LaGrange Street
 walth,Central Square (Waltham)
 wamet,Washington Street @ Metropolitan Avenue
