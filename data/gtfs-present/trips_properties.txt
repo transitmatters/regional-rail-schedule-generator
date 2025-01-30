@@ -1,1527 +1,973 @@
 trip_id,trip_property_id,value
-54241724-BUS12023-hbt13011-Weekday-02,note,Does not run during school vacation
-54241724-BUS12023-hbt13011-Weekday-02,trip_type,supplemental
-54241725-BUS12023-hbt13011-Weekday-02,note,Does not run during school vacation
-54241725-BUS12023-hbt13011-Weekday-02,trip_type,supplemental
-54242265-BUS12023-hbt13011-Weekday-02,note,Does not run during school vacation
-54242265-BUS12023-hbt13011-Weekday-02,trip_type,supplemental
-54242855-BUS12023-hbt13011-Weekday-02,note,Does not run during school vacation
-54242855-BUS12023-hbt13011-Weekday-02,trip_type,supplemental
-54242871-BUS12023-hbt13011-Weekday-02,note,Does not run during school vacation
-54242871-BUS12023-hbt13011-Weekday-02,trip_type,supplemental
-54243742-BUS12023-hbt13011-Weekday-02,note,Does not run during school vacation
-54243742-BUS12023-hbt13011-Weekday-02,trip_type,supplemental
-54243757-BUS12023-hbt13011-Weekday-02,note,Does not run during school vacation
-54243757-BUS12023-hbt13011-Weekday-02,trip_type,supplemental
-54253291-BUS12023-hbt13l31-Saturday-02,note,Does not run during school vacation
-54253291-BUS12023-hbt13l31-Saturday-02,trip_type,supplemental
-54253292-BUS12023-hbt13l31-Saturday-02,note,Does not run during school vacation
-54253292-BUS12023-hbt13l31-Saturday-02,trip_type,supplemental
-54253293-BUS12023-hbt13l31-Saturday-02,note,Does not run during school vacation
-54253293-BUS12023-hbt13l31-Saturday-02,trip_type,supplemental
-54253294-BUS12023-hbt13l31-Saturday-02,note,Does not run during school vacation
-54253294-BUS12023-hbt13l31-Saturday-02,trip_type,supplemental
-54253295-BUS12023-hbt13l31-Saturday-02,note,Does not run during school vacation
-54253295-BUS12023-hbt13l31-Saturday-02,trip_type,supplemental
-54253296-BUS12023-hbt13l31-Saturday-02,note,Does not run during school vacation
-54253296-BUS12023-hbt13l31-Saturday-02,trip_type,supplemental
-54253313-BUS12023-hbt13l31-Saturday-02,note,Does not run during school vacation
-54253313-BUS12023-hbt13l31-Saturday-02,trip_type,supplemental
-54404119-BUS12023-hbq13011-Weekday-02,note,Does not run during school vacation
-54404119-BUS12023-hbq13011-Weekday-02,trip_type,supplemental
-54404168-BUS12023-hbq13011-Weekday-02,note,Does not run during school vacation
-54404168-BUS12023-hbq13011-Weekday-02,trip_type,supplemental
-54404169-BUS12023-hbq13011-Weekday-02,note,Does not run during school vacation
-54404169-BUS12023-hbq13011-Weekday-02,trip_type,supplemental
-54404170-BUS12023-hbq13011-Weekday-02,note,Does not run during school vacation
-54404170-BUS12023-hbq13011-Weekday-02,trip_type,supplemental
-54404171-BUS12023-hbq13011-Weekday-02,note,Does not run during school vacation
-54404171-BUS12023-hbq13011-Weekday-02,trip_type,supplemental
-54404172-BUS12023-hbq13011-Weekday-02,note,Does not run during school vacation
-54404172-BUS12023-hbq13011-Weekday-02,trip_type,supplemental
-54404199-BUS12023-hbq13011-Weekday-02,note,Does not run during school vacation
-54404199-BUS12023-hbq13011-Weekday-02,trip_type,supplemental
-54404341-BUS12023-hbq13011-Weekday-02,note,Does not run during school vacation
-54404341-BUS12023-hbq13011-Weekday-02,trip_type,supplemental
-54404490-BUS12023-hbq13011-Weekday-02,note,Does not run during school vacation
-54404490-BUS12023-hbq13011-Weekday-02,trip_type,supplemental
-54404506-BUS12023-hbq13011-Weekday-02,note,Does not run during school vacation
-54404506-BUS12023-hbq13011-Weekday-02,trip_type,supplemental
-54404836-BUS12023-hbq13011-Weekday-02,note,Does not run during school vacation
-54404836-BUS12023-hbq13011-Weekday-02,trip_type,supplemental
-54404837-BUS12023-hbq13011-Weekday-02,note,Does not run during school vacation
-54404837-BUS12023-hbq13011-Weekday-02,trip_type,supplemental
-54407923-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407923-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407926-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407926-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407927-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407927-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407928-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407928-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407929-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407929-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407930-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407930-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407931-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407931-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407932-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407932-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407933-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407933-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407935-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407935-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407936-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407936-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407937-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407937-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407938-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407938-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407939-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407939-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407942-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407942-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407943-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407943-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407944-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407944-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407945-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407945-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407947-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407947-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407948-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407948-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407950-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407950-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407951-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407951-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407952-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407952-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407953-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407953-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407954-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407954-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407955-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407955-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407956-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407956-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407957-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407957-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407958-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407958-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54407959-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54407959-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54408429-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54408429-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54408630-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54408630-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54408907-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54408907-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54408950-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54408950-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54409152-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54409152-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54409332-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54409332-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54409333-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54409333-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54409356-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54409356-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54409362-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54409362-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54409366-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54409366-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54409367-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54409367-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54409468-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54409468-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54409948-BUS12023-hbb13011-Weekday-02,note,Does not run during school vacation
-54409948-BUS12023-hbb13011-Weekday-02,trip_type,supplemental
-54636143-BUS12023-hbq13l31-Saturday-02,note,Does not run during school vacation
-54636143-BUS12023-hbq13l31-Saturday-02,trip_type,supplemental
-54636192-BUS12023-hbq13l31-Saturday-02,note,Does not run during school vacation
-54636192-BUS12023-hbq13l31-Saturday-02,trip_type,supplemental
-54636193-BUS12023-hbq13l31-Saturday-02,note,Does not run during school vacation
-54636193-BUS12023-hbq13l31-Saturday-02,trip_type,supplemental
-54636194-BUS12023-hbq13l31-Saturday-02,note,Does not run during school vacation
-54636194-BUS12023-hbq13l31-Saturday-02,trip_type,supplemental
-54636195-BUS12023-hbq13l31-Saturday-02,note,Does not run during school vacation
-54636195-BUS12023-hbq13l31-Saturday-02,trip_type,supplemental
-54636196-BUS12023-hbq13l31-Saturday-02,note,Does not run during school vacation
-54636196-BUS12023-hbq13l31-Saturday-02,trip_type,supplemental
-54636197-BUS12023-hbq13l31-Saturday-02,note,Does not run during school vacation
-54636197-BUS12023-hbq13l31-Saturday-02,trip_type,supplemental
-54636198-BUS12023-hbq13l31-Saturday-02,note,Does not run during school vacation
-54636198-BUS12023-hbq13l31-Saturday-02,trip_type,supplemental
-54636199-BUS12023-hbq13l31-Saturday-02,note,Does not run during school vacation
-54636199-BUS12023-hbq13l31-Saturday-02,trip_type,supplemental
-54636200-BUS12023-hbq13l31-Saturday-02,note,Does not run during school vacation
-54636200-BUS12023-hbq13l31-Saturday-02,trip_type,supplemental
-54636201-BUS12023-hbq13l31-Saturday-02,note,Does not run during school vacation
-54636201-BUS12023-hbq13l31-Saturday-02,trip_type,supplemental
-54636202-BUS12023-hbq13l31-Saturday-02,note,Does not run during school vacation
-54636202-BUS12023-hbq13l31-Saturday-02,trip_type,supplemental
-54810459-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54810459-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54810460-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54810460-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54810636-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54810636-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54810639-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54810639-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54810723-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54810723-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54810726-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54810726-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54810758-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54810758-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811227-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811227-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811228-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811228-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811229-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811229-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811230-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811230-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811231-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811231-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811232-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811232-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811406-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811406-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811415-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811415-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811677-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811677-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811679-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811679-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811682-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811682-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811683-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811683-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811686-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811686-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811687-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811687-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811690-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811690-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811691-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811691-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811693-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811693-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811697-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811697-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811786-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811786-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811803-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811803-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811816-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811816-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54811947-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54811947-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812094-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812094-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812146-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812146-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812149-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812149-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812539-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812539-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812580-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812580-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812719-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812719-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812720-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812720-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812721-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812721-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812722-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812722-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812723-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812723-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812726-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812726-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812727-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812727-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812740-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812740-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812741-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812741-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812742-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812742-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812743-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812743-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812744-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812744-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812780-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812780-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812781-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812781-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54812782-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54812782-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54813129-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54813129-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54813142-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54813142-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54813144-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54813144-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54813460-BUS12023-hbc13fr1-Weekday-02,note,Does not run during school vacation
-54813460-BUS12023-hbc13fr1-Weekday-02,trip_type,supplemental
-54814382-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54814382-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54814383-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54814383-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54814559-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54814559-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54814562-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54814562-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54814646-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54814646-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54814649-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54814649-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54814681-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54814681-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815150-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815150-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815151-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815151-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815152-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815152-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815153-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815153-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815154-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815154-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815155-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815155-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815329-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815329-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815338-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815338-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815600-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815600-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815602-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815602-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815605-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815605-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815606-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815606-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815609-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815609-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815610-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815610-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815613-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815613-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815614-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815614-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815616-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815616-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815620-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815620-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815709-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815709-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815726-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815726-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815739-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815739-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54815870-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54815870-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816017-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816017-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816069-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816069-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816072-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816072-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816462-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816462-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816503-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816503-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816642-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816642-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816643-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816643-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816644-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816644-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816645-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816645-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816646-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816646-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816649-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816649-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816650-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816650-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816663-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816663-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816664-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816664-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816665-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816665-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816666-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816666-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816667-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816667-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816703-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816703-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816704-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816704-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54816705-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54816705-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54817052-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54817052-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54817065-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54817065-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54817067-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54817067-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54817383-BUS12023-hbc13wk1-Weekday-02,note,Does not run during school vacation
-54817383-BUS12023-hbc13wk1-Weekday-02,trip_type,supplemental
-54832091-BUS12023-hba13011-Weekday-02,note,Does not run during school vacation
-54832091-BUS12023-hba13011-Weekday-02,trip_type,supplemental
-54832092-BUS12023-hba13011-Weekday-02,note,Does not run during school vacation
-54832092-BUS12023-hba13011-Weekday-02,trip_type,supplemental
-54832093-BUS12023-hba13011-Weekday-02,note,Does not run during school vacation
-54832093-BUS12023-hba13011-Weekday-02,trip_type,supplemental
-54832094-BUS12023-hba13011-Weekday-02,note,Does not run during school vacation
-54832094-BUS12023-hba13011-Weekday-02,trip_type,supplemental
-54832095-BUS12023-hba13011-Weekday-02,note,Does not run during school vacation
-54832095-BUS12023-hba13011-Weekday-02,trip_type,supplemental
-54832096-BUS12023-hba13011-Weekday-02,note,Does not run during school vacation
-54832096-BUS12023-hba13011-Weekday-02,trip_type,supplemental
-54832097-BUS12023-hba13011-Weekday-02,note,Does not run during school vacation
-54832097-BUS12023-hba13011-Weekday-02,trip_type,supplemental
-54832122-BUS12023-hba13011-Weekday-02,note,Does not run during school vacation
-54832122-BUS12023-hba13011-Weekday-02,trip_type,supplemental
-54832356-BUS12023-hba13011-Weekday-02,note,Does not run during school vacation
-54832356-BUS12023-hba13011-Weekday-02,trip_type,supplemental
-54832437-BUS12023-hba13011-Weekday-02,note,Does not run during school vacation
-54832437-BUS12023-hba13011-Weekday-02,trip_type,supplemental
-54832438-BUS12023-hba13011-Weekday-02,note,Does not run during school vacation
-54832438-BUS12023-hba13011-Weekday-02,trip_type,supplemental
-54869488-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869488-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54869489-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869489-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54869490-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869490-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54869491-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869491-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54869492-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869492-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54869493-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869493-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54869494-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869494-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54869495-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869495-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54869496-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869496-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54869497-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869497-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54869498-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869498-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54869499-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869499-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54869500-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869500-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54869501-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869501-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54869502-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869502-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54869503-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869503-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54869504-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869504-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54869505-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869505-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54869506-BUS12023-hba13l31-Saturday-02,note,Does not run during school vacation
-54869506-BUS12023-hba13l31-Saturday-02,trip_type,supplemental
-54905632-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905632-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905633-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905633-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905634-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905634-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905635-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905635-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905636-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905636-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905637-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905637-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905638-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905638-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905639-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905639-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905640-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905640-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905641-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905641-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905642-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905642-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905643-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905643-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905644-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905644-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905645-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905645-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905646-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905646-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905647-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905647-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905648-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905648-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905649-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905649-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905650-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905650-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905651-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905651-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905652-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905652-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905653-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905653-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905654-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905654-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905655-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905655-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905656-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905656-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905657-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905657-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905658-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905658-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905659-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905659-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905660-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905660-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905661-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905661-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905662-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905662-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905663-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905663-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905664-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905664-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905665-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905665-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905666-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905666-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905667-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905667-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905668-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905668-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905669-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905669-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905670-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905670-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905671-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905671-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905672-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905672-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905673-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905673-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905674-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905674-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905675-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905675-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54905676-BUS12023-hbc13l31-Saturday-02,note,Does not run during school vacation
-54905676-BUS12023-hbc13l31-Saturday-02,trip_type,supplemental
-54918994-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54918994-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919044-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919044-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919098-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919098-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919100-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919100-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919139-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919139-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919140-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919140-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919141-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919141-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919281-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919281-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919347-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919347-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919348-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919348-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919524-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919524-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919525-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919525-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919526-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919526-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919527-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919527-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919528-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919528-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919529-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919529-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919530-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919530-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919531-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919531-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919532-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919532-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919533-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919533-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54919534-BUS12023-hbf13011-Weekday-02,note,Does not run during school vacation
-54919534-BUS12023-hbf13011-Weekday-02,trip_type,supplemental
-54927368-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927368-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927369-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927369-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927370-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927370-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927371-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927371-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927372-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927372-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927373-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927373-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927374-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927374-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927375-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927375-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927376-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927376-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927377-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927377-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927378-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927378-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927379-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927379-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927380-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927380-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927381-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927381-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927382-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927382-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927383-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927383-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927384-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927384-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927385-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927385-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927386-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927386-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927387-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927387-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927388-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927388-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927389-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927389-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54927390-BUS12023-hbf13l31-Saturday-02,note,Does not run during school vacation
-54927390-BUS12023-hbf13l31-Saturday-02,trip_type,supplemental
-54928707-BUS12023-hbg13l31-Saturday-02,note,Does not run during school vacation
-54928707-BUS12023-hbg13l31-Saturday-02,trip_type,supplemental
-54928708-BUS12023-hbg13l31-Saturday-02,note,Does not run during school vacation
-54928708-BUS12023-hbg13l31-Saturday-02,trip_type,supplemental
-54928709-BUS12023-hbg13l31-Saturday-02,note,Does not run during school vacation
-54928709-BUS12023-hbg13l31-Saturday-02,trip_type,supplemental
-54948156-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948156-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948157-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948157-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948158-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948158-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948159-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948159-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948160-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948160-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948161-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948161-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948162-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948162-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948163-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948163-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948164-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948164-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948165-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948165-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948166-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948166-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948167-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948167-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948168-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948168-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948169-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948169-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948170-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948170-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948171-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948171-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948172-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948172-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948173-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948173-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948174-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948174-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948175-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948175-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948176-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948176-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54948792-BUS12023-hbl13011-Weekday-02,note,Does not run during school vacation
-54948792-BUS12023-hbl13011-Weekday-02,trip_type,supplemental
-54985742-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985742-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985743-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985743-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985744-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985744-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985745-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985745-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985746-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985746-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985747-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985747-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985748-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985748-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985749-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985749-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985750-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985750-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985751-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985751-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985752-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985752-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985753-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985753-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985754-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985754-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985755-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985755-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985756-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985756-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985757-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985757-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985758-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985758-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985759-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985759-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985760-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985760-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985761-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985761-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985762-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985762-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54985763-BUS12023-hbl13L31-Saturday-02,note,Does not run during school vacation
-54985763-BUS12023-hbl13L31-Saturday-02,trip_type,supplemental
-54993947-BUS12023-hbs13011-Weekday-02,note,Does not run during school vacation
-54993947-BUS12023-hbs13011-Weekday-02,trip_type,supplemental
-54994080-BUS12023-hbs13011-Weekday-02,note,Does not run during school vacation
-54994080-BUS12023-hbs13011-Weekday-02,trip_type,supplemental
-55004205-BUS12023-hbg13011-Weekday-02,note,Does not run during school vacation
-55004205-BUS12023-hbg13011-Weekday-02,trip_type,supplemental
-55004206-BUS12023-hbg13011-Weekday-02,note,Does not run during school vacation
-55004206-BUS12023-hbg13011-Weekday-02,trip_type,supplemental
-55004293-BUS12023-hbg13011-Weekday-02,note,Does not run during school vacation
-55004293-BUS12023-hbg13011-Weekday-02,trip_type,supplemental
-55004400-BUS12023-hbg13011-Weekday-02,note,Does not run during school vacation
-55004400-BUS12023-hbg13011-Weekday-02,trip_type,supplemental
-55004476-BUS12023-hbg13011-Weekday-02,note,Does not run during school vacation
-55004476-BUS12023-hbg13011-Weekday-02,trip_type,supplemental
-55004477-BUS12023-hbg13011-Weekday-02,note,Does not run during school vacation
-55004477-BUS12023-hbg13011-Weekday-02,trip_type,supplemental
-55004529-BUS12023-hbg13011-Weekday-02,note,Does not run during school vacation
-55004529-BUS12023-hbg13011-Weekday-02,trip_type,supplemental
-55027953-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027953-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027954-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027954-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027955-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027955-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027956-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027956-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027957-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027957-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027958-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027958-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027959-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027959-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027960-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027960-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027961-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027961-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027962-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027962-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027963-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027963-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027964-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027964-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027965-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027965-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027966-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027966-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027967-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027967-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027968-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027968-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027969-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027969-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027970-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027970-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027971-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027971-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027972-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027972-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027973-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027973-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027974-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027974-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027975-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027975-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027976-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027976-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027977-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027977-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027978-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027978-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027979-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027979-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027980-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027980-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027981-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027981-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027982-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027982-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027983-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027983-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027984-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027984-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027985-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027985-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027986-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027986-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027987-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027987-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027988-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027988-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027989-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027989-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027990-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027990-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027991-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027991-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027992-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027992-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027993-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027993-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027994-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027994-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027995-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027995-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027996-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027996-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55027997-BUS12023-hbb13L31-Saturday-02,note,Does not run during school vacation
-55027997-BUS12023-hbb13L31-Saturday-02,trip_type,supplemental
-55048698-PRIV12023-hpp13011-Weekday-01,note,Will go to Point Shirley if requested
-55049522-PRIV12023-hpp13ns1-Weekday-01,note,Will go to Point Shirley if requested
-55799076-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55799076-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55799077-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55799077-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55799253-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55799253-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55799256-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55799256-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55799340-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55799340-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55799343-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55799343-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55799375-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55799375-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55799844-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55799844-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55799845-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55799845-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55799846-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55799846-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55799847-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55799847-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55799848-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55799848-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55799849-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55799849-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800023-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800023-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800032-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800032-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800294-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800294-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800296-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800296-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800299-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800299-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800300-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800300-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800303-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800303-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800304-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800304-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800307-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800307-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800308-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800308-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800310-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800310-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800314-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800314-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800403-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800403-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800420-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800420-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800433-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800433-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800564-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800564-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800711-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800711-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800763-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800763-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55800766-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55800766-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801156-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801156-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801197-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801197-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801336-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801336-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801337-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801337-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801338-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801338-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801339-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801339-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801340-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801340-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801343-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801343-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801344-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801344-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801357-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801357-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801358-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801358-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801359-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801359-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801360-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801360-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801361-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801361-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801397-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801397-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801398-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801398-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801399-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801399-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801746-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801746-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801759-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801759-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55801761-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55801761-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55802077-BUS22023-hbc23011-Weekday-02,note,Does not run during school vacation
-55802077-BUS22023-hbc23011-Weekday-02,trip_type,supplemental
-55802888-BUS22023-hba23011-Weekday-02,note,Does not run during school vacation
-55802888-BUS22023-hba23011-Weekday-02,trip_type,supplemental
-55802988-BUS22023-hba23011-Weekday-02,note,Does not run during school vacation
-55802988-BUS22023-hba23011-Weekday-02,trip_type,supplemental
-55803210-BUS22023-hba23011-Weekday-02,note,Does not run during school vacation
-55803210-BUS22023-hba23011-Weekday-02,trip_type,supplemental
-55803301-BUS22023-hba23011-Weekday-02,note,Does not run during school vacation
-55803301-BUS22023-hba23011-Weekday-02,trip_type,supplemental
-55803304-BUS22023-hba23011-Weekday-02,note,Does not run during school vacation
-55803304-BUS22023-hba23011-Weekday-02,trip_type,supplemental
-55803306-BUS22023-hba23011-Weekday-02,note,Does not run during school vacation
-55803306-BUS22023-hba23011-Weekday-02,trip_type,supplemental
-55803307-BUS22023-hba23011-Weekday-02,note,Does not run during school vacation
-55803307-BUS22023-hba23011-Weekday-02,trip_type,supplemental
-55803308-BUS22023-hba23011-Weekday-02,note,Does not run during school vacation
-55803308-BUS22023-hba23011-Weekday-02,trip_type,supplemental
-55803309-BUS22023-hba23011-Weekday-02,note,Does not run during school vacation
-55803309-BUS22023-hba23011-Weekday-02,trip_type,supplemental
-55803364-BUS22023-hba23011-Weekday-02,note,Does not run during school vacation
-55803364-BUS22023-hba23011-Weekday-02,trip_type,supplemental
-55803366-BUS22023-hba23011-Weekday-02,note,Does not run during school vacation
-55803366-BUS22023-hba23011-Weekday-02,trip_type,supplemental
-55889027-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889027-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889030-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889030-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889031-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889031-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889032-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889032-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889033-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889033-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889034-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889034-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889035-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889035-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889036-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889036-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889037-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889037-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889039-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889039-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889040-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889040-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889041-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889041-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889042-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889042-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889043-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889043-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889046-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889046-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889047-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889047-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889048-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889048-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889049-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889049-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889051-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889051-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889052-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889052-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889054-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889054-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889055-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889055-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889056-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889056-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889057-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889057-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889058-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889058-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889059-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889059-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889060-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889060-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889061-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889061-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889062-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889062-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889063-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889063-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889533-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889533-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55889734-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55889734-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55890011-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55890011-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55890054-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55890054-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55890256-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55890256-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55890436-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55890436-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55890437-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55890437-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55890460-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55890460-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55890466-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55890466-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55890470-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55890470-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55890471-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55890471-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55890572-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55890572-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55891051-BUS22023-hbb23011-Weekday-02,note,Does not run during school vacation
-55891051-BUS22023-hbb23011-Weekday-02,trip_type,supplemental
-55900937-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900937-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900938-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900938-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900939-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900939-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900940-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900940-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900941-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900941-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900942-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900942-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900943-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900943-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900944-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900944-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900945-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900945-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900946-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900946-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900947-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900947-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900948-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900948-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900949-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900949-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900950-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900950-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900951-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900951-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900952-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900952-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900953-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900953-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900954-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900954-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900955-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900955-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900956-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900956-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900957-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900957-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900958-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900958-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900959-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900959-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900960-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900960-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900961-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900961-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900962-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900962-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900963-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900963-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900964-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900964-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900965-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900965-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900966-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900966-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900967-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900967-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900968-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900968-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900969-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900969-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900970-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900970-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900971-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900971-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900972-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900972-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900973-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900973-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900974-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900974-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900975-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900975-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900976-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900976-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900977-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900977-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900978-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900978-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900979-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900979-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900980-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900980-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55900981-BUS22023-hbb23L31-Saturday-02,note,Does not run during school vacation
-55900981-BUS22023-hbb23L31-Saturday-02,trip_type,supplemental
-55912579-BUS22023-hbt23011-Weekday-02,note,Does not run during school vacation
-55912579-BUS22023-hbt23011-Weekday-02,trip_type,supplemental
-55912580-BUS22023-hbt23011-Weekday-02,note,Does not run during school vacation
-55912580-BUS22023-hbt23011-Weekday-02,trip_type,supplemental
-55912894-BUS22023-hbt23011-Weekday-02,note,Does not run during school vacation
-55912894-BUS22023-hbt23011-Weekday-02,trip_type,supplemental
-55913480-BUS22023-hbt23011-Weekday-02,note,Does not run during school vacation
-55913480-BUS22023-hbt23011-Weekday-02,trip_type,supplemental
-55913496-BUS22023-hbt23011-Weekday-02,note,Does not run during school vacation
-55913496-BUS22023-hbt23011-Weekday-02,trip_type,supplemental
-55914367-BUS22023-hbt23011-Weekday-02,note,Does not run during school vacation
-55914367-BUS22023-hbt23011-Weekday-02,trip_type,supplemental
-55914382-BUS22023-hbt23011-Weekday-02,note,Does not run during school vacation
-55914382-BUS22023-hbt23011-Weekday-02,trip_type,supplemental
-55922886-BUS22023-hbt23l31-Saturday-02,note,Does not run during school vacation
-55922886-BUS22023-hbt23l31-Saturday-02,trip_type,supplemental
-55922887-BUS22023-hbt23l31-Saturday-02,note,Does not run during school vacation
-55922887-BUS22023-hbt23l31-Saturday-02,trip_type,supplemental
-55922888-BUS22023-hbt23l31-Saturday-02,note,Does not run during school vacation
-55922888-BUS22023-hbt23l31-Saturday-02,trip_type,supplemental
-55922889-BUS22023-hbt23l31-Saturday-02,note,Does not run during school vacation
-55922889-BUS22023-hbt23l31-Saturday-02,trip_type,supplemental
-55922890-BUS22023-hbt23l31-Saturday-02,note,Does not run during school vacation
-55922890-BUS22023-hbt23l31-Saturday-02,trip_type,supplemental
-55922891-BUS22023-hbt23l31-Saturday-02,note,Does not run during school vacation
-55922891-BUS22023-hbt23l31-Saturday-02,trip_type,supplemental
-55922908-BUS22023-hbt23l31-Saturday-02,note,Does not run during school vacation
-55922908-BUS22023-hbt23l31-Saturday-02,trip_type,supplemental
-55970751-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970751-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970752-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970752-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970753-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970753-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970754-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970754-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970755-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970755-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970756-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970756-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970757-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970757-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970758-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970758-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970759-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970759-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970760-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970760-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970761-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970761-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970762-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970762-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970763-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970763-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970764-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970764-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970765-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970765-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970766-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970766-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970767-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970767-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970768-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970768-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970769-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970769-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970770-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970770-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970771-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970771-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55970772-BUS22023-hbl23011-Weekday-02,note,Does not run during school vacation
-55970772-BUS22023-hbl23011-Weekday-02,trip_type,supplemental
-55978318-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978318-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978319-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978319-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978320-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978320-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978321-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978321-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978322-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978322-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978323-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978323-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978324-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978324-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978325-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978325-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978326-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978326-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978327-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978327-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978328-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978328-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978329-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978329-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978330-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978330-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978331-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978331-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978332-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978332-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978333-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978333-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978334-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978334-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978335-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978335-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978336-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978336-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978337-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978337-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978338-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978338-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978339-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978339-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978340-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978340-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978341-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978341-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978342-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978342-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978343-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978343-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978344-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978344-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978345-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978345-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978346-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978346-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978347-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978347-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978348-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978348-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978349-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978349-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978350-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978350-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978351-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978351-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978352-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978352-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978353-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978353-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978354-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978354-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978355-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978355-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978356-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978356-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978357-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978357-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978358-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978358-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978359-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978359-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978360-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978360-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978361-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978361-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55978362-BUS22023-hbc23l31-Saturday-02,note,Does not run during school vacation
-55978362-BUS22023-hbc23l31-Saturday-02,trip_type,supplemental
-55981202-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981202-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55981203-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981203-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55981204-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981204-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55981205-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981205-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55981206-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981206-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55981207-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981207-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55981208-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981208-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55981209-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981209-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55981210-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981210-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55981211-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981211-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55981212-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981212-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55981213-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981213-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55981214-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981214-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55981215-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981215-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55981216-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981216-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55981217-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981217-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55981218-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981218-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55981219-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981219-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55981220-BUS22023-hba23l31-Saturday-02,note,Does not run during school vacation
-55981220-BUS22023-hba23l31-Saturday-02,trip_type,supplemental
-55982975-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982975-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982976-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982976-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982977-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982977-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982978-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982978-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982979-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982979-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982980-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982980-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982981-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982981-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982982-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982982-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982983-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982983-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982984-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982984-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982985-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982985-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982986-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982986-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982987-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982987-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982988-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982988-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982989-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982989-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982990-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982990-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982991-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982991-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982992-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982992-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982993-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982993-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982994-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982994-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982995-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982995-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55982996-BUS22023-hbl23L31-Saturday-02,note,Does not run during school vacation
-55982996-BUS22023-hbl23L31-Saturday-02,trip_type,supplemental
-55998485-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998485-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998514-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998514-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998515-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998515-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998545-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998545-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998546-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998546-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998547-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998547-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998630-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998630-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998653-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998653-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998720-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998720-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998721-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998721-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998722-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998722-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998888-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998888-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998889-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998889-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998890-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998890-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998891-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998891-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998892-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998892-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998893-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998893-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998894-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998894-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998895-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998895-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998896-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998896-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998897-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998897-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998898-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998898-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55998920-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55998920-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-55999033-BUS22023-hbf23011-Weekday-02,note,Does not run during school vacation
-55999033-BUS22023-hbf23011-Weekday-02,trip_type,supplemental
-56027168-BUS22023-hbg23011-Weekday-02,note,Does not run during school vacation
-56027168-BUS22023-hbg23011-Weekday-02,trip_type,supplemental
-56027169-BUS22023-hbg23011-Weekday-02,note,Does not run during school vacation
-56027169-BUS22023-hbg23011-Weekday-02,trip_type,supplemental
-56027256-BUS22023-hbg23011-Weekday-02,note,Does not run during school vacation
-56027256-BUS22023-hbg23011-Weekday-02,trip_type,supplemental
-56027324-BUS22023-hbg23011-Weekday-02,note,Does not run during school vacation
-56027324-BUS22023-hbg23011-Weekday-02,trip_type,supplemental
-56070917-BUS22023-hbg23l31-Saturday-02,note,Does not run during school vacation
-56070917-BUS22023-hbg23l31-Saturday-02,trip_type,supplemental
-56070918-BUS22023-hbg23l31-Saturday-02,note,Does not run during school vacation
-56070918-BUS22023-hbg23l31-Saturday-02,trip_type,supplemental
-56070919-BUS22023-hbg23l31-Saturday-02,note,Does not run during school vacation
-56070919-BUS22023-hbg23l31-Saturday-02,trip_type,supplemental
-56071766-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071766-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071767-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071767-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071768-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071768-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071769-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071769-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071770-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071770-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071771-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071771-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071772-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071772-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071773-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071773-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071774-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071774-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071775-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071775-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071776-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071776-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071777-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071777-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071778-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071778-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071779-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071779-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071780-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071780-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071781-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071781-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071782-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071782-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071783-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071783-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071784-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071784-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071785-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071785-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071786-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071786-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071787-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071787-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56071788-BUS22023-hbf23l31-Saturday-02,note,Does not run during school vacation
-56071788-BUS22023-hbf23l31-Saturday-02,trip_type,supplemental
-56076476-BUS22023-hbq23011-Weekday-02,note,Does not run during school vacation
-56076476-BUS22023-hbq23011-Weekday-02,trip_type,supplemental
-56076525-BUS22023-hbq23011-Weekday-02,note,Does not run during school vacation
-56076525-BUS22023-hbq23011-Weekday-02,trip_type,supplemental
-56076526-BUS22023-hbq23011-Weekday-02,note,Does not run during school vacation
-56076526-BUS22023-hbq23011-Weekday-02,trip_type,supplemental
-56076527-BUS22023-hbq23011-Weekday-02,note,Does not run during school vacation
-56076527-BUS22023-hbq23011-Weekday-02,trip_type,supplemental
-56076528-BUS22023-hbq23011-Weekday-02,note,Does not run during school vacation
-56076528-BUS22023-hbq23011-Weekday-02,trip_type,supplemental
-56076529-BUS22023-hbq23011-Weekday-02,note,Does not run during school vacation
-56076529-BUS22023-hbq23011-Weekday-02,trip_type,supplemental
-56076556-BUS22023-hbq23011-Weekday-02,note,Does not run during school vacation
-56076556-BUS22023-hbq23011-Weekday-02,trip_type,supplemental
-56076698-BUS22023-hbq23011-Weekday-02,note,Does not run during school vacation
-56076698-BUS22023-hbq23011-Weekday-02,trip_type,supplemental
-56076847-BUS22023-hbq23011-Weekday-02,note,Does not run during school vacation
-56076847-BUS22023-hbq23011-Weekday-02,trip_type,supplemental
-56076863-BUS22023-hbq23011-Weekday-02,note,Does not run during school vacation
-56076863-BUS22023-hbq23011-Weekday-02,trip_type,supplemental
-56077192-BUS22023-hbq23011-Weekday-02,note,Does not run during school vacation
-56077192-BUS22023-hbq23011-Weekday-02,trip_type,supplemental
-56077193-BUS22023-hbq23011-Weekday-02,note,Does not run during school vacation
-56077193-BUS22023-hbq23011-Weekday-02,trip_type,supplemental
-56106463-BUS22023-hbs23011-Weekday-02,note,Does not run during school vacation
-56106463-BUS22023-hbs23011-Weekday-02,trip_type,supplemental
-56106596-BUS22023-hbs23011-Weekday-02,note,Does not run during school vacation
-56106596-BUS22023-hbs23011-Weekday-02,trip_type,supplemental
-56110477-BUS22023-hbq23l31-Saturday-02,note,Does not run during school vacation
-56110477-BUS22023-hbq23l31-Saturday-02,trip_type,supplemental
-56110478-BUS22023-hbq23l31-Saturday-02,note,Does not run during school vacation
-56110478-BUS22023-hbq23l31-Saturday-02,trip_type,supplemental
-56110479-BUS22023-hbq23l31-Saturday-02,note,Does not run during school vacation
-56110479-BUS22023-hbq23l31-Saturday-02,trip_type,supplemental
-56110480-BUS22023-hbq23l31-Saturday-02,note,Does not run during school vacation
-56110480-BUS22023-hbq23l31-Saturday-02,trip_type,supplemental
-56110481-BUS22023-hbq23l31-Saturday-02,note,Does not run during school vacation
-56110481-BUS22023-hbq23l31-Saturday-02,trip_type,supplemental
-56110482-BUS22023-hbq23l31-Saturday-02,note,Does not run during school vacation
-56110482-BUS22023-hbq23l31-Saturday-02,trip_type,supplemental
-56110483-BUS22023-hbq23l31-Saturday-02,note,Does not run during school vacation
-56110483-BUS22023-hbq23l31-Saturday-02,trip_type,supplemental
-56110484-BUS22023-hbq23l31-Saturday-02,note,Does not run during school vacation
-56110484-BUS22023-hbq23l31-Saturday-02,trip_type,supplemental
-56110485-BUS22023-hbq23l31-Saturday-02,note,Does not run during school vacation
-56110485-BUS22023-hbq23l31-Saturday-02,trip_type,supplemental
-56110486-BUS22023-hbq23l31-Saturday-02,note,Does not run during school vacation
-56110486-BUS22023-hbq23l31-Saturday-02,trip_type,supplemental
-56110487-BUS22023-hbq23l31-Saturday-02,note,Does not run during school vacation
-56110487-BUS22023-hbq23l31-Saturday-02,trip_type,supplemental
-56110488-BUS22023-hbq23l31-Saturday-02,note,Does not run during school vacation
-56110488-BUS22023-hbq23l31-Saturday-02,trip_type,supplemental
-56113232-PRIV22023-hpp23011-Weekday-01,note,Will go to Point Shirley if requested
-56114127-PRIV22023-hpp23ns1-Weekday-01,note,Will go to Point Shirley if requested
+66622552,note,Waits at Ruggles for last Orange Line train
+66622552,trip_type,wait
+66622579,note,Waits at Tremont St opp Temple Pl for last Red Line and Green Line trains
+66622579,trip_type,wait
+66622690,note,Waits at W Broadway @ Broadway Station for last Red Line train
+66622690,trip_type,wait
+66622895,note,Waits at W Broadway @ Broadway Station for last Red Line train
+66622895,trip_type,wait
+66622932,note,Waits at Ruggles for last Orange Line train
+66622932,trip_type,wait
+66623004,note,Waits at Green St @ Magazine St for last Red Line train
+66623004,trip_type,wait
+66623011,note,Waits at Ruggles for last Orange Line train
+66623011,trip_type,wait
+66623148,note,Waits at Boylston St @ Dartmouth St for last Green Line train
+66623148,trip_type,wait
+66623218,note,Waits at Kenmore for last Green Line train
+66623218,trip_type,wait
+66623406,note,Waits at Ashmont for last Red Line train
+66623406,trip_type,wait
+66623464,note,Waits at Ruggles for last Orange Line train
+66623464,trip_type,wait
+66623537,note,Waits at Andrew for last Red Line train
+66623537,trip_type,wait
+66623541,note,Waits at Forest Hills for last Orange Line train
+66623541,trip_type,wait
+66623652,note,Waits at Harvard Sq @ Garden St - Dawes Island for last Red Line train
+66623652,trip_type,wait
+66623680,note,Waits at Nubian for last Silver Line bus
+66623680,trip_type,wait
+66623946,note,Waits at Nubian for last Silver Line bus
+66623946,trip_type,wait
+66624045,note,Waits at Massachusetts Ave opp Holyoke St for last Red Line train
+66624045,trip_type,wait
+66626907,note,Waits at Ruggles for last Orange Line train
+66626907,trip_type,wait
+66626947,note,Waits at Tremont St opp Temple Pl for last Red Line and Green Line trains
+66626947,trip_type,wait
+66627087,note,Waits at W Broadway @ Broadway Station for last Red Line train
+66627087,trip_type,wait
+66627198,note,Waits at Massachusetts Ave opp Holyoke St for last Red Line train
+66627198,trip_type,wait
+66627201,note,Waits at Nubian for last Silver Line bus
+66627201,trip_type,wait
+66627309,note,Waits at W Broadway @ Broadway Station for last Red Line train
+66627309,trip_type,wait
+66627440,note,Waits at Ruggles for last Orange Line train
+66627440,trip_type,wait
+66627652,note,Waits at Nubian for last Silver Line bus
+66627652,trip_type,wait
+66627662,note,Waits at Harvard Sq @ Garden St - Dawes Island for last Red Line train
+66627662,trip_type,wait
+66627804,note,Waits at Kenmore for last Green Line train
+66627804,trip_type,wait
+66627861,note,Waits at Boylston St @ Dartmouth St for last Green Line train
+66627861,trip_type,wait
+66627942,note,Waits at Andrew for last Red Line train
+66627942,trip_type,wait
+66627943,note,Waits at Forest Hills for last Orange Line train
+66627943,trip_type,wait
+66628139,note,Waits at Ashmont for last Red Line train
+66628139,trip_type,wait
+66628206,note,Waits at Ruggles for last Orange Line train
+66628206,trip_type,wait
+66644335,note,Does not run during school vacation
+66644335,trip_type,supplemental
+66644340,note,Does not run during school vacation
+66644340,trip_type,supplemental
+66644637,note,Does not run during school vacation
+66644637,trip_type,supplemental
+66644639,note,Does not run during school vacation
+66644639,trip_type,supplemental
+66644645,note,Does not run during school vacation
+66644645,trip_type,supplemental
+66644646,note,Does not run during school vacation
+66644646,trip_type,supplemental
+66644648,note,Does not run during school vacation
+66644648,trip_type,supplemental
+66644650,note,Does not run during school vacation
+66644650,trip_type,supplemental
+66644651,note,Does not run during school vacation
+66644651,trip_type,supplemental
+66644659,note,Does not run during school vacation
+66644659,trip_type,supplemental
+66644726,note,Does not run during school vacation
+66644726,trip_type,supplemental
+66645287,note,Does not run during school vacation
+66645287,trip_type,supplemental
+66645596,note,Does not run during school vacation
+66645596,trip_type,supplemental
+66645980,note,Does not run during school vacation
+66645980,trip_type,supplemental
+66646021,note,Does not run during school vacation
+66646021,trip_type,supplemental
+66646053,note,Does not run during school vacation
+66646053,trip_type,supplemental
+66646483,note,Does not run during school vacation
+66646483,trip_type,supplemental
+66646662,note,Does not run during school vacation
+66646662,trip_type,supplemental
+66646664,note,Does not run during school vacation
+66646664,trip_type,supplemental
+66646824,note,Does not run during school vacation
+66646824,trip_type,supplemental
+66647204,note,Does not run during school vacation
+66647204,trip_type,supplemental
+66647224,note,Does not run during school vacation
+66647224,trip_type,supplemental
+66650888,note,Does not run during school vacation
+66650888,trip_type,supplemental
+66651056,note,Waits at W Broadway @ Broadway Station for last Red Line train
+66651056,trip_type,wait
+66651103,note,Does not run during school vacation
+66651103,trip_type,supplemental
+66651177,note,Waits at W Broadway @ Broadway Station for last Red Line train
+66651177,trip_type,wait
+66651199,note,Does not run during school vacation
+66651199,trip_type,supplemental
+66651204,note,Does not run during school vacation
+66651204,trip_type,supplemental
+66651418,note,Does not run during school vacation
+66651418,trip_type,supplemental
+66651591,note,Waits at Nubian for last Silver Line bus
+66651591,trip_type,wait
+66651592,note,Waits at Nubian for last Silver Line bus
+66651592,trip_type,wait
+66651601,note,Does not run during school vacation
+66651601,trip_type,supplemental
+66651717,note,Does not run during school vacation
+66651717,trip_type,supplemental
+66651846,note,Waits at Harvard Sq @ Garden St - Dawes Island for last Red Line train
+66651846,trip_type,wait
+66651939,note,Waits at Massachusetts Ave opp Holyoke St for last Red Line train
+66651939,trip_type,wait
+66652041,note,Does not run during school vacation
+66652041,trip_type,supplemental
+66652052,note,Does not run during school vacation
+66652052,trip_type,supplemental
+66652053,note,Does not run during school vacation
+66652053,trip_type,supplemental
+66652054,note,Does not run during school vacation
+66652054,trip_type,supplemental
+66652056,note,Does not run during school vacation
+66652056,trip_type,supplemental
+66652065,note,Does not run during school vacation
+66652065,trip_type,supplemental
+66652071,note,Does not run during school vacation
+66652071,trip_type,supplemental
+66652174,note,Waits at Tremont St opp Temple Pl for last Red Line and Green Line trains
+66652174,trip_type,wait
+66652503,note,Waits at Ruggles for last Orange Line train
+66652503,trip_type,wait
+66652506,note,Waits at Ruggles for last Orange Line train
+66652506,trip_type,wait
+66652508,note,Waits at Ruggles for last Orange Line train
+66652508,trip_type,wait
+66652549,note,Does not run during school vacation
+66652549,trip_type,supplemental
+66652647,note,Does not run during school vacation
+66652647,trip_type,supplemental
+66652788,note,Does not run during school vacation
+66652788,trip_type,supplemental
+66652815,note,Does not run during school vacation
+66652815,trip_type,supplemental
+66653087,note,Waits at Andrew for last Red Line train
+66653087,trip_type,wait
+66653090,note,Waits at Boylston St @ Dartmouth St for last Green Line train
+66653090,trip_type,wait
+66653093,note,Waits at Forest Hills for last Orange Line train
+66653093,trip_type,wait
+66653133,note,Does not run during school vacation
+66653133,trip_type,supplemental
+66653145,note,Does not run during school vacation
+66653145,trip_type,supplemental
+66653146,note,Does not run during school vacation
+66653146,trip_type,supplemental
+66653158,note,Does not run during school vacation
+66653158,trip_type,supplemental
+66653212,note,Does not run during school vacation
+66653212,trip_type,supplemental
+66653402,note,Does not run during school vacation
+66653402,trip_type,supplemental
+66653518,note,Waits at Green St @ Magazine St for last Red Line train
+66653518,trip_type,wait
+66653626,note,Waits at Ashmont for last Red Line train
+66653626,trip_type,wait
+66653632,note,Waits at Ruggles for last Orange Line train
+66653632,trip_type,wait
+66653776,note,Does not run during school vacation
+66653776,trip_type,supplemental
+66653777,note,Does not run during school vacation
+66653777,trip_type,supplemental
+66653963,note,Waits at Kenmore for last Green Line train
+66653963,trip_type,wait
+66830438,note,Waits at Ashmont for last Red Line train
+66830438,trip_type,wait
+66831765,note,Waits at Ashmont for last Red Line train
+66831765,trip_type,wait
+66832590,note,Waits at Ashmont for last Red Line train
+66832590,trip_type,wait
+66832974,note,Waits at Ashmont for last Red Line train
+66832974,trip_type,wait
+66858743,note,Waits at Temple Pl @ Washington St for last Red Line and Orange Line trains
+66858743,trip_type,wait
+66858836,note,Waits at South Station for last Red Line train
+66858836,trip_type,wait
+66859319,note,Waits at South Station for last Red Line train
+66859319,trip_type,wait
+66859565,note,Does not run during school vacation
+66859565,trip_type,supplemental
+66859634,note,Does not run during school vacation
+66859634,trip_type,supplemental
+66859732,note,Does not run during school vacation
+66859732,trip_type,supplemental
+66859899,note,Waits at Ruggles for last Orange Line train
+66859899,trip_type,wait
+66859900,note,Waits at Mattapan for last Mattapan Trolley train
+66859900,trip_type,wait
+66860066,note,Waits at Back Bay for last Orange Line train
+66860066,trip_type,wait
+66862685,note,Waits at South Station for last Red Line train
+66862685,trip_type,wait
+66862855,note,Waits at Mattapan for last Mattapan Trolley train
+66862855,trip_type,wait
+66862857,note,Waits at Ruggles for last Orange Line train
+66862857,trip_type,wait
+66863193,note,Waits at South Station for last Red Line train
+66863193,trip_type,wait
+66863603,note,Waits at Temple Pl @ Washington St for last Red Line and Orange Line trains
+66863603,trip_type,wait
+66863693,note,Waits at Back Bay for last Orange Line train
+66863693,trip_type,wait
+66865587,note,Waits at South Station for last Red Line train
+66865587,trip_type,wait
+66866244,note,Waits at South Station for last Red Line train
+66866244,trip_type,wait
+66866644,note,Waits at Temple Pl @ Washington St for last Red Line and Orange Line trains
+66866644,trip_type,wait
+66866912,note,Waits at Mattapan for last Mattapan Trolley train
+66866912,trip_type,wait
+66866990,note,Waits at Ruggles for last Orange Line train
+66866990,trip_type,wait
+66867268,note,Waits at Back Bay for last Orange Line train
+66867268,trip_type,wait
+66867805,note,Waits at Temple Pl @ Washington St for last Red Line and Orange Line trains
+66867805,trip_type,wait
+66867940,note,Waits at Mattapan for last Mattapan Trolley train
+66867940,trip_type,wait
+66867958,note,Waits at Ruggles for last Orange Line train
+66867958,trip_type,wait
+66868439,note,Waits at Back Bay for last Orange Line train
+66868439,trip_type,wait
+66868481,note,Waits at South Station for last Red Line train
+66868481,trip_type,wait
+66868832,note,Waits at South Station for last Red Line train
+66868832,trip_type,wait
+66870934,note,Waits at Mattapan for last Mattapan Trolley train
+66870934,trip_type,wait
+66870936,note,Waits at Ruggles for last Orange Line train
+66870936,trip_type,wait
+66871062,note,Waits at Back Bay for last Orange Line train
+66871062,trip_type,wait
+66871433,note,Waits at Temple Pl @ Washington St for last Red Line and Orange Line trains
+66871433,trip_type,wait
+66871822,note,Waits at South Station for last Red Line train
+66871822,trip_type,wait
+66872166,note,Waits at South Station for last Red Line train
+66872166,trip_type,wait
+66885765,note,Waits at Ruggles for last Orange Line train
+66885765,trip_type,wait
+66885791,note,Waits at Tremont St opp Temple Pl for last Red Line and Green Line trains
+66885791,trip_type,wait
+66885902,note,Waits at W Broadway @ Broadway Station for last Red Line train
+66885902,trip_type,wait
+66886105,note,Waits at W Broadway @ Broadway Station for last Red Line train
+66886105,trip_type,wait
+66886145,note,Waits at Ruggles for last Orange Line train
+66886145,trip_type,wait
+66886217,note,Waits at Green St @ Magazine St for last Red Line train
+66886217,trip_type,wait
+66886224,note,Waits at Ruggles for last Orange Line train
+66886224,trip_type,wait
+66886362,note,Waits at Boylston St @ Dartmouth St for last Green Line train
+66886362,trip_type,wait
+66886430,note,Waits at Kenmore for last Green Line train
+66886430,trip_type,wait
+66886548,note,Waits at Ashmont for last Red Line train
+66886548,trip_type,wait
+66886609,note,Waits at Ruggles for last Orange Line train
+66886609,trip_type,wait
+66886683,note,Waits at Andrew for last Red Line train
+66886683,trip_type,wait
+66886684,note,Waits at Forest Hills for last Orange Line train
+66886684,trip_type,wait
+66886789,note,Waits at Harvard Sq @ Garden St - Dawes Island for last Red Line train
+66886789,trip_type,wait
+66886817,note,Waits at Nubian for last Silver Line bus
+66886817,trip_type,wait
+66887081,note,Waits at Nubian for last Silver Line bus
+66887081,trip_type,wait
+66887180,note,Waits at Massachusetts Ave opp Holyoke St for last Red Line train
+66887180,trip_type,wait
+66918427,note,Waits at W Broadway @ Broadway Station for last Red Line train
+66918427,trip_type,wait
+66918530,note,Waits at W Broadway @ Broadway Station for last Red Line train
+66918530,trip_type,wait
+66918810,note,Waits at Nubian for last Silver Line bus
+66918810,trip_type,wait
+66918811,note,Waits at Nubian for last Silver Line bus
+66918811,trip_type,wait
+66918969,note,Waits at Harvard Sq @ Garden St - Dawes Island for last Red Line train
+66918969,trip_type,wait
+66919028,note,Waits at Massachusetts Ave opp Holyoke St for last Red Line train
+66919028,trip_type,wait
+66919222,note,Waits at Tremont St opp Temple Pl for last Red Line and Green Line trains
+66919222,trip_type,wait
+66919519,note,Waits at Ruggles for last Orange Line train
+66919519,trip_type,wait
+66919522,note,Waits at Ruggles for last Orange Line train
+66919522,trip_type,wait
+66919524,note,Waits at Ruggles for last Orange Line train
+66919524,trip_type,wait
+66919836,note,Waits at Andrew for last Red Line train
+66919836,trip_type,wait
+66919839,note,Waits at Boylston St @ Dartmouth St for last Green Line train
+66919839,trip_type,wait
+66919842,note,Waits at Forest Hills for last Orange Line train
+66919842,trip_type,wait
+66920205,note,Waits at Green St @ Magazine St for last Red Line train
+66920205,trip_type,wait
+66920295,note,Waits at Ashmont for last Red Line train
+66920295,trip_type,wait
+66920301,note,Waits at Ruggles for last Orange Line train
+66920301,trip_type,wait
+66920390,note,Waits at Kenmore for last Green Line train
+66920390,trip_type,wait
+66956893,note,Does not run during school vacation
+66956893,trip_type,supplemental
+66957023,note,Does not run during school vacation
+66957023,trip_type,supplemental
+66957066,note,Does not run during school vacation
+66957066,trip_type,supplemental
+66957219,note,Does not run during school vacation
+66957219,trip_type,supplemental
+66957315,note,Does not run during school vacation
+66957315,trip_type,supplemental
+66957363,note,Does not run during school vacation
+66957363,trip_type,supplemental
+66957507,note,Waits at Surface Rd @ Hanover St for last Orange Line and Green Line trains
+66957507,trip_type,wait
+66957570,note,Waits at Harvard for last Red Line train
+66957570,trip_type,wait
+66957620,note,Does not run during school vacation
+66957620,trip_type,supplemental
+66957721,note,Waits at Sullivan Square for last Orange Line train
+66957721,trip_type,wait
+66957787,note,Waits at Wellington for last Orange Line train
+66957787,trip_type,wait
+66957810,note,Waits at Malden Center for last Orange Line train
+66957810,trip_type,wait
+66958058,note,Waits at Sullivan Square for last Orange Line train
+66958058,trip_type,wait
+66958213,note,Waits at Wellington for last Orange Line train
+66958213,trip_type,wait
+66958224,note,Waits at Wellington for last Orange Line train
+66958224,trip_type,wait
+66958356,note,Waits at Sullivan Square for last Orange Line train
+66958356,trip_type,wait
+66958371,note,Does not run during school vacation
+66958371,trip_type,supplemental
+66958505,note,Waits at Airport for last Red Line train
+66958505,trip_type,wait
+66958686,note,Waits at Sullivan Square for last Red Line train
+66958686,trip_type,wait
+66958785,note,Waits at Sullivan Square for last Red Line train
+66958785,trip_type,wait
+66958858,note,Waits at Wellington for last Red Line train
+66958858,trip_type,wait
+66959073,note,Does not run during school vacation
+66959073,trip_type,supplemental
+66959074,note,Does not run during school vacation
+66959074,trip_type,supplemental
+66959865,note,Does not run during school vacation
+66959865,trip_type,supplemental
+66959934,note,Does not run during school vacation
+66959934,trip_type,supplemental
+66959971,note,Does not run during school vacation
+66959971,trip_type,supplemental
+66960009,note,Does not run during school vacation
+66960009,trip_type,supplemental
+66960106,note,Does not run during school vacation
+66960106,trip_type,supplemental
+66960200,note,Does not run during school vacation
+66960200,trip_type,supplemental
+66960225,note,Does not run during school vacation
+66960225,trip_type,supplemental
+66960256,note,Does not run during school vacation
+66960256,trip_type,supplemental
+66960267,note,Does not run during school vacation
+66960267,trip_type,supplemental
+66960305,note,Does not run during school vacation
+66960305,trip_type,supplemental
+66960339,note,Does not run during school vacation
+66960339,trip_type,supplemental
+66961389,note,Does not run during school vacation
+66961389,trip_type,supplemental
+66961972,note,Does not run during school vacation
+66961972,trip_type,supplemental
+66961973,note,Does not run during school vacation
+66961973,trip_type,supplemental
+66961974,note,Does not run during school vacation
+66961974,trip_type,supplemental
+66962031,note,Does not run during school vacation
+66962031,trip_type,supplemental
+66962043,note,Does not run during school vacation
+66962043,trip_type,supplemental
+67007732,note,Does not run during school vacation
+67007732,trip_type,supplemental
+67007747,note,Waits at Mt Auburn St @ Story St for last Red Line train
+67007747,trip_type,wait
+67007859,note,Waits at Mt Auburn St @ Story St for last Red Line train
+67007859,trip_type,wait
+67008079,note,Waits at Lechmere for last Green Line train
+67008079,trip_type,wait
+67008203,note,Does not run during school vacation
+67008203,trip_type,supplemental
+67008207,note,Waits at Main St @ Kendall Station - Red Line for last Red Line train
+67008207,trip_type,wait
+67008228,note,Does not run during school vacation
+67008228,trip_type,supplemental
+67008491,note,Waits at Harvard for last Red Line train
+67008491,trip_type,wait
+67008775,note,Waits at Green St @ Magazine St for last Red Line train
+67008775,trip_type,wait
+67008904,note,Does not run during school vacation
+67008904,trip_type,supplemental
+67008941,note,Waits at Lechmere for last Green Line train
+67008941,trip_type,wait
+67009059,note,Waits at Lechmere for last Green Line train
+67009059,trip_type,wait
+67009097,note,Waits at Lechmere for last Green Line train
+67009097,trip_type,wait
+67009354,note,Does not run during school vacation
+67009354,trip_type,supplemental
+67009421,note,Does not run during school vacation
+67009421,trip_type,supplemental
+67009545,note,Waits at Western Ave @ Green St for last Red Line train
+67009545,trip_type,wait
+67009588,note,Does not run during school vacation
+67009588,trip_type,supplemental
+67009721,note,Waits at Harvard for last Red Line train
+67009721,trip_type,wait
+67009755,note,Does not run during school vacation
+67009755,trip_type,supplemental
+67010292,note,Waits at Harvard for last Red Line train
+67010292,trip_type,wait
+67010476,note,Waits at Harvard for last Red Line train
+67010476,trip_type,wait
+67010525,note,Waits at Green St @ Magazine St for last Red Line train
+67010525,trip_type,wait
+67010654,note,Waits at Lechmere for last Green Line train
+67010654,trip_type,wait
+67010692,note,Waits at Lechmere for last Green Line train
+67010692,trip_type,wait
+67010760,note,Waits at Lechmere for last Green Line train
+67010760,trip_type,wait
+67010847,note,Waits at Western Ave @ Green St for last Red Line train
+67010847,trip_type,wait
+67011111,note,Waits at Harvard for last Red Line train
+67011111,trip_type,wait
+67014141,note,Waits at Sullivan Square for last Orange Line train
+67014141,trip_type,wait
+67014385,note,Waits at Harvard for last Red Line train
+67014385,trip_type,wait
+67014562,note,Waits at Green St @ Magazine St for last Red Line train
+67014562,trip_type,wait
+67014722,note,Waits at Harvard for last Red Line train
+67014722,trip_type,wait
+67014724,note,Waits at Harvard for last Red Line train
+67014724,trip_type,wait
+67014860,note,Waits at Lechmere for last Green Line train
+67014860,trip_type,wait
+67014955,note,Waits at Magazine St @ Green St for last Red Line train
+67014955,trip_type,wait
+67014986,note,Waits at Western Ave @ Green St for last Red Line train
+67014986,trip_type,wait
+67015149,note,Waits at Lechmere for last Green Line train
+67015149,trip_type,wait
+67015194,note,Waits at Lechmere for last Green Line train
+67015194,trip_type,wait
+67015406,note,Waits at Lechmere for last Green Line train
+67015406,trip_type,wait
+67015542,note,Waits at Harvard for last Red Line train
+67015542,trip_type,wait
+67015606,note,Waits at Malden Center for last Orange Line train
+67015606,trip_type,wait
+67015831,note,Waits at Sullivan Square for last Orange Line train
+67015831,trip_type,wait
+67015986,note,Waits at Surface Rd @ Hanover St for last Orange Line and Green Line trains
+67015986,trip_type,wait
+67016036,note,Waits at Harvard for last Red Line train
+67016036,trip_type,wait
+67016161,note,Waits at Wellington for last Orange Line train
+67016161,trip_type,wait
+67016253,note,Waits at Airport for last Red Line train
+67016253,trip_type,wait
+67016417,note,Waits at one or more stops for connections
+67016417,trip_type,wait
+67016503,note,Waits at Sullivan Square for last Red Line train
+67016503,trip_type,wait
+67016581,note,Waits at Wellington for last Red Line train
+67016581,trip_type,wait
+67017731,note,Waits at Mt Auburn St @ Story St for last Red Line train
+67017731,trip_type,wait
+67017843,note,Waits at Mt Auburn St @ Story St for last Red Line train
+67017843,trip_type,wait
+67018063,note,Waits at Lechmere for last Green Line train
+67018063,trip_type,wait
+67018189,note,Waits at Main St @ Kendall Station - Red Line for last Red Line train
+67018189,trip_type,wait
+67018469,note,Waits at Harvard for last Red Line train
+67018469,trip_type,wait
+67018751,note,Waits at Green St @ Magazine St for last Red Line train
+67018751,trip_type,wait
+67018913,note,Waits at Lechmere for last Green Line train
+67018913,trip_type,wait
+67019030,note,Waits at Lechmere for last Green Line train
+67019030,trip_type,wait
+67019068,note,Waits at Lechmere for last Green Line train
+67019068,trip_type,wait
+67019509,note,Waits at Western Ave @ Green St for last Red Line train
+67019509,trip_type,wait
+67019682,note,Waits at Harvard for last Red Line train
+67019682,trip_type,wait
+67057734,note,Waits at Wellington for last Orange Line train
+67057734,trip_type,wait
+67057841,note,Waits at Sullivan Square for last Orange Line train
+67057841,trip_type,wait
+67057886,note,Waits at Sullivan Square for last Orange Line train
+67057886,trip_type,wait
+67058269,note,Waits at Malden Center for last Orange Line train
+67058269,trip_type,wait
+67058280,note,Waits at Wellington for last Orange Line train
+67058280,trip_type,wait
+67058430,note,Waits at Sullivan Square for last Orange Line train
+67058430,trip_type,wait
+67058448,note,Waits at Surface Rd @ Hanover St for last Orange Line and Green Line trains
+67058448,trip_type,wait
+67058712,note,Waits at Wellington for last Orange Line train
+67058712,trip_type,wait
+67058773,note,Waits at Harvard for last Red Line train
+67058773,trip_type,wait
+67058865,note,Waits at Airport for last Red Line train
+67058865,trip_type,wait
+67059046,note,Waits at Sullivan Square for last Red Line train
+67059046,trip_type,wait
+67059278,note,Waits at Wellington for last Red Line train
+67059278,trip_type,wait
+67059285,note,Waits at Sullivan Square for last Red Line train
+67059285,trip_type,wait
+67059311,note,Waits at Sullivan Square for last Orange Line train
+67059311,trip_type,wait
+67119973,note,Waits at Surface Rd @ Hanover St for last Orange Line and Green Line trains
+67119973,trip_type,wait
+67120038,note,Waits at Harvard for last Red Line train
+67120038,trip_type,wait
+67120185,note,Waits at Sullivan Square for last Orange Line train
+67120185,trip_type,wait
+67120251,note,Waits at Wellington for last Orange Line train
+67120251,trip_type,wait
+67120274,note,Waits at Malden Center for last Orange Line train
+67120274,trip_type,wait
+67120524,note,Waits at Sullivan Square for last Orange Line train
+67120524,trip_type,wait
+67120677,note,Waits at Wellington for last Orange Line train
+67120677,trip_type,wait
+67120688,note,Waits at Wellington for last Orange Line train
+67120688,trip_type,wait
+67120820,note,Waits at Sullivan Square for last Orange Line train
+67120820,trip_type,wait
+67120967,note,Waits at Airport for last Red Line train
+67120967,trip_type,wait
+67121148,note,Waits at Sullivan Square for last Red Line train
+67121148,trip_type,wait
+67121247,note,Waits at Sullivan Square for last Red Line train
+67121247,trip_type,wait
+67121320,note,Waits at Wellington for last Red Line train
+67121320,trip_type,wait
+67134854,note,Waits at Wellington for last Orange Line train
+67134854,trip_type,wait
+67135563,note,Waits at Sullivan Square for last Orange Line train
+67135563,trip_type,wait
+67135608,note,Waits at Sullivan Square for last Orange Line train
+67135608,trip_type,wait
+67135994,note,Waits at Malden Center for last Orange Line train
+67135994,trip_type,wait
+67135998,note,Waits at Wellington for last Orange Line train
+67135998,trip_type,wait
+67136152,note,Waits at Sullivan Square for last Orange Line train
+67136152,trip_type,wait
+67136170,note,Waits at Surface Rd @ Hanover St for last Orange Line and Green Line trains
+67136170,trip_type,wait
+67136434,note,Waits at Wellington for last Orange Line train
+67136434,trip_type,wait
+67136495,note,Waits at Harvard for last Red Line train
+67136495,trip_type,wait
+67136587,note,Waits at Airport for last Red Line train
+67136587,trip_type,wait
+67136770,note,Waits at Sullivan Square for last Red Line train
+67136770,trip_type,wait
+67137000,note,Waits at Wellington for last Red Line train
+67137000,trip_type,wait
+67137007,note,Waits at Sullivan Square for last Red Line train
+67137007,trip_type,wait
+67137033,note,Waits at Sullivan Square for last Orange Line train
+67137033,trip_type,wait
+67146343,note,Waits at Harvard for last Red Line train
+67146343,trip_type,wait
+67146518,note,Waits at Green St @ Magazine St for last Red Line train
+67146518,trip_type,wait
+67146678,note,Waits at Harvard for last Red Line train
+67146678,trip_type,wait
+67146680,note,Waits at Harvard for last Red Line train
+67146680,trip_type,wait
+67146817,note,Waits at Lechmere for last Green Line train
+67146817,trip_type,wait
+67146913,note,Waits at Magazine St @ Green St for last Red Line train
+67146913,trip_type,wait
+67146942,note,Waits at Western Ave @ Green St for last Red Line train
+67146942,trip_type,wait
+67147107,note,Waits at Lechmere for last Green Line train
+67147107,trip_type,wait
+67147152,note,Waits at Lechmere for last Green Line train
+67147152,trip_type,wait
+67147364,note,Waits at Lechmere for last Green Line train
+67147364,trip_type,wait
+67147500,note,Waits at Harvard for last Red Line train
+67147500,trip_type,wait
+67163485,note,Waits at Forest Hills for last Orange Line train
+67163485,trip_type,wait
+67163840,note,Waits at Ashmont for last Red Line train
+67163840,note,Waits at Mattapan for last Mattapan Trolley train
+67163840,trip_type,wait
+67163940,note,Waits at Forest Hills for last Orange Line train
+67163940,trip_type,wait
+67164130,note,Waits at Forest Hills for last Orange Line train
+67164130,trip_type,wait
+67164482,note,Waits at Ashmont for last Red Line train
+67164482,trip_type,wait
+67164512,note,Waits at Forest Hills for last Orange Line train
+67164512,trip_type,wait
+67202282,note,Does not run during school vacation
+67202282,trip_type,supplemental
+67202283,note,Does not run during school vacation
+67202283,trip_type,supplemental
+67202287,note,Does not run during school vacation
+67202287,trip_type,supplemental
+67202289,note,Does not run during school vacation
+67202289,trip_type,supplemental
+67202366,note,Does not run during school vacation
+67202366,trip_type,supplemental
+67202413,note,Waits at Congress St @ Haymarket Sta for last Orange Line and Green Line trains
+67202413,trip_type,wait
+67202414,note,Does not run during school vacation
+67202414,trip_type,supplemental
+67202415,note,Does not run during school vacation
+67202415,trip_type,supplemental
+67202416,note,Does not run during school vacation
+67202416,trip_type,supplemental
+67202417,note,Does not run during school vacation
+67202417,trip_type,supplemental
+67202480,note,Waits at Wonderland for last Blue Line train
+67202480,trip_type,wait
+67202504,note,Does not run during school vacation
+67202504,trip_type,supplemental
+67202575,note,Does not run during school vacation
+67202575,trip_type,supplemental
+67202576,note,Does not run during school vacation
+67202576,trip_type,supplemental
+67202577,note,Does not run during school vacation
+67202577,trip_type,supplemental
+67202578,note,Does not run during school vacation
+67202578,trip_type,supplemental
+67202579,note,Does not run during school vacation
+67202579,trip_type,supplemental
+67202665,note,Does not run during school vacation
+67202665,trip_type,supplemental
+67203080,note,Waits at Maverick for last Blue Line train
+67203080,trip_type,wait
+67203441,note,Waits at Wonderland for last Blue Line train
+67203441,trip_type,wait
+67203442,note,Waits at Maverick for last Blue Line train
+67203442,trip_type,wait
+67204113,note,Waits at Congress St @ Haymarket Sta for last Orange Line and Green Line trains
+67204113,trip_type,wait
+67204176,note,Waits at Wonderland for last Blue Line train
+67204176,trip_type,wait
+67204769,note,Waits at Maverick for last Blue Line train
+67204769,trip_type,wait
+67223304,note,Waits at Wonderland for last Blue Line train
+67223304,trip_type,wait
+67223370,note,Waits at Maverick for last Blue Line train
+67223370,trip_type,wait
+67227823,note,Waits at Wonderland for last Blue Line train
+67227823,trip_type,wait
+67227824,note,Waits at Maverick for last Blue Line train
+67227824,trip_type,wait
+67233170,note,Waits at Fields Corner for last Red Line train
+67233170,trip_type,wait
+67233331,note,Waits at Quincy Center for last Red Line train
+67233331,trip_type,wait
+67236739,note,Waits at Forest Hills for last Orange Line train
+67236739,trip_type,wait
+67237094,note,Waits at Mattapan for last Mattapan Trolley train
+67237094,note,Waits at Ashmont for last Red Line train
+67237094,trip_type,wait
+67237194,note,Waits at Forest Hills for last Orange Line train
+67237194,trip_type,wait
+67237384,note,Waits at Forest Hills for last Orange Line train
+67237384,trip_type,wait
+67237736,note,Waits at Ashmont for last Red Line train
+67237736,trip_type,wait
+67237766,note,Waits at Forest Hills for last Orange Line train
+67237766,trip_type,wait
+67238460,note,Waits at Fields Corner for last Red Line train
+67238460,trip_type,wait
+67239055,note,Waits at Quincy Center for last Red Line train
+67239055,trip_type,wait
+67250333,note,Waits at Mattapan for last Mattapan Trolley train
+67250333,note,Waits at Ashmont for last Red Line train
+67250333,trip_type,wait
+67250548,note,Waits at Forest Hills for last Orange Line train
+67250548,trip_type,wait
+67251029,note,Waits at Ashmont for last Red Line train
+67251029,trip_type,wait
+67251095,note,Does not run during school vacation
+67251095,trip_type,supplemental
+67251188,note,Does not run during school vacation
+67251188,trip_type,supplemental
+67251191,note,Does not run during school vacation
+67251191,trip_type,supplemental
+67251197,note,Does not run during school vacation
+67251197,trip_type,supplemental
+67251199,note,Does not run during school vacation
+67251199,trip_type,supplemental
+67251202,note,Does not run during school vacation
+67251202,trip_type,supplemental
+67251228,note,Does not run during school vacation
+67251228,trip_type,supplemental
+67251327,note,Does not run during school vacation
+67251327,trip_type,supplemental
+67251531,note,Waits at Forest Hills for last Orange Line train
+67251531,trip_type,wait
+67251612,note,Does not run during school vacation
+67251612,trip_type,supplemental
+67251614,note,Does not run during school vacation
+67251614,trip_type,supplemental
+67251683,note,Waits at Forest Hills for last Orange Line train
+67251683,trip_type,wait
+67251826,note,Does not run during school vacation
+67251826,trip_type,supplemental
+67251827,note,Does not run during school vacation
+67251827,trip_type,supplemental
+67251839,note,Does not run during school vacation
+67251839,trip_type,supplemental
+67251842,note,Does not run during school vacation
+67251842,trip_type,supplemental
+67251843,note,Does not run during school vacation
+67251843,trip_type,supplemental
+67251850,note,Does not run during school vacation
+67251850,trip_type,supplemental
+67251875,note,Waits at Forest Hills for last Orange Line train
+67251875,trip_type,wait
+67251879,note,Does not run during school vacation
+67251879,trip_type,supplemental
+67251882,note,Does not run during school vacation
+67251882,trip_type,supplemental
+67251903,note,Does not run during school vacation
+67251903,trip_type,supplemental
+67252010,note,Does not run during school vacation
+67252010,trip_type,supplemental
+67252070,note,Does not run during school vacation
+67252070,trip_type,supplemental
+67252071,note,Does not run during school vacation
+67252071,trip_type,supplemental
+67252072,note,Does not run during school vacation
+67252072,trip_type,supplemental
+67252830,note,Waits at Mattapan for last Mattapan Trolley train
+67252830,note,Waits at Ashmont for last Red Line train
+67252830,trip_type,wait
+67253042,note,Waits at Forest Hills for last Orange Line train
+67253042,trip_type,wait
+67253523,note,Waits at Ashmont for last Red Line train
+67253523,trip_type,wait
+67254004,note,Waits at Forest Hills for last Orange Line train
+67254004,trip_type,wait
+67254152,note,Waits at Forest Hills for last Orange Line train
+67254152,trip_type,wait
+67254328,note,Waits at Forest Hills for last Orange Line train
+67254328,trip_type,wait
+67258460,note,Waits at Forest Hills for last Orange Line train
+67258460,trip_type,wait
+67258698,note,Waits at Forest Hills for last Orange Line train
+67258698,trip_type,wait
+67258778,note,Waits at Forest Hills for last Orange Line train
+67258778,trip_type,wait
+67258998,note,Waits at Forest Hills for last Orange Line train
+67258998,trip_type,wait
+67263594,note,Waits at Fields Corner for last Red Line train
+67263594,trip_type,wait
+67263755,note,Waits at Quincy Center for last Red Line train
+67263755,trip_type,wait
+67270429,note,Waits at State for last Orange Line train
+67270429,trip_type,wait
+67290088,note,Does not run during school vacation
+67290088,trip_type,supplemental
+67290254,note,Does not run during school vacation
+67290254,trip_type,supplemental
+67290255,note,Does not run during school vacation
+67290255,trip_type,supplemental
+67290256,note,Does not run during school vacation
+67290256,trip_type,supplemental
+67290257,note,Does not run during school vacation
+67290257,trip_type,supplemental
+67290369,note,Waits at Fields Corner for last Red Line train
+67290369,trip_type,wait
+67290371,note,Does not run during school vacation
+67290371,trip_type,supplemental
+67290576,note,Does not run during school vacation
+67290576,trip_type,supplemental
+67290577,note,Does not run during school vacation
+67290577,trip_type,supplemental
+67290785,note,Does not run during school vacation
+67290785,trip_type,supplemental
+67290801,note,Does not run during school vacation
+67290801,trip_type,supplemental
+67290808,note,Does not run during school vacation
+67290808,trip_type,supplemental
+67290948,note,Waits at Quincy Center for last Red Line train
+67290948,trip_type,wait
+67291074,note,Does not run during school vacation
+67291074,trip_type,supplemental
+67291076,note,Does not run during school vacation
+67291076,trip_type,supplemental
+67306035,note,Waits at Fields Corner for last Red Line train
+67306035,trip_type,wait
+67306565,note,Waits at Quincy Center for last Red Line train
+67306565,trip_type,wait
+67316532,note,Waits at Orient Heights for last Blue Line train
+67316532,trip_type,wait
+67316534,note,Will go to Point Shirley if requested
+67316896,note,Waits at Orient Heights for last Blue Line train
+67316896,trip_type,wait
+67317075,note,Waits at Orient Heights for last Blue Line train
+67317075,trip_type,wait
+67317183,note,Waits at Orient Heights for last Blue Line train
+67317183,trip_type,wait
+67317633,note,Will go to Point Shirley if requested
+67317636,note,Waits at Orient Heights for last Blue Line train
+67317636,trip_type,wait
+67533548,note,Waits at some downtown stations for connections
+67533548,trip_type,wait
+67533719,note,Waits at some downtown stations for connections
+67533719,trip_type,wait
+NorthWKDYF24-706178-127,note,Waits at Salem for Train 167
+NorthWKDYF24-706178-127,trip_type,wait
+SouthWKDYF24-697797-759,note,Waits at Readville for Train 837
+SouthWKDYF24-697797-759,trip_type,wait
+SouthWKDYF24-697833-834,note,Waits at Readville for Train 728
+SouthWKDYF24-697833-834,trip_type,wait
+SouthWKDYF24-697871-892,note,Waits at Readville for Train 732
+SouthWKDYF24-697871-892,trip_type,wait
+SouthWKDYF24-697777-735,note,Waits at Readville for Train 841
+SouthWKDYF24-697777-735,trip_type,wait
+SouthWKDYF24-697839-840,note,Waits at Readville for Train 734
+SouthWKDYF24-697839-840,trip_type,wait
+SouthWKDYF24-697750-633,note,Waits at Forest Hills for Train 839
+SouthWKDYF24-697750-633,trip_type,wait
+SouthWKDYF24-697827-828,note,Waits at Readville for Train 752
+SouthWKDYF24-697827-828,trip_type,wait
+SouthWKDYF24-697843-862,note,Waits at Readville for Train 740
+SouthWKDYF24-697843-862,trip_type,wait
+SouthWKDYF24-697795-757,note,Waits at Readville for Train 833
+SouthWKDYF24-697795-757,trip_type,wait
+SouthWKDYF24-704936-067,note,Waits at Braintree for Train 031
+SouthWKDYF24-704936-067,trip_type,wait
+SouthWKDYF24-697751-635,note,Waits at Forest Hills for Train 841
+SouthWKDYF24-697751-635,trip_type,wait
+SouthWKNDF24-698042-1701,note,Waits at Readville for Train 1801
+SouthWKNDF24-698042-1701,trip_type,wait
+SouthWKNDF24-698067-1806,note,Waits at Readville for Train 1706
+SouthWKNDF24-698067-1806,trip_type,wait
+SouthWKNDF24-698060-1719,note,Waits at Readville for Train 1819
+SouthWKNDF24-698060-1719,trip_type,wait
+SouthWKNDF24-698569-2808,note,Waits at Readville for Train 2708
+SouthWKNDF24-698569-2808,trip_type,wait
+SouthWKNDF24-698079-1818,note,Waits at Readville for Train 1718
+SouthWKNDF24-698079-1818,trip_type,wait
+SouthWKNDF24-698069-1808,note,Waits at Readville for Train 1708
+SouthWKNDF24-698069-1808,trip_type,wait
+SouthWKNDF24-698558-2717,note,Waits at Readville for Train 2817
+SouthWKNDF24-698558-2717,trip_type,wait
+SouthWKNDF24-698058-1717,note,Waits at Readville for Train 1817
+SouthWKNDF24-698058-1717,trip_type,wait
+SouthWKNDF24-698063-1802,note,Waits at Readville for Train 1702
+SouthWKNDF24-698063-1802,trip_type,wait
+SouthWKNDF24-698573-2812,note,Waits at Readville for Train 2712
+SouthWKNDF24-698573-2812,trip_type,wait
+SouthWKNDF24-698061-1800,note,Waits at Readville for Train 1700
+SouthWKNDF24-698061-1800,trip_type,wait
+SouthWKNDF24-698563-2802,note,Waits at Readville for Train 2702
+SouthWKNDF24-698563-2802,trip_type,wait
+SouthWKNDF24-698056-1715,note,Waits at Readville for Train 1815
+SouthWKNDF24-698056-1715,trip_type,wait
+SouthWKNDF24-697988-1057,note,Waits at Braintree for Train 1021
+SouthWKNDF24-697988-1057,trip_type,wait
+SouthWKNDF24-698577-2816,note,Waits at Readville for Train 2716
+SouthWKNDF24-698577-2816,trip_type,wait
+SouthWKNDF24-698548-2707,note,Waits at Readville for Train 2807
+SouthWKNDF24-698548-2707,trip_type,wait
+SouthWKNDF24-698077-1816,note,Waits at Readville for Train 1716
+SouthWKNDF24-698077-1816,trip_type,wait
+SouthWKNDF24-698556-2715,note,Waits at Readville for Train 2815
+SouthWKNDF24-698556-2715,trip_type,wait
+SouthWKNDF24-698567-2806,note,Waits at Readville for Train 2706
+SouthWKNDF24-698567-2806,trip_type,wait
+SouthWKNDF24-698073-1812,note,Waits at Readville for Train 1712
+SouthWKNDF24-698073-1812,trip_type,wait
+SouthWKNDF24-698561-2800,note,Waits at Readville for Train 2700
+SouthWKNDF24-698561-2800,trip_type,wait
+SouthWKNDF24-698579-2818,note,Waits at Readville for Train 2718
+SouthWKNDF24-698579-2818,trip_type,wait
+SouthWKNDF24-698052-1711,note,Waits at Readville for Train 1811
+SouthWKNDF24-698052-1711,trip_type,wait
+SouthWKNDF24-698050-1709,note,Waits at Readville for Train 1809
+SouthWKNDF24-698050-1709,trip_type,wait
+SouthWKNDF24-698565-2804,note,Waits at Readville for Train 2704
+SouthWKNDF24-698565-2804,trip_type,wait
+SouthWKNDF24-698044-1703,note,Waits at Readville for Train 1803
+SouthWKNDF24-698044-1703,trip_type,wait
+SouthWKNDF24-698048-1707,note,Waits at Readville for Train 1807
+SouthWKNDF24-698048-1707,trip_type,wait
+SouthWKNDF24-698075-1814,note,Waits at Readville for Train 1714
+SouthWKNDF24-698075-1814,trip_type,wait
+SouthWKNDF24-698575-2814,note,Waits at Readville for Train 2714
+SouthWKNDF24-698575-2814,trip_type,wait
+SouthWKNDF24-698560-2719,note,Waits at Readville for Train 2819
+SouthWKNDF24-698560-2719,trip_type,wait
+SouthWKNDF24-698046-1705,note,Waits at Readville for Train 1805
+SouthWKNDF24-698046-1705,trip_type,wait
+SouthWKNDF24-698542-2701,note,Waits at Readville for Train 2801
+SouthWKNDF24-698542-2701,trip_type,wait
+SouthWKNDF24-698065-1804,note,Waits at Readville for Train 1704
+SouthWKNDF24-698065-1804,trip_type,wait
+SouthWKNDF24-698071-1810,note,Waits at Readville for Train 1710
+SouthWKNDF24-698071-1810,trip_type,wait
+SouthWKNDF24-698054-1713,note,Waits at Readville for Train 1813
+SouthWKNDF24-698054-1713,trip_type,wait
+SouthWKNDF24-698550-2709,note,Waits at Readville for Train 2809
+SouthWKNDF24-698550-2709,trip_type,wait
+SouthWKNDF24-698554-2713,note,Waits at Readville for Train 2813
+SouthWKNDF24-698554-2713,trip_type,wait
+SouthWKNDF24-698552-2711,note,Waits at Readville for Train 2811
+SouthWKNDF24-698552-2711,trip_type,wait
+SouthWKNDF24-698571-2810,note,Waits at Readville for Train 2710
+SouthWKNDF24-698571-2810,trip_type,wait
+SouthWKNDF24-698546-2705,note,Waits at Readville for Train 2805
+SouthWKNDF24-698546-2705,trip_type,wait
+SouthWKNDF24-698544-2703,note,Waits at Readville for Train 2803
+SouthWKNDF24-698544-2703,trip_type,wait
+SouthWKNDF24-698488-2057,note,Waits at Braintree for Train 2021
+SouthWKNDF24-698488-2057,trip_type,wait

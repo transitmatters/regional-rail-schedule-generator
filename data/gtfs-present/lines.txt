@@ -19,13 +19,16 @@ line-Needham,,Needham Line,,,80276C,FFFFFF,20010
 line-Newburyport,,Newburyport/Rockport Line,,,80276C,FFFFFF,20011
 line-Providence,,Providence/Stoughton Line,,,80276C,FFFFFF,20012
 line-Foxboro,,Foxboro Event Service,,,80276C,FFFFFF,20013
+line-CapeFlyer,,CapeFlyer,,,006595,FFFFFF,21000
 line-Boat-F4,,Charlestown Ferry,,,008EAA,FFFFFF,30001
 line-Boat-F1,,Hingham/Hull Ferry,,,008EAA,FFFFFF,30002
 line-Boat-EastBoston,,East Boston Ferry,,,008EAA,FFFFFF,30005
+line-Boat-Lynn,,Lynn Ferry,,,008EAA,FFFFFF,30007
+line-Boat-F6,,Winthrop Ferry,,,008EAA,FFFFFF,30009
 line-1,1,Harvard - Nubian via Massachusetts Avenue,,,FFC72C,000000,40010
 line-747,CT2,Sullivan - Ruggles,,,FFC72C,000000,40020
 line-171708,CT3/171,"Beth Israel Deaconess, Boston Medical Center, or Nubian - Andrew or Logan Airport",,,FFC72C,000000,40030
-line-4,4,North Station - Tide Street,,,FFC72C,000000,50040
+line-4,4,North Station - Design Center,,,FFC72C,000000,50040
 line-10,10,City Point - Copley,,,FFC72C,000000,50050
 line-7,7,City Point - Downtown Boston,,,FFC72C,000000,50070
 line-8,8,Harbor Point/UMass - Kenmore,,,FFC72C,000000,50080
@@ -78,7 +81,7 @@ line-7884,78/84,Arlmont Village - Harvard,,,FFC72C,000000,50780
 line-80,80,Arlington Center - Lechmere,,,FFC72C,000000,50800
 line-83,83,"Rindge Avenue - Central Square, Cambridge",,,FFC72C,000000,50830
 line-85,85,Spring Hill - Kendall/MIT,,,FFC72C,000000,50850
-line-86,86,Sullivan - Reservoir,,,FFC72C,000000,50860
+line-86,86,Harvard - Reservoir,,,FFC72C,000000,50860
 line-87,87,Clarendon Hill or Arlington Center - Lechmere via Somerville Avenue,,,FFC72C,000000,50870
 line-88,88,Clarendon Hill - Lechmere via Highland Avenue,,,FFC72C,000000,50880
 line-89,89,Clarendon Hill or Davis - Sullivan,,,FFC72C,000000,50890
@@ -93,10 +96,11 @@ line-97,97,Malden Center - Wellington,,,FFC72C,000000,50970
 line-99,99,"Woodland Road, Stoneham - Wellington",,,FFC72C,000000,50990
 line-100,100,Elm Street - Wellington,,,FFC72C,000000,51000
 line-101,101,Malden Center - Sullivan via Winter Hill,,,FFC72C,000000,51010
-line-104109,104/109,Linden Square or Malden Center - Sullivan,,,FFC72C,000000,51040
+line-104,104,Malden Center - Airport,,,FFC72C,000000,51040
 line-105,105,Malden Center - Sullivan via Newland Street Housing,,,FFC72C,000000,51050
 line-106,106,"Lebanon Street, Malden - Wellington",,,FFC72C,000000,51060
 line-108,108,Linden Square - Wellington,,,FFC72C,000000,51080
+line-109,109,Linden Square - Harvard,,,FFC72C,000000,51090
 line-110,110,Wonderland - Wellington,,,FFC72C,000000,51100
 line-111,111,"Everett, Revere, or Chelsea - Haymarket",,,FFC72C,000000,51110
 line-112,112,Wellington - Wood Island,,,FFC72C,000000,51120

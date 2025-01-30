@@ -17,7 +17,7 @@ fee-monthly,"Per month fee for usage of the facility, typically a 'parking-area'
 municipality,City or town in which the facility is located,Text
 note,Additional notes or information,Text
 operator,"Operator of the facility, if not the MBTA directly",Text
-overnight-parking,"Indicates when a parking area permits overnight parking","yes if always permitted, no if never permitted, yes-except-snow if typically permitted but banned during snow emergencies, yes-snow-unknown if typically permitted but no information is available as to whether it is banned during snow emergencies"
+overnight-allowed,Indicates when a parking area permits overnight parking,"yes if always permitted, no if never permitted, yes-except-snow if typically permitted but banned during snow emergencies, yes-snow-unknown if typically permitted but no information is available as to whether it is banned during snow emergencies"
 owner,Owner of the facility,Text
 payment-app,Name of mobile application available to pay for facility usage,Text
 payment-app-id,"Mobile application payment zone or ID associated with a facility, such as a 'parking-area'",Text

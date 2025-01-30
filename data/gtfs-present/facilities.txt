@@ -163,7 +163,7 @@ facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_na
 448,448,1,escalator,place-wlsta,Paid lobby to pedestrian bridge,Wollaston Escalator 448 (Paid lobby to pedestrian bridge),,,,2
 449,449,1,escalator,place-wlsta,Platform to pedestrian bridge,Wollaston Escalator 449 (Platform to pedestrian bridge),,,,2
 450,450,1,escalator,place-knncl,Ashmont/Braintree platform to Carleton St,Kendall/MIT Escalator 450 (Ashmont/Braintree platform to Carleton St),,,,2
-50,50,1,elevator,place-WML-0214,Outbound platform to pedestrian bridge,Framingham Elevator 50 (Outbound platform to pedestrian bridge),,,,1
+50,50,1,elevator,place-WML-0214,Track 1 (outbound platform) to pedestrian bridge,Framingham Elevator 50 (Track 1 (outbound platform) to pedestrian bridge),,,,1
 501,501,1,escalator,place-state,Oak Grove platform to Wonderland platform,State Escalator 501 (Oak Grove platform to Wonderland platform),,,,2
 502,502,1,escalator,place-state,Wonderland platform to Old State House,State Escalator 502 (Wonderland platform to Old State House),,,,2
 503,503,1,escalator,place-prmnl,Lobby to Huntington Avenue,Prudential Escalator 503 (Lobby to Huntington Avenue),,,,2
@@ -221,6 +221,8 @@ facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_na
 744,744,1,elevator,place-ogmnl,Washington Street to lobby,Oak Grove Elevator 744 (Washington Street to lobby),,,,1
 745,745,1,elevator,place-ogmnl,"Busway, parking lot to lobby","Oak Grove Elevator 745 (Busway, parking lot to lobby)",,,,1
 746,746,1,elevator,place-ogmnl,Orange Line platform to paid lobby,Oak Grove Elevator 746 (Orange Line platform to paid lobby),,,,1
+747,747,1,elevator,place-NHRML-0078,Track 2 (Boston platform) to Waterfield parking,Winchester Center Elevator 747 (Track 2 (Boston platform) to Waterfield parking),,,,1
+748,748,1,elevator,place-NHRML-0078,Track 1 (outbound platform) to Aberjona parking,Winchester Center Elevator 748 (Track 1 (outbound platform) to Aberjona parking),,,,1
 756,756,1,elevator,place-knncl,Ashmont/Braintree platform to Main Street,Kendall/MIT Elevator 756 (Ashmont/Braintree platform to Main Street),,,,1
 757,757,1,elevator,place-knncl,Ashmont/Braintree platform to Main Street,Kendall/MIT Elevator 757 (Ashmont/Braintree platform to Main Street),,,,1
 762,762,1,elevator,place-lech,Platform to North First Street lobby,Lechmere Elevator 762 (Platform to North First Street lobby),,,,1
@@ -234,6 +236,9 @@ facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_na
 770,770,1,elevator,place-mdftf,Platform to lobby,Medford/Tufts Elevator 770 (Platform to lobby),,,,1
 771,771,1,elevator,place-unsqu,Platform to Prospect Street,Union Square Elevator 771 (Platform to Prospect Street),,,,1
 772,772,1,elevator,place-mdftf,Platform to lobby,Medford/Tufts Elevator 772 (Platform to lobby),,,,1
+780,780,1,elevator,place-WML-0442,"Platform to buses, Union Station","Worcester Elevator 780 (Platform to buses, Union Station)",,,,1
+781,781,1,elevator,place-WML-0442,Platform to pedestrian bridge,Worcester Elevator 781 (Platform to pedestrian bridge),,,,1
+782,782,1,elevator,place-WML-0442,Parking lot to pedestrian bridge ,Worcester Elevator 782 (Parking lot to pedestrian bridge ),,,,1
 800,800,1,elevator,place-ogmnl,"Busway, Commuter Rail, parking lot to lobby","Oak Grove Elevator 800 (Busway, Commuter Rail, parking lot to lobby)",,,,1
 801,801,1,elevator,place-ogmnl,Orange Line platform to paid lobby,Oak Grove Elevator 801 (Orange Line platform to paid lobby),,,,1
 802,802,1,elevator,place-state,"Oak Grove platform to Forest Hills, Wonderland platforms","State Elevator 802 (Oak Grove platform to Forest Hills, Wonderland platforms)",,,,1
@@ -386,8 +391,8 @@ facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_na
 993,993,1,elevator,place-WML-0025,Track 7 (outbound platform) to east side of bridge,Lansdowne Elevator 993 (Track 7 (outbound platform) to east side of bridge),,,,1
 994,994,1,elevator,place-ER-0183,Parking garage to platform walkway,Beverly Elevator 994 (Parking garage to platform walkway),,,,1
 995,995,1,elevator,place-ER-0183,Parking garage to platform walkway,Beverly Elevator 995 (Parking garage to platform walkway),,,,1
-996,996,1,elevator,place-ER-0168,Bridge St. to parking garage to busway and platforms,Salem Elevator 996 (Bridge St. to parking garage to busway and platforms),,,,1
-997,997,1,elevator,place-ER-0168,Bridge St. to parking garage to busway and platforms,Salem Elevator 997 (Bridge St. to parking garage to busway and platforms),,,,1
+996,996,1,elevator,place-ER-0168,Bridge St to parking garage to busway and platforms,Salem Elevator 996 (Bridge St to parking garage to busway and platforms),,,,1
+997,997,1,elevator,place-ER-0168,Bridge St to parking garage to busway and platforms,Salem Elevator 997 (Bridge St to parking garage to busway and platforms),,,,1
 998,998,1,elevator,place-dwnxg,Oak Grove platform to Alewife platform,Downtown Crossing Elevator 998 (Oak Grove platform to Alewife platform),,,,1
 999,999,1,elevator,place-dwnxg,Oak Grove platform to Alewife platform,Downtown Crossing Elevator 999 (Oak Grove platform to Alewife platform),,,,1
 bike-15095,,3,bike-storage,15095,Bike rack,Washington St @ Herald St bike rack,,,,0
@@ -406,7 +411,7 @@ bike-60,,3,bike-storage,60,Bike rack,Washington St @ Lenox St bike rack,,,,0
 bike-61,,3,bike-storage,61,Bike rack,Washington St @ Melnea Cass Blvd bike rack,,,,0
 bike-7922,,3,bike-storage,7922,Covered bike rack,Arlington Heights Busway covered bike rack,,,,0
 bike-8178,,3,bike-storage,8178,Bike rack,Watertown Sq Terminal bike rack,,,,0
-bike-900,,3,bike-storage,900,Covered bike rack,Watertown Yard covered bike rack,,,,0
+bike-900,,3,bike-storage,900,Covered bike rack,Water St @ Watertown Yard covered bike rack,,,,0
 bike-Boat-Hingham,,3,bike-storage,Boat-Hingham,Bike rack,Hingham bike rack,,,,0
 bike-DB-0095,,3,bike-storage,place-DB-0095,Bike rack,Readville bike rack,,,,0
 bike-DB-2205,,3,bike-storage,place-DB-2205,Covered bike rack,Fairmount covered bike rack,,,,0
@@ -510,23 +515,23 @@ bike-WR-0205,,3,bike-storage,place-WR-0205,Bike rack,Ballardvale bike rack,,,,0
 bike-WR-0228,,3,bike-storage,place-WR-0228,Covered bike rack,Andover covered bike rack,,,,0
 bike-WR-0325,,3,bike-storage,place-WR-0325,Bike rack,Bradford bike rack,,,,0
 bike-WR-0329,,3,bike-storage,place-WR-0329,Covered bike rack,Haverhill covered bike rack,,,,0
-bike-alfcl-central,,3,bike-storage,place-alfcl,Pedal and Park,Alewife Pedal and Park,,42.3955390,-71.1420840,0
-bike-alfcl-east,,3,bike-storage,place-alfcl,Pedal and Park,Alewife Pedal and Park,,42.3958060,-71.1409570,0
-bike-alfcl-west,,3,bike-storage,place-alfcl,Pedal and Park,Alewife Pedal and Park,,42.3959740,-71.1426220,0
+bike-alfcl-central,,3,bike-storage,place-alfcl,Pedal and Park,Alewife Central Pedal and Park,,42.3955390,-71.1420840,0
+bike-alfcl-east,,3,bike-storage,place-alfcl,Pedal and Park,Alewife East Pedal and Park,,42.3958060,-71.1409570,0
+bike-alfcl-west,,3,bike-storage,place-alfcl,Pedal and Park,Alewife West Pedal and Park,,42.3959740,-71.1426220,0
 bike-asmnl,,3,bike-storage,place-asmnl,Pedal and Park,Ashmont Pedal and Park,,42.2835650,-71.0646980,0
 bike-balsq-pedalpark,,3,bike-storage,place-balsq,Covered bike rack,Ball Square covered bike rack,,42.3999630,-71.1114200,0
 bike-balsq-racks,,3,bike-storage,place-balsq,Bike rack,Ball Square bike rack,,42.3999270,-71.1113200,0
 bike-bbsta,,3,bike-storage,place-bbsta,Pedal and Park,Back Bay Pedal and Park,,42.3474980,-71.0748220,0
 bike-bcnfd,,3,bike-storage,place-bcnfd,Bike rack,Beaconsfield bike rack,,,,0
 bike-bmmnl,,3,bike-storage,place-bmmnl,Bike rack,Beachmont bike rack,,,,0
-bike-brkhl-east,,3,bike-storage,place-brkhl,Bike rack,Brookline Hills bike rack,,42.3314420,-71.1269380,0
-bike-brkhl-west,,3,bike-storage,place-brkhl,Bike rack,Brookline Hills bike rack,,42.3314370,-71.1271020,0
+bike-brkhl-east,,3,bike-storage,place-brkhl,Bike rack,Brookline Hills East bike rack,,42.3314420,-71.1269380,0
+bike-brkhl-west,,3,bike-storage,place-brkhl,Bike rack,Brookline Hills West bike rack,,42.3314370,-71.1271020,0
 bike-brntn,,3,bike-storage,place-brntn,Pedal and Park,Braintree Pedal and Park,,42.2068660,-71.0005350,0
 bike-butlr,,3,bike-storage,place-butlr,Bike rack,Butler bike rack,,,,0
 bike-bvmnl,,3,bike-storage,place-bvmnl,Covered bike rack,Brookline Village covered bike rack,,,,0
 bike-ccmnl,,3,bike-storage,place-ccmnl,Bike rack,Community College bike rack,,,,0
-bike-chels-everett,,3,bike-storage,place-chels,Covered bike rack,Chelsea covered bike rack,,42.3966170,-71.0401600,0
-bike-chels-third,,3,bike-storage,place-chels,Covered bike rack,Chelsea covered bike rack,,42.3976330,-71.0445540,0
+bike-chels-everett,,3,bike-storage,place-chels,Covered bike rack,Chelsea Everett Avenue covered bike rack,,42.3966170,-71.0401600,0
+bike-chels-third,,3,bike-storage,place-chels,Covered bike rack,Chelsea Third Street covered bike rack,,42.3976330,-71.0445540,0
 bike-chhil,,3,bike-storage,place-chhil,Covered bike rack,Chestnut Hill covered bike rack,,,,0
 bike-clmnl,,3,bike-storage,place-clmnl,Bike rack,Cleveland Circle bike rack,,,,0
 bike-cntsq,,3,bike-storage,place-cntsq,Covered bike rack,Central covered bike rack,,,,0
@@ -544,10 +549,10 @@ bike-jaksn,,3,bike-storage,place-jaksn,Covered bike rack,Jackson Square covered 
 bike-jfk,,3,bike-storage,place-jfk,Bike rack,JFK/UMass bike rack,,,,0
 bike-kencl,,3,bike-storage,place-kencl,Bike rack,Kenmore bike rack,,,,0
 bike-knncl,,3,bike-storage,place-knncl,Bike rack,Kendall/MIT bike rack,,,,0
-bike-lech-northfirst,,3,bike-storage,place-lech,Bike rack,Lechmere bike rack,,42.3717280,-71.0766770,0
-bike-lech-northstorage,,3,bike-storage,place-lech,Bike rack,Lechmere bike rack,,42.3712600,-71.0759980,0
-bike-lech-obrieneb,,3,bike-storage,place-lech,Bike rack,Lechmere bike rack,,42.3708600,-71.0757540,0
-bike-lech-obrienwb,,3,bike-storage,place-lech,Bike rack,Lechmere bike rack,,42.3707880,-71.0756730,0
+bike-lech-northfirst,,3,bike-storage,place-lech,Bike rack,Lechmere North First Street bike rack,,42.3717280,-71.0766770,0
+bike-lech-northstorage,,3,bike-storage,place-lech,Bike rack,Lechmere Central bike rack,,42.3712600,-71.0759980,0
+bike-lech-obrieneb,,3,bike-storage,place-lech,Bike rack,Lechmere O'Brien Highway East bike rack,,42.3707880,-71.0756730,0
+bike-lech-obrienwb,,3,bike-storage,place-lech,Bike rack,Lechmere O'Brien Highway West bike rack,,42.3708600,-71.0757540,0
 bike-lech-storage,,3,bike-storage,place-lech,Covered bike rack,Lechmere covered bike rack,,42.3710790,-71.0759530,0
 bike-longw,,3,bike-storage,place-longw,Bike rack,Longwood bike rack,,,,0
 bike-masta,,3,bike-storage,place-masta,Bike rack,Massachusetts Avenue bike rack,,,,0
@@ -577,8 +582,8 @@ bike-smary,,3,bike-storage,place-smary,Bike rack,Saint Mary's Street bike rack,,
 bike-sstat,,3,bike-storage,place-sstat,Bike rack,South Station bike rack,,42.3518250,-71.0556950,0
 bike-sull,,3,bike-storage,place-sull,Covered bike rack,Sullivan Square covered bike rack,,,,0
 bike-sumav,,3,bike-storage,place-sumav,Covered bike rack,Summit Avenue covered bike rack,,,,0
-bike-unsqu-rackeast,,3,bike-storage,place-unsqu,Bike rack,Union Square bike rack,,42.3774040,-71.0948840,0
-bike-unsqu-rackwest,,3,bike-storage,place-unsqu,Bike rack,Union Square bike rack,,42.3774690,-71.0948400,0
+bike-unsqu-rackeast,,3,bike-storage,place-unsqu,Bike rack,Union Square East bike rack,,42.3774040,-71.0948840,0
+bike-unsqu-rackwest,,3,bike-storage,place-unsqu,Bike rack,Union Square West bike rack,,42.3774690,-71.0948400,0
 bike-unsqu-storage,,3,bike-storage,place-unsqu,Covered bike rack,Union Square covered bike rack,,42.3772330,-71.0941990,0
 bike-waban,,3,bike-storage,place-waban,Bike rack,Waban bike rack,,,,0
 bike-welln,,3,bike-storage,place-welln,Covered bike rack,Wellington covered bike rack,,,,0
@@ -611,7 +616,7 @@ ev-FR-0301,,6,electric-car-chargers,place-FR-0301,EV Chargers,Littleton/Route 49
 ev-FR-0451-garage,,6,electric-car-chargers,place-FR-0451,EV Chargers,North Leominster Garage EV Chargers,,,,0
 ev-FR-0494-garage,,6,electric-car-chargers,place-FR-0494,EV Chargers,Fitchburg Garage EV Chargers,,,,0
 ev-FR-3338-garage,,6,electric-car-chargers,place-FR-3338,EV Chargers,Wachusett Garage EV Chargers,,,,0
-ev-NEC-1659,,6,electric-car-chargers,place-NEC-1659,EV Chargers,Wickford Junction Parking Lot EV Chargers,,,,0
+ev-NEC-1659-garage,,6,electric-car-chargers,place-NEC-1659,EV Chargers,Wickford Junction Garage EV Chargers,,,,0
 ev-NEC-2173-garage,,6,electric-car-chargers,place-NEC-2173,EV Chargers,Route 128 Garage EV Chargers,,,,0
 ev-NHRML-0152,,6,electric-car-chargers,place-NHRML-0152,EV Chargers,Wilmington Parking Lot EV Chargers,,,,0
 ev-WML-0442-garage,,6,electric-car-chargers,place-WML-0442,EV Chargers,Worcester Garage EV Chargers,,,,0
@@ -621,19 +626,19 @@ ev-forhl,,6,electric-car-chargers,place-forhl,EV Chargers,Forest Hills Parking L
 ev-qamnl-garage,,6,electric-car-chargers,place-qamnl,EV Chargers,Quincy Adams Garage EV Chargers,,,,0
 ev-wondl-garage,,6,electric-car-chargers,place-wondl,EV Chargers,Wonderland Garage EV Chargers,,,,0
 ev-woodl-garage,,6,electric-car-chargers,place-woodl,EV Chargers,Woodland Garage EV Chargers,,,,0
-fake_36ef_bfa5_401,fake_36ef_bfa5_401,1,elevator,place-WML-0442,Lobby to platform,Worcester Elevator (Lobby to platform),,,,1
-fake_3b81_7260_398,fake_3b81_7260_398,1,elevator,place-NEC-1659,Lobby and platform to garage,Wickford Junction Elevator (Lobby and platform to garage),,,,1
-fake_3b81_7260_399,fake_3b81_7260_399,1,elevator,place-NEC-1659,Lobby and platform to garage,Wickford Junction Elevator (Lobby and platform to garage),,,,1
-fake_3b81_c387_400,fake_3b81_c387_400,1,elevator,place-NEC-1659,North end of platform to garage,Wickford Junction Elevator (North end of platform to garage),,,,1
-fake_5a7e_af2a_395,fake_5a7e_af2a_395,1,elevator,place-NEC-2173,Lobby to pedestrian bridge,Route 128 Elevator (Lobby to pedestrian bridge),,,,1
-fake_7a57_3d92_396,fake_7a57_3d92_396,1,elevator,place-NEC-1768,Walkway to platform,TF Green Airport Elevator (Walkway to platform),,,,1
-fake_7a57_3d92_397,fake_7a57_3d92_397,1,elevator,place-NEC-1768,Walkway to platform,TF Green Airport Elevator (Walkway to platform),,,,1
-fake_99c7_af2a_392,fake_99c7_af2a_392,1,elevator,place-NHRML-0254,Lobby to pedestrian bridge,Lowell Elevator (Lobby to pedestrian bridge),,,,1
-fake_99c7_c4e9_391,fake_99c7_c4e9_391,1,elevator,place-NHRML-0254,Platform 1 to pedestrian bridge,Lowell Elevator (Platform 1 to pedestrian bridge),,,,1
-fake_b748_c4e7_402,fake_b748_c4e7_402,1,elevator,place-NEC-1891,"Track 1 (outbound platform) to Pine St, Barton St","Pawtucket/Central Falls Elevator (Track 1 (outbound platform) to Pine St, Barton St)",,,,1
-fake_b748_c4e7_403,fake_b748_c4e7_403,1,elevator,place-NEC-1891,"Track 1 (outbound platform) to Pine St, Barton St","Pawtucket/Central Falls Elevator (Track 1 (outbound platform) to Pine St, Barton St)",,,,1
-fake_c2ed_07bd_393,fake_c2ed_07bd_393,1,elevator,place-NEC-1851,Lobby to tracks 1 and 2,Providence Elevator (Lobby to tracks 1 and 2),,,,1
-fake_c2ed_e7ea_394,fake_c2ed_e7ea_394,1,elevator,place-NEC-1851,Lobby to tracks 3 and 5,Providence Elevator (Lobby to tracks 3 and 5),,,,1
+fake_36ef_bfa5_401,,1,elevator,place-WML-0442,Lobby to platform,Worcester Elevator (Lobby to platform),,,,1
+fake_3b81_7260_398,,1,elevator,place-NEC-1659,Lobby and platform to garage,Wickford Junction Elevator (Lobby and platform to garage),,,,1
+fake_3b81_7260_399,,1,elevator,place-NEC-1659,Lobby and platform to garage,Wickford Junction Elevator (Lobby and platform to garage),,,,1
+fake_3b81_c387_400,,1,elevator,place-NEC-1659,North end of platform to garage,Wickford Junction Elevator (North end of platform to garage),,,,1
+fake_5a7e_af2a_395,,1,elevator,place-NEC-2173,Lobby to pedestrian bridge,Route 128 Elevator (Lobby to pedestrian bridge),,,,1
+fake_7a57_3d92_396,,1,elevator,place-NEC-1768,Walkway to platform,TF Green Airport Elevator (Walkway to platform),,,,1
+fake_7a57_3d92_397,,1,elevator,place-NEC-1768,Walkway to platform,TF Green Airport Elevator (Walkway to platform),,,,1
+fake_99c7_af2a_392,,1,elevator,place-NHRML-0254,Lobby to pedestrian bridge,Lowell Elevator (Lobby to pedestrian bridge),,,,1
+fake_99c7_c4e9_391,,1,elevator,place-NHRML-0254,Platform 1 to pedestrian bridge,Lowell Elevator (Platform 1 to pedestrian bridge),,,,1
+fake_b748_c4e7_402,,1,elevator,place-NEC-1891,"Track 1 (outbound platform) to Pine St, Barton St","Pawtucket/Central Falls Elevator (Track 1 (outbound platform) to Pine St, Barton St)",,,,1
+fake_b748_c4e7_403,,1,elevator,place-NEC-1891,"Track 1 (outbound platform) to Pine St, Barton St","Pawtucket/Central Falls Elevator (Track 1 (outbound platform) to Pine St, Barton St)",,,,1
+fake_c2ed_07bd_393,,1,elevator,place-NEC-1851,Lobby to tracks 1 and 2,Providence Elevator (Lobby to tracks 1 and 2),,,,1
+fake_c2ed_e7ea_394,,1,elevator,place-NEC-1851,Lobby to tracks 3 and 5,Providence Elevator (Lobby to tracks 3 and 5),,,,1
 fvm-201001,,4,fare-vending-machine,place-aqucl,Fare vending machine 201001,Aquarium fare vending machine 201001,,,,0
 fvm-201002,,4,fare-vending-machine,place-aqucl,Fare vending machine 201002,Aquarium fare vending machine 201002,,,,0
 fvm-201003,,4,fare-vending-machine,place-aqucl,Fare vending machine 201003,Aquarium fare vending machine 201003,,,,0
@@ -1198,6 +1203,8 @@ highlevel-DB-2265-1,,2,fully-elevated-platform,place-DB-2265,High-level platform
 highlevel-DB-2265-2,,2,fully-elevated-platform,place-DB-2265,High-level platform (Track 2/South Station),Newmarket high-level platform (Track 2/South Station),,,,1
 highlevel-ER-0115-1,,2,fully-elevated-platform,place-ER-0115,High-level platform (Track 1/Outbound),Lynn high-level platform (Track 1/Outbound),,,,1
 highlevel-ER-0115-2,,2,fully-elevated-platform,place-ER-0115,High-level platform (Track 2/Boston),Lynn high-level platform (Track 2/Boston),,,,1
+highlevel-ER-0117-1,,2,fully-elevated-platform,place-ER-0117,High-level platform (Track 1/Outbound),Lynn Interim high-level platform (Track 1/Outbound),,,,1
+highlevel-ER-0117-2,,2,fully-elevated-platform,place-ER-0117,High-level platform (Track 2/Boston),Lynn Interim high-level platform (Track 2/Boston),,,,1
 highlevel-ER-0168-1,,2,fully-elevated-platform,place-ER-0168,High-level platform (Track 1/All Trains),Salem high-level platform (Track 1/All Trains),,,,1
 highlevel-ER-0312-1,,2,fully-elevated-platform,place-ER-0312,High-level platform,Rowley high-level platform,,,,1
 highlevel-ER-0362-1,,2,fully-elevated-platform,place-ER-0362,High-level platform (Track 1),Newburyport high-level platform (Track 1),,,,1
@@ -1233,6 +1240,8 @@ highlevel-NEC-1891-1,,2,fully-elevated-platform,place-NEC-1891,High-level platfo
 highlevel-NEC-1891-2,,2,fully-elevated-platform,place-NEC-1891,High-level platform (Track 2/Boston),Pawtucket/Central Falls high-level platform (Track 2/Boston),,,,1
 highlevel-NEC-2173-1,,2,fully-elevated-platform,place-NEC-2173,High-level platform (Track 1/Outbound),Route 128 high-level platform (Track 1/Outbound),,,,1
 highlevel-NEC-2173-2,,2,fully-elevated-platform,place-NEC-2173,High-level platform (Track 2/Boston),Route 128 high-level platform (Track 2/Boston),,,,1
+highlevel-NHRML-0078-1,,2,fully-elevated-platform,place-NHRML-0078,High-level platform (Track 1/Outbound),Winchester Center high-level platform (Track 1/Outbound),,,,1
+highlevel-NHRML-0078-2,,2,fully-elevated-platform,place-NHRML-0078,High-level platform (Track 2/Boston),Winchester Center high-level platform (Track 2/Boston),,,,1
 highlevel-NHRML-0127-1,,2,fully-elevated-platform,place-NHRML-0127,High-level platform (Track 1/Outbound),Anderson/Woburn high-level platform (Track 1/Outbound),,,,1
 highlevel-NHRML-0127-2,,2,fully-elevated-platform,place-NHRML-0127,High-level platform (Track 2/Boston),Anderson/Woburn high-level platform (Track 2/Boston),,,,1
 highlevel-NHRML-0254-3,,2,fully-elevated-platform,place-NHRML-0254,High-level platform (Track 3),Lowell high-level platform (Track 3),,,,1
@@ -1269,7 +1278,7 @@ highlevel-north-6,,2,fully-elevated-platform,place-north,High-level platform (Co
 highlevel-north-7,,2,fully-elevated-platform,place-north,High-level platform (Commuter Rail - Track 7),North Station high-level platform (Commuter Rail - Track 7),,,,1
 highlevel-north-8,,2,fully-elevated-platform,place-north,High-level platform (Commuter Rail - Track 8),North Station high-level platform (Commuter Rail - Track 8),,,,1
 highlevel-north-9,,2,fully-elevated-platform,place-north,High-level platform (Commuter Rail - Track 9),North Station high-level platform (Commuter Rail - Track 9),,,,1
-highlevel-ogmnl,,2,fully-elevated-platform,place-ogmnl,High-level platform,Oak Grove high-level platform,,,,1
+highlevel-ogmnl,,2,fully-elevated-platform,place-ogmnl,High-level platform (Commuter Rail - Track 1/All Trains),Oak Grove high-level platform (Commuter Rail - Track 1/All Trains),,,,1
 highlevel-qnctr-1,,2,fully-elevated-platform,place-qnctr,High-level platform (Track 1/All Trains),Quincy Center high-level platform (Track 1/All Trains),,,,1
 highlevel-rugg-1,,2,fully-elevated-platform,place-rugg,High-level platform (Commuter Rail - Track 1),Ruggles high-level platform (Commuter Rail - Track 1),,,,1
 highlevel-rugg-2,,2,fully-elevated-platform,place-rugg,High-level platform (Commuter Rail - Track 2),Ruggles high-level platform (Commuter Rail - Track 2),,,,1
@@ -1287,13 +1296,18 @@ highlevel-sstat-6,,2,fully-elevated-platform,place-sstat,High-level platform (Co
 highlevel-sstat-7,,2,fully-elevated-platform,place-sstat,High-level platform (Commuter Rail - Track 7),South Station high-level platform (Commuter Rail - Track 7),,,,1
 highlevel-sstat-8,,2,fully-elevated-platform,place-sstat,High-level platform (Commuter Rail - Track 8),South Station high-level platform (Commuter Rail - Track 8),,,,1
 highlevel-sstat-9,,2,fully-elevated-platform,place-sstat,High-level platform (Commuter Rail - Track 9),South Station high-level platform (Commuter Rail - Track 9),,,,1
-park-900,,3,parking-area,900,Parking Lot,Watertown Yard Parking Lot,,42.3631720,-71.1846740,0
+park-900,,3,parking-area,900,Parking Lot,Water St @ Watertown Yard Parking Lot,,42.3631720,-71.1846740,0
+park-Boat-Blossom-lot,,3,parking-area,Boat-Blossom,Parking Lot,Blossom Street Pier Parking Lot,,42.4552600,-70.9490410,0
 park-Boat-Hingham,,3,parking-area,Boat-Hingham,Parking Lot,Hingham Parking Lot,,42.2513460,-70.9194940,0
 park-Boat-Hull,,3,parking-area,Boat-Hull,Parking Lot,Hull Parking Lot,,42.3044440,-70.9182990,0
+park-Boat-Quincy-lot,,3,parking-area,Boat-Quincy,Squantum Point Park Parking Lot,Quincy Squantum Point Park Parking Lot,,42.2994840,-71.0326480,0
+park-Boat-Winthrop-lot,,3,parking-area,Boat-Winthrop,Parking Lot,Winthrop Landing Parking Lot,,42.3672630,-70.9708240,0
 park-DB-0095,,3,parking-area,place-DB-0095,Parking Lot,Readville Parking Lot,,42.2385870,-71.1341000,0
 park-DB-2205,,3,parking-area,place-DB-2205,Parking Lot,Fairmount Parking Lot,,42.2535520,-71.1197020,0
 park-DB-2258,,3,parking-area,place-DB-2258,Parking Lot,Uphams Corner Parking Lot,,42.3198330,-71.0686950,0
 park-ER-0115-garage,,3,parking-area,place-ER-0115,Garage,Lynn Garage,,42.4622960,-70.9457370,0
+park-ER-0117-ellis,,3,parking-area,place-ER-0117,Ellis Street Parking Lot,Lynn Interim Ellis Street Parking Lot,,42.4650510,-70.9421930,0
+park-ER-0117-garage,,3,parking-area,place-ER-0117,Garage,Lynn Interim Garage,,42.4622960,-70.9457370,0
 park-ER-0128,,3,parking-area,place-ER-0128,Parking Lot,Swampscott Parking Lot,,42.4735630,-70.9225480,0
 park-ER-0168-garage,,3,parking-area,place-ER-0168,Garage,Salem Garage,,42.5247920,-70.8958760,0
 park-ER-0183-garage,,3,parking-area,place-ER-0183,Garage,Beverly Garage,,42.5472760,-70.8854320,0
@@ -1357,7 +1371,7 @@ park-NB-0109,,3,parking-area,place-NB-0109,Parking Lot,Hersey Parking Lot,,42.27
 park-NB-0120,,3,parking-area,place-NB-0120,Parking Lot,Needham Junction Parking Lot,,42.2733250,-71.2355180,0
 park-NB-0127,,3,parking-area,place-NB-0127,Parking Lot,Needham Center Parking Lot,,42.2812300,-71.2372710,0
 park-NB-0137,,3,parking-area,place-NB-0137,Parking Lot,Needham Heights Parking Lot,,42.2935150,-71.2362770,0
-park-NEC-1659,,3,parking-area,place-NEC-1659,Parking Lot,Wickford Junction Parking Lot,,41.5816700,-71.4914700,0
+park-NEC-1659-garage,,3,parking-area,place-NEC-1659,Garage,Wickford Junction Garage,,41.5816700,-71.4914700,0
 park-NEC-1768-garage,,3,parking-area,place-NEC-1768,Garage,TF Green Airport Garage,,41.7276060,-71.4427740,0
 park-NEC-1851-garage,,3,parking-area,place-NEC-1851,Garage,Providence Garage,,41.8291570,-71.4127430,0
 park-NEC-1891-lot,,3,parking-area,place-NEC-1891,Pine Street Parking Lot,Pawtucket/Central Falls Pine Street Parking Lot,,41.8779090,-71.3907100,0
@@ -1423,7 +1437,6 @@ park-butlr,,3,parking-area,place-butlr,Parking Lot,Butler Parking Lot,,42.272220
 park-chhil,,3,parking-area,place-chhil,Parking Lot,Chestnut Hill Parking Lot,,42.3270190,-71.1647980,0
 park-eliot,,3,parking-area,place-eliot,Parking Lot,Eliot Parking Lot,,42.3191260,-71.2165150,0
 park-forhl,,3,parking-area,place-forhl,Parking Lot,Forest Hills Parking Lot,,42.2994210,-71.1144380,0
-park-haecl-garage,,3,parking-area,place-haecl,Garage,Haymarket Garage,,42.3625570,-71.0579420,0
 park-longw,,3,parking-area,place-longw,Parking Lot,Longwood Parking Lot,,42.3417060,-71.1100860,0
 park-matt,,3,parking-area,place-matt,Parking Lot,Mattapan Parking Lot,,42.2681320,-71.0920640,0
 park-miltt,,3,parking-area,place-miltt,Parking Lot,Milton Parking Lot,,42.2701770,-71.0670260,0
@@ -1446,7 +1459,7 @@ park-wlsta,,3,parking-area,place-wlsta,Parking Lot,Wollaston Parking Lot,,42.266
 park-wondl-garage,,3,parking-area,place-wondl,Garage,Wonderland Garage,,42.4129540,-70.9924530,0
 park-wondl-nshore,,3,parking-area,place-wondl,North Shore Road Parking Lot,Wonderland North Shore Road Parking Lot,,42.4151350,-70.9912070,0
 park-woodl-garage,,3,parking-area,place-woodl,Garage,Woodland Garage,,42.3333830,-71.2449560,0
-pick-alfcl-garage,,3,pick-drop,place-alfcl,Garage,Alewife Garage Pick-up/Drop-off,,42.3955980,-71.1418420,1
+pick-alfcl-garage,,3,pick-drop,place-alfcl,Garage,Alewife Garage Pick-up/Drop-off,,42.3956300,-71.1419230,1
 pick-asmnl-accessible,,3,pick-drop,place-asmnl,Accessible,Ashmont Accessible Pick-up/Drop-off,,42.2852050,-71.0643530,1
 pick-asmnl-main,,3,pick-drop,place-asmnl,Busway,Ashmont Busway Pick-up/Drop-off,,42.2840800,-71.0641310,2
 pick-brntn-main,,3,pick-drop,place-brntn,Busway,Braintree Busway Pick-up/Drop-off,,42.2072090,-71.0011540,1
@@ -1519,20 +1532,27 @@ portlift-pktrm-1,,2,portable-boarding-lift,place-pktrm,Mobile lift,Park Street m
 portlift-prmnl-0,,2,portable-boarding-lift,place-prmnl,Mobile lift (Heath Street),Prudential mobile lift (Heath Street),,,,1
 portlift-prmnl-1,,2,portable-boarding-lift,place-prmnl,Mobile lift (Park Street & North),Prudential mobile lift (Park Street & North),,,,1
 portlift-river,,2,portable-boarding-lift,place-river,Mobile lift,Riverside mobile lift,,,,1
-portlift-rsmnl-0,,2,portable-boarding-lift,place-rsmnl,Mobile lift (Park Street & North),Reservoir mobile lift (Park Street & North),,,,1
-portlift-rsmnl-1,,2,portable-boarding-lift,place-rsmnl,Mobile lift (Riverside),Reservoir mobile lift (Riverside),,,,1
+portlift-rsmnl-0,,2,portable-boarding-lift,place-rsmnl,Mobile lift,Reservoir mobile lift,,,,1
+portlift-rsmnl-1,,2,portable-boarding-lift,place-rsmnl,Mobile lift,Reservoir mobile lift,,,,1
 portlift-smary,,2,portable-boarding-lift,place-smary,Mobile lift (Park Street & North),Saint Mary's Street mobile lift (Park Street & North),,,,1
 portlift-spmnl,,2,portable-boarding-lift,place-spmnl,Mobile lift (Lechmere & North),Science Park/West End mobile lift (Lechmere & North),,42.3666730,-71.0675360,1
 portlift-unsqu,,2,portable-boarding-lift,place-unsqu,Mobile lift,Union Square mobile lift,,42.3770150,-71.0939940,1
 portlift-woodl-0,,2,portable-boarding-lift,place-woodl,Mobile lift (Park Street & North),Woodland mobile lift (Park Street & North),,,,1
 portlift-woodl-1,,2,portable-boarding-lift,place-woodl,Mobile lift (Riverside),Woodland mobile lift (Riverside),,,,1
-ramp-Boat-Charlestown,,2,ramp,Boat-Charlestown,Ramp access,Charlestown ramp access,,,,1
+ramp-Boat-Aquarium,,2,ramp,Boat-Aquarium,Ramp access,Central Wharf (South) ramp access,,,,1
+ramp-Boat-Blossom,,2,ramp,Boat-Blossom,Ramp access,Blossom Street Pier ramp access,,,,1
+ramp-Boat-Charlestown,,2,ramp,Boat-Charlestown,Ramp access,Charlestown Navy Yard ramp access,,,,1
+ramp-Boat-Fan,,2,ramp,Boat-Fan,Ramp access,Seaport/Fan Pier ramp access,,,,1
 ramp-Boat-George,,2,ramp,Boat-George,Ramp access,Georges Island ramp access,,,,1
 ramp-Boat-Hingham,,2,ramp,Boat-Hingham,Ramp access,Hingham ramp access,,,,1
 ramp-Boat-Hull,,2,ramp,Boat-Hull,Ramp access,Hull ramp access,,,,1
+ramp-Boat-Lewis,,2,ramp,Boat-Lewis,Ramp access,Lewis Mall Wharf ramp access,,,,1
 ramp-Boat-Logan,,2,ramp,Boat-Logan,Ramp access,Logan Airport Ferry Terminal ramp access,,,,1
 ramp-Boat-Long,,2,ramp,Boat-Long,Ramp access,Long Wharf (North) ramp access,,,,1
+ramp-Boat-Long-South-4,,2,ramp,Boat-Long-South-4,Ramp access,Long Wharf (South) - Gate 4 ramp access,,,,1
+ramp-Boat-Quincy,,2,ramp,Boat-Quincy,Ramp access,Quincy ramp access,,,,1
 ramp-Boat-Rowes,,2,ramp,Boat-Rowes,Ramp access,Rowes Wharf ramp access,,,,1
+ramp-Boat-Winthrop,,2,ramp,Boat-Winthrop,Ramp access,Winthrop Landing ramp access,,,,1
 ramp-DB-0095,,2,ramp,place-DB-0095,Ramp access,Readville ramp access,,,,1
 ramp-DB-2205,,2,ramp,place-DB-2205,Ramp access,Fairmount ramp access,,,,1
 ramp-DB-2222,,2,ramp,place-DB-2222,Ramp access,Blue Hill Avenue ramp access,,,,1
@@ -1581,7 +1601,6 @@ retailsale-302024,,4,fare-vending-retailer,,East West Bank,East West Bank,,42.35
 retailsale-302025,,4,fare-vending-retailer,,Village Neighborhood Market,Village Neighborhood Market,,42.2862307,-71.1293850,0
 retailsale-302026,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3983250,-71.1084120,0
 retailsale-302028,,4,fare-vending-retailer,,Lee's 2 Market,Lee's 2 Market,,42.3488130,-71.1372870,0
-retailsale-302029,,4,fare-vending-retailer,,Symphony Market,Symphony Market,,42.3415202,-71.0868242,0
 retailsale-302030,,4,fare-vending-retailer,,Kashvi Shenaya Variety,Kashvi Shenaya Variety,,42.3581012,-71.0618171,0
 retailsale-302031,,4,fare-vending-retailer,,Bay State Food,Bay State Food,,42.3411477,-71.1261220,0
 retailsale-302035,,4,fare-vending-retailer,,All Checks Cashed,All Checks Cashed,,42.2906973,-71.0719152,0
@@ -1732,8 +1751,8 @@ subplat-NHRML-0116-1,,2,elevated-subplatform,place-NHRML-0116,Mini-high platform
 subplat-NHRML-0116-2,,2,elevated-subplatform,place-NHRML-0116,Mini-high platform (Track 2/Boston),Mishawum mini-high platform (Track 2/Boston),,,,1
 subplat-NHRML-0152-1,,2,elevated-subplatform,place-NHRML-0152,Mini-high platform (Track 1/Outbound),Wilmington mini-high platform (Track 1/Outbound),,,,1
 subplat-NHRML-0152-2,,2,elevated-subplatform,place-NHRML-0152,Mini-high platform (Track 2/Boston),Wilmington mini-high platform (Track 2/Boston),,,,1
-subplat-NHRML-0218-1,,2,elevated-subplatform,place-NHRML-0218,Mini-high platform (Track 1/Outbound),North Billerica mini-high platform (Track 1/Outbound),,,,1
-subplat-NHRML-0218-2,,2,elevated-subplatform,place-NHRML-0218,Mini-high platform (Track 2/Boston),North Billerica mini-high platform (Track 2/Boston),,,,1
+subplat-NHRML-0218-1,,2,elevated-subplatform,place-NHRML-0218,Mini-high platform,North Billerica mini-high platform,,,,1
+subplat-NHRML-0218-2,,2,elevated-subplatform,place-NHRML-0218,Mini-high platform,North Billerica mini-high platform,,,,1
 subplat-SB-0156-1,,2,elevated-subplatform,place-SB-0156,Mini-high platform,Canton Center mini-high platform,,,,1
 subplat-SB-0189-1,,2,elevated-subplatform,place-SB-0189,Mini-high platform,Stoughton mini-high platform,,,,1
 subplat-WML-0199-1,,2,elevated-subplatform,place-WML-0199,Mini-high platform (Track 1),West Natick mini-high platform (Track 1),,,,1
