@@ -1,8 +1,4 @@
 route_pattern_id,route_id,direction_id,route_pattern_name,route_pattern_time_desc,route_pattern_typicality,route_pattern_sort_order,representative_trip_id
-Red-3-0,Red,0,Red-3-0,,,,
-Red-1-0,Red,0,Red-1-0,,,,
-Red-3-1,Red,1,Red-3-1,,,,
-Red-1-1,Red,1,Red-1-1,,,,
 Mattapan-_-0,Mattapan,0,Mattapan-_-0,,,,
 Mattapan-_-1,Mattapan,1,Mattapan-_-1,,,,
 Orange-3-0,Orange,0,Orange-3-0,,,,
@@ -1007,6 +1003,8 @@ Shuttle-SuffolkDownsWonderland-0-0,Shuttle-SuffolkDownsWonderland,0,Shuttle-Suff
 Shuttle-SuffolkDownsWonderland-0-1,Shuttle-SuffolkDownsWonderland,1,Shuttle-SuffolkDownsWonderland-0-1,,,,
 Shuttle-TFGreenWickfordJunction-0-0,Shuttle-TFGreenWickfordJunction,0,Shuttle-TFGreenWickfordJunction-0-0,,,,
 Shuttle-TFGreenWickfordJunction-0-1,Shuttle-TFGreenWickfordJunction,1,Shuttle-TFGreenWickfordJunction-0-1,,,,
+red-a,Red,0,red-a,,,,
+red-b,Red,0,red-b,,,,
 blue,Blue,0,blue,,,,
 salem,CR-Newburyport,0,salem,,,,
 newburyport,CR-Newburyport,0,newburyport,,,,

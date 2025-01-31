@@ -188,3 +188,17 @@ station_plymouth_center = Station(
     location=(0, 0),
     municipality="Plymouth",
 )
+
+station_arlington_heights = Station(
+    name="Arlington Heights",
+    id="place-arlington-heights",
+    location=(0, 0),
+    municipality="Arlington",
+)
+
+station_arlington_center = Station(
+    name="Arlington Center",
+    id="place-arlington-center",
+    location=(0, 0),
+    municipality="Arlington",
+)

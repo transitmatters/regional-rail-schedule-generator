@@ -1,6 +1,7 @@
 from synthesize.write_gtfs import write_scenario_gtfs, archive_scenario_gtfs
 from synthesize.evaluate import evaluate_scenario
 
+from scenarios.regional_rail.red import red
 from scenarios.regional_rail.blue import blue
 from scenarios.regional_rail.eastern import eastern
 from scenarios.regional_rail.reading import reading
@@ -13,6 +14,7 @@ from scenarios.regional_rail.providence import providence_stoughton
 from scenarios.regional_rail.south_shore import greenbush, middleborough, plymouth
 
 subgraphs = [
+    [red],
     [blue],
     [eastern],
     [lowell, haverhill, reading],

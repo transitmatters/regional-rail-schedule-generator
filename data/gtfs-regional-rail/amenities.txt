@@ -1,4 +1,6 @@
 route_pattern_id,electric_trains,level_boarding,increased_top_speed
+red-a,1,1,1
+red-b,1,1,1
 blue,1,1,1
 salem,1,1,1
 newburyport,1,1,1
