@@ -616,6 +616,8 @@ ev-FR-0301,,6,electric-car-chargers,place-FR-0301,EV Chargers,Littleton/Route 49
 ev-FR-0451-garage,,6,electric-car-chargers,place-FR-0451,EV Chargers,North Leominster Garage EV Chargers,,,,0
 ev-FR-0494-garage,,6,electric-car-chargers,place-FR-0494,EV Chargers,Fitchburg Garage EV Chargers,,,,0
 ev-FR-3338-garage,,6,electric-car-chargers,place-FR-3338,EV Chargers,Wachusett Garage EV Chargers,,,,0
+ev-MM-0200-garage,,6,electric-car-chargers,place-MM-0200,EV Chargers,Brockton Garage EV Chargers,,,,0
+ev-MM-0200-lot,,6,electric-car-chargers,place-MM-0200,EV Chargers,Brockton Parking Lot EV Chargers,,,,0
 ev-NEC-1659-garage,,6,electric-car-chargers,place-NEC-1659,EV Chargers,Wickford Junction Garage EV Chargers,,,,0
 ev-NEC-2173-garage,,6,electric-car-chargers,place-NEC-2173,EV Chargers,Route 128 Garage EV Chargers,,,,0
 ev-NHRML-0152,,6,electric-car-chargers,place-NHRML-0152,EV Chargers,Wilmington Parking Lot EV Chargers,,,,0
@@ -1360,6 +1362,7 @@ park-KB-0351,,3,parking-area,place-KB-0351,Parking Lot,Kingston Parking Lot,,41.
 park-MM-0150,,3,parking-area,place-MM-0150,Parking Lot,Holbrook/Randolph Parking Lot,,42.1562880,-71.0270330,0
 park-MM-0186,,3,parking-area,place-MM-0186,Parking Lot,Montello Parking Lot,,42.1066330,-71.0215720,0
 park-MM-0200-garage,,3,parking-area,place-MM-0200,Garage,Brockton Garage,,42.0844380,-71.0147900,0
+park-MM-0200-lot,,3,parking-area,place-MM-0200,Parking Lot,Brockton Parking Lot,,42.0856040,-71.0146200,0
 park-MM-0219,,3,parking-area,place-MM-0219,Parking Lot,Campello Parking Lot,,42.0608280,-71.0113810,0
 park-MM-0277,,3,parking-area,place-MM-0277,Parking Lot,Bridgewater Parking Lot,,41.9851010,-70.9649490,0
 park-MM-0356,,3,parking-area,place-MM-0356,Parking Lot,Middleborough/Lakeville Parking Lot,,41.8780490,-70.9193030,0
@@ -1583,7 +1586,9 @@ ramp-harsq,,2,ramp,place-harsq,Ramp access,Harvard ramp access,,,,1
 ramp-jfk,,2,ramp,place-jfk,Ramp access,JFK/UMass ramp access,,,,1
 ramp-masta,,2,ramp,place-masta,Ramp access,Massachusetts Avenue ramp access,,,,1
 ramp-mgngl,,2,ramp,place-mgngl,Ramp access,Magoun Square ramp access,,,,1
+ramp-newtn,,2,ramp,place-newtn,Ramp access,Newton Highlands ramp access,,,,1
 ramp-newto,,2,ramp,place-newto,Ramp access,Newton Centre ramp access,,,,1
+ramp-sdmnl,,2,ramp,place-sdmnl,Ramp access,Suffolk Downs ramp access,,,,1
 ramp-state,,2,ramp,place-state,Ramp access,State ramp access,,,,1
 ramp-sull,,2,ramp,place-sull,Ramp access,Sullivan Square ramp access,,,,1
 ramp-unsqu,,2,ramp,place-unsqu,Ramp access,Union Square ramp access,,,,1
