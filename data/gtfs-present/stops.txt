@@ -7274,8 +7274,8 @@ NEC-1919-01,,South Attleboro,South Attleboro - Commuter Rail - Track 1 (Outbound
 NEC-1919-02,,South Attleboro,South Attleboro - Commuter Rail - Track 2 (Boston),2,Track 2 (Boston),41.897943,-71.354621,CR-zone-7,,https://www.mbta.com/stops/place-NEC-1919,,0,place-NEC-1919,1,Attleboro,,,2
 place-NEC-1969,,Attleboro,,,,41.940739,-71.285094,CR-zone-7,"133 South Main St, Attleboro, MA 02703",https://www.mbta.com/stops/place-NEC-1969,,1,,1,Attleboro,,,
 NEC-1969,,Attleboro,Attleboro - Commuter Rail,,Commuter Rail,41.940739,-71.285094,CR-zone-7,,https://www.mbta.com/stops/place-NEC-1969,,0,place-NEC-1969,1,Attleboro,,,2
-NEC-1969-03,,Attleboro,Attleboro - Commuter Rail - Track 3 (Outbound),3,Track 3 (Outbound),41.940739,-71.285094,CR-zone-7,,https://www.mbta.com/stops/place-NEC-1969,,0,place-NEC-1969,1,Attleboro,,,2
-NEC-1969-04,,Attleboro,Attleboro - Commuter Rail - Track 4 (Boston),4,Track 4 (Boston),41.940739,-71.285094,CR-zone-7,,https://www.mbta.com/stops/place-NEC-1969,,0,place-NEC-1969,1,Attleboro,,,2
+NEC-1969-03,,Attleboro,Attleboro - Commuter Rail - Track 3 (Outbound),3,Track 3 (Outbound),41.940229,-71.285521,CR-zone-7,,https://www.mbta.com/stops/place-NEC-1969,,0,place-NEC-1969,1,Attleboro,,,2
+NEC-1969-04,,Attleboro,Attleboro - Commuter Rail - Track 4 (Boston),4,Track 4 (Boston),41.941732,-71.284214,CR-zone-7,,https://www.mbta.com/stops/place-NEC-1969,,0,place-NEC-1969,1,Attleboro,,,2
 NEC-1969-B,,Attleboro - Transit Center,Attleboro - Commuter Rail Shuttle - Transit Center,,Commuter Rail Shuttle,41.941470,-71.285190,,,,,0,place-NEC-1969,1,Attleboro,,,3
 place-NEC-2040,,Mansfield,,,,42.032787,-71.219917,CR-zone-6,"1 Crocker St, Mansfield, MA 02048",https://www.mbta.com/stops/place-NEC-2040,,1,,1,Mansfield,,,
 NEC-2040,,Mansfield,Mansfield - Commuter Rail,,Commuter Rail,42.032787,-71.219917,CR-zone-6,,https://www.mbta.com/stops/place-NEC-2040,,0,place-NEC-2040,1,Mansfield,,,2

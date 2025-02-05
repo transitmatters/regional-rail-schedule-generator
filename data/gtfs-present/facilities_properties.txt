@@ -17783,6 +17783,8 @@ ev-FR-0301,capacity,4
 ev-FR-0451-garage,capacity,4
 ev-FR-0494-garage,capacity,4
 ev-FR-3338-garage,capacity,4
+ev-MM-0200-garage,capacity,2
+ev-MM-0200-lot,capacity,2
 ev-NEC-1659-garage,capacity,10
 ev-NEC-2173-garage,capacity,4
 ev-NHRML-0152,capacity,2
@@ -21533,7 +21535,7 @@ park-FR-0494-garage,payment-form-accepted,credit-debit-card
 park-FR-3338-garage,attended,1
 park-FR-3338-garage,capacity,369
 park-FR-3338-garage,capacity-accessible,8
-park-FR-3338-garage,contact,MRTA MART Transit
+park-FR-3338-garage,contact,MART Transit
 park-FR-3338-garage,contact-phone,978-345-7711
 park-FR-3338-garage,contact-url,http://www.mrta.us
 park-FR-3338-garage,enclosed,1
@@ -21839,23 +21841,41 @@ park-MM-0186,payment-form-accepted,invoice
 park-MM-0186,payment-form-accepted,mobile-app
 park-MM-0186,weekday-typical-utilization,165
 park-MM-0200-garage,attended,1
-park-MM-0200-garage,capacity,266
-park-MM-0200-garage,capacity-accessible,10
+park-MM-0200-garage,capacity,265
+park-MM-0200-garage,capacity-accessible,6
 park-MM-0200-garage,contact,BAT
 park-MM-0200-garage,contact-phone,508-588-1000
 park-MM-0200-garage,contact-url,http://www.ridebat.com/about/parking/
 park-MM-0200-garage,enclosed,1
-park-MM-0200-garage,fee-daily,"$4 cash or credit, $3 mPay2Park or Smart Card"
+park-MM-0200-garage,fee-daily,Mon-Fri: $3 | Sat-Sun: $3
+park-MM-0200-garage,fee-monthly,Monthly permits available. Email info@ridebat.com for more information
 park-MM-0200-garage,municipality,Brockton
-park-MM-0200-garage,note,"Brockton Area Transit Authority (BAT) is responsible for parking maintenance, payments, and snow removal."
-park-MM-0200-garage,operator,Brockton Area Transit Authority
+park-MM-0200-garage,note,"Brockton Area Transit Authority (BAT) is responsible for parking maintenance, and snow removal."
+park-MM-0200-garage,operator,Keolis Commuter Services
 park-MM-0200-garage,owner,Local transit authority
-park-MM-0200-garage,payment-app,mPay2Park
-park-MM-0200-garage,payment-app-url,http://mpay2park.com/
-park-MM-0200-garage,payment-form-accepted,cash
-park-MM-0200-garage,payment-form-accepted,credit-debit-card
+park-MM-0200-garage,payment-app,PayByPhone
+park-MM-0200-garage,payment-app-id,44200
+park-MM-0200-garage,payment-app-url,https://www.paybyphone.com/
+park-MM-0200-garage,payment-form-accepted,invoice
 park-MM-0200-garage,payment-form-accepted,mobile-app
-park-MM-0200-garage,payment-form-accepted,smartcard
+park-MM-0200-lot,attended,2
+park-MM-0200-lot,capacity,100
+park-MM-0200-lot,capacity-accessible,5
+park-MM-0200-lot,contact,BAT
+park-MM-0200-lot,contact-phone,508-588-1000
+park-MM-0200-lot,contact-url,http://www.ridebat.com/about/parking/
+park-MM-0200-lot,enclosed,2
+park-MM-0200-lot,fee-daily,Mon-Fri: $3 | Sat-Sun: $3
+park-MM-0200-lot,fee-monthly,Monthly permits available. Email info@ridebat.com for more information
+park-MM-0200-lot,municipality,Brockton
+park-MM-0200-lot,note,"Brockton Area Transit Authority (BAT) is responsible for parking maintenance, and snow removal."
+park-MM-0200-lot,operator,Keolis Commuter Services
+park-MM-0200-lot,owner,Local transit authority
+park-MM-0200-lot,payment-app,PayByPhone
+park-MM-0200-lot,payment-app-id,44200
+park-MM-0200-lot,payment-app-url,https://www.paybyphone.com/
+park-MM-0200-lot,payment-form-accepted,invoice
+park-MM-0200-lot,payment-form-accepted,mobile-app
 park-MM-0219,attended,2
 park-MM-0219,capacity,552
 park-MM-0219,capacity-accessible,11
@@ -22378,6 +22398,9 @@ park-NHRML-0218-station,payment-form-accepted,mobile-app
 park-NHRML-0254-garage,attended,1
 park-NHRML-0254-garage,capacity,695
 park-NHRML-0254-garage,capacity-accessible,7
+park-NHRML-0254-garage,contact,Lowell Regional Transit Authority
+park-NHRML-0254-garage,contact-phone,978-459-0164 ext. 206
+park-NHRML-0254-garage,contact-url,http://lrta.com/parking/
 park-NHRML-0254-garage,enclosed,1
 park-NHRML-0254-garage,fee-daily,"$8 daily, $16 overnight"
 park-NHRML-0254-garage,fee-monthly,$70
