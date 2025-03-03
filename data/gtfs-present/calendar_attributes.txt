@@ -1,19 +1,12 @@
 service_id,service_description,service_schedule_name,service_schedule_type,service_schedule_typicality,rating_start_date,rating_end_date,rating_description
 BUS12025-abl15ns1-Weekday-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20241215,20250405,Winter
 BUS12025-hba15ns1-Weekday-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20241215,20250405,Winter
-BUS12025-hbb15hl6-Saturday-02,Holiday (Saturday schedule),Holiday,Saturday,3,20241215,20250405,Winter
 BUS12025-hbb15ns1-Weekday-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20241215,20250405,Winter
 BUS12025-hbc15ns1-Weekday-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20241215,20250405,Winter
-BUS12025-hbc15tp6-Saturday-02,Holiday (Saturday schedule),Holiday,Saturday,3,20241215,20250405,Winter
 BUS12025-hbf15ns1-Weekday-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20241215,20250405,Winter
 BUS12025-hbg15ns1-Weekday-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20241215,20250405,Winter
-BUS12025-hbg15tp6-Saturday-02,Holiday (Saturday schedule),Holiday,Saturday,3,20241215,20250405,Winter
-BUS12025-hbl15hl6-Saturday-02,Holiday (Saturday schedule),Holiday,Saturday,3,20241215,20250405,Winter
-BUS12025-hbq15hl6-Saturday-02,Holiday (Saturday schedule),Holiday,Saturday,3,20241215,20250405,Winter
 BUS12025-hbq15ns1-Weekday-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20241215,20250405,Winter
 BUS12025-hbs15sp1-Weekday-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20241215,20250405,Winter
-BUS12025-hbs15tp6-Saturday-02,Holiday (Saturday schedule),Holiday,Saturday,3,20241215,20250405,Winter
-BUS12025-hbt15hl6-Saturday-02,Holiday (Saturday schedule),Holiday,Saturday,3,20241215,20250405,Winter
 BUS12025-hbt15ns1-Weekday-02,Weekday schedule (no school),Weekday (no school),Weekday,1,20241215,20250405,Winter
 Boat-EastBoston-Saturday-Summer-25,Saturday schedule,Saturday,Saturday,1,20250303,,Summer
 Boat-EastBoston-Sunday-Summer-25,Sunday schedule,Sunday,Sunday,1,20250303,,Summer
@@ -24,69 +17,70 @@ Boat-F4-Sunday-Fall-24,Sunday schedule,Sunday,Sunday,1,20240825,,Fall
 Boat-F4-Weekday-Fall-24,Weekday schedule,Weekday,Weekday,1,20240825,,Fall
 Boat-F6-Weekday-Summer-25,Weekday schedule,Weekday,Weekday,1,20250303,,Summer
 Boat-Lynn-Weekday-Summer-25,Weekday schedule,Weekday,Weekday,1,20250303,,Summer
+CR-AndersonWoburnNorthStationLocal-Snd,Sunday schedule,Sunday,Sunday,4,20241215,20250405,Winter
+CR-AndersonWoburnNorthStationLocal-Std,Saturday schedule,Saturday,Saturday,4,20241215,20250405,Winter
+CR-AndersonWoburnNorthStationXSaturday,Saturday schedule,Saturday,Saturday,4,20241215,20250405,Winter
+CR-AndersonWoburnNorthStationXSunday,Sunday schedule,Sunday,Sunday,4,20241215,20250405,Winter
+CR-HaverhillNStaMaldenOakGrFall-Std,Saturday schedule,Saturday,Saturday,4,20241215,20250405,Winter
+CR-HaverhillNStaMaldenOakGrFall-Sunday,Sunday schedule,Sunday,Sunday,4,20241215,20250405,Winter
 CR-NewburyportBeverlyShuttle-Saturday,Saturday schedule,Saturday,Saturday,4,20241215,20250405,Winter
 CR-NewburyportBeverlyShuttle-Sunday,Sunday schedule,Sunday,Sunday,4,20241215,20250405,Winter
-CR-NorthStationReading-Saturday,Saturday schedule,Saturday,Saturday,4,20241215,20250405,Winter
-CR-NorthStationReading-Sunday,Sunday schedule,Sunday,Sunday,4,20241215,20250405,Winter
 CR-NorthStationSwampscottExpress-Std,Saturday schedule,Saturday,Saturday,4,20241215,20250405,Winter
 CR-NorthStationSwampscottExpress-Sunday,Sunday schedule,Sunday,Sunday,4,20241215,20250405,Winter
 CR-NorthStationSwampscottLocal-Saturday,Saturday schedule,Saturday,Saturday,4,20241215,20250405,Winter
 CR-NorthStationSwampscottLocal-Sunday,Sunday schedule,Sunday,Sunday,4,20241215,20250405,Winter
-CR-ReadingAndersonWoburn-Saturday,Saturday schedule,Saturday,Saturday,4,20241215,20250405,Winter
-CR-ReadingAndersonWoburn-Sunday,Sunday schedule,Sunday,Sunday,4,20241215,20250405,Winter
-FALL 2024-N-Sa-1-S6561ad1d-HvlBrdVn,Saturday schedule,Saturday,Saturday,4,20241118,,Fall/Winter
-FALL 2024-N-Su-13-S6561ad1d-HvlBrdVn,Sunday schedule (modified service),Sunday (modified service),Sunday,4,20241118,,Fall/Winter
-FALL 2024-N-Sunday-1-S6561ad1d-HvlBrdVn,Sunday schedule,Sunday,Sunday,4,20241118,,Fall/Winter
-FALL 2024-N-Wdy-1-S6561ad1d-HvlBrdVn,Weekday schedule,Weekday,Weekday,4,20241118,,Fall/Winter
-FALL 2024-NORTHSAT-Saturday-1,Saturday schedule,Saturday,Saturday,1,20241118,,Fall/Winter
-FALL 2024-NORTHSAT-Saturday-1-S7d8482ee,Saturday schedule,Saturday,Saturday,1,20241118,,Fall/Winter
-FALL 2024-NORTHSAT-Saturday-1-S9d378dcf,Saturday schedule,Saturday,Saturday,1,20241118,,Fall/Winter
-FALL 2024-NORTHSUN-Sunday-1-S7d8482ee,Sunday schedule,Sunday,Sunday,1,20241118,,Fall/Winter
-FALL 2024-NORTHSUN-Sunday-1-S9d378dcf,Sunday schedule,Sunday,Sunday,1,20241118,,Fall/Winter
-FALL 2024-NORTHSUN-Sunday-13-S7d8482ee,Sunday schedule (modified service),Sunday (modified service),Sunday,4,20241118,,Fall/Winter
-FALL 2024-NORTHSUN-Sunday-13-S9d378dcf,Sunday schedule (modified service),Sunday (modified service),Sunday,4,20241118,,Fall/Winter
-FALL 2024-NORTHWKD-Weekday-1,Weekday schedule,Weekday,Weekday,1,20241118,,Fall/Winter
-FALL 2024-NORTHWKD-Weekday-1-S7d8482ee,Weekday schedule,Weekday,Weekday,1,20241118,,Fall/Winter
-FALL 2024-NORTHWKD-Weekday-1-S9d378dcf,Weekday schedule,Weekday,Weekday,1,20241118,,Fall/Winter
-FALL 2024-SOUTHSAT-Saturday-1,Saturday schedule,Saturday,Saturday,1,20241118,,Fall/Winter
-FALL 2024-SOUTHSAT-Saturday-1-S85407dc6,Saturday schedule,Saturday,Saturday,1,20241118,,Fall/Winter
-FALL 2024-SOUTHSAT-Saturday-1-S859962ef,Saturday schedule,Saturday,Saturday,1,20241118,,Fall/Winter
-FALL 2024-SOUTHSAT-Saturday-1-Sb0e4ed14,Saturday schedule,Saturday,Saturday,1,20241118,,Fall/Winter
-FALL 2024-SOUTHSAT-Saturday-1-Sb7371956,Saturday schedule,Saturday,Saturday,1,20241118,,Fall/Winter
-FALL 2024-SOUTHSAT-Saturday-1-Sc9a3b080,Saturday schedule,Saturday,Saturday,1,20241118,,Fall/Winter
-FALL 2024-SOUTHSAT-Saturday-1-Scbbf1ea5,Saturday schedule,Saturday,Saturday,1,20241118,,Fall/Winter
-FALL 2024-SOUTHWKD-Weekday-1,Weekday schedule,Weekday,Weekday,1,20241118,,Fall/Winter
-FALL 2024-SOUTHWKD-Weekday-1-S85407dc6,Weekday schedule,Weekday,Weekday,1,20241118,,Fall/Winter
-FALL 2024-SOUTHWKD-Weekday-1-S859962ef,Weekday schedule,Weekday,Weekday,1,20241118,,Fall/Winter
-FALL 2024-SOUTHWKD-Weekday-1-Sb7371956,Weekday schedule,Weekday,Weekday,1,20241118,,Fall/Winter
-FALL 2024-SOUTHWKD-Weekday-1-Sc9a3b080,Weekday schedule,Weekday,Weekday,1,20241118,,Fall/Winter
-FALL 2024-SOUTHWKD-Weekday-1-Scbbf1ea5,Weekday schedule,Weekday,Weekday,1,20241118,,Fall/Winter
-FALL 2024-SOUTHWKD-Weekday-42-Sb0e4ed14,Weekday schedule (modified service),Weekday (modified service),Weekday,4,20241118,,Fall/Winter
-Fall/WinterSaturday,Saturday schedule (modified service),Saturday (modified service),Saturday,4,20241118,,Fall/Winter
-Fall/WinterSunday,Sunday schedule,Sunday,Sunday,1,20241118,,Fall/Winter
+FALL 2024-N-Sa-1-S6561ad1d-HvlBrdVn,Saturday schedule,Saturday,Saturday,4,20241118,20250405,Fall/Winter
+FALL 2024-N-Sa-15-S6561ad1d-HvlBrdVn,Saturday schedule (modified service),Saturday (modified service),Saturday,4,20241118,20250405,Fall/Winter
+FALL 2024-N-Su-15-S6561ad1d-HvlBrdVn,Sunday schedule (modified service),Sunday (modified service),Sunday,4,20241118,20250405,Fall/Winter
+FALL 2024-N-Sunday-1-S6561ad1d-HvlBrdVn,Sunday schedule,Sunday,Sunday,4,20241118,20250405,Fall/Winter
+FALL 2024-N-Wdy-1-S6561ad1d-HvlBrdVn,Weekday schedule,Weekday,Weekday,4,20241118,20250405,Fall/Winter
+FALL 2024-NORTHSAT-Saturday-1-S7d8482ee,Saturday schedule,Saturday,Saturday,1,20241118,20250405,Fall/Winter
+FALL 2024-NORTHSAT-Saturday-1-S9d378dcf,Saturday schedule,Saturday,Saturday,1,20241118,20250405,Fall/Winter
+FALL 2024-NORTHSAT-Saturday-15-S72,Saturday schedule (modified service),Saturday (modified service),Saturday,4,20241118,20250405,Fall/Winter
+FALL 2024-NORTHSAT-Saturday-15-S9f,Saturday schedule (modified service),Saturday (modified service),Saturday,4,20241118,20250405,Fall/Winter
+FALL 2024-NORTHSUN-Sunday-1-S7d8482ee,Sunday schedule,Sunday,Sunday,1,20241118,20250405,Fall/Winter
+FALL 2024-NORTHSUN-Sunday-1-S9d378dcf,Sunday schedule,Sunday,Sunday,1,20241118,20250405,Fall/Winter
+FALL 2024-NORTHSUN-Sunday-15-S7d8482ee,Sunday schedule (modified service),Sunday (modified service),Sunday,4,20241118,20250405,Fall/Winter
+FALL 2024-NORTHSUN-Sunday-15-S9d378dcf,Sunday schedule (modified service),Sunday (modified service),Sunday,4,20241118,20250405,Fall/Winter
+FALL 2024-NORTHWKD-Weekday-1,Weekday schedule,Weekday,Weekday,1,20241118,20250405,Fall/Winter
+FALL 2024-NORTHWKD-Weekday-1-S7d8482ee,Weekday schedule,Weekday,Weekday,1,20241118,20250405,Fall/Winter
+FALL 2024-NORTHWKD-Weekday-1-S9d378dcf,Weekday schedule,Weekday,Weekday,1,20241118,20250405,Fall/Winter
+FALL 2024-SOUTHWKD-Weekday-1,Weekday schedule,Weekday,Weekday,1,20241118,20250405,Fall/Winter
+FALL 2024-SOUTHWKD-Weekday-1-S85407dc6,Weekday schedule,Weekday,Weekday,1,20241118,20250405,Fall/Winter
+FALL 2024-SOUTHWKD-Weekday-1-S859962ef,Weekday schedule,Weekday,Weekday,1,20241118,20250405,Fall/Winter
+FALL 2024-SOUTHWKD-Weekday-1-Sb7371956,Weekday schedule,Weekday,Weekday,1,20241118,20250405,Fall/Winter
+FALL 2024-SOUTHWKD-Weekday-1-Sc9a3b080,Weekday schedule,Weekday,Weekday,1,20241118,20250405,Fall/Winter
+FALL 2024-SOUTHWKD-Weekday-1-Scbbf1ea5,Weekday schedule,Weekday,Weekday,1,20241118,20250405,Fall/Winter
+FALL 2024-SOUTHWKD-Weekday-42-Sb0e4ed14,Weekday schedule (modified service),Weekday (modified service),Weekday,4,20241118,20250405,Fall/Winter
+Fall/WinterSaturday,Saturday schedule,Saturday,Saturday,1,20241118,20250405,Fall/Winter
+Fall/WinterSunday,Sunday schedule,Sunday,Sunday,1,20241118,20250405,Fall/Winter
+Green-B-BabcockBackBay-Saturday-ab389,Saturday schedule (Track Work),Saturday (Track Work),Saturday,4,20241215,20250405,Winter
+Green-B-BabcockBackBay-Sunday-ab389,Sunday schedule (Track Work),Sunday (Track Work),Sunday,4,20241215,20250405,Winter
+Green-BackBayKenmore-Saturday-ab389,Saturday schedule (Track Work),Saturday (Track Work),Saturday,4,20241215,20250405,Winter
+Green-BackBayKenmore-Sunday-ab389,Sunday schedule (Track Work),Sunday (Track Work),Sunday,4,20241215,20250405,Winter
 LRV12025-hlb15011-Weekday-01,Weekday schedule,Weekday,Weekday,1,20241215,20250405,Winter
-LRV12025-hlb15hl6-Saturday-01,Holiday (Saturday schedule),Holiday,Saturday,3,20241215,20250405,Winter
+LRV12025-hlb15016-Saturday-01,Saturday schedule,Saturday,Saturday,1,20241215,20250405,Winter
+LRV12025-hlb15017-Sunday-01,Sunday schedule,Sunday,Sunday,1,20241215,20250405,Winter
+LRV12025-hlb15su6-Saturday-01,Saturday schedule (modified service),Saturday (modified service),Saturday,4,20241215,20250405,Winter
+LRV12025-hlb15su7-Sunday-01,Sunday schedule (modified service),Sunday (modified service),Sunday,4,20241215,20250405,Winter
 LRV12025-hlm15011-Weekday-01,Weekday schedule,Weekday,Weekday,1,20241215,20250405,Winter
-LRV12025-hlm15hl6-Saturday-01,Holiday (Saturday schedule),Holiday,Saturday,3,20241215,20250405,Winter
-Orange-NSta-OakGrv-Express-Holiday,Other schedule (Maintenance),Other (Maintenance),Other,4,20241215,20250405,Winter
+Orange-CopleyJacksonSquare-Saturday-899,Saturday schedule (Signal work),Saturday (Signal work),Saturday,4,20241215,20250405,Winter
+Orange-CopleyJacksonSquare-Sunday-895b9,Sunday schedule (Signal work),Sunday (Signal work),Sunday,4,20241215,20250405,Winter
 Orange-NSta-OakGrv-Express-Saturday,Saturday schedule (Maintenance),Saturday (Maintenance),Saturday,4,20241215,20250405,Winter
 Orange-NSta-OakGrv-Express-Sunday,Sunday schedule (Maintenance),Sunday (Maintenance),Sunday,4,20241215,20250405,Winter
 Orange-NSta-OakGrv-Express-Weekday,Weekday schedule (Maintenance),Weekday (Maintenance),Weekday,4,20241215,20250405,Winter
-Orange-NSta-OakGrv-Local-Holiday,Other schedule (Maintenance),Other (Maintenance),Other,4,20241215,20250405,Winter
 Orange-NSta-OakGrv-Local-Saturday,Saturday schedule (Maintenance),Saturday (Maintenance),Saturday,4,20241215,20250405,Winter
 Orange-NSta-OakGrv-Local-Sunday,Sunday schedule (Maintenance),Sunday (Maintenance),Sunday,4,20241215,20250405,Winter
 Orange-NSta-OakGrv-Local-Weekday,Weekday schedule (Maintenance),Weekday (Maintenance),Weekday,4,20241215,20250405,Winter
 PRIV12025-hpa44011-Weekday-01,Weekday schedule,Weekday,Weekday,1,20241215,20250405,Winter
-PRIV12025-hpa44016-Saturday-01,Saturday schedule,Saturday,Saturday,1,20241215,20250405,Winter
 PRIV12025-hpj44011-Weekday-01,Weekday schedule,Weekday,Weekday,1,20241215,20250405,Winter
-PRIV12025-hpj44016-Saturday-01,Saturday schedule,Saturday,Saturday,1,20241215,20250405,Winter
-PRIV12025-hpp15hl6-Saturday-01,Holiday (Saturday schedule),Holiday,Saturday,3,20241215,20250405,Winter
 PRIV12025-hpp15ns1-Weekday-01,Weekday schedule (no school),Weekday (no school),Weekday,1,20241215,20250405,Winter
 RTL12025-hmb15011-Weekday-01,Weekday schedule,Weekday,Weekday,1,20241215,20250405,Winter
-RTL12025-hmb15hl6-Saturday-01,Holiday (Saturday schedule),Holiday,Saturday,3,20241215,20250405,Winter
 RTL12025-hmo15011-Weekday-01,Weekday schedule,Weekday,Weekday,1,20241215,20250405,Winter
 RTL12025-hmo15016-Saturday-01,Saturday schedule,Saturday,Saturday,1,20241215,20250405,Winter
 RTL12025-hmo15017-Sunday-01,Sunday schedule,Sunday,Sunday,1,20241215,20250405,Winter
+RTL12025-hmo15jn6-Saturday-01,Saturday schedule (modified service),Saturday (modified service),Saturday,4,20241215,20250405,Winter
+RTL12025-hmo15jn7-Sunday-01,Sunday schedule (modified service),Sunday (modified service),Sunday,4,20241215,20250405,Winter
 RTL12025-hmo15on1-Weekday-01,Weekday schedule (modified service),Weekday (modified service),Weekday,4,20241215,20250405,Winter
 RTL12025-hmo15on6-Saturday-01,Saturday schedule (modified service),Saturday (modified service),Saturday,4,20241215,20250405,Winter
 RTL12025-hmo15on7-Sunday-01,Sunday schedule (modified service),Sunday (modified service),Sunday,4,20241215,20250405,Winter
@@ -95,14 +89,13 @@ RTL12025-hms15016-Saturday-01,Saturday schedule,Saturday,Saturday,1,20241215,202
 RTL12025-hms15017-Sunday-01,Sunday schedule,Sunday,Sunday,1,20241215,20250405,Winter
 RTL12025-hms15bj6-Saturday-01,Saturday schedule (modified service),Saturday (modified service),Saturday,4,20241215,20250405,Winter
 RTL12025-hms15bj7-Sunday-01,Sunday schedule (modified service),Sunday (modified service),Sunday,4,20241215,20250405,Winter
-RTL12025-hms15hl6-Saturday-01,Holiday (Saturday schedule),Holiday,Saturday,3,20241215,20250405,Winter
 RTL12025-hms15pd7-Sunday-01,Holiday (Sunday schedule),Holiday,Sunday,3,20241215,20250405,Winter
 Red-BraintreeJFK-Saturday-084aa,Saturday schedule (Disruption),Saturday (Disruption),Saturday,4,20241215,20250405,Winter
-Red-BraintreeJFK-Saturday-848a3,Saturday schedule (Disruption),Saturday (Disruption),Saturday,4,20241215,20250405,Winter
+Red-BraintreeJFK-Saturday-95468,Saturday schedule (Disruption),Saturday (Disruption),Saturday,4,20241215,20250405,Winter
 Red-BraintreeJFK-Saturday-a9153,Saturday schedule (Disruption),Saturday (Disruption),Saturday,4,20241215,20250405,Winter
 Red-BraintreeJFK-Saturday-ab389,Saturday schedule (Disruption),Saturday (Disruption),Saturday,4,20241215,20250405,Winter
 Red-BraintreeJFK-Sunday-084aa,Sunday schedule (Disruption),Sunday (Disruption),Sunday,4,20241215,20250405,Winter
-Red-BraintreeJFK-Sunday-848a3,Sunday schedule (Disruption),Sunday (Disruption),Sunday,4,20241215,20250405,Winter
+Red-BraintreeJFK-Sunday-95468,Sunday schedule (Disruption),Sunday (Disruption),Sunday,4,20241215,20250405,Winter
 Red-BraintreeJFK-Sunday-a9153,Sunday schedule (Disruption),Sunday (Disruption),Sunday,4,20241215,20250405,Winter
 Red-BraintreeJFK-Sunday-ab389,Sunday schedule (Disruption),Sunday (Disruption),Sunday,4,20241215,20250405,Winter
 WinterSaturday,Saturday schedule,Saturday,Saturday,1,20241215,20250405,Winter

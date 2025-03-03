@@ -17270,6 +17270,12 @@ bike-FR-0494,secured,2
 bike-FR-3338,capacity,12
 bike-FR-3338,enclosed,1
 bike-FR-3338,secured,2
+bike-FRS-0054-storage,capacity,8
+bike-FRS-0054-storage,enclosed,1
+bike-FRS-0054-storage,secured,2
+bike-FRS-0109-storage,capacity,22
+bike-FRS-0109-storage,enclosed,1
+bike-FRS-0109-storage,secured,2
 bike-GB-0198,capacity,9
 bike-GB-0198,enclosed,2
 bike-GB-0198,secured,2
@@ -17312,6 +17318,9 @@ bike-GRB-0276,secured,2
 bike-KB-0351,capacity,32
 bike-KB-0351,enclosed,2
 bike-KB-0351,secured,2
+bike-MBS-0350-storage,capacity,22
+bike-MBS-0350-storage,enclosed,1
+bike-MBS-0350-storage,secured,2
 bike-MM-0150,capacity,18
 bike-MM-0150,enclosed,1
 bike-MM-0150,secured,2
@@ -17354,6 +17363,15 @@ bike-NB-0127,secured,2
 bike-NB-0137,capacity,7
 bike-NB-0137,enclosed,2
 bike-NB-0137,secured,2
+bike-NBM-0374-storage,capacity,22
+bike-NBM-0374-storage,enclosed,1
+bike-NBM-0374-storage,secured,2
+bike-NBM-0523-storage,capacity,22
+bike-NBM-0523-storage,enclosed,1
+bike-NBM-0523-storage,secured,2
+bike-NBM-0546-storage,capacity,22
+bike-NBM-0546-storage,enclosed,1
+bike-NBM-0546-storage,secured,2
 bike-NEC-1659,capacity,8
 bike-NEC-1659,enclosed,2
 bike-NEC-1659,secured,2
@@ -17783,8 +17801,14 @@ ev-FR-0301,capacity,4
 ev-FR-0451-garage,capacity,4
 ev-FR-0494-garage,capacity,4
 ev-FR-3338-garage,capacity,4
+ev-FRS-0054,capacity,2
+ev-FRS-0109,capacity,3
+ev-MBS-0350,capacity,5
 ev-MM-0200-garage,capacity,2
 ev-MM-0200-lot,capacity,2
+ev-NBM-0374,capacity,5
+ev-NBM-0523,capacity,5
+ev-NBM-0546,capacity,4
 ev-NEC-1659-garage,capacity,10
 ev-NEC-2173-garage,capacity,4
 ev-NHRML-0152,capacity,2
@@ -20178,6 +20202,8 @@ highlevel-FR-0301-1,note,Full high level platform is available to provide level 
 highlevel-FR-0301-2,excludes-stop,FR-0301-01
 highlevel-FR-0301-2,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-FR-3338-3,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-FRS-0054-1,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-FRS-0109-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-GRB-0118-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-GRB-0146-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-GRB-0162-1,note,Full high level platform is available to provide level boarding to every car in a train set
@@ -20186,6 +20212,7 @@ highlevel-GRB-0199-1,note,Full high level platform is available to provide level
 highlevel-GRB-0233-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-GRB-0276-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-KB-0351-1,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-MBS-0350-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-MM-0150-1,excludes-stop,4255
 highlevel-MM-0150-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-MM-0186-1,excludes-stop,39870
@@ -20201,6 +20228,9 @@ highlevel-MM-0200-2,note,Full high level platform is available to provide level 
 highlevel-MM-0219-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-MM-0277-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-MM-0356-1,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-NBM-0374-1,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-NBM-0523-1,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-NBM-0546-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-NEC-1659-3,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-NEC-1768-3,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-NEC-1851-1,excludes-stop,NEC-1851-02
@@ -21547,6 +21577,35 @@ park-FR-3338-garage,operator,Montachusett Regional Transit Authority
 park-FR-3338-garage,owner,Local transit authority
 park-FR-3338-garage,payment-form-accepted,cash
 park-FR-3338-garage,payment-form-accepted,credit-debit-card
+park-FRS-0054,attended,2
+park-FRS-0054,capacity,113
+park-FRS-0054,capacity-accessible,7
+park-FRS-0054,contact,MBTA Customer Support
+park-FRS-0054,contact-phone,617-222-3200
+park-FRS-0054,contact-url,https://www.mbta.com/customer-support
+park-FRS-0054,enclosed,2
+park-FRS-0054,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
+park-FRS-0054,municipality,Freetown
+park-FRS-0054,operator,Keolis Commuter Services
+park-FRS-0054,owner,MBTA
+park-FRS-0054,payment-app,PayByPhone
+park-FRS-0054,payment-app-id,44203
+park-FRS-0054,payment-app-url,https://www.paybyphone.com/
+park-FRS-0054,payment-form-accepted,invoice
+park-FRS-0054,payment-form-accepted,mobile-app
+park-FRS-0109,attended,2
+park-FRS-0109,capacity,220
+park-FRS-0109,capacity-accessible,9
+park-FRS-0109,enclosed,2
+park-FRS-0109,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
+park-FRS-0109,municipality,Fall River 
+park-FRS-0109,operator,Keolis Commuter Services
+park-FRS-0109,owner,MBTA
+park-FRS-0109,payment-app,PayByPhone
+park-FRS-0109,payment-app-id,44202
+park-FRS-0109,payment-app-url,https://www.paybyphone.com/
+park-FRS-0109,payment-form-accepted,invoice
+park-FRS-0109,payment-form-accepted,mobile-app
 park-FS-0049,attended,2
 park-FS-0049,capacity,500
 park-FS-0049,capacity-accessible,9
@@ -21802,6 +21861,22 @@ park-KB-0351,payment-app-url,https://www.paybyphone.com/
 park-KB-0351,payment-form-accepted,invoice
 park-KB-0351,payment-form-accepted,mobile-app
 park-KB-0351,weekday-typical-utilization,404
+park-MBS-0350,attended,2
+park-MBS-0350,capacity,500
+park-MBS-0350,capacity-accessible,17
+park-MBS-0350,contact,MBTA Customer Support
+park-MBS-0350,contact-phone,617-222-3200
+park-MBS-0350,contact-url,https://www.mbta.com/customer-support
+park-MBS-0350,enclosed,2
+park-MBS-0350,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
+park-MBS-0350,municipality,Middleborough
+park-MBS-0350,operator,Keolis Commuter Services
+park-MBS-0350,owner,MBTA
+park-MBS-0350,payment-app,PayByPhone
+park-MBS-0350,payment-app-id,44204
+park-MBS-0350,payment-app-url,https://www.paybyphone.com/
+park-MBS-0350,payment-form-accepted,invoice
+park-MBS-0350,payment-form-accepted,mobile-app
 park-MM-0150,attended,2
 park-MM-0150,capacity,362
 park-MM-0150,capacity-accessible,14
@@ -21851,7 +21926,7 @@ park-MM-0200-garage,fee-daily,Mon-Fri: $3 | Sat-Sun: $3
 park-MM-0200-garage,fee-monthly,Monthly permits available. Email info@ridebat.com for more information
 park-MM-0200-garage,municipality,Brockton
 park-MM-0200-garage,note,"Brockton Area Transit Authority (BAT) is responsible for parking maintenance, and snow removal."
-park-MM-0200-garage,operator,Keolis Commuter Services
+park-MM-0200-garage,operator,BAT
 park-MM-0200-garage,owner,Local transit authority
 park-MM-0200-garage,payment-app,PayByPhone
 park-MM-0200-garage,payment-app-id,44200
@@ -21869,7 +21944,7 @@ park-MM-0200-lot,fee-daily,Mon-Fri: $3 | Sat-Sun: $3
 park-MM-0200-lot,fee-monthly,Monthly permits available. Email info@ridebat.com for more information
 park-MM-0200-lot,municipality,Brockton
 park-MM-0200-lot,note,"Brockton Area Transit Authority (BAT) is responsible for parking maintenance, and snow removal."
-park-MM-0200-lot,operator,Keolis Commuter Services
+park-MM-0200-lot,operator,BAT
 park-MM-0200-lot,owner,Local transit authority
 park-MM-0200-lot,payment-app,PayByPhone
 park-MM-0200-lot,payment-app-id,44200
@@ -22080,6 +22155,43 @@ park-NB-0137,payment-app-url,https://www.paybyphone.com/
 park-NB-0137,payment-form-accepted,invoice
 park-NB-0137,payment-form-accepted,mobile-app
 park-NB-0137,weekday-typical-utilization,66
+park-NBM-0374,attended,2
+park-NBM-0374,capacity,387
+park-NBM-0374,capacity-accessible,11
+park-NBM-0374,contact,MBTA Customer Support
+park-NBM-0374,contact-phone,617-222-3200
+park-NBM-0374,contact-url,https://www.mbta.com/customer-support
+park-NBM-0374,enclosed,2
+park-NBM-0374,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
+park-NBM-0374,municipality,East Taunton
+park-NBM-0374,operator,Keolis Commuter Services
+park-NBM-0374,owner,MBTA
+park-NBM-0374,payment-app,PayByPhone
+park-NBM-0374,payment-app-id,44205
+park-NBM-0374,payment-app-url,https://www.paybyphone.com/
+park-NBM-0374,payment-form-accepted,invoice
+park-NBM-0374,payment-form-accepted,mobile-app
+park-NBM-0523,attended,2
+park-NBM-0523,capacity,355
+park-NBM-0523,capacity-accessible,10
+park-NBM-0523,contact,MBTA Customer Support
+park-NBM-0523,contact-phone,617-222-3200
+park-NBM-0523,contact-url,https://www.mbta.com/customer-support
+park-NBM-0523,enclosed,2
+park-NBM-0523,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
+park-NBM-0523,municipality, New Bedford 
+park-NBM-0523,operator,Keolis Commuter Services
+park-NBM-0523,owner,MBTA
+park-NBM-0523,payment-app,PayByPhone
+park-NBM-0523,payment-app-id,44206
+park-NBM-0523,payment-app-url,https://www.paybyphone.com/
+park-NBM-0523,payment-form-accepted,invoice
+park-NBM-0523,payment-form-accepted,mobile-app
+park-NBM-0546,attended,2
+park-NBM-0546,capacity,150
+park-NBM-0546,capacity-accessible,13
+park-NBM-0546,enclosed,2
+park-NBM-0546,municipality, New Bedford 
 park-NEC-1659-garage,attended,1
 park-NEC-1659-garage,capacity,1100
 park-NEC-1659-garage,contact,Rhode Island Department of Transportation
@@ -24355,7 +24467,6 @@ retailsale-303047,dispenses,fare-media
 retailsale-303047,enclosed,1
 retailsale-303047,payment-form-accepted,cash
 retailsale-303047,payment-form-accepted,credit-debit-card
-subplat-25,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-DB-0095-2,excludes-stop,FB-0095-04
 subplat-DB-0095-2,excludes-stop,FB-0095-05
 subplat-DB-0095-2,excludes-stop,NEC-2192-03
@@ -24389,6 +24500,7 @@ subplat-ER-0208-1,note,Mini high level platform is available to provide level bo
 subplat-ER-0208-2,excludes-stop,ER-0208-01
 subplat-ER-0208-2,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-ER-0227-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
+subplat-ER-0276-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-FB-0118-1,excludes-stop,FB-0118-02
 subplat-FB-0118-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-FB-0118-2,excludes-stop,FB-0118-01
@@ -24506,6 +24618,10 @@ subplat-NHRML-0218-2,excludes-stop,NHRML-0218-01
 subplat-NHRML-0218-2,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-SB-0156-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-SB-0189-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
+subplat-WML-0147-1,excludes-stop,WML-0147-02
+subplat-WML-0147-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
+subplat-WML-0147-2,excludes-stop,WML-0147-01
+subplat-WML-0147-2,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-WML-0199-1,excludes-stop,WML-0199-02
 subplat-WML-0199-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-WML-0199-2,excludes-stop,WML-0199-01

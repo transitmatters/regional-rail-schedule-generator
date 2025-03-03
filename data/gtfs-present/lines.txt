@@ -19,6 +19,7 @@ line-Needham,,Needham Line,,,80276C,FFFFFF,20010
 line-Newburyport,,Newburyport/Rockport Line,,,80276C,FFFFFF,20011
 line-Providence,,Providence/Stoughton Line,,,80276C,FFFFFF,20012
 line-Foxboro,,Foxboro Event Service,,,80276C,FFFFFF,20013
+line-NewBedford,,Fall River/New Bedford Line,,,80276C,FFFFFF,20033
 line-CapeFlyer,,CapeFlyer,,,006595,FFFFFF,21000
 line-Boat-F4,,Charlestown Ferry,,,008EAA,FFFFFF,30001
 line-Boat-F1,,Hingham/Hull Ferry,,,008EAA,FFFFFF,30002
