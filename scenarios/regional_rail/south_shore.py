@@ -38,6 +38,14 @@ timetable = Timetable(
         "Bridgewater": "0:34",
         "Middleborough Centre St": "0:40",
         "Middleborough/Lakeville": "0:42",
+        # Fall River
+        "East Taunton": "0:50",
+        "Freetown": "0:57",
+        "Fall River Depot": "1:10",
+        # New Bedford
+        "East Taunton": "0:50",
+        "Church Street": "0:57",
+        "New Bedford": "1:05",
         # TODO(ian): Add Cape stations here?
         # Plymouth
         "Weymouth Columbian Square": "0:18",
@@ -85,6 +93,18 @@ stations_middleborough_lakeville = (
     "Middleborough/Lakeville",
 )
 
+stations_fall_river = (
+    "East Taunton",
+    "Freetown",
+    "Fall River Depot",
+)
+
+stations_newbedford = (
+    "East Taunton",
+    "Church Street",
+    "New Bedford",
+)
+
 stations_plymouth = (
     station_weymouth_columbian_square,
     "South Weymouth",
@@ -115,22 +135,6 @@ greenbush = Route(
     ],
 )
 
-middleborough = Route(
-    id="CR-Middleborough",
-    shadows_real_route="CR-Middleborough",
-    name="Middleborough/Lakeville Line",
-    trainset=emu_trainset,
-    route_patterns=[
-        RoutePattern(
-            id="middleborough-lakeville",
-            name="Middleborough/Lakeville",
-            timetable=timetable,
-            stations=(stations_oc_shared + stations_middleborough_lakeville),
-            schedule=all_day_30,
-        )
-    ],
-)
-
 plymouth = Route(
     id="CR-Plymouth",
     shadows_real_route="CR-Kingston",
@@ -142,6 +146,29 @@ plymouth = Route(
             name="Plymouth",
             timetable=timetable,
             stations=(stations_oc_shared + stations_plymouth),
+            schedule=all_day_30,
+        )
+    ],
+)
+
+newbedford = Route(
+    id="CR-NewBedford",
+    shadows_real_route="CR-NewBedford",
+    name="Fall River/New Bedford Line",
+    trainset=emu_trainset,
+    route_patterns=[
+        RoutePattern(
+            id="new-bedford",
+            name="New Bedford",
+            timetable=timetable,
+            stations=(stations_oc_shared + stations_middleborough_lakeville + stations_newbedford),
+            schedule=all_day_30,
+        ),
+        RoutePattern(
+            id="fall-river",
+            name="Fall River",
+            timetable=timetable,
+            stations=(stations_oc_shared + stations_middleborough_lakeville + stations_fall_river),
             schedule=all_day_30,
         )
     ],
