@@ -451,8 +451,6 @@ Shuttle-BeverlyNewburyportLocal,0,Outbound,Newburyport
 Shuttle-BeverlyNewburyportLocal,1,Inbound,North Station
 Shuttle-BeverlyNorthStationLimited,0,Outbound,Newburyport or Rockport
 Shuttle-BeverlyNorthStationLimited,1,Inbound,North Station
-Shuttle-BeverlyNorthStationLocal,0,Outbound,Newburyport or Rockport
-Shuttle-BeverlyNorthStationLocal,1,Inbound,North Station
 Shuttle-BeverlyRockportExpress,0,Outbound,Rockport
 Shuttle-BeverlyRockportExpress,1,Inbound,North Station
 Shuttle-BeverlyRockportLocal,0,Outbound,Rockport
@@ -511,6 +509,8 @@ Shuttle-BrooklineVillageRiverside,0,West,Riverside
 Shuttle-BrooklineVillageRiverside,1,East,Union Square
 Shuttle-ChelseaLynn,0,Outbound,Newburyport or Rockport
 Shuttle-ChelseaLynn,1,Inbound,North Station
+Shuttle-CityPointSouthStation,0,Outbound,City Point
+Shuttle-CityPointSouthStation,1,Inbound,South Station
 Shuttle-ClevelandCircleCoolidgeCorner,0,West,Cleveland Circle
 Shuttle-ClevelandCircleCoolidgeCorner,1,East,Government Center
 Shuttle-ClevelandCircleKenmore,0,West,Cleveland Circle
@@ -635,10 +635,6 @@ Shuttle-MaverickWonderland,0,West,Maverick
 Shuttle-MaverickWonderland,1,East,Wonderland
 Shuttle-MedfordNorthStation,0,West,Heath Street
 Shuttle-MedfordNorthStation,1,East,Medford/Tufts
-Shuttle-NStaOakGroveExpress,0,South,North Station
-Shuttle-NStaOakGroveExpress,1,North,Oak Grove
-Shuttle-NStaOakGroveLocal,0,South,North Station
-Shuttle-NStaOakGroveLocal,1,North,Oak Grove
 Shuttle-NewburyportOakGroveExpress,0,Outbound,Newburyport
 Shuttle-NewburyportOakGroveExpress,1,Inbound,North Station
 Shuttle-NewburyportOakGroveLimited,0,Outbound,Newburyport
@@ -659,16 +655,10 @@ Shuttle-NorthBillericaLowell,0,Outbound,Lowell
 Shuttle-NorthBillericaLowell,1,Inbound,North Station
 Shuttle-NorthLeominsterWachusett,0,Outbound,Wachusett
 Shuttle-NorthLeominsterWachusett,1,Inbound,North Station
-Shuttle-NorthStationMaldenOakGrove,0,Outbound,Oak Grove
-Shuttle-NorthStationMaldenOakGrove,1,Inbound,North Station
 Shuttle-NorthStationSullivanSquare,0,South,North Station
 Shuttle-NorthStationSullivanSquare,1,North,Sullivan Square via East Somerville
-Shuttle-NorthStationSwampscottExpress,0,Outbound,Newburyport or Rockport
-Shuttle-NorthStationSwampscottExpress,1,Inbound,North Station
 Shuttle-NorthStationSwampscottLimited,0,Outbound,Newburyport or Rockport
 Shuttle-NorthStationSwampscottLimited,1,Inbound,North Station
-Shuttle-NorthStationSwampscottLocal,0,Outbound,Newburyport or Rockport
-Shuttle-NorthStationSwampscottLocal,1,Inbound,North Station
 Shuttle-NorthStationUnionSquare,0,West,Riverside
 Shuttle-NorthStationUnionSquare,1,East,Union Square
 Shuttle-OakGroveReading,0,Outbound,Reading

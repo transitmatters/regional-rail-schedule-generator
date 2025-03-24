@@ -1,8 +1,8 @@
 facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_name,facility_long_name,facility_desc,facility_lat,facility_lon,wheelchair_facility
-102,102,1,escalator,place-ogmnl,Washington Street to unpaid lobby,Oak Grove Escalator 102 (Washington Street to unpaid lobby),,,,2
-103,103,1,escalator,place-ogmnl,Orange Line platform to paid lobby,Oak Grove Escalator 103 (Orange Line platform to paid lobby),,,,2
-104,104,1,escalator,place-ogmnl,"Parking, busway to unpaid lobby","Oak Grove Escalator 104 (Parking, busway to unpaid lobby)",,,,2
-105,105,1,escalator,place-ogmnl,Commuter Rail platform to unpaid lobby,Oak Grove Escalator 105 (Commuter Rail platform to unpaid lobby),,,,2
+102,102,1,escalator,place-ogmnl,Washington Street to unpaid lobby,Oak Grove Escalator 102 (Washington Street to unpaid lobby),,42.4368450,-71.0710810,2
+103,103,1,escalator,place-ogmnl,Orange Line platform to paid lobby,Oak Grove Escalator 103 (Orange Line platform to paid lobby),,42.4371000,-71.0709620,2
+104,104,1,escalator,place-ogmnl,"Parking, busway to unpaid lobby","Oak Grove Escalator 104 (Parking, busway to unpaid lobby)",,42.4369080,-71.0705410,2
+105,105,1,escalator,place-ogmnl,Commuter Rail platform to unpaid lobby,Oak Grove Escalator 105 (Commuter Rail platform to unpaid lobby),,42.4370900,-71.0707570,2
 112,112,1,escalator,place-dwnxg,Ashmont/Braintree platform to Chauncy Street,Downtown Crossing Escalator 112 (Ashmont/Braintree platform to Chauncy Street),,,,2
 113,113,1,escalator,place-dwnxg,Alewife platform to Hawley Street,Downtown Crossing Escalator 113 (Alewife platform to Hawley Street),,,,2
 123,123,1,escalator,place-andrw,Ashmont/Braintree platform to busway,Andrew Escalator 123 (Ashmont/Braintree platform to busway),,,,2
@@ -19,7 +19,7 @@ facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_na
 135,135,1,escalator,place-rugg,Lower busway to upper lobby,Ruggles Escalator 135 (Lower busway to upper lobby),,,,2
 136,136,1,escalator,place-rugg,Orange Line platform to upper lobby,Ruggles Escalator 136 (Orange Line platform to upper lobby),,,,2
 137,137,1,escalator,place-rugg,Orange Line platform to upper lobby,Ruggles Escalator 137 (Orange Line platform to upper lobby),,,,2
-138,138,1,escalator,place-rugg,Forsyth Street to upper lobby,Ruggles Escalator 138 (Forsyth Street to upper lobby),,,,2
+138,138,1,escalator,place-rugg,Forsyth Street to upper lobby,Ruggles Escalator 138 (Forsyth Street to upper lobby),,42.3369130,-71.0893990,2
 139,139,1,escalator,place-masta,Platform to paid lobby,Massachusetts Avenue Escalator 139 (Platform to paid lobby),,,,2
 140,140,1,escalator,place-bbsta,Orange Line platform to lobby,Back Bay Escalator 140 (Orange Line platform to lobby),,,,2
 141,141,1,escalator,place-bbsta,Orange Line platform to lobby,Back Bay Escalator 141 (Orange Line platform to lobby),,,,2
@@ -162,7 +162,7 @@ facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_na
 447,447,1,escalator,place-north,"Passageway to Commuter Rail, TD Garden","North Station Escalator 447 (Passageway to Commuter Rail, TD Garden)",,,,2
 448,448,1,escalator,place-wlsta,Paid lobby to pedestrian bridge,Wollaston Escalator 448 (Paid lobby to pedestrian bridge),,,,2
 449,449,1,escalator,place-wlsta,Platform to pedestrian bridge,Wollaston Escalator 449 (Platform to pedestrian bridge),,,,2
-450,450,1,escalator,place-knncl,Ashmont/Braintree platform to Carleton St,Kendall/MIT Escalator 450 (Ashmont/Braintree platform to Carleton St),,,,2
+450,450,1,escalator,place-knncl,Ashmont/Braintree platform to Carleton St,Kendall/MIT Escalator 450 (Ashmont/Braintree platform to Carleton St),,42.3620860,-71.0862600,2
 50,50,1,elevator,place-WML-0214,Track 1 (outbound platform) to pedestrian bridge,Framingham Elevator 50 (Track 1 (outbound platform) to pedestrian bridge),,,,1
 501,501,1,escalator,place-state,Oak Grove platform to Wonderland platform,State Escalator 501 (Oak Grove platform to Wonderland platform),,,,2
 502,502,1,escalator,place-state,Wonderland platform to Old State House,State Escalator 502 (Wonderland platform to Old State House),,,,2
@@ -190,6 +190,8 @@ facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_na
 701,701,1,elevator,place-wondl,Main lobby to garage,Wonderland Elevator 701 (Main lobby to garage),,,,1
 702,702,1,elevator,place-wondl,Main lobby to garage,Wonderland Elevator 702 (Main lobby to garage),,,,1
 703,703,1,elevator,place-wondl,Main lobby to garage,Wonderland Elevator 703 (Main lobby to garage),,,,1
+704,704,1,elevator,place-FR-0253,Track 1 (outbound platform) to pedestrian bridge,South Acton Elevator 704 (Track 1 (outbound platform) to pedestrian bridge),,42.4604410,-71.4577470,1
+705,705,1,elevator,place-FR-0253,Track 2 (Boston platform) to pedestrian bridge,South Acton Elevator 705 (Track 2 (Boston platform) to pedestrian bridge),,42.4602720,-71.4578750,1
 708,708,1,elevator,place-wondl,Main lobby to pedestrian bridge,Wonderland Elevator 708 (Main lobby to pedestrian bridge),,,,1
 709,709,1,elevator,place-wondl,North Shore Road Busway to pedestrian plaza,Wonderland Elevator 709 (North Shore Road Busway to pedestrian plaza),,,,1
 710,710,1,elevator,place-wondl,Wonderland platform to pedestrian plaza,Wonderland Elevator 710 (Wonderland platform to pedestrian plaza),,,,1
@@ -210,37 +212,39 @@ facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_na
 725,725,1,elevator,place-WML-0035,Arthur Street to pedestrian bridge,Boston Landing Elevator 725 (Arthur Street to pedestrian bridge),,,,1
 726,726,1,elevator,place-WML-0035,Platform to Arthur Street pedestrian bridge,Boston Landing Elevator 726 (Platform to Arthur Street pedestrian bridge),,,,1
 727,727,1,elevator,place-WML-0035,Platform to Everett Street,Boston Landing Elevator 727 (Platform to Everett Street),,,,1
-728,728,1,elevator,place-rugg,Lobby to lower busway center platform,Ruggles Elevator 728 (Lobby to lower busway center platform),,,,1
+728,728,1,elevator,place-rugg,Lobby to lower busway center platform,Ruggles Elevator 728 (Lobby to lower busway center platform),,42.3362280,-71.0891270,1
 731,731,1,elevator,place-north,Passageway to Causeway Street,North Station Elevator 731 (Passageway to Causeway Street),,,,1
 732,732,1,elevator,place-north,"Passageway to Commuter Rail, TD Garden","North Station Elevator 732 (Passageway to Commuter Rail, TD Garden)",,,,1
 733,733,1,elevator,place-wlsta,Parking lot lobby to pedestrian bridge,Wollaston Elevator 733 (Parking lot lobby to pedestrian bridge),,,,1
 734,734,1,elevator,place-wlsta,Newport Ave lobby to platform,Wollaston Elevator 734 (Newport Ave lobby to platform),,,,1
 735,735,1,elevator,place-wlsta,Platform to pedestrian bridge,Wollaston Elevator 735 (Platform to pedestrian bridge),,,,1
 736,736,1,elevator,place-qamnl,Lobby to platform,Quincy Adams Elevator 736 (Lobby to platform),,,,1
-743,743,1,elevator,place-ogmnl,Orange Line platform to paid lobby,Oak Grove Elevator 743 (Orange Line platform to paid lobby),,,,1
-744,744,1,elevator,place-ogmnl,Washington Street to lobby,Oak Grove Elevator 744 (Washington Street to lobby),,,,1
-745,745,1,elevator,place-ogmnl,"Busway, parking lot to lobby","Oak Grove Elevator 745 (Busway, parking lot to lobby)",,,,1
-746,746,1,elevator,place-ogmnl,Orange Line platform to paid lobby,Oak Grove Elevator 746 (Orange Line platform to paid lobby),,,,1
-747,747,1,elevator,place-NHRML-0078,Track 2 (Boston platform) to Waterfield parking,Winchester Center Elevator 747 (Track 2 (Boston platform) to Waterfield parking),,,,1
-748,748,1,elevator,place-NHRML-0078,Track 1 (outbound platform) to Aberjona parking,Winchester Center Elevator 748 (Track 1 (outbound platform) to Aberjona parking),,,,1
-756,756,1,elevator,place-knncl,Ashmont/Braintree platform to Main Street,Kendall/MIT Elevator 756 (Ashmont/Braintree platform to Main Street),,,,1
-757,757,1,elevator,place-knncl,Ashmont/Braintree platform to Main Street,Kendall/MIT Elevator 757 (Ashmont/Braintree platform to Main Street),,,,1
-762,762,1,elevator,place-lech,Platform to North First Street lobby,Lechmere Elevator 762 (Platform to North First Street lobby),,,,1
-763,763,1,elevator,place-lech,Platform to North First Street lobby,Lechmere Elevator 763 (Platform to North First Street lobby),,,,1
-764,764,1,elevator,place-lech,Platform to O'Brien Highway lobby,Lechmere Elevator 764 (Platform to O'Brien Highway lobby),,,,1
-765,765,1,elevator,place-gilmn,Platform to Medford Street lobby,Gilman Square Elevator 765 (Platform to Medford Street lobby),,,,1
-766,766,1,elevator,place-gilmn,Platform to School Street lobby,Gilman Square Elevator 766 (Platform to School Street lobby),,,,1
-767,767,1,elevator,place-mgngl,Platform to lobby,Magoun Square Elevator 767 (Platform to lobby),,,,1
-768,768,1,elevator,place-mgngl,Platform to lobby,Magoun Square Elevator 768 (Platform to lobby),,,,1
-769,769,1,elevator,place-balsq,Platform to Broadway lobby,Ball Square Elevator 769 (Platform to Broadway lobby),,,,1
-770,770,1,elevator,place-mdftf,Platform to lobby,Medford/Tufts Elevator 770 (Platform to lobby),,,,1
-771,771,1,elevator,place-unsqu,Platform to Prospect Street,Union Square Elevator 771 (Platform to Prospect Street),,,,1
-772,772,1,elevator,place-mdftf,Platform to lobby,Medford/Tufts Elevator 772 (Platform to lobby),,,,1
-780,780,1,elevator,place-WML-0442,"Platform to buses, Union Station","Worcester Elevator 780 (Platform to buses, Union Station)",,,,1
-781,781,1,elevator,place-WML-0442,Platform to pedestrian bridge,Worcester Elevator 781 (Platform to pedestrian bridge),,,,1
-782,782,1,elevator,place-WML-0442,Parking lot to pedestrian bridge ,Worcester Elevator 782 (Parking lot to pedestrian bridge ),,,,1
-800,800,1,elevator,place-ogmnl,"Busway, Commuter Rail, parking lot to lobby","Oak Grove Elevator 800 (Busway, Commuter Rail, parking lot to lobby)",,,,1
-801,801,1,elevator,place-ogmnl,Orange Line platform to paid lobby,Oak Grove Elevator 801 (Orange Line platform to paid lobby),,,,1
+743,743,1,elevator,place-ogmnl,Orange Line platform to paid lobby,Oak Grove Elevator 743 (Orange Line platform to paid lobby),,42.4369880,-71.0709660,1
+744,744,1,elevator,place-ogmnl,Washington Street to lobby,Oak Grove Elevator 744 (Washington Street to lobby),,42.4369470,-71.0710560,1
+745,745,1,elevator,place-ogmnl,"Busway, parking lot to lobby","Oak Grove Elevator 745 (Busway, parking lot to lobby)",,42.4368600,-71.0705080,1
+746,746,1,elevator,place-ogmnl,Orange Line platform to paid lobby,Oak Grove Elevator 746 (Orange Line platform to paid lobby),,42.4370090,-71.0709660,1
+747,747,1,elevator,place-NHRML-0078,Track 2 (Boston platform) to Waterfield parking,Winchester Center Elevator 747 (Track 2 (Boston platform) to Waterfield parking),,42.4510390,-71.1379720,1
+748,748,1,elevator,place-NHRML-0078,Track 1 (outbound platform) to Aberjona parking,Winchester Center Elevator 748 (Track 1 (outbound platform) to Aberjona parking),,42.4509840,-71.1377080,1
+756,756,1,elevator,place-knncl,Ashmont/Braintree platform to Main Street,Kendall/MIT Elevator 756 (Ashmont/Braintree platform to Main Street),,42.3621430,-71.0861700,1
+757,757,1,elevator,place-knncl,Ashmont/Braintree platform to Main Street,Kendall/MIT Elevator 757 (Ashmont/Braintree platform to Main Street),,42.3621100,-71.0861740,1
+762,762,1,elevator,place-lech,Platform to North First Street lobby,Lechmere Elevator 762 (Platform to North First Street lobby),,42.3716640,-71.0766900,1
+763,763,1,elevator,place-lech,Platform to North First Street lobby,Lechmere Elevator 763 (Platform to North First Street lobby),,42.3716280,-71.0766290,1
+764,764,1,elevator,place-lech,Platform to O'Brien Highway lobby,Lechmere Elevator 764 (Platform to O'Brien Highway lobby),,42.3708930,-71.0757120,1
+765,765,1,elevator,place-gilmn,Platform to Medford Street lobby,Gilman Square Elevator 765 (Platform to Medford Street lobby),,42.3876950,-71.0962770,1
+766,766,1,elevator,place-gilmn,Platform to School Street lobby,Gilman Square Elevator 766 (Platform to School Street lobby),,42.3882450,-71.0974970,1
+767,767,1,elevator,place-mgngl,Platform to lobby,Magoun Square Elevator 767 (Platform to lobby),,42.3938540,-71.1064850,1
+768,768,1,elevator,place-mgngl,Platform to lobby,Magoun Square Elevator 768 (Platform to lobby),,42.3938940,-71.1065140,1
+769,769,1,elevator,place-balsq,Platform to Broadway lobby,Ball Square Elevator 769 (Platform to Broadway lobby),,42.3997750,-71.1109290,1
+770,770,1,elevator,place-mdftf,Platform to lobby,Medford/Tufts Elevator 770 (Platform to lobby),,42.4079660,-71.1170090,1
+771,771,1,elevator,place-unsqu,Platform to Prospect Street,Union Square Elevator 771 (Platform to Prospect Street),,42.3776000,-71.0950140,1
+772,772,1,elevator,place-mdftf,Platform to lobby,Medford/Tufts Elevator 772 (Platform to lobby),,42.4080050,-71.1170410,1
+778,778,1,elevator,place-NBM-0374,Parking to pedestrian bridge,East Taunton Elevator 778 (Parking to pedestrian bridge),,41.8678750,-71.0611930,1
+779,779,1,elevator,place-NBM-0374,Platform to pedestrian bridge,East Taunton Elevator 779 (Platform to pedestrian bridge),,41.8678540,-71.0613730,1
+780,780,1,elevator,place-WML-0442,"Platform to buses, Union Station","Worcester Elevator 780 (Platform to buses, Union Station)",,42.2609140,-71.7949640,1
+781,781,1,elevator,place-WML-0442,Platform to pedestrian bridge,Worcester Elevator 781 (Platform to pedestrian bridge),,42.2617530,-71.7920920,1
+782,782,1,elevator,place-WML-0442,Parking lot to pedestrian bridge ,Worcester Elevator 782 (Parking lot to pedestrian bridge ),,42.2620220,-71.7922330,1
+800,800,1,elevator,place-ogmnl,"Busway, Commuter Rail, parking lot to lobby","Oak Grove Elevator 800 (Busway, Commuter Rail, parking lot to lobby)",,42.4370180,-71.0707110,1
+801,801,1,elevator,place-ogmnl,Orange Line platform to paid lobby,Oak Grove Elevator 801 (Orange Line platform to paid lobby),,42.4370240,-71.0709570,1
 802,802,1,elevator,place-state,"Oak Grove platform to Forest Hills, Wonderland platforms","State Elevator 802 (Oak Grove platform to Forest Hills, Wonderland platforms)",,,,1
 803,803,1,elevator,place-state,"Forest Hills platform to Washington Street, Milk Street","State Elevator 803 (Forest Hills platform to Washington Street, Milk Street)",,,,1
 804,804,1,elevator,place-pktrm,"Government Center & North lobby to Tremont Street, Winter Street","Park Street Elevator 804 (Government Center & North lobby to Tremont Street, Winter Street)",,,,1
@@ -251,9 +255,9 @@ facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_na
 810,810,1,elevator,place-qnctr,Red Line platform to lobby,Quincy Center Elevator 810 (Red Line platform to lobby),,,,1
 811,811,1,elevator,place-brntn,Red Line platform to lobby,Braintree Elevator 811 (Red Line platform to lobby),,,,1
 812,812,1,elevator,place-pktrm,Green Line underpass to Government Center & North platform,Park Street Elevator 812 (Green Line underpass to Government Center & North platform),,,,1
-813,813,1,elevator,place-alfcl,Platform to main lobby,Alewife Elevator 813 (Platform to main lobby),,,,1
-814,814,1,elevator,place-alfcl,"Main lobby to street, parking garage","Alewife Elevator 814 (Main lobby to street, parking garage)",,,,1
-815,815,1,elevator,place-alfcl,"Main lobby to street, parking garage","Alewife Elevator 815 (Main lobby to street, parking garage)",,,,1
+813,813,1,elevator,place-alfcl,Platform to main lobby,Alewife Elevator 813 (Platform to main lobby),,42.3961220,-71.1414870,1
+814,814,1,elevator,place-alfcl,"Main lobby to street, parking garage","Alewife Elevator 814 (Main lobby to street, parking garage)",,42.3957910,-71.1413230,1
+815,815,1,elevator,place-alfcl,"Main lobby to street, parking garage","Alewife Elevator 815 (Main lobby to street, parking garage)",,42.3958150,-71.1412390,1
 816,816,1,elevator,place-davis,Platform to lobby,Davis Elevator 816 (Platform to lobby),,,,1
 817,817,1,elevator,place-davis,Lobby to College Avenue,Davis Elevator 817 (Lobby to College Avenue),,,,1
 821,821,1,elevator,place-harsq,Lobby to Harvard Square,Harvard Elevator 821 (Lobby to Harvard Square),,,,1
@@ -268,10 +272,10 @@ facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_na
 845,845,1,elevator,place-sbmnl,Platform to paid lobby,Stony Brook Elevator 845 (Platform to paid lobby),,,,1
 846,846,1,elevator,place-jaksn,Platform to paid lobby,Jackson Square Elevator 846 (Platform to paid lobby),,,,1
 847,847,1,elevator,place-rcmnl,Platform to paid lobby,Roxbury Crossing Elevator 847 (Platform to paid lobby),,,,1
-848,848,1,elevator,place-rugg,Lobby to lower busway side platform,Ruggles Elevator 848 (Lobby to lower busway side platform),,,,1
-849,849,1,elevator,place-rugg,Commuter Rail platform to upper lobby,Ruggles Elevator 849 (Commuter Rail platform to upper lobby),,,,1
-850,850,1,elevator,place-rugg,Orange Line platform to upper lobby,Ruggles Elevator 850 (Orange Line platform to upper lobby),,,,1
-851,851,1,elevator,place-rugg,Forsyth Street to upper lobby,Ruggles Elevator 851 (Forsyth Street to upper lobby),,,,1
+848,848,1,elevator,place-rugg,Lobby to lower busway side platform,Ruggles Elevator 848 (Lobby to lower busway side platform),,42.3364860,-71.0890810,1
+849,849,1,elevator,place-rugg,Commuter Rail platform to upper lobby,Ruggles Elevator 849 (Commuter Rail platform to upper lobby),,42.3364660,-71.0893900,1
+850,850,1,elevator,place-rugg,Orange Line platform to upper lobby,Ruggles Elevator 850 (Orange Line platform to upper lobby),,42.3365830,-71.0895680,1
+851,851,1,elevator,place-rugg,Forsyth Street to upper lobby,Ruggles Elevator 851 (Forsyth Street to upper lobby),,42.3369240,-71.0893300,1
 852,852,1,elevator,place-masta,Platform to paid lobby,Massachusetts Avenue Elevator 852 (Platform to paid lobby),,,,1
 853,853,1,elevator,place-bbsta,Orange Line platform to lobby,Back Bay Elevator 853 (Orange Line platform to lobby),,,,1
 854,854,1,elevator,place-bbsta,Commuter Rail track 2 to lobby,Back Bay Elevator 854 (Commuter Rail track 2 to lobby),,,,1
@@ -284,7 +288,7 @@ facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_na
 861,861,1,elevator,place-cntsq,Ashmont/Braintree platform to Massachusetts Avenue,Central Elevator 861 (Ashmont/Braintree platform to Massachusetts Avenue),,,,1
 864,864,1,elevator,place-welln,Oak Grove platform to lobby,Wellington Elevator 864 (Oak Grove platform to lobby),,,,1
 865,865,1,elevator,place-welln,Forest Hills platform to lobby,Wellington Elevator 865 (Forest Hills platform to lobby),,,,1
-866,866,1,elevator,place-knncl,Alewife platform to Main Street,Kendall/MIT Elevator 866 (Alewife platform to Main Street),,,,1
+866,866,1,elevator,place-knncl,Alewife platform to Main Street,Kendall/MIT Elevator 866 (Alewife platform to Main Street),,42.3626470,-71.0867340,1
 867,867,1,elevator,place-brdwy,Platform to lobby,Broadway Elevator 867 (Platform to lobby),,,,1
 868,868,1,elevator,place-brdwy,Lobby to street,Broadway Elevator 868 (Lobby to street),,,,1
 869,869,1,elevator,place-dwnxg,Alewife platform to Summer Street Concourse,Downtown Crossing Elevator 869 (Alewife platform to Summer Street Concourse),,,,1
@@ -314,10 +318,10 @@ facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_na
 906,906,1,elevator,place-haecl,"Underpass to Green Line platforms, busway","Haymarket Elevator 906 (Underpass to Green Line platforms, busway)",,,,1
 907,907,1,elevator,place-haecl,Underpass to Oak Grove platform,Haymarket Elevator 907 (Underpass to Oak Grove platform),,,,1
 908,908,1,elevator,place-haecl,"Green Line lobby to busway, Sudbury Street, New Chardon Street","Haymarket Elevator 908 (Green Line lobby to busway, Sudbury Street, New Chardon Street)",,,,1
-909,909,1,elevator,place-north,"Orange Line, Green Line lobby to Valenti Way","North Station Elevator 909 (Orange Line, Green Line lobby to Valenti Way)",,,,1
-910,910,1,elevator,place-north,"Lobby to Forest Hills, Copley & West platform","North Station Elevator 910 (Lobby to Forest Hills, Copley & West platform)",,,,1
-911,911,1,elevator,place-north,Oak Grove platform to paid lobby,North Station Elevator 911 (Oak Grove platform to paid lobby),,,,1
-912,912,1,elevator,place-north,"Orange Line, Green Line lobby to Causeway Street","North Station Elevator 912 (Orange Line, Green Line lobby to Causeway Street)",,,,1
+909,909,1,elevator,place-north,"Orange Line, Green Line lobby to Valenti Way","North Station Elevator 909 (Orange Line, Green Line lobby to Valenti Way)",,42.3648240,-71.0598410,1
+910,910,1,elevator,place-north,"Lobby to Forest Hills, Copley & West platform","North Station Elevator 910 (Lobby to Forest Hills, Copley & West platform)",,42.3651870,-71.0602070,1
+911,911,1,elevator,place-north,Oak Grove platform to paid lobby,North Station Elevator 911 (Oak Grove platform to paid lobby),,42.3655780,-71.0603310,1
+912,912,1,elevator,place-north,"Orange Line, Green Line lobby to Causeway Street","North Station Elevator 912 (Orange Line, Green Line lobby to Causeway Street)",,42.3657050,-71.0604780,1
 913,913,1,elevator,place-aqucl,Wonderland platform to State Street lobby,Aquarium Elevator 913 (Wonderland platform to State Street lobby),,,,1
 914,914,1,elevator,place-aqucl,Bowdoin platform to State Street lobby,Aquarium Elevator 914 (Bowdoin platform to State Street lobby),,,,1
 915,915,1,elevator,place-aqucl,State Street lobby to street,Aquarium Elevator 915 (State Street lobby to street),,,,1
@@ -359,7 +363,7 @@ facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_na
 956,956,1,elevator,place-aport,Busway lobby to unpaid pedestrian bridge,Airport Elevator 956 (Busway lobby to unpaid pedestrian bridge),,,,1
 957,957,1,elevator,place-fldcr,Paid lobby to Alewife platform,Fields Corner Elevator 957 (Paid lobby to Alewife platform),,,,1
 958,958,1,elevator,place-fldcr,Paid lobby to Ashmont platform,Fields Corner Elevator 958 (Paid lobby to Ashmont platform),,,,1
-961,961,1,elevator,place-alfcl,"Platform to Russell Field, Rindge Avenue lobby","Alewife Elevator 961 (Platform to Russell Field, Rindge Avenue lobby)",,,,1
+961,961,1,elevator,place-alfcl,"Platform to Russell Field, Rindge Avenue lobby","Alewife Elevator 961 (Platform to Russell Field, Rindge Avenue lobby)",,42.3961200,-71.1398560,1
 962,962,1,elevator,place-armnl,Copley & West platform to lobby,Arlington Elevator 962 (Copley & West platform to lobby),,,,1
 963,963,1,elevator,place-armnl,Park Street & North platform to lobby,Arlington Elevator 963 (Park Street & North platform to lobby),,,,1
 964,964,1,elevator,place-armnl,Lobby to Boylston Street,Arlington Elevator 964 (Lobby to Boylston Street),,,,1
@@ -649,12 +653,10 @@ fake_7a57_3d92_396,,1,elevator,place-NEC-1768,Walkway to platform,TF Green Airpo
 fake_7a57_3d92_397,,1,elevator,place-NEC-1768,Walkway to platform,TF Green Airport Elevator (Walkway to platform),,,,1
 fake_99c7_af2a_392,,1,elevator,place-NHRML-0254,Lobby to pedestrian bridge,Lowell Elevator (Lobby to pedestrian bridge),,,,1
 fake_99c7_c4e9_391,,1,elevator,place-NHRML-0254,Platform 1 to pedestrian bridge,Lowell Elevator (Platform 1 to pedestrian bridge),,,,1
-fake_b748_c4e7_402,,1,elevator,place-NEC-1891,"Track 1 (outbound platform) to Pine St, Barton St","Pawtucket/Central Falls Elevator (Track 1 (outbound platform) to Pine St, Barton St)",,,,1
-fake_b748_c4e7_403,,1,elevator,place-NEC-1891,"Track 1 (outbound platform) to Pine St, Barton St","Pawtucket/Central Falls Elevator (Track 1 (outbound platform) to Pine St, Barton St)",,,,1
+fake_b748_c4e7_402,,1,elevator,place-NEC-1891,"Track 1 (outbound platform) to Pine St, Barton St","Pawtucket/Central Falls Elevator (Track 1 (outbound platform) to Pine St, Barton St)",,41.8788300,-71.3920940,1
+fake_b748_c4e7_403,,1,elevator,place-NEC-1891,"Track 1 (outbound platform) to Pine St, Barton St","Pawtucket/Central Falls Elevator (Track 1 (outbound platform) to Pine St, Barton St)",,41.8788660,-71.3920310,1
 fake_c2ed_07bd_393,,1,elevator,place-NEC-1851,Lobby to tracks 1 and 2,Providence Elevator (Lobby to tracks 1 and 2),,,,1
 fake_c2ed_e7ea_394,,1,elevator,place-NEC-1851,Lobby to tracks 3 and 5,Providence Elevator (Lobby to tracks 3 and 5),,,,1
-fake_c8d6_3d92_409,,1,elevator,place-NBM-0374,Walkway to platform,East Taunton Elevator (Walkway to platform),,,,1
-fake_c8d6_97f9_410,,1,elevator,place-NBM-0374,Platform to walkway,East Taunton Elevator (Platform to walkway),,,,1
 fvm-201001,,4,fare-vending-machine,place-aqucl,Fare vending machine 201001,Aquarium fare vending machine 201001,,,,0
 fvm-201002,,4,fare-vending-machine,place-aqucl,Fare vending machine 201002,Aquarium fare vending machine 201002,,,,0
 fvm-201003,,4,fare-vending-machine,place-aqucl,Fare vending machine 201003,Aquarium fare vending machine 201003,,,,0
@@ -1591,6 +1593,9 @@ ramp-DB-2258,,2,ramp,place-DB-2258,Ramp access,Uphams Corner ramp access,,,,1
 ramp-DB-2265,,2,ramp,place-DB-2265,Ramp access,Newmarket ramp access,,,,1
 ramp-FR-0301,,2,ramp,place-FR-0301,Ramp access,Littleton/Route 495 ramp access,,,,1
 ramp-FR-3338,,2,ramp,place-FR-3338,Ramp access,Wachusett ramp access,,,,1
+ramp-FRS-0109,,2,ramp,place-FRS-0109,Ramp access,Fall River Depot ramp access,,,,1
+ramp-MBS-0350,,2,ramp,place-MBS-0350,Ramp access,Middleborough ramp access,,,,1
+ramp-NBM-0374,,2,ramp,place-NBM-0374,Ramp access,East Taunton ramp access,,,,1
 ramp-NEC-1891,,2,ramp,place-NEC-1891,Ramp access,Pawtucket/Central Falls ramp access,,,,1
 ramp-NEC-1919,,2,ramp,place-NEC-1919,Ramp access,South Attleboro ramp access,,,,1
 ramp-NEC-1969,,2,ramp,place-NEC-1969,Ramp access,Attleboro ramp access,,,,1
