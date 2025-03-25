@@ -70,6 +70,7 @@ def _get_dispatch_times(tph: int, dispatch_offset: int, rng: TimeRange) -> List[
         now += timedelta(minutes=headway)
 
 
+# Important function
 def _create_departure_offset_getter(network: SchedulerNetwork) -> Dict[str, int]:
     tph_dict_cache = {}
 

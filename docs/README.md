@@ -2,10 +2,6 @@
 
 Generate a new GTFS schedule bundle for a proposed new MBTA service
 
-## How to use
-
-TODO
-
 ### How to update GTFS Bundles
 
 To update the GTFS bundles, you need to pull down a bundle for a specific date, and then re-run the scenario generation.
@@ -34,11 +30,71 @@ If you simply want to add a stop that already exists to a new route, you don't n
 
 ### How to add new Route
 
-TODO
+To add a new route, you'll need a few definitions.
+
+First a timetable, this defines how long it takes to get from stop to stop on the line
+```python
+timetable = Timetable(
+    {
+        "Lynn": "0:00",
+        "River Works": "0:02",
+        ...
+    }
+)
+```
+
+Then a list of all stations in the line
+```python
+stations = (
+    "Lynn",
+    "River Works",
+    ...
+)
+```
+
+Then define a new `Route`. Here's an example with the Blue line.
+
+```python
+blue = Route(
+    id="Blue",
+    shadows_real_route="Blue",
+    name="Blue Line",
+    route_patterns=[
+        RoutePattern(
+            id="blue",
+            name="Blue",
+            stations=stations,
+            timetable=timetable,
+            schedule=all_day_5,
+        )
+    ],
+)
+```
+
+If you are making a Route that doesn't currently exist in the system, you can exclude the `shadows_real_route` and it'll default to `None`.
+
+Then in the scenario you are adding the line to, import your new route and add it in the subgraphs where it belongs
+
+```python
+subgraphs = [
+    [red],
+    [blue],
+    ...
+]
+```
 
 ### How to add a new Scenario
 
-TODO
+A new scenario needs only a few elements. You can copy a lot of how the `regional_rail` scenario is defined.
+
+You need a list of lines, infill stations (if your scenario needs any), and a file to write scenarios out to GTFS from the subgraphs.
+
+```python
+scenario = evaluate_scenario(subgraphs)
+write_scenario_gtfs(scenario, "gtfs-regional-rail")
+archive_scenario_gtfs("gtfs-present")
+archive_scenario_gtfs("gtfs-regional-rail")
+```
 
 ## Dev Setup
 

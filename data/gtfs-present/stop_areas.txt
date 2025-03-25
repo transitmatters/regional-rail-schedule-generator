@@ -616,6 +616,8 @@ FR-0451-01,area_commuter_rail_zone_8
 FR-0451-02,area_commuter_rail_zone_8
 FR-0494-CS,area_commuter_rail_zone_8
 FR-3338-CS,area_commuter_rail_zone_8
+FRS-0054-S,area_commuter_rail_zone_8
+FRS-0109-S,area_commuter_rail_zone_8
 FS-0049-S,area_commuter_rail_zone_4
 GB-0198,area_commuter_rail_sumner_tunnel_zone_1a
 GB-0198,area_commuter_rail_zone_4
@@ -659,6 +661,7 @@ GRB-0199-S,area_commuter_rail_zone_4
 GRB-0233-S,area_commuter_rail_zone_5
 GRB-0276-S,area_commuter_rail_zone_6
 KB-0351-S,area_commuter_rail_zone_8
+MBS-0350-S,area_commuter_rail_zone_8
 MM-0023-S,area_commuter_rail_zone_1a
 MM-0079-S,area_commuter_rail_zone_1
 MM-0109,area_commuter_rail_zone_2
@@ -682,6 +685,11 @@ NB-0109-S,area_commuter_rail_zone_2
 NB-0120-S,area_commuter_rail_zone_2
 NB-0127-S,area_commuter_rail_zone_2
 NB-0137-S,area_commuter_rail_zone_2
+NBM-0374,area_commuter_rail_zone_8
+NBM-0374-01,area_commuter_rail_zone_8
+NBM-0374-02,area_commuter_rail_zone_8
+NBM-0523-S,area_commuter_rail_zone_8
+NBM-0546-S,area_commuter_rail_zone_8
 NEC-1659-03,area_commuter_rail_zone_10
 NEC-1768-03,area_commuter_rail_zone_9
 NEC-1851,area_commuter_rail_zone_8
