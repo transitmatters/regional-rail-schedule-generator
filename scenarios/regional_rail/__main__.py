@@ -11,7 +11,7 @@ from scenarios.regional_rail.worcester_framingham import worcester_framingham
 from scenarios.regional_rail.needham import needham
 from scenarios.regional_rail.fairmount_franklin import fairmount, franklin
 from scenarios.regional_rail.providence import providence_stoughton
-from scenarios.regional_rail.south_shore import greenbush, middleborough, plymouth
+from scenarios.regional_rail.south_shore import greenbush, plymouth, newbedford
 
 subgraphs = [
     [red],
@@ -23,7 +23,7 @@ subgraphs = [
     [providence_stoughton],
     [needham],
     [fairmount, franklin],
-    [greenbush, middleborough, plymouth],
+    [greenbush, plymouth, newbedford],
 ]
 
 scenario = evaluate_scenario(subgraphs)

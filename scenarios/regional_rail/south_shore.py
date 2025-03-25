@@ -27,7 +27,7 @@ timetable = Timetable(
         "Cohasset Center": "0:29",
         "North Scituate": "0:32",
         "Greenbush": "0:36",
-        # Middleborough/Lakeville
+        # Middleborough
         "Braintree": "0:14",
         "Braintree Highlands": "0:16",
         "Holbrook/Randolph": "0:19",
@@ -37,7 +37,14 @@ timetable = Timetable(
         "Bridgewater Center": "0:33",
         "Bridgewater": "0:34",
         "Middleborough Centre St": "0:40",
-        "Middleborough/Lakeville": "0:42",
+        "Middleborough": "0:42",
+        "East Taunton": "0:50",
+        # Fall River
+        "Freetown": "0:57",
+        "Fall River Depot": "1:10",
+        # New Bedford
+        "Church Street": "0:57",
+        "New Bedford": "1:05",
         # TODO(ian): Add Cape stations here?
         # Plymouth
         "Weymouth Columbian Square": "0:18",
@@ -73,7 +80,7 @@ stations_oc_shared = (
     "Braintree",
 )
 
-stations_middleborough_lakeville = (
+stations_middleborough = (
     station_braintree_highlands,
     "Holbrook/Randolph",
     "Montello",
@@ -82,7 +89,19 @@ stations_middleborough_lakeville = (
     station_bridgewater_center,
     "Bridgewater",
     station_middleborough_centre_st,
-    "Middleborough/Lakeville",
+    "Middleborough",
+)
+
+stations_fall_river = (
+    "East Taunton",
+    "Freetown",
+    "Fall River Depot",
+)
+
+stations_newbedford = (
+    "East Taunton",
+    "Church Street",
+    "New Bedford",
 )
 
 stations_plymouth = (
@@ -115,22 +134,6 @@ greenbush = Route(
     ],
 )
 
-middleborough = Route(
-    id="CR-Middleborough",
-    shadows_real_route="CR-Middleborough",
-    name="Middleborough/Lakeville Line",
-    trainset=emu_trainset,
-    route_patterns=[
-        RoutePattern(
-            id="middleborough-lakeville",
-            name="Middleborough/Lakeville",
-            timetable=timetable,
-            stations=(stations_oc_shared + stations_middleborough_lakeville),
-            schedule=all_day_30,
-        )
-    ],
-)
-
 plymouth = Route(
     id="CR-Plymouth",
     shadows_real_route="CR-Kingston",
@@ -142,6 +145,29 @@ plymouth = Route(
             name="Plymouth",
             timetable=timetable,
             stations=(stations_oc_shared + stations_plymouth),
+            schedule=all_day_30,
+        )
+    ],
+)
+
+newbedford = Route(
+    id="CR-NewBedford",
+    shadows_real_route="CR-NewBedford",
+    name="Fall River/New Bedford Line",
+    trainset=emu_trainset,
+    route_patterns=[
+        RoutePattern(
+            id="new-bedford",
+            name="New Bedford",
+            timetable=timetable,
+            stations=(stations_oc_shared + stations_middleborough + stations_newbedford),
+            schedule=all_day_30,
+        ),
+        RoutePattern(
+            id="fall-river",
+            name="Fall River",
+            timetable=timetable,
+            stations=(stations_oc_shared + stations_middleborough + stations_fall_river),
             schedule=all_day_30,
         )
     ],
