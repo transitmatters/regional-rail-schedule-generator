@@ -27,7 +27,7 @@ timetable = Timetable(
         "Cohasset Center": "0:29",
         "North Scituate": "0:32",
         "Greenbush": "0:36",
-        # Middleborough/Lakeville
+        # Middleborough
         "Braintree": "0:14",
         "Braintree Highlands": "0:16",
         "Holbrook/Randolph": "0:19",
@@ -80,7 +80,7 @@ stations_oc_shared = (
     "Braintree",
 )
 
-stations_middleborough_lakeville = (
+stations_middleborough = (
     station_braintree_highlands,
     "Holbrook/Randolph",
     "Montello",
@@ -160,14 +160,14 @@ newbedford = Route(
             id="new-bedford",
             name="New Bedford",
             timetable=timetable,
-            stations=(stations_oc_shared + stations_middleborough_lakeville + stations_newbedford),
+            stations=(stations_oc_shared + stations_middleborough + stations_newbedford),
             schedule=all_day_30,
         ),
         RoutePattern(
             id="fall-river",
             name="Fall River",
             timetable=timetable,
-            stations=(stations_oc_shared + stations_middleborough_lakeville + stations_fall_river),
+            stations=(stations_oc_shared + stations_middleborough + stations_fall_river),
             schedule=all_day_30,
         )
     ],
