@@ -263,7 +263,6 @@ Shuttle-CopleyRiversideExpress,1,Green Line D Shuttle,Riverside - Copley (Expres
 Shuttle-CopleyRiversideLimited,1,Green Line D Shuttle,Riverside - Copley via Woodland (Express),Rail Replacement Bus,3,,FFC72C,000000,61450,Free,line-Green,1,rail_replacement_bus
 Shuttle-CopleyRuggles,1,Orange Line Shuttle,Ruggles - Copley,Rail Replacement Bus,3,,FFC72C,000000,61455,Free,line-Orange,1,rail_replacement_bus
 Shuttle-CopleyWoodlandLimited,1,Green Line D Shuttle,Woodland - Copley via Riverside (Express),Rail Replacement Bus,3,,FFC72C,000000,61460,Free,line-Green,1,rail_replacement_bus
-Shuttle-CityPointSouthStation,1,Parade Shuttle,City Point - South Station,Rail Replacement Bus,3,,FFC72C,000000,61470,Free,line-Red,1,rail_replacement_bus
 Shuttle-EastSomervilleMedford,1,Green Line E Shuttle,Medford/Tufts - East Somerville,Rail Replacement Bus,3,,FFC72C,000000,61472,Free,line-Green,1,rail_replacement_bus
 Shuttle-FenwayKenmore,1,Green Line D Shuttle,Fenway - Kenmore,Rail Replacement Bus,3,,FFC72C,000000,61475,Free,line-Green,1,rail_replacement_bus
 Shuttle-FenwayNewtonHighlands,1,Green Line D Shuttle,Newton Highlands - Fenway,Rail Replacement Bus,3,,FFC72C,000000,61490,Free,line-Green,1,rail_replacement_bus
@@ -329,6 +328,7 @@ Shuttle-HaverhillReadingLocal,1,Haverhill Line Shuttle,Haverhill - Reading (Loca
 Shuttle-HeathPark,1,Green Line E Shuttle,Heath Street - Park Street,Rail Replacement Bus,3,,FFC72C,000000,61980,Free,line-Green,1,rail_replacement_bus
 Shuttle-HeathPrudential,1,Green Line E Shuttle,Heath Street - Prudential,Rail Replacement Bus,3,,FFC72C,000000,61985,Free,line-Green,1,rail_replacement_bus
 Shuttle-JFKKendall,1,Red Line Shuttle,Kendall/MIT - JFK/UMass,Rail Replacement Bus,3,,FFC72C,000000,61987,Free,line-Red,1,rail_replacement_bus
+Shuttle-JFKMattapan,1,Red/Mattapan Line Shuttle,Mattapan Station - JFK/UMass Station via Ashmont Station,Rail Replacement Bus,3,,FFC72C,000000,61990,Free,line-Mattapan,1,rail_replacement_bus
 Shuttle-JFKNorthQuincy,1,Red Line Shuttle,North Quincy - JFK/UMass,Rail Replacement Bus,3,,FFC72C,000000,61995,Free,line-Red,1,rail_replacement_bus
 Shuttle-JFKPark,1,Red Line Shuttle,JFK/UMass - Park Street,Rail Replacement Bus,3,,FFC72C,000000,61997,Free,line-Red,1,rail_replacement_bus
 Shuttle-JFKParkStreetViaPostOffice,1,Red Line Shuttle,JFK/UMass - Park Street via Post Office,Rail Replacement Bus,3,,FFC72C,000000,61998,Free,line-Red,1,rail_replacement_bus

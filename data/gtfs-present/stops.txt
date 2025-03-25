@@ -5110,6 +5110,7 @@ stop_id,stop_code,stop_name,stop_desc,platform_code,platform_name,stop_lat,stop_
 7115,7115,Cabot St @ Memorial School,,,,42.565728,-70.886473,LocalBus,,https://www.mbta.com/stops/7115,,0,,1,Beverly,Cabot Street,,3
 7117,7117,Cabot St opp Kittredge St,,,,42.564060,-70.884950,LocalBus,,https://www.mbta.com/stops/7117,,0,,1,Beverly,Cabot Street,Kittredge Street,3
 7118,7118,Cabot St @ Balch St,,,,42.562404,-70.884124,LocalBus,,https://www.mbta.com/stops/7118,,0,,1,Beverly,Cabot Street,Balch Street,3
+71186,,JFK/UMass - Columbia Rd @ I-93,JFK/UMass - Red Line Alewife Shuttle - Columbia Rd @ I-93,,Alewife Shuttle,42.321348,-71.053228,LocalBus,,https://www.mbta.com/stops/71186,,0,,1,Boston,Columbia Road,,3
 71187,71187,Washington St @ Burnett St,,,,42.303768,-71.110246,LocalBus,,https://www.mbta.com/stops/71187,,0,,2,Boston,Washington Street,Burnett Street,3
 7120,7120,Cabot St opp Mason St,,,,42.560663,-70.883413,LocalBus,,https://www.mbta.com/stops/7120,,0,,1,Beverly,Cabot Street,Mason Street,3
 7121,7121,Cabot St @ Beckford St,,,,42.558541,-70.881895,LocalBus,,https://www.mbta.com/stops/7121,,0,,1,Beverly,Cabot Street,Charles Street,3
@@ -5117,17 +5118,17 @@ stop_id,stop_code,stop_name,stop_desc,platform_code,platform_name,stop_lat,stop_
 7124,7124,Rantoul St @ Cabot St,,,,42.557528,-70.880118,LocalBus,,https://www.mbta.com/stops/7124,,0,,1,Beverly,Rantoul Street,,3
 7125,7125,Rantoul St opp Lenox St,,,,42.556489,-70.880633,LocalBus,,https://www.mbta.com/stops/7125,,0,,1,Beverly,Rantoul Street,Lenox Street,3
 7126,7126,Elliot St @ Rantoul St,,,,42.554402,-70.881493,LocalBus,,https://www.mbta.com/stops/7126,,0,,1,Beverly,Elliott Street,Rantoul Street,3
-71263,,Adams St @ Milton St - Cedar Grove Sta,Cedar Grove - Mattapan Line Mattapan Shuttle - Adams St @ Milton St,,Mattapan Shuttle,42.279763,-71.059163,,,,,0,,1,Boston,Adams Street,Milton St,3
-71264,,Adams St @ Milton St - Cedar Grove Sta,Cedar Grove - Mattapan Line Ashmont Shuttle - Adams St @ Milton St,,Ashmont Shuttle,42.280222,-71.058742,,,,,0,,1,Boston,Adams Street,Milton Street,3
-71265,,Adams St @ Butler St - Butler Sta,Butler - Mattapan Line Mattapan Shuttle - Adams St @ Butler St,,Mattapan Shuttle,42.273318,-71.064038,,,,,0,,1,Boston,Adams Street,Butler Street,3
-71266,,Adams St @ Butler St - Butler Sta,Butler - Mattapan Line Ashmont Shuttle - Adams St @ Butler St,,Ashmont Shuttle,42.273130,-71.064183,,,,,0,,1,Boston,Adams Street,Butler Street,3
-71269,,Eliot St @ Central Ave - Central Ave Sta,Central Ave - Mattapan Line Shuttle - Eliot St @ Central Ave,,Ashmont Shuttle,42.269457,-71.073334,,,,,0,,1,Milton,Eliot Street,Central Avenue,3
+71263,,Adams St @ Milton St - Cedar Grove Sta,Cedar Grove - Mattapan Line Mattapan Shuttle - Adams St @ Milton St,,Mattapan Shuttle,42.279763,-71.059163,LocalBus,,https://www.mbta.com/stops/71263,,0,,1,Boston,Adams Street,Milton St,3
+71264,,Adams St @ Milton St - Cedar Grove Sta,Cedar Grove - Mattapan Line Ashmont Shuttle - Adams St @ Milton St,,Ashmont Shuttle,42.280222,-71.058742,LocalBus,,https://www.mbta.com/stops/71264,,0,,1,Boston,Adams Street,Milton Street,3
+71265,,Adams St @ Butler St - Butler Sta,Butler - Mattapan Line Mattapan Shuttle - Adams St @ Butler St,,Mattapan Shuttle,42.273318,-71.064038,LocalBus,,https://www.mbta.com/stops/71265,,0,,1,Boston,Adams Street,Butler Street,3
+71266,,Adams St @ Butler St - Butler Sta,Butler - Mattapan Line Ashmont Shuttle - Adams St @ Butler St,,Ashmont Shuttle,42.273130,-71.064183,LocalBus,,https://www.mbta.com/stops/71266,,0,,1,Boston,Adams Street,Butler Street,3
+71269,,Eliot St @ Central Ave - Central Ave Sta,Central Ave - Mattapan Line Shuttle - Eliot St @ Central Ave,,Ashmont Shuttle,42.269457,-71.073334,LocalBus,,https://www.mbta.com/stops/71269,,0,,1,Milton,Eliot Street,Central Avenue,3
 7127,7127,Elliot St @ Mechanic St,,,,42.554001,-70.880264,LocalBus,,https://www.mbta.com/stops/7127,,0,,1,Beverly,Elliott Street,Mechanic Street,3
-71270,,Eliot St @ Central Ave - Central Ave Sta,Central Ave - Mattapan Line Shuttle - Eliot St @ Central Ave,,Mattapan Shuttle,42.269557,-71.073302,,,,,0,,1,Milton,Eliot Street,Central Avenue,3
-71271,,Eliot St @ Valley Rd Sta,Valley Road - Mattapan Line Capen Street Van Shuttle - Eliot St @ Valley Rd Sta,,Capen St Van Shuttle,42.267976,-71.080965,,,,,0,,1,Milton,Eliot Street,,3
-71272,,Eliot St opp Valley Rd Sta,Valley Road - Mattapan Line Central Avenue Van Shuttle - Eliot St opp Valley Rd Sta,,Central Ave Van Shuttle,42.267781,-71.081139,,,,,0,,1,Milton,Eliot Street,,3
-71273,,Eliot St opp Capen Street,Capen Street - Mattapan Line Ashmont Shuttle - Eliot St opp Capen St,,Ashmont Shuttle,42.265983,-71.085531,,,,,0,,1,Milton,Eliot Street,Capen Street,3
-71274,,Eliot St @ Capen Street - Capen St Sta,Capen Street - Mattapan Line Shuttle - Eliot St @ Capen St,,Mattapan Shuttle,42.266153,-71.085375,,,,,0,,1,Milton,Eliot Street,Capen Street,3
+71270,,Eliot St @ Central Ave - Central Ave Sta,Central Ave - Mattapan Line Shuttle - Eliot St @ Central Ave,,Mattapan Shuttle,42.269557,-71.073302,LocalBus,,https://www.mbta.com/stops/71270,,0,,1,Milton,Eliot Street,Central Avenue,3
+71271,,Eliot St @ Valley Rd Sta,Valley Road - Mattapan Line Capen Street Van Shuttle - Eliot St @ Valley Rd Sta,,Capen St Van Shuttle,42.267976,-71.080965,LocalBus,,https://www.mbta.com/stops/71271,,0,,1,Milton,Eliot Street,,3
+71272,,Eliot St opp Valley Rd Sta,Valley Road - Mattapan Line Central Avenue Van Shuttle - Eliot St opp Valley Rd Sta,,Central Ave Van Shuttle,42.267781,-71.081139,LocalBus,,https://www.mbta.com/stops/71272,,0,,1,Milton,Eliot Street,,3
+71273,,Eliot St opp Capen Street,Capen Street - Mattapan Line Ashmont Shuttle - Eliot St opp Capen St,,Ashmont Shuttle,42.265983,-71.085531,LocalBus,,https://www.mbta.com/stops/71273,,0,,1,Milton,Eliot Street,Capen Street,3
+71274,,Eliot St @ Capen Street - Capen St Sta,Capen Street - Mattapan Line Shuttle - Eliot St @ Capen St,,Mattapan Shuttle,42.266153,-71.085375,LocalBus,,https://www.mbta.com/stops/71274,,0,,1,Milton,Eliot Street,Capen Street,3
 7128,7128,Cabot St @ Roundy St,,,,42.553040,-70.878737,LocalBus,,https://www.mbta.com/stops/7128,,0,,1,Beverly,Cabot Street,Roundy Street,3
 7129,7129,Cabot St @ Judson St,,,,42.551270,-70.878599,LocalBus,,https://www.mbta.com/stops/7129,,0,,1,Beverly,Cabot Street,Judson Street,3
 7130,7130,Cabot St @ Pond St,,,,42.550738,-70.878240,LocalBus,,https://www.mbta.com/stops/7130,,0,,1,Beverly,Cabot Street,Knowlton Street,3
@@ -6812,6 +6813,7 @@ stop_id,stop_code,stop_name,stop_desc,platform_code,platform_name,stop_lat,stop_
 937,937,Commonwealth Ave @ Carlton St,,,,42.350075,-71.108712,LocalBus,,https://www.mbta.com/stops/937,,0,,1,Boston,Commonwealth Avenue,Carlton Street,3
 9370022,,State - Devonshire St @ State St,State - Red Line Ashmont/Braintree Shuttle - Devonshire St @ State St,,Ashmont/Braintree Shuttle,42.358594,-71.057305,,,,,0,,1,Boston,Devonshire Street,State Street,3
 9370024,,North Quincy - Hancock Street Garage,North Quincy - Red Line Alewife Shuttle - Hancock Street Garage,,,42.276700,-71.030860,,,,,0,,1,Quincy,Hancock Street,,3
+9370041,,Fields Corner - Geneva Ave @ Vinson St,Fields Corner - Red Line Ashmont Shuttle - Geneva Ave @ Vinson St,,,42.298910,-71.063980,LocalBus,,https://www.mbta.com/stops/9370041,,0,,1,Boston,Geneva Avenue,Vinson Street,3
 938,938,Commonwealth Ave @ St Mary's St,,,,42.349788,-71.106391,LocalBus,,https://www.mbta.com/stops/938,,0,,1,Boston,Commonwealth Avenue,Saint Marys Street,3
 939,939,Commonwealth Ave @ Hinsdale St,,,,42.349397,-71.103055,LocalBus,,https://www.mbta.com/stops/939,,0,,1,Boston,Commonwealth Avenue,Hinsdale Street,3
 9406,9406,Morton St @ Harvard St,,,,42.287893,-71.093873,LocalBus,,https://www.mbta.com/stops/9406,,0,,1,Boston,Morton Street,,3

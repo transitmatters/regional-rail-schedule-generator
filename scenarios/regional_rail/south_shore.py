@@ -37,13 +37,12 @@ timetable = Timetable(
         "Bridgewater Center": "0:33",
         "Bridgewater": "0:34",
         "Middleborough Centre St": "0:40",
-        "Middleborough/Lakeville": "0:42",
-        # Fall River
+        "Middleborough": "0:42",
         "East Taunton": "0:50",
+        # Fall River
         "Freetown": "0:57",
         "Fall River Depot": "1:10",
         # New Bedford
-        "East Taunton": "0:50",
         "Church Street": "0:57",
         "New Bedford": "1:05",
         # TODO(ian): Add Cape stations here?
@@ -90,7 +89,7 @@ stations_middleborough_lakeville = (
     station_bridgewater_center,
     "Bridgewater",
     station_middleborough_centre_st,
-    "Middleborough/Lakeville",
+    "Middleborough",
 )
 
 stations_fall_river = (

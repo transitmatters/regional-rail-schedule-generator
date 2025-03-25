@@ -509,8 +509,6 @@ Shuttle-BrooklineVillageRiverside,0,West,Riverside
 Shuttle-BrooklineVillageRiverside,1,East,Union Square
 Shuttle-ChelseaLynn,0,Outbound,Newburyport or Rockport
 Shuttle-ChelseaLynn,1,Inbound,North Station
-Shuttle-CityPointSouthStation,0,Outbound,City Point
-Shuttle-CityPointSouthStation,1,Inbound,South Station
 Shuttle-ClevelandCircleCoolidgeCorner,0,West,Cleveland Circle
 Shuttle-ClevelandCircleCoolidgeCorner,1,East,Government Center
 Shuttle-ClevelandCircleKenmore,0,West,Cleveland Circle
@@ -601,6 +599,8 @@ Shuttle-HeathPrudential,0,West,Heath Street
 Shuttle-HeathPrudential,1,East,Medford/Tufts
 Shuttle-JFKKendall,0,South,Ashmont/Braintree
 Shuttle-JFKKendall,1,North,Alewife
+Shuttle-JFKMattapan,0,Outbound,Mattapan
+Shuttle-JFKMattapan,1,Inbound,Alewife
 Shuttle-JFKNorthQuincy,0,South,Braintree
 Shuttle-JFKNorthQuincy,1,North,Alewife
 Shuttle-JFKPark,0,South,Ashmont/Braintree

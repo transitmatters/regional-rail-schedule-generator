@@ -1,6 +1,3 @@
 service_id,date,exception_type,holiday_name
 RTL12025-hmb15011-Weekday-01,20250321,2,
-RTL12025-hmb15016-Saturday-01,20250322,2,
 RTL12025-hmb15011-Weekday-01,20250324,2,
-RTL12025-hmb15017-Sunday-01,20250330,1,
-RTL12025-hms15016-Saturday-01,20250405,1,

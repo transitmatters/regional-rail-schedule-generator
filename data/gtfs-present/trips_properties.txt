@@ -726,38 +726,6 @@ SouthWKNDF24-698544-2703,note,Waits at Readville for Train 2803
 SouthWKNDF24-698544-2703,trip_type,wait
 SouthWKNDF24-698488-2057,note,Waits at Braintree for Train 2021
 SouthWKNDF24-698488-2057,trip_type,wait
-StPatsV2wBus-729726-2800,note,Waits at Readville for Train 2700
-StPatsV2wBus-729726-2800,trip_type,wait
-StPatsV2wBus-729732-2806,note,Waits at Readville for Train 2706
-StPatsV2wBus-729732-2806,trip_type,wait
-StPatsV2wBus-729734-2808,note,Waits at Readville for Train 2708
-StPatsV2wBus-729734-2808,trip_type,wait
-StPatsV2wBus-729738-2812,note,Waits at Readville for Train 2712
-StPatsV2wBus-729738-2812,trip_type,wait
-StPatsV2wBus-729740-2814,note,Waits at Readville for Train 2714
-StPatsV2wBus-729740-2814,trip_type,wait
-StPatsV2wBus-729742-2816,note,Waits at Readville for Train 2716
-StPatsV2wBus-729742-2816,trip_type,wait
-StPatsV2wBus-729744-2818,note,Waits at Readville for Train 2718
-StPatsV2wBus-729744-2818,trip_type,wait
-StPatsV2wBus-729671-2057,note,Waits at Braintree for Train 2021
-StPatsV2wBus-729671-2057,trip_type,wait
-StPatsV2wBus-729713-2701,note,Waits at Readville for Train 2801
-StPatsV2wBus-729713-2701,trip_type,wait
-StPatsV2wBus-729714-2703,note,Waits at Readville for Train 2803
-StPatsV2wBus-729714-2703,trip_type,wait
-StPatsV2wBus-729715-2705,note,Waits at Readville for Train 2805
-StPatsV2wBus-729715-2705,trip_type,wait
-StPatsV2wBus-729717-2707,note,Waits at Readville for Train 2807
-StPatsV2wBus-729717-2707,trip_type,wait
-StPatsV2wBus-729720-2713,note,Waits at Readville for Train 2813
-StPatsV2wBus-729720-2713,trip_type,wait
-StPatsV2wBus-729722-2715,note,Waits at Readville for Train 2815
-StPatsV2wBus-729722-2715,trip_type,wait
-StPatsV2wBus-729724-2717,note,Waits at Readville for Train 2817
-StPatsV2wBus-729724-2717,trip_type,wait
-StPatsV2wBus-729725-2719,note,Waits at Readville for Train 2819
-StPatsV2wBus-729725-2719,trip_type,wait
 SPRING2025V2-728659-93,note,Waits at Salem for Train 193
 SPRING2025V2-728659-93,trip_type,wait
 SPRING2025V2-728489-429,note,Waits at Littleton/Route 495 for Train 1427
