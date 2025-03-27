@@ -1438,7 +1438,6 @@ facility_id,property_id,value
 302,excludes-stop,BNT-0000-08
 302,excludes-stop,BNT-0000-09
 302,excludes-stop,BNT-0000-10
-302,excludes-stop,BNT-0000-B2
 302,excludes-stop,door-north-causewaye
 302,excludes-stop,door-north-causewayexite
 302,excludes-stop,door-north-causewayexitw
@@ -1543,7 +1542,6 @@ facility_id,property_id,value
 303,excludes-stop,BNT-0000-08
 303,excludes-stop,BNT-0000-09
 303,excludes-stop,BNT-0000-10
-303,excludes-stop,BNT-0000-B2
 303,excludes-stop,door-north-causewaye
 303,excludes-stop,door-north-causewayexite
 303,excludes-stop,door-north-causewayexitw
@@ -1649,7 +1647,6 @@ facility_id,property_id,value
 304,excludes-stop,BNT-0000-08
 304,excludes-stop,BNT-0000-09
 304,excludes-stop,BNT-0000-10
-304,excludes-stop,BNT-0000-B2
 304,excludes-stop,door-north-causewaye
 304,excludes-stop,door-north-causewayexite
 304,excludes-stop,door-north-causewayexitw
@@ -4656,7 +4653,6 @@ facility_id,property_id,value
 384,excludes-stop,BNT-0000-08
 384,excludes-stop,BNT-0000-09
 384,excludes-stop,BNT-0000-10
-384,excludes-stop,BNT-0000-B2
 384,excludes-stop,door-north-causewaye
 384,excludes-stop,door-north-causewayexite
 384,excludes-stop,door-north-causewayexitw
@@ -4759,7 +4755,6 @@ facility_id,property_id,value
 385,excludes-stop,BNT-0000-08
 385,excludes-stop,BNT-0000-09
 385,excludes-stop,BNT-0000-10
-385,excludes-stop,BNT-0000-B2
 385,excludes-stop,door-north-causewaye
 385,excludes-stop,door-north-causewayexite
 385,excludes-stop,door-north-causewayexitw
@@ -5405,7 +5400,6 @@ facility_id,property_id,value
 391,excludes-stop,BNT-0000-08
 391,excludes-stop,BNT-0000-09
 391,excludes-stop,BNT-0000-10
-391,excludes-stop,BNT-0000-B2
 391,excludes-stop,door-north-causewayexite
 391,excludes-stop,door-north-causewayexitw
 391,excludes-stop,door-north-crcanal
@@ -5509,7 +5503,6 @@ facility_id,property_id,value
 392,excludes-stop,BNT-0000-08
 392,excludes-stop,BNT-0000-09
 392,excludes-stop,BNT-0000-10
-392,excludes-stop,BNT-0000-B2
 392,excludes-stop,door-north-causewayexite
 392,excludes-stop,door-north-causewayexitw
 392,excludes-stop,door-north-crcanal
@@ -5614,7 +5607,6 @@ facility_id,property_id,value
 393,excludes-stop,BNT-0000-08
 393,excludes-stop,BNT-0000-09
 393,excludes-stop,BNT-0000-10
-393,excludes-stop,BNT-0000-B2
 393,excludes-stop,door-north-causewayexite
 393,excludes-stop,door-north-causewayexitw
 393,excludes-stop,door-north-crcanal
@@ -7917,7 +7909,6 @@ facility_id,property_id,value
 447,excludes-stop,BNT-0000-08
 447,excludes-stop,BNT-0000-09
 447,excludes-stop,BNT-0000-10
-447,excludes-stop,BNT-0000-B2
 447,excludes-stop,door-north-causewaye
 447,excludes-stop,door-north-causewayexite
 447,excludes-stop,door-north-causewayexitw
@@ -9236,6 +9227,12 @@ facility_id,property_id,value
 703,excludes-stop,node-wondl-oceanstairs-plaza
 703,excludes-stop,node-wondl-plazacenter
 703,excludes-stop,node-wondl-revereramp-top
+704,alternate-service-text,"To travel from the Fitchburg platform to the North Station platform, travel to the east end of the platform and proceed down the ramp to the small parking lot. Continue east on Railroad St. to Main St. At Main St., turn right and continue to Maple St. At Maple St., turn right and continue to the walkway that leads to the platform. To travel from the North Station platform to the Fitchburg platform, travel east on Maple St towards Main St. At Main St., turn left and continue to Railroad St. At Rairoad St., turn lefr and continue to the station, where a ramp to the Fitchburg platform is located next the small parking lot."
+704,excludes-stop,FR-0253
+704,excludes-stop,FR-0253-02
+705,alternate-service-text,"To travel from the North Station platform to the Fitchburg platform, travel east on Maple St towards Main St. At Main St., turn left and continue to Railroad St. At Rairoad St., turn lefr and continue to the station, where a ramp to the Fitchburg platform is located next the small parking lot. To travel from the Fitchburg platform to the North Station platform, travel to the east end of the platform and proceed down the ramp to the small parking lot. Continue east on Railroad St. to Main St. At Main St., turn right and continue to Maple St. At Maple St., turn right and continue to the walkway that leads to the platform."
+705,excludes-stop,FR-0253
+705,excludes-stop,FR-0253-01
 708,alternate-service-text,"To access the pedestrian bridge from the main lobby, use Wonderland Elevators 701, 702 or 703. Exit the elevator at level 2, then turn left and proceed to the pedestrian bridge. To access the main lobby from the pedestrian bridge, proceed to the parking garage--level 2, and use Wonderland Elevators 701, 702 or 703."
 708,excludes-stop,door-wondl-nshore
 708,excludes-stop,door-wondl-ocean
@@ -9863,7 +9860,6 @@ facility_id,property_id,value
 731,excludes-stop,BNT-0000-08
 731,excludes-stop,BNT-0000-09
 731,excludes-stop,BNT-0000-10
-731,excludes-stop,BNT-0000-B2
 731,excludes-stop,door-north-causewayexite
 731,excludes-stop,door-north-causewayexitw
 731,excludes-stop,door-north-causeways
@@ -9966,7 +9962,6 @@ facility_id,property_id,value
 732,excludes-stop,BNT-0000-08
 732,excludes-stop,BNT-0000-09
 732,excludes-stop,BNT-0000-10
-732,excludes-stop,BNT-0000-B2
 732,excludes-stop,door-north-causewayexite
 732,excludes-stop,door-north-causewayexitw
 732,excludes-stop,door-north-causeways
@@ -10556,6 +10551,36 @@ facility_id,property_id,value
 772,excludes-stop,node-772-top
 772,excludes-stop,node-mdftf-stairs-bottom
 772,excludes-stop,node-mdftf-stairs-top
+778,excludes-stop,door-NBM-0374-elevator
+778,excludes-stop,door-NBM-0374-ramp
+778,excludes-stop,node-778-bridge
+778,excludes-stop,node-778-parking
+778,excludes-stop,node-779-bridge
+778,excludes-stop,node-779-platform
+778,excludes-stop,node-NBM-0374-entryramp-bridge
+778,excludes-stop,node-NBM-0374-entrystair-bridge
+778,excludes-stop,node-NBM-0374-entrystair-parking
+778,excludes-stop,node-NBM-0374-northramp-bridge
+778,excludes-stop,node-NBM-0374-northramp-platform
+778,excludes-stop,node-NBM-0374-northstair-bridge
+778,excludes-stop,node-NBM-0374-northstair-platform
+778,excludes-stop,node-NBM-0374-southstair-bridge
+778,excludes-stop,node-NBM-0374-southstair-platform
+779,excludes-stop,door-NBM-0374-elevator
+779,excludes-stop,door-NBM-0374-ramp
+779,excludes-stop,node-778-bridge
+779,excludes-stop,node-778-parking
+779,excludes-stop,node-779-bridge
+779,excludes-stop,node-779-platform
+779,excludes-stop,node-NBM-0374-entryramp-bridge
+779,excludes-stop,node-NBM-0374-entrystair-bridge
+779,excludes-stop,node-NBM-0374-entrystair-parking
+779,excludes-stop,node-NBM-0374-northramp-bridge
+779,excludes-stop,node-NBM-0374-northramp-platform
+779,excludes-stop,node-NBM-0374-northstair-bridge
+779,excludes-stop,node-NBM-0374-northstair-platform
+779,excludes-stop,node-NBM-0374-southstair-bridge
+779,excludes-stop,node-NBM-0374-southstair-platform
 800,alternate-service-text,"To exit, upon exiting the faregates, turn left and proceed to Oak Grove Elevator 745 to access the busway and parking lot. To board, proceed to the station entrance located near the busway and use Oak Grove Elevator 745 to access the lobby. Alternatively, customers may utilize the Oak Grove Elevator 744 (Lobby to Washington St) located at the station entrance on Washington St."
 800,excludes-stop,9328
 800,excludes-stop,door-ogmnl-wash
@@ -13860,7 +13885,6 @@ facility_id,property_id,value
 909,excludes-stop,BNT-0000-08
 909,excludes-stop,BNT-0000-09
 909,excludes-stop,BNT-0000-10
-909,excludes-stop,BNT-0000-B2
 909,excludes-stop,door-north-causewaye
 909,excludes-stop,door-north-causewayexite
 909,excludes-stop,door-north-causewayexitw
@@ -13965,7 +13989,6 @@ facility_id,property_id,value
 910,excludes-stop,BNT-0000-08
 910,excludes-stop,BNT-0000-09
 910,excludes-stop,BNT-0000-10
-910,excludes-stop,BNT-0000-B2
 910,excludes-stop,door-north-causewayexite
 910,excludes-stop,door-north-causewayexitw
 910,excludes-stop,door-north-causeways
@@ -14071,7 +14094,6 @@ facility_id,property_id,value
 911,excludes-stop,BNT-0000-08
 911,excludes-stop,BNT-0000-09
 911,excludes-stop,BNT-0000-10
-911,excludes-stop,BNT-0000-B2
 911,excludes-stop,door-north-causewayexite
 911,excludes-stop,door-north-causewayexitw
 911,excludes-stop,door-north-causeways
@@ -14174,7 +14196,6 @@ facility_id,property_id,value
 912,excludes-stop,BNT-0000-08
 912,excludes-stop,BNT-0000-09
 912,excludes-stop,BNT-0000-10
-912,excludes-stop,BNT-0000-B2
 912,excludes-stop,door-north-causewayexite
 912,excludes-stop,door-north-causewayexitw
 912,excludes-stop,door-north-causeways
@@ -16946,13 +16967,9 @@ facility_id,property_id,value
 993,excludes-stop,WML-0025
 993,excludes-stop,WML-0025-05
 994,alternate-service-text,Please use nearby Beverly Elevator 995.
-994,excludes-stop,ER-0183-B
 995,alternate-service-text,Please use nearby Beverly Elevator 994.
-995,excludes-stop,ER-0183-B
 996,alternate-service-text,Please use nearby Salem Elevator 997.
-996,excludes-stop,ER-0168-B
 997,alternate-service-text,Please use nearby Salem Elevator 996.
-997,excludes-stop,ER-0168-B
 998,alternate-service-text,Please use nearby Downtown Crossing Elevator 999.
 998,excludes-stop,70020
 998,excludes-stop,70077
@@ -21584,9 +21601,10 @@ park-FRS-0054,contact,MBTA Customer Support
 park-FRS-0054,contact-phone,617-222-3200
 park-FRS-0054,contact-url,https://www.mbta.com/customer-support
 park-FRS-0054,enclosed,2
-park-FRS-0054,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
+park-FRS-0054,fee-daily,"Free until 4/30 | Starting 5/1, Mon-Fri: $4, Sat-Sun: $2"
 park-FRS-0054,municipality,Freetown
 park-FRS-0054,operator,Keolis Commuter Services
+park-FRS-0054,overnight-allowed,no
 park-FRS-0054,owner,MBTA
 park-FRS-0054,payment-app,PayByPhone
 park-FRS-0054,payment-app-id,44203
@@ -21596,10 +21614,14 @@ park-FRS-0054,payment-form-accepted,mobile-app
 park-FRS-0109,attended,2
 park-FRS-0109,capacity,220
 park-FRS-0109,capacity-accessible,9
+park-FRS-0109,contact,MBTA Customer Support
+park-FRS-0109,contact-phone,617-222-3200
+park-FRS-0109,contact-url,https://www.mbta.com/customer-support
 park-FRS-0109,enclosed,2
-park-FRS-0109,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
+park-FRS-0109,fee-daily,"Free until 4/30 | Starting 5/1, Mon-Fri: $4, Sat-Sun: $2"
 park-FRS-0109,municipality,Fall River 
 park-FRS-0109,operator,Keolis Commuter Services
+park-FRS-0109,overnight-allowed,no
 park-FRS-0109,owner,MBTA
 park-FRS-0109,payment-app,PayByPhone
 park-FRS-0109,payment-app-id,44202
@@ -21868,9 +21890,10 @@ park-MBS-0350,contact,MBTA Customer Support
 park-MBS-0350,contact-phone,617-222-3200
 park-MBS-0350,contact-url,https://www.mbta.com/customer-support
 park-MBS-0350,enclosed,2
-park-MBS-0350,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
+park-MBS-0350,fee-daily,"Free until 4/30 | Starting 5/1, Mon-Fri: $4, Sat-Sun: $2"
 park-MBS-0350,municipality,Middleborough
 park-MBS-0350,operator,Keolis Commuter Services
+park-MBS-0350,overnight-allowed,no
 park-MBS-0350,owner,MBTA
 park-MBS-0350,payment-app,PayByPhone
 park-MBS-0350,payment-app-id,44204
@@ -21927,6 +21950,7 @@ park-MM-0200-garage,fee-monthly,Monthly permits available. Email info@ridebat.co
 park-MM-0200-garage,municipality,Brockton
 park-MM-0200-garage,note,"Brockton Area Transit Authority (BAT) is responsible for parking maintenance, and snow removal."
 park-MM-0200-garage,operator,BAT
+park-MM-0200-garage,overnight-allowed,no
 park-MM-0200-garage,owner,Local transit authority
 park-MM-0200-garage,payment-app,PayByPhone
 park-MM-0200-garage,payment-app-id,44200
@@ -22162,9 +22186,10 @@ park-NBM-0374,contact,MBTA Customer Support
 park-NBM-0374,contact-phone,617-222-3200
 park-NBM-0374,contact-url,https://www.mbta.com/customer-support
 park-NBM-0374,enclosed,2
-park-NBM-0374,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
+park-NBM-0374,fee-daily,"Free until 4/30 | Starting 5/1, Mon-Fri: $4, Sat-Sun: $2"
 park-NBM-0374,municipality,East Taunton
 park-NBM-0374,operator,Keolis Commuter Services
+park-NBM-0374,overnight-allowed,no
 park-NBM-0374,owner,MBTA
 park-NBM-0374,payment-app,PayByPhone
 park-NBM-0374,payment-app-id,44205
@@ -22178,9 +22203,10 @@ park-NBM-0523,contact,MBTA Customer Support
 park-NBM-0523,contact-phone,617-222-3200
 park-NBM-0523,contact-url,https://www.mbta.com/customer-support
 park-NBM-0523,enclosed,2
-park-NBM-0523,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
-park-NBM-0523,municipality, New Bedford 
+park-NBM-0523,fee-daily,"Free until 4/30 | Starting 5/1, Mon-Fri: $4, Sat-Sun: $2"
+park-NBM-0523,municipality,New Bedford 
 park-NBM-0523,operator,Keolis Commuter Services
+park-NBM-0523,overnight-allowed,no
 park-NBM-0523,owner,MBTA
 park-NBM-0523,payment-app,PayByPhone
 park-NBM-0523,payment-app-id,44206
@@ -22190,8 +22216,15 @@ park-NBM-0523,payment-form-accepted,mobile-app
 park-NBM-0546,attended,2
 park-NBM-0546,capacity,150
 park-NBM-0546,capacity-accessible,13
+park-NBM-0546,contact,New Bedford Port Authority
+park-NBM-0546,contact-phone,508-961-3000
+park-NBM-0546,contact-url,https://portofnewbedford.org/
 park-NBM-0546,enclosed,2
-park-NBM-0546,municipality, New Bedford 
+park-NBM-0546,fee-daily,Free until 4/30
+park-NBM-0546,municipality,New Bedford 
+park-NBM-0546,operator,New Bedford Port Authority
+park-NBM-0546,overnight-allowed,no
+park-NBM-0546,owner,New Bedford Port Authority
 park-NEC-1659-garage,attended,1
 park-NEC-1659-garage,capacity,1100
 park-NEC-1659-garage,contact,Rhode Island Department of Transportation

@@ -26,7 +26,7 @@ CR-Needham,1,,Needham Line,Regional Rail,2,https://www.mbta.com/schedules/CR-Nee
 CR-Newburyport,1,,Newburyport/Rockport Line,Regional Rail,2,https://www.mbta.com/schedules/CR-Newburyport,80276C,FFFFFF,20011,Commuter Rail,line-Newburyport,,commuter_rail
 CR-Providence,1,,Providence/Stoughton Line,Regional Rail,2,https://www.mbta.com/schedules/CR-Providence,80276C,FFFFFF,20012,Commuter Rail,line-Providence,,commuter_rail
 CR-Foxboro,1,,Foxboro Event Service,Regional Rail,2,https://www.mbta.com/schedules/CR-Foxboro,80276C,FFFFFF,20013,Special,line-Foxboro,,cr_foxboro
-CR-NewBedford,1,,Fall River/New Bedford Line,Regional Rail,2,https://www.mbta.com/schedules/CR-NewBedford,80276C,FFFFFF,20033,Commuter Rail,line-NewBedford,1,commuter_rail
+CR-NewBedford,1,,Fall River/New Bedford Line,Regional Rail,2,https://www.mbta.com/schedules/CR-NewBedford,80276C,FFFFFF,20033,Commuter Rail,line-NewBedford,,commuter_rail
 CapeFlyer,3,,CapeFLYER,Regional Rail,2,http://capeflyer.com/,006595,FFFFFF,21000,Special,line-CapeFlyer,,cape_flyer
 Boat-F4,1,,Charlestown Ferry,Ferry,4,https://www.mbta.com/schedules/Boat-F4,008EAA,FFFFFF,30001,Ferry,line-Boat-F4,,ferry_f4
 Boat-F1,1,,Hingham/Hull Ferry,Ferry,4,https://www.mbta.com/schedules/Boat-F1,008EAA,FFFFFF,30002,Ferry,line-Boat-F1,,ferry_f1
@@ -225,7 +225,6 @@ Shuttle-BallardvaleNorthStation,1,Haverhill Line Shuttle,Ballardvale - North Sta
 Shuttle-BeverlyNewburyportExpress,1,Newburyport Line Shuttle,Newburyport - Beverly (Express),Rail Replacement Bus,3,,FFC72C,000000,60690,Free,line-Newburyport,1,rail_replacement_bus
 Shuttle-BeverlyNewburyportLocal,1,Newburyport Line Shuttle,Newburyport - Beverly (Local),Rail Replacement Bus,3,,FFC72C,000000,60691,Free,line-Newburyport,1,rail_replacement_bus
 Shuttle-BeverlyNorthStationLimited,1,Newburyport/Rockport Line Shuttle,Beverly - North Station (Limited),Rail Replacement Bus,3,,FFC72C,000000,60693,Free,line-Newburyport,1,rail_replacement_bus
-Shuttle-BeverlyNorthStationLocal,1,Newburyport/Rockport Line Shuttle,Beverly - North Station (Local),Rail Replacement Bus,3,,FFC72C,000000,60694,Free,line-Newburyport,1,rail_replacement_bus
 Shuttle-BeverlyRockportExpress,1,Rockport Line Shuttle,Beverly - Rockport (Express),Rail Replacement Bus,3,,FFC72C,000000,60700,Free,line-Newburyport,1,rail_replacement_bus
 Shuttle-BeverlyRockportLocal,1,Rockport Line Shuttle,Beverly - Rockport (Local),Rail Replacement Bus,3,,FFC72C,000000,60705,Free,line-Newburyport,1,rail_replacement_bus
 Shuttle-BlandfordBostonCollege,1,Green Line B Shuttle,Boston College - Blandford Street,Rail Replacement Bus,3,,FFC72C,000000,60750,Free,line-Green,1,rail_replacement_bus
@@ -329,6 +328,7 @@ Shuttle-HaverhillReadingLocal,1,Haverhill Line Shuttle,Haverhill - Reading (Loca
 Shuttle-HeathPark,1,Green Line E Shuttle,Heath Street - Park Street,Rail Replacement Bus,3,,FFC72C,000000,61980,Free,line-Green,1,rail_replacement_bus
 Shuttle-HeathPrudential,1,Green Line E Shuttle,Heath Street - Prudential,Rail Replacement Bus,3,,FFC72C,000000,61985,Free,line-Green,1,rail_replacement_bus
 Shuttle-JFKKendall,1,Red Line Shuttle,Kendall/MIT - JFK/UMass,Rail Replacement Bus,3,,FFC72C,000000,61987,Free,line-Red,1,rail_replacement_bus
+Shuttle-JFKMattapan,1,Red/Mattapan Line Shuttle,Mattapan Station - JFK/UMass Station via Ashmont Station,Rail Replacement Bus,3,,FFC72C,000000,61990,Free,line-Mattapan,1,rail_replacement_bus
 Shuttle-JFKNorthQuincy,1,Red Line Shuttle,North Quincy - JFK/UMass,Rail Replacement Bus,3,,FFC72C,000000,61995,Free,line-Red,1,rail_replacement_bus
 Shuttle-JFKPark,1,Red Line Shuttle,JFK/UMass - Park Street,Rail Replacement Bus,3,,FFC72C,000000,61997,Free,line-Red,1,rail_replacement_bus
 Shuttle-JFKParkStreetViaPostOffice,1,Red Line Shuttle,JFK/UMass - Park Street via Post Office,Rail Replacement Bus,3,,FFC72C,000000,61998,Free,line-Red,1,rail_replacement_bus
@@ -357,14 +357,9 @@ Shuttle-NewtonHighlandsRiverside,1,Green Line D Shuttle,Riverside - Newton Highl
 Shuttle-NewtonHighlandsStMarysKenmore,1,Green Line D Shuttle,Newton Highlands - Kenmore via Saint Mary's Street,Rail Replacement Bus,3,,FFC72C,000000,62110,Free,line-Green,1,rail_replacement_bus
 Shuttle-NorthBillericaLowell,1,Lowell Line Shuttle,Lowell - North Billerica,Rail Replacement Bus,3,,FFC72C,000000,62121,Free,line-Lowell,1,rail_replacement_bus
 Shuttle-NorthLeominsterWachusett,1,Fitchburg Line Shuttle,Wachusett - North Leominster,Rail Replacement Bus,3,,FFC72C,000000,62122,Free,line-Fitchburg,1,rail_replacement_bus
-Shuttle-NorthStationMaldenOakGrove,1,Haverhill Line Shuttle,Oak Grove - North Station,Rail Replacement Bus,3,,FFC72C,000000,62126,Free,line-Haverhill,1,rail_replacement_bus
 Shuttle-NorthStationSwampscottLimited,1,Newburyport/Rockport Line Shuttle,Swampscott - North Station (Limited),Rail Replacement Bus,3,,FFC72C,000000,62128,Free,line-Newburyport,1,rail_replacement_bus
-Shuttle-NorthStationSwampscottLocal,1,Newburyport/Rockport Line Shuttle,Swampscott - North Station (Local),Rail Replacement Bus,3,,FFC72C,000000,62129,Free,line-Newburyport,1,rail_replacement_bus
-Shuttle-NorthStationSwampscottExpress,1,Newburyport/Rockport Line Shuttle,Swampscott - North Station (Express),Rail Replacement Bus,3,,FFC72C,000000,62130,Free,line-Newburyport,1,rail_replacement_bus
 Shuttle-NorthStationSullivanSquare,1,Green Line Shuttle,North Station - Sullivan Square via East Somerville,Rail Replacement Bus,3,,FFC72C,000000,62131,Free,line-Green,1,rail_replacement_bus
 Shuttle-NorthStationUnionSquare,1,Green Line Shuttle,Union Square - North Station,Rail Replacement Bus,3,,FFC72C,000000,62135,Free,line-Green,1,rail_replacement_bus
-Shuttle-NStaOakGroveExpress,1,Orange Line Shuttle,Oak Grove - North Station (Express),Rail Replacement Bus,3,,FFC72C,000000,62161,Free,line-Orange,1,rail_replacement_bus
-Shuttle-NStaOakGroveLocal,1,Orange Line Shuttle,Oak Grove - North Station (Local),Rail Replacement Bus,3,,FFC72C,000000,62162,Free,line-Orange,1,rail_replacement_bus
 Shuttle-OakGroveReading,1,Haverhill Line Shuttle,Reading - Oak Grove,Rail Replacement Bus,3,,FFC72C,000000,62170,Free,line-Haverhill,1,rail_replacement_bus
 Shuttle-OakGroveRockportExpress,1,Newburyport Line Shuttle,Rockport - Oak Grove (Express),Rail Replacement Bus,3,,FFC72C,000000,62185,Free,line-Newburyport,1,rail_replacement_bus
 Shuttle-OakGroveRockportLimited,1,Newburyport Line Shuttle,Rockport - Oak Grove (Limited),Rail Replacement Bus,3,,FFC72C,000000,62186,Free,line-Newburyport,1,rail_replacement_bus
