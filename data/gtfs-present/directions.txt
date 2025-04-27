@@ -319,6 +319,8 @@ Boat-F4,0,Outbound,Charlestown
 Boat-F4,1,Inbound,Long Wharf
 Boat-F6,0,Outbound,Winthrop
 Boat-F6,1,Inbound,Central Wharf
+Boat-F7,0,Outbound,Quincy
+Boat-F7,1,Inbound,Central Wharf
 Boat-Lynn,0,Outbound,Blossom Street Pier
 Boat-Lynn,1,Inbound,Long Wharf
 CR-Fairmount,0,Outbound,Fairmount
@@ -337,8 +339,6 @@ CR-Kingston,0,Outbound,Kingston
 CR-Kingston,1,Inbound,South Station
 CR-Lowell,0,Outbound,Lowell
 CR-Lowell,1,Inbound,North Station
-CR-Middleborough,0,Outbound,Middleborough/Lakeville
-CR-Middleborough,1,Inbound,South Station
 CR-Needham,0,Outbound,Needham Heights
 CR-Needham,1,Inbound,South Station
 CR-NewBedford,0,Outbound,Fall River or New Bedford
@@ -483,8 +483,6 @@ Shuttle-BraintreeSouthStationExpress,0,Outbound,Braintree
 Shuttle-BraintreeSouthStationExpress,1,Inbound,South Station
 Shuttle-BraintreeSouthWeymouth,0,South,Kingston
 Shuttle-BraintreeSouthWeymouth,1,North,South Station
-Shuttle-BridgewaterMiddleboroughLakeville,0,Outbound,Middleborough/Lakeville
-Shuttle-BridgewaterMiddleboroughLakeville,1,Inbound,South Station
 Shuttle-BroadwayHarvard,0,South,Ashmont/Braintree
 Shuttle-BroadwayHarvard,1,North,Alewife
 Shuttle-BroadwayJFK,0,South,Ashmont/Braintree
@@ -633,6 +631,8 @@ Shuttle-ManchesterGloucester,0,Outbound,Gloucester
 Shuttle-ManchesterRockport,0,Outbound,Rockport
 Shuttle-MaverickWonderland,0,West,Maverick
 Shuttle-MaverickWonderland,1,East,Wonderland
+Shuttle-Medford/Tufts to Government Center,0,Inbound,Government Center
+Shuttle-Medford/Tufts to Government Center,1,Outbound,Medford/Tufts
 Shuttle-MedfordNorthStation,0,West,Heath Street
 Shuttle-MedfordNorthStation,1,East,Medford/Tufts
 Shuttle-NewburyportOakGroveExpress,0,Outbound,Newburyport
@@ -657,8 +657,12 @@ Shuttle-NorthLeominsterWachusett,0,Outbound,Wachusett
 Shuttle-NorthLeominsterWachusett,1,Inbound,North Station
 Shuttle-NorthStationSullivanSquare,0,South,North Station
 Shuttle-NorthStationSullivanSquare,1,North,Sullivan Square via East Somerville
+Shuttle-NorthStationSwampscottExpress,0,Outbound,Newburyport or Rockport
+Shuttle-NorthStationSwampscottExpress,1,Inbound,North Station
 Shuttle-NorthStationSwampscottLimited,0,Outbound,Newburyport or Rockport
 Shuttle-NorthStationSwampscottLimited,1,Inbound,North Station
+Shuttle-NorthStationSwampscottLocal,0,Outbound,Newburyport or Rockport
+Shuttle-NorthStationSwampscottLocal,1,Inbound,North Station
 Shuttle-NorthStationUnionSquare,0,West,Riverside
 Shuttle-NorthStationUnionSquare,1,East,Union Square
 Shuttle-OakGroveReading,0,Outbound,Reading

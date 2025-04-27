@@ -453,8 +453,8 @@ bike-FR-0361,,3,bike-storage,place-FR-0361,Bike rack,Ayer bike rack,,42.5589720,
 bike-FR-0394,,3,bike-storage,place-FR-0394,Bike rack,Shirley bike rack,,42.5450290,-71.6481240,0
 bike-FR-0494,,3,bike-storage,place-FR-0494,Bike rack,Fitchburg bike rack,,,,0
 bike-FR-3338,,3,bike-storage,place-FR-3338,Covered bike rack,Wachusett covered bike rack,,,,0
-bike-FRS-0054-storage,,3,bike-storage,place-FRS-0054,Covered bike rack,Freetown covered bike rack,,,,0
-bike-FRS-0109-storage,,3,bike-storage,place-FRS-0109,Covered bike rack,Fall River Depot covered bike rack,,,,0
+bike-FRS-0054-storage,,3,bike-storage,place-FRS-0054,Covered bike rack,Freetown covered bike rack,,41.7740910,-71.0901210,0
+bike-FRS-0109-storage,,3,bike-storage,place-FRS-0109,Covered bike rack,Fall River Depot covered bike rack,,41.7140640,-71.1542390,0
 bike-GB-0198,,3,bike-storage,place-GB-0198,Bike rack,Montserrat bike rack,,,,0
 bike-GB-0229,,3,bike-storage,place-GB-0229,Bike rack,Beverly Farms bike rack,,,,0
 bike-GB-0254,,3,bike-storage,place-GB-0254,Bike rack,Manchester bike rack,,,,0
@@ -469,13 +469,13 @@ bike-GRB-0199,,3,bike-storage,place-GRB-0199,Bike rack,Cohasset bike rack,,,,0
 bike-GRB-0233,,3,bike-storage,place-GRB-0233,Bike rack,North Scituate bike rack,,,,0
 bike-GRB-0276,,3,bike-storage,place-GRB-0276,Bike rack,Greenbush bike rack,,,,0
 bike-KB-0351,,3,bike-storage,place-KB-0351,Bike rack,Kingston bike rack,,,,0
-bike-MBS-0350-storage,,3,bike-storage,place-MBS-0350,Covered bike rack,Middleborough covered bike rack,,,,0
+bike-MBS-0350-storage,,3,bike-storage,place-MBS-0350,Covered bike rack,Middleborough covered bike rack,,41.8868550,-70.9231970,0
 bike-MM-0150,,3,bike-storage,place-MM-0150,Covered bike rack,Holbrook/Randolph covered bike rack,,,,0
 bike-MM-0186,,3,bike-storage,place-MM-0186,Covered bike rack,Montello covered bike rack,,,,0
 bike-MM-0200,,3,bike-storage,place-MM-0200,Bike rack,Brockton bike rack,,,,0
 bike-MM-0219,,3,bike-storage,place-MM-0219,Bike rack,Campello bike rack,,,,0
 bike-MM-0277,,3,bike-storage,place-MM-0277,Bike rack,Bridgewater bike rack,,,,0
-bike-MM-0356,,3,bike-storage,place-MM-0356,Bike rack,Middleborough/Lakeville bike rack,,,,0
+bike-MM-0356,,3,bike-storage,place-MM-0356,Bike rack,Lakeville bike rack,,,,0
 bike-NB-0064,,3,bike-storage,place-NB-0064,Bike rack,Roslindale Village bike rack,,,,0
 bike-NB-0072,,3,bike-storage,place-NB-0072,Bike rack,Bellevue bike rack,,,,0
 bike-NB-0076,,3,bike-storage,place-NB-0076,Covered bike rack,Highland covered bike rack,,,,0
@@ -484,9 +484,9 @@ bike-NB-0109,,3,bike-storage,place-NB-0109,Covered bike rack,Hersey covered bike
 bike-NB-0120,,3,bike-storage,place-NB-0120,Bike rack,Needham Junction bike rack,,,,0
 bike-NB-0127,,3,bike-storage,place-NB-0127,Bike rack,Needham Center bike rack,,,,0
 bike-NB-0137,,3,bike-storage,place-NB-0137,Bike rack,Needham Heights bike rack,,,,0
-bike-NBM-0374-storage,,3,bike-storage,place-NBM-0374,Covered bike rack,East Taunton covered bike rack,,,,0
-bike-NBM-0523-storage,,3,bike-storage,place-NBM-0523,Covered bike rack,Church Street covered bike rack,,,,0
-bike-NBM-0546-storage,,3,bike-storage,place-NBM-0546,Covered bike rack,New Bedford covered bike rack,,,,0
+bike-NBM-0374-storage,,3,bike-storage,place-NBM-0374,Covered bike rack,East Taunton covered bike rack,,41.8682870,-71.0609080,0
+bike-NBM-0523-storage,,3,bike-storage,place-NBM-0523,Covered bike rack,Church Street covered bike rack,,41.6742990,-70.9390650,0
+bike-NBM-0546-storage,,3,bike-storage,place-NBM-0546,Covered bike rack,New Bedford covered bike rack,,41.6437770,-70.9252450,0
 bike-NEC-1659,,3,bike-storage,place-NEC-1659,Bike rack,Wickford Junction bike rack,,,,0
 bike-NEC-1891-racks,,3,bike-storage,place-NEC-1891,Bike rack,Pawtucket/Central Falls bike rack,,41.8786850,-71.3915770,0
 bike-NEC-1969,,3,bike-storage,place-NEC-1969,Bike rack,Attleboro bike rack,,,,0
@@ -1250,7 +1250,7 @@ highlevel-MM-0200-1,,2,fully-elevated-platform,place-MM-0200,High-level platform
 highlevel-MM-0200-2,,2,fully-elevated-platform,place-MM-0200,High-level platform (Track 2),Brockton high-level platform (Track 2),,,,1
 highlevel-MM-0219-1,,2,fully-elevated-platform,place-MM-0219,High-level platform,Campello high-level platform,,,,1
 highlevel-MM-0277-1,,2,fully-elevated-platform,place-MM-0277,High-level platform,Bridgewater high-level platform,,,,1
-highlevel-MM-0356-1,,2,fully-elevated-platform,place-MM-0356,High-level platform,Middleborough/Lakeville high-level platform,,,,1
+highlevel-MM-0356-1,,2,fully-elevated-platform,place-MM-0356,High-level platform,Lakeville high-level platform,,,,1
 highlevel-NBM-0374-1,,2,fully-elevated-platform,place-NBM-0374,High-level platform,East Taunton high-level platform,,,,1
 highlevel-NBM-0523-1,,2,fully-elevated-platform,place-NBM-0523,High-level platform,Church Street high-level platform,,,,1
 highlevel-NBM-0546-1,,2,fully-elevated-platform,place-NBM-0546,High-level platform,New Bedford high-level platform,,,,1
@@ -1390,7 +1390,7 @@ park-MM-0200-garage,,3,parking-area,place-MM-0200,Garage,Brockton Garage,,42.084
 park-MM-0200-lot,,3,parking-area,place-MM-0200,Parking Lot,Brockton Parking Lot,,42.0856040,-71.0146200,0
 park-MM-0219,,3,parking-area,place-MM-0219,Parking Lot,Campello Parking Lot,,42.0608280,-71.0113810,0
 park-MM-0277,,3,parking-area,place-MM-0277,Parking Lot,Bridgewater Parking Lot,,41.9851010,-70.9649490,0
-park-MM-0356,,3,parking-area,place-MM-0356,Parking Lot,Middleborough/Lakeville Parking Lot,,41.8780490,-70.9193030,0
+park-MM-0356,,3,parking-area,place-MM-0356,Parking Lot,Lakeville Parking Lot,,41.8780490,-70.9193030,0
 park-NB-0064,,3,parking-area,place-NB-0064,Parking Lot,Roslindale Village Parking Lot,,42.2871560,-71.1304840,0
 park-NB-0072,,3,parking-area,place-NB-0072,Parking Lot,Bellevue Parking Lot,,42.2867410,-71.1459350,0
 park-NB-0076,,3,parking-area,place-NB-0076,Parking Lot,Highland Parking Lot,,42.2851880,-71.1537410,0
@@ -1737,7 +1737,9 @@ subplat-FB-0143-1,,2,elevated-subplatform,place-FB-0143,Mini-high platform (Trac
 subplat-FB-0143-2,,2,elevated-subplatform,place-FB-0143,Mini-high platform (Track 2/Boston),Norwood Depot mini-high platform (Track 2/Boston),,,,1
 subplat-FB-0148-1,,2,elevated-subplatform,place-FB-0148,Mini-high platform (Track 1/Outbound),Norwood Central mini-high platform (Track 1/Outbound),,,,1
 subplat-FB-0148-2,,2,elevated-subplatform,place-FB-0148,Mini-high platform (Track 2/Boston),Norwood Central mini-high platform (Track 2/Boston),,,,1
+subplat-FB-0191-1,,2,elevated-subplatform,place-FB-0191,Mini-high platform,Walpole mini-high platform,,42.1455480,-71.2576460,1
 subplat-FB-0230-1,,2,elevated-subplatform,place-FB-0230,Mini-high platform,Norfolk mini-high platform,,,,1
+subplat-FB-0275-1,,2,elevated-subplatform,place-FB-0275,Mini-high platform,Franklin mini-high platform,,42.0830710,-71.3963750,1
 subplat-FB-0303-1,,2,elevated-subplatform,place-FB-0303,Mini-high platform,Forge Park/495 mini-high platform,,,,1
 subplat-FR-0098-1,,2,elevated-subplatform,place-FR-0098,Mini-high platform (Track 1/Outbound),Waltham mini-high platform (Track 1/Outbound),,,,1
 subplat-FR-0098-2,,2,elevated-subplatform,place-FR-0098,Mini-high platform (Track 2/Boston),Waltham mini-high platform (Track 2/Boston),,,,1
@@ -1781,6 +1783,8 @@ subplat-NEC-2139-4,,2,elevated-subplatform,place-NEC-2139,Mini-high platform (Tr
 subplat-NEC-2139-6,,2,elevated-subplatform,place-NEC-2139,Mini-high platform (Track 6),Canton Junction mini-high platform (Track 6),,,,1
 subplat-NEC-2203-2,,2,elevated-subplatform,place-NEC-2203,Mini-high platform (Track 2/South Station),Hyde Park mini-high platform (Track 2/South Station),,,,1
 subplat-NEC-2203-3,,2,elevated-subplatform,place-NEC-2203,Mini-high platform (Track 3/Outbound),Hyde Park mini-high platform (Track 3/Outbound),,,,1
+subplat-NHRML-0055-1,,2,elevated-subplatform,place-NHRML-0055,Mini-high platform (Track 1/Outbound),West Medford mini-high platform (Track 1/Outbound),,42.4223250,-71.1339360,1
+subplat-NHRML-0055-2,,2,elevated-subplatform,place-NHRML-0055,Mini-high platform (Track 2/Boston),West Medford mini-high platform (Track 2/Boston),,42.4222210,-71.1339870,1
 subplat-NHRML-0073-1,,2,elevated-subplatform,place-NHRML-0073,Mini-high platform (Track 1/Outbound),Wedgemere mini-high platform (Track 1/Outbound),,,,1
 subplat-NHRML-0073-2,,2,elevated-subplatform,place-NHRML-0073,Mini-high platform (Track 2/Boston),Wedgemere mini-high platform (Track 2/Boston),,,,1
 subplat-NHRML-0116-1,,2,elevated-subplatform,place-NHRML-0116,Mini-high platform (Track 1/Outbound),Mishawum mini-high platform (Track 1/Outbound),,,,1
@@ -1791,8 +1795,8 @@ subplat-NHRML-0218-1,,2,elevated-subplatform,place-NHRML-0218,Mini-high platform
 subplat-NHRML-0218-2,,2,elevated-subplatform,place-NHRML-0218,Mini-high platform,North Billerica mini-high platform,,,,1
 subplat-SB-0156-1,,2,elevated-subplatform,place-SB-0156,Mini-high platform,Canton Center mini-high platform,,,,1
 subplat-SB-0189-1,,2,elevated-subplatform,place-SB-0189,Mini-high platform,Stoughton mini-high platform,,,,1
-subplat-WML-0147-1,,2,elevated-subplatform,place-WML-0147,Mini-high platform (Track 1),Wellesley Square mini-high platform (Track 1),,,,1
-subplat-WML-0147-2,,2,elevated-subplatform,place-WML-0147,Mini-high platform (Track 2),Wellesley Square mini-high platform (Track 2),,,,1
+subplat-WML-0147-1,,2,elevated-subplatform,place-WML-0147,Mini-high platform (Track 1),Wellesley Square mini-high platform (Track 1),,42.2969630,-71.2957090,1
+subplat-WML-0147-2,,2,elevated-subplatform,place-WML-0147,Mini-high platform (Track 2),Wellesley Square mini-high platform (Track 2),,42.2965590,-71.2967460,1
 subplat-WML-0199-1,,2,elevated-subplatform,place-WML-0199,Mini-high platform (Track 1),West Natick mini-high platform (Track 1),,,,1
 subplat-WML-0199-2,,2,elevated-subplatform,place-WML-0199,Mini-high platform (Track 2),West Natick mini-high platform (Track 2),,,,1
 subplat-WML-0214-1,,2,elevated-subplatform,place-WML-0214,Mini-high platform (Track 1),Framingham mini-high platform (Track 1),,,,1
