@@ -1,747 +1,1038 @@
 trip_id,trip_property_id,value
-66622552,note,Waits at Ruggles for last Orange Line train
-66622552,trip_type,wait
-66622579,note,Waits at Tremont St opp Temple Pl for last Red Line and Green Line trains
-66622579,trip_type,wait
-66622690,note,Waits at W Broadway @ Broadway Station for last Red Line train
-66622690,trip_type,wait
-66622895,note,Waits at W Broadway @ Broadway Station for last Red Line train
-66622895,trip_type,wait
-66622932,note,Waits at Ruggles for last Orange Line train
-66622932,trip_type,wait
-66623004,note,Waits at Green St @ Magazine St for last Red Line train
-66623004,trip_type,wait
-66623011,note,Waits at Ruggles for last Orange Line train
-66623011,trip_type,wait
-66623148,note,Waits at Boylston St @ Dartmouth St for last Green Line train
-66623148,trip_type,wait
-66623218,note,Waits at Kenmore for last Green Line train
-66623218,trip_type,wait
-66623406,note,Waits at Ashmont for last Red Line train
-66623406,trip_type,wait
-66623464,note,Waits at Ruggles for last Orange Line train
-66623464,trip_type,wait
-66623537,note,Waits at Andrew for last Red Line train
-66623537,trip_type,wait
-66623541,note,Waits at Forest Hills for last Orange Line train
-66623541,trip_type,wait
-66623652,note,Waits at Harvard Sq @ Garden St - Dawes Island for last Red Line train
-66623652,trip_type,wait
-66623680,note,Waits at Nubian for last Silver Line bus
-66623680,trip_type,wait
-66623946,note,Waits at Nubian for last Silver Line bus
-66623946,trip_type,wait
-66624045,note,Waits at Massachusetts Ave opp Holyoke St for last Red Line train
-66624045,trip_type,wait
-66626907,note,Waits at Ruggles for last Orange Line train
-66626907,trip_type,wait
-66626947,note,Waits at Tremont St opp Temple Pl for last Red Line and Green Line trains
-66626947,trip_type,wait
-66627087,note,Waits at W Broadway @ Broadway Station for last Red Line train
-66627087,trip_type,wait
-66627198,note,Waits at Massachusetts Ave opp Holyoke St for last Red Line train
-66627198,trip_type,wait
-66627201,note,Waits at Nubian for last Silver Line bus
-66627201,trip_type,wait
-66627309,note,Waits at W Broadway @ Broadway Station for last Red Line train
-66627309,trip_type,wait
-66627440,note,Waits at Ruggles for last Orange Line train
-66627440,trip_type,wait
-66627652,note,Waits at Nubian for last Silver Line bus
-66627652,trip_type,wait
-66627662,note,Waits at Harvard Sq @ Garden St - Dawes Island for last Red Line train
-66627662,trip_type,wait
-66627804,note,Waits at Kenmore for last Green Line train
-66627804,trip_type,wait
-66627861,note,Waits at Boylston St @ Dartmouth St for last Green Line train
-66627861,trip_type,wait
-66627942,note,Waits at Andrew for last Red Line train
-66627942,trip_type,wait
-66627943,note,Waits at Forest Hills for last Orange Line train
-66627943,trip_type,wait
-66628139,note,Waits at Ashmont for last Red Line train
-66628139,trip_type,wait
-66628206,note,Waits at Ruggles for last Orange Line train
-66628206,trip_type,wait
-66644335,note,Does not run during school vacation
-66644335,trip_type,supplemental
-66644340,note,Does not run during school vacation
-66644340,trip_type,supplemental
-66644637,note,Does not run during school vacation
-66644637,trip_type,supplemental
-66644639,note,Does not run during school vacation
-66644639,trip_type,supplemental
-66644645,note,Does not run during school vacation
-66644645,trip_type,supplemental
-66644646,note,Does not run during school vacation
-66644646,trip_type,supplemental
-66644648,note,Does not run during school vacation
-66644648,trip_type,supplemental
-66644650,note,Does not run during school vacation
-66644650,trip_type,supplemental
-66644651,note,Does not run during school vacation
-66644651,trip_type,supplemental
-66644659,note,Does not run during school vacation
-66644659,trip_type,supplemental
-66644726,note,Does not run during school vacation
-66644726,trip_type,supplemental
-66645287,note,Does not run during school vacation
-66645287,trip_type,supplemental
-66645596,note,Does not run during school vacation
-66645596,trip_type,supplemental
-66645980,note,Does not run during school vacation
-66645980,trip_type,supplemental
-66646021,note,Does not run during school vacation
-66646021,trip_type,supplemental
-66646053,note,Does not run during school vacation
-66646053,trip_type,supplemental
-66646483,note,Does not run during school vacation
-66646483,trip_type,supplemental
-66646662,note,Does not run during school vacation
-66646662,trip_type,supplemental
-66646664,note,Does not run during school vacation
-66646664,trip_type,supplemental
-66646824,note,Does not run during school vacation
-66646824,trip_type,supplemental
-66647204,note,Does not run during school vacation
-66647204,trip_type,supplemental
-66647224,note,Does not run during school vacation
-66647224,trip_type,supplemental
-66650888,note,Does not run during school vacation
-66650888,trip_type,supplemental
-66651056,note,Waits at W Broadway @ Broadway Station for last Red Line train
-66651056,trip_type,wait
-66651103,note,Does not run during school vacation
-66651103,trip_type,supplemental
-66651177,note,Waits at W Broadway @ Broadway Station for last Red Line train
-66651177,trip_type,wait
-66651199,note,Does not run during school vacation
-66651199,trip_type,supplemental
-66651204,note,Does not run during school vacation
-66651204,trip_type,supplemental
-66651418,note,Does not run during school vacation
-66651418,trip_type,supplemental
-66651591,note,Waits at Nubian for last Silver Line bus
-66651591,trip_type,wait
-66651592,note,Waits at Nubian for last Silver Line bus
-66651592,trip_type,wait
-66651601,note,Does not run during school vacation
-66651601,trip_type,supplemental
-66651717,note,Does not run during school vacation
-66651717,trip_type,supplemental
-66651846,note,Waits at Harvard Sq @ Garden St - Dawes Island for last Red Line train
-66651846,trip_type,wait
-66651939,note,Waits at Massachusetts Ave opp Holyoke St for last Red Line train
-66651939,trip_type,wait
-66652041,note,Does not run during school vacation
-66652041,trip_type,supplemental
-66652052,note,Does not run during school vacation
-66652052,trip_type,supplemental
-66652053,note,Does not run during school vacation
-66652053,trip_type,supplemental
-66652054,note,Does not run during school vacation
-66652054,trip_type,supplemental
-66652056,note,Does not run during school vacation
-66652056,trip_type,supplemental
-66652065,note,Does not run during school vacation
-66652065,trip_type,supplemental
-66652071,note,Does not run during school vacation
-66652071,trip_type,supplemental
-66652174,note,Waits at Tremont St opp Temple Pl for last Red Line and Green Line trains
-66652174,trip_type,wait
-66652503,note,Waits at Ruggles for last Orange Line train
-66652503,trip_type,wait
-66652506,note,Waits at Ruggles for last Orange Line train
-66652506,trip_type,wait
-66652508,note,Waits at Ruggles for last Orange Line train
-66652508,trip_type,wait
-66652549,note,Does not run during school vacation
-66652549,trip_type,supplemental
-66652647,note,Does not run during school vacation
-66652647,trip_type,supplemental
-66652788,note,Does not run during school vacation
-66652788,trip_type,supplemental
-66652815,note,Does not run during school vacation
-66652815,trip_type,supplemental
-66653087,note,Waits at Andrew for last Red Line train
-66653087,trip_type,wait
-66653090,note,Waits at Boylston St @ Dartmouth St for last Green Line train
-66653090,trip_type,wait
-66653093,note,Waits at Forest Hills for last Orange Line train
-66653093,trip_type,wait
-66653133,note,Does not run during school vacation
-66653133,trip_type,supplemental
-66653145,note,Does not run during school vacation
-66653145,trip_type,supplemental
-66653146,note,Does not run during school vacation
-66653146,trip_type,supplemental
-66653158,note,Does not run during school vacation
-66653158,trip_type,supplemental
-66653212,note,Does not run during school vacation
-66653212,trip_type,supplemental
-66653402,note,Does not run during school vacation
-66653402,trip_type,supplemental
-66653518,note,Waits at Green St @ Magazine St for last Red Line train
-66653518,trip_type,wait
-66653626,note,Waits at Ashmont for last Red Line train
-66653626,trip_type,wait
-66653632,note,Waits at Ruggles for last Orange Line train
-66653632,trip_type,wait
-66653776,note,Does not run during school vacation
-66653776,trip_type,supplemental
-66653777,note,Does not run during school vacation
-66653777,trip_type,supplemental
-66653963,note,Waits at Kenmore for last Green Line train
-66653963,trip_type,wait
-66830438,note,Waits at Ashmont for last Red Line train
-66830438,trip_type,wait
-66831765,note,Waits at Ashmont for last Red Line train
-66831765,trip_type,wait
-66832974,note,Waits at Ashmont for last Red Line train
-66832974,trip_type,wait
-66858743,note,Waits at Temple Pl @ Washington St for last Red Line and Orange Line trains
-66858743,trip_type,wait
-66858836,note,Waits at South Station for last Red Line train
-66858836,trip_type,wait
-66859319,note,Waits at South Station for last Red Line train
-66859319,trip_type,wait
-66859565,note,Does not run during school vacation
-66859565,trip_type,supplemental
-66859634,note,Does not run during school vacation
-66859634,trip_type,supplemental
-66859732,note,Does not run during school vacation
-66859732,trip_type,supplemental
-66859899,note,Waits at Ruggles for last Orange Line train
-66859899,trip_type,wait
-66859900,note,Waits at Mattapan for last Mattapan Trolley train
-66859900,trip_type,wait
-66860066,note,Waits at Back Bay for last Orange Line train
-66860066,trip_type,wait
-66862685,note,Waits at South Station for last Red Line train
-66862685,trip_type,wait
-66862855,note,Waits at Mattapan for last Mattapan Trolley train
-66862855,trip_type,wait
-66862857,note,Waits at Ruggles for last Orange Line train
-66862857,trip_type,wait
-66863193,note,Waits at South Station for last Red Line train
-66863193,trip_type,wait
-66863603,note,Waits at Temple Pl @ Washington St for last Red Line and Orange Line trains
-66863603,trip_type,wait
-66863693,note,Waits at Back Bay for last Orange Line train
-66863693,trip_type,wait
-66867805,note,Waits at Temple Pl @ Washington St for last Red Line and Orange Line trains
-66867805,trip_type,wait
-66867940,note,Waits at Mattapan for last Mattapan Trolley train
-66867940,trip_type,wait
-66867958,note,Waits at Ruggles for last Orange Line train
-66867958,trip_type,wait
-66868439,note,Waits at Back Bay for last Orange Line train
-66868439,trip_type,wait
-66868481,note,Waits at South Station for last Red Line train
-66868481,trip_type,wait
-66868832,note,Waits at South Station for last Red Line train
-66868832,trip_type,wait
-66956893,note,Does not run during school vacation
-66956893,trip_type,supplemental
-66957023,note,Does not run during school vacation
-66957023,trip_type,supplemental
-66957066,note,Does not run during school vacation
-66957066,trip_type,supplemental
-66957219,note,Does not run during school vacation
-66957219,trip_type,supplemental
-66957315,note,Does not run during school vacation
-66957315,trip_type,supplemental
-66957363,note,Does not run during school vacation
-66957363,trip_type,supplemental
-66957507,note,Waits at Surface Rd @ Hanover St for last Orange Line and Green Line trains
-66957507,trip_type,wait
-66957570,note,Waits at Harvard for last Red Line train
-66957570,trip_type,wait
-66957620,note,Does not run during school vacation
-66957620,trip_type,supplemental
-66957721,note,Waits at Sullivan Square for last Orange Line train
-66957721,trip_type,wait
-66957787,note,Waits at Wellington for last Orange Line train
-66957787,trip_type,wait
-66957810,note,Waits at Malden Center for last Orange Line train
-66957810,trip_type,wait
-66958058,note,Waits at Sullivan Square for last Orange Line train
-66958058,trip_type,wait
-66958213,note,Waits at Wellington for last Orange Line train
-66958213,trip_type,wait
-66958224,note,Waits at Wellington for last Orange Line train
-66958224,trip_type,wait
-66958356,note,Waits at Sullivan Square for last Orange Line train
-66958356,trip_type,wait
-66958371,note,Does not run during school vacation
-66958371,trip_type,supplemental
-66958505,note,Waits at Airport for last Red Line train
-66958505,trip_type,wait
-66958686,note,Waits at Sullivan Square for last Red Line train
-66958686,trip_type,wait
-66958785,note,Waits at Sullivan Square for last Red Line train
-66958785,trip_type,wait
-66958858,note,Waits at Wellington for last Red Line train
-66958858,trip_type,wait
-66959073,note,Does not run during school vacation
-66959073,trip_type,supplemental
-66959074,note,Does not run during school vacation
-66959074,trip_type,supplemental
-66959865,note,Does not run during school vacation
-66959865,trip_type,supplemental
-66959934,note,Does not run during school vacation
-66959934,trip_type,supplemental
-66959971,note,Does not run during school vacation
-66959971,trip_type,supplemental
-66960009,note,Does not run during school vacation
-66960009,trip_type,supplemental
-66960106,note,Does not run during school vacation
-66960106,trip_type,supplemental
-66960200,note,Does not run during school vacation
-66960200,trip_type,supplemental
-66960225,note,Does not run during school vacation
-66960225,trip_type,supplemental
-66960256,note,Does not run during school vacation
-66960256,trip_type,supplemental
-66960267,note,Does not run during school vacation
-66960267,trip_type,supplemental
-66960305,note,Does not run during school vacation
-66960305,trip_type,supplemental
-66960339,note,Does not run during school vacation
-66960339,trip_type,supplemental
-66961389,note,Does not run during school vacation
-66961389,trip_type,supplemental
-66961972,note,Does not run during school vacation
-66961972,trip_type,supplemental
-66961973,note,Does not run during school vacation
-66961973,trip_type,supplemental
-66961974,note,Does not run during school vacation
-66961974,trip_type,supplemental
-66962031,note,Does not run during school vacation
-66962031,trip_type,supplemental
-66962043,note,Does not run during school vacation
-66962043,trip_type,supplemental
-67007732,note,Does not run during school vacation
-67007732,trip_type,supplemental
-67007747,note,Waits at Mt Auburn St @ Story St for last Red Line train
-67007747,trip_type,wait
-67007859,note,Waits at Mt Auburn St @ Story St for last Red Line train
-67007859,trip_type,wait
-67008079,note,Waits at Lechmere for last Green Line train
-67008079,trip_type,wait
-67008203,note,Does not run during school vacation
-67008203,trip_type,supplemental
-67008207,note,Waits at Main St @ Kendall Station - Red Line for last Red Line train
-67008207,trip_type,wait
-67008228,note,Does not run during school vacation
-67008228,trip_type,supplemental
-67008491,note,Waits at Harvard for last Red Line train
-67008491,trip_type,wait
-67008775,note,Waits at Green St @ Magazine St for last Red Line train
-67008775,trip_type,wait
-67008904,note,Does not run during school vacation
-67008904,trip_type,supplemental
-67008941,note,Waits at Lechmere for last Green Line train
-67008941,trip_type,wait
-67009059,note,Waits at Lechmere for last Green Line train
-67009059,trip_type,wait
-67009097,note,Waits at Lechmere for last Green Line train
-67009097,trip_type,wait
-67009354,note,Does not run during school vacation
-67009354,trip_type,supplemental
-67009421,note,Does not run during school vacation
-67009421,trip_type,supplemental
-67009545,note,Waits at Western Ave @ Green St for last Red Line train
-67009545,trip_type,wait
-67009588,note,Does not run during school vacation
-67009588,trip_type,supplemental
-67009721,note,Waits at Harvard for last Red Line train
-67009721,trip_type,wait
-67009755,note,Does not run during school vacation
-67009755,trip_type,supplemental
-67010292,note,Waits at Harvard for last Red Line train
-67010292,trip_type,wait
-67010476,note,Waits at Harvard for last Red Line train
-67010476,trip_type,wait
-67010525,note,Waits at Green St @ Magazine St for last Red Line train
-67010525,trip_type,wait
-67010654,note,Waits at Lechmere for last Green Line train
-67010654,trip_type,wait
-67010692,note,Waits at Lechmere for last Green Line train
-67010692,trip_type,wait
-67010760,note,Waits at Lechmere for last Green Line train
-67010760,trip_type,wait
-67010847,note,Waits at Western Ave @ Green St for last Red Line train
-67010847,trip_type,wait
-67011111,note,Waits at Harvard for last Red Line train
-67011111,trip_type,wait
-67014141,note,Waits at Sullivan Square for last Orange Line train
-67014141,trip_type,wait
-67014385,note,Waits at Harvard for last Red Line train
-67014385,trip_type,wait
-67014562,note,Waits at Green St @ Magazine St for last Red Line train
-67014562,trip_type,wait
-67014722,note,Waits at Harvard for last Red Line train
-67014722,trip_type,wait
-67014724,note,Waits at Harvard for last Red Line train
-67014724,trip_type,wait
-67014860,note,Waits at Lechmere for last Green Line train
-67014860,trip_type,wait
-67014955,note,Waits at Magazine St @ Green St for last Red Line train
-67014955,trip_type,wait
-67014986,note,Waits at Western Ave @ Green St for last Red Line train
-67014986,trip_type,wait
-67015149,note,Waits at Lechmere for last Green Line train
-67015149,trip_type,wait
-67015194,note,Waits at Lechmere for last Green Line train
-67015194,trip_type,wait
-67015406,note,Waits at Lechmere for last Green Line train
-67015406,trip_type,wait
-67015542,note,Waits at Harvard for last Red Line train
-67015542,trip_type,wait
-67015606,note,Waits at Malden Center for last Orange Line train
-67015606,trip_type,wait
-67015831,note,Waits at Sullivan Square for last Orange Line train
-67015831,trip_type,wait
-67015986,note,Waits at Surface Rd @ Hanover St for last Orange Line and Green Line trains
-67015986,trip_type,wait
-67016036,note,Waits at Harvard for last Red Line train
-67016036,trip_type,wait
-67016161,note,Waits at Wellington for last Orange Line train
-67016161,trip_type,wait
-67016253,note,Waits at Airport for last Red Line train
-67016253,trip_type,wait
-67016417,note,Waits at one or more stops for connections
-67016417,trip_type,wait
-67016503,note,Waits at Sullivan Square for last Red Line train
-67016503,trip_type,wait
-67016581,note,Waits at Wellington for last Red Line train
-67016581,trip_type,wait
-67057734,note,Waits at Wellington for last Orange Line train
-67057734,trip_type,wait
-67057841,note,Waits at Sullivan Square for last Orange Line train
-67057841,trip_type,wait
-67057886,note,Waits at Sullivan Square for last Orange Line train
-67057886,trip_type,wait
-67058269,note,Waits at Malden Center for last Orange Line train
-67058269,trip_type,wait
-67058280,note,Waits at Wellington for last Orange Line train
-67058280,trip_type,wait
-67058430,note,Waits at Sullivan Square for last Orange Line train
-67058430,trip_type,wait
-67058448,note,Waits at Surface Rd @ Hanover St for last Orange Line and Green Line trains
-67058448,trip_type,wait
-67058712,note,Waits at Wellington for last Orange Line train
-67058712,trip_type,wait
-67058773,note,Waits at Harvard for last Red Line train
-67058773,trip_type,wait
-67058865,note,Waits at Airport for last Red Line train
-67058865,trip_type,wait
-67059046,note,Waits at Sullivan Square for last Red Line train
-67059046,trip_type,wait
-67059278,note,Waits at Wellington for last Red Line train
-67059278,trip_type,wait
-67059285,note,Waits at Sullivan Square for last Red Line train
-67059285,trip_type,wait
-67059311,note,Waits at Sullivan Square for last Orange Line train
-67059311,trip_type,wait
-67202282,note,Does not run during school vacation
-67202282,trip_type,supplemental
-67202283,note,Does not run during school vacation
-67202283,trip_type,supplemental
-67202287,note,Does not run during school vacation
-67202287,trip_type,supplemental
-67202289,note,Does not run during school vacation
-67202289,trip_type,supplemental
-67202366,note,Does not run during school vacation
-67202366,trip_type,supplemental
-67202413,note,Waits at Congress St @ Haymarket Sta for last Orange Line and Green Line trains
-67202413,trip_type,wait
-67202414,note,Does not run during school vacation
-67202414,trip_type,supplemental
-67202415,note,Does not run during school vacation
-67202415,trip_type,supplemental
-67202416,note,Does not run during school vacation
-67202416,trip_type,supplemental
-67202417,note,Does not run during school vacation
-67202417,trip_type,supplemental
-67202480,note,Waits at Wonderland for last Blue Line train
-67202480,trip_type,wait
-67202504,note,Does not run during school vacation
-67202504,trip_type,supplemental
-67202575,note,Does not run during school vacation
-67202575,trip_type,supplemental
-67202576,note,Does not run during school vacation
-67202576,trip_type,supplemental
-67202577,note,Does not run during school vacation
-67202577,trip_type,supplemental
-67202578,note,Does not run during school vacation
-67202578,trip_type,supplemental
-67202579,note,Does not run during school vacation
-67202579,trip_type,supplemental
-67202665,note,Does not run during school vacation
-67202665,trip_type,supplemental
-67203080,note,Waits at Maverick for last Blue Line train
-67203080,trip_type,wait
-67203441,note,Waits at Wonderland for last Blue Line train
-67203441,trip_type,wait
-67203442,note,Waits at Maverick for last Blue Line train
-67203442,trip_type,wait
-67223304,note,Waits at Wonderland for last Blue Line train
-67223304,trip_type,wait
-67223370,note,Waits at Maverick for last Blue Line train
-67223370,trip_type,wait
-67233170,note,Waits at Fields Corner for last Red Line train
-67233170,trip_type,wait
-67233331,note,Waits at Quincy Center for last Red Line train
-67233331,trip_type,wait
-67236739,note,Waits at Forest Hills for last Orange Line train
-67236739,trip_type,wait
-67237094,note,Waits at Mattapan for last Mattapan Trolley train
-67237094,note,Waits at Ashmont for last Red Line train
-67237094,trip_type,wait
-67237194,note,Waits at Forest Hills for last Orange Line train
-67237194,trip_type,wait
-67237384,note,Waits at Forest Hills for last Orange Line train
-67237384,trip_type,wait
-67237736,note,Waits at Ashmont for last Red Line train
-67237736,trip_type,wait
-67237766,note,Waits at Forest Hills for last Orange Line train
-67237766,trip_type,wait
-67238460,note,Waits at Fields Corner for last Red Line train
-67238460,trip_type,wait
-67239055,note,Waits at Quincy Center for last Red Line train
-67239055,trip_type,wait
-67250333,note,Waits at Mattapan for last Mattapan Trolley train
-67250333,note,Waits at Ashmont for last Red Line train
-67250333,trip_type,wait
-67250548,note,Waits at Forest Hills for last Orange Line train
-67250548,trip_type,wait
-67251029,note,Waits at Ashmont for last Red Line train
-67251029,trip_type,wait
-67251095,note,Does not run during school vacation
-67251095,trip_type,supplemental
-67251188,note,Does not run during school vacation
-67251188,trip_type,supplemental
-67251191,note,Does not run during school vacation
-67251191,trip_type,supplemental
-67251197,note,Does not run during school vacation
-67251197,trip_type,supplemental
-67251199,note,Does not run during school vacation
-67251199,trip_type,supplemental
-67251202,note,Does not run during school vacation
-67251202,trip_type,supplemental
-67251228,note,Does not run during school vacation
-67251228,trip_type,supplemental
-67251327,note,Does not run during school vacation
-67251327,trip_type,supplemental
-67251531,note,Waits at Forest Hills for last Orange Line train
-67251531,trip_type,wait
-67251612,note,Does not run during school vacation
-67251612,trip_type,supplemental
-67251614,note,Does not run during school vacation
-67251614,trip_type,supplemental
-67251683,note,Waits at Forest Hills for last Orange Line train
-67251683,trip_type,wait
-67251826,note,Does not run during school vacation
-67251826,trip_type,supplemental
-67251827,note,Does not run during school vacation
-67251827,trip_type,supplemental
-67251839,note,Does not run during school vacation
-67251839,trip_type,supplemental
-67251842,note,Does not run during school vacation
-67251842,trip_type,supplemental
-67251843,note,Does not run during school vacation
-67251843,trip_type,supplemental
-67251850,note,Does not run during school vacation
-67251850,trip_type,supplemental
-67251875,note,Waits at Forest Hills for last Orange Line train
-67251875,trip_type,wait
-67251879,note,Does not run during school vacation
-67251879,trip_type,supplemental
-67251882,note,Does not run during school vacation
-67251882,trip_type,supplemental
-67251903,note,Does not run during school vacation
-67251903,trip_type,supplemental
-67252010,note,Does not run during school vacation
-67252010,trip_type,supplemental
-67252070,note,Does not run during school vacation
-67252070,trip_type,supplemental
-67252071,note,Does not run during school vacation
-67252071,trip_type,supplemental
-67252072,note,Does not run during school vacation
-67252072,trip_type,supplemental
-67258460,note,Waits at Forest Hills for last Orange Line train
-67258460,trip_type,wait
-67258698,note,Waits at Forest Hills for last Orange Line train
-67258698,trip_type,wait
-67258778,note,Waits at Forest Hills for last Orange Line train
-67258778,trip_type,wait
-67258998,note,Waits at Forest Hills for last Orange Line train
-67258998,trip_type,wait
-67270429,note,Waits at State for last Orange Line train
-67270429,trip_type,wait
-67290088,note,Does not run during school vacation
-67290088,trip_type,supplemental
-67290254,note,Does not run during school vacation
-67290254,trip_type,supplemental
-67290255,note,Does not run during school vacation
-67290255,trip_type,supplemental
-67290256,note,Does not run during school vacation
-67290256,trip_type,supplemental
-67290257,note,Does not run during school vacation
-67290257,trip_type,supplemental
-67290369,note,Waits at Fields Corner for last Red Line train
-67290369,trip_type,wait
-67290371,note,Does not run during school vacation
-67290371,trip_type,supplemental
-67290576,note,Does not run during school vacation
-67290576,trip_type,supplemental
-67290577,note,Does not run during school vacation
-67290577,trip_type,supplemental
-67290785,note,Does not run during school vacation
-67290785,trip_type,supplemental
-67290801,note,Does not run during school vacation
-67290801,trip_type,supplemental
-67290808,note,Does not run during school vacation
-67290808,trip_type,supplemental
-67290948,note,Waits at Quincy Center for last Red Line train
-67290948,trip_type,wait
-67291074,note,Does not run during school vacation
-67291074,trip_type,supplemental
-67291076,note,Does not run during school vacation
-67291076,trip_type,supplemental
-67316532,note,Waits at Orient Heights for last Blue Line train
-67316532,trip_type,wait
-67316534,note,Will go to Point Shirley if requested
-67316896,note,Waits at Orient Heights for last Blue Line train
-67316896,trip_type,wait
-67317075,note,Waits at Orient Heights for last Blue Line train
-67317075,trip_type,wait
-NorthWKDYF24-706178-127,note,Waits at Salem for Train 167
-NorthWKDYF24-706178-127,trip_type,wait
-SouthWKDYF24-697797-759,note,Waits at Readville for Train 837
-SouthWKDYF24-697797-759,trip_type,wait
-SouthWKDYF24-697833-834,note,Waits at Readville for Train 728
-SouthWKDYF24-697833-834,trip_type,wait
-SouthWKDYF24-697871-892,note,Waits at Readville for Train 732
-SouthWKDYF24-697871-892,trip_type,wait
-SouthWKDYF24-697777-735,note,Waits at Readville for Train 841
-SouthWKDYF24-697777-735,trip_type,wait
-SouthWKDYF24-697839-840,note,Waits at Readville for Train 734
-SouthWKDYF24-697839-840,trip_type,wait
-SouthWKDYF24-697750-633,note,Waits at Forest Hills for Train 839
-SouthWKDYF24-697750-633,trip_type,wait
-SouthWKDYF24-697827-828,note,Waits at Readville for Train 752
-SouthWKDYF24-697827-828,trip_type,wait
-SouthWKDYF24-697843-862,note,Waits at Readville for Train 740
-SouthWKDYF24-697843-862,trip_type,wait
-SouthWKDYF24-697795-757,note,Waits at Readville for Train 833
-SouthWKDYF24-697795-757,trip_type,wait
-SouthWKDYF24-704936-067,note,Waits at Braintree for Train 031
-SouthWKDYF24-704936-067,trip_type,wait
-SouthWKDYF24-697751-635,note,Waits at Forest Hills for Train 841
-SouthWKDYF24-697751-635,trip_type,wait
-SouthWKNDF24-698042-1701,note,Waits at Readville for Train 1801
-SouthWKNDF24-698042-1701,trip_type,wait
-SouthWKNDF24-698067-1806,note,Waits at Readville for Train 1706
-SouthWKNDF24-698067-1806,trip_type,wait
-SouthWKNDF24-698060-1719,note,Waits at Readville for Train 1819
-SouthWKNDF24-698060-1719,trip_type,wait
-SouthWKNDF24-698569-2808,note,Waits at Readville for Train 2708
-SouthWKNDF24-698569-2808,trip_type,wait
-SouthWKNDF24-698079-1818,note,Waits at Readville for Train 1718
-SouthWKNDF24-698079-1818,trip_type,wait
-SouthWKNDF24-698069-1808,note,Waits at Readville for Train 1708
-SouthWKNDF24-698069-1808,trip_type,wait
-SouthWKNDF24-698558-2717,note,Waits at Readville for Train 2817
-SouthWKNDF24-698558-2717,trip_type,wait
-SouthWKNDF24-698058-1717,note,Waits at Readville for Train 1817
-SouthWKNDF24-698058-1717,trip_type,wait
-SouthWKNDF24-698063-1802,note,Waits at Readville for Train 1702
-SouthWKNDF24-698063-1802,trip_type,wait
-SouthWKNDF24-698573-2812,note,Waits at Readville for Train 2712
-SouthWKNDF24-698573-2812,trip_type,wait
-SouthWKNDF24-698061-1800,note,Waits at Readville for Train 1700
-SouthWKNDF24-698061-1800,trip_type,wait
-SouthWKNDF24-698563-2802,note,Waits at Readville for Train 2702
-SouthWKNDF24-698563-2802,trip_type,wait
-SouthWKNDF24-698056-1715,note,Waits at Readville for Train 1815
-SouthWKNDF24-698056-1715,trip_type,wait
-SouthWKNDF24-697988-1057,note,Waits at Braintree for Train 1021
-SouthWKNDF24-697988-1057,trip_type,wait
-SouthWKNDF24-698577-2816,note,Waits at Readville for Train 2716
-SouthWKNDF24-698577-2816,trip_type,wait
-SouthWKNDF24-698548-2707,note,Waits at Readville for Train 2807
-SouthWKNDF24-698548-2707,trip_type,wait
-SouthWKNDF24-698077-1816,note,Waits at Readville for Train 1716
-SouthWKNDF24-698077-1816,trip_type,wait
-SouthWKNDF24-698556-2715,note,Waits at Readville for Train 2815
-SouthWKNDF24-698556-2715,trip_type,wait
-SouthWKNDF24-698567-2806,note,Waits at Readville for Train 2706
-SouthWKNDF24-698567-2806,trip_type,wait
-SouthWKNDF24-698073-1812,note,Waits at Readville for Train 1712
-SouthWKNDF24-698073-1812,trip_type,wait
-SouthWKNDF24-698561-2800,note,Waits at Readville for Train 2700
-SouthWKNDF24-698561-2800,trip_type,wait
-SouthWKNDF24-698579-2818,note,Waits at Readville for Train 2718
-SouthWKNDF24-698579-2818,trip_type,wait
-SouthWKNDF24-698052-1711,note,Waits at Readville for Train 1811
-SouthWKNDF24-698052-1711,trip_type,wait
-SouthWKNDF24-698050-1709,note,Waits at Readville for Train 1809
-SouthWKNDF24-698050-1709,trip_type,wait
-SouthWKNDF24-698565-2804,note,Waits at Readville for Train 2704
-SouthWKNDF24-698565-2804,trip_type,wait
-SouthWKNDF24-698044-1703,note,Waits at Readville for Train 1803
-SouthWKNDF24-698044-1703,trip_type,wait
-SouthWKNDF24-698048-1707,note,Waits at Readville for Train 1807
-SouthWKNDF24-698048-1707,trip_type,wait
-SouthWKNDF24-698075-1814,note,Waits at Readville for Train 1714
-SouthWKNDF24-698075-1814,trip_type,wait
-SouthWKNDF24-698575-2814,note,Waits at Readville for Train 2714
-SouthWKNDF24-698575-2814,trip_type,wait
-SouthWKNDF24-698560-2719,note,Waits at Readville for Train 2819
-SouthWKNDF24-698560-2719,trip_type,wait
-SouthWKNDF24-698046-1705,note,Waits at Readville for Train 1805
-SouthWKNDF24-698046-1705,trip_type,wait
-SouthWKNDF24-698542-2701,note,Waits at Readville for Train 2801
-SouthWKNDF24-698542-2701,trip_type,wait
-SouthWKNDF24-698065-1804,note,Waits at Readville for Train 1704
-SouthWKNDF24-698065-1804,trip_type,wait
-SouthWKNDF24-698071-1810,note,Waits at Readville for Train 1710
-SouthWKNDF24-698071-1810,trip_type,wait
-SouthWKNDF24-698054-1713,note,Waits at Readville for Train 1813
-SouthWKNDF24-698054-1713,trip_type,wait
-SouthWKNDF24-698550-2709,note,Waits at Readville for Train 2809
-SouthWKNDF24-698550-2709,trip_type,wait
-SouthWKNDF24-698554-2713,note,Waits at Readville for Train 2813
-SouthWKNDF24-698554-2713,trip_type,wait
-SouthWKNDF24-698552-2711,note,Waits at Readville for Train 2811
-SouthWKNDF24-698552-2711,trip_type,wait
-SouthWKNDF24-698571-2810,note,Waits at Readville for Train 2710
-SouthWKNDF24-698571-2810,trip_type,wait
-SouthWKNDF24-698546-2705,note,Waits at Readville for Train 2805
-SouthWKNDF24-698546-2705,trip_type,wait
-SouthWKNDF24-698544-2703,note,Waits at Readville for Train 2803
-SouthWKNDF24-698544-2703,trip_type,wait
-SouthWKNDF24-698488-2057,note,Waits at Braintree for Train 2021
-SouthWKNDF24-698488-2057,trip_type,wait
+68107763,note,Waits at Ashmont for last Red Line train
+68107763,trip_type,wait
+68107954,note,Waits at Ashmont for last Red Line train
+68107954,trip_type,wait
+68108144,note,Waits at Ashmont for last Red Line train
+68108144,trip_type,wait
+68108383,note,Waits at Ashmont for last Red Line train
+68108383,trip_type,wait
+68136468,note,Waits at Ruggles for last Orange Line train
+68136468,trip_type,wait
+68136496,note,Waits at Tremont St opp Temple Pl for last Red Line and Green Line trains
+68136496,trip_type,wait
+68136606,note,Waits at W Broadway @ Broadway Station for last Red Line train
+68136606,trip_type,wait
+68136811,note,Waits at W Broadway @ Broadway Station for last Red Line train
+68136811,trip_type,wait
+68136848,note,Waits at Ruggles for last Orange Line train
+68136848,trip_type,wait
+68136921,note,Waits at Green St @ Pearl St for last Red Line train
+68136921,trip_type,wait
+68136927,note,Waits at Ruggles for last Orange Line train
+68136927,trip_type,wait
+68137064,note,Waits at Boylston St @ Dartmouth St for last Green Line train
+68137064,trip_type,wait
+68137130,note,Waits at Kenmore for last Green Line train
+68137130,trip_type,wait
+68137318,note,Waits at Ashmont for last Red Line train
+68137318,trip_type,wait
+68137374,note,Waits at Ruggles for last Orange Line train
+68137374,trip_type,wait
+68137449,note,Waits at Andrew for last Red Line train
+68137449,trip_type,wait
+68137453,note,Waits at Forest Hills for last Orange Line train
+68137453,trip_type,wait
+68137564,note,Waits at Harvard Sq @ Garden St - Dawes Island for last Red Line train
+68137564,trip_type,wait
+68137592,note,Waits at Nubian for last Silver Line bus
+68137592,trip_type,wait
+68137800,note,Waits at Nubian for last Silver Line bus
+68137800,trip_type,wait
+68137902,note,Waits at Massachusetts Ave opp Holyoke St for last Red Line train
+68137902,trip_type,wait
+68140776,note,Waits at Ruggles for last Orange Line train
+68140776,trip_type,wait
+68140817,note,Waits at Tremont St opp Temple Pl for last Red Line and Green Line trains
+68140817,trip_type,wait
+68140957,note,Waits at W Broadway @ Broadway Station for last Red Line train
+68140957,trip_type,wait
+68141045,note,Waits at Massachusetts Ave opp Holyoke St for last Red Line train
+68141045,trip_type,wait
+68141051,note,Waits at Nubian for last Silver Line bus
+68141051,trip_type,wait
+68141153,note,Waits at W Broadway @ Broadway Station for last Red Line train
+68141153,trip_type,wait
+68141285,note,Waits at Ruggles for last Orange Line train
+68141285,trip_type,wait
+68141492,note,Waits at Nubian for last Silver Line bus
+68141492,trip_type,wait
+68141501,note,Waits at Harvard Sq @ Garden St - Dawes Island for last Red Line train
+68141501,trip_type,wait
+68141644,note,Waits at Kenmore for last Green Line train
+68141644,trip_type,wait
+68141700,note,Waits at Boylston St @ Dartmouth St for last Green Line train
+68141700,trip_type,wait
+68141781,note,Waits at Andrew for last Red Line train
+68141781,trip_type,wait
+68141782,note,Waits at Forest Hills for last Orange Line train
+68141782,trip_type,wait
+68141975,note,Waits at Ashmont for last Red Line train
+68141975,trip_type,wait
+68142045,note,Waits at Ruggles for last Orange Line train
+68142045,trip_type,wait
+68161588,note,Does not run during school vacation
+68161588,trip_type,supplemental
+68161884,note,Does not run during school vacation
+68161884,trip_type,supplemental
+68161892,note,Does not run during school vacation
+68161892,trip_type,supplemental
+68161893,note,Does not run during school vacation
+68161893,trip_type,supplemental
+68161895,note,Does not run during school vacation
+68161895,trip_type,supplemental
+68161899,note,Does not run during school vacation
+68161899,trip_type,supplemental
+68161901,note,Does not run during school vacation
+68161901,trip_type,supplemental
+68161906,note,Does not run during school vacation
+68161906,trip_type,supplemental
+68161972,note,Does not run during school vacation
+68161972,trip_type,supplemental
+68162522,note,Does not run during school vacation
+68162522,trip_type,supplemental
+68162532,note,Does not run during school vacation
+68162532,trip_type,supplemental
+68162534,note,Does not run during school vacation
+68162534,trip_type,supplemental
+68163225,note,Does not run during school vacation
+68163225,trip_type,supplemental
+68163266,note,Does not run during school vacation
+68163266,trip_type,supplemental
+68163298,note,Does not run during school vacation
+68163298,trip_type,supplemental
+68163903,note,Does not run during school vacation
+68163903,trip_type,supplemental
+68163905,note,Does not run during school vacation
+68163905,trip_type,supplemental
+68164042,note,Does not run during school vacation
+68164042,trip_type,supplemental
+68164323,note,Does not run during school vacation
+68164323,trip_type,supplemental
+68164327,note,Does not run during school vacation
+68164327,trip_type,supplemental
+68165520,note,Does not run during school vacation
+68165520,trip_type,supplemental
+68165688,note,Waits at W Broadway @ Broadway Station for last Red Line train
+68165688,trip_type,wait
+68165731,note,Does not run during school vacation
+68165731,trip_type,supplemental
+68165735,note,Does not run during school vacation
+68165735,trip_type,supplemental
+68165808,note,Waits at W Broadway @ Broadway Station for last Red Line train
+68165808,trip_type,wait
+68165830,note,Does not run during school vacation
+68165830,trip_type,supplemental
+68165835,note,Does not run during school vacation
+68165835,trip_type,supplemental
+68166034,note,Does not run during school vacation
+68166034,trip_type,supplemental
+68166046,note,Does not run during school vacation
+68166046,trip_type,supplemental
+68166221,note,Waits at Nubian for last Silver Line bus
+68166221,trip_type,wait
+68166222,note,Waits at Nubian for last Silver Line bus
+68166222,trip_type,wait
+68166231,note,Does not run during school vacation
+68166231,trip_type,supplemental
+68166347,note,Does not run during school vacation
+68166347,trip_type,supplemental
+68166475,note,Waits at Harvard Sq @ Garden St - Dawes Island for last Red Line train
+68166475,trip_type,wait
+68166568,note,Waits at Massachusetts Ave opp Holyoke St for last Red Line train
+68166568,trip_type,wait
+68166681,note,Does not run during school vacation
+68166681,trip_type,supplemental
+68166683,note,Does not run during school vacation
+68166683,trip_type,supplemental
+68166685,note,Does not run during school vacation
+68166685,trip_type,supplemental
+68166694,note,Does not run during school vacation
+68166694,trip_type,supplemental
+68166701,note,Does not run during school vacation
+68166701,trip_type,supplemental
+68166804,note,Waits at Tremont St opp Temple Pl for last Red Line and Green Line trains
+68166804,trip_type,wait
+68166989,note,Does not run during school vacation
+68166989,trip_type,supplemental
+68167132,note,Waits at Ruggles for last Orange Line train
+68167132,trip_type,wait
+68167135,note,Waits at Ruggles for last Orange Line train
+68167135,trip_type,wait
+68167137,note,Waits at Ruggles for last Orange Line train
+68167137,trip_type,wait
+68167178,note,Does not run during school vacation
+68167178,trip_type,supplemental
+68167276,note,Does not run during school vacation
+68167276,trip_type,supplemental
+68167417,note,Does not run during school vacation
+68167417,trip_type,supplemental
+68167444,note,Does not run during school vacation
+68167444,trip_type,supplemental
+68167713,note,Waits at Andrew for last Red Line train
+68167713,trip_type,wait
+68167715,note,Waits at Boylston St @ Dartmouth St for last Green Line train
+68167715,trip_type,wait
+68167718,note,Waits at Forest Hills for last Orange Line train
+68167718,trip_type,wait
+68167758,note,Does not run during school vacation
+68167758,trip_type,supplemental
+68167770,note,Does not run during school vacation
+68167770,trip_type,supplemental
+68167771,note,Does not run during school vacation
+68167771,trip_type,supplemental
+68167783,note,Does not run during school vacation
+68167783,trip_type,supplemental
+68167834,note,Does not run during school vacation
+68167834,trip_type,supplemental
+68167869,note,Does not run during school vacation
+68167869,trip_type,supplemental
+68168027,note,Does not run during school vacation
+68168027,trip_type,supplemental
+68168124,note,Waits at Green St @ Pearl St for last Red Line train
+68168124,trip_type,wait
+68168229,note,Waits at Ashmont for last Red Line train
+68168229,trip_type,wait
+68168235,note,Waits at Ruggles for last Orange Line train
+68168235,trip_type,wait
+68168311,note,Does not run during school vacation
+68168311,trip_type,supplemental
+68168312,note,Does not run during school vacation
+68168312,trip_type,supplemental
+68168470,note,Waits at Kenmore for last Green Line train
+68168470,trip_type,wait
+68224006,note,Waits at W Broadway @ Broadway Station for last Red Line train
+68224006,trip_type,wait
+68224123,note,Waits at W Broadway @ Broadway Station for last Red Line train
+68224123,trip_type,wait
+68224524,note,Waits at Nubian for last Silver Line bus
+68224524,trip_type,wait
+68224525,note,Waits at Nubian for last Silver Line bus
+68224525,trip_type,wait
+68224775,note,Waits at Harvard Sq @ Garden St - Dawes Island for last Red Line train
+68224775,trip_type,wait
+68224868,note,Waits at Massachusetts Ave opp Holyoke St for last Red Line train
+68224868,trip_type,wait
+68225093,note,Waits at Tremont St opp Temple Pl for last Red Line and Green Line trains
+68225093,trip_type,wait
+68225420,note,Waits at Ruggles for last Orange Line train
+68225420,trip_type,wait
+68225423,note,Waits at Ruggles for last Orange Line train
+68225423,trip_type,wait
+68225425,note,Waits at Ruggles for last Orange Line train
+68225425,trip_type,wait
+68225988,note,Waits at Andrew for last Red Line train
+68225988,trip_type,wait
+68225990,note,Waits at Boylston St @ Dartmouth St for last Green Line train
+68225990,trip_type,wait
+68225993,note,Waits at Forest Hills for last Orange Line train
+68225993,trip_type,wait
+68226387,note,Waits at Green St @ Pearl St for last Red Line train
+68226387,trip_type,wait
+68226487,note,Waits at Ashmont for last Red Line train
+68226487,trip_type,wait
+68226493,note,Waits at Ruggles for last Orange Line train
+68226493,trip_type,wait
+68226714,note,Waits at Kenmore for last Green Line train
+68226714,trip_type,wait
+68228367,note,Waits at Temple Pl @ Washington St for last Red Line and Orange Line trains
+68228367,trip_type,wait
+68228502,note,Waits at Mattapan for last Mattapan Trolley train
+68228502,trip_type,wait
+68228519,note,Waits at Ruggles for last Orange Line train
+68228519,trip_type,wait
+68229000,note,Waits at Back Bay for last Orange Line train
+68229000,trip_type,wait
+68229042,note,Waits at South Station for last Red Line train
+68229042,trip_type,wait
+68229393,note,Waits at South Station for last Red Line train
+68229393,trip_type,wait
+68231290,note,Waits at Mattapan for last Mattapan Trolley train
+68231290,trip_type,wait
+68231292,note,Waits at Ruggles for last Orange Line train
+68231292,trip_type,wait
+68231417,note,Waits at Back Bay for last Orange Line train
+68231417,trip_type,wait
+68231958,note,Waits at South Station for last Red Line train
+68231958,trip_type,wait
+68232187,note,Waits at South Station for last Red Line train
+68232187,trip_type,wait
+68232497,note,Waits at Temple Pl @ Washington St for last Red Line and Orange Line trains
+68232497,trip_type,wait
+68232966,note,Waits at South Station for last Red Line train
+68232966,trip_type,wait
+68233137,note,Waits at Mattapan for last Mattapan Trolley train
+68233137,trip_type,wait
+68233139,note,Waits at Ruggles for last Orange Line train
+68233139,trip_type,wait
+68233474,note,Waits at South Station for last Red Line train
+68233474,trip_type,wait
+68233884,note,Waits at Temple Pl @ Washington St for last Red Line and Orange Line trains
+68233884,trip_type,wait
+68233974,note,Waits at Back Bay for last Orange Line train
+68233974,trip_type,wait
+68237582,note,Waits at Temple Pl @ Washington St for last Red Line and Orange Line trains
+68237582,trip_type,wait
+68237717,note,Waits at Mattapan for last Mattapan Trolley train
+68237717,trip_type,wait
+68237735,note,Waits at Ruggles for last Orange Line train
+68237735,trip_type,wait
+68238216,note,Waits at Back Bay for last Orange Line train
+68238216,trip_type,wait
+68238258,note,Waits at South Station for last Red Line train
+68238258,trip_type,wait
+68238610,note,Waits at South Station for last Red Line train
+68238610,trip_type,wait
+68239584,note,Waits at Mattapan for last Mattapan Trolley train
+68239584,trip_type,wait
+68239588,note,Waits at Ruggles for last Orange Line train
+68239588,trip_type,wait
+68239677,note,Waits at Back Bay for last Orange Line train
+68239677,trip_type,wait
+68240135,note,Waits at Temple Pl @ Washington St for last Red Line and Orange Line trains
+68240135,trip_type,wait
+68240652,note,Waits at South Station for last Red Line train
+68240652,trip_type,wait
+68240716,note,Waits at South Station for last Red Line train
+68240716,trip_type,wait
+68243941,note,Does not run during school vacation
+68243941,trip_type,supplemental
+68244009,note,Does not run during school vacation
+68244009,trip_type,supplemental
+68244101,note,Does not run during school vacation
+68244101,trip_type,supplemental
+68244275,note,Waits at Ruggles for last Orange Line train
+68244275,trip_type,wait
+68244276,note,Waits at Mattapan for last Mattapan Trolley train
+68244276,trip_type,wait
+68244368,note,Waits at Back Bay for last Orange Line train
+68244368,trip_type,wait
+68244830,note,Waits at Temple Pl @ Washington St for last Red Line and Orange Line trains
+68244830,trip_type,wait
+68245347,note,Waits at South Station for last Red Line train
+68245347,trip_type,wait
+68245411,note,Waits at South Station for last Red Line train
+68245411,trip_type,wait
+68286345,note,Waits at Ruggles for last Orange Line train
+68286345,trip_type,wait
+68286386,note,Waits at Tremont St opp Temple Pl for last Red Line and Green Line trains
+68286386,trip_type,wait
+68286526,note,Waits at W Broadway @ Broadway Station for last Red Line train
+68286526,trip_type,wait
+68286614,note,Waits at Massachusetts Ave opp Holyoke St for last Red Line train
+68286614,trip_type,wait
+68286620,note,Waits at Nubian for last Silver Line bus
+68286620,trip_type,wait
+68286722,note,Waits at W Broadway @ Broadway Station for last Red Line train
+68286722,trip_type,wait
+68286854,note,Waits at Ruggles for last Orange Line train
+68286854,trip_type,wait
+68287061,note,Waits at Nubian for last Silver Line bus
+68287061,trip_type,wait
+68287070,note,Waits at Harvard Sq @ Garden St - Dawes Island for last Red Line train
+68287070,trip_type,wait
+68287213,note,Waits at Kenmore for last Green Line train
+68287213,trip_type,wait
+68287269,note,Waits at Boylston St @ Dartmouth St for last Green Line train
+68287269,trip_type,wait
+68287350,note,Waits at Andrew for last Red Line train
+68287350,trip_type,wait
+68287351,note,Waits at Forest Hills for last Orange Line train
+68287351,trip_type,wait
+68287544,note,Waits at Ashmont for last Red Line train
+68287544,trip_type,wait
+68287614,note,Waits at Ruggles for last Orange Line train
+68287614,trip_type,wait
+68340993,note,Waits at Wellington for last Orange Line train
+68340993,trip_type,wait
+68341182,note,Waits at Malden Center for last Orange Line train
+68341182,trip_type,wait
+68341190,note,Waits at Wellington for last Orange Line train
+68341190,trip_type,wait
+68341412,note,Waits at Wellington for last Orange Line train
+68341412,trip_type,wait
+68341473,note,Waits at Harvard for last Red Line train
+68341473,trip_type,wait
+68342100,note,Waits at Sullivan Square for last Orange Line train
+68342100,trip_type,wait
+68342202,note,Waits at Sullivan Square for last Orange Line train
+68342202,trip_type,wait
+68342359,note,Waits at Sullivan Square for last Orange Line train
+68342359,trip_type,wait
+68342456,note,Waits at Surface Rd @ Hanover St for last Orange Line train
+68342456,trip_type,wait
+68346679,note,Waits at Malden Center for last Orange Line train
+68346679,trip_type,wait
+68346845,note,Waits at Harvard for last Red Line train
+68346845,trip_type,wait
+68346971,note,Waits at Wellington for last Orange Line train
+68346971,trip_type,wait
+68347499,note,Waits at Sullivan Square for last Orange Line train
+68347499,trip_type,wait
+68347604,note,Waits at Sullivan Square for last Orange Line train
+68347604,trip_type,wait
+68347698,note,Waits at Surface Rd @ Hanover St for last Orange Line and Green Line trains
+68347698,trip_type,wait
+68359353,note,Waits at Malden Center for last Orange Line train
+68359353,trip_type,wait
+68361299,note,Waits at Harvard for last Red Line train
+68361299,trip_type,wait
+68361425,note,Waits at Wellington for last Orange Line train
+68361425,trip_type,wait
+68361953,note,Waits at Sullivan Square for last Orange Line train
+68361953,trip_type,wait
+68362058,note,Waits at Sullivan Square for last Orange Line train
+68362058,trip_type,wait
+68362152,note,Waits at Surface Rd @ Hanover St for last Orange Line and Green Line trains
+68362152,trip_type,wait
+68362853,note,Waits at Malden Center for last Orange Line train
+68362853,trip_type,wait
+68365118,note,Waits at Harvard for last Red Line train
+68365118,trip_type,wait
+68365244,note,Waits at Wellington for last Orange Line train
+68365244,trip_type,wait
+68365772,note,Waits at Sullivan Square for last Orange Line train
+68365772,trip_type,wait
+68365877,note,Waits at Sullivan Square for last Orange Line train
+68365877,trip_type,wait
+68365971,note,Waits at Surface Rd @ Hanover St for last Orange Line and Green Line trains
+68365971,trip_type,wait
+68378768,note,Does not run during school vacation
+68378768,trip_type,supplemental
+68378804,note,Does not run during school vacation
+68378804,trip_type,supplemental
+68378850,note,Does not run during school vacation
+68378850,trip_type,supplemental
+68378984,note,Does not run during school vacation
+68378984,trip_type,supplemental
+68379013,note,Does not run during school vacation
+68379013,trip_type,supplemental
+68379022,note,Does not run during school vacation
+68379022,trip_type,supplemental
+68379039,note,Does not run during school vacation
+68379039,trip_type,supplemental
+68379058,note,Does not run during school vacation
+68379058,trip_type,supplemental
+68379087,note,Does not run during school vacation
+68379087,trip_type,supplemental
+68379088,note,Does not run during school vacation
+68379088,trip_type,supplemental
+68380047,note,Does not run during school vacation
+68380047,trip_type,supplemental
+68380072,note,Does not run during school vacation
+68380072,trip_type,supplemental
+68380073,note,Does not run during school vacation
+68380073,trip_type,supplemental
+68380698,note,Does not run during school vacation
+68380698,trip_type,supplemental
+68380699,note,Does not run during school vacation
+68380699,trip_type,supplemental
+68380700,note,Does not run during school vacation
+68380700,trip_type,supplemental
+68380759,note,Does not run during school vacation
+68380759,trip_type,supplemental
+68381755,note,Does not run during school vacation
+68381755,trip_type,supplemental
+68381769,note,Does not run during school vacation
+68381769,trip_type,supplemental
+68381888,note,Does not run during school vacation
+68381888,trip_type,supplemental
+68382096,note,Waits at Harvard for last Red Line train
+68382096,trip_type,wait
+68382160,note,Waits at Wellington for last Orange Line train
+68382160,trip_type,wait
+68382182,note,Waits at Malden Center for last Orange Line train
+68382182,trip_type,wait
+68382316,note,Waits at Wellington for last Orange Line train
+68382316,trip_type,wait
+68382327,note,Waits at Wellington for last Orange Line train
+68382327,trip_type,wait
+68382354,note,Does not run during school vacation
+68382354,trip_type,supplemental
+68382976,note,Does not run during school vacation
+68382976,trip_type,supplemental
+68383031,note,Waits at Sullivan Square for last Orange Line train
+68383031,trip_type,wait
+68383386,note,Waits at Surface Rd @ Hanover St for last Orange Line and Green Line trains
+68383386,trip_type,wait
+68383485,note,Waits at Sullivan Square for last Orange Line train
+68383485,trip_type,wait
+68383504,note,Does not run during school vacation
+68383504,trip_type,supplemental
+68383518,note,Does not run during school vacation
+68383518,trip_type,supplemental
+68383625,note,Does not run during school vacation
+68383625,trip_type,supplemental
+68383647,note,Waits at Sullivan Square for last Orange Line train
+68383647,trip_type,wait
+68383677,note,Does not run during school vacation
+68383677,trip_type,supplemental
+68383683,note,Does not run during school vacation
+68383683,trip_type,supplemental
+68393532,note,Waits at Ruggles for last Orange Line train
+68393532,trip_type,wait
+68393556,note,Waits at Tremont St opp Temple Pl for last Red Line and Green Line trains
+68393556,trip_type,wait
+68393660,note,Waits at W Broadway @ Broadway Station for last Red Line train
+68393660,trip_type,wait
+68393760,note,Waits at Ruggles for last Orange Line train
+68393760,trip_type,wait
+68393767,note,Waits at Ruggles for last Orange Line train
+68393767,trip_type,wait
+68393912,note,Waits at Kenmore for last Green Line train
+68393912,trip_type,wait
+68394046,note,Waits at Ashmont for last Red Line train
+68394046,trip_type,wait
+68394102,note,Waits at Ruggles for last Orange Line train
+68394102,trip_type,wait
+68394177,note,Waits at Andrew for last Red Line train
+68394177,trip_type,wait
+68394181,note,Waits at Forest Hills for last Orange Line train
+68394181,trip_type,wait
+68394344,note,Waits at Nubian for last Silver Line bus
+68394344,trip_type,wait
+68394389,note,Waits at Massachusetts Ave opp Holyoke St for last Red Line train
+68394389,trip_type,wait
+68395197,note,Waits at W Broadway @ Broadway Station for last Red Line train
+68395197,trip_type,wait
+68395385,note,Waits at Green St @ Pearl St for last Red Line train
+68395385,trip_type,wait
+68395960,note,Waits at Nubian for last Silver Line bus
+68395960,trip_type,wait
+68396003,note,Waits at Harvard Sq @ Garden St - Dawes Island for last Red Line train
+68396003,trip_type,wait
+68415932,note,Waits at Harvard for last Red Line train
+68415932,trip_type,wait
+68416115,note,Waits at Harvard for last Red Line train
+68416115,trip_type,wait
+68416164,note,Waits at Green St @ Magazine St for last Red Line train
+68416164,trip_type,wait
+68416287,note,Waits at Lechmere for last Green Line train
+68416287,trip_type,wait
+68416325,note,Waits at Lechmere for last Green Line train
+68416325,trip_type,wait
+68416393,note,Waits at Lechmere for last Green Line train
+68416393,trip_type,wait
+68416480,note,Waits at Western Ave @ Green St for last Red Line train
+68416480,trip_type,wait
+68416781,note,Waits at Harvard for last Red Line train
+68416781,trip_type,wait
+68417330,note,Waits at Harvard for last Red Line train
+68417330,trip_type,wait
+68417503,note,Waits at Green St @ Magazine St for last Red Line train
+68417503,trip_type,wait
+68417657,note,Waits at Harvard for last Red Line train
+68417657,trip_type,wait
+68417659,note,Waits at Harvard for last Red Line train
+68417659,trip_type,wait
+68417791,note,Waits at Lechmere for last Green Line train
+68417791,trip_type,wait
+68417885,note,Waits at Magazine St @ Green St for last Red Line train
+68417885,trip_type,wait
+68417916,note,Waits at Western Ave @ Green St for last Red Line train
+68417916,trip_type,wait
+68418077,note,Waits at Lechmere for last Green Line train
+68418077,trip_type,wait
+68418122,note,Waits at Lechmere for last Green Line train
+68418122,trip_type,wait
+68418334,note,Waits at Lechmere for last Green Line train
+68418334,trip_type,wait
+68418414,note,Waits at Harvard for last Red Line train
+68418414,trip_type,wait
+68419151,note,Waits at Harvard for last Red Line train
+68419151,trip_type,wait
+68419324,note,Waits at Green St @ Magazine St for last Red Line train
+68419324,trip_type,wait
+68419478,note,Waits at Harvard for last Red Line train
+68419478,trip_type,wait
+68419480,note,Waits at Harvard for last Red Line train
+68419480,trip_type,wait
+68419612,note,Waits at Lechmere for last Green Line train
+68419612,trip_type,wait
+68419706,note,Waits at Magazine St @ Green St for last Red Line train
+68419706,trip_type,wait
+68419737,note,Waits at Western Ave @ Green St for last Red Line train
+68419737,trip_type,wait
+68419898,note,Waits at Lechmere for last Green Line train
+68419898,trip_type,wait
+68419943,note,Waits at Lechmere for last Green Line train
+68419943,trip_type,wait
+68420155,note,Waits at Lechmere for last Green Line train
+68420155,trip_type,wait
+68420235,note,Waits at Harvard for last Red Line train
+68420235,trip_type,wait
+68421076,note,Waits at Harvard for last Red Line train
+68421076,trip_type,wait
+68421249,note,Waits at Green St @ Magazine St for last Red Line train
+68421249,trip_type,wait
+68421403,note,Waits at Harvard for last Red Line train
+68421403,trip_type,wait
+68421405,note,Waits at Harvard for last Red Line train
+68421405,trip_type,wait
+68421537,note,Waits at Lechmere for last Green Line train
+68421537,trip_type,wait
+68421631,note,Waits at Magazine St @ Green St for last Red Line train
+68421631,trip_type,wait
+68421662,note,Waits at Western Ave @ Green St for last Red Line train
+68421662,trip_type,wait
+68421823,note,Waits at Lechmere for last Green Line train
+68421823,trip_type,wait
+68421868,note,Waits at Lechmere for last Green Line train
+68421868,trip_type,wait
+68422080,note,Waits at Lechmere for last Green Line train
+68422080,trip_type,wait
+68422160,note,Waits at Harvard for last Red Line train
+68422160,trip_type,wait
+68422815,note,Waits at Harvard for last Red Line train
+68422815,trip_type,wait
+68422998,note,Waits at Harvard for last Red Line train
+68422998,trip_type,wait
+68423048,note,Waits at Green St @ Magazine St for last Red Line train
+68423048,trip_type,wait
+68423170,note,Waits at Lechmere for last Green Line train
+68423170,trip_type,wait
+68423208,note,Waits at Lechmere for last Green Line train
+68423208,trip_type,wait
+68423276,note,Waits at Lechmere for last Green Line train
+68423276,trip_type,wait
+68423363,note,Waits at Western Ave @ Green St for last Red Line train
+68423363,trip_type,wait
+68423663,note,Waits at Harvard for last Red Line train
+68423663,trip_type,wait
+68424139,note,Waits at Harvard for last Red Line train
+68424139,trip_type,wait
+68424322,note,Waits at Harvard for last Red Line train
+68424322,trip_type,wait
+68424371,note,Waits at Green St @ Magazine St for last Red Line train
+68424371,trip_type,wait
+68424494,note,Waits at Lechmere for last Green Line train
+68424494,trip_type,wait
+68424532,note,Waits at Lechmere for last Green Line train
+68424532,trip_type,wait
+68424600,note,Waits at Lechmere for last Green Line train
+68424600,trip_type,wait
+68424687,note,Waits at Western Ave @ Green St for last Red Line train
+68424687,trip_type,wait
+68424988,note,Waits at Harvard for last Red Line train
+68424988,trip_type,wait
+68510953,note,Waits at Harvard for last Red Line train
+68510953,trip_type,wait
+68511017,note,Waits at Wellington for last Orange Line train
+68511017,trip_type,wait
+68511039,note,Waits at Malden Center for last Orange Line train
+68511039,trip_type,wait
+68511173,note,Waits at Wellington for last Orange Line train
+68511173,trip_type,wait
+68511184,note,Waits at Wellington for last Orange Line train
+68511184,trip_type,wait
+68511883,note,Waits at Sullivan Square for last Orange Line train
+68511883,trip_type,wait
+68512238,note,Waits at Surface Rd @ Hanover St for last Orange Line and Green Line trains
+68512238,trip_type,wait
+68512493,note,Waits at Sullivan Square for last Orange Line train
+68512493,trip_type,wait
+68515089,note,Waits at Wellington for last Orange Line train
+68515089,trip_type,wait
+68515278,note,Waits at Malden Center for last Orange Line train
+68515278,trip_type,wait
+68515286,note,Waits at Wellington for last Orange Line train
+68515286,trip_type,wait
+68515508,note,Waits at Wellington for last Orange Line train
+68515508,trip_type,wait
+68515569,note,Waits at Harvard for last Red Line train
+68515569,trip_type,wait
+68516196,note,Waits at Sullivan Square for last Orange Line train
+68516196,trip_type,wait
+68516298,note,Waits at Sullivan Square for last Orange Line train
+68516298,trip_type,wait
+68516455,note,Waits at Sullivan Square for last Orange Line train
+68516455,trip_type,wait
+68516552,note,Waits at Surface Rd @ Hanover St for last Orange Line train
+68516552,trip_type,wait
+68595385,note,Does not run during school vacation
+68595385,trip_type,supplemental
+68595400,note,Waits at Harvard for last Red Line train
+68595400,trip_type,wait
+68595512,note,Waits at Harvard for last Red Line train
+68595512,trip_type,wait
+68595732,note,Waits at Lechmere for last Green Line train
+68595732,trip_type,wait
+68595824,note,Does not run during school vacation
+68595824,trip_type,supplemental
+68595831,note,Waits at Main St @ Kendall Station - Red Line for last Red Line train
+68595831,trip_type,wait
+68595852,note,Does not run during school vacation
+68595852,trip_type,supplemental
+68596099,note,Waits at Harvard for last Red Line train
+68596099,trip_type,wait
+68596267,note,Does not run during school vacation
+68596267,trip_type,supplemental
+68596304,note,Waits at Lechmere for last Green Line train
+68596304,trip_type,wait
+68596422,note,Waits at Lechmere for last Green Line train
+68596422,trip_type,wait
+68596460,note,Waits at Lechmere for last Green Line train
+68596460,trip_type,wait
+68596715,note,Does not run during school vacation
+68596715,trip_type,supplemental
+68596779,note,Does not run during school vacation
+68596779,trip_type,supplemental
+68596905,note,Waits at Western Ave @ Green St for last Red Line train
+68596905,trip_type,wait
+68596909,note,Does not run during school vacation
+68596909,trip_type,supplemental
+68597105,note,Waits at Harvard for last Red Line train
+68597105,trip_type,wait
+68597174,note,Does not run during school vacation
+68597174,trip_type,supplemental
+68597369,note,Waits at Green St @ Magazine St for last Red Line train
+68597369,trip_type,wait
+68611552,note,Waits at Harvard for last Red Line train
+68611552,trip_type,wait
+68611654,note,Waits at Harvard for last Red Line train
+68611654,trip_type,wait
+68611883,note,Waits at Lechmere for last Green Line train
+68611883,trip_type,wait
+68611980,note,Waits at Main St @ Kendall Station - Red Line for last Red Line train
+68611980,trip_type,wait
+68612237,note,Waits at Harvard for last Red Line train
+68612237,trip_type,wait
+68612442,note,Waits at Lechmere for last Green Line train
+68612442,trip_type,wait
+68612557,note,Waits at Lechmere for last Green Line train
+68612557,trip_type,wait
+68612592,note,Waits at Lechmere for last Green Line train
+68612592,trip_type,wait
+68613031,note,Waits at Western Ave @ Green St for last Red Line train
+68613031,trip_type,wait
+68613227,note,Waits at Harvard for last Red Line train
+68613227,trip_type,wait
+68613489,note,Waits at Green St @ Magazine St for last Red Line train
+68613489,trip_type,wait
+68655291,note,Does not run during school vacation
+68655291,trip_type,supplemental
+68655292,note,Does not run during school vacation
+68655292,trip_type,supplemental
+68655295,note,Does not run during school vacation
+68655295,trip_type,supplemental
+68655296,note,Does not run during school vacation
+68655296,trip_type,supplemental
+68655339,note,Does not run during school vacation
+68655339,trip_type,supplemental
+68655342,note,Does not run during school vacation
+68655342,trip_type,supplemental
+68655343,note,Does not run during school vacation
+68655343,trip_type,supplemental
+68655362,note,Does not run during school vacation
+68655362,trip_type,supplemental
+68655395,note,Does not run during school vacation
+68655395,trip_type,supplemental
+68655396,note,Does not run during school vacation
+68655396,trip_type,supplemental
+68655397,note,Does not run during school vacation
+68655397,trip_type,supplemental
+68655429,note,Does not run during school vacation
+68655429,trip_type,supplemental
+68655525,note,Waits at Congress St @ Haymarket Sta for last Orange Line and Green Line trains
+68655525,trip_type,wait
+68655526,note,Does not run during school vacation
+68655526,trip_type,supplemental
+68655527,note,Does not run during school vacation
+68655527,trip_type,supplemental
+68655582,note,Waits at Maverick for last Blue Line train
+68655582,trip_type,wait
+68655650,note,Does not run during school vacation
+68655650,trip_type,supplemental
+68655651,note,Does not run during school vacation
+68655651,trip_type,supplemental
+68655814,note,Waits at Maverick for last Blue Line train
+68655814,trip_type,wait
+68656060,note,Waits at Wonderland for last Blue Line train
+68656060,trip_type,wait
+68656106,note,Does not run during school vacation
+68656106,trip_type,supplemental
+68656968,note,Waits at Maverick for last Blue Line train
+68656968,trip_type,wait
+68657102,note,Waits at Wonderland for last Blue Line train
+68657102,trip_type,wait
+68657197,note,Waits at Maverick for last Blue Line train
+68657197,trip_type,wait
+68657808,note,Waits at Maverick for last Blue Line train
+68657808,trip_type,wait
+68657924,note,Waits at Wonderland for last Blue Line train
+68657924,trip_type,wait
+68658010,note,Waits at Maverick for last Blue Line train
+68658010,trip_type,wait
+68658585,note,Waits at Congress St @ Haymarket Sta for last Orange Line and Green Line trains
+68658585,trip_type,wait
+68658640,note,Waits at Maverick for last Blue Line train
+68658640,trip_type,wait
+68658870,note,Waits at Maverick for last Blue Line train
+68658870,trip_type,wait
+68659116,note,Waits at Wonderland for last Blue Line train
+68659116,trip_type,wait
+68661966,note,Does not run during school vacation
+68661966,trip_type,supplemental
+68662184,note,Waits at Fields Corner for last Red Line train
+68662184,trip_type,wait
+68662228,note,Does not run during school vacation
+68662228,trip_type,supplemental
+68662230,note,Does not run during school vacation
+68662230,trip_type,supplemental
+68662295,note,Does not run during school vacation
+68662295,trip_type,supplemental
+68662308,note,Does not run during school vacation
+68662308,trip_type,supplemental
+68662332,note,Does not run during school vacation
+68662332,trip_type,supplemental
+68662335,note,Does not run during school vacation
+68662335,trip_type,supplemental
+68662345,note,Does not run during school vacation
+68662345,trip_type,supplemental
+68662429,note,Does not run during school vacation
+68662429,trip_type,supplemental
+68662476,note,Waits at Quincy Center for last Red Line train
+68662476,trip_type,wait
+68662484,note,Does not run during school vacation
+68662484,trip_type,supplemental
+68662580,note,Does not run during school vacation
+68662580,trip_type,supplemental
+68662581,note,Does not run during school vacation
+68662581,trip_type,supplemental
+68662598,note,Waits at Ashmont for last Red Line train
+68662598,trip_type,wait
+68662674,note,Does not run during school vacation
+68662674,trip_type,supplemental
+68664142,note,Waits at Fields Corner for last Red Line train
+68664142,trip_type,wait
+68664251,note,Waits at Quincy Center for last Red Line train
+68664251,trip_type,wait
+68665424,note,Waits at Fields Corner for last Red Line train
+68665424,trip_type,wait
+68665514,note,Waits at Quincy Center for last Red Line train
+68665514,trip_type,wait
+68669804,note,Waits at Maverick for last Blue Line train
+68669804,trip_type,wait
+68669920,note,Waits at Wonderland for last Blue Line train
+68669920,trip_type,wait
+68670006,note,Waits at Maverick for last Blue Line train
+68670006,trip_type,wait
+68672740,note,Waits at Fields Corner for last Red Line train
+68672740,trip_type,wait
+68673024,note,Waits at Quincy Center for last Red Line train
+68673024,trip_type,wait
+68673143,note,Waits at Ashmont for last Red Line train
+68673143,trip_type,wait
+68676948,note,Waits at Maverick for last Blue Line train
+68676948,trip_type,wait
+68677082,note,Waits at Wonderland for last Blue Line train
+68677082,trip_type,wait
+68677177,note,Waits at Maverick for last Blue Line train
+68677177,trip_type,wait
+68688402,note,Waits at Mattapan for last Mattapan Trolley train
+68688402,note,Waits at Ashmont for last Red Line train
+68688402,trip_type,wait
+68688612,note,Waits at Forest Hills for last Orange Line train
+68688612,trip_type,wait
+68689092,note,Waits at Ashmont for last Red Line train
+68689092,trip_type,wait
+68689162,note,Does not run during school vacation
+68689162,trip_type,supplemental
+68689254,note,Does not run during school vacation
+68689254,trip_type,supplemental
+68689257,note,Does not run during school vacation
+68689257,trip_type,supplemental
+68689262,note,Does not run during school vacation
+68689262,trip_type,supplemental
+68689264,note,Does not run during school vacation
+68689264,trip_type,supplemental
+68689268,note,Does not run during school vacation
+68689268,trip_type,supplemental
+68689291,note,Does not run during school vacation
+68689291,trip_type,supplemental
+68689389,note,Does not run during school vacation
+68689389,trip_type,supplemental
+68689587,note,Waits at Forest Hills for last Orange Line train
+68689587,trip_type,wait
+68689652,note,Does not run during school vacation
+68689652,trip_type,supplemental
+68689653,note,Does not run during school vacation
+68689653,trip_type,supplemental
+68689725,note,Waits at Forest Hills for last Orange Line train
+68689725,trip_type,wait
+68689829,note,Does not run during school vacation
+68689829,trip_type,supplemental
+68689889,note,Does not run during school vacation
+68689889,trip_type,supplemental
+68689923,note,Does not run during school vacation
+68689923,trip_type,supplemental
+68689928,note,Does not run during school vacation
+68689928,trip_type,supplemental
+68689931,note,Does not run during school vacation
+68689931,trip_type,supplemental
+68689953,note,Does not run during school vacation
+68689953,trip_type,supplemental
+68690007,note,Waits at Forest Hills for last Orange Line train
+68690007,trip_type,wait
+68690009,note,Does not run during school vacation
+68690009,trip_type,supplemental
+68690024,note,Does not run during school vacation
+68690024,trip_type,supplemental
+68690081,note,Does not run during school vacation
+68690081,trip_type,supplemental
+68690083,note,Does not run during school vacation
+68690083,trip_type,supplemental
+68690085,note,Does not run during school vacation
+68690085,trip_type,supplemental
+68690090,note,Does not run during school vacation
+68690090,trip_type,supplemental
+68701136,note,Waits at Forest Hills for last Orange Line train
+68701136,trip_type,wait
+68701491,note,Waits at Ashmont for last Red Line train
+68701491,note,Waits at Mattapan for last Mattapan Trolley train
+68701491,trip_type,wait
+68701591,note,Waits at Forest Hills for last Orange Line train
+68701591,trip_type,wait
+68701781,note,Waits at Forest Hills for last Orange Line train
+68701781,trip_type,wait
+68702133,note,Waits at Ashmont for last Red Line train
+68702133,trip_type,wait
+68702162,note,Waits at Forest Hills for last Orange Line train
+68702162,trip_type,wait
+68709429,note,Waits at Fields Corner for last Red Line train
+68709429,trip_type,wait
+68709520,note,Waits at Quincy Center for last Red Line train
+68709520,trip_type,wait
+68709942,note,Waits at Ashmont for last Red Line train
+68709942,note,Waits at Mattapan for last Mattapan Trolley train
+68709942,trip_type,wait
+68710152,note,Waits at Forest Hills for last Orange Line train
+68710152,trip_type,wait
+68710632,note,Waits at Ashmont for last Red Line train
+68710632,trip_type,wait
+68710702,note,Does not run during school vacation
+68710702,trip_type,supplemental
+68711127,note,Waits at Forest Hills for last Orange Line train
+68711127,trip_type,wait
+68711265,note,Waits at Forest Hills for last Orange Line train
+68711265,trip_type,wait
+68711547,note,Waits at Forest Hills for last Orange Line train
+68711547,trip_type,wait
+68712372,note,Waits at Forest Hills for last Orange Line train
+68712372,trip_type,wait
+68712729,note,Waits at Ashmont for last Red Line train
+68712729,note,Waits at Mattapan for last Mattapan Trolley train
+68712729,trip_type,wait
+68712829,note,Waits at Forest Hills for last Orange Line train
+68712829,trip_type,wait
+68713019,note,Waits at Forest Hills for last Orange Line train
+68713019,trip_type,wait
+68713371,note,Waits at Ashmont for last Red Line train
+68713371,trip_type,wait
+68713400,note,Waits at Forest Hills for last Orange Line train
+68713400,trip_type,wait
+68717366,note,Waits at Fields Corner for last Red Line train
+68717366,trip_type,wait
+68717475,note,Waits at Quincy Center for last Red Line train
+68717475,trip_type,wait
+68720262,note,Waits at Orient Heights for last Blue Line train
+68720262,trip_type,wait
+68720264,note,Will go to Point Shirley if requested
+68720482,note,Waits at Orient Heights for last Blue Line train
+68720482,trip_type,wait
+68720588,note,Waits at Orient Heights for last Blue Line train
+68720588,trip_type,wait
+68728103,note,Waits at Forest Hills for last Orange Line train
+68728103,trip_type,wait
+68728287,note,Waits at Forest Hills for last Orange Line train
+68728287,trip_type,wait
+68728429,note,Waits at Forest Hills for last Orange Line train
+68728429,trip_type,wait
+68728613,note,Waits at Forest Hills for last Orange Line train
+68728613,trip_type,wait
+68741887,note,Waits at Forest Hills for last Orange Line train
+68741887,trip_type,wait
+68742071,note,Waits at Forest Hills for last Orange Line train
+68742071,trip_type,wait
+68742213,note,Waits at Forest Hills for last Orange Line train
+68742213,trip_type,wait
+68742397,note,Waits at Forest Hills for last Orange Line train
+68742397,trip_type,wait
+68759314,note,Waits at Orient Heights for last Blue Line train
+68759314,trip_type,wait
+68759316,note,Will go to Point Shirley if requested
+68759796,note,Waits at Orient Heights for last Blue Line train
+68759796,trip_type,wait
+68760149,note,Waits at Orient Heights for last Blue Line train
+68760149,trip_type,wait
+AttleboroWork-715957-908,note,Waits at Readville for Train 1708
+AttleboroWork-715957-908,trip_type,wait
+AttleboroWork-715939-856,note,Waits at Readville for Train 1756
+AttleboroWork-715939-856,trip_type,wait
+AttleboroWork-715946-874,note,Waits at Readville for Train 776
+AttleboroWork-715946-874,trip_type,wait
+AttleboroWork-729099-984,note,Waits at Readville for Train 784
+AttleboroWork-729099-984,trip_type,wait
+AttleboroWork-715953-892,note,Waits at Readville for Train 792
+AttleboroWork-715953-892,trip_type,wait
+AttleboroWork-715747-1775,note,Waits at Readville for Train 875
+AttleboroWork-715747-1775,trip_type,wait
+AttleboroWork-715749-1785,note,Waits at Readville for Train 885
+AttleboroWork-715749-1785,trip_type,wait
+AttleboroWork-715912-793,note,Waits at Readville for Train 893
+AttleboroWork-715912-793,trip_type,wait
+AttleboroWork-715885-689,note,Waits at Forest Hills for Train 889
+AttleboroWork-715885-689,trip_type,wait
+AttleboroWork-715886-693,note,Waits at Forest Hills for Train 893
+AttleboroWork-715886-693,trip_type,wait
+AttleboroWork-716184-5846,note,Waits at Readville for Train 5746
+AttleboroWork-716184-5846,trip_type,wait
+AttleboroWork-716179-5824,note,Waits at Readville for Train 5724
+AttleboroWork-716179-5824,trip_type,wait
+AttleboroWork-716187-5856,note,Waits at Readville for Train 5754
+AttleboroWork-716187-5856,trip_type,wait
+AttleboroWork-716180-5830,note,Waits at Readville for Train 5730
+AttleboroWork-716180-5830,trip_type,wait
+AttleboroWork-716182-5838,note,Waits at Readville for Train 5738
+AttleboroWork-716182-5838,trip_type,wait
+AttleboroWork-716192-5884,note,Waits at Readville for Train 5784
+AttleboroWork-716192-5884,trip_type,wait
+AttleboroWork-716191-5878,note,Waits at Readville for Train 5778
+AttleboroWork-716191-5878,trip_type,wait
+AttleboroWork-716194-5892,note,Waits at Readville for Train 5792
+AttleboroWork-716194-5892,trip_type,wait
+AttleboroWork-716189-5868,note,Waits at Readville for Train 5768
+AttleboroWork-716189-5868,trip_type,wait
+AttleboroWork-716176-5806,note,Waits at Readville for Train 5706
+AttleboroWork-716176-5806,trip_type,wait
+AttleboroWork-717750-5715,note,Waits at Readville for Train 5815
+AttleboroWork-717750-5715,trip_type,wait
+AttleboroWork-717757-5721,note,Waits at Readville for Train 5821
+AttleboroWork-717757-5721,trip_type,wait
+AttleboroWork-717756-5731,note,Waits at Readville for Train 5831
+AttleboroWork-717756-5731,trip_type,wait
+AttleboroWork-717759-5739,note,Waits at Readville for Train 5839
+AttleboroWork-717759-5739,trip_type,wait
+AttleboroWork-717758-5747,note,Waits at Readville for Train 5847
+AttleboroWork-717758-5747,trip_type,wait
+AttleboroWork-717760-5755,note,Waits at Readville for Train 5855
+AttleboroWork-717760-5755,trip_type,wait
+AttleboroWork-717762-5767,note,Waits at Readville for Train 5867
+AttleboroWork-717762-5767,trip_type,wait
+AttleboroWork-717763-5777,note,Waits at Readville for Train 5877
+AttleboroWork-717763-5777,trip_type,wait
+AttleboroWork-717764-5785,note,Waits at Readville for Train 5885
+AttleboroWork-717764-5785,trip_type,wait
+AttleboroWork-717767-5793,note,Waits at Readville for Train 5893
+AttleboroWork-717767-5793,trip_type,wait
+MarathonMonday-721053-1562,note,Waits at Framingham for Train 560
+MarathonMonday-721053-1562,trip_type,wait
 SPRING2025V2-728659-93,note,Waits at Salem for Train 193
 SPRING2025V2-728659-93,trip_type,wait
 SPRING2025V2-728489-429,note,Waits at Littleton/Route 495 for Train 1427
 SPRING2025V2-728489-429,trip_type,wait
 SPRING2025V2-728438-1408,note,Waits at Littleton/Route 495 for Train 406
 SPRING2025V2-728438-1408,trip_type,wait
-SPRING2025V2-715957-908,note,Waits at Readville for Train 1708
-SPRING2025V2-715957-908,trip_type,wait
-SPRING2025V2-715939-856,note,Waits at Readville for Train 1756
-SPRING2025V2-715939-856,trip_type,wait
-SPRING2025V2-715946-874,note,Waits at Readville for Train 776
-SPRING2025V2-715946-874,trip_type,wait
-SPRING2025V2-729099-984,note,Waits at Readville for Train 784
-SPRING2025V2-729099-984,trip_type,wait
-SPRING2025V2-715953-892,note,Waits at Readville for Train 792
-SPRING2025V2-715953-892,trip_type,wait
 SPRING2025V2-715781-2002,note,Waits at Braintree for Train 1002
 SPRING2025V2-715781-2002,trip_type,wait
 SPRING2025V2-715636-1047,note,Waits at Braintree for Train 2047
@@ -800,16 +1091,6 @@ SPRING2025V2-715764-1942,note,Waits at East Taunton for Train 2092
 SPRING2025V2-715764-1942,trip_type,wait
 SPRING2025V2-715792-2034,note,Waits at East Taunton for Train 1984
 SPRING2025V2-715792-2034,trip_type,wait
-SPRING2025V2-715747-1775,note,Waits at Readville for Train 875
-SPRING2025V2-715747-1775,trip_type,wait
-SPRING2025V2-715749-1785,note,Waits at Readville for Train 885
-SPRING2025V2-715749-1785,trip_type,wait
-SPRING2025V2-715912-793,note,Waits at Readville for Train 893
-SPRING2025V2-715912-793,trip_type,wait
-SPRING2025V2-715885-689,note,Waits at Forest Hills for Train 889
-SPRING2025V2-715885-689,trip_type,wait
-SPRING2025V2-715886-693,note,Waits at Forest Hills for Train 893
-SPRING2025V2-715886-693,trip_type,wait
 SPRING2025V2-716088-565,note,Waits at West Natick for Train 1561
 SPRING2025V2-716088-565,trip_type,wait
 SPRING2025V2-716090-559,note,Waits at West Natick for Train 1555
@@ -834,49 +1115,7 @@ SPRING2025V2-716069-1558,note,Waits at Framingham for Train 556
 SPRING2025V2-716069-1558,trip_type,wait
 SPRING2025V2-716072-1522,note,Waits at Framingham for Train 520
 SPRING2025V2-716072-1522,trip_type,wait
-SPRING2025V2-716184-5846,note,Waits at Readville for Train 5746
-SPRING2025V2-716184-5846,trip_type,wait
-SPRING2025V2-716179-5824,note,Waits at Readville for Train 5724
-SPRING2025V2-716179-5824,trip_type,wait
-SPRING2025V2-716187-5854,note,Waits at Readville for Train 5754
-SPRING2025V2-716187-5854,trip_type,wait
-SPRING2025V2-716180-5830,note,Waits at Readville for Train 5730
-SPRING2025V2-716180-5830,trip_type,wait
-SPRING2025V2-716182-5838,note,Waits at Readville for Train 5738
-SPRING2025V2-716182-5838,trip_type,wait
-SPRING2025V2-716192-5884,note,Waits at Readville for Train 5784
-SPRING2025V2-716192-5884,trip_type,wait
-SPRING2025V2-716191-5878,note,Waits at Readville for Train 5778
-SPRING2025V2-716191-5878,trip_type,wait
-SPRING2025V2-716194-5892,note,Waits at Readville for Train 5792
-SPRING2025V2-716194-5892,trip_type,wait
-SPRING2025V2-716189-5868,note,Waits at Readville for Train 5768
-SPRING2025V2-716189-5868,trip_type,wait
-SPRING2025V2-716176-5806,note,Waits at Readville for Train 5706
-SPRING2025V2-716176-5806,trip_type,wait
-SPRING2025V2-716213-6047,note,Waits at Braintree for Train 7047
-SPRING2025V2-716213-6047,trip_type,wait
-SPRING2025V2-716274-6979,note,Waits at East Taunton for Train 7029
-SPRING2025V2-716274-6979,trip_type,wait
-SPRING2025V2-717750-5715,note,Waits at Readville for Train 5815
-SPRING2025V2-717750-5715,trip_type,wait
-SPRING2025V2-717757-5721,note,Waits at Readville for Train 5821
-SPRING2025V2-717757-5721,trip_type,wait
-SPRING2025V2-717756-5731,note,Waits at Readville for Train 5831
-SPRING2025V2-717756-5731,trip_type,wait
-SPRING2025V2-717759-5739,note,Waits at Readville for Train 5839
-SPRING2025V2-717759-5739,trip_type,wait
-SPRING2025V2-717758-5747,note,Waits at Readville for Train 5847
-SPRING2025V2-717758-5747,trip_type,wait
-SPRING2025V2-717760-5755,note,Waits at Readville for Train 5855
-SPRING2025V2-717760-5755,trip_type,wait
-SPRING2025V2-717762-5767,note,Waits at Readville for Train 5867
-SPRING2025V2-717762-5767,trip_type,wait
-SPRING2025V2-717763-5777,note,Waits at Readville for Train 5877
-SPRING2025V2-717763-5777,trip_type,wait
-SPRING2025V2-717764-5785,note,Waits at Readville for Train 5885
-SPRING2025V2-717764-5785,trip_type,wait
-SPRING2025V2-717767-5793,note,Waits at Readville for Train 5893
-SPRING2025V2-717767-5793,trip_type,wait
-67270429-BowdoinGovCtrSuspend0,note,Waits at State for last Orange Line train
-67270429-BowdoinGovCtrSuspend0,trip_type,wait
+SPRING2025V3-716213-6047,note,Waits at Braintree for Train 7047
+SPRING2025V3-716213-6047,trip_type,wait
+SPRING2025V3-716274-6979,note,Waits at East Taunton for Train 7029
+SPRING2025V3-716274-6979,trip_type,wait

@@ -1438,6 +1438,7 @@ facility_id,property_id,value
 302,excludes-stop,BNT-0000-08
 302,excludes-stop,BNT-0000-09
 302,excludes-stop,BNT-0000-10
+302,excludes-stop,BNT-0000-B2
 302,excludes-stop,door-north-causewaye
 302,excludes-stop,door-north-causewayexite
 302,excludes-stop,door-north-causewayexitw
@@ -1542,6 +1543,7 @@ facility_id,property_id,value
 303,excludes-stop,BNT-0000-08
 303,excludes-stop,BNT-0000-09
 303,excludes-stop,BNT-0000-10
+303,excludes-stop,BNT-0000-B2
 303,excludes-stop,door-north-causewaye
 303,excludes-stop,door-north-causewayexite
 303,excludes-stop,door-north-causewayexitw
@@ -1647,6 +1649,7 @@ facility_id,property_id,value
 304,excludes-stop,BNT-0000-08
 304,excludes-stop,BNT-0000-09
 304,excludes-stop,BNT-0000-10
+304,excludes-stop,BNT-0000-B2
 304,excludes-stop,door-north-causewaye
 304,excludes-stop,door-north-causewayexite
 304,excludes-stop,door-north-causewayexitw
@@ -4653,6 +4656,7 @@ facility_id,property_id,value
 384,excludes-stop,BNT-0000-08
 384,excludes-stop,BNT-0000-09
 384,excludes-stop,BNT-0000-10
+384,excludes-stop,BNT-0000-B2
 384,excludes-stop,door-north-causewaye
 384,excludes-stop,door-north-causewayexite
 384,excludes-stop,door-north-causewayexitw
@@ -4755,6 +4759,7 @@ facility_id,property_id,value
 385,excludes-stop,BNT-0000-08
 385,excludes-stop,BNT-0000-09
 385,excludes-stop,BNT-0000-10
+385,excludes-stop,BNT-0000-B2
 385,excludes-stop,door-north-causewaye
 385,excludes-stop,door-north-causewayexite
 385,excludes-stop,door-north-causewayexitw
@@ -5400,6 +5405,7 @@ facility_id,property_id,value
 391,excludes-stop,BNT-0000-08
 391,excludes-stop,BNT-0000-09
 391,excludes-stop,BNT-0000-10
+391,excludes-stop,BNT-0000-B2
 391,excludes-stop,door-north-causewayexite
 391,excludes-stop,door-north-causewayexitw
 391,excludes-stop,door-north-crcanal
@@ -5503,6 +5509,7 @@ facility_id,property_id,value
 392,excludes-stop,BNT-0000-08
 392,excludes-stop,BNT-0000-09
 392,excludes-stop,BNT-0000-10
+392,excludes-stop,BNT-0000-B2
 392,excludes-stop,door-north-causewayexite
 392,excludes-stop,door-north-causewayexitw
 392,excludes-stop,door-north-crcanal
@@ -5607,6 +5614,7 @@ facility_id,property_id,value
 393,excludes-stop,BNT-0000-08
 393,excludes-stop,BNT-0000-09
 393,excludes-stop,BNT-0000-10
+393,excludes-stop,BNT-0000-B2
 393,excludes-stop,door-north-causewayexite
 393,excludes-stop,door-north-causewayexitw
 393,excludes-stop,door-north-crcanal
@@ -7909,6 +7917,7 @@ facility_id,property_id,value
 447,excludes-stop,BNT-0000-08
 447,excludes-stop,BNT-0000-09
 447,excludes-stop,BNT-0000-10
+447,excludes-stop,BNT-0000-B2
 447,excludes-stop,door-north-causewaye
 447,excludes-stop,door-north-causewayexite
 447,excludes-stop,door-north-causewayexitw
@@ -9860,6 +9869,7 @@ facility_id,property_id,value
 731,excludes-stop,BNT-0000-08
 731,excludes-stop,BNT-0000-09
 731,excludes-stop,BNT-0000-10
+731,excludes-stop,BNT-0000-B2
 731,excludes-stop,door-north-causewayexite
 731,excludes-stop,door-north-causewayexitw
 731,excludes-stop,door-north-causeways
@@ -9962,6 +9972,7 @@ facility_id,property_id,value
 732,excludes-stop,BNT-0000-08
 732,excludes-stop,BNT-0000-09
 732,excludes-stop,BNT-0000-10
+732,excludes-stop,BNT-0000-B2
 732,excludes-stop,door-north-causewayexite
 732,excludes-stop,door-north-causewayexitw
 732,excludes-stop,door-north-causeways
@@ -13885,6 +13896,7 @@ facility_id,property_id,value
 909,excludes-stop,BNT-0000-08
 909,excludes-stop,BNT-0000-09
 909,excludes-stop,BNT-0000-10
+909,excludes-stop,BNT-0000-B2
 909,excludes-stop,door-north-causewaye
 909,excludes-stop,door-north-causewayexite
 909,excludes-stop,door-north-causewayexitw
@@ -13989,6 +14001,7 @@ facility_id,property_id,value
 910,excludes-stop,BNT-0000-08
 910,excludes-stop,BNT-0000-09
 910,excludes-stop,BNT-0000-10
+910,excludes-stop,BNT-0000-B2
 910,excludes-stop,door-north-causewayexite
 910,excludes-stop,door-north-causewayexitw
 910,excludes-stop,door-north-causeways
@@ -14094,6 +14107,7 @@ facility_id,property_id,value
 911,excludes-stop,BNT-0000-08
 911,excludes-stop,BNT-0000-09
 911,excludes-stop,BNT-0000-10
+911,excludes-stop,BNT-0000-B2
 911,excludes-stop,door-north-causewayexite
 911,excludes-stop,door-north-causewayexitw
 911,excludes-stop,door-north-causeways
@@ -14196,6 +14210,7 @@ facility_id,property_id,value
 912,excludes-stop,BNT-0000-08
 912,excludes-stop,BNT-0000-09
 912,excludes-stop,BNT-0000-10
+912,excludes-stop,BNT-0000-B2
 912,excludes-stop,door-north-causewayexite
 912,excludes-stop,door-north-causewayexitw
 912,excludes-stop,door-north-causeways
@@ -17287,7 +17302,7 @@ bike-FR-0494,secured,2
 bike-FR-3338,capacity,12
 bike-FR-3338,enclosed,1
 bike-FR-3338,secured,2
-bike-FRS-0054-storage,capacity,8
+bike-FRS-0054-storage,capacity,22
 bike-FRS-0054-storage,enclosed,1
 bike-FRS-0054-storage,secured,2
 bike-FRS-0109-storage,capacity,22
@@ -24546,7 +24561,9 @@ subplat-FB-0148-1,excludes-stop,FB-0148-02
 subplat-FB-0148-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-FB-0148-2,excludes-stop,FB-0148-01
 subplat-FB-0148-2,note,Mini high level platform is available to provide level boarding to certain cars in a train set
+subplat-FB-0191-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-FB-0230-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
+subplat-FB-0275-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-FB-0303-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-FR-0098-1,excludes-stop,86944
 subplat-FR-0098-1,excludes-stop,88333
@@ -24633,6 +24650,10 @@ subplat-NEC-2203-2,excludes-stop,NEC-2203-03
 subplat-NEC-2203-2,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-NEC-2203-3,excludes-stop,NEC-2203-02
 subplat-NEC-2203-3,note,Mini high level platform is available to provide level boarding to certain cars in a train set
+subplat-NHRML-0055-1,excludes-stop,NHRML-0055-02
+subplat-NHRML-0055-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
+subplat-NHRML-0055-2,excludes-stop,NHRML-0055-01
+subplat-NHRML-0055-2,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-NHRML-0073-1,excludes-stop,NHRML-0073-02
 subplat-NHRML-0073-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-NHRML-0073-2,excludes-stop,NHRML-0073-01
