@@ -37,14 +37,14 @@ timetable = Timetable(
         "Bridgewater Center": "0:33",
         "Bridgewater": "0:34",
         "Middleborough Centre St": "0:40",
-        "Middleborough": "0:42",
-        "East Taunton": "0:50",
+        "Middleborough": "0:41",
+        "East Taunton": "0:48",
         # Fall River
-        "Freetown": "0:57",
-        "Fall River Depot": "1:10",
+        "Freetown": "0:55",
+        "Fall River Depot": "1:01",
         # New Bedford
-        "Church Street": "0:57",
-        "New Bedford": "1:05",
+        "Church Street": "0:59",
+        "New Bedford": "1:02",
         # TODO(ian): Add Cape stations here?
         # Plymouth
         "Weymouth Columbian Square": "0:18",

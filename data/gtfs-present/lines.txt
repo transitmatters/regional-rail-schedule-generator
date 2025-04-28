@@ -7,25 +7,26 @@ line-Blue,,Blue Line,,,003DA5,FFFFFF,10040
 line-SLWaterfront,,Silver Line SL1/SL2/SL3,,,7C878E,FFFFFF,10051
 line-SLWashington,,Silver Line SL4/SL5,,,7C878E,FFFFFF,10055
 line-Fairmount,,Fairmount Line,,,80276C,FFFFFF,20001
-line-Fitchburg,,Fitchburg Line,,,80276C,FFFFFF,20002
-line-Worcester,,Framingham/Worcester Line,,,80276C,FFFFFF,20003
-line-Franklin,,Franklin/Foxboro Line,,,80276C,FFFFFF,20004
-line-Greenbush,,Greenbush Line,,,80276C,FFFFFF,20005
-line-Haverhill,,Haverhill Line,,,80276C,FFFFFF,20006
-line-Kingston,,Kingston Line,,,80276C,FFFFFF,20007
-line-Lowell,,Lowell Line,,,80276C,FFFFFF,20008
-line-Middleborough,,Middleborough/Lakeville Line,,,80276C,FFFFFF,20009
-line-Needham,,Needham Line,,,80276C,FFFFFF,20010
-line-Newburyport,,Newburyport/Rockport Line,,,80276C,FFFFFF,20011
-line-Providence,,Providence/Stoughton Line,,,80276C,FFFFFF,20012
-line-Foxboro,,Foxboro Event Service,,,80276C,FFFFFF,20013
-line-NewBedford,,Fall River/New Bedford Line,,,80276C,FFFFFF,20033
+line-NewBedford,,Fall River/New Bedford Line,,,80276C,FFFFFF,20002
+line-Fitchburg,,Fitchburg Line,,,80276C,FFFFFF,20003
+line-Worcester,,Framingham/Worcester Line,,,80276C,FFFFFF,20004
+line-Franklin,,Franklin/Foxboro Line,,,80276C,FFFFFF,20005
+line-Greenbush,,Greenbush Line,,,80276C,FFFFFF,20006
+line-Haverhill,,Haverhill Line,,,80276C,FFFFFF,20007
+line-Kingston,,Kingston Line,,,80276C,FFFFFF,20008
+line-Lowell,,Lowell Line,,,80276C,FFFFFF,20009
+line-Middleborough,,Middleborough/Lakeville Line,,,80276C,FFFFFF,20010
+line-Needham,,Needham Line,,,80276C,FFFFFF,20011
+line-Newburyport,,Newburyport/Rockport Line,,,80276C,FFFFFF,20012
+line-Providence,,Providence/Stoughton Line,,,80276C,FFFFFF,20013
+line-Foxboro,,Foxboro Event Service,,,80276C,FFFFFF,20014
 line-CapeFlyer,,CapeFlyer,,,006595,FFFFFF,21000
 line-Boat-F4,,Charlestown Ferry,,,008EAA,FFFFFF,30001
 line-Boat-F1,,Hingham/Hull Ferry,,,008EAA,FFFFFF,30002
 line-Boat-EastBoston,,East Boston Ferry,,,008EAA,FFFFFF,30005
 line-Boat-Lynn,,Lynn Ferry,,,008EAA,FFFFFF,30007
-line-Boat-F6,,Winthrop Ferry,,,008EAA,FFFFFF,30009
+line-Boat-F6,,Winthrop Ferry,,,008EAA,FFFFFF,30008
+line-Boat-F7,,Quincy Ferry,,,008EAA,FFFFFF,30009
 line-1,1,Harvard - Nubian via Massachusetts Avenue,,,FFC72C,000000,40010
 line-747,CT2,Sullivan - Ruggles,,,FFC72C,000000,40020
 line-171708,CT3/171,"Beth Israel Deaconess, Boston Medical Center, or Nubian - Andrew or Logan Airport",,,FFC72C,000000,40030
