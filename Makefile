@@ -18,7 +18,11 @@ existing-network:
 regional-rail:
 	poetry run python -m scenarios.regional_rail
 
+expansion:
+	poetry run python -m scenarios.expansion
+
 build:
 	make select-gtfs date=$(date)
 	make existing-network
 	make regional-rail
+	make expansion

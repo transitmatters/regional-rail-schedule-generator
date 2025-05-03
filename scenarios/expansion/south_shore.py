@@ -1,0 +1,174 @@
+from synthesize.definitions import Route, RoutePattern
+from synthesize.time import Timetable, all_day_30
+
+from scenarios.regional_rail.infill_stations import (
+    station_braintree_highlands,
+    station_bridgewater_center,
+    station_cohasset_center,
+    station_kingston_junction,
+    station_middleborough_centre_st,
+    station_plymouth_center,
+    station_rockland_north_abington,
+    station_weymouth_columbian_square,
+)
+from scenarios.regional_rail.trainset import emu_trainset
+
+timetable = Timetable(
+    {
+        "South Station": "0:00",
+        "JFK/UMass": "0:04",
+        "Quincy Center": "0:10",
+        # Greenbush
+        "Weymouth Landing/East Braintree": "0:16",
+        "East Weymouth": "0:19",
+        "West Hingham": "0:21",
+        "Hingham Depot": "0:23",
+        "Nantasket Junction": "0:25",
+        "Cohasset Center": "0:29",
+        "North Scituate": "0:32",
+        "Greenbush": "0:36",
+        # Middleborough
+        "Braintree": "0:14",
+        "Braintree Highlands": "0:16",
+        "Holbrook/Randolph": "0:19",
+        "Montello": "0:23",
+        "Brockton": "0:25",
+        "Campello": "0:28",
+        "Bridgewater Center": "0:33",
+        "Bridgewater": "0:34",
+        "Middleborough Centre St": "0:40",
+        "Middleborough": "0:41",
+        "East Taunton": "0:48",
+        # Fall River
+        "Freetown": "0:55",
+        "Fall River Depot": "1:01",
+        # New Bedford
+        "Church Street": "0:59",
+        "New Bedford": "1:02",
+        # TODO(ian): Add Cape stations here?
+        # Plymouth
+        "Weymouth Columbian Square": "0:18",
+        "South Weymouth": "0:20",
+        "Rockland-North Abington": "0:23",
+        "Abington": "0:26",
+        "Whitman": "0:28",
+        "Hanson": "0:32",
+        "Halifax": "0:36",
+        "Kingston Junction": "0:40",
+        "Plymouth": "0:43",
+        "Plymouth Center": "0:45",
+    }
+)
+
+stations_greenbush = (
+    "South Station",
+    "JFK/UMass",
+    "Quincy Center",
+    "Weymouth Landing/East Braintree",
+    "East Weymouth",
+    "West Hingham",
+    "Nantasket Junction",
+    station_cohasset_center,
+    "North Scituate",
+    "Greenbush",
+)
+
+stations_oc_shared = (
+    "South Station",
+    "JFK/UMass",
+    "Quincy Center",
+    "Braintree",
+)
+
+stations_middleborough = (
+    station_braintree_highlands,
+    "Holbrook/Randolph",
+    "Montello",
+    "Brockton",
+    "Campello",
+    station_bridgewater_center,
+    "Bridgewater",
+    station_middleborough_centre_st,
+    "Middleborough",
+)
+
+stations_fall_river = (
+    "East Taunton",
+    "Freetown",
+    "Fall River Depot",
+)
+
+stations_newbedford = (
+    "East Taunton",
+    "Church Street",
+    "New Bedford",
+)
+
+stations_plymouth = (
+    station_weymouth_columbian_square,
+    "South Weymouth",
+    station_rockland_north_abington,
+    "Abington",
+    "Whitman",
+    "Hanson",
+    "Halifax",
+    station_kingston_junction,
+    "Plymouth",
+    station_plymouth_center,
+)
+
+
+greenbush = Route(
+    id="CR-Greenbush",
+    shadows_real_route="CR-Greenbush",
+    name="Greenbush Line",
+    trainset=emu_trainset,
+    route_patterns=[
+        RoutePattern(
+            id="greenbush",
+            name="Greenbush",
+            timetable=timetable,
+            stations=stations_greenbush,
+            schedule=all_day_30,
+        )
+    ],
+)
+
+plymouth = Route(
+    id="CR-Plymouth",
+    shadows_real_route="CR-Kingston",
+    name="Plymouth Line",
+    trainset=emu_trainset,
+    route_patterns=[
+        RoutePattern(
+            id="plymouth",
+            name="Plymouth",
+            timetable=timetable,
+            stations=(stations_oc_shared + stations_plymouth),
+            schedule=all_day_30,
+        )
+    ],
+)
+
+newbedford = Route(
+    id="CR-NewBedford",
+    shadows_real_route="CR-NewBedford",
+    name="Fall River/New Bedford Line",
+    trainset=emu_trainset,
+    route_patterns=[
+        RoutePattern(
+            id="new-bedford",
+            name="New Bedford",
+            timetable=timetable,
+            stations=(stations_oc_shared + stations_middleborough + stations_newbedford),
+            schedule=all_day_30,
+        ),
+        RoutePattern(
+            id="fall-river",
+            name="Fall River",
+            timetable=timetable,
+            stations=(stations_oc_shared + stations_middleborough + stations_fall_river),
+            schedule=all_day_30,
+        )
+    ],
+)
