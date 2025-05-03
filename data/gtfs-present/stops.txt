@@ -5102,7 +5102,7 @@ stop_id,stop_code,stop_name,stop_desc,platform_code,platform_name,stop_lat,stop_
 7115,7115,Cabot St @ Memorial School,,,,42.565728,-70.886473,LocalBus,,https://www.mbta.com/stops/7115,,0,,1,Beverly,Cabot Street,,3
 7117,7117,Cabot St opp Kittredge St,,,,42.564060,-70.884950,LocalBus,,https://www.mbta.com/stops/7117,,0,,1,Beverly,Cabot Street,Kittredge Street,3
 7118,7118,Cabot St @ Balch St,,,,42.562404,-70.884124,LocalBus,,https://www.mbta.com/stops/7118,,0,,1,Beverly,Cabot Street,Balch Street,3
-71186,,JFK/UMass - Columbia Rd @ I-93,JFK/UMass - Red Line Alewife Shuttle - Columbia Rd @ I-93,,Alewife Shuttle,42.321348,-71.053228,LocalBus,,https://www.mbta.com/stops/71186,,0,,1,Boston,Columbia Road,,3
+71186,,JFK/UMass - Columbia Rd @ I-93,JFK/UMass - Red Line Alewife Shuttle - Columbia Rd @ I-93,,Alewife Shuttle,42.321348,-71.053228,,,,,0,,1,Boston,Columbia Road,,3
 71187,71187,Washington St @ Burnett St,,,,42.303768,-71.110246,LocalBus,,https://www.mbta.com/stops/71187,,0,,2,Boston,Washington Street,Burnett Street,3
 7120,7120,Cabot St opp Mason St,,,,42.560663,-70.883413,LocalBus,,https://www.mbta.com/stops/7120,,0,,1,Beverly,Cabot Street,Mason Street,3
 7121,7121,Cabot St @ Beckford St,,,,42.558541,-70.881895,LocalBus,,https://www.mbta.com/stops/7121,,0,,1,Beverly,Cabot Street,Charles Street,3
@@ -5685,7 +5685,6 @@ stop_id,stop_code,stop_name,stop_desc,platform_code,platform_name,stop_lat,stop_
 7865,7865,Beaver St @ Valley View Rd,,,,42.384409,-71.231462,LocalBus,,https://www.mbta.com/stops/7865,,0,,1,Waltham,Beaver Street,Valley View Road,3
 787,787,Belgrade Ave @ West Roxbury Pkwy,,,,42.285932,-71.147524,LocalBus,,https://www.mbta.com/stops/787,,0,,1,Boston,Belgrade Avenue,West Roxbury Parkway,3
 7874,7874,Worthen Rd @ Waltham St,,,,42.440954,-71.232643,LocalBus,,https://www.mbta.com/stops/7874,,0,,1,Lexington,Worthen Road,Waltham Street,3
-78740,78740,Park Drive Circle,,,,42.445329,-71.234804,LocalBus,,https://www.mbta.com/stops/78740,,0,,1,Lexington,Park Drive,,3
 78741,78741,Worthen Rd @ Hayden Rec Ctr,,,,42.448013,-71.237081,LocalBus,,https://www.mbta.com/stops/78741,,0,,1,Lexington,Worthen Road,Lincoln Street,3
 78742,78742,Massachusetts Ave @ Forest St,,,,42.449395,-71.234167,LocalBus,,https://www.mbta.com/stops/78742,,0,,1,Lexington,Massachusetts Avenue,Forest Street,3
 7878,7878,Massachusetts Ave @ Depot Sq,,,,42.448146,-71.228563,LocalBus,,https://www.mbta.com/stops/7878,,0,,1,Lexington,Massachusetts Avenue,Muzzey Street,3
@@ -6197,7 +6196,6 @@ stop_id,stop_code,stop_name,stop_desc,platform_code,platform_name,stop_lat,stop_
 86232,86232,Wood St @ Chestnut Ln,,,,42.454544,-71.263026,LocalBus,,https://www.mbta.com/stops/86232,,0,,1,Lexington,Wood Street,Conestoga Road,3
 8624,8624,Wood St @ Woodpark Circle,,,,42.452437,-71.261649,LocalBus,,https://www.mbta.com/stops/8624,,0,,2,Lexington,Wood Street,Woodpark Circle,3
 86242,86242,Wood St @ Fairview Ave,,,,42.451096,-71.258549,LocalBus,,https://www.mbta.com/stops/86242,,0,,2,Lexington,Wood Street,Fairview Avenue,3
-86253,86253,Minute Man National Park,,,,42.448784,-71.273333,LocalBus,,https://www.mbta.com/stops/86253,,0,,1,Lincoln,North Great Road,,3
 86261,86261,Marrett Rd @ Forbes Rd,,,,42.444426,-71.261344,LocalBus,,https://www.mbta.com/stops/86261,,0,,1,Lexington,Marrett Road,Forbes Road,3
 8627,8627,Marrett Rd @ Elena Rd,,,,42.441703,-71.253166,LocalBus,,https://www.mbta.com/stops/8627,,0,,2,Lexington,Marrett Road,Elena Road,3
 8628,8628,656 Marrett Rd,,,,42.440947,-71.252090,LocalBus,,https://www.mbta.com/stops/8628,,0,,1,Lexington,Marrett Road,School Street,3
@@ -6461,10 +6459,10 @@ stop_id,stop_code,stop_name,stop_desc,platform_code,platform_name,stop_lat,stop_
 9070013,,Massachusetts Avenue - Columbus Ave @ Massachusetts Ave,Massachusetts Avenue - Orange Line Oak Grove Shuttle - Columbus Ave @ Massachusetts Ave,,Oak Grove Shuttle,42.340260,-71.081959,,,,,0,,1,Boston,Columbus Avenue,Massachusetts Avenue,3
 9070022,,State,State - Orange Line Shuttle - Congress St @ State St,,Orange Line Shuttle,42.359131,-71.056756,,,,,0,,1,Boston,Congress Street,State Street,3
 9070024,,Haymarket - Congress St opp Hanover St,Haymarket - Orange Line Forest Hills Shuttle - Congress St opp Hanover St,,Forest Hills Shuttle,42.361133,-71.057643,,,,,0,,1,Boston,Congress Street,Hanover Street,3
-9070026,,North Station,North Station - Orange Line Shuttle - Haverhill St @ Causeway St,,Orange Line Shuttle,42.365608,-71.060426,,,,,0,,1,Boston,Haverhill Street,Causeway Street,3
+9070026,,North Station,North Station - Orange Line Shuttle - Haverhill St @ Causeway St,,Orange Line Shuttle,42.365608,-71.060426,LocalBus,,https://www.mbta.com/stops/9070026,,0,,1,Boston,Haverhill Street,Causeway Street,3
 9070027,,North Station,North Station - Orange Line Shuttle - N Washington St opp Medford St,,Sullivan Shuttle,42.365460,-71.058239,,,,,0,,1,Boston,,,3
-9070028,,Community College - Rutherford Ave @ Austin St,Community College - Orange Line Forest Hills Shuttle - Rutherford Ave @ Austin St,,Forest Hills Shuttle,42.374668,-71.068320,,,,,0,,1,Boston,Rutherford Avenue,Austin Street,3
-9070029,,Community College - Rutherford Ave @ Austin St,Community College - Orange Line Oak Grove Shuttle - Rutherford Ave @ Austin St,,Oak Grove Shuttle,42.374714,-71.067764,,,,,0,,1,Boston,Rutherford Avenue,Austin Street,3
+9070028,,Community College - Rutherford Ave @ Austin St,Community College - Orange Line Forest Hills Shuttle - Rutherford Ave @ Austin St,,Forest Hills Shuttle,42.374668,-71.068320,LocalBus,,https://www.mbta.com/stops/9070028,,0,,1,Boston,Rutherford Avenue,Austin Street,3
+9070029,,Community College - Rutherford Ave @ Austin St,Community College - Orange Line Oak Grove Shuttle - Rutherford Ave @ Austin St,,Oak Grove Shuttle,42.374714,-71.067764,LocalBus,,https://www.mbta.com/stops/9070029,,0,,1,Boston,Rutherford Avenue,Austin Street,3
 9070039,,Government Center - Cambridge St @ Sudbury St,Government Center - Shuttle - Cambridge St @ Sudbury St,,Shuttle,42.360756,-71.060640,,,,,0,,1,Boston,Cambridge Street,Sudbury Street,3
 9070043,,Aquarium - Surface Rd @ State St,Aquarium - Blue Line Shuttle - Surface Rd @ State St,,Blue Line Shuttle,42.359756,-71.052605,,,,,0,,1,Boston,Surface Road,State Street,3
 9070045,,Maverick,Maverick - Blue Line Government Center Shuttle,,Government Center Shuttle,42.369579,-71.039179,,,,,0,,1,Boston,Maverick Square,Winthrop Street,3
@@ -6486,10 +6484,10 @@ stop_id,stop_code,stop_name,stop_desc,platform_code,platform_name,stop_lat,stop_
 9070079,,South Station - Summer St @ Surface Rd,South Station - Red Line Ashmont/Braintree Shuttle - Summer St @ Surface Rd,,Ashmont/Braintree Shuttle,42.353003,-71.056610,,,,,0,,1,Boston,Summer Street,John F. Fitzgerald Surface Road,3
 9070080,,Downtown Crossing - Franklin St @ Washington St,Downtown Crossing - Red Line Shuttle - Franklin St @ Washington St,,Red Line Shuttle,42.356270,-71.059330,,,,,0,,1,Boston,Franklin Street,Washington Street,3
 9070083,,Andrew - Dorchester Ave @ Dexter St,Andrew - Red Line Ashmont/Braintree Shuttle - Dorchester Ave @ Dexter St,,Ashmont/Braintree Shuttle,42.330445,-71.057042,,,,,0,,1,Boston,Dorchester Avenue,Dexter Street,3
-9070090,,North Station - Nashua St @ Red Auerbach Way,North Station - Lechmere & North/Oak Grove Shuttle - Nashua St @ Red Auerbach Way,,Lechmere & North/Oak Grove Shuttle,42.365550,-71.064050,LocalBus,,https://www.mbta.com/stops/9070090,,0,,1,Boston,Nashua Street,Red Auerbach Way,3
-9070091,,Science Park/West End - Nashua St @ Leverett Cir,Science Park/West End - Green Line Lechmere & North Shuttle - Nashua St @ Leverett Cir,,Lechmere & North Shuttle,42.367520,-71.066800,LocalBus,,https://www.mbta.com/stops/9070091,,0,,1,Boston,Nashua Street,Leverett Circle,3
-9070093,,Science Park/West End - Martha Rd @ Amy Ct,Science Park/West End - Green Line Copley & West Shuttle - Martha Rd @ Amy Ct,,Copley & West Shuttle,42.366100,-71.066760,LocalBus,,https://www.mbta.com/stops/9070093,,0,,1,Boston,Martha Road,Amy Court,3
-9070101,,Quincy Center - 1259 Hancock St,Quincy Center - Red Line Braintree Suttle - 1259 Hancock St,,Braintree Shuttle,42.251786,-71.003876,,,,,0,,1,Quincy,Hancock Street,,3
+9070090,,North Station - Nashua St @ Red Auerbach Way,North Station - Lechmere & North/Oak Grove Shuttle - Nashua St @ Red Auerbach Way,,Lechmere & North/Oak Grove Shuttle,42.365550,-71.064050,,,,,0,,1,Boston,Nashua Street,Red Auerbach Way,3
+9070091,,Science Park/West End - Nashua St @ Leverett Cir,Science Park/West End - Green Line Lechmere & North Shuttle - Nashua St @ Leverett Cir,,Lechmere & North Shuttle,42.367520,-71.066800,,,,,0,,1,Boston,Nashua Street,Leverett Circle,3
+9070093,,Science Park/West End - Martha Rd @ Amy Ct,Science Park/West End - Green Line Copley & West Shuttle - Martha Rd @ Amy Ct,,Copley & West Shuttle,42.366100,-71.066760,,,,,0,,1,Boston,Martha Road,Amy Court,3
+9070101,,Quincy Center - 1259 Hancock St,Quincy Center - Red Line Braintree Suttle - 1259 Hancock St,,Braintree Shuttle,42.251786,-71.003876,LocalBus,,https://www.mbta.com/stops/9070101,,0,,1,Quincy,Hancock Street,,3
 9070107,,Boston College - Commonwealth Ave @ Lake St,Boston College - Green Line Shuttle - Commonwealth Ave @ Lake St,,Green Line Shuttle,42.339810,-71.166410,,,,,0,,1,Boston,Commonwealth Avenue,Lake Street,3
 9070110,,South Street - Commonwealth Ave opp South St,South Street - Green Line Park Street & North Shuttle - Commonwealth Ave opp South St,,Park Street & North Shuttle,42.339477,-71.157805,,,,,0,,1,Boston,Commonwealth Avenue,South Street,3
 9070111,,South Street - Commonwealth Ave @ South St,South Street - Green Line Boston College Shuttle,,Boston College Shuttle - Commonwealth Ave opp South St,42.339669,-71.157486,,,,,0,,1,Boston,Commonwealth Avenue,South Street,3
@@ -6560,7 +6558,7 @@ stop_id,stop_code,stop_name,stop_desc,platform_code,platform_name,stop_lat,stop_
 9070505,,Gilman Square - Medford St opp Gilman Sq Station,Gilman Square - Green Line Medford/Tufts Shuttle - Medford St opp Gilman Sq Station,,Medford/Tufts Shuttle,42.387450,-71.095380,,,,,0,,1,Somerville,Medford Street,Pearl Street,3
 9070506,,Gilman Square - Medford St @ Gilman Sq Station,Gilman Square - Green Line Copley & West Shuttle - Medford St @ Gilman Sq Station,,Copley & West Shuttle,42.387420,-71.095500,,,,,0,,1,Somerville,Medford Street,Pearl Street,3
 9070508,,Magoun Square - Medford St @ Lowell St,Magoun Square - Green Line Copley & West Shuttle - Medford St @ Lowell St,,Copley & West Shuttle,42.396450,-71.103750,,,,,0,,1,Somerville,Medford Street,Lowell Street,3
-9070509,,Ball Square - Boston Ave @ Broadway,Ball Square - Green Line Medford/Tufts Shuttle - Boston Ave @ Broadway,,Medford/Tufts Shuttle,42.400150,-71.111750,LocalBus,,https://www.mbta.com/stops/9070509,,0,,1,Somerville,Boston Avenue,Broadway,3
+9070509,,Ball Square - Boston Ave @ Broadway,Ball Square - Green Line Medford/Tufts Shuttle - Boston Ave @ Broadway,,Medford/Tufts Shuttle,42.400150,-71.111750,,,,,0,,1,Somerville,Boston Avenue,Broadway,3
 9070513,,East Somerville - Joy St @ Washington St,East Somerville - Green Line Shuttle - Joy St @ Washington St,,Green Line Shuttle,42.380240,-71.088280,,,,,0,,1,Somerville,Joy Street,Washington Street,3
 9071,9071,Warren St @ Melrose St,,,,42.468798,-71.074237,LocalBus,,https://www.mbta.com/stops/9071,,0,,0,Melrose,Warren Street,Melrose Street,3
 9073,9073,Franklin St @ Warren St,,,,42.469465,-71.073595,LocalBus,,https://www.mbta.com/stops/9073,,0,,0,Melrose,Franklin Street,Warren Street,3
@@ -6664,12 +6662,12 @@ stop_id,stop_code,stop_name,stop_desc,platform_code,platform_name,stop_lat,stop_
 9170,9170,Riverside Ave @ Park St,,,,42.414773,-71.100883,LocalBus,,https://www.mbta.com/stops/9170,,0,,1,Medford,Riverside Avenue,Marine Street,3
 9170012,,Massachusetts Avenue - Columbus Ave @ Newcastle Ct,Massachusetts Avenue - Orange Line Forest Hills Shuttle - Columbus Ave @ Newcastle Ct,,Forest Hills Shuttle,42.340441,-71.082114,,,,,0,,1,Boston,Columbus Avenue,Newcastle Court,3
 9170014,,Back Bay - Columbus Ave @ Dartmouth St,Back Bay - Orange Line Forest Hills Shuttle - Columbus Ave @ Dartmouth St,,Forest Hills Shuttle,42.346210,-71.074988,,,,,0,,1,Boston,Columbus Avenue,Dartmouth Street,3
-9170024,,Haymarket - Congress St @ New Sudbury St,Haymarket - Red Line Ashmont/Braintree Shuttle - Congress St @ New Sudbury St,,Ashmont/Braintree Shuttle,42.362096,-71.058311,LocalBus,,https://www.mbta.com/stops/9170024,,0,,1,Boston,Congress Street,New Sudbury Street,3
+9170024,,Haymarket - Congress St @ New Sudbury St,Haymarket - Red Line Ashmont/Braintree Shuttle - Congress St @ New Sudbury St,,Ashmont/Braintree Shuttle,42.362096,-71.058311,,,,,0,,1,Boston,Congress Street,New Sudbury Street,3
 9170043,,Aquarium - State St opp McKinley Sq,Aquarium - Blue Line Shuttle - State St opp McKinley Sq,,Blue Line Shuttle,42.359451,-71.053228,,,,,0,,1,Boston,State Street,McKinley Square,3
 9170071,,Kendall/MIT - Main St @ Hayward St,Kendall/MIT - Red Line Ashmont/Braintree Shuttle - Main St @ Hayward St,,Ashmont/Braintree Shuttle,42.362309,-71.085583,,,,,0,,1,Cambridge,Main Street,Hayward Street,3
 9170076,,Park Street - Tremont St opp Hamilton Pl,Park Street - Red Line Shuttle - Tremont St opp Hamilton Pl,,Red Line Shuttle,42.356874,-71.061699,,,,,0,,1,Boston,Tremont Street,Hamilton Place,3
-9170099,,Wollaston - Newport Ave @ Brook St,Wollaston - Red Line Braintree Shuttle - Newport Ave @ Brook St,,Braintree Shuttle,42.266560,-71.020832,,,,,0,,1,Quincy,Newport Avenue,Brook Street,3
-9170100,,Wollaston - Newport Ave opp Brook St,Wollaston - Red Line Alewife Shuttle - Newport Ave opp Brook St,,Alewife Shuttle,42.266771,-71.020771,,,,,0,,1,Quincy,Newport Avenue,Brook Street,3
+9170099,,Wollaston - Newport Ave @ Brook St,Wollaston - Red Line Braintree Shuttle - Newport Ave @ Brook St,,Braintree Shuttle,42.266560,-71.020832,LocalBus,,https://www.mbta.com/stops/9170099,,0,,1,Quincy,Newport Avenue,Brook Street,3
+9170100,,Wollaston - Newport Ave opp Brook St,Wollaston - Red Line Alewife Shuttle - Newport Ave opp Brook St,,Alewife Shuttle,42.266771,-71.020771,LocalBus,,https://www.mbta.com/stops/9170100,,0,,1,Quincy,Newport Avenue,Brook Street,3
 9170120,,Washington Street - Commonwealth Ave @ Washington St,Washington Street - Green Line Park Street & North Shuttle - Commonwealth Ave @ Washington St,,Park Street & North Shuttle,42.344440,-71.142030,,,,,0,,1,Boston,Commonwealth Avenue,Washington Street,3
 9170151,,Kenmore - Commonwealth Ave @ Kenmore St,Kenmore - Green Line Westbound Shuttle - Commonwealth Ave @ Kenmore St,,Westbound Shuttle,42.349160,-71.094900,,,,,0,,1,Boston,Commonwealth Avenue,Kenmore Street,3
 9170152,,Hynes - Commonwealth Ave @ Massachusetts Ave,Hynes - Green Line Park Street & North Shuttle - Commonwealth Ave @ Massachusetts Ave,,Park Street & North Shuttle,42.348890,-71.088350,,,,,0,,1,Boston,Commonwealth Avenue,Massachusetts Avenue,3
@@ -6805,8 +6803,7 @@ stop_id,stop_code,stop_name,stop_desc,platform_code,platform_name,stop_lat,stop_
 937,937,Commonwealth Ave @ Carlton St,,,,42.350075,-71.108712,LocalBus,,https://www.mbta.com/stops/937,,0,,1,Boston,Commonwealth Avenue,Carlton Street,3
 9370022,,State - Devonshire St @ State St,State - Red Line Ashmont/Braintree Shuttle - Devonshire St @ State St,,Ashmont/Braintree Shuttle,42.358594,-71.057305,,,,,0,,1,Boston,Devonshire Street,State Street,3
 9370024,,North Quincy - Hancock Street Garage,North Quincy - Red Line Alewife Shuttle - Hancock Street Garage,,,42.276700,-71.030860,,,,,0,,1,Quincy,Hancock Street,,3
-9370041,,Fields Corner - Geneva Ave @ Vinson St,Fields Corner - Red Line Ashmont Shuttle - Geneva Ave @ Vinson St,,,42.298910,-71.063980,LocalBus,,https://www.mbta.com/stops/9370041,,0,,1,Boston,Geneva Avenue,Vinson Street,3
-9370042,,North Station - Nashua St @ Red Auerbach Way,North Station - Green Line Shuttle - Nashua St @ Red Auerbach Way,,,42.365320,-71.064550,LocalBus,,https://www.mbta.com/stops/9370042,,0,,1,Boston,Nashua St,Red Auerbach Way,3
+9370041,,Fields Corner - Geneva Ave @ Vinson St,Fields Corner - Red Line Ashmont Shuttle - Geneva Ave @ Vinson St,,,42.298910,-71.063980,,,,,0,,1,Boston,Geneva Avenue,Vinson Street,3
 938,938,Commonwealth Ave @ St Mary's St,,,,42.349788,-71.106391,LocalBus,,https://www.mbta.com/stops/938,,0,,1,Boston,Commonwealth Avenue,Saint Marys Street,3
 939,939,Commonwealth Ave @ Hinsdale St,,,,42.349397,-71.103055,LocalBus,,https://www.mbta.com/stops/939,,0,,1,Boston,Commonwealth Avenue,Hinsdale Street,3
 9406,9406,Morton St @ Harvard St,,,,42.287893,-71.093873,LocalBus,,https://www.mbta.com/stops/9406,,0,,1,Boston,Morton Street,,3
@@ -9926,6 +9923,7 @@ place-stpul,,Saint Paul Street,,,,42.343327,-71.116997,,"Beacon St and Saint Pau
 70218,70218,Saint Paul Street,Saint Paul Street - Green Line - Park Street & North,,Park Street & North,42.343118,-71.117498,RapidTransit,,https://www.mbta.com/stops/place-stpul,level_median,0,place-stpul,2,Brookline,,,0
 place-sull,,Sullivan Square,,,,42.383975,-71.076994,,"Maffa Way and Cambridge St, Charlestown, MA 02129",https://www.mbta.com/stops/place-sull,,1,,1,Boston,,,
 29001,29001,Sullivan Square,Sullivan Square - Upper Busway Berth A6,A6,Upper Busway Berth A6,42.384598,-71.076472,LocalBus,,https://www.mbta.com/stops/place-sull,level_ground,0,place-sull,1,Boston,Busway,,3
+29002,,Sullivan Square,Sullivan Square - Upper Busway Berth A5,A5,Upper Busway Berth A5,42.384386,-71.076502,LocalBus,,https://www.mbta.com/stops/place-sull,level_ground,0,place-sull,1,Boston,,,3
 29003,29003,Sullivan Square,Sullivan Square - Upper Busway Berth A4,A4,Upper Busway Berth A4,42.384266,-71.076519,LocalBus,,https://www.mbta.com/stops/place-sull,level_ground,0,place-sull,1,Boston,Busway,,3
 29004,29004,Sullivan Square,Sullivan Square - Upper Busway Berth A3,A3,Upper Busway Berth A3,42.384143,-71.076527,LocalBus,,https://www.mbta.com/stops/place-sull,level_ground,0,place-sull,1,Boston,Busway,,3
 29005,29005,Sullivan Square,Sullivan Square - Upper Busway Berth A2,A2,Upper Busway Berth A2,42.384032,-71.076534,LocalBus,,https://www.mbta.com/stops/place-sull,level_ground,0,place-sull,1,Boston,Busway,,3

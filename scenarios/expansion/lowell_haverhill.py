@@ -1,7 +1,7 @@
 from synthesize.definitions import Route, RoutePattern
 from synthesize.time import all_day_30, Timetable
 
-from scenarios.regional_rail.infill_stations import (
+from scenarios.expansion.infill_stations import (
     station_montvale_avenue,
     station_umass_lowell,
     station_rourke_bridge,

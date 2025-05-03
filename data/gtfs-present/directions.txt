@@ -473,8 +473,6 @@ Shuttle-BradfordHaverhill,0,Outbound,Haverhill
 Shuttle-BradfordHaverhill,1,Inbound,North Station
 Shuttle-BraintreeBroadway,0,South,Braintree
 Shuttle-BraintreeBroadway,1,North,Alewife
-Shuttle-BraintreeJFK,0,South,Braintree
-Shuttle-BraintreeJFK,1,North,Alewife
 Shuttle-BraintreeNorthQuincy,0,South,Braintree
 Shuttle-BraintreeNorthQuincy,1,North,Alewife
 Shuttle-BraintreeQuincyCenter,0,South,Braintree
@@ -605,6 +603,8 @@ Shuttle-JFKPark,0,South,Ashmont/Braintree
 Shuttle-JFKPark,1,North,Alewife
 Shuttle-JFKParkStreetViaPostOffice,0,South,Ashmont/Braintree
 Shuttle-JFKParkStreetViaPostOffice,1,North,Alewife
+Shuttle-JFKUMasstoBraintree-S,0,Outbound,Braintree
+Shuttle-JFKUMasstoBraintree-S,1,Inbound,JFK/UMass
 Shuttle-KendallPark,0,South,Ashmont/Braintree
 Shuttle-KendallPark,1,North,Alewife
 Shuttle-KenmoreReservoir,0,West,Riverside
@@ -631,8 +631,6 @@ Shuttle-ManchesterGloucester,0,Outbound,Gloucester
 Shuttle-ManchesterRockport,0,Outbound,Rockport
 Shuttle-MaverickWonderland,0,West,Maverick
 Shuttle-MaverickWonderland,1,East,Wonderland
-Shuttle-Medford/Tufts to Government Center,0,Inbound,Government Center
-Shuttle-Medford/Tufts to Government Center,1,Outbound,Medford/Tufts
 Shuttle-MedfordNorthStation,0,West,Heath Street
 Shuttle-MedfordNorthStation,1,East,Medford/Tufts
 Shuttle-NewburyportOakGroveExpress,0,Outbound,Newburyport
@@ -673,6 +671,10 @@ Shuttle-OakGroveRockportLimited,0,Outbound,Rockport
 Shuttle-OakGroveRockportLimited,1,Inbound,North Station
 Shuttle-OakGroveSalemLocal,0,Outbound,Newburyport or Rockport
 Shuttle-OakGroveSalemLocal,1,Inbound,North Station
+Shuttle-OakGrovetoNorthStationEXP-S,0,Outbound,North Station
+Shuttle-OakGrovetoNorthStationEXP-S,1,Inbound,Oak Grove
+Shuttle-OakGrovetoNorthStationLCL-S,0,Outbound,North Station
+Shuttle-OakGrovetoNorthStationLCL-S,1,Inbound,Oak Grove
 Shuttle-OrientHeightsWonderland,0,West,Bowdoin
 Shuttle-OrientHeightsWonderland,1,East,Wonderland
 Shuttle-PawtucketProvidence,0,Outbound,Wickford Junction

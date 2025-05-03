@@ -263,7 +263,6 @@ hlong,Huntington Avenue & Longwood Avenue
 hloop,Cambridge Common Loop
 hlscl,Highland Avenue @ School Street (Somerville High School)
 hnann,Hancock Street @ Saint Anns Road
-hnbrk,Brookline Street @ Granite Street (Cambridge)
 hncot,Hancock Street @ Cottage Avenue
 hngdpt,Hingham Depot
 hnglf,Hancock Street @ Greenleaf Street (Central Middle School)
@@ -445,7 +444,6 @@ portr,Porter Square
 powdr,Powder House
 ppth,Pemberton Point (Hull)
 prkbn,Park Drive @ Beacon Street
-prkdr,Park Drive Circle (Lexington)
 prksq,Park Square (Charles Street)
 prkwl,Parker Street @ Wheeler
 prlcg,Pearl Street @ Congress Street
@@ -486,7 +484,6 @@ saug,Saugus Center
 saugpl,Saugus Plaza
 sbmnl,Stony Brook
 sbpfd,Sawmill Brook Pkwy
-school,Harvard Street @ School Street (Brookline)
 sdmnl,Suffolk Downs
 seasl,Seaport Boulevard @ Sleeper Street
 seast,Sea Street @ Palmer Street

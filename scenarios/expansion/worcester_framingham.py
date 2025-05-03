@@ -1,8 +1,8 @@
 from synthesize.definitions import Route, RoutePattern
 from synthesize.time import all_day_15, peak_offpeak_frequencies, Timetable
 
-from scenarios.regional_rail.trainset import emu_trainset
-from scenarios.regional_rail.infill_stations import (
+from scenarios.expansion.trainset import emu_trainset
+from scenarios.expansion.infill_stations import (
     station_newton_corner,
     station_west_station,
 )

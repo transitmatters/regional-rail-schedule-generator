@@ -235,7 +235,6 @@ Shuttle-BostonCollegeWashington,1,Green Line B Shuttle,Boston College - Washingt
 Shuttle-BostonLandingSouthStationExpress,1,Worcester Line Shuttle,Boston Landing - South Station (Express),Rail Replacement Bus,3,,FFC72C,000000,60910,Free,line-Worcester,1,rail_replacement_bus
 Shuttle-BostonUniversityEastPark,1,Green Line Shuttle,Boston University East - Park Street,Rail Replacement Bus,3,,FFC72C,000000,60925,Free,line-Green,1,rail_replacement_bus
 Shuttle-BradfordHaverhill,1,Haverhill Line Shuttle,Haverhill - Bradford,Rail Replacement Bus,3,,FFC72C,000000,60930,Free,line-Haverhill,1,rail_replacement_bus
-Shuttle-BraintreeJFK,1,Red Line Shuttle,Braintree - JFK/UMass,Rail Replacement Bus,3,,FFC72C,000000,60940,Free,line-Red,1,rail_replacement_bus
 Shuttle-BraintreeNorthQuincy,1,Red Line Shuttle,Braintree - North Quincy,Rail Replacement Bus,3,,FFC72C,000000,60950,Free,line-Red,1,rail_replacement_bus
 Shuttle-BraintreeQuincyCenter,1,Red Line Shuttle,Braintree - Quincy Center,Rail Replacement Bus,3,,FFC72C,000000,61000,Free,line-Red,1,rail_replacement_bus
 Shuttle-BraintreeSouthStationExpress,1,Commuter Rail Shuttle,Braintree - South Station (Express),Rail Replacement Bus,3,,FFC72C,000000,61010,Free,line-Middleborough,1,rail_replacement_bus
@@ -379,4 +378,6 @@ Shuttle-SouthStationWellesleyHillsLocal,1,Worcester Line Shuttle,Wellesley Hills
 Shuttle-StateSullivan,1,Orange Line Shuttle,Sullivan Square - State,Rail Replacement Bus,3,,FFC72C,000000,62485,Free,line-Orange,1,rail_replacement_bus
 Shuttle-SuffolkDownsWonderland,1,Blue Line Shuttle,Wonderland - Suffolk Downs,Rail Replacement Bus,3,,FFC72C,000000,62500,Free,line-Blue,1,rail_replacement_bus
 Shuttle-TFGreenWickfordJunction,1,Providence Line Shuttle,Wickford Junction - TF Green Airport,Rail Replacement Bus,3,,FFC72C,000000,62550,Free,line-Providence,1,rail_replacement_bus
-Shuttle-Medford/Tufts to Government Center,1,Green Line E Shuttle,Government Center - Medford/Tufts,Rail Replacement Bus,3,,FFC72C,000000,63550,Free,line-Green,1,rail_replacement_bus
+Shuttle-JFKUMasstoBraintree-S,1,Red Line Shuttle,Braintree - JFK/UMass (Shuttle),Rail Replacement Bus,3,,FFC72C,000000,63550,Free,line-Red,1,rail_replacement_bus
+Shuttle-OakGrovetoNorthStationLCL-S,1,Orange Line Shuttle,North Station - Oak Grove (Local),Rail Replacement Bus,3,,FFC72C,000000,64550,Free,line-Orange,1,rail_replacement_bus
+Shuttle-OakGrovetoNorthStationEXP-S,1,Orange Line Shuttle,North Station - Oak Grove (Express),Rail Replacement Bus,3,,FFC72C,000000,65550,Free,line-Orange,1,rail_replacement_bus

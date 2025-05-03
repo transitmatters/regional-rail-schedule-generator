@@ -1,7 +1,7 @@
 from synthesize.definitions import Route, RoutePattern
 from synthesize.time import Timetable, all_day_30
 
-from scenarios.regional_rail.infill_stations import (
+from scenarios.expansion.infill_stations import (
     station_braintree_highlands,
     station_bridgewater_center,
     station_cohasset_center,
@@ -11,7 +11,7 @@ from scenarios.regional_rail.infill_stations import (
     station_rockland_north_abington,
     station_weymouth_columbian_square,
 )
-from scenarios.regional_rail.trainset import emu_trainset
+from scenarios.expansion.trainset import emu_trainset
 
 timetable = Timetable(
     {

@@ -1752,6 +1752,7 @@ facility_id,property_id,value
 305,excludes-stop,node-ccmnl-stairs-platform
 307,direction,up
 307,excludes-stop,29001
+307,excludes-stop,29002
 307,excludes-stop,29003
 307,excludes-stop,29004
 307,excludes-stop,29005
@@ -1784,6 +1785,7 @@ facility_id,property_id,value
 307,excludes-stop,node-sull-sbstairs-platform
 308,direction,up
 308,excludes-stop,29001
+308,excludes-stop,29002
 308,excludes-stop,29003
 308,excludes-stop,29004
 308,excludes-stop,29005
@@ -11813,6 +11815,7 @@ facility_id,property_id,value
 831,excludes-stop,node-jfk-sydneysstair-lobby
 840,alternate-service-text,"To exit when traveling on a Forest Hills-bound train, exit onto the center platform and wait for an Oak Grove train to arrive. When the train arrives, cross through the train over to the opposite platform and use Sullivan Elevator 881. To exit the train when traveling on an Oak Grove-bound train, exit the right side of the train onto the Oak Grove platform and use Sullivan Elevator 881. To board a Forest Hills-bound train, use Sullivan Elevator 881 to access the Oak Grove platform, then wait for an Oak Grove-bound train to arrive. When the train arrives, cross through the train over to the center platform."
 840,excludes-stop,29001
+840,excludes-stop,29002
 840,excludes-stop,29003
 840,excludes-stop,29004
 840,excludes-stop,29005
@@ -13032,6 +13035,7 @@ facility_id,property_id,value
 880,excludes-stop,node-andrw-sobstairs-platform
 881,alternate-service-text,"To exit, exit the left side of the train onto the center platform and use Sullivan Elevator 840. To board, use Sullivan Elevator 840 to access the center platform."
 881,excludes-stop,29001
+881,excludes-stop,29002
 881,excludes-stop,29003
 881,excludes-stop,29004
 881,excludes-stop,29005
@@ -21616,7 +21620,7 @@ park-FRS-0054,contact,MBTA Customer Support
 park-FRS-0054,contact-phone,617-222-3200
 park-FRS-0054,contact-url,https://www.mbta.com/customer-support
 park-FRS-0054,enclosed,2
-park-FRS-0054,fee-daily,"Free until 4/30 | Starting 5/1, Mon-Fri: $4, Sat-Sun: $2"
+park-FRS-0054,fee-daily,Mon-Fri: $4 | Sat-Sun: Free through 6/1/25
 park-FRS-0054,municipality,Freetown
 park-FRS-0054,operator,Keolis Commuter Services
 park-FRS-0054,overnight-allowed,no
@@ -21633,7 +21637,7 @@ park-FRS-0109,contact,MBTA Customer Support
 park-FRS-0109,contact-phone,617-222-3200
 park-FRS-0109,contact-url,https://www.mbta.com/customer-support
 park-FRS-0109,enclosed,2
-park-FRS-0109,fee-daily,"Free until 4/30 | Starting 5/1, Mon-Fri: $4, Sat-Sun: $2"
+park-FRS-0109,fee-daily,Mon-Fri: $4 | Sat-Sun: Free through 6/1/25
 park-FRS-0109,municipality,Fall River 
 park-FRS-0109,operator,Keolis Commuter Services
 park-FRS-0109,overnight-allowed,no
@@ -21905,7 +21909,7 @@ park-MBS-0350,contact,MBTA Customer Support
 park-MBS-0350,contact-phone,617-222-3200
 park-MBS-0350,contact-url,https://www.mbta.com/customer-support
 park-MBS-0350,enclosed,2
-park-MBS-0350,fee-daily,"Free until 4/30 | Starting 5/1, Mon-Fri: $4, Sat-Sun: $2"
+park-MBS-0350,fee-daily,Mon-Fri: $4 | Sat-Sun: Free through 6/1/25
 park-MBS-0350,municipality,Middleborough
 park-MBS-0350,operator,Keolis Commuter Services
 park-MBS-0350,overnight-allowed,no
@@ -22201,7 +22205,7 @@ park-NBM-0374,contact,MBTA Customer Support
 park-NBM-0374,contact-phone,617-222-3200
 park-NBM-0374,contact-url,https://www.mbta.com/customer-support
 park-NBM-0374,enclosed,2
-park-NBM-0374,fee-daily,"Free until 4/30 | Starting 5/1, Mon-Fri: $4, Sat-Sun: $2"
+park-NBM-0374,fee-daily,Mon-Fri: $4 | Sat-Sun: Free through 6/1/25
 park-NBM-0374,municipality,East Taunton
 park-NBM-0374,operator,Keolis Commuter Services
 park-NBM-0374,overnight-allowed,no
@@ -22218,7 +22222,7 @@ park-NBM-0523,contact,MBTA Customer Support
 park-NBM-0523,contact-phone,617-222-3200
 park-NBM-0523,contact-url,https://www.mbta.com/customer-support
 park-NBM-0523,enclosed,2
-park-NBM-0523,fee-daily,"Free until 4/30 | Starting 5/1, Mon-Fri: $4, Sat-Sun: $2"
+park-NBM-0523,fee-daily,Mon-Fri: $4 | Sat-Sun: Free through 6/1/25
 park-NBM-0523,municipality,New Bedford 
 park-NBM-0523,operator,Keolis Commuter Services
 park-NBM-0523,overnight-allowed,no
@@ -22235,11 +22239,14 @@ park-NBM-0546,contact,New Bedford Port Authority
 park-NBM-0546,contact-phone,508-961-3000
 park-NBM-0546,contact-url,https://portofnewbedford.org/
 park-NBM-0546,enclosed,2
-park-NBM-0546,fee-daily,Free until 4/30
+park-NBM-0546,fee-daily,Mon-Fri: $4 | Sat-Sun: $2 | Overnight: $15 per day
 park-NBM-0546,municipality,New Bedford 
 park-NBM-0546,operator,New Bedford Port Authority
-park-NBM-0546,overnight-allowed,no
+park-NBM-0546,overnight-allowed,yes-except-snow
 park-NBM-0546,owner,New Bedford Port Authority
+park-NBM-0546,payment-app,xpresspark
+park-NBM-0546,payment-form-accepted,credit-debit-card
+park-NBM-0546,payment-form-accepted,mobile-app
 park-NEC-1659-garage,attended,1
 park-NEC-1659-garage,capacity,1100
 park-NEC-1659-garage,contact,Rhode Island Department of Transportation
@@ -22296,7 +22303,7 @@ park-NEC-1919,contact,MBTA Customer Support
 park-NEC-1919,contact-phone,617-222-3200
 park-NEC-1919,contact-url,https://www.mbta.com/customer-support
 park-NEC-1919,enclosed,2
-park-NEC-1919,fee-daily,"The South Attleboro Parking Lot will be free starting Tuesday October 1, 2024, until Tuesday April, 1st, 2025."
+park-NEC-1919,fee-daily,"The South Attleboro Parking Lot will be free starting October 1st, 2024, until October 1st, 2025."
 park-NEC-1919,municipality,Attleboro
 park-NEC-1919,note,Temporary Price Reduction. 
 park-NEC-1919,operator,Keolis Commuter Services
