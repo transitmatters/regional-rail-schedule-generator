@@ -1,6 +1,7 @@
 from synthesize.write_gtfs import write_scenario_gtfs, archive_scenario_gtfs
 from synthesize.evaluate import evaluate_scenario
 
+from scenarios.expansion.orange import orange
 from scenarios.expansion.red import red
 from scenarios.expansion.blue import blue
 from scenarios.expansion.eastern import eastern
@@ -14,6 +15,9 @@ from scenarios.expansion.providence import providence_stoughton
 from scenarios.expansion.south_shore import greenbush, plymouth, newbedford
 
 subgraphs = [
+    # TODO: this is too many routes for a subgraph
+    # [green_b, green_c, green_d, green_e, green_f],
+    [orange],
     [red],
     [blue],
     [eastern],

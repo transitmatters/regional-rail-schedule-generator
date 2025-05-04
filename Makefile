@@ -21,6 +21,9 @@ regional-rail:
 expansion:
 	poetry run python -m scenarios.expansion
 
+generate-timetable:
+	poetry run python -m generate.generate_timetable $(gtfs_path) $(route_id) $(output_path)
+
 build:
 	make select-gtfs date=$(date)
 	make existing-network

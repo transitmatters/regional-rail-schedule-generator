@@ -189,6 +189,13 @@ station_plymouth_center = Station(
     municipality="Plymouth",
 )
 
+station_west_lynn = Station(
+    name="West Lynn",
+    id="place-west-lynn",
+    location=(0, 0),
+    municipality="Lynn",
+)
+
 station_arlington_heights = Station(
     name="Arlington Heights",
     id="place-arlington-heights",
@@ -201,4 +208,40 @@ station_arlington_center = Station(
     id="place-arlington-center",
     location=(0, 0),
     municipality="Arlington",
+)
+
+# TODO: Map to existing stop ids
+station_bay_village = Station(
+    name="Bay Village",
+    id="place-glx-f-bay-village",
+    location=(0, 0),
+    municipality="Boston",
+)
+
+station_ink_block = Station(
+    name="Ink Block",
+    id="place-glx-f-ink-block",
+    location=(0, 0),
+    municipality="Boston",
+)
+
+station_reynolds = Station(
+    name="Reynolds",
+    id="place-glx-f-reynolds",
+    location=(0, 0),
+    municipality="Boston",
+)
+
+station_northampton = Station(
+    name="Northampton",
+    id="place-glx-f-northampton",
+    location=(0, 0),
+    municipality="Boston",
+)
+
+station_ramsay_park = Station(
+    name="Ramsay Park",
+    id="place-glx-f-ramsay-park",
+    location=(0, 0),
+    municipality="Boston",
 )

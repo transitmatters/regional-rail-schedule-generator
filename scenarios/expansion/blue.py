@@ -1,28 +1,31 @@
 from synthesize.definitions import Route, RoutePattern
-from synthesize.time import Timetable, all_day_5
+from synthesize.time import Timetable, peak_offpeak_frequencies
+from scenarios.expansion.infill_stations import station_west_lynn
 
 timetable = Timetable(
     {
         "Lynn": "0:00",
-        "River Works": "0:02",
-        "Wonderland": "0:04",
-        "Revere Beach": "0:06",
-        "Beachmont": "0:08",
-        "Suffolk Downs": "0:10",
-        "Orient Heights": "0:11",
-        "Wood Island": "0:13",
-        "Airport": "0:15",
-        "Maverick": "0:16",
-        "Aquarium": "0:18",
-        "State": "0:20",
-        "Government Center": "0:21",
-        "Bowdoin": "0:23",
-        "Charles/MGH": "0:24",
+        "West Lynn": "0:03",
+        "River Works": "0:05",
+        "Wonderland": "0:10",
+        "Revere Beach": "0:12",
+        "Beachmont": "0:14",
+        "Suffolk Downs": "0:16",
+        "Orient Heights": "0:18",
+        "Wood Island": "0:20",
+        "Airport": "0:22",
+        "Maverick": "0:24",
+        "Aquarium": "0:26",
+        "State": "0:28",
+        "Government Center": "0:30",
+        "Bowdoin": "0:32",
+        "Charles/MGH": "0:34",
     }
 )
 
 stations = (
     "Lynn",
+    station_west_lynn,
     "River Works",
     "Wonderland",
     "Revere Beach",
@@ -49,7 +52,7 @@ blue = Route(
             name="Blue",
             stations=stations,
             timetable=timetable,
-            schedule=all_day_5,
+            schedule=peak_offpeak_frequencies(5, 7),
         )
     ],
 )

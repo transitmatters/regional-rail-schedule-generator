@@ -1,4 +1,5 @@
 route_pattern_id,electric_trains,level_boarding,increased_top_speed
+orange,1,1,1
 red-a,1,1,1
 red-b,1,1,1
 blue,1,1,1
