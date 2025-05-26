@@ -1,31 +1,30 @@
 from synthesize.definitions import Route, RoutePattern
 from synthesize.time import Timetable, peak_offpeak_frequencies
-from scenarios.expansion.infill_stations import station_west_lynn
 
 timetable = Timetable(
     {
         "Lynn": "0:00",
-        "West Lynn": "0:03",
+        "West Lynn": "0:02",
         "River Works": "0:05",
         "Wonderland": "0:10",
         "Revere Beach": "0:11",
-        "Beachmont": "0:14",
+        "Beachmont": "0:13",
         "Suffolk Downs": "0:15",
-        "Orient Heights": "0:17",
+        "Orient Heights": "0:16",
         "Wood Island": "0:20",
         "Airport": "0:22",
         "Maverick": "0:24",
-        "Aquarium": "0:27",
-        "State": "0:28",
-        "Government Center": "0:29",
-        "Bowdoin": "0:30",
-        "Charles/MGH": "0:31",
+        "Aquarium": "0:26",
+        "State": "0:27",
+        "Government Center": "0:28",
+        "Bowdoin": "0:28",
+        "Charles/MGH": "0:30"
     }
 )
 
 stations = (
     "Lynn",
-    station_west_lynn,
+    "West Lynn",
     "River Works",
     "Wonderland",
     "Revere Beach",
@@ -45,7 +44,7 @@ stations = (
 blue = Route(
     id="Blue",
     shadows_real_route="Blue",
-    name="Blue Line",
+    name="Blue Line (Charles/MGH + Lynn)",
     route_patterns=[
         RoutePattern(
             id="blue",
