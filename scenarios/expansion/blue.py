@@ -17,7 +17,7 @@ timetable = Timetable(
         "Aquarium": "0:26",
         "State": "0:27",
         "Government Center": "0:28",
-        "Bowdoin": "0:28",
+        "Bowdoin": "0:29",
         "Charles/MGH": "0:30"
     }
 )

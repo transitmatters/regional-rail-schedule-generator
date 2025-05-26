@@ -2,16 +2,35 @@ import argparse
 import csv
 from typing import Dict, List, Tuple
 
-def parse_time_to_str(time_str: str) -> str:
-    """Converts H:MM:SS or M:SS to 0:MM string format for Timetable."""
-    parts = time_str.split(':')
-    if len(parts) == 3: # H:MM:SS
-        return f"0:{parts[1].zfill(2)}"
-    elif len(parts) == 2: # M:SS
-        return f"0:{parts[0].zfill(2)}"
-    elif len(parts) == 1 and parts[0] == '-': # Handle empty time for the first station
-        return "0:00"
-    raise ValueError(f"Unexpected time format: {time_str}")
+def parse_csv_time_to_int_minutes(csv_time_str: str) -> int:
+    """Converts CSV time string to total integer minutes. Truncates seconds.
+    Expected formats: "H:MM:SS", "M:SS", "M" (as string), or "-"."""
+    clean_str = csv_time_str.strip()
+    if not clean_str or clean_str == '-':
+        return 0
+
+    parts = clean_str.split(':')
+    try:
+        if len(parts) == 1:  # M (total minutes)
+            return int(parts[0])
+        elif len(parts) == 2:  # M:SS (treat parts[0] as minutes)
+            return int(parts[0])
+        elif len(parts) == 3:  # H:MM:SS
+            return int(parts[0]) * 60 + int(parts[1])
+        else:
+            raise ValueError("Time string has too many parts.")
+    except ValueError as e:
+        raise ValueError(f"Invalid time component in '{clean_str}': {e}")
+
+def format_int_minutes_to_timetable_str(total_minutes: int) -> str:
+    """Converts total integer minutes to "H:MM" string format."""
+    if total_minutes < 0:
+        # This should ideally be prevented by adjustment logic ensuring non-negative times.
+        print(f"Warning: Negative total_minutes ({total_minutes}) received. Defaulting to \"0:00\".")
+        total_minutes = 0
+    hours = total_minutes // 60
+    minutes = total_minutes % 60
+    return f"{hours}:{str(minutes).zfill(2)}"
 
 def generate_scenario_content(
     route_variable_name: str,
@@ -20,7 +39,7 @@ def generate_scenario_content(
     pattern_id: str,
     pattern_name: str,
     stations: List[str],
-    timetable_dict: Dict[str, str],
+    timetable_dict: Dict[str, str], # Expects "H:MM" format
     peak_headway: int,
     offpeak_headway: int,
     shadows_real_route: str = None,
@@ -76,66 +95,72 @@ def main():
     parser.add_argument("--peak-headway", type=int, default=5, help="Peak headway in minutes.")
     parser.add_argument("--offpeak-headway", type=int, default=7, help="Off-peak headway in minutes.")
     parser.add_argument("--csv-skip-rows", type=int, default=8, help="Number of header rows to skip in the CSV.")
-    parser.add_argument("--csv-station-col", type=int, default=1, help="0-indexed column for station names in CSV.")
-    parser.add_argument("--csv-time-col", type=int, default=5, help="0-indexed column for cumulative travel times in CSV (H:MM:SS or M:SS).")
-
+    parser.add_argument("--csv-station-col", type=int, default=1, help="0-indexed column for station names in CSV (default: 1 to match common CSV structure after headers).")
+    parser.add_argument("--csv-time-col", type=int, default=5, help="0-indexed column for cumulative travel times in CSV (H:MM:SS, M:SS, or M).")
 
     args = parser.parse_args()
 
-    stations_data: List[Tuple[str, str]] = [] # List of (station_name, cumulative_time_str)
+    stations_data: List[Tuple[str, str]] = [] 
 
     with open(args.input_csv, 'r', encoding='utf-8') as f:
         reader = csv.reader(f)
         for _ in range(args.csv_skip_rows):
-            next(reader)  # Skip header rows
+            try:
+                next(reader) 
+            except StopIteration:
+                print(f"Warning: CSV file has fewer than {args.csv_skip_rows} rows to skip.")
+                break
         
-        for row in reader:
-            if not any(field.strip() for field in row): # Skip entirely empty rows
+        for row_idx, row in enumerate(reader):
+            if not any(field.strip() for field in row): 
                 continue
             if len(row) > max(args.csv_station_col, args.csv_time_col):
                 station_name = row[args.csv_station_col].strip()
-                cumulative_time_str = row[args.csv_time_col].strip()
-                if station_name: # Ensure station name is not empty
+                cumulative_time_str = row[args.csv_time_col].strip() 
+                if station_name:
                     stations_data.append((station_name, cumulative_time_str))
+                elif cumulative_time_str:
+                    print(f"Warning: Row {row_idx + args.csv_skip_rows + 1}: Station name is empty but time ('{cumulative_time_str}') is present. Skipping row.")
             else:
-                print(f"Skipping row due to insufficient columns: {row}")
-
+                print(f"Skipping row {row_idx + args.csv_skip_rows + 1} due to insufficient columns: {row}")
 
     if not stations_data:
-        print("No station data found in CSV. Exiting.")
+        print("No station data found or parsed from CSV. Exiting.")
         return
 
-    station_names: List[str] = [sd[0] for sd in stations_data]
-    timetable_dict: Dict[str, str] = {}
+    # Process stations to ensure unique, increasing integer minute times internally
+    # then convert to "H:MM" strings for the timetable_dict
+    processed_timetable_dict: Dict[str, str] = {}
+    processed_station_names: List[str] = []
+    last_processed_int_minutes = -1
 
-    # The first station's time is the baseline (0:00)
-    # For subsequent stations, the CSV provides cumulative time.
-    # The Timetable expects offsets from the *first* station.
-    first_station_name = stations_data[0][0]
-    timetable_dict[first_station_name] = "0:00"
+    for station_idx, (station_name, raw_csv_time_str) in enumerate(stations_data):
+        current_csv_int_minutes: int
+        try:
+            # Handles empty, '-', H:MM:SS, M:SS, M
+            current_csv_int_minutes = parse_csv_time_to_int_minutes(raw_csv_time_str)
+        except ValueError as e:
+            print(f"Error parsing time '{raw_csv_time_str}' for station '{station_name}': {e}. Skipping station.")
+            continue # Skip this station
 
-    for i in range(len(stations_data)):
-        current_station_name = stations_data[i][0]
-        # The time in CSV is cumulative from the *start* of the line.
-        # Timetable wants time from the *first station listed in the timetable argument*.
-        # For this script, we assume the first station in the CSV is the start of the timetable.
-        cumulative_time_value_str = stations_data[i][1]
+        adjusted_int_minutes = current_csv_int_minutes
+        if station_idx == 0: # First station
+            if adjusted_int_minutes < 0: # Ensure first station time is at least 0
+                print(f"Info: First station '{station_name}' CSV time parsed to {adjusted_int_minutes} min. Adjusting to 0 min.")
+                adjusted_int_minutes = 0
+        elif adjusted_int_minutes <= last_processed_int_minutes: 
+            original_time_for_log = adjusted_int_minutes
+            adjusted_int_minutes = last_processed_int_minutes + 1
+            print(f"Info: Adjusting time for station '{station_name}'. Original parsed: {original_time_for_log} min, previous adjusted: {last_processed_int_minutes} min. New time: {adjusted_int_minutes} min.")
         
-        # Handle cases like "-" for the first station or empty strings
-        if not cumulative_time_value_str or cumulative_time_value_str == '-':
-            if i == 0: # First station, time is 0:00
-                 timetable_dict[current_station_name] = "0:00"
-            else: # Should not happen for subsequent stations if CSV is well-formed
-                print(f"Warning: Empty or '-' time for non-first station '{current_station_name}'. Using previous time or 0:00 if first.")
-                # Attempt to use previous station's time or default to 0:00
-                # This might not be correct if times are truly missing.
-                if i > 0 and stations_data[i-1][0] in timetable_dict:
-                    timetable_dict[current_station_name] = timetable_dict[stations_data[i-1][0]]
-                else:
-                    timetable_dict[current_station_name] = "0:00"
-        else:
-            timetable_dict[current_station_name] = parse_time_to_str(cumulative_time_value_str)
+        # Add to processed lists
+        processed_station_names.append(station_name)
+        processed_timetable_dict[station_name] = format_int_minutes_to_timetable_str(adjusted_int_minutes)
+        last_processed_int_minutes = adjusted_int_minutes
 
+    if not processed_timetable_dict:
+        print("No valid station times could be processed to create a timetable. Exiting.")
+        return
 
     py_content = generate_scenario_content(
         route_variable_name=args.route_variable_name,
@@ -143,8 +168,8 @@ def main():
         route_name=args.route_name,
         pattern_id=args.pattern_id,
         pattern_name=args.pattern_name,
-        stations=station_names,
-        timetable_dict=timetable_dict,
+        stations=processed_station_names,
+        timetable_dict=processed_timetable_dict,
         peak_headway=args.peak_headway,
         offpeak_headway=args.offpeak_headway,
         shadows_real_route=args.shadows_real_route,
