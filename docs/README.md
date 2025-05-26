@@ -139,9 +139,9 @@ python generate/csv_to_scenario.py --input-csv "input/2025-05-26/Expansion Explo
 
 Dev setup is fairly simple.
 
-* Python 3.12 with recent poetry (2.0.0 or later)
-  * Verify with `python --version && poetry --version`
-  * `poetry self update` to update poetry
-  * Then run `poetry install` to download dependencies
+- Python 3.12 with recent poetry (2.0.0 or later)
+  - Verify with `python --version && poetry --version`
+  - `poetry self update` to update poetry
+  - Then run `poetry install` to download dependencies
 
 After that all commands you need will be found in the `Makefile`
