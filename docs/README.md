@@ -1,18 +1,17 @@
 # Regional Rail Schedule Generator
 
-This project is a collection of tools and scenarios for generating regional rail schedules.
+Generate a new GTFS schedule bundle for a proposed new MBTA service
 
-## How to update GTFS Bundles
+### How to update GTFS Bundles
 
 To update the GTFS bundles, you need to pull down a bundle for a specific date, and then re-run the scenario generation.
 
 ```bash
 make build date=YYYY-MM-DD
 ```
-
 This will update all files under `data/` for GTFS both present and for each scenario
 
-## How to add new stop
+### How to add new stop
 
 In order to add a completely new stop, you'll need to define an Infill Station.
 
@@ -34,7 +33,6 @@ If you simply want to add a stop that already exists to a new route, you don't n
 To add a new route, you'll need a few definitions.
 
 First a timetable, this defines how long it takes to get from stop to stop on the line
-
 ```python
 timetable = Timetable(
     {
@@ -46,7 +44,6 @@ timetable = Timetable(
 ```
 
 Then a list of all stations in the line
-
 ```python
 stations = (
     "Lynn",
@@ -86,7 +83,7 @@ subgraphs = [
 ]
 ```
 
-## How to add a new Scenario
+### How to add a new Scenario
 
 A new scenario needs only a few elements. You can copy a lot of how the `regional_rail` scenario is defined.
 
