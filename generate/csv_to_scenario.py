@@ -13,10 +13,16 @@ def parse_csv_time_to_int_minutes(csv_time_str: str) -> int:
     try:
         if len(parts) == 1:  # M (total minutes)
             return int(parts[0])
-        elif len(parts) == 2:  # M:SS (treat parts[0] as minutes)
-            return int(parts[0])
-        elif len(parts) == 3:  # H:MM:SS
+        elif len(parts) == 2:  # M:SS or H:MM (treat parts[0] as hours, parts[1] as minutes)
+            # This will correctly parse "0:28" as 28 minutes, and "1:05" as 65 minutes.
+            # If it was M:SS like "65:30", this interpretation is not what we want for M:SS.
+            # However, the target column "Scheduled Departure Time (rounded cumulatively)"
+            # appears to be in H:MM format (e.g., "0:03", "0:28").
+            # If it can also be M:SS from other CSVs, this needs more robust conditional logic.
+            # For now, assuming H:MM format for two-part times based on user's target column.
             return int(parts[0]) * 60 + int(parts[1])
+        elif len(parts) == 3:  # H:MM:SS
+            return int(parts[0]) * 60 + int(parts[1]) # Seconds (parts[2]) are truncated
         else:
             raise ValueError("Time string has too many parts.")
     except ValueError as e:
@@ -96,7 +102,7 @@ def main():
     parser.add_argument("--offpeak-headway", type=int, default=7, help="Off-peak headway in minutes.")
     parser.add_argument("--csv-skip-rows", type=int, default=8, help="Number of header rows to skip in the CSV.")
     parser.add_argument("--csv-station-col", type=int, default=1, help="0-indexed column for station names in CSV (default: 1 to match common CSV structure after headers).")
-    parser.add_argument("--csv-time-col", type=int, default=5, help="0-indexed column for cumulative travel times in CSV (H:MM:SS, M:SS, or M).")
+    parser.add_argument("--csv-time-col", type=int, default=6, help="0-indexed column for cumulative travel times in CSV (H:MM:SS, M:SS, or M).")
 
     args = parser.parse_args()
 
