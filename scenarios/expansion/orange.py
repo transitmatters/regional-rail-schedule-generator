@@ -59,7 +59,7 @@ orange = Route(
             name="Orange",
             stations=stations,
             timetable=timetable,
-            schedule=peak_offpeak_frequencies(5, 7),
+            schedule=peak_offpeak_frequencies(4, 6),
         )
     ],
 )

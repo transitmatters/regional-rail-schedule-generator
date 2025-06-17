@@ -8,6 +8,10 @@ from scenarios.expansion.infill_stations import (
     station_ramsay_park,
 )
 
+# FIXME: This doesn't work right now
+# We can't do this as a multiple route pattern route, it will take hours to build
+# We either need to speed up the build time substantially,
+# or we need to build it as a single timetable and route pattern similar to how we handle the Red Line
 
 green_b_timetable = Timetable(
     {
