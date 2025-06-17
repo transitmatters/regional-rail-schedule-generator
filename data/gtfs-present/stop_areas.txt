@@ -460,6 +460,9 @@ BNT-0000-07,area_commuter_rail_zone_1a
 BNT-0000-08,area_commuter_rail_zone_1a
 BNT-0000-09,area_commuter_rail_zone_1a
 BNT-0000-10,area_commuter_rail_zone_1a
+Boat-George,area_ferry_f1_georges_island
+Boat-Hingham,area_ferry_f1_hingham_hull
+Boat-Hull,area_ferry_f1_hingham_hull
 CM-0493-S,area_cf_zone_buzzards
 CM-0547-S,area_cf_zone_buzzards
 CM-0564-S,area_cf_zone_buzzards
@@ -847,6 +850,7 @@ WR-0120-S,area_commuter_rail_zone_2
 WR-0163-S,area_commuter_rail_zone_3
 WR-0205-02,area_commuter_rail_zone_4
 WR-0228-02,area_commuter_rail_zone_5
+WR-0264-01,area_commuter_rail_zone_6
 WR-0264-02,area_commuter_rail_zone_6
 WR-0325,area_commuter_rail_zone_7
 WR-0325-01,area_commuter_rail_zone_7

@@ -164,6 +164,7 @@ cowas,Columbia Road @ Washington Street
 crclg,Curry College (Milton)
 crtst,Courthouse
 crwsq,Crawford Square (Randolph)
+ctnhs,Washington Street
 ctrwe,Centre Street @ Weld Street
 ctypt,City Point
 ctysq,City Square
@@ -195,6 +196,7 @@ engav,Englewood Avenue
 esaug,East Saugus
 esavs,Eastern Avenue
 esomr,East Somerville
+esowa,Washington Street
 esqnb,East Squantum Street @ Newbury Avenue (North Quincy High School)
 essex,Essex Street @ Eastern Avenue
 estws,Eastern Avenue @ Western Avenue
@@ -270,6 +272,7 @@ hnock,Hancock Street (Quincy)
 holyk,Holyoke Street @ O'Callaghan Way (Lynn)
 hpaml,Hyde Park Avenue @ American Legion Highway
 hpave,Hyde Park Avenue @ Cummins Highway
+hpond,Houghton Pond
 hrand,Holbrook/Randolph Commuter Rail Depot
 hrtwl,Bedford Street @ Hartwell Avenue
 hrugg,Huntington & Ruggles
@@ -383,6 +386,7 @@ mtsty,Mount Auburn @ Story Street
 mvbcl,Maverick
 mwood,Maplewood Square
 mysml,Market Basket (former Mystic Mall)
+navyy,First Avenue
 nbway,North Broadway (Malden)
 ncsta,North Cambridge Station
 ndhts,Needham Heights
@@ -491,6 +495,8 @@ shmnl,Savin Hill
 shosp,Shattuck Hospital
 shpyd,Hingham Shipyard
 shunt,Centre Street & South Huntington Avenue
+sjarl,Saint James Avenue
+sllwr,Sullivan Square
 slmct,Salem Center
 slmhp,Salem & Humphrey (Swampscott)
 slvwa,Silver Line @ Washington Street
@@ -602,6 +608,7 @@ weyln,Weymouth Landing
 whill,Winter Hill
 wicir,Winthrop Circle
 wimnl,Wood Island
+winft,Winthrop Ferry Terminal
 winpst,Winthrop Police Station
 winsq,Winchester Square
 wldcp,Willard Street @ Copeland Street

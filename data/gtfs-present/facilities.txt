@@ -1366,7 +1366,7 @@ park-FR-0394,,3,parking-area,place-FR-0394,Parking Lot,Shirley Parking Lot,,42.5
 park-FR-0451-garage,,3,parking-area,place-FR-0451,Garage,North Leominster Garage,,42.5394700,-71.7398140,0
 park-FR-0494-garage,,3,parking-area,place-FR-0494,Garage,Fitchburg Garage,,42.5814700,-71.7935260,0
 park-FR-3338-garage,,3,parking-area,place-FR-3338,Garage,Wachusett Garage,,42.5526890,-71.8474780,0
-park-FRS-0054,,3,parking-area,place-FRS-0054,Parking Lot,Freetown Parking Lot,,41.7752745,-71.0934242,0
+park-FRS-0054,,3,parking-area,place-FRS-0054,Parking Lot,Freetown Parking Lot,,41.7752745,,0
 park-FRS-0109,,3,parking-area,place-FRS-0109,Parking Lot,Fall River Depot Parking Lot,,41.7150388,-71.1543203,0
 park-FS-0049,,3,parking-area,place-FS-0049,Parking Lot,Foxboro Parking Lot,,42.0938544,-71.2639939,0
 park-GB-0198,,3,parking-area,place-GB-0198,Parking Lot,Montserrat Parking Lot,,42.5619360,-70.8692710,0
@@ -1624,99 +1624,119 @@ ramp-state,,2,ramp,place-state,Ramp access,State ramp access,,,,1
 ramp-sull,,2,ramp,place-sull,Ramp access,Sullivan Square ramp access,,,,1
 ramp-unsqu,,2,ramp,place-unsqu,Ramp access,Union Square ramp access,,,,1
 ramp-welln,,2,ramp,place-welln,Ramp access,Wellington ramp access,,,,1
-retailsale-302005,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.3395721,-71.0802902,0
-retailsale-302006,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.3290520,-71.0837219,0
-retailsale-302013,,4,fare-vending-retailer,,Star Market,Star Market,,42.2724187,-71.0695770,0
-retailsale-302016,,4,fare-vending-retailer,,Star Market,Star Market,,42.3526114,-71.1234989,0
-retailsale-302017,,4,fare-vending-retailer,,Star Market,Star Market,,42.3899555,-71.1180063,0
-retailsale-302019,,4,fare-vending-retailer,,Star Market,Star Market,,42.2447550,-71.0048767,0
-retailsale-302020,,4,fare-vending-retailer,,Star Market,Star Market,,42.3184171,-71.0506125,0
-retailsale-302021,,4,fare-vending-retailer,,Star Market,Star Market,,42.3737917,-71.0848369,0
-retailsale-302023,,4,fare-vending-retailer,,East West Bank,East West Bank,,42.2404010,-70.9915682,0
-retailsale-302024,,4,fare-vending-retailer,,East West Bank,East West Bank,,42.3511088,-71.0610250,0
-retailsale-302025,,4,fare-vending-retailer,,Village Neighborhood Market,Village Neighborhood Market,,42.2862307,-71.1293850,0
-retailsale-302026,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3983250,-71.1084120,0
-retailsale-302028,,4,fare-vending-retailer,,Lee's 2 Market,Lee's 2 Market,,42.3488130,-71.1372870,0
-retailsale-302030,,4,fare-vending-retailer,,Kashvi Shenaya Variety,Kashvi Shenaya Variety,,42.3581012,-71.0618171,0
-retailsale-302031,,4,fare-vending-retailer,,Bay State Food,Bay State Food,,42.3411477,-71.1261220,0
-retailsale-302035,,4,fare-vending-retailer,,All Checks Cashed,All Checks Cashed,,42.2906973,-71.0719152,0
-retailsale-302037,,4,fare-vending-retailer,,All Checks Cashed,All Checks Cashed,,42.3227069,-71.1016502,0
-retailsale-302038,,4,fare-vending-retailer,,All Checks Cashed,All Checks Cashed,,42.4621841,-70.9652829,0
-retailsale-302041,,4,fare-vending-retailer,,All Checks Cashed,All Checks Cashed,,42.4028324,-71.0536806,0
-retailsale-302045,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3341556,-71.1043777,0
-retailsale-302046,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3969649,-71.1223151,0
-retailsale-302047,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3467920,-71.0877923,0
-retailsale-302048,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3591361,-71.0527699,0
-retailsale-302051,,4,fare-vending-retailer,,Sava's Market,Sava's Market,,42.3769404,-71.0336206,0
-retailsale-302053,,4,fare-vending-retailer,,Revere Beach Food Mart,Revere Beach Food Mart,,42.4074363,-70.9948944,0
-retailsale-302055,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.3691134,-71.0391213,0
-retailsale-302057,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.3888950,-71.0404677,0
-retailsale-302058,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.3036508,-71.0848045,0
-retailsale-302059,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.2991081,-71.0619776,0
-retailsale-302060,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.3210414,-71.0617320,0
-retailsale-302061,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.2843228,-71.0911969,0
-retailsale-302069,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.4084440,-71.0019190,0
-retailsale-302071,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.4180236,-71.1467741,0
-retailsale-302073,,4,fare-vending-retailer,,Star Market,Star Market,,42.3751587,-71.1489313,0
-retailsale-302079,,4,fare-vending-retailer,,Central Square Check Cashing ,Central Square Check Cashing ,,42.3756567,-71.0392973,0
-retailsale-302086,,4,fare-vending-retailer,,The Village Market,The Village Market,,42.1940424,-70.7267901,0
-retailsale-302090,,4,fare-vending-retailer,,Shaw's,Shaw's,,42.4562287,-71.0660265,0
-retailsale-302091,,4,fare-vending-retailer,,Shaw's,Shaw's,,42.3767180,-71.0403052,0
-retailsale-302116,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3534351,-71.1384988,0
-retailsale-302119,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3693939,-71.0400581,0
-retailsale-302121,,4,fare-vending-retailer,,Regal Marketplace,Regal Marketplace,,42.0832663,-70.9230480,0
-retailsale-302123,,4,fare-vending-retailer,,Star Market,Star Market,,42.3469722,-71.2448227,0
-retailsale-302124,,4,fare-vending-retailer,,Shaw's,Shaw's,,42.2518761,-71.1260055,0
-retailsale-302125,,4,fare-vending-retailer,,Star Market,Star Market,,42.3435214,-71.1004083,0
-retailsale-302126,,4,fare-vending-retailer,,Star Market,Star Market,,42.3477181,-71.0797151,0
-retailsale-302127,,4,fare-vending-retailer,,Star Market,Star Market,,42.3376642,-71.1392038,0
-retailsale-302128,,4,fare-vending-retailer,,Star Market,Star Market,,42.3237920,-71.1663699,0
-retailsale-302131,,4,fare-vending-retailer,,Supreme Gas,Supreme Gas,,42.1893674,-71.2002009,0
-retailsale-302138,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3722826,-71.0993408,0
-retailsale-302140,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3661731,-71.1055079,0
-retailsale-302144,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3355438,-71.0461709,0
-retailsale-302148,,4,fare-vending-retailer,,Sunrise Market,Sunrise Market,,42.5413494,-71.1655760,0
-retailsale-302149,,4,fare-vending-retailer,,Framingham One Stop Market,Framingham One Stop Market,,42.2763018,-71.4162560,0
-retailsale-302150,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3363832,-71.1510444,0
-retailsale-302152,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3500194,-71.1656926,0
-retailsale-302153,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.2211406,-70.9696949,0
-retailsale-302157,,4,fare-vending-retailer,,Montello News,Montello News,,42.1050046,-71.0250295,0
-retailsale-302163,,4,fare-vending-retailer,,Norfolk Food Mart,Norfolk Food Mart,,42.1202070,-71.3251419,0
-retailsale-302164,,4,fare-vending-retailer,,Village Market,Village Market,,42.3604427,-71.2615365,0
-retailsale-302171,,4,fare-vending-retailer,place-WR-0329,"LAZ Parking, MVRTA Garage","LAZ Parking, MVRTA Garage",,42.7742959,-71.0858952,0
-retailsale-302184,,4,fare-vending-retailer,,Abington News,Abington News,,42.1084460,-70.9358193,0
-retailsale-302187,,4,fare-vending-retailer,,Shaw's,Shaw's,,42.5032227,-71.0640766,0
-retailsale-302188,,4,fare-vending-retailer,,Lee's Supermarket,Lee's Supermarket,,42.3442297,-71.1431245,0
-retailsale-302194,,4,fare-vending-retailer,place-NHRML-0127,Anderson Regional Transportation Center,Anderson Regional Transportation Center,,42.5173642,-71.1442420,0
-retailsale-302195,,4,fare-vending-retailer,,Nathan Sandwich & Variety,Nathan Sandwich & Variety,,42.7725928,-71.0866083,0
-retailsale-302199,,4,fare-vending-retailer,,Cafe La France,Cafe La France,,41.8292430,-71.4132820,0
-retailsale-302200,,4,fare-vending-retailer,,Montachusett Regional Transit Authority,Montachusett Regional Transit Authority,,42.5809968,-71.7926968,0
-retailsale-302210,,4,fare-vending-retailer,,Star Food Mart,Star Food Mart,,42.2555445,-71.1240197,0
-retailsale-302211,,4,fare-vending-retailer,,Star Variety,Star Variety,,42.3650237,-71.1044045,0
-retailsale-302217,,4,fare-vending-retailer,,Lucky Farms,Lucky Farms,,42.2554140,-71.4678054,0
-retailsale-302234,,4,fare-vending-retailer,place-WR-0264,LAZ Parking,LAZ Parking,,42.7021654,-71.1524640,0
-retailsale-303004,,4,fare-vending-retailer,,Star Market,Star Market,,42.3609676,-71.1375155,0
-retailsale-303006,,4,fare-vending-retailer,,Andre's,Andre's,,42.2657814,-71.0212735,0
-retailsale-303008,,4,fare-vending-retailer,,Navarrete Grocery,Navarrete Grocery,,42.3129225,-71.0679716,0
-retailsale-303012,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3810932,-71.2359621,0
-retailsale-303016,,4,fare-vending-retailer,,Star Market,Star Market,,42.3885646,-71.1911456,0
-retailsale-303017,,4,fare-vending-retailer,,LA Market/Nine Red Pearls,LA Market/Nine Red Pearls,,42.4058759,-71.1310497,0
-retailsale-303019,,4,fare-vending-retailer,,Family Food Mart,Family Food Mart,,42.4051291,-71.0288717,0
-retailsale-303021,,4,fare-vending-retailer,,River St Premier Petrol,River St Premier Petrol,,42.2709663,-71.0738588,0
-retailsale-303023,,4,fare-vending-retailer,,A-1 Market,A-1 Market,,42.3700996,-71.2373034,0
-retailsale-303025,,4,fare-vending-retailer,,Star Convenience Beer & Wine,Star Convenience Beer & Wine,,42.4041381,-71.0483815,0
-retailsale-303026,,4,fare-vending-retailer,,Telepage Corp,Telepage Corp,,42.3901414,-71.0370071,0
-retailsale-303028,,4,fare-vending-retailer,,Shaw's,Shaw's,,42.5017775,-70.9215827,0
-retailsale-303031,,4,fare-vending-retailer,,Waltham Smoke & Convenience,Waltham Smoke & Convenience,,42.3738280,-71.2064790,0
-retailsale-303032,,4,fare-vending-retailer,,6-Twelve,6-Twelve,,42.3356561,-71.0393362,0
-retailsale-303037,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3505035,-71.1314010,0
-retailsale-303038,,4,fare-vending-retailer,,Boston Express Multi,Boston Express Multi,,42.3147023,-71.1013630,0
-retailsale-303039,,4,fare-vending-retailer,,Bonilla's Wireless,Bonilla's Wireless,,42.2860286,-71.1292681,0
-retailsale-303040,,4,fare-vending-retailer,,Allston Market,Allston Market,,42.3513911,-71.1317209,0
-retailsale-303041,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3885544,-71.0433761,0
-retailsale-303043,,4,fare-vending-retailer,,City Food Mart,City Food Mart,,42.3938922,-71.0339275,0
-retailsale-303044,,4,fare-vending-retailer,,Star Market,Star Market,,42.3836075,-71.1117903,0
-retailsale-303047,,4,fare-vending-retailer,,Express Newsstand - Cambridgeside Galleria,Express Newsstand - Cambridgeside Galleria,,42.3674700,-71.0764900,0
+retailsale-302000,,4,fare-vending-retailer,,Star Market,Star Market,,42.3612174,-71.1372629,0
+retailsale-302001,,4,fare-vending-retailer,,Andre's,Andre's,,42.2658578,-71.0212755,0
+retailsale-302002,,4,fare-vending-retailer,,Navarrete Grocery,Navarrete Grocery,,42.3129367,-71.0679996,0
+retailsale-302003,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3810932,-71.2359621,0
+retailsale-302004,,4,fare-vending-retailer,,Star Market,Star Market,,42.3885509,-71.1911520,0
+retailsale-302005,,4,fare-vending-retailer,,LA Market/Nine Red Pearls,LA Market/Nine Red Pearls,,42.4058921,-71.1310653,0
+retailsale-302006,,4,fare-vending-retailer,,Family Food Mart,Family Food Mart,,42.4051382,-71.0288797,0
+retailsale-302007,,4,fare-vending-retailer,,River St Premium Petrol,River St Premium Petrol,,42.2710481,-71.0736874,0
+retailsale-302008,,4,fare-vending-retailer,,VIP Wireless,VIP Wireless,,42.3078902,-71.0832737,0
+retailsale-302009,,4,fare-vending-retailer,,Star Convenience Beer & Wine,Star Convenience Beer & Wine,,42.4043776,-71.0482581,0
+retailsale-302010,,4,fare-vending-retailer,,Telepage Corp,Telepage Corp,,42.3901995,-71.0370899,0
+retailsale-302011,,4,fare-vending-retailer,,Quality Mart,Quality Mart,,42.3507031,-71.0896359,0
+retailsale-302012,,4,fare-vending-retailer,,Shaw's,Shaw's,,42.5017904,-70.9215472,0
+retailsale-302013,,4,fare-vending-retailer,,Waltham Latinos Market,Waltham Latinos Market,,42.3762823,-71.2380638,0
+retailsale-302014,,4,fare-vending-retailer,,6-TWELVE,6-TWELVE,,42.3357180,-71.0393706,0
+retailsale-302015,,4,fare-vending-retailer,,Caribbean Liquors,Caribbean Liquors,,42.3921420,-71.0348876,0
+retailsale-302016,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3505092,-71.1314366,0
+retailsale-302017,,4,fare-vending-retailer,,Boston Express Multi,Boston Express Multi,,42.3146248,-71.0991275,0
+retailsale-302018,,4,fare-vending-retailer,,Bonilla's Wireless,Bonilla's Wireless,,42.2860324,-71.1292781,0
+retailsale-302019,,4,fare-vending-retailer,,Allston Market,Allston Market,,42.3513623,-71.1317657,0
+retailsale-302020,,4,fare-vending-retailer,,Latino Express,Latino Express,,42.3908228,-71.0381220,0
+retailsale-302021,,4,fare-vending-retailer,,City Food Mart,City Food Mart,,42.3938928,-71.0317381,0
+retailsale-302022,,4,fare-vending-retailer,,Richdale Food Shops,Richdale Food Shops,,42.3930565,-71.0341433,0
+retailsale-302023,,4,fare-vending-retailer,,Express Newsstand,Express Newsstand,,42.3674410,-71.0765648,0
+retailsale-302024,,4,fare-vending-retailer,,Wonderland Convenience,Wonderland Convenience,,42.4151878,-70.9922362,0
+retailsale-302025,,4,fare-vending-retailer,,Brothers Supermarket,Brothers Supermarket,,42.3005844,-71.0663747,0
+retailsale-302026,,4,fare-vending-retailer,,Brookline Sunoco,Brookline Sunoco,,42.3464401,-71.1285818,0
+retailsale-302027,,4,fare-vending-retailer,,North Station Ticket Office,North Station Ticket Office,,42.3653391,-71.0607946,0
+retailsale-302028,,4,fare-vending-retailer,,Back Bay Ticket Office,Back Bay Ticket Office,,42.3475035,-71.0749320,0
+retailsale-302029,,4,fare-vending-retailer,,South Station Ticket Office,South Station Ticket Office,,42.3600825,-71.0515833,0
+retailsale-302030,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.3395801,-71.0803721,0
+retailsale-302031,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.3288791,-71.0836758,0
+retailsale-302032,,4,fare-vending-retailer,,Star Market,Star Market,,42.3526094,-71.1234984,0
+retailsale-302033,,4,fare-vending-retailer,,Star Market,Star Market,,42.3899555,-71.1180063,0
+retailsale-302034,,4,fare-vending-retailer,,Star Market,Star Market,,42.3741353,-71.0862217,0
+retailsale-302035,,4,fare-vending-retailer,,Melvin Rx Pharmacy,Melvin Rx Pharmacy,,42.3442810,-71.1420317,0
+retailsale-302036,,4,fare-vending-retailer,,Boston Harbor Cruises,Boston Harbor Cruises,,42.2528373,-70.9200933,0
+retailsale-302037,,4,fare-vending-retailer,,Village Neighborhood Mkt,Village Neighborhood Mkt,,42.2862566,-71.1293942,0
+retailsale-302038,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3983312,-71.1084229,0
+retailsale-302039,,4,fare-vending-retailer,,Lees 2 Market,Lees 2 Market,,42.3488161,-71.1373246,0
+retailsale-302040,,4,fare-vending-retailer,,Kashvi Shenaya Variety,Kashvi Shenaya Variety,,42.3581100,-71.0617934,0
+retailsale-302041,,4,fare-vending-retailer,,Bay State Food,Bay State Food,,42.3411578,-71.1262376,0
+retailsale-302042,,4,fare-vending-retailer,,All Checks Cashed,All Checks Cashed,,42.2906585,-71.0719575,0
+retailsale-302043,,4,fare-vending-retailer,,All Checks Cashed,All Checks Cashed,,42.3226306,-71.1016343,0
+retailsale-302044,,4,fare-vending-retailer,,All Checks Cashed,All Checks Cashed,,42.4622123,-70.9653492,0
+retailsale-302045,,4,fare-vending-retailer,,Crossroads Market,Crossroads Market,,42.3353565,-71.0376123,0
+retailsale-302046,,4,fare-vending-retailer,,All Checks Cashed,All Checks Cashed,,42.4028021,-71.0537410,0
+retailsale-302047,,4,fare-vending-retailer,,Quick Stop Variety,Quick Stop Variety,,42.3766945,-71.2347821,0
+retailsale-302048,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3340477,-71.1039304,0
+retailsale-302049,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3969413,-71.1222228,0
+retailsale-302050,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3467960,-71.0877668,0
+retailsale-302051,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3590971,-71.0529455,0
+retailsale-302052,,4,fare-vending-retailer,,Savas Super Market,Savas Super Market,,42.3770499,-71.0336617,0
+retailsale-302053,,4,fare-vending-retailer,,Latino Express II,Latino Express II,,42.4094733,-71.0625677,0
+retailsale-302054,,4,fare-vending-retailer,,Lamberts Marketplace,Lamberts Marketplace,,42.3556657,-71.0625527,0
+retailsale-302055,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.3691185,-71.0391354,0
+retailsale-302056,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.3889098,-71.0405150,0
+retailsale-302057,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.3036508,-71.0848045,0
+retailsale-302058,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.2990734,-71.0619873,0
+retailsale-302059,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.3210414,-71.0617320,0
+retailsale-302060,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.2843512,-71.0911426,0
+retailsale-302061,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.4087858,-71.0023938,0
+retailsale-302062,,4,fare-vending-retailer,,Star Market,Star Market,,42.3753899,-71.1491354,0
+retailsale-302063,,4,fare-vending-retailer,,Central Square Check Cashing,Central Square Check Cashing,,42.3756579,-71.0393117,0
+retailsale-302064,,4,fare-vending-retailer,,The Village Market,The Village Market,,42.1940461,-70.7268527,0
+retailsale-302065,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3534351,-71.1384988,0
+retailsale-302066,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3693842,-71.0398025,0
+retailsale-302067,,4,fare-vending-retailer,,Regal Marketplace,Regal Marketplace,,42.0832831,-70.9230970,0
+retailsale-302068,,4,fare-vending-retailer,,Star Market,Star Market,,42.3435518,-71.1004557,0
+retailsale-302069,,4,fare-vending-retailer,,Star Market,Star Market,,42.3478421,-71.0793972,0
+retailsale-302070,,4,fare-vending-retailer,,Star Market,Star Market,,42.3376788,-71.1391886,0
+retailsale-302071,,4,fare-vending-retailer,,Gulf Gas,Gulf Gas,,42.1893762,-71.2001968,0
+retailsale-302072,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3722419,-71.0993828,0
+retailsale-302073,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3661731,-71.1055079,0
+retailsale-302074,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3355405,-71.0461785,0
+retailsale-302075,,4,fare-vending-retailer,,Sunrise Market,Sunrise Market,,42.5504229,-71.1771919,0
+retailsale-302076,,4,fare-vending-retailer,,Framingham One Stop Market,Framingham One Stop Market,,42.2762809,-71.4162764,0
+retailsale-302077,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3363834,-71.1508517,0
+retailsale-302078,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3500228,-71.1656966,0
+retailsale-302079,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.2211359,-70.9696057,0
+retailsale-302080,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.4180127,-71.1468022,0
+retailsale-302081,,4,fare-vending-retailer,,Montello News,Montello News,,42.1049887,-71.0249367,0
+retailsale-302082,,4,fare-vending-retailer,,Norfolk Food Mart,Norfolk Food Mart,,42.1202830,-71.3249572,0
+retailsale-302083,,4,fare-vending-retailer,,Village Market,Village Market,,42.3604414,-71.2615517,0
+retailsale-302084,,4,fare-vending-retailer,,Shaw's,Shaw's,,42.2010889,-71.0002808,0
+retailsale-302085,,4,fare-vending-retailer,place-WR-0329,"LAZ Parking, MVRTA Garage","LAZ Parking, MVRTA Garage",,42.7742967,-71.0858472,0
+retailsale-302086,,4,fare-vending-retailer,,Comm Ave Sonoco,Comm Ave Sonoco,,42.3504701,-71.1135182,0
+retailsale-302087,,4,fare-vending-retailer,,Broadway Liquors,Broadway Liquors,,42.4072050,-71.0566714,0
+retailsale-302088,,4,fare-vending-retailer,,Lee's Supermarket,Lee's Supermarket,,42.3442321,-71.1430262,0
+retailsale-302089,,4,fare-vending-retailer,place-NHRML-0127,Anderson Regional Trans Ctr,Anderson Regional Trans Ctr,,42.5175490,-71.1448046,0
+retailsale-302090,,4,fare-vending-retailer,,JP Convenience,JP Convenience,,42.3168436,-71.1133066,0
+retailsale-302091,,4,fare-vending-retailer,,Cafe LaFrance,Cafe LaFrance,,41.8305626,-71.4131686,0
+retailsale-302092,,4,fare-vending-retailer,,Montachusett RTA,Montachusett RTA,,42.5809968,-71.7926968,0
+retailsale-302093,,4,fare-vending-retailer,,Star Food Mart,Star Food Mart,,42.2555445,-71.1240197,0
+retailsale-302094,,4,fare-vending-retailer,,Star Variety,Star Variety,,42.3649816,-71.1041680,0
+retailsale-302095,,4,fare-vending-retailer,place-WR-0264,Lucky Farms,Lucky Farms,,42.2555442,-71.4677026,0
+retailsale-302096,,4,fare-vending-retailer,,LAZ Parking,LAZ Parking,,42.7017985,-71.1522852,0
+retailsale-302097,,4,fare-vending-retailer,,Charlie Service Center,Charlie Service Center,,42.3571428,-71.0579946,0
+retailsale-302098,,4,fare-vending-retailer,,Luigi's Variety,Luigi's Variety,,42.3715151,-71.0849689,0
+retailsale-302099,,4,fare-vending-retailer,,A & P Convenience Store,A & P Convenience Store,,42.2686690,-71.0932549,0
+retailsale-302100,,4,fare-vending-retailer,,Aguasvivas Market,Aguasvivas Market,,42.2806405,-71.0828197,0
+retailsale-302101,,4,fare-vending-retailer,,Boston Harbor Cruises,Boston Harbor Cruises,,42.3564464,-71.0502103,0
+retailsale-302102,,4,fare-vending-retailer,,Hostelling International Boston,Hostelling International Boston,,42.3512038,-71.0634266,0
+retailsale-302103,,4,fare-vending-retailer,,Spectrum Communications Inc,Spectrum Communications Inc,,42.3910953,-71.0385337,0
+retailsale-302104,,4,fare-vending-retailer,,True Love Caribbean,True Love Caribbean,,42.3947323,-71.0882447,0
+retailsale-302105,,4,fare-vending-retailer,,Pires Market/Cambridge Street Market,Pires Market/Cambridge Street Market,,42.3726403,-71.0913483,0
+retailsale-302106,,4,fare-vending-retailer,,Ez Telecomm,Ez Telecomm,,42.3902040,-71.0382440,0
+retailsale-302107,,4,fare-vending-retailer,,SS Market,SS Market,,42.2559109,-71.1244415,0
+retailsale-302108,,4,fare-vending-retailer,,Essential Body Herbs,Essential Body Herbs,,42.2801589,-71.0925140,0
+retailsale-302109,,4,fare-vending-retailer,,Safy Market,Safy Market,,42.4155895,-71.0084998,0
+retailsale-302110,,4,fare-vending-retailer,,Prattville Mart,Prattville Mart,,42.4053400,-71.0349720,0
+retailsale-302111,,4,fare-vending-retailer,,Veronica's,Veronica's,,42.3761544,-71.2551102,0
+retailsale-302112,,4,fare-vending-retailer,,Supreme Food,Supreme Food,,42.4631918,-70.9631362,0
 subplat-DB-0095-2,,2,elevated-subplatform,place-DB-0095,Mini-high platform (Track 2),Readville mini-high platform (Track 2),,,,1
 subplat-DB-0095-3,,2,elevated-subplatform,place-DB-0095,Mini-high platform (Track 3),Readville mini-high platform (Track 3),,,,1
 subplat-DB-0095-4,,2,elevated-subplatform,place-DB-0095,Mini-high platform (Track 4),Readville mini-high platform (Track 4),,,,1

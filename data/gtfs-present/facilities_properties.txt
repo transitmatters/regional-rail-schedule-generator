@@ -1438,7 +1438,6 @@ facility_id,property_id,value
 302,excludes-stop,BNT-0000-08
 302,excludes-stop,BNT-0000-09
 302,excludes-stop,BNT-0000-10
-302,excludes-stop,BNT-0000-B2
 302,excludes-stop,door-north-causewaye
 302,excludes-stop,door-north-causewayexite
 302,excludes-stop,door-north-causewayexitw
@@ -1543,7 +1542,6 @@ facility_id,property_id,value
 303,excludes-stop,BNT-0000-08
 303,excludes-stop,BNT-0000-09
 303,excludes-stop,BNT-0000-10
-303,excludes-stop,BNT-0000-B2
 303,excludes-stop,door-north-causewaye
 303,excludes-stop,door-north-causewayexite
 303,excludes-stop,door-north-causewayexitw
@@ -1649,7 +1647,6 @@ facility_id,property_id,value
 304,excludes-stop,BNT-0000-08
 304,excludes-stop,BNT-0000-09
 304,excludes-stop,BNT-0000-10
-304,excludes-stop,BNT-0000-B2
 304,excludes-stop,door-north-causewaye
 304,excludes-stop,door-north-causewayexite
 304,excludes-stop,door-north-causewayexitw
@@ -4658,7 +4655,6 @@ facility_id,property_id,value
 384,excludes-stop,BNT-0000-08
 384,excludes-stop,BNT-0000-09
 384,excludes-stop,BNT-0000-10
-384,excludes-stop,BNT-0000-B2
 384,excludes-stop,door-north-causewaye
 384,excludes-stop,door-north-causewayexite
 384,excludes-stop,door-north-causewayexitw
@@ -4761,7 +4757,6 @@ facility_id,property_id,value
 385,excludes-stop,BNT-0000-08
 385,excludes-stop,BNT-0000-09
 385,excludes-stop,BNT-0000-10
-385,excludes-stop,BNT-0000-B2
 385,excludes-stop,door-north-causewaye
 385,excludes-stop,door-north-causewayexite
 385,excludes-stop,door-north-causewayexitw
@@ -5407,7 +5402,6 @@ facility_id,property_id,value
 391,excludes-stop,BNT-0000-08
 391,excludes-stop,BNT-0000-09
 391,excludes-stop,BNT-0000-10
-391,excludes-stop,BNT-0000-B2
 391,excludes-stop,door-north-causewayexite
 391,excludes-stop,door-north-causewayexitw
 391,excludes-stop,door-north-crcanal
@@ -5511,7 +5505,6 @@ facility_id,property_id,value
 392,excludes-stop,BNT-0000-08
 392,excludes-stop,BNT-0000-09
 392,excludes-stop,BNT-0000-10
-392,excludes-stop,BNT-0000-B2
 392,excludes-stop,door-north-causewayexite
 392,excludes-stop,door-north-causewayexitw
 392,excludes-stop,door-north-crcanal
@@ -5616,7 +5609,6 @@ facility_id,property_id,value
 393,excludes-stop,BNT-0000-08
 393,excludes-stop,BNT-0000-09
 393,excludes-stop,BNT-0000-10
-393,excludes-stop,BNT-0000-B2
 393,excludes-stop,door-north-causewayexite
 393,excludes-stop,door-north-causewayexitw
 393,excludes-stop,door-north-crcanal
@@ -7919,7 +7911,6 @@ facility_id,property_id,value
 447,excludes-stop,BNT-0000-08
 447,excludes-stop,BNT-0000-09
 447,excludes-stop,BNT-0000-10
-447,excludes-stop,BNT-0000-B2
 447,excludes-stop,door-north-causewaye
 447,excludes-stop,door-north-causewayexite
 447,excludes-stop,door-north-causewayexitw
@@ -8121,6 +8112,7 @@ facility_id,property_id,value
 450,excludes-stop,node-knncl-sbsec-farepaid
 450,excludes-stop,node-knncl-sbsec-fareunpaid
 50,alternate-service-text,The elevator at Framingham connecting the Inbound and Outbound platforms is out of service. Please proceed to Concord street to cross over to the outbound platform.
+50,excludes-stop,WML-0214-B
 501,direction,up
 501,excludes-stop,70022
 501,excludes-stop,70042
@@ -8542,6 +8534,7 @@ facility_id,property_id,value
 509,excludes-stop,node-portr-weststairs-crplatform
 509,excludes-stop,node-portr-weststairs-street
 51,alternate-service-text,The elevator at Framingham connecting the Inbound and Outbound platforms is out of service. Please proceed to Concord street to cross over to the outbound platform.
+51,excludes-stop,WML-0214-B
 510,direction,up
 510,excludes-stop,FR-0034
 510,excludes-stop,FR-0034-01
@@ -8647,6 +8640,7 @@ facility_id,property_id,value
 511,excludes-stop,node-portr-weststairs-crplatform
 511,excludes-stop,node-portr-weststairs-street
 512,direction,up
+512,excludes-stop,76129
 512,excludes-stop,door-harsq-brattle
 512,excludes-stop,door-harsq-church
 512,excludes-stop,door-harsq-yard
@@ -8686,6 +8680,7 @@ facility_id,property_id,value
 512,excludes-stop,node-harsq-upperramp-upper
 512,excludes-stop,node-harsq-yardstair-lobby
 513,direction,down
+513,excludes-stop,76129
 513,excludes-stop,door-harsq-brattle
 513,excludes-stop,door-harsq-church
 513,excludes-stop,door-harsq-yard
@@ -8725,6 +8720,7 @@ facility_id,property_id,value
 513,excludes-stop,node-harsq-upperramp-upper
 513,excludes-stop,node-harsq-yardstair-lobby
 514,direction,up
+514,excludes-stop,76129
 514,excludes-stop,door-harsq-brattle
 514,excludes-stop,door-harsq-church
 514,excludes-stop,door-harsq-yard
@@ -8764,6 +8760,7 @@ facility_id,property_id,value
 514,excludes-stop,node-harsq-upperramp-upper
 514,excludes-stop,node-harsq-yardstair-lobby
 515,direction,down
+515,excludes-stop,76129
 515,excludes-stop,door-harsq-brattle
 515,excludes-stop,door-harsq-church
 515,excludes-stop,door-harsq-yard
@@ -8810,6 +8807,7 @@ facility_id,property_id,value
 516,excludes-stop,76125
 516,excludes-stop,76126
 516,excludes-stop,76127
+516,excludes-stop,76129
 516,excludes-stop,door-harsq-brattle
 516,excludes-stop,door-harsq-square
 516,excludes-stop,node-512-landing
@@ -9807,6 +9805,12 @@ facility_id,property_id,value
 724,excludes-stop,node-forhl-splatstairs-lobby
 724,excludes-stop,node-forhl-splatstairs-platform
 724,excludes-stop,node-forhl-upperdoor
+725,excludes-stop,WML-0035-B0
+725,excludes-stop,WML-0035-B1
+726,excludes-stop,WML-0035-B0
+726,excludes-stop,WML-0035-B1
+727,excludes-stop,WML-0035-B0
+727,excludes-stop,WML-0035-B1
 728,alternate-service-text,Please find station personnel or use a station call box or for assistance navigating between the lobby and lower busway.
 728,excludes-stop,17861
 728,excludes-stop,70010
@@ -9871,7 +9875,6 @@ facility_id,property_id,value
 731,excludes-stop,BNT-0000-08
 731,excludes-stop,BNT-0000-09
 731,excludes-stop,BNT-0000-10
-731,excludes-stop,BNT-0000-B2
 731,excludes-stop,door-north-causewayexite
 731,excludes-stop,door-north-causewayexitw
 731,excludes-stop,door-north-causeways
@@ -9974,7 +9977,6 @@ facility_id,property_id,value
 732,excludes-stop,BNT-0000-08
 732,excludes-stop,BNT-0000-09
 732,excludes-stop,BNT-0000-10
-732,excludes-stop,BNT-0000-B2
 732,excludes-stop,door-north-causewayexite
 732,excludes-stop,door-north-causewayexitw
 732,excludes-stop,door-north-causeways
@@ -11602,6 +11604,7 @@ facility_id,property_id,value
 817,excludes-stop,node-davis-holland-lobby
 821,alternate-service-text,"To exit, use Harvard Elevator 973 located at the end of upper busway. To board, use Harvard Elevator 973 located at the corner of Brattle St and Brattle Sq."
 821,excludes-stop,76126
+821,excludes-stop,76129
 821,excludes-stop,door-harsq-brattle
 821,excludes-stop,door-harsq-church
 821,excludes-stop,door-harsq-yard
@@ -13900,7 +13903,6 @@ facility_id,property_id,value
 909,excludes-stop,BNT-0000-08
 909,excludes-stop,BNT-0000-09
 909,excludes-stop,BNT-0000-10
-909,excludes-stop,BNT-0000-B2
 909,excludes-stop,door-north-causewaye
 909,excludes-stop,door-north-causewayexite
 909,excludes-stop,door-north-causewayexitw
@@ -14005,7 +14007,6 @@ facility_id,property_id,value
 910,excludes-stop,BNT-0000-08
 910,excludes-stop,BNT-0000-09
 910,excludes-stop,BNT-0000-10
-910,excludes-stop,BNT-0000-B2
 910,excludes-stop,door-north-causewayexite
 910,excludes-stop,door-north-causewayexitw
 910,excludes-stop,door-north-causeways
@@ -14111,7 +14112,6 @@ facility_id,property_id,value
 911,excludes-stop,BNT-0000-08
 911,excludes-stop,BNT-0000-09
 911,excludes-stop,BNT-0000-10
-911,excludes-stop,BNT-0000-B2
 911,excludes-stop,door-north-causewayexite
 911,excludes-stop,door-north-causewayexitw
 911,excludes-stop,door-north-causeways
@@ -14214,7 +14214,6 @@ facility_id,property_id,value
 912,excludes-stop,BNT-0000-08
 912,excludes-stop,BNT-0000-09
 912,excludes-stop,BNT-0000-10
-912,excludes-stop,BNT-0000-B2
 912,excludes-stop,door-north-causewayexite
 912,excludes-stop,door-north-causewayexitw
 912,excludes-stop,door-north-causeways
@@ -16323,6 +16322,7 @@ facility_id,property_id,value
 972,excludes-stop,node-kencl-wbstair-platform
 973,alternate-service-text,"To exit, use Harvard Elevator 821 located in the main lobby. To board, use Harvard Elevator 821 located at the corner of JFK St, Brattle St and Mass Ave (Harvard Sq)."
 973,excludes-stop,76126
+973,excludes-stop,76129
 973,excludes-stop,door-harsq-church
 973,excludes-stop,door-harsq-square
 973,excludes-stop,door-harsq-yard
@@ -21620,7 +21620,7 @@ park-FRS-0054,contact,MBTA Customer Support
 park-FRS-0054,contact-phone,617-222-3200
 park-FRS-0054,contact-url,https://www.mbta.com/customer-support
 park-FRS-0054,enclosed,2
-park-FRS-0054,fee-daily,Mon-Fri: $4 | Sat-Sun: Free through 6/1/25
+park-FRS-0054,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
 park-FRS-0054,municipality,Freetown
 park-FRS-0054,operator,Keolis Commuter Services
 park-FRS-0054,overnight-allowed,no
@@ -21637,7 +21637,7 @@ park-FRS-0109,contact,MBTA Customer Support
 park-FRS-0109,contact-phone,617-222-3200
 park-FRS-0109,contact-url,https://www.mbta.com/customer-support
 park-FRS-0109,enclosed,2
-park-FRS-0109,fee-daily,Mon-Fri: $4 | Sat-Sun: Free through 6/1/25
+park-FRS-0109,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
 park-FRS-0109,municipality,Fall River 
 park-FRS-0109,operator,Keolis Commuter Services
 park-FRS-0109,overnight-allowed,no
@@ -21909,7 +21909,7 @@ park-MBS-0350,contact,MBTA Customer Support
 park-MBS-0350,contact-phone,617-222-3200
 park-MBS-0350,contact-url,https://www.mbta.com/customer-support
 park-MBS-0350,enclosed,2
-park-MBS-0350,fee-daily,Mon-Fri: $4 | Sat-Sun: Free through 6/1/25
+park-MBS-0350,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
 park-MBS-0350,municipality,Middleborough
 park-MBS-0350,operator,Keolis Commuter Services
 park-MBS-0350,overnight-allowed,no
@@ -22205,7 +22205,7 @@ park-NBM-0374,contact,MBTA Customer Support
 park-NBM-0374,contact-phone,617-222-3200
 park-NBM-0374,contact-url,https://www.mbta.com/customer-support
 park-NBM-0374,enclosed,2
-park-NBM-0374,fee-daily,Mon-Fri: $4 | Sat-Sun: Free through 6/1/25
+park-NBM-0374,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
 park-NBM-0374,municipality,East Taunton
 park-NBM-0374,operator,Keolis Commuter Services
 park-NBM-0374,overnight-allowed,no
@@ -22222,7 +22222,7 @@ park-NBM-0523,contact,MBTA Customer Support
 park-NBM-0523,contact-phone,617-222-3200
 park-NBM-0523,contact-url,https://www.mbta.com/customer-support
 park-NBM-0523,enclosed,2
-park-NBM-0523,fee-daily,Mon-Fri: $4 | Sat-Sun: Free through 6/1/25
+park-NBM-0523,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
 park-NBM-0523,municipality,New Bedford 
 park-NBM-0523,operator,Keolis Commuter Services
 park-NBM-0523,overnight-allowed,no
@@ -23489,7 +23489,7 @@ park-nqncy-newport,contact-phone,617-222-3200
 park-nqncy-newport,contact-url,https://www.mbta.com/customer-support
 park-nqncy-newport,enclosed,2
 park-nqncy-newport,fee-daily,Mon-Fri: $5 | Sat-Sun: $3
-park-nqncy-newport,fee-monthly,Monthly passes are not available at this MBTA lot.
+park-nqncy-newport,fee-monthly,$87.50
 park-nqncy-newport,municipality,Quincy
 park-nqncy-newport,operator,Keolis Commuter Services
 park-nqncy-newport,overnight-allowed,no
@@ -23964,564 +23964,680 @@ portlift-woodl-0,excludes-stop,70163
 portlift-woodl-0,note,Customers can board/exit certain trains using mobile lift
 portlift-woodl-1,excludes-stop,70162
 portlift-woodl-1,note,Customers can board/exit certain trains using mobile lift
-retailsale-302005,address,"781 Tremont St, Boston, MA 02118"
-retailsale-302005,contact-phone,617-536 2722
+retailsale-302000,address,"370 Western Ave, Brighton, MA 02135"
+retailsale-302000,contact-phone,617-787-5266
+retailsale-302000,dispenses,fare-media
+retailsale-302000,enclosed,1
+retailsale-302000,payment-form-accepted,cash
+retailsale-302000,payment-form-accepted,credit-debit-card
+retailsale-302001,address,"20 Brook Street, Quincy, MA 02170"
+retailsale-302001,contact-phone,617-770-4740
+retailsale-302001,dispenses,fare-media
+retailsale-302001,enclosed,1
+retailsale-302001,payment-form-accepted,cash
+retailsale-302001,payment-form-accepted,credit-debit-card
+retailsale-302002,address,"451 Columbia Rd, Dorchester, MA 02125"
+retailsale-302002,contact-phone,617-436-7262
+retailsale-302002,dispenses,fare-media
+retailsale-302002,enclosed,1
+retailsale-302002,payment-form-accepted,cash
+retailsale-302002,payment-form-accepted,credit-debit-card
+retailsale-302003,address,"131 Lexington Street, Waltham, MA 02451"
+retailsale-302003,contact-phone,781-893-1333
+retailsale-302003,dispenses,fare-media
+retailsale-302003,enclosed,1
+retailsale-302003,payment-form-accepted,cash
+retailsale-302003,payment-form-accepted,credit-debit-card
+retailsale-302004,address,"535 Trapelo Rd., Belmont, MA 02478"
+retailsale-302004,contact-phone,617-489-6540
+retailsale-302004,dispenses,fare-media
+retailsale-302004,enclosed,1
+retailsale-302004,payment-form-accepted,cash
+retailsale-302004,payment-form-accepted,credit-debit-card
+retailsale-302005,address,"1305 Broadway, Somerville, MA 02144"
+retailsale-302005,contact-phone,508-737-7702
 retailsale-302005,dispenses,fare-media
 retailsale-302005,enclosed,1
 retailsale-302005,payment-form-accepted,cash
 retailsale-302005,payment-form-accepted,credit-debit-card
-retailsale-302006,address,"55 Warren St, Roxbury, MA 02119"
-retailsale-302006,contact-phone,617-445 2818
+retailsale-302006,address,"324 Revere Beach Pkwy, Chelsea, MA 02150"
+retailsale-302006,contact-phone,617-889-9853
 retailsale-302006,dispenses,fare-media
 retailsale-302006,enclosed,1
 retailsale-302006,payment-form-accepted,cash
 retailsale-302006,payment-form-accepted,credit-debit-card
-retailsale-302013,address,"4 River St, Dorchester, MA 02122"
-retailsale-302013,contact-phone,617-298-1462
+retailsale-302007,address,"82 River Street, Mattapan, MA 02126"
+retailsale-302007,contact-phone,617-296-7032
+retailsale-302007,dispenses,fare-media
+retailsale-302007,enclosed,1
+retailsale-302007,payment-form-accepted,cash
+retailsale-302007,payment-form-accepted,credit-debit-card
+retailsale-302008,address,"482 Blue Hill Avenue, Dorchester, MA 02121"
+retailsale-302008,contact-phone,617-652-7750
+retailsale-302008,dispenses,fare-media
+retailsale-302008,enclosed,1
+retailsale-302008,payment-form-accepted,cash
+retailsale-302008,payment-form-accepted,credit-debit-card
+retailsale-302009,address,"178 Chelsea Street, Everett, MA 02149"
+retailsale-302009,contact-phone,781-475-9706
+retailsale-302009,dispenses,fare-media
+retailsale-302009,enclosed,1
+retailsale-302009,payment-form-accepted,cash
+retailsale-302009,payment-form-accepted,credit-debit-card
+retailsale-302010,address,"132 Pearl Street, Chelsea, MA 02150"
+retailsale-302010,contact-phone,617-884-0215
+retailsale-302010,dispenses,fare-media
+retailsale-302010,enclosed,1
+retailsale-302010,payment-form-accepted,cash
+retailsale-302010,payment-form-accepted,credit-debit-card
+retailsale-302011,address,"21 Mass Ave, Boston, MA 02115"
+retailsale-302011,contact-phone,617-859-1804
+retailsale-302011,dispenses,fare-media
+retailsale-302011,enclosed,1
+retailsale-302011,payment-form-accepted,cash
+retailsale-302011,payment-form-accepted,credit-debit-card
+retailsale-302012,address,"11 Traders Way, Salem, MA 01970"
+retailsale-302012,contact-phone,978-741-8660
+retailsale-302012,dispenses,fare-media
+retailsale-302012,enclosed,1
+retailsale-302012,payment-form-accepted,cash
+retailsale-302012,payment-form-accepted,credit-debit-card
+retailsale-302013,address,"699 Main Street, Waltham, MA 02451"
+retailsale-302013,contact-phone,781-472-2267
 retailsale-302013,dispenses,fare-media
 retailsale-302013,enclosed,1
 retailsale-302013,payment-form-accepted,cash
 retailsale-302013,payment-form-accepted,credit-debit-card
-retailsale-302016,address,"1065 Commonwealth Ave, Boston, MA 02215"
-retailsale-302016,contact-phone,617-783-5878
+retailsale-302014,address,"624 East Broadway, South Boston, MA 02127"
+retailsale-302014,contact-phone,857-496-0863
+retailsale-302014,dispenses,fare-media
+retailsale-302014,enclosed,1
+retailsale-302014,payment-form-accepted,cash
+retailsale-302014,payment-form-accepted,credit-debit-card
+retailsale-302015,address,"411 Broadway, Chelsea, MA 02150"
+retailsale-302015,contact-phone,617-884-6494
+retailsale-302015,dispenses,fare-media
+retailsale-302015,enclosed,1
+retailsale-302015,payment-form-accepted,cash
+retailsale-302015,payment-form-accepted,credit-debit-card
+retailsale-302016,address,"1227 Commonwealth Ave, Allston, MA 02134"
+retailsale-302016,contact-phone,617-782-0453
 retailsale-302016,dispenses,fare-media
 retailsale-302016,enclosed,1
 retailsale-302016,payment-form-accepted,cash
 retailsale-302016,payment-form-accepted,credit-debit-card
-retailsale-302017,address,"49 White St, Cambridge, MA 02140"
-retailsale-302017,contact-phone,617-492-5566
+retailsale-302017,address,"3116 Washington Street, Roxbury, MA 02119"
+retailsale-302017,contact-phone,617-983-1666
 retailsale-302017,dispenses,fare-media
 retailsale-302017,enclosed,1
 retailsale-302017,payment-form-accepted,cash
 retailsale-302017,payment-form-accepted,credit-debit-card
-retailsale-302019,address,"130 Granite St, Quincy, MA 02169"
-retailsale-302019,contact-phone,617-770-0841
+retailsale-302018,address,"44 Corinth Street, Roslindale, MA 02131"
+retailsale-302018,contact-phone,617-469-9457
+retailsale-302018,dispenses,fare-media
+retailsale-302018,enclosed,1
+retailsale-302018,payment-form-accepted,cash
+retailsale-302018,payment-form-accepted,credit-debit-card
+retailsale-302019,address,"169 Harvard Ave, Allston, MA 02134"
+retailsale-302019,contact-phone,617-783-7180
 retailsale-302019,dispenses,fare-media
 retailsale-302019,enclosed,1
 retailsale-302019,payment-form-accepted,cash
 retailsale-302019,payment-form-accepted,credit-debit-card
-retailsale-302020,address,"45 Morrissey Blvd, Dorchester, MA 02125"
-retailsale-302020,contact-phone,617-265-1776
+retailsale-302020,address,"7 Everett Ave, Chelsea, MA 02150"
+retailsale-302020,contact-phone,617-884-3013
 retailsale-302020,dispenses,fare-media
 retailsale-302020,enclosed,1
 retailsale-302020,payment-form-accepted,cash
 retailsale-302020,payment-form-accepted,credit-debit-card
-retailsale-302021,address,"14 McGrath Hwy, Somerville, MA 02143"
-retailsale-302021,contact-phone,617-354-7023
+retailsale-302021,address,"571 Broadway, Chelsea, MA 02150"
+retailsale-302021,contact-phone,617-409-9682
 retailsale-302021,dispenses,fare-media
 retailsale-302021,enclosed,1
 retailsale-302021,payment-form-accepted,cash
 retailsale-302021,payment-form-accepted,credit-debit-card
-retailsale-302023,address,"219 Quincy Ave, Quincy, MA 02169"
-retailsale-302023,contact-phone,617-328-8818
+retailsale-302022,address,"8 Washington Ave, Chelsea, MA 02150"
+retailsale-302022,contact-phone,774-268-9103
+retailsale-302022,dispenses,fare-media
+retailsale-302022,enclosed,1
+retailsale-302022,payment-form-accepted,cash
+retailsale-302022,payment-form-accepted,credit-debit-card
+retailsale-302023,address,"100 Cambridgeside Place, Cambridge, MA 02141"
+retailsale-302023,contact-phone,617-577-0201
 retailsale-302023,dispenses,fare-media
 retailsale-302023,enclosed,1
 retailsale-302023,payment-form-accepted,cash
 retailsale-302023,payment-form-accepted,credit-debit-card
-retailsale-302024,address,"68 Harrison Ave, Boston, MA 02111"
-retailsale-302024,contact-phone,617-338-0290
+retailsale-302024,address,"1247 N Shore Road, Revere, MA 02151"
+retailsale-302024,contact-phone,781-289-1319
 retailsale-302024,dispenses,fare-media
 retailsale-302024,enclosed,1
 retailsale-302024,payment-form-accepted,cash
 retailsale-302024,payment-form-accepted,credit-debit-card
-retailsale-302025,address,"30 Corinth St, Roslindale, MA 02131"
-retailsale-302025,contact-phone,617-327-2588
+retailsale-302025,address,"430 Geneva Ave, Dorchester, MA 02122"
+retailsale-302025,contact-phone,617-265-3931
 retailsale-302025,dispenses,fare-media
 retailsale-302025,enclosed,1
 retailsale-302025,payment-form-accepted,cash
 retailsale-302025,payment-form-accepted,credit-debit-card
-retailsale-302026,address,"582 Broadway, Somerville, MA 02143"
-retailsale-302026,contact-phone,617-776-9540
+retailsale-302026,address,"454 Harvard Street, Brookline, MA 02446"
+retailsale-302026,contact-phone,617-713-0651
 retailsale-302026,dispenses,fare-media
 retailsale-302026,enclosed,1
 retailsale-302026,payment-form-accepted,cash
 retailsale-302026,payment-form-accepted,credit-debit-card
-retailsale-302028,address,"1383 Commonwealth Ave, Allston, MA 02134"
-retailsale-302028,contact-phone,617-254-8274
+retailsale-302027,address,"135 Causeway Street, Boston, MA 02114"
+retailsale-302027,dispenses,fare-media
+retailsale-302027,enclosed,1
+retailsale-302027,payment-form-accepted,cash
+retailsale-302027,payment-form-accepted,credit-debit-card
+retailsale-302028,address,"145 Dartmouth Street, Boston, MA 02116"
 retailsale-302028,dispenses,fare-media
 retailsale-302028,enclosed,1
 retailsale-302028,payment-form-accepted,cash
 retailsale-302028,payment-form-accepted,credit-debit-card
-retailsale-302030,address,"8A Beacon St, Boston, MA 02108"
-retailsale-302030,contact-phone,617-523-6867
+retailsale-302029,address,"200 Atlantic Ave, Boston, MA 02110"
+retailsale-302029,dispenses,fare-media
+retailsale-302029,enclosed,1
+retailsale-302029,payment-form-accepted,cash
+retailsale-302029,payment-form-accepted,credit-debit-card
+retailsale-302030,address,"781 Tremont Street, Boston, MA 02118"
+retailsale-302030,contact-phone,617-536 2722
 retailsale-302030,dispenses,fare-media
 retailsale-302030,enclosed,1
 retailsale-302030,payment-form-accepted,cash
 retailsale-302030,payment-form-accepted,credit-debit-card
-retailsale-302031,address,"1418 Beacon St, Brookline, MA 02446"
-retailsale-302031,contact-phone,617-593-9180
+retailsale-302031,address,"146 Dudley Street, Roxbury, MA 02119"
+retailsale-302031,contact-phone,617-445 2818
 retailsale-302031,dispenses,fare-media
 retailsale-302031,enclosed,1
 retailsale-302031,payment-form-accepted,cash
 retailsale-302031,payment-form-accepted,credit-debit-card
-retailsale-302035,address,"595 Washington St, Dorchester, MA 02124"
-retailsale-302035,contact-phone,617-282-4580
+retailsale-302032,address,"1065 Commonwealth Avenue, Boston, MA 02215"
+retailsale-302032,contact-phone,617-783-5878
+retailsale-302032,dispenses,fare-media
+retailsale-302032,enclosed,1
+retailsale-302032,payment-form-accepted,cash
+retailsale-302032,payment-form-accepted,credit-debit-card
+retailsale-302033,address,"49 White Street, Cambridge, MA 02140"
+retailsale-302033,contact-phone,617-492-5566
+retailsale-302033,dispenses,fare-media
+retailsale-302033,enclosed,1
+retailsale-302033,payment-form-accepted,cash
+retailsale-302033,payment-form-accepted,credit-debit-card
+retailsale-302034,address,"14 McGrath Highway, Somerville, MA 02143"
+retailsale-302034,contact-phone,617-354-7023
+retailsale-302034,dispenses,fare-media
+retailsale-302034,enclosed,1
+retailsale-302034,payment-form-accepted,cash
+retailsale-302034,payment-form-accepted,credit-debit-card
+retailsale-302035,address,"1558 Commonwealth Ave, Brighton, MA 02135"
+retailsale-302035,contact-phone,617-566-2281
 retailsale-302035,dispenses,fare-media
 retailsale-302035,enclosed,1
 retailsale-302035,payment-form-accepted,cash
 retailsale-302035,payment-form-accepted,credit-debit-card
-retailsale-302037,address,"282 Centre St, Jamaica Plain, MA 02130"
-retailsale-302037,contact-phone,617-983-3020
+retailsale-302036,address,"28 Shipyard Dr, Hingham, MA 02043"
+retailsale-302036,contact-phone,857-300-3689
+retailsale-302036,dispenses,fare-media
+retailsale-302036,enclosed,1
+retailsale-302036,payment-form-accepted,cash
+retailsale-302036,payment-form-accepted,credit-debit-card
+retailsale-302037,address,"30 Corinth Street, Roslindale, MA 02131"
+retailsale-302037,contact-phone,617-327-2588
 retailsale-302037,dispenses,fare-media
 retailsale-302037,enclosed,1
 retailsale-302037,payment-form-accepted,cash
 retailsale-302037,payment-form-accepted,credit-debit-card
-retailsale-302038,address,"62 Market Sq, Lynn, MA 01905"
-retailsale-302038,contact-phone,781-592-3500
+retailsale-302038,address,"582 Broadway, Somerville, MA 02143"
+retailsale-302038,contact-phone,617-776-9540
 retailsale-302038,dispenses,fare-media
 retailsale-302038,enclosed,1
 retailsale-302038,payment-form-accepted,cash
 retailsale-302038,payment-form-accepted,credit-debit-card
-retailsale-302041,address,"1998 Revere Beach Pkwy, Everett, MA 02149"
-retailsale-302041,contact-phone,617-381-8902
+retailsale-302039,address,"1383 Commonwealth Ave., Allston, MA 02134"
+retailsale-302039,contact-phone,617-254-8274
+retailsale-302039,dispenses,fare-media
+retailsale-302039,enclosed,1
+retailsale-302039,payment-form-accepted,cash
+retailsale-302039,payment-form-accepted,credit-debit-card
+retailsale-302040,address,"8A Beacon Street, Boston, MA 02108"
+retailsale-302040,contact-phone,617-523-6867
+retailsale-302040,dispenses,fare-media
+retailsale-302040,enclosed,1
+retailsale-302040,payment-form-accepted,cash
+retailsale-302040,payment-form-accepted,credit-debit-card
+retailsale-302041,address,"1418 Beacon St., Brookline, MA 02446"
+retailsale-302041,contact-phone,617-593-9180
 retailsale-302041,dispenses,fare-media
 retailsale-302041,enclosed,1
 retailsale-302041,payment-form-accepted,cash
 retailsale-302041,payment-form-accepted,credit-debit-card
-retailsale-302045,address,"722 Huntington Ave, Boston, MA 02115"
-retailsale-302045,contact-phone,617-277-4665
+retailsale-302042,address,"595 Washington St., Dorchester, MA 02124"
+retailsale-302042,contact-phone,617-282-4580
+retailsale-302042,dispenses,fare-media
+retailsale-302042,enclosed,1
+retailsale-302042,payment-form-accepted,cash
+retailsale-302042,payment-form-accepted,credit-debit-card
+retailsale-302043,address,"282 Centre Street, Jamaica Plain, MA 02130"
+retailsale-302043,contact-phone,617-983-3020
+retailsale-302043,dispenses,fare-media
+retailsale-302043,enclosed,1
+retailsale-302043,payment-form-accepted,cash
+retailsale-302043,payment-form-accepted,credit-debit-card
+retailsale-302044,address,"62 Market Square, Lynn, MA 01905"
+retailsale-302044,contact-phone,781-592-3500
+retailsale-302044,dispenses,fare-media
+retailsale-302044,enclosed,1
+retailsale-302044,payment-form-accepted,cash
+retailsale-302044,payment-form-accepted,credit-debit-card
+retailsale-302045,address,"673 East Broadway, South Boston, MA 02127"
+retailsale-302045,contact-phone,617-588-6608
 retailsale-302045,dispenses,fare-media
 retailsale-302045,enclosed,1
 retailsale-302045,payment-form-accepted,cash
 retailsale-302045,payment-form-accepted,credit-debit-card
-retailsale-302046,address,"4 College Ave, Somerville, MA 02144"
-retailsale-302046,contact-phone,617-666-0650
+retailsale-302046,address,"1998 Revere Beach Pkwy, Everett, MA 02149"
+retailsale-302046,contact-phone,617-381-8902
 retailsale-302046,dispenses,fare-media
 retailsale-302046,enclosed,1
 retailsale-302046,payment-form-accepted,cash
 retailsale-302046,payment-form-accepted,credit-debit-card
-retailsale-302047,address,"141 Massachusetts Ave, Boston, MA 02115"
-retailsale-302047,contact-phone,617-353-1897
+retailsale-302047,address,"607 Main Street, Waltham, MA 02452"
+retailsale-302047,contact-phone,781-314-0096
 retailsale-302047,dispenses,fare-media
 retailsale-302047,enclosed,1
 retailsale-302047,payment-form-accepted,cash
 retailsale-302047,payment-form-accepted,credit-debit-card
-retailsale-302048,address,"177 State St, Boston, MA 02109"
-retailsale-302048,contact-phone,617-367-0034
+retailsale-302048,address,"722 Huntington Ave., Boston, MA 02115"
+retailsale-302048,contact-phone,617-277-4665
 retailsale-302048,dispenses,fare-media
 retailsale-302048,enclosed,1
 retailsale-302048,payment-form-accepted,cash
 retailsale-302048,payment-form-accepted,credit-debit-card
-retailsale-302051,address,"150 Bennington St, East Boston, MA 02128"
-retailsale-302051,contact-phone,617-567-7832
+retailsale-302049,address,"4 College Ave., Davis Sq, Somerville, MA 02144"
+retailsale-302049,contact-phone,617-666-0650
+retailsale-302049,dispenses,fare-media
+retailsale-302049,enclosed,1
+retailsale-302049,payment-form-accepted,cash
+retailsale-302049,payment-form-accepted,credit-debit-card
+retailsale-302050,address,"141 Massachusetts Ave., Boston, MA 02115"
+retailsale-302050,contact-phone,617-353-1897
+retailsale-302050,dispenses,fare-media
+retailsale-302050,enclosed,1
+retailsale-302050,payment-form-accepted,cash
+retailsale-302050,payment-form-accepted,credit-debit-card
+retailsale-302051,address,"177 State St., Boston, MA 02109"
+retailsale-302051,contact-phone,617-367-0034
 retailsale-302051,dispenses,fare-media
 retailsale-302051,enclosed,1
 retailsale-302051,payment-form-accepted,cash
 retailsale-302051,payment-form-accepted,credit-debit-card
-retailsale-302053,address,"161 Shirley Ave, Revere, MA 02128"
-retailsale-302053,contact-phone,781-284-1030
+retailsale-302052,address,"150 Bennington St., East Boston, MA 02128"
+retailsale-302052,contact-phone,617-567-7832
+retailsale-302052,dispenses,fare-media
+retailsale-302052,enclosed,1
+retailsale-302052,payment-form-accepted,cash
+retailsale-302052,payment-form-accepted,credit-debit-card
+retailsale-302053,address,"252 Main St, Everett, MA 02149"
+retailsale-302053,contact-phone,617-944-9217
 retailsale-302053,dispenses,fare-media
 retailsale-302053,enclosed,1
 retailsale-302053,payment-form-accepted,cash
 retailsale-302053,payment-form-accepted,credit-debit-card
-retailsale-302055,address,"19 Maverick Sq, East Boston, MA 02128"
+retailsale-302054,address,"140 Tremont Street, Boston, MA 02111"
+retailsale-302054,contact-phone,617-338-6500
+retailsale-302054,dispenses,fare-media
+retailsale-302054,enclosed,1
+retailsale-302054,payment-form-accepted,cash
+retailsale-302054,payment-form-accepted,credit-debit-card
+retailsale-302055,address,"19 Maverick Square, East Boston, MA 02128"
 retailsale-302055,contact-phone,617-561-0333
 retailsale-302055,dispenses,fare-media
 retailsale-302055,enclosed,1
 retailsale-302055,payment-form-accepted,cash
 retailsale-302055,payment-form-accepted,credit-debit-card
-retailsale-302057,address,"1 Park St, Chelsea, MA 02150"
-retailsale-302057,contact-phone,617-888-0846
+retailsale-302056,address,"1 Park St., Chelsea, MA 02150"
+retailsale-302056,contact-phone,617-888-0846
+retailsale-302056,dispenses,fare-media
+retailsale-302056,enclosed,1
+retailsale-302056,payment-form-accepted,cash
+retailsale-302056,payment-form-accepted,credit-debit-card
+retailsale-302057,address,"610 Blue Hill Ave., Dorchester, MA 02121"
+retailsale-302057,contact-phone,617-522-9266
 retailsale-302057,dispenses,fare-media
 retailsale-302057,enclosed,1
 retailsale-302057,payment-form-accepted,cash
 retailsale-302057,payment-form-accepted,credit-debit-card
-retailsale-302058,address,"610 Blue Hill Ave, Dorchester, MA 02121"
-retailsale-302058,contact-phone,617-522-9266
+retailsale-302058,address,"508 Geneva Ave., Dorchester, MA 02122"
+retailsale-302058,contact-phone,617-282-2896
 retailsale-302058,dispenses,fare-media
 retailsale-302058,enclosed,1
 retailsale-302058,payment-form-accepted,cash
 retailsale-302058,payment-form-accepted,credit-debit-card
-retailsale-302059,address,"508 Geneva Ave, Dorchester, MA 02122"
-retailsale-302059,contact-phone,617-282-2896
+retailsale-302059,address,"1284 Massachusetts Ave., Dorchester, MA 02125"
+retailsale-302059,contact-phone,617-282-2872
 retailsale-302059,dispenses,fare-media
 retailsale-302059,enclosed,1
 retailsale-302059,payment-form-accepted,cash
 retailsale-302059,payment-form-accepted,credit-debit-card
-retailsale-302060,address,"1284 Massachusetts Ave, Dorchester, MA 02125"
-retailsale-302060,contact-phone,617-282-2872
+retailsale-302060,address,"1170 Blue Hill Ave., Mattapan, MA 02126"
+retailsale-302060,contact-phone,617-825-7874
 retailsale-302060,dispenses,fare-media
 retailsale-302060,enclosed,1
 retailsale-302060,payment-form-accepted,cash
 retailsale-302060,payment-form-accepted,credit-debit-card
-retailsale-302061,address,"1170 Blue Hill Ave, Mattapan, MA 02126"
-retailsale-302061,contact-phone,617-825-7874
+retailsale-302061,address,"430 Beach Street, Revere, MA 02126"
+retailsale-302061,contact-phone,781-284-0370
 retailsale-302061,dispenses,fare-media
 retailsale-302061,enclosed,1
 retailsale-302061,payment-form-accepted,cash
 retailsale-302061,payment-form-accepted,credit-debit-card
-retailsale-302069,address,"550 Lee Burbank Hwy, Revere, MA 02126"
-retailsale-302069,contact-phone,781-284-0370
+retailsale-302062,address,"699 Mt Auburn St., Cambridge, MA 02138"
+retailsale-302062,contact-phone,617-876-1450
+retailsale-302062,dispenses,fare-media
+retailsale-302062,enclosed,1
+retailsale-302062,payment-form-accepted,cash
+retailsale-302062,payment-form-accepted,credit-debit-card
+retailsale-302063,address,"230 Meridian Street, East Boston, MA 02128"
+retailsale-302063,contact-phone,617-561-0445
+retailsale-302063,dispenses,fare-media
+retailsale-302063,enclosed,1
+retailsale-302063,payment-form-accepted,cash
+retailsale-302063,payment-form-accepted,credit-debit-card
+retailsale-302064,address,"71 Front Street, Scituate, MA 02066"
+retailsale-302064,contact-phone,781-545-4896
+retailsale-302064,dispenses,fare-media
+retailsale-302064,enclosed,1
+retailsale-302064,payment-form-accepted,cash
+retailsale-302064,payment-form-accepted,credit-debit-card
+retailsale-302065,address,"509 Cambridge St., Allston, MA 02134"
+retailsale-302065,contact-phone,617-782-3900
+retailsale-302065,dispenses,fare-media
+retailsale-302065,enclosed,1
+retailsale-302065,payment-form-accepted,cash
+retailsale-302065,payment-form-accepted,credit-debit-card
+retailsale-302066,address,"14 Maverick Sq., East Boston, MA 02128"
+retailsale-302066,contact-phone,617-567-6025
+retailsale-302066,dispenses,fare-media
+retailsale-302066,enclosed,1
+retailsale-302066,payment-form-accepted,cash
+retailsale-302066,payment-form-accepted,credit-debit-card
+retailsale-302067,address,"401 South Ave., Whitman, MA 02382"
+retailsale-302067,contact-phone,781-447-5741
+retailsale-302067,dispenses,fare-media
+retailsale-302067,enclosed,1
+retailsale-302067,payment-form-accepted,cash
+retailsale-302067,payment-form-accepted,credit-debit-card
+retailsale-302068,address,"33 Kilmarnock Street, Boston, MA 02215"
+retailsale-302068,contact-phone,617-267-4684
+retailsale-302068,dispenses,fare-media
+retailsale-302068,enclosed,1
+retailsale-302068,payment-form-accepted,cash
+retailsale-302068,payment-form-accepted,credit-debit-card
+retailsale-302069,address,"53 Huntington Avenue, Boston, MA 02199"
+retailsale-302069,contact-phone,617-236-4235
 retailsale-302069,dispenses,fare-media
 retailsale-302069,enclosed,1
 retailsale-302069,payment-form-accepted,cash
 retailsale-302069,payment-form-accepted,credit-debit-card
-retailsale-302071,address,"112 Medford St, Medford, MA 02155"
-retailsale-302071,contact-phone,781-393-9090
+retailsale-302070,address,"1717 Beacon Street, Brookline, MA 02445"
+retailsale-302070,contact-phone,617-556-1802
+retailsale-302070,dispenses,fare-media
+retailsale-302070,enclosed,1
+retailsale-302070,payment-form-accepted,cash
+retailsale-302070,payment-form-accepted,credit-debit-card
+retailsale-302071,address,"145 Broadway St., Norwood, MA 02062"
+retailsale-302071,contact-phone,781-762-6038
 retailsale-302071,dispenses,fare-media
 retailsale-302071,enclosed,1
 retailsale-302071,payment-form-accepted,cash
 retailsale-302071,payment-form-accepted,credit-debit-card
-retailsale-302073,address,"699 Mt Auburn St, Cambridge, MA 02138"
-retailsale-302073,contact-phone,617-876-1450
+retailsale-302072,address,"275 Prospect St., Cambridge, MA 02139"
+retailsale-302072,contact-phone,617-547-4711
+retailsale-302072,dispenses,fare-media
+retailsale-302072,enclosed,1
+retailsale-302072,payment-form-accepted,cash
+retailsale-302072,payment-form-accepted,credit-debit-card
+retailsale-302073,address,"750 Massachusetts Ave., Cambridge, MA 02139"
+retailsale-302073,contact-phone,617-492-0830
 retailsale-302073,dispenses,fare-media
 retailsale-302073,enclosed,1
 retailsale-302073,payment-form-accepted,cash
 retailsale-302073,payment-form-accepted,credit-debit-card
-retailsale-302079,address,"230 Meridian St, East Boston, MA 02128"
-retailsale-302079,contact-phone,617-561-0445
+retailsale-302074,address,"473 West Broadway, South Boston, MA 02127"
+retailsale-302074,contact-phone,617-268-8711
+retailsale-302074,dispenses,fare-media
+retailsale-302074,enclosed,1
+retailsale-302074,payment-form-accepted,cash
+retailsale-302074,payment-form-accepted,credit-debit-card
+retailsale-302075,address,"327 Main St., Wilmington, MA 01887"
+retailsale-302075,contact-phone,978-658-7884
+retailsale-302075,dispenses,fare-media
+retailsale-302075,enclosed,1
+retailsale-302075,payment-form-accepted,cash
+retailsale-302075,payment-form-accepted,credit-debit-card
+retailsale-302076,address,"20 Irving Street, Framingham, MA 01702"
+retailsale-302076,contact-phone,508-861-3295
+retailsale-302076,dispenses,fare-media
+retailsale-302076,enclosed,1
+retailsale-302076,payment-form-accepted,cash
+retailsale-302076,payment-form-accepted,credit-debit-card
+retailsale-302077,address,"2002 Beacon St, Brighton, MA 02135"
+retailsale-302077,contact-phone,617-738-9692
+retailsale-302077,dispenses,fare-media
+retailsale-302077,enclosed,1
+retailsale-302077,payment-form-accepted,cash
+retailsale-302077,payment-form-accepted,credit-debit-card
+retailsale-302078,address,"584 Washington St, Brighton, MA 02136"
+retailsale-302078,contact-phone,617-783-1708
+retailsale-302078,dispenses,fare-media
+retailsale-302078,enclosed,1
+retailsale-302078,payment-form-accepted,cash
+retailsale-302078,payment-form-accepted,credit-debit-card
+retailsale-302079,address,"51 Commercial St, Braintree, MA 02184"
+retailsale-302079,contact-phone,781-843-5294
 retailsale-302079,dispenses,fare-media
 retailsale-302079,enclosed,1
 retailsale-302079,payment-form-accepted,cash
 retailsale-302079,payment-form-accepted,credit-debit-card
-retailsale-302086,address,"71 Front St, Scituate, MA 02066"
-retailsale-302086,contact-phone,781-545-4896
+retailsale-302080,address,"112 Medford Street, Medford, MA 02155"
+retailsale-302080,contact-phone,781-393-9090
+retailsale-302080,dispenses,fare-media
+retailsale-302080,enclosed,1
+retailsale-302080,payment-form-accepted,cash
+retailsale-302080,payment-form-accepted,credit-debit-card
+retailsale-302081,address,"829 N. Main St., Brockton, MA 02301"
+retailsale-302081,contact-phone,508-583-3724
+retailsale-302081,dispenses,fare-media
+retailsale-302081,enclosed,1
+retailsale-302081,payment-form-accepted,cash
+retailsale-302081,payment-form-accepted,credit-debit-card
+retailsale-302082,address,"10 Rockwood Road, Norfolk, MA 02056"
+retailsale-302082,contact-phone,508-528-1082
+retailsale-302082,dispenses,fare-media
+retailsale-302082,enclosed,1
+retailsale-302082,payment-form-accepted,cash
+retailsale-302082,payment-form-accepted,credit-debit-card
+retailsale-302083,address,"588 South Street, Waltham, MA 02453"
+retailsale-302083,contact-phone,781-788-0009
+retailsale-302083,dispenses,fare-media
+retailsale-302083,enclosed,1
+retailsale-302083,payment-form-accepted,cash
+retailsale-302083,payment-form-accepted,credit-debit-card
+retailsale-302084,address,"125 Pearl Street, Braintree, MA 02184"
+retailsale-302084,contact-phone,781-228-4406
+retailsale-302084,dispenses,fare-media
+retailsale-302084,enclosed,1
+retailsale-302084,payment-form-accepted,cash
+retailsale-302084,payment-form-accepted,credit-debit-card
+retailsale-302085,address,"43 Granite Street, Haverhill, MA 01832"
+retailsale-302085,contact-phone,978-372-9571
+retailsale-302085,dispenses,fare-media
+retailsale-302085,enclosed,1
+retailsale-302085,payment-form-accepted,cash
+retailsale-302085,payment-form-accepted,credit-debit-card
+retailsale-302086,address,"850 Commonwealth Ave., Boston, MA 02115"
+retailsale-302086,contact-phone,617-232-1188
 retailsale-302086,dispenses,fare-media
 retailsale-302086,enclosed,1
 retailsale-302086,payment-form-accepted,cash
 retailsale-302086,payment-form-accepted,credit-debit-card
-retailsale-302090,address,"34 Essex St, Melrose, MA 02176"
-retailsale-302090,contact-phone,781-665-8512
+retailsale-302087,address,"20 Norwood St, Everett, MA 02149"
+retailsale-302087,contact-phone,617-387-0393
+retailsale-302087,dispenses,fare-media
+retailsale-302087,enclosed,1
+retailsale-302087,payment-form-accepted,cash
+retailsale-302087,payment-form-accepted,credit-debit-card
+retailsale-302088,address,"1585 Commonwealth Ave, Brighton, MA 02135"
+retailsale-302088,contact-phone,617-783-3455
+retailsale-302088,dispenses,fare-media
+retailsale-302088,enclosed,1
+retailsale-302088,payment-form-accepted,cash
+retailsale-302088,payment-form-accepted,credit-debit-card
+retailsale-302089,address,"100 Atlantic Ave, Woburn, MA 01801"
+retailsale-302089,contact-phone,781-721-0373
+retailsale-302089,dispenses,fare-media
+retailsale-302089,enclosed,1
+retailsale-302089,payment-form-accepted,cash
+retailsale-302089,payment-form-accepted,credit-debit-card
+retailsale-302090,address,"546 Centre St, Boston, MA 02130"
+retailsale-302090,contact-phone,617-942-7670
 retailsale-302090,dispenses,fare-media
 retailsale-302090,enclosed,1
 retailsale-302090,payment-form-accepted,cash
 retailsale-302090,payment-form-accepted,credit-debit-card
-retailsale-302091,address,"246 Border St, East Boston, MA 02128"
-retailsale-302091,contact-phone,617-567-4116
+retailsale-302091,address,"100 Gaspee St, Providence, RI 02903"
+retailsale-302091,contact-phone,401-273-3010
 retailsale-302091,dispenses,fare-media
 retailsale-302091,enclosed,1
 retailsale-302091,payment-form-accepted,cash
 retailsale-302091,payment-form-accepted,credit-debit-card
-retailsale-302116,address,"509 Cambridge St, Allston, MA 02134"
-retailsale-302116,contact-phone,617-782-3900
-retailsale-302116,dispenses,fare-media
-retailsale-302116,enclosed,1
-retailsale-302116,payment-form-accepted,cash
-retailsale-302116,payment-form-accepted,credit-debit-card
-retailsale-302119,address,"14 Maverick Sq, East Boston, MA 02128"
-retailsale-302119,contact-phone,617-567-6025
-retailsale-302119,dispenses,fare-media
-retailsale-302119,enclosed,1
-retailsale-302119,payment-form-accepted,cash
-retailsale-302119,payment-form-accepted,credit-debit-card
-retailsale-302121,address,"401 South Ave, Whitman, MA 02382"
-retailsale-302121,contact-phone,781-447-5741
-retailsale-302121,dispenses,fare-media
-retailsale-302121,enclosed,1
-retailsale-302121,payment-form-accepted,cash
-retailsale-302121,payment-form-accepted,credit-debit-card
-retailsale-302123,address,"2040 Commonwealth Ave, Newton  , MA 02466"
-retailsale-302123,contact-phone,617-965-1793
-retailsale-302123,dispenses,fare-media
-retailsale-302123,enclosed,1
-retailsale-302123,payment-form-accepted,cash
-retailsale-302123,payment-form-accepted,credit-debit-card
-retailsale-302124,address,"1377 Hyde Park Ave, Hyde Park, MA 02136"
-retailsale-302124,contact-phone,617-364-9375
-retailsale-302124,dispenses,fare-media
-retailsale-302124,enclosed,1
-retailsale-302124,payment-form-accepted,cash
-retailsale-302124,payment-form-accepted,credit-debit-card
-retailsale-302125,address,"33 Kilmarnock St, Boston, MA 02215"
-retailsale-302125,contact-phone,617-267-4684
-retailsale-302125,dispenses,fare-media
-retailsale-302125,enclosed,1
-retailsale-302125,payment-form-accepted,cash
-retailsale-302125,payment-form-accepted,credit-debit-card
-retailsale-302126,address,"53 Huntington Ave, Boston, MA 02199"
-retailsale-302126,contact-phone,617-236-4235
-retailsale-302126,dispenses,fare-media
-retailsale-302126,enclosed,1
-retailsale-302126,payment-form-accepted,cash
-retailsale-302126,payment-form-accepted,credit-debit-card
-retailsale-302127,address,"1717 Beacon St, Brookline, MA 02445"
-retailsale-302127,contact-phone,617-556-1802
-retailsale-302127,dispenses,fare-media
-retailsale-302127,enclosed,1
-retailsale-302127,payment-form-accepted,cash
-retailsale-302127,payment-form-accepted,credit-debit-card
-retailsale-302128,address,"1 Boylston St, Chestnut Hill, MA 02467"
-retailsale-302128,contact-phone,617-232-3854
-retailsale-302128,dispenses,fare-media
-retailsale-302128,enclosed,1
-retailsale-302128,payment-form-accepted,cash
-retailsale-302128,payment-form-accepted,credit-debit-card
-retailsale-302131,address,"145 Broadway St, Norwood, MA 02062"
-retailsale-302131,contact-phone,781-762-6038
-retailsale-302131,dispenses,fare-media
-retailsale-302131,enclosed,1
-retailsale-302131,payment-form-accepted,cash
-retailsale-302131,payment-form-accepted,credit-debit-card
-retailsale-302138,address,"275 Prospect St, Cambridge, MA 02139"
-retailsale-302138,contact-phone,617-547-4711
-retailsale-302138,dispenses,fare-media
-retailsale-302138,enclosed,1
-retailsale-302138,payment-form-accepted,cash
-retailsale-302138,payment-form-accepted,credit-debit-card
-retailsale-302140,address,"750 Massachusetts Ave, Cambridge, MA 02139"
-retailsale-302140,contact-phone,617-492-0830
-retailsale-302140,dispenses,fare-media
-retailsale-302140,enclosed,1
-retailsale-302140,payment-form-accepted,cash
-retailsale-302140,payment-form-accepted,credit-debit-card
-retailsale-302144,address,"473 West Broadway, South Boston, MA 02127"
-retailsale-302144,contact-phone,617-268-8711
-retailsale-302144,dispenses,fare-media
-retailsale-302144,enclosed,1
-retailsale-302144,payment-form-accepted,cash
-retailsale-302144,payment-form-accepted,credit-debit-card
-retailsale-302148,address,"327 Main St, Wilmington, MA 01887"
-retailsale-302148,contact-phone,978-658-7884
-retailsale-302148,dispenses,fare-media
-retailsale-302148,enclosed,1
-retailsale-302148,payment-form-accepted,cash
-retailsale-302148,payment-form-accepted,credit-debit-card
-retailsale-302149,address,"20 Irving St, Framingham, MA 01702"
-retailsale-302149,contact-phone,508-861-3295
-retailsale-302149,dispenses,fare-media
-retailsale-302149,enclosed,1
-retailsale-302149,payment-form-accepted,cash
-retailsale-302149,payment-form-accepted,credit-debit-card
-retailsale-302150,address,"2002 Beacon St, Brighton, MA 02135"
-retailsale-302150,contact-phone,617-738-9692
-retailsale-302150,dispenses,fare-media
-retailsale-302150,enclosed,1
-retailsale-302150,payment-form-accepted,cash
-retailsale-302150,payment-form-accepted,credit-debit-card
-retailsale-302152,address,"584 Washington St, Brighton, MA 02136"
-retailsale-302152,contact-phone,617-783-1708
-retailsale-302152,dispenses,fare-media
-retailsale-302152,enclosed,1
-retailsale-302152,payment-form-accepted,cash
-retailsale-302152,payment-form-accepted,credit-debit-card
-retailsale-302153,address,"51 Commercial St, Braintree, MA 02184"
-retailsale-302153,contact-phone,781-843-5294
-retailsale-302153,dispenses,fare-media
-retailsale-302153,enclosed,1
-retailsale-302153,payment-form-accepted,cash
-retailsale-302153,payment-form-accepted,credit-debit-card
-retailsale-302157,address,"829 N Main St, Brockton, MA 02301"
-retailsale-302157,contact-phone,508-583-3724
-retailsale-302157,dispenses,fare-media
-retailsale-302157,enclosed,1
-retailsale-302157,payment-form-accepted,cash
-retailsale-302157,payment-form-accepted,credit-debit-card
-retailsale-302163,address,"10 Rockwood Road          , Norfolk, MA 02056"
-retailsale-302163,contact-phone,508-528-1082
-retailsale-302163,dispenses,fare-media
-retailsale-302163,enclosed,1
-retailsale-302163,payment-form-accepted,cash
-retailsale-302163,payment-form-accepted,credit-debit-card
-retailsale-302164,address,"588 South St      , Waltham, MA 02453"
-retailsale-302164,contact-phone,781-788-0009
-retailsale-302164,dispenses,fare-media
-retailsale-302164,enclosed,1
-retailsale-302164,payment-form-accepted,cash
-retailsale-302164,payment-form-accepted,credit-debit-card
-retailsale-302171,address,"43 Granite St, Haverhill, MA 01832"
-retailsale-302171,contact-phone,978-372-9571
-retailsale-302171,dispenses,fare-media
-retailsale-302171,enclosed,1
-retailsale-302171,payment-form-accepted,cash
-retailsale-302171,payment-form-accepted,credit-debit-card
-retailsale-302184,address,"224 Centre Ave, Abington, MA 02351"
-retailsale-302184,contact-phone,781-878-7662
-retailsale-302184,dispenses,fare-media
-retailsale-302184,enclosed,1
-retailsale-302184,payment-form-accepted,cash
-retailsale-302184,payment-form-accepted,credit-debit-card
-retailsale-302187,address,"134 Water St, Wakefield, MA 01880"
-retailsale-302187,contact-phone,781-245-0032
-retailsale-302187,dispenses,fare-media
-retailsale-302187,enclosed,1
-retailsale-302187,payment-form-accepted,cash
-retailsale-302187,payment-form-accepted,credit-debit-card
-retailsale-302188,address,"1585 Commonwealth Ave, Brighton, MA 02135"
-retailsale-302188,contact-phone,617-783-3455
-retailsale-302188,dispenses,fare-media
-retailsale-302188,enclosed,1
-retailsale-302188,payment-form-accepted,cash
-retailsale-302188,payment-form-accepted,credit-debit-card
-retailsale-302194,address,"100 Atlantic Ave, Woburn, MA 01801"
-retailsale-302194,contact-phone,781-721-0373
-retailsale-302194,dispenses,fare-media
-retailsale-302194,enclosed,1
-retailsale-302194,payment-form-accepted,cash
-retailsale-302194,payment-form-accepted,credit-debit-card
-retailsale-302195,address,"135 Washington St, Haverhill, MA 01832"
-retailsale-302195,contact-phone,978-373-2222
-retailsale-302195,dispenses,fare-media
-retailsale-302195,enclosed,1
-retailsale-302195,payment-form-accepted,cash
-retailsale-302195,payment-form-accepted,credit-debit-card
-retailsale-302199,address,"100 Gaspee St, Providence, RI 02903"
-retailsale-302199,contact-phone,401 273-3010
-retailsale-302199,dispenses,fare-media
-retailsale-302199,enclosed,1
-retailsale-302199,payment-form-accepted,cash
-retailsale-302199,payment-form-accepted,credit-debit-card
-retailsale-302200,address,"100 Main St, Fitchburg, MA 01420"
-retailsale-302200,contact-phone,978-343-3064
-retailsale-302200,dispenses,fare-media
-retailsale-302200,enclosed,1
-retailsale-302200,payment-form-accepted,cash
-retailsale-302200,payment-form-accepted,credit-debit-card
-retailsale-302210,address,"1266 Hyde Park Ave, Hyde Park, MA 02136"
-retailsale-302210,contact-phone,617-361-1175
-retailsale-302210,dispenses,fare-media
-retailsale-302210,enclosed,1
-retailsale-302210,payment-form-accepted,cash
-retailsale-302210,payment-form-accepted,credit-debit-card
-retailsale-302211,address,"4 Central Sq, Cambridge, MA 02139"
-retailsale-302211,contact-phone,617-498-0600
-retailsale-302211,dispenses,fare-media
-retailsale-302211,enclosed,1
-retailsale-302211,payment-form-accepted,cash
-retailsale-302211,payment-form-accepted,credit-debit-card
-retailsale-302217,address,"1 West Union St, Ashland, MA 01721"
-retailsale-302217,contact-phone,508-881-8211
-retailsale-302217,dispenses,fare-media
-retailsale-302217,enclosed,1
-retailsale-302217,payment-form-accepted,cash
-retailsale-302217,payment-form-accepted,credit-debit-card
-retailsale-302234,address,"211 Merrimack St, Lawrence, MA 01843"
-retailsale-302234,contact-phone,978-688-6868
-retailsale-302234,dispenses,fare-media
-retailsale-302234,enclosed,1
-retailsale-302234,payment-form-accepted,cash
-retailsale-302234,payment-form-accepted,credit-debit-card
-retailsale-303004,address,"370 Western Ave, Brighton, MA 02135"
-retailsale-303004,contact-phone,617-787-5266
-retailsale-303004,dispenses,fare-media
-retailsale-303004,enclosed,1
-retailsale-303004,payment-form-accepted,cash
-retailsale-303004,payment-form-accepted,credit-debit-card
-retailsale-303006,address,"20 Brook St, Quincy, MA 02170"
-retailsale-303006,contact-phone,617-770-4740
-retailsale-303006,dispenses,fare-media
-retailsale-303006,enclosed,1
-retailsale-303006,payment-form-accepted,cash
-retailsale-303006,payment-form-accepted,credit-debit-card
-retailsale-303008,address,"451 Columbia Rd, Dorchester, MA 02125"
-retailsale-303008,contact-phone,617-436-7262
-retailsale-303008,dispenses,fare-media
-retailsale-303008,enclosed,1
-retailsale-303008,payment-form-accepted,cash
-retailsale-303008,payment-form-accepted,credit-debit-card
-retailsale-303012,address,"131 Lexington St, Waltham, MA 02451"
-retailsale-303012,contact-phone,781-893-1333
-retailsale-303012,dispenses,fare-media
-retailsale-303012,enclosed,1
-retailsale-303012,payment-form-accepted,cash
-retailsale-303012,payment-form-accepted,credit-debit-card
-retailsale-303016,address,"535 Trapelo Rd, Belmont, MA 02478"
-retailsale-303016,contact-phone,617-489-6540
-retailsale-303016,dispenses,fare-media
-retailsale-303016,enclosed,1
-retailsale-303016,payment-form-accepted,cash
-retailsale-303016,payment-form-accepted,credit-debit-card
-retailsale-303017,address,"1305 Broadway, Somerville, MA 02144"
-retailsale-303017,contact-phone,508-737-7702
-retailsale-303017,dispenses,fare-media
-retailsale-303017,enclosed,1
-retailsale-303017,payment-form-accepted,cash
-retailsale-303017,payment-form-accepted,credit-debit-card
-retailsale-303019,address,"324 Revere Beach Pkwy, Chelsea, MA 02150"
-retailsale-303019,contact-phone,617-889-9853
-retailsale-303019,dispenses,fare-media
-retailsale-303019,enclosed,1
-retailsale-303019,payment-form-accepted,cash
-retailsale-303019,payment-form-accepted,credit-debit-card
-retailsale-303021,address,"82 River St, Mattapan, MA 02126"
-retailsale-303021,contact-phone,617-296-7032
-retailsale-303021,dispenses,fare-media
-retailsale-303021,enclosed,1
-retailsale-303021,payment-form-accepted,cash
-retailsale-303021,payment-form-accepted,credit-debit-card
-retailsale-303023,address,"359 Moody St, Waltham, MA 02453"
-retailsale-303023,contact-phone,781-373-2698
-retailsale-303023,dispenses,fare-media
-retailsale-303023,enclosed,1
-retailsale-303023,payment-form-accepted,cash
-retailsale-303023,payment-form-accepted,credit-debit-card
-retailsale-303025,address,"178 Chelsea St, Everett, MA 02149"
-retailsale-303025,contact-phone,781-475-9706
-retailsale-303025,dispenses,fare-media
-retailsale-303025,enclosed,1
-retailsale-303025,payment-form-accepted,cash
-retailsale-303025,payment-form-accepted,credit-debit-card
-retailsale-303026,address,"132 Pearl St, Chelsea, MA 02150"
-retailsale-303026,contact-phone,617-884-0215
-retailsale-303026,dispenses,fare-media
-retailsale-303026,enclosed,1
-retailsale-303026,payment-form-accepted,cash
-retailsale-303026,payment-form-accepted,credit-debit-card
-retailsale-303028,address,"11 Traders Way, Salem, MA 01970"
-retailsale-303028,contact-phone,978-741-8660
-retailsale-303028,dispenses,fare-media
-retailsale-303028,enclosed,1
-retailsale-303028,payment-form-accepted,cash
-retailsale-303028,payment-form-accepted,credit-debit-card
-retailsale-303031,address,"699 Main St, Waltham, MA 02451"
-retailsale-303031,contact-phone,781-472-2267
-retailsale-303031,dispenses,fare-media
-retailsale-303031,enclosed,1
-retailsale-303031,payment-form-accepted,cash
-retailsale-303031,payment-form-accepted,credit-debit-card
-retailsale-303032,address,"624 East Broadway, South Boston, MA 02127"
-retailsale-303032,contact-phone,857-496-0863
-retailsale-303032,dispenses,fare-media
-retailsale-303032,enclosed,1
-retailsale-303032,payment-form-accepted,cash
-retailsale-303032,payment-form-accepted,credit-debit-card
-retailsale-303037,address,"1227 Commonwealth Ave, Allston, MA 02134"
-retailsale-303037,contact-phone,617-782-0453
-retailsale-303037,dispenses,fare-media
-retailsale-303037,enclosed,1
-retailsale-303037,payment-form-accepted,cash
-retailsale-303037,payment-form-accepted,credit-debit-card
-retailsale-303038,address,"3116 Washington St, Roxbury, MA 02119"
-retailsale-303038,contact-phone,617-983-1666
-retailsale-303038,dispenses,fare-media
-retailsale-303038,enclosed,1
-retailsale-303038,payment-form-accepted,cash
-retailsale-303038,payment-form-accepted,credit-debit-card
-retailsale-303039,address,"44 Corinth St, Roslindale, MA 02131"
-retailsale-303039,contact-phone,617-469-9457
-retailsale-303039,dispenses,fare-media
-retailsale-303039,enclosed,1
-retailsale-303039,payment-form-accepted,cash
-retailsale-303039,payment-form-accepted,credit-debit-card
-retailsale-303040,address,"169 Harvard Ave, Allston, MA 02134"
-retailsale-303040,contact-phone,617-783-7180
-retailsale-303040,dispenses,fare-media
-retailsale-303040,enclosed,1
-retailsale-303040,payment-form-accepted,cash
-retailsale-303040,payment-form-accepted,credit-debit-card
-retailsale-303041,address,"115 Broadway St, Chelsea, MA 02150"
-retailsale-303041,contact-phone,617-884-3750
-retailsale-303041,dispenses,fare-media
-retailsale-303041,enclosed,1
-retailsale-303041,payment-form-accepted,cash
-retailsale-303041,payment-form-accepted,credit-debit-card
-retailsale-303043,address,"571 Broadway, Chelsea, MA 02150"
-retailsale-303043,contact-phone,617-409-9682
-retailsale-303043,dispenses,fare-media
-retailsale-303043,enclosed,1
-retailsale-303043,payment-form-accepted,cash
-retailsale-303043,payment-form-accepted,credit-debit-card
-retailsale-303044,address,"275 Beacon St, Somerville, MA 02143"
-retailsale-303044,contact-phone,617-354-7023
-retailsale-303044,dispenses,fare-media
-retailsale-303044,enclosed,1
-retailsale-303044,payment-form-accepted,cash
-retailsale-303044,payment-form-accepted,credit-debit-card
-retailsale-303047,address,"100 Cambridgeside Place, Cambridge, MA 02141"
-retailsale-303047,contact-phone,617-577-0201
-retailsale-303047,dispenses,fare-media
-retailsale-303047,enclosed,1
-retailsale-303047,payment-form-accepted,cash
-retailsale-303047,payment-form-accepted,credit-debit-card
+retailsale-302092,address,"100 Main Street, Fitchburg, MA 01420"
+retailsale-302092,contact-phone,978-343-3064
+retailsale-302092,dispenses,fare-media
+retailsale-302092,enclosed,1
+retailsale-302092,payment-form-accepted,cash
+retailsale-302092,payment-form-accepted,credit-debit-card
+retailsale-302093,address,"1266 Hyde Park Ave, Hyde Park, MA 02136"
+retailsale-302093,contact-phone,857-227-0200
+retailsale-302093,dispenses,fare-media
+retailsale-302093,enclosed,1
+retailsale-302093,payment-form-accepted,cash
+retailsale-302093,payment-form-accepted,credit-debit-card
+retailsale-302094,address,"4 Central Square, Cambridge, MA 02139"
+retailsale-302094,contact-phone,617-498-0600
+retailsale-302094,dispenses,fare-media
+retailsale-302094,enclosed,1
+retailsale-302094,payment-form-accepted,cash
+retailsale-302094,payment-form-accepted,credit-debit-card
+retailsale-302095,address,"1 West Union St., Ashland, MA 01721"
+retailsale-302095,contact-phone,508-881-8211
+retailsale-302095,dispenses,fare-media
+retailsale-302095,enclosed,1
+retailsale-302095,payment-form-accepted,cash
+retailsale-302095,payment-form-accepted,credit-debit-card
+retailsale-302096,address,"211 Merrimack St., Lawrence, MA 01843"
+retailsale-302096,contact-phone,978-688-6868
+retailsale-302096,dispenses,fare-media
+retailsale-302096,enclosed,1
+retailsale-302096,payment-form-accepted,cash
+retailsale-302096,payment-form-accepted,credit-debit-card
+retailsale-302097,address,"296 Washington St, Boston, MA 02108"
+retailsale-302097,dispenses,fare-media
+retailsale-302097,enclosed,1
+retailsale-302097,payment-form-accepted,cash
+retailsale-302097,payment-form-accepted,credit-debit-card
+retailsale-302098,address,"520 Cambridge St, Cambridge, MA 02141"
+retailsale-302098,contact-phone,617-492-0440
+retailsale-302098,dispenses,fare-media
+retailsale-302098,enclosed,1
+retailsale-302098,payment-form-accepted,cash
+retailsale-302098,payment-form-accepted,credit-debit-card
+retailsale-302099,address,"1622 Blue Hill Ave, Mattapan, MA 02126"
+retailsale-302099,contact-phone,347-866-0854
+retailsale-302099,dispenses,fare-media
+retailsale-302099,enclosed,1
+retailsale-302099,payment-form-accepted,cash
+retailsale-302099,payment-form-accepted,credit-debit-card
+retailsale-302100,address,"926 Morton St, Boston, MA 02126"
+retailsale-302100,contact-phone,617-514-3120
+retailsale-302100,dispenses,fare-media
+retailsale-302100,enclosed,1
+retailsale-302100,payment-form-accepted,cash
+retailsale-302100,payment-form-accepted,credit-debit-card
+retailsale-302101,address,"60 Rowes Wharf, Boston, MA 02110"
+retailsale-302101,contact-phone,857-300-3689
+retailsale-302101,dispenses,fare-media
+retailsale-302101,enclosed,1
+retailsale-302101,payment-form-accepted,cash
+retailsale-302101,payment-form-accepted,credit-debit-card
+retailsale-302102,address,"19 Stuart St, Boston, MA 02116"
+retailsale-302102,contact-phone,617-536-5301
+retailsale-302102,dispenses,fare-media
+retailsale-302102,enclosed,1
+retailsale-302102,payment-form-accepted,cash
+retailsale-302102,payment-form-accepted,credit-debit-card
+retailsale-302103,address,"18A Everett Ave, Chelsea, MA 02150"
+retailsale-302103,contact-phone,617-889-7209
+retailsale-302103,dispenses,fare-media
+retailsale-302103,enclosed,1
+retailsale-302103,payment-form-accepted,cash
+retailsale-302103,payment-form-accepted,credit-debit-card
+retailsale-302104,address,"402 Mystic Ave, Somerville, MA 02145"
+retailsale-302104,contact-phone,617-764-2250
+retailsale-302104,dispenses,fare-media
+retailsale-302104,enclosed,1
+retailsale-302104,payment-form-accepted,cash
+retailsale-302104,payment-form-accepted,credit-debit-card
+retailsale-302105,address,"873 Cambridge Street, Cambridge, MA 02141"
+retailsale-302105,contact-phone,617-714-5594
+retailsale-302105,dispenses,fare-media
+retailsale-302105,enclosed,1
+retailsale-302105,payment-form-accepted,cash
+retailsale-302105,payment-form-accepted,credit-debit-card
+retailsale-302106,address,"227 Broadway, Chelsea, MA 02150"
+retailsale-302106,contact-phone,617-887-9988
+retailsale-302106,dispenses,fare-media
+retailsale-302106,enclosed,1
+retailsale-302106,payment-form-accepted,cash
+retailsale-302106,payment-form-accepted,credit-debit-card
+retailsale-302107,address,"1283 River Street, Hyde Park, MA 02136"
+retailsale-302107,contact-phone,617-419-5220
+retailsale-302107,dispenses,fare-media
+retailsale-302107,enclosed,1
+retailsale-302107,payment-form-accepted,cash
+retailsale-302107,payment-form-accepted,credit-debit-card
+retailsale-302108,address,"1282 Blue Hill Ave STE E, Mattapan, MA 02126"
+retailsale-302108,contact-phone,617-298-2802
+retailsale-302108,dispenses,fare-media
+retailsale-302108,enclosed,1
+retailsale-302108,payment-form-accepted,cash
+retailsale-302108,payment-form-accepted,credit-debit-card
+retailsale-302109,address,"691 Broadway, Revere, MA 02151"
+retailsale-302109,contact-phone,781-284-0761
+retailsale-302109,dispenses,fare-media
+retailsale-302109,enclosed,1
+retailsale-302109,payment-form-accepted,cash
+retailsale-302109,payment-form-accepted,credit-debit-card
+retailsale-302110,address,"383C Washington Ave,, Chelsea, MA 02150"
+retailsale-302110,contact-phone,978-319-7019
+retailsale-302110,dispenses,fare-media
+retailsale-302110,enclosed,1
+retailsale-302110,payment-form-accepted,cash
+retailsale-302110,payment-form-accepted,credit-debit-card
+retailsale-302111,address,"1074 Main St, Waltham, MA 02451"
+retailsale-302111,contact-phone,978-319-7019
+retailsale-302111,dispenses,fare-media
+retailsale-302111,enclosed,1
+retailsale-302111,payment-form-accepted,cash
+retailsale-302111,payment-form-accepted,credit-debit-card
+retailsale-302112,address,"201 N Common St, Lynn, MA 01905"
+retailsale-302112,contact-phone,781-581-6014
+retailsale-302112,dispenses,fare-media
+retailsale-302112,enclosed,1
+retailsale-302112,payment-form-accepted,cash
+retailsale-302112,payment-form-accepted,credit-debit-card
 subplat-DB-0095-2,excludes-stop,FB-0095-04
 subplat-DB-0095-2,excludes-stop,FB-0095-05
 subplat-DB-0095-2,excludes-stop,NEC-2192-03
