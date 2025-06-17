@@ -24,9 +24,7 @@ def generate_timetable(gtfs_path: str, route_ids: list, output_path: str):
         merged = trip_stop_times.merge(stops[["stop_id", "stop_name"]], on="stop_id")
 
         first_time = datetime.strptime(merged.iloc[0]["arrival_time"], "%H:%M:%S")
-        merged["offset"] = merged["arrival_time"].apply(
-            lambda t: str(datetime.strptime(t, "%H:%M:%S") - first_time)
-        )
+        merged["offset"] = merged["arrival_time"].apply(lambda t: str(datetime.strptime(t, "%H:%M:%S") - first_time))
 
         # Clean name for variable (e.g., green_b_timetable)
         var_name = f"{route_id.lower().replace('-', '_')}_timetable"

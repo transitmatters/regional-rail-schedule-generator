@@ -169,6 +169,6 @@ newbedford = Route(
             timetable=timetable,
             stations=(stations_oc_shared + stations_middleborough + stations_fall_river),
             schedule=all_day_30,
-        )
+        ),
     ],
 )

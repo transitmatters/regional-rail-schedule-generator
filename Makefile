@@ -10,6 +10,9 @@ lint:
 select-gtfs:
 	poetry run python -m network.mbta_gtfs --date=$(date)
 
+update-gtfs:
+	poetry run python -m network.update_gtfs
+
 existing-network:
 	rm -f data/network.pickle
 	poetry run python -m network.relevant_stop_times
@@ -26,6 +29,7 @@ generate-timetable:
 
 build:
 	make select-gtfs date=$(date)
+	make update-gtfs
 	make existing-network
 	make regional-rail
 	make expansion

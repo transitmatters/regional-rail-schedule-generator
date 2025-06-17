@@ -6,3 +6,4 @@ __pycache__
 data/*.pickle
 *.pyc
 .DS_Store
+*.bak
