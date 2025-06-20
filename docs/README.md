@@ -96,6 +96,45 @@ archive_scenario_gtfs("gtfs-present")
 archive_scenario_gtfs("gtfs-regional-rail")
 ```
 
+## Scripts
+
+### `generate/csv_to_scenario.py`
+
+This script converts a CSV file containing station and cumulative travel time information into a Python scenario file. The generated Python file defines a transit route (including `Route`, `RoutePattern`, and `Timetable` objects) based on the CSV data. This allows for quick generation of scenario files from spreadsheet-based service plans.
+
+**Usage:**
+
+```bash
+python generate/csv_to_scenario.py --input-csv <path_to_csv> --output-py <path_to_output_py> --route-variable-name <route_var_name> --route-id <route_id> --route-name "<Route Name>" --pattern-id <pattern_id> --pattern-name "<Pattern Name>" [optional arguments...]
+```
+
+**Required Arguments:**
+
+* `--input-csv`: Path to the input CSV file.
+* `--output-py`: Path for the generated Python scenario file.
+* `--route-variable-name`: Python variable name for the `Route` object (e.g., `blue_line`).
+* `--route-id`: ID for the `Route` object (e.g., `Blue`).
+* `--route-name`: Descriptive name for the `Route` (e.g., "Blue Line").
+* `--pattern-id`: ID for the `RoutePattern` object (e.g., `blue-main`).
+* `--pattern-name`: Descriptive name for the `RoutePattern` (e.g., "Blue Line Main Pattern").
+
+**Optional Arguments (with defaults):**
+
+* `--shadows-real-route`: ID of an existing real route this scenario is based on (default: `None`).
+* `--peak-headway`: Headway in minutes during peak hours (default: `5`).
+* `--offpeak-headway`: Headway in minutes during off-peak hours (default: `7`).
+* `--csv-skip-rows`: Number of header rows to skip in the CSV (default: `8`).
+* `--csv-station-col`: 0-indexed column number for station names in the CSV (default: `1`).
+* `--csv-time-col`: 0-indexed column number for cumulative travel times (H:MM:SS or M:SS format) in the CSV (default: `5`).
+
+Refer to the script's help message (`python generate/csv_to_scenario.py --help`) for the most up-to-date details on arguments.
+
+#### Example command
+
+```bash
+python generate/csv_to_scenario.py --input-csv "input/2025-05-26/Expansion Explorer Travel Time Estimator Spreadsheet - Full Blue Line.csv" --output-py "scenarios/expansion/blue.py" --route-variable-name "blue"  --shadows-real-route "Blue" --route-id "Blue" --route-name "Blue Line (Charles/MGH + Lynn)" --pattern-id "blue" --pattern-name "Blue" 
+```
+
 ## Dev Setup
 
 Dev setup is fairly simple.
