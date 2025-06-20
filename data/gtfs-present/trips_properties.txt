@@ -1339,6 +1339,152 @@ NorthJune2WKDY-739879-429,note,Waits at Littleton/Route 495 for Train 1427
 NorthJune2WKDY-739879-429,trip_type,wait
 NorthJune2WKDY-739804-1408,note,Waits at Littleton/Route 495 for Train 406
 NorthJune2WKDY-739804-1408,trip_type,wait
+BaseTracksUpdated-739234-908,note,Waits at Readville for Train 1708
+BaseTracksUpdated-739234-908,trip_type,wait
+BaseTracksUpdated-739216-856,note,Waits at Readville for Train 1756
+BaseTracksUpdated-739216-856,trip_type,wait
+BaseTracksUpdated-739223-874,note,Waits at Readville for Train 776
+BaseTracksUpdated-739223-874,trip_type,wait
+BaseTracksUpdated-739498-984,note,Waits at Readville for Train 784
+BaseTracksUpdated-739498-984,trip_type,wait
+BaseTracksUpdated-739230-892,note,Waits at Readville for Train 792
+BaseTracksUpdated-739230-892,trip_type,wait
+BaseTracksUpdated-739103-2002,note,Waits at Braintree for Train 1002
+BaseTracksUpdated-739103-2002,trip_type,wait
+BaseTracksUpdated-738972-1047,note,Waits at Braintree for Train 2047
+BaseTracksUpdated-738972-1047,trip_type,wait
+BaseTracksUpdated-739120-2055,note,Waits at East Taunton for Train 1905
+BaseTracksUpdated-739120-2055,trip_type,wait
+BaseTracksUpdated-739121-2059,note,Waits at East Taunton for Train 1909
+BaseTracksUpdated-739121-2059,trip_type,wait
+BaseTracksUpdated-739124-2065,note,Waits at East Taunton for Train 1915
+BaseTracksUpdated-739124-2065,trip_type,wait
+BaseTracksUpdated-739125-2067,note,Waits at East Taunton for Train 1917
+BaseTracksUpdated-739125-2067,trip_type,wait
+BaseTracksUpdated-739122-2061,note,Waits at East Taunton for Train 1911
+BaseTracksUpdated-739122-2061,trip_type,wait
+BaseTracksUpdated-739127-2075,note,Waits at East Taunton for Train 1925
+BaseTracksUpdated-739127-2075,trip_type,wait
+BaseTracksUpdated-739129-2089,note,Waits at East Taunton for Train 1939
+BaseTracksUpdated-739129-2089,trip_type,wait
+BaseTracksUpdated-739131-2095,note,Waits at East Taunton for Train 1945
+BaseTracksUpdated-739131-2095,trip_type,wait
+BaseTracksUpdated-739091-1971,note,Waits at East Taunton for Train 2021
+BaseTracksUpdated-739091-1971,trip_type,wait
+BaseTracksUpdated-739096-1983,note,Waits at East Taunton for Train 2033
+BaseTracksUpdated-739096-1983,trip_type,wait
+BaseTracksUpdated-739098-1987,note,Waits at East Taunton for Train 2037
+BaseTracksUpdated-739098-1987,trip_type,wait
+BaseTracksUpdated-739100-1991,note,Waits at East Taunton for Train 2041
+BaseTracksUpdated-739100-1991,trip_type,wait
+BaseTracksUpdated-739102-1997,note,Waits at East Taunton for Train 2047
+BaseTracksUpdated-739102-1997,trip_type,wait
+BaseTracksUpdated-739126-2069,note,Waits at East Taunton for Train 1919
+BaseTracksUpdated-739126-2069,trip_type,wait
+BaseTracksUpdated-739104-2010,note,Waits at East Taunton for Train 1960
+BaseTracksUpdated-739104-2010,trip_type,wait
+BaseTracksUpdated-739105-2016,note,Waits at East Taunton for Train 1966
+BaseTracksUpdated-739105-2016,trip_type,wait
+BaseTracksUpdated-739107-2022,note,Waits at East Taunton for Train 1972
+BaseTracksUpdated-739107-2022,trip_type,wait
+BaseTracksUpdated-739108-2024,note,Waits at East Taunton for Train 1974
+BaseTracksUpdated-739108-2024,trip_type,wait
+BaseTracksUpdated-739110-2028,note,Waits at East Taunton for Train 1978
+BaseTracksUpdated-739110-2028,trip_type,wait
+BaseTracksUpdated-739112-2030,note,Waits at East Taunton for Train 1980
+BaseTracksUpdated-739112-2030,trip_type,wait
+BaseTracksUpdated-739109-2026,note,Waits at East Taunton for Train 1976
+BaseTracksUpdated-739109-2026,trip_type,wait
+BaseTracksUpdated-739116-2038,note,Waits at East Taunton for Train 1988
+BaseTracksUpdated-739116-2038,trip_type,wait
+BaseTracksUpdated-739118-2044,note,Waits at East Taunton for Train 1994
+BaseTracksUpdated-739118-2044,trip_type,wait
+BaseTracksUpdated-739078-1912,note,Waits at East Taunton for Train 2062
+BaseTracksUpdated-739078-1912,trip_type,wait
+BaseTracksUpdated-739085-1936,note,Waits at East Taunton for Train 2086
+BaseTracksUpdated-739085-1936,trip_type,wait
+BaseTracksUpdated-739087-1942,note,Waits at East Taunton for Train 2092
+BaseTracksUpdated-739087-1942,trip_type,wait
+BaseTracksUpdated-739114-2034,note,Waits at East Taunton for Train 1984
+BaseTracksUpdated-739114-2034,trip_type,wait
+BaseTracksUpdated-739071-1775,note,Waits at Readville for Train 875
+BaseTracksUpdated-739071-1775,trip_type,wait
+BaseTracksUpdated-739073-1785,note,Waits at Readville for Train 885
+BaseTracksUpdated-739073-1785,trip_type,wait
+BaseTracksUpdated-739189-793,note,Waits at Readville for Train 893
+BaseTracksUpdated-739189-793,trip_type,wait
+BaseTracksUpdated-739164-689,note,Waits at Forest Hills for Train 889
+BaseTracksUpdated-739164-689,trip_type,wait
+BaseTracksUpdated-739165-693,note,Waits at Forest Hills for Train 893
+BaseTracksUpdated-739165-693,trip_type,wait
+BaseTracksUpdated-739300-565,note,Waits at West Natick for Train 1561
+BaseTracksUpdated-739300-565,trip_type,wait
+BaseTracksUpdated-739298-571,note,Waits at West Natick for Train 1567
+BaseTracksUpdated-739298-571,trip_type,wait
+BaseTracksUpdated-739302-559,note,Waits at West Natick for Train 1555
+BaseTracksUpdated-739302-559,trip_type,wait
+BaseTracksUpdated-739304-553,note,Waits at West Natick for Train 1551
+BaseTracksUpdated-739304-553,trip_type,wait
+BaseTracksUpdated-739284-1522,note,Waits at West Natick for Train 518
+BaseTracksUpdated-739284-1522,trip_type,wait
+BaseTracksUpdated-739286-1516,note,Waits at West Natick for Train 514
+BaseTracksUpdated-739286-1516,trip_type,wait
+BaseTracksUpdated-739287-1512,note,Waits at West Natick for Train 510
+BaseTracksUpdated-739287-1512,trip_type,wait
+BaseTracksUpdated-739319-519,note,Waits at Framingham for Train 1517
+BaseTracksUpdated-739319-519,trip_type,wait
+BaseTracksUpdated-739496-515,note,Waits at Framingham for Train 1511
+BaseTracksUpdated-739496-515,trip_type,wait
+BaseTracksUpdated-739280-1562,note,Waits at Framingham for Train 560
+BaseTracksUpdated-739280-1562,trip_type,wait
+BaseTracksUpdated-739281-1558,note,Waits at Framingham for Train 556
+BaseTracksUpdated-739281-1558,trip_type,wait
+BaseTracksUpdated-739284-1522,note,Waits at Framingham for Train 520
+BaseTracksUpdated-739284-1522,trip_type,wait
+SouthJune2WKNDNewSigns-739508-5806,note,Waits at Readville for Train 5706
+SouthJune2WKNDNewSigns-739508-5806,trip_type,wait
+SouthJune2WKNDNewSigns-739523-5878,note,Waits at Readville for Train 5778
+SouthJune2WKNDNewSigns-739523-5878,trip_type,wait
+SouthJune2WKNDNewSigns-739524-5884,note,Waits at Readville for Train 5784
+SouthJune2WKNDNewSigns-739524-5884,trip_type,wait
+SouthJune2WKNDNewSigns-739526-5892,note,Waits at Readville for Train 5792
+SouthJune2WKNDNewSigns-739526-5892,trip_type,wait
+SouthJune2WKNDNewSigns-739511-5824,note,Waits at Readville for Train 5724
+SouthJune2WKNDNewSigns-739511-5824,trip_type,wait
+SouthJune2WKNDNewSigns-739512-5830,note,Waits at Readville for Train 5730
+SouthJune2WKNDNewSigns-739512-5830,trip_type,wait
+SouthJune2WKNDNewSigns-739514-5838,note,Waits at Readville for Train 5738
+SouthJune2WKNDNewSigns-739514-5838,trip_type,wait
+SouthJune2WKNDNewSigns-739516-5846,note,Waits at Readville for Train 5746
+SouthJune2WKNDNewSigns-739516-5846,trip_type,wait
+SouthJune2WKNDNewSigns-739519-5856,note,Waits at Readville for Train 5754
+SouthJune2WKNDNewSigns-739519-5856,trip_type,wait
+SouthJune2WKNDNewSigns-739521-5868,note,Waits at Readville for Train 5768
+SouthJune2WKNDNewSigns-739521-5868,trip_type,wait
+SouthJune2WKNDNewSigns-739545-6047,note,Waits at Braintree for Train 7047
+SouthJune2WKNDNewSigns-739545-6047,trip_type,wait
+SouthJune2WKNDNewSigns-739606-6979,note,Waits at East Taunton for Train 7029
+SouthJune2WKNDNewSigns-739606-6979,trip_type,wait
+SouthJune2WKNDNewSigns-740339-5715,note,Waits at Readville for Train 5815
+SouthJune2WKNDNewSigns-740339-5715,trip_type,wait
+SouthJune2WKNDNewSigns-740355-5785,note,Waits at Readville for Train 5885
+SouthJune2WKNDNewSigns-740355-5785,trip_type,wait
+SouthJune2WKNDNewSigns-740357-5793,note,Waits at Readville for Train 5893
+SouthJune2WKNDNewSigns-740357-5793,trip_type,wait
+SouthJune2WKNDNewSigns-740340-5721,note,Waits at Readville for Train 5821
+SouthJune2WKNDNewSigns-740340-5721,trip_type,wait
+SouthJune2WKNDNewSigns-740343-5731,note,Waits at Readville for Train 5831
+SouthJune2WKNDNewSigns-740343-5731,trip_type,wait
+SouthJune2WKNDNewSigns-740345-5739,note,Waits at Readville for Train 5839
+SouthJune2WKNDNewSigns-740345-5739,trip_type,wait
+SouthJune2WKNDNewSigns-740347-5747,note,Waits at Readville for Train 5847
+SouthJune2WKNDNewSigns-740347-5747,trip_type,wait
+SouthJune2WKNDNewSigns-740349-5755,note,Waits at Readville for Train 5855
+SouthJune2WKNDNewSigns-740349-5755,trip_type,wait
+SouthJune2WKNDNewSigns-740350-5767,note,Waits at Readville for Train 5867
+SouthJune2WKNDNewSigns-740350-5767,trip_type,wait
+SouthJune2WKNDNewSigns-740352-5777,note,Waits at Readville for Train 5877
+SouthJune2WKNDNewSigns-740352-5777,trip_type,wait
 OLSignsWKDY-739234-908,note,Waits at Readville for Train 1708
 OLSignsWKDY-739234-908,trip_type,wait
 OLSignsWKDY-739216-856,note,Waits at Readville for Train 1756

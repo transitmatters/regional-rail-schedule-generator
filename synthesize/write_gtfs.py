@@ -99,6 +99,9 @@ class GtfsWriter(object):
         )
 
     def add_stop_time(self, stop_time: StopTime):
+        # Skip shuttle trips
+        if stop_time.trip.route_id.startswith('Shuttle-'):
+            return
         time = stringify_timedelta(stop_time.time)
         self.stop_time_rows.append(
             {
@@ -116,6 +119,9 @@ class GtfsWriter(object):
         )
 
     def add_trip(self, trip: Trip):
+        # Skip shuttle trips
+        if trip.route_id.startswith('Shuttle-'):
+            return
         self.trip_rows.append(
             {
                 "route_id": trip.route_id,
@@ -267,6 +273,9 @@ def add_stops(scenario: Scenario, writer: GtfsWriter, station_id: str):
 
 
 def add_trip(trip: Trip, writer: GtfsWriter):
+    # Skip shuttle trips
+    if trip.route_id.startswith('Shuttle-'):
+        return
     writer.add_trip(trip)
     for stop_time in trip.stop_times:
         writer.add_stop_time(stop_time)

@@ -32,14 +32,18 @@ def update_stops_file(file_path: str) -> None:
 
 
 def update_stop_times_file(file_path: str) -> None:
-    """Update stop_times.txt to use non-interim stop IDs."""
+    """Update stop_times.txt to use non-interim stop IDs and remove shuttle trips."""
     # Read all stop times
     stop_times = []
     with open(file_path, "r") as f:
         reader = csv.reader(f)
         header = next(reader)
+        trip_id_index = header.index("trip_id")
         for row in reader:
-            if len(row) >= 2:  # Ensure row has enough fields
+            if len(row) >= trip_id_index + 1:
+                # Skip shuttle trips
+                if row[trip_id_index].startswith('Shuttle-'):
+                    continue
                 stop_id_index = header.index("stop_id")
                 mapped_id = map_interim_to_non_interim(row[stop_id_index])
                 if mapped_id != row[stop_id_index]:
@@ -88,6 +92,31 @@ def update_transfers_file(file_path: str) -> None:
     print(f"Updated transfers file: {file_path}")
 
 
+def update_trips_file(file_path: str) -> None:
+    """Update trips.txt to remove any rows with route_id containing 'Shuttle-'."""
+    # Read all trips
+    trips = []
+    with open(file_path, "r") as f:
+        reader = csv.reader(f)
+        header = next(reader)
+        route_id_index = header.index("route_id")
+        for row in reader:
+            if len(row) >= route_id_index + 1:
+                route_id = row[route_id_index]
+                # Skip rows where route_id contains 'Shuttle-'
+                if route_id.startswith('Shuttle-'):
+                    continue
+                trips.append(row)
+
+    # Write updated trips back to file
+    with open(file_path, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(header)
+        writer.writerows(trips)
+
+    print(f"Updated trips file: {file_path}")
+
+
 def update_gtfs_files():
     """Update all relevant GTFS files to map interim stops to non-interim versions."""
     print("Updating GTFS files...")
@@ -104,6 +133,12 @@ def update_gtfs_files():
     if stop_times_file.exists():
         print("Updating stop_times.txt...")
         update_stop_times_file(str(stop_times_file))
+
+    # Update trips.txt
+    trips_file = gtfs_dir / "trips.txt"
+    if trips_file.exists():
+        print("Updating trips.txt...")
+        update_trips_file(str(trips_file))
 
     # Update transfers.txt if it exists
     transfers_file = gtfs_dir / "transfers.txt"
