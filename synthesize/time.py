@@ -85,5 +85,6 @@ def peak_offpeak_frequencies(peak_headway, off_peak_headway):
     }
 
 
+all_day_5 = all_day_frequencies(5)
 all_day_15 = all_day_frequencies(15)
 all_day_30 = all_day_frequencies(30)

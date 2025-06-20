@@ -15,7 +15,6 @@ line-Greenbush,,Greenbush Line,,,80276C,FFFFFF,20006
 line-Haverhill,,Haverhill Line,,,80276C,FFFFFF,20007
 line-Kingston,,Kingston Line,,,80276C,FFFFFF,20008
 line-Lowell,,Lowell Line,,,80276C,FFFFFF,20009
-line-Middleborough,,Middleborough/Lakeville Line,,,80276C,FFFFFF,20010
 line-Needham,,Needham Line,,,80276C,FFFFFF,20011
 line-Newburyport,,Newburyport/Rockport Line,,,80276C,FFFFFF,20012
 line-Providence,,Providence/Stoughton Line,,,80276C,FFFFFF,20013
@@ -27,6 +26,7 @@ line-Boat-EastBoston,,East Boston Ferry,,,008EAA,FFFFFF,30005
 line-Boat-Lynn,,Lynn Ferry,,,008EAA,FFFFFF,30007
 line-Boat-F6,,Winthrop Ferry,,,008EAA,FFFFFF,30008
 line-Boat-F7,,Quincy Ferry,,,008EAA,FFFFFF,30009
+line-Boat-F8,,Winthrop/Quincy Ferry,,,008EAA,FFFFFF,30010
 line-1,1,Harvard - Nubian via Massachusetts Avenue,,,FFC72C,000000,40010
 line-747,CT2,Sullivan - Ruggles,,,FFC72C,000000,40020
 line-171708,CT3/171,"Beth Israel Deaconess, Boston Medical Center, or Nubian - Andrew or Logan Airport",,,FFC72C,000000,40030

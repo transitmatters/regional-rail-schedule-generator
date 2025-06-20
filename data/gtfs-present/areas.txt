@@ -17,6 +17,8 @@ area_commuter_rail_zone_7,Commuter Rail Zone 7
 area_commuter_rail_zone_8,Commuter Rail Zone 8
 area_commuter_rail_zone_9,Commuter Rail Zone 9
 area_fairmount_line_zone_1a,Commuter Rail Zone 1A - Fairmount Line
+area_ferry_f1_georges_island,Ferry - Georges Island
+area_ferry_f1_hingham_hull,Ferry - Hingham/Hull
 area_gl_govt_ctr,Green Line - Government Center
 area_green_b_west_of_kenmore,Green Line B - West of Kenmore
 area_green_c_west_of_kenmore,Green Line C - West of Kenmore
