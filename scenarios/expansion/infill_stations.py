@@ -245,3 +245,10 @@ station_ramsay_park = Station(
     location=(0, 0),
     municipality="Boston",
 )
+
+station_millennium_park = Station(
+    name="Millennium Park",
+    id="place-millennium-park",
+    location=(0, 0),
+    municipality="Boston",
+)

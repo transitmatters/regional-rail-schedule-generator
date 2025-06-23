@@ -1,5 +1,8 @@
 from synthesize.definitions import Route, RoutePattern
 from synthesize.time import Timetable, peak_offpeak_frequencies
+from scenarios.expansion.infill_stations import (
+    station_millennium_park,
+)
 
 timetable = Timetable(
     {
@@ -23,6 +26,13 @@ timetable = Timetable(
         "Stony Brook": "0:31",
         "Green Street": "0:32",
         "Forest Hills": "0:34",
+        "Roslindale Village": "0:38",
+        "Bellevue": "0:41",
+        "Highland": "0:42",
+        "West Roxbury": "0:43",
+        "Millennium Park": "0:47",
+        "Hersey": "0:51",
+        "Needham Junction": "0:53",
     }
 )
 
@@ -47,6 +57,13 @@ stations = (
     "Stony Brook",
     "Green Street",
     "Forest Hills",
+    "Roslindale Village",
+    "Bellevue",
+    "Highland",
+    "West Roxbury",
+    station_millennium_park,
+    "Hersey",
+    "Needham Junction"
 )
 
 orange = Route(
