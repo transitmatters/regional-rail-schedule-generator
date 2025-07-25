@@ -291,6 +291,8 @@ def write_scenario_gtfs(scenario: Scenario, directory_path: str):
     for station_id in all_station_ids:
         add_stops(scenario, writer, station_id)
     for route_id, route in scenario.real_network.routes_by_id.items():
+        print("A ROUTE ID!")
+        print(route_id)
         if route_id not in all_shadowed_route_ids:
             writer.add_route(route)
     for route in scenario.network.routes_by_id.values():

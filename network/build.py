@@ -213,6 +213,29 @@ def build_network_from_gtfs():
         for child_stop in link_child_stops(station, stop_dicts):
             all_stops.append(child_stop)
             link_stop_times(child_stop, stop_time_dicts, trips_by_id)
+    
+    # Add standalone stops (e.g., bus stops not attached to a station)
+    existing_stop_ids = {stop.id for stop in all_stops}
+    for stop_dict in stop_dicts:
+        if stop_dict["location_type"] == LocationType.STOP and stop_dict["stop_id"] not in existing_stop_ids:
+            # Create a dummy parent station for standalone stops
+            dummy_station = Station(
+                id=stop_dict["stop_id"],
+                name=stop_dict["stop_name"],
+                municipality=stop_dict["municipality"],
+                location=(float(stop_dict["stop_lat"]), float(stop_dict["stop_lon"])),
+                wheelchair_boarding=stop_dict["wheelchair_boarding"],
+                on_street=stop_dict["on_street"],
+                at_street=stop_dict["at_street"],
+                vehicle_type=stop_dict["vehicle_type"],
+                zone_id=stop_dict["zone_id"],
+                level_id=stop_dict["level_id"],
+                location_type=LocationType.STATION,
+            )
+            stop = Stop(parent_station=dummy_station, **get_station_stop_args_from_dict(stop_dict))
+            all_stops.append(stop)
+            link_stop_times(stop, stop_time_dicts, trips_by_id)
+            stations.append(dummy_station)
     for station in stations:
         for stop in station.child_stops:
             link_transfers(stop, all_stops, transfer_dicts)
