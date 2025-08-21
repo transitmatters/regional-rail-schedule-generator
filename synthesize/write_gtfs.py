@@ -102,6 +102,8 @@ class GtfsWriter(object):
         # Skip shuttle trips
         if stop_time.trip.route_id.startswith('Shuttle-'):
             return
+        # if stop_time.trip.route_id == '1':
+        #     print("made it into here for route id 1")
         time = stringify_timedelta(stop_time.time)
         self.stop_time_rows.append(
             {
@@ -172,6 +174,7 @@ class GtfsWriter(object):
 
     def write_rows_to_csv(self, file_name, rows):
         full_file_path = os.path.join(self.directory_path, file_name + ".txt")
+        print(f"writing to {full_file_path}")
         with open(full_file_path, "w") as file:
             dict_writer = csv.DictWriter(file, fieldnames=rows[0].keys())
             dict_writer.writeheader()
@@ -184,6 +187,8 @@ class GtfsWriter(object):
         os.mkdir(self.directory_path)
         self.write_rows_to_csv("calendar", self.calendar_rows)
         self.write_rows_to_csv("stops", self.stop_rows)
+        print("writing stop times!!")
+        print(len(self.stop_time_rows))
         self.write_rows_to_csv("stop_times", self.stop_time_rows)
         self.write_rows_to_csv("relevant_stop_times", self.stop_time_rows)
         self.write_rows_to_csv("transfers", self.transfer_rows)
@@ -277,8 +282,40 @@ def add_trip(trip: Trip, writer: GtfsWriter):
     if trip.route_id.startswith('Shuttle-'):
         return
     writer.add_trip(trip)
+    # if trip.route_id == '1':
+    #     print("made it into here for route id 1")
+    #     print(trip.stop_times)
     for stop_time in trip.stop_times:
         writer.add_stop_time(stop_time)
+
+
+def add_standalone_stops(scenario: Scenario, writer: GtfsWriter):
+    """Add standalone stops (like bus stops) that aren't part of any station hierarchy."""
+    # Get all stop IDs that are referenced by stop_times in the real network
+    referenced_stop_ids = set()
+    for trip in scenario.real_network.trips_by_id.values():
+        for stop_time in trip.stop_times:
+            referenced_stop_ids.add(stop_time.stop.id)
+    
+    # Get all stop IDs that are already written as part of stations
+    written_stop_ids = set()
+    for station_id in get_all_station_ids(scenario):
+        real_station = scenario.real_network.stations_by_id.get(station_id)
+        if real_station:
+            for child_stop in real_station.child_stops:
+                written_stop_ids.add(child_stop.id)
+    
+    # Write standalone stops that are referenced but not yet written
+    for stop_id in referenced_stop_ids:
+        if stop_id not in written_stop_ids:
+            # Find the stop in the real network
+            for station in scenario.real_network.stations_by_id.values():
+                for child_stop in station.child_stops:
+                    if child_stop.id == stop_id:
+                        writer.add_stop(child_stop)
+                        for transfer in child_stop.transfers:
+                            writer.add_transfer(transfer)
+                        break
 
 
 def write_scenario_gtfs(scenario: Scenario, directory_path: str):
@@ -290,15 +327,22 @@ def write_scenario_gtfs(scenario: Scenario, directory_path: str):
     all_station_ids = get_all_station_ids(scenario)
     for station_id in all_station_ids:
         add_stops(scenario, writer, station_id)
+    
+    # Add standalone stops that aren't part of any station hierarchy
+    add_standalone_stops(scenario, writer)
     for route_id, route in scenario.real_network.routes_by_id.items():
-        print("A ROUTE ID!")
-        print(route_id)
         if route_id not in all_shadowed_route_ids:
+            # if route_id == '1':
+            #     print("A ROUTE ID!")
+            #     print(route_id)
             writer.add_route(route)
     for route in scenario.network.routes_by_id.values():
         writer.add_route(route)
     for trip in scenario.real_network.trips_by_id.values():
         if trip.route_id not in all_shadowed_route_ids:
+            # if trip.route_id == '1':
+            #     print("A ROUTE ID!")
+            #     print(trip.route_id)
             add_trip(trip, writer)
     for trip in scenario.network.trips_by_id.values():
         add_trip(trip, writer)

@@ -217,10 +217,12 @@ def build_network_from_gtfs():
     # Add standalone stops (e.g., bus stops not attached to a station)
     existing_stop_ids = {stop.id for stop in all_stops}
     for stop_dict in stop_dicts:
-        if stop_dict["location_type"] == LocationType.STOP and stop_dict["stop_id"] not in existing_stop_ids:
-            # Create a dummy parent station for standalone stops
-            dummy_station = Station(
-                id=stop_dict["stop_id"],
+        # Check if this is a standalone stop (no parent station or empty parent station)
+        has_parent = stop_dict.get("parent_station") and stop_dict["parent_station"].strip()
+        if stop_dict["location_type"] == LocationType.STOP and not has_parent and stop_dict["stop_id"] not in existing_stop_ids:
+            # Create a minimal parent station (required by Stop class) but don't add to stations list
+            minimal_parent = Station(
+                id=stop_dict["stop_id"] + "-parent",
                 name=stop_dict["stop_name"],
                 municipality=stop_dict["municipality"],
                 location=(float(stop_dict["stop_lat"]), float(stop_dict["stop_lon"])),
@@ -232,10 +234,13 @@ def build_network_from_gtfs():
                 level_id=stop_dict["level_id"],
                 location_type=LocationType.STATION,
             )
-            stop = Stop(parent_station=dummy_station, **get_station_stop_args_from_dict(stop_dict))
+            # Create the standalone stop with minimal parent
+            stop = Stop(parent_station=minimal_parent, **get_station_stop_args_from_dict(stop_dict))
             all_stops.append(stop)
             link_stop_times(stop, stop_time_dicts, trips_by_id)
-            stations.append(dummy_station)
+            # Add minimal_parent to stations list so it gets included in stations_by_id
+            minimal_parent.add_child_stop(stop)
+            stations.append(minimal_parent)
     for station in stations:
         for stop in station.child_stops:
             link_transfers(stop, all_stops, transfer_dicts)
