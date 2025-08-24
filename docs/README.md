@@ -15,12 +15,70 @@ This will update all files under `data/` for GTFS both present and for each scen
 
 In order to add a completely new stop, you'll need to define an Infill Station.
 
-In each scenario, there should be an `infill_stations.py` file. This file will be where you define new stops that don't currently exist in the network. An example:
+In each scenario, there should be an `infill_stations.py` file. This file will be where you define new stops that don't currently exist in the network. 
+
+#### Using InfillStation (Recommended)
+
+The easiest way to create new infill stations is using the `InfillStation` class, which automatically generates consistent IDs based on the route type:
 
 ```python
+from synthesize.definitions import InfillStation
+
+# Regional Rail station (default route type)
+station_revere_center = InfillStation(
+    name="Revere Center",
+    id="",  # Auto-generated: place-rr-revere-center
+    location=(42.4154533, -70.9922548),
+    municipality="Revere",
+    route_type="regional_rail"  # Optional, this is the default
+)
+
+# Green Line Extension station
+station_needham_heights = InfillStation(
+    name="Needham Heights",
+    id="",  # Auto-generated: place-glx-union-square-west
+    location=(42.2936, -71.2364),
+    municipality="Needham",
+    route_type="green_line_extension"
+)
+
+# Blue Line Extension station
+station_lynn_central = InfillStation(
+    name="Lynn Central",
+    id="",  # Auto-generated: place-blx-lynn-central
+    location=(42.4668, -70.9495),
+    municipality="Lynn",
+    route_type="blue_line_extension"
+)
+
+# Red Line Extension station
+station_arlington = InfillStation(
+    name="Arlington Heights",
+    id="",  # Auto-generated: place-rlx-arlington-heights
+    location=(42.4154, -71.1564),
+    municipality="Arlington",
+    route_type="red_line_extension"
+)
+```
+
+**Supported route types:**
+- `regional_rail`: Regional Rail (generates `place-rr-` prefix) - default
+- `green_line_extension`: Green Line Extension (generates `place-glx-` prefix)
+- `blue_line_extension`: Blue Line extensions (generates `place-blx-` prefix)
+- `orange_line_extension`: Orange Line extensions (generates `place-olx-` prefix)
+- `red_line_extension`: Red Line extensions (generates `place-rlx-` prefix)
+- `silver_line_extension`: Silver Line extensions (generates `place-slx-` prefix)
+
+#### Using Station (Legacy)
+
+You can still manually create stations if you need custom IDs:
+
+```python
+from synthesize.definitions import Station
+
 station_revere_center = Station(
     name="Revere Center",
-    id="place-rr-revere-center",
+    id="place-rr-revere-center",  # Manually specified
     location=(42.4154533, -70.9922548),
     municipality="Revere",
 )
