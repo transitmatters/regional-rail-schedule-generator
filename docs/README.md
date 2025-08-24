@@ -46,7 +46,7 @@ station_needham_heights = InfillStation(
 station_lynn_central = InfillStation(
     name="Lynn Central",
     id="",  # Auto-generated: place-blx-lynn-central
-    location=(42.4668, -70.9495),
+    location=(42.4629, -70.9457),
     municipality="Lynn",
     route_type="blue_line_extension"
 )
@@ -55,7 +55,7 @@ station_lynn_central = InfillStation(
 station_arlington = InfillStation(
     name="Arlington Heights",
     id="",  # Auto-generated: place-rlx-arlington-heights
-    location=(42.4154, -71.1564),
+    location=(42.4259, -71.1763),
     municipality="Arlington",
     route_type="red_line_extension"
 )
