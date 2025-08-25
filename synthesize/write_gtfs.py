@@ -102,8 +102,6 @@ class GtfsWriter(object):
         # Skip shuttle trips
         if stop_time.trip.route_id.startswith('Shuttle-'):
             return
-        # if stop_time.trip.route_id == '1':
-        #     print("made it into here for route id 1")
         time = stringify_timedelta(stop_time.time)
         self.stop_time_rows.append(
             {
@@ -174,7 +172,6 @@ class GtfsWriter(object):
 
     def write_rows_to_csv(self, file_name, rows):
         full_file_path = os.path.join(self.directory_path, file_name + ".txt")
-        print(f"writing to {full_file_path}")
         with open(full_file_path, "w") as file:
             dict_writer = csv.DictWriter(file, fieldnames=rows[0].keys())
             dict_writer.writeheader()
@@ -187,8 +184,6 @@ class GtfsWriter(object):
         os.mkdir(self.directory_path)
         self.write_rows_to_csv("calendar", self.calendar_rows)
         self.write_rows_to_csv("stops", self.stop_rows)
-        print("writing stop times!!")
-        print(len(self.stop_time_rows))
         self.write_rows_to_csv("stop_times", self.stop_time_rows)
         self.write_rows_to_csv("relevant_stop_times", self.stop_time_rows)
         self.write_rows_to_csv("transfers", self.transfer_rows)
@@ -282,9 +277,6 @@ def add_trip(trip: Trip, writer: GtfsWriter):
     if trip.route_id.startswith('Shuttle-'):
         return
     writer.add_trip(trip)
-    # if trip.route_id == '1':
-    #     print("made it into here for route id 1")
-    #     print(trip.stop_times)
     for stop_time in trip.stop_times:
         writer.add_stop_time(stop_time)
 
@@ -332,17 +324,11 @@ def write_scenario_gtfs(scenario: Scenario, directory_path: str):
     add_standalone_stops(scenario, writer)
     for route_id, route in scenario.real_network.routes_by_id.items():
         if route_id not in all_shadowed_route_ids:
-            # if route_id == '1':
-            #     print("A ROUTE ID!")
-            #     print(route_id)
             writer.add_route(route)
     for route in scenario.network.routes_by_id.values():
         writer.add_route(route)
     for trip in scenario.real_network.trips_by_id.values():
         if trip.route_id not in all_shadowed_route_ids:
-            # if trip.route_id == '1':
-            #     print("A ROUTE ID!")
-            #     print(trip.route_id)
             add_trip(trip, writer)
     for trip in scenario.network.trips_by_id.values():
         add_trip(trip, writer)
