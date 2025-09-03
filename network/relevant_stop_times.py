@@ -26,7 +26,7 @@ SILVER_LINE = (
     "746",
 )
 
-RELEVANT_ROUTE_IDS = RAPID_TRANSIT + SILVER_LINE
+RELEVANT_ROUTE_IDS = RAPID_TRANSIT + SILVER_LINE + ("1", "57", "39", "111")
 
 
 def is_relevant_route_id(route_id):

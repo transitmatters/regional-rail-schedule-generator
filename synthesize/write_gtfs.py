@@ -281,6 +281,35 @@ def add_trip(trip: Trip, writer: GtfsWriter):
         writer.add_stop_time(stop_time)
 
 
+def add_standalone_stops(scenario: Scenario, writer: GtfsWriter):
+    """Add standalone stops (like bus stops) that aren't part of any station hierarchy."""
+    # Get all stop IDs that are referenced by stop_times in the real network
+    referenced_stop_ids = set()
+    for trip in scenario.real_network.trips_by_id.values():
+        for stop_time in trip.stop_times:
+            referenced_stop_ids.add(stop_time.stop.id)
+    
+    # Get all stop IDs that are already written as part of stations
+    written_stop_ids = set()
+    for station_id in get_all_station_ids(scenario):
+        real_station = scenario.real_network.stations_by_id.get(station_id)
+        if real_station:
+            for child_stop in real_station.child_stops:
+                written_stop_ids.add(child_stop.id)
+    
+    # Write standalone stops that are referenced but not yet written
+    for stop_id in referenced_stop_ids:
+        if stop_id not in written_stop_ids:
+            # Find the stop in the real network
+            for station in scenario.real_network.stations_by_id.values():
+                for child_stop in station.child_stops:
+                    if child_stop.id == stop_id:
+                        writer.add_stop(child_stop)
+                        for transfer in child_stop.transfers:
+                            writer.add_transfer(transfer)
+                        break
+
+
 def write_scenario_gtfs(scenario: Scenario, directory_path: str):
     writer = GtfsWriter(directory_path)
     all_shadowed_route_ids = [
@@ -290,6 +319,9 @@ def write_scenario_gtfs(scenario: Scenario, directory_path: str):
     all_station_ids = get_all_station_ids(scenario)
     for station_id in all_station_ids:
         add_stops(scenario, writer, station_id)
+    
+    # Add standalone stops that aren't part of any station hierarchy
+    add_standalone_stops(scenario, writer)
     for route_id, route in scenario.real_network.routes_by_id.items():
         if route_id not in all_shadowed_route_ids:
             writer.add_route(route)

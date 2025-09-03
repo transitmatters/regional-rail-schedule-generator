@@ -1,7 +1,4 @@
 facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_name,facility_long_name,facility_desc,facility_lat,facility_lon,wheelchair_facility
-102,102,1,escalator,place-ogmnl,Washington Street to unpaid lobby,Oak Grove Escalator 102 (Washington Street to unpaid lobby),,42.4368450,-71.0710810,2
-103,103,1,escalator,place-ogmnl,Orange Line platform to paid lobby,Oak Grove Escalator 103 (Orange Line platform to paid lobby),,42.4371000,-71.0709620,2
-104,104,1,escalator,place-ogmnl,"Parking, busway to unpaid lobby","Oak Grove Escalator 104 (Parking, busway to unpaid lobby)",,42.4369080,-71.0705410,2
 105,105,1,escalator,place-ogmnl,Commuter Rail platform to unpaid lobby,Oak Grove Escalator 105 (Commuter Rail platform to unpaid lobby),,42.4370900,-71.0707570,2
 112,112,1,escalator,place-dwnxg,Ashmont/Braintree platform to Chauncy Street,Downtown Crossing Escalator 112 (Ashmont/Braintree platform to Chauncy Street),,,,2
 113,113,1,escalator,place-dwnxg,Alewife platform to Hawley Street,Downtown Crossing Escalator 113 (Alewife platform to Hawley Street),,,,2
@@ -163,6 +160,9 @@ facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_na
 448,448,1,escalator,place-wlsta,Paid lobby to pedestrian bridge,Wollaston Escalator 448 (Paid lobby to pedestrian bridge),,,,2
 449,449,1,escalator,place-wlsta,Platform to pedestrian bridge,Wollaston Escalator 449 (Platform to pedestrian bridge),,,,2
 450,450,1,escalator,place-knncl,Ashmont/Braintree platform to Carleton St,Kendall/MIT Escalator 450 (Ashmont/Braintree platform to Carleton St),,42.3620860,-71.0862600,2
+451,451,1,escalator,place-ogmnl,"Parking, busway to unpaid lobby","Oak Grove Escalator 451 (Parking, busway to unpaid lobby)",,42.4369080,-71.0705410,2
+452,452,1,escalator,place-ogmnl,Washington Street to unpaid lobby,Oak Grove Escalator 452 (Washington Street to unpaid lobby),,42.4368450,-71.0710810,2
+453,453,1,escalator,place-ogmnl,Orange Line platform to paid lobby,Oak Grove Escalator 453 (Orange Line platform to paid lobby),,42.4371000,-71.0709620,2
 50,50,1,elevator,place-WML-0214,Track 1 (outbound platform) to pedestrian bridge,Framingham Elevator 50 (Track 1 (outbound platform) to pedestrian bridge),,,,1
 501,501,1,escalator,place-state,Oak Grove platform to Wonderland platform,State Escalator 501 (Oak Grove platform to Wonderland platform),,,,2
 502,502,1,escalator,place-state,Wonderland platform to Old State House,State Escalator 502 (Wonderland platform to Old State House),,,,2
@@ -223,8 +223,8 @@ facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_na
 744,744,1,elevator,place-ogmnl,Washington Street to lobby,Oak Grove Elevator 744 (Washington Street to lobby),,42.4369470,-71.0710560,1
 745,745,1,elevator,place-ogmnl,"Busway, parking lot to lobby","Oak Grove Elevator 745 (Busway, parking lot to lobby)",,42.4368600,-71.0705080,1
 746,746,1,elevator,place-ogmnl,Orange Line platform to paid lobby,Oak Grove Elevator 746 (Orange Line platform to paid lobby),,42.4370090,-71.0709660,1
-747,747,1,elevator,place-NHRML-0078,Track 2 (Boston platform) to Waterfield parking,Winchester Center Elevator 747 (Track 2 (Boston platform) to Waterfield parking),,42.4510390,-71.1379720,1
-748,748,1,elevator,place-NHRML-0078,Track 1 (outbound platform) to Aberjona parking,Winchester Center Elevator 748 (Track 1 (outbound platform) to Aberjona parking),,42.4509840,-71.1377080,1
+747,747,1,elevator,place-NHRML-0078,"Track 2 (Boston platform) to Waterfield St, parking","Winchester Center Elevator 747 (Track 2 (Boston platform) to Waterfield St, parking)",,42.4510390,-71.1379720,1
+748,748,1,elevator,place-NHRML-0078,"Track 1 (outbound platform) to Waterfield St, parking","Winchester Center Elevator 748 (Track 1 (outbound platform) to Waterfield St, parking)",,42.4509840,-71.1377080,1
 756,756,1,elevator,place-knncl,Ashmont/Braintree platform to Main Street,Kendall/MIT Elevator 756 (Ashmont/Braintree platform to Main Street),,42.3621430,-71.0861700,1
 757,757,1,elevator,place-knncl,Ashmont/Braintree platform to Main Street,Kendall/MIT Elevator 757 (Ashmont/Braintree platform to Main Street),,42.3621100,-71.0861740,1
 762,762,1,elevator,place-lech,Platform to North First Street lobby,Lechmere Elevator 762 (Platform to North First Street lobby),,42.3716640,-71.0766900,1
@@ -1281,6 +1281,7 @@ highlevel-WML-0025-5,,2,fully-elevated-platform,place-WML-0025,High-level platfo
 highlevel-WML-0025-7,,2,fully-elevated-platform,place-WML-0025,High-level platform (Track 7),Lansdowne high-level platform (Track 7),,,,1
 highlevel-WML-0035-1,,2,fully-elevated-platform,place-WML-0035,High-level platform (Track 1/Outbound),Boston Landing high-level platform (Track 1/Outbound),,,,1
 highlevel-WML-0035-2,,2,fully-elevated-platform,place-WML-0035,High-level platform (Track 2/South Station),Boston Landing high-level platform (Track 2/South Station),,,,1
+highlevel-WR-0163-1,,2,fully-elevated-platform,place-WR-0163,High-level platform,North Wilmington high-level platform,,,,1
 highlevel-WR-0264-2,,2,fully-elevated-platform,place-WR-0264,High-level platform,Lawrence high-level platform,,,,1
 highlevel-bbsta-1,,2,fully-elevated-platform,place-bbsta,High-level platform (Commuter Rail - Track 1),Back Bay high-level platform (Commuter Rail - Track 1),,,,1
 highlevel-bbsta-2,,2,fully-elevated-platform,place-bbsta,High-level platform (Commuter Rail - Track 2),Back Bay high-level platform (Commuter Rail - Track 2),,,,1
