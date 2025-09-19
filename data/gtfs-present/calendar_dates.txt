@@ -1,63 +1,134 @@
 service_id,date,exception_type,holiday_name
-SPRING2025-SOUTHSS-Weekend-17-Sb0e4ed14,20250614,1,
-RTL32025-hmo35017-Sunday-01,20250615,1,
-SPRING2025-SOUTHSS-Weekend-17-Sb0e4ed14,20250615,1,
-SummerWeekday,20250620,2,
-RTL32025-hmo35011-Weekday-01,20250623,2,
-RTL32025-hmo35011-Weekday-01,20250624,2,
-RTL32025-hmo35011-Weekday-01,20250625,2,
-RTL32025-hmo35011-Weekday-01,20250626,2,
-RTL32025-hmo35011-Weekday-01,20250627,2,
-SPRING2025-SOUTHSS-Weekend-17,20250628,2,
-SPRING2025-SOUTHSS-Weekend-17-S85407dc6,20250628,2,
-SPRING2025-SOUTHSS-Weekend-17-Sb7371956,20250628,2,
-SPRING2025-SOUTHSS-Weekend-17-Sc9a3b080,20250628,2,
-SPRING2025-SOUTHSS-Weekend-17-Scbbf1ea5,20250628,2,
-SPRING2025-SOUTHSS-Weekend-17-Sd88ed885,20250628,2,
-SPRING2025-SOUTHSS-Weekend-17,20250629,2,
-SPRING2025-SOUTHSS-Weekend-17-S85407dc6,20250629,2,
-SPRING2025-SOUTHSS-Weekend-17-Sb7371956,20250629,2,
-SPRING2025-SOUTHSS-Weekend-17-Sc9a3b080,20250629,2,
-SPRING2025-SOUTHSS-Weekend-17-Scbbf1ea5,20250629,2,
-SPRING2025-SOUTHSS-Weekend-17-Sd88ed885,20250629,2,
-SPRING2025-SOUTHWKD-Weekday-16-5-S49,20250703,1,
-BUS32025-hbb35j47-Sunday-02,20250704,1,Independence Day
-BUS32025-hbc35j47-Sunday-02,20250704,1,Independence Day
-BUS32025-hbg35j47-Sunday-02,20250704,1,Independence Day
-BUS32025-hbl35j47-Sunday-02,20250704,1,Independence Day
-BUS32025-hbq35j47-Sunday-02,20250704,1,Independence Day
-BUS32025-hbs35j47-Sunday-02,20250704,1,Independence Day
-BUS32025-hbt35j47-Sunday-02,20250704,1,Independence Day
-Boat-EastBoston-Sunday-Summer-25,20250704,1,Independence Day
-Boat-EastBoston-Weekday-Summer-25,20250704,2,Independence Day
-Boat-F1-Sunday-Summer-25,20250704,1,Independence Day
-Boat-F1-WeekdayModified-Summer-25,20250704,2,Independence Day
-Boat-F4-Sunday-Summer-25,20250704,1,Independence Day
-Boat-F4-Weekday-Summer-25,20250704,2,Independence Day
-Boat-F6-Weekday-Summer-25,20250704,2,Independence Day
-Boat-F7-Weekday-Summer-25,20250704,2,Independence Day
-Boat-F8-Sunday-Summer-25,20250704,1,Independence Day
-Boat-Lynn-Sunday-Summer-25,20250704,1,Independence Day
-Boat-Lynn-Weekday-Summer-25,20250704,2,Independence Day
-LRV32025-hlb35011-Weekday-01,20250704,2,Independence Day
-LRV32025-hlb35j41-Weekday-01,20250704,1,Independence Day
-LRV32025-hlm35011-Weekday-01,20250704,2,Independence Day
-LRV32025-hlm35j41-Weekday-01,20250704,1,Independence Day
-PRIV32025-hpp35j47-Sunday-01,20250704,1,Independence Day
-RTL32025-amb35j41-Weekday-01,20250704,1,Independence Day
-RTL32025-hmb35011-Weekday-01,20250704,2,Independence Day
-RTL32025-hmo35011-Weekday-01,20250704,2,Independence Day
-RTL32025-hmo35j41-Weekday-01,20250704,1,Independence Day
-RTL32025-hms35011-Weekday-01,20250704,2,Independence Day
-RTL32025-hms35j41-Weekday-01,20250704,1,Independence Day
-SPR25-NORTHSS-Wnd-18-S6561ad1d-HvlBrdVn,20250704,1,Independence Day
-SPRING2025-N-Wdy-18-S6561ad1d-HvlBrdVn,20250704,2,Independence Day
-SPRING2025-NORTHSS-Weekend-18,20250704,1,Independence Day
-SPRING2025-NORTHSS-Weekend-18-S7d8482ee,20250704,1,Independence Day
-SPRING2025-NORTHSS-Weekend-18-S9d378dcf,20250704,1,Independence Day
-SPRING2025-NORTHWKD-Weekday-18,20250704,2,Independence Day
-SPRING2025-NORTHWKD-Weekday-18-S72,20250704,2,Independence Day
-SPRING2025-NORTHWKD-Weekday-18-S9f,20250704,2,Independence Day
-SPRING2025-SOUTHSS-Weekend-16-S4011ecb9,20250704,1,Independence Day
-SPRING2025-SOUTHWKD-Weekday-16-5-S49,20250704,2,Independence Day
-SummerWeekday,20250704,2,Independence Day
+SPRING2025-NORTHWKD-Weekday-22,20250909,1,
+SPRING2025-NORTHWKD-Weekday-22-S6d,20250909,1,
+SPRING2025-NORTHWKD-Weekday-22-S72,20250909,1,
+SPRING2025-NORTHWKD-Weekday-22-S9f,20250909,1,
+SPRING2025-NORTHWKD-Weekday-22,20250910,1,
+SPRING2025-NORTHWKD-Weekday-22-S6d,20250910,1,
+SPRING2025-NORTHWKD-Weekday-22-S72,20250910,1,
+SPRING2025-NORTHWKD-Weekday-22-S9f,20250910,1,
+SPRING2025-NORTHWKD-Weekday-22,20250911,1,
+SPRING2025-NORTHWKD-Weekday-22-S6d,20250911,1,
+SPRING2025-NORTHWKD-Weekday-22-S72,20250911,1,
+SPRING2025-NORTHWKD-Weekday-22-S9f,20250911,1,
+SPRING2025-NORTHWKD-Weekday-22,20250912,1,
+SPRING2025-NORTHWKD-Weekday-22-S6d,20250912,1,
+SPRING2025-NORTHWKD-Weekday-22-S72,20250912,1,
+SPRING2025-NORTHWKD-Weekday-22-S9f,20250912,1,
+RTL42025-hmb45fr1-Weekday-01,20250919,2,
+RTL42025-hmb45016-Saturday-01,20250920,2,
+SPRING2025-NORTHSS-Weekend-22,20250920,2,
+SPRING2025-NORTHSS-Weekend-22-S6561ad1d,20250920,2,
+SPRING2025-NORTHSS-Weekend-22-S7d8482ee,20250920,2,
+SPRING2025-NORTHSS-Weekend-22-S9d378dcf,20250920,2,
+Boat-EastBoston-Sunday-Summer-25,20250921,2,
+RTL42025-hmb45017-Sunday-01,20250921,2,
+SPRING2025-NORTHSS-Weekend-22,20250921,2,
+SPRING2025-NORTHSS-Weekend-22-S6561ad1d,20250921,2,
+SPRING2025-NORTHSS-Weekend-22-S7d8482ee,20250921,2,
+SPRING2025-NORTHSS-Weekend-22-S9d378dcf,20250921,2,
+BUS42025-shu45al6-Saturday-01,20250927,1,
+Boat-EastBoston-Sa-LateNight-Fall-25,20250927,1,
+RTL42025-hmo45016-Saturday-01,20250927,2,
+RTL42025-hmo45nf6-Saturday-01,20250927,1,
+BUS42025-shu45al7-Sunday-01,20250928,1,
+RTL42025-hmo45017-Sunday-01,20250928,2,
+RTL42025-hmo45nf7-Sunday-01,20250928,1,
+BUS42025-shu45al6-Saturday-01,20251011,1,
+RTL42025-hmo45016-Saturday-01,20251011,2,
+RTL42025-hmo45nf6-Saturday-01,20251011,1,
+BUS42025-shu45al7-Sunday-01,20251012,1,
+RTL42025-hmo45017-Sunday-01,20251012,2,
+RTL42025-hmo45nf7-Sunday-01,20251012,1,
+BUS42025-hbc45wk1-Weekday-02,20251013,2,Indigenous People's Day
+BUS42025-hbg45wk1-Weekday-02,20251013,2,Indigenous People's Day
+BUS42025-hbs45sw1-Weekday-02,20251013,2,Indigenous People's Day
+FallWeekday,20251013,2,Indigenous People's Day
+IndigenousPeoplesDay,20251013,1,Indigenous People's Day
+LRV42025-hlb45011-Weekday-01,20251013,2,Indigenous People's Day
+LRV42025-hlm45011-Weekday-01,20251013,2,Indigenous People's Day
+PRIV42025-hpa45011-Weekday-01,20251013,2,Indigenous People's Day
+PRIV42025-hpa45016-Saturday-01,20251013,1,Indigenous People's Day
+PRIV42025-hpj45011-Weekday-01,20251013,2,Indigenous People's Day
+PRIV42025-hpj45016-Saturday-01,20251013,1,Indigenous People's Day
+RTL42025-hmb45011-Weekday-01,20251013,2,Indigenous People's Day
+RTL42025-hmo45011-Weekday-01,20251013,2,Indigenous People's Day
+RTL42025-hms45011-Weekday-01,20251013,2,Indigenous People's Day
+SPRING2025-NORTHSS-Weekend-22,20251013,1,Indigenous People's Day
+SPRING2025-NORTHSS-Weekend-22-S6561ad1d,20251013,1,Indigenous People's Day
+SPRING2025-NORTHSS-Weekend-22-S7d8482ee,20251013,1,Indigenous People's Day
+SPRING2025-NORTHSS-Weekend-22-S9d378dcf,20251013,1,Indigenous People's Day
+SPRING2025-NORTHWKD-Weekday-22,20251013,2,Indigenous People's Day
+SPRING2025-NORTHWKD-Weekday-22-S6d,20251013,2,Indigenous People's Day
+SPRING2025-NORTHWKD-Weekday-22-S72,20251013,2,Indigenous People's Day
+SPRING2025-NORTHWKD-Weekday-22-S9f,20251013,2,Indigenous People's Day
+SPRING2025-SOUTHSS-Weekend-31A,20251013,1,Indigenous People's Day
+SPRING2025-SOUTHSS-Weekend-31A-S86,20251013,1,Indigenous People's Day
+SPRING2025-SOUTHSS-Weekend-31A-Sb4,20251013,1,Indigenous People's Day
+SPRING2025-SOUTHSS-Weekend-31A-Sb6,20251013,1,Indigenous People's Day
+SPRING2025-SOUTHSS-Weekend-31A-Sc0,20251013,1,Indigenous People's Day
+SPRING2025-SOUTHSS-Weekend-31A-Sc5,20251013,1,Indigenous People's Day
+SPRING2025-SOUTHSS-Weekend-31A-Sd5,20251013,1,Indigenous People's Day
+SPRING2025-SOUTHWKD-Weekday-42,20251013,2,Indigenous People's Day
+SPRING2025-SOUTHWKD-Weekday-42-S86,20251013,2,Indigenous People's Day
+SPRING2025-SOUTHWKD-Weekday-42-Sb4,20251013,2,Indigenous People's Day
+SPRING2025-SOUTHWKD-Weekday-42-Sb6,20251013,2,Indigenous People's Day
+SPRING2025-SOUTHWKD-Weekday-42-Sc0,20251013,2,Indigenous People's Day
+SPRING2025-SOUTHWKD-Weekday-42-Sc5,20251013,2,Indigenous People's Day
+SPRING2025-SOUTHWKD-Weekday-42-Sd5,20251013,2,Indigenous People's Day
+BUS42025-hbc45wk1-Weekday-02,20251111,2,Veterans Day
+BUS42025-hbg45wk1-Weekday-02,20251111,2,Veterans Day
+BUS42025-hbs45sw1-Weekday-02,20251111,2,Veterans Day
+FallWeekday,20251111,2,Veterans Day
+VeteransDay,20251111,1,Veterans Day
+VeteransDay-DayafterThanksgivingDay,20251111,1,Veterans Day
+BUS42025-hbs45sw1-Weekday-02,20251124,2,
+BUS42025-hbs45sw1-Weekday-02,20251125,2,
+BUS42025-hbs45sw1-Weekday-02,20251126,2,
+BUS42025-hbc45wk1-Weekday-02,20251127,2,Thanksgiving Day
+BUS42025-hbg45wk1-Weekday-02,20251127,2,Thanksgiving Day
+BUS42025-hbs45sw1-Weekday-02,20251127,2,Thanksgiving Day
+Boat-F1-Weekday-Fall-25,20251127,2,Thanksgiving Day
+Boat-F4-Weekday-Fall-25,20251127,2,Thanksgiving Day
+FallWeekday,20251127,2,Thanksgiving Day
+LRV42025-hlb45011-Weekday-01,20251127,2,Thanksgiving Day
+LRV42025-hlm45011-Weekday-01,20251127,2,Thanksgiving Day
+PRIV42025-hpa45011-Weekday-01,20251127,2,Thanksgiving Day
+PRIV42025-hpj45011-Weekday-01,20251127,2,Thanksgiving Day
+PRIV42025-hpj45017-Sunday-01,20251127,1,Thanksgiving Day
+RTL42025-hmb45011-Weekday-01,20251127,2,Thanksgiving Day
+RTL42025-hmo45011-Weekday-01,20251127,2,Thanksgiving Day
+RTL42025-hms45011-Weekday-01,20251127,2,Thanksgiving Day
+ThanksgivingDay,20251127,1,Thanksgiving Day
+BUS42025-hbc45fr1-Weekday-02,20251128,2,Day after Thanksgiving Day
+BUS42025-hbg45fr1-Weekday-02,20251128,2,Day after Thanksgiving Day
+BUS42025-hbs45fr1-Weekday-02,20251128,2,Day after Thanksgiving Day
+Boat-EastBoston-Weekday-Fall-25,20251128,1,Day after Thanksgiving Day
+DayafterThanksgivingDay,20251128,1,Day after Thanksgiving Day
+FallWeekday,20251128,2,Day after Thanksgiving Day
+SPRING2025-NORTHSS-Weekend-22,20251128,1,Day after Thanksgiving Day
+SPRING2025-NORTHSS-Weekend-22-S6561ad1d,20251128,1,Day after Thanksgiving Day
+SPRING2025-NORTHSS-Weekend-22-S7d8482ee,20251128,1,Day after Thanksgiving Day
+SPRING2025-NORTHSS-Weekend-22-S9d378dcf,20251128,1,Day after Thanksgiving Day
+SPRING2025-NORTHWKD-Weekday-22,20251128,2,Day after Thanksgiving Day
+SPRING2025-NORTHWKD-Weekday-22-S6d,20251128,2,Day after Thanksgiving Day
+SPRING2025-NORTHWKD-Weekday-22-S72,20251128,2,Day after Thanksgiving Day
+SPRING2025-NORTHWKD-Weekday-22-S9f,20251128,2,Day after Thanksgiving Day
+SPRING2025-SOUTHSS-Weekend-31A,20251128,1,Day after Thanksgiving Day
+SPRING2025-SOUTHSS-Weekend-31A-S86,20251128,1,Day after Thanksgiving Day
+SPRING2025-SOUTHSS-Weekend-31A-Sb4,20251128,1,Day after Thanksgiving Day
+SPRING2025-SOUTHSS-Weekend-31A-Sb6,20251128,1,Day after Thanksgiving Day
+SPRING2025-SOUTHSS-Weekend-31A-Sc0,20251128,1,Day after Thanksgiving Day
+SPRING2025-SOUTHSS-Weekend-31A-Sc5,20251128,1,Day after Thanksgiving Day
+SPRING2025-SOUTHSS-Weekend-31A-Sd5,20251128,1,Day after Thanksgiving Day
+SPRING2025-SOUTHWKD-Weekday-42,20251128,2,Day after Thanksgiving Day
+SPRING2025-SOUTHWKD-Weekday-42-S86,20251128,2,Day after Thanksgiving Day
+SPRING2025-SOUTHWKD-Weekday-42-Sb4,20251128,2,Day after Thanksgiving Day
+SPRING2025-SOUTHWKD-Weekday-42-Sb6,20251128,2,Day after Thanksgiving Day
+SPRING2025-SOUTHWKD-Weekday-42-Sc0,20251128,2,Day after Thanksgiving Day
+SPRING2025-SOUTHWKD-Weekday-42-Sc5,20251128,2,Day after Thanksgiving Day
+SPRING2025-SOUTHWKD-Weekday-42-Sd5,20251128,2,Day after Thanksgiving Day
+VeteransDay-DayafterThanksgivingDay,20251128,1,Day after Thanksgiving Day
+BUS42025-hbs45sw6-Saturday-02,20251206,1,
+BUS42025-hbs45sw7-Sunday-02,20251207,1,
+BUS42025-hbs45sw6-Saturday-02,20251213,1,
