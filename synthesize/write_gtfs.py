@@ -18,6 +18,7 @@ from network.models import (
 )
 from synthesize.amenities import Amenities
 from synthesize.evaluate import Scenario
+import tempfile
 
 
 def _boolish_num_string(val: bool):
@@ -306,11 +307,24 @@ def write_scenario_gtfs(scenario: Scenario, directory_path: str):
     writer.write()
 
 
+def _filter_shuttle_routes_from_file(input_file_path: str, output_file_path: str):
+    """Filter out shuttle routes from a GTFS file."""
+    with open(input_file_path, "r") as infile, open(output_file_path, "w") as outfile:
+        # Read header
+        header = infile.readline()
+        outfile.write(header)
+
+        # Filter out lines containing shuttle routes
+        for line in infile:
+            if "Shuttle-" not in line:
+                outfile.write(line)
+
+
 def archive_scenario_gtfs(scenario_name: str):
     output_filename = os.path.abspath(os.path.join(__file__, "..", "..", "data", f"{scenario_name}.tar.gz"))
     directory_path = os.path.abspath(os.path.join(__file__, "..", "..", "data", scenario_name))
 
-    # For gtfs-present, only include files that are common to all GTFS bundles
+    # For gtfs-present, only include files that are common to all GTFS bundles and filter shuttle routes
     if scenario_name == "gtfs-present":
         common_files = {
             "calendar.txt",
@@ -322,11 +336,17 @@ def archive_scenario_gtfs(scenario_name: str):
             "transfers.txt",
             "trips.txt",
         }
-        with tarfile.open(output_filename, "w:gz") as tar:
-            for file_name in common_files:
-                file_path = os.path.join(directory_path, file_name)
-                if os.path.exists(file_path):
-                    tar.add(file_path, arcname=file_name)
+
+        # Create a temporary directory for filtered files
+        with tempfile.TemporaryDirectory() as temp_dir:
+            with tarfile.open(output_filename, "w:gz") as tar:
+                for file_name in common_files:
+                    file_path = os.path.join(directory_path, file_name)
+                    if os.path.exists(file_path):
+                        # Filter shuttle routes from the file
+                        temp_file_path = os.path.join(temp_dir, file_name)
+                        _filter_shuttle_routes_from_file(file_path, temp_file_path)
+                        tar.add(temp_file_path, arcname=file_name)
     else:
         with tarfile.open(output_filename, "w:gz") as tar:
             tar.add(directory_path, arcname=os.path.basename(directory_path))
