@@ -42,7 +42,7 @@ def update_stop_times_file(file_path: str) -> None:
         for row in reader:
             if len(row) >= trip_id_index + 1:
                 # Skip shuttle trips
-                if row[trip_id_index].startswith('Shuttle-'):
+                if row[trip_id_index].startswith("Shuttle-"):
                     continue
                 stop_id_index = header.index("stop_id")
                 mapped_id = map_interim_to_non_interim(row[stop_id_index])
@@ -104,7 +104,7 @@ def update_trips_file(file_path: str) -> None:
             if len(row) >= route_id_index + 1:
                 route_id = row[route_id_index]
                 # Skip rows where route_id contains 'Shuttle-'
-                if route_id.startswith('Shuttle-'):
+                if route_id.startswith("Shuttle-"):
                     continue
                 trips.append(row)
 

@@ -63,7 +63,7 @@ stations = (
     "West Roxbury",
     station_millennium_park,
     "Hersey",
-    "Needham Junction"
+    "Needham Junction",
 )
 
 orange = Route(

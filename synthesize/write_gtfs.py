@@ -100,7 +100,7 @@ class GtfsWriter(object):
 
     def add_stop_time(self, stop_time: StopTime):
         # Skip shuttle trips
-        if stop_time.trip.route_id.startswith('Shuttle-'):
+        if stop_time.trip.route_id.startswith("Shuttle-"):
             return
         time = stringify_timedelta(stop_time.time)
         self.stop_time_rows.append(
@@ -120,7 +120,7 @@ class GtfsWriter(object):
 
     def add_trip(self, trip: Trip):
         # Skip shuttle trips
-        if trip.route_id.startswith('Shuttle-'):
+        if trip.route_id.startswith("Shuttle-"):
             return
         self.trip_rows.append(
             {
@@ -274,7 +274,7 @@ def add_stops(scenario: Scenario, writer: GtfsWriter, station_id: str):
 
 def add_trip(trip: Trip, writer: GtfsWriter):
     # Skip shuttle trips
-    if trip.route_id.startswith('Shuttle-'):
+    if trip.route_id.startswith("Shuttle-"):
         return
     writer.add_trip(trip)
     for stop_time in trip.stop_times:
@@ -309,5 +309,24 @@ def write_scenario_gtfs(scenario: Scenario, directory_path: str):
 def archive_scenario_gtfs(scenario_name: str):
     output_filename = os.path.abspath(os.path.join(__file__, "..", "..", "data", f"{scenario_name}.tar.gz"))
     directory_path = os.path.abspath(os.path.join(__file__, "..", "..", "data", scenario_name))
-    with tarfile.open(output_filename, "w:gz") as tar:
-        tar.add(directory_path, arcname=os.path.basename(directory_path))
+
+    # For gtfs-present, only include files that are common to all GTFS bundles
+    if scenario_name == "gtfs-present":
+        common_files = {
+            "calendar.txt",
+            "relevant_stop_times.txt",
+            "route_patterns.txt",
+            "routes.txt",
+            "stop_times.txt",
+            "stops.txt",
+            "transfers.txt",
+            "trips.txt",
+        }
+        with tarfile.open(output_filename, "w:gz") as tar:
+            for file_name in common_files:
+                file_path = os.path.join(directory_path, file_name)
+                if os.path.exists(file_path):
+                    tar.add(file_path, arcname=file_name)
+    else:
+        with tarfile.open(output_filename, "w:gz") as tar:
+            tar.add(directory_path, arcname=os.path.basename(directory_path))

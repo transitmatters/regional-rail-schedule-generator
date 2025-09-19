@@ -1,7 +1,4 @@
 facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_name,facility_long_name,facility_desc,facility_lat,facility_lon,wheelchair_facility
-102,102,1,escalator,place-ogmnl,Washington Street to unpaid lobby,Oak Grove Escalator 102 (Washington Street to unpaid lobby),,42.4368450,-71.0710810,2
-103,103,1,escalator,place-ogmnl,Orange Line platform to paid lobby,Oak Grove Escalator 103 (Orange Line platform to paid lobby),,42.4371000,-71.0709620,2
-104,104,1,escalator,place-ogmnl,"Parking, busway to unpaid lobby","Oak Grove Escalator 104 (Parking, busway to unpaid lobby)",,42.4369080,-71.0705410,2
 105,105,1,escalator,place-ogmnl,Commuter Rail platform to unpaid lobby,Oak Grove Escalator 105 (Commuter Rail platform to unpaid lobby),,42.4370900,-71.0707570,2
 112,112,1,escalator,place-dwnxg,Ashmont/Braintree platform to Chauncy Street,Downtown Crossing Escalator 112 (Ashmont/Braintree platform to Chauncy Street),,,,2
 113,113,1,escalator,place-dwnxg,Alewife platform to Hawley Street,Downtown Crossing Escalator 113 (Alewife platform to Hawley Street),,,,2
@@ -163,6 +160,9 @@ facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_na
 448,448,1,escalator,place-wlsta,Paid lobby to pedestrian bridge,Wollaston Escalator 448 (Paid lobby to pedestrian bridge),,,,2
 449,449,1,escalator,place-wlsta,Platform to pedestrian bridge,Wollaston Escalator 449 (Platform to pedestrian bridge),,,,2
 450,450,1,escalator,place-knncl,Ashmont/Braintree platform to Carleton St,Kendall/MIT Escalator 450 (Ashmont/Braintree platform to Carleton St),,42.3620860,-71.0862600,2
+451,451,1,escalator,place-ogmnl,"Parking, busway to unpaid lobby","Oak Grove Escalator 451 (Parking, busway to unpaid lobby)",,42.4369080,-71.0705410,2
+452,452,1,escalator,place-ogmnl,Washington Street to unpaid lobby,Oak Grove Escalator 452 (Washington Street to unpaid lobby),,42.4368450,-71.0710810,2
+453,453,1,escalator,place-ogmnl,Orange Line platform to paid lobby,Oak Grove Escalator 453 (Orange Line platform to paid lobby),,42.4371000,-71.0709620,2
 50,50,1,elevator,place-WML-0214,Track 1 (outbound platform) to pedestrian bridge,Framingham Elevator 50 (Track 1 (outbound platform) to pedestrian bridge),,,,1
 501,501,1,escalator,place-state,Oak Grove platform to Wonderland platform,State Escalator 501 (Oak Grove platform to Wonderland platform),,,,2
 502,502,1,escalator,place-state,Wonderland platform to Old State House,State Escalator 502 (Wonderland platform to Old State House),,,,2
@@ -223,8 +223,11 @@ facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_na
 744,744,1,elevator,place-ogmnl,Washington Street to lobby,Oak Grove Elevator 744 (Washington Street to lobby),,42.4369470,-71.0710560,1
 745,745,1,elevator,place-ogmnl,"Busway, parking lot to lobby","Oak Grove Elevator 745 (Busway, parking lot to lobby)",,42.4368600,-71.0705080,1
 746,746,1,elevator,place-ogmnl,Orange Line platform to paid lobby,Oak Grove Elevator 746 (Orange Line platform to paid lobby),,42.4370090,-71.0709660,1
-747,747,1,elevator,place-NHRML-0078,Track 2 (Boston platform) to Waterfield parking,Winchester Center Elevator 747 (Track 2 (Boston platform) to Waterfield parking),,42.4510390,-71.1379720,1
-748,748,1,elevator,place-NHRML-0078,Track 1 (outbound platform) to Aberjona parking,Winchester Center Elevator 748 (Track 1 (outbound platform) to Aberjona parking),,42.4509840,-71.1377080,1
+747,747,1,elevator,place-NHRML-0078,"Track 2 (Boston platform) to Waterfield St, parking","Winchester Center Elevator 747 (Track 2 (Boston platform) to Waterfield St, parking)",,42.4510390,-71.1379720,1
+748,748,1,elevator,place-NHRML-0078,"Track 1 (outbound platform) to Waterfield St, parking","Winchester Center Elevator 748 (Track 1 (outbound platform) to Waterfield St, parking)",,42.4509840,-71.1377080,1
+749,749,1,elevator,place-NHRML-0078,Track 1 (outbound platform) to Main St,Winchester Center Elevator 749 (Track 1 (outbound platform) to Main St),,42.4523390,-71.1372250,1
+750,750,1,elevator,place-WML-0177,Track 1 (outbound platform) to street,Natick Center Elevator 750 (Track 1 (outbound platform) to street),,42.2857890,-71.3475340,1
+751,751,1,elevator,place-WML-0177,Track 2 (Boston platform) to street,Natick Center Elevator 751 (Track 2 (Boston platform) to street),,42.2856240,-71.3474880,1
 756,756,1,elevator,place-knncl,Ashmont/Braintree platform to Main Street,Kendall/MIT Elevator 756 (Ashmont/Braintree platform to Main Street),,42.3621430,-71.0861700,1
 757,757,1,elevator,place-knncl,Ashmont/Braintree platform to Main Street,Kendall/MIT Elevator 757 (Ashmont/Braintree platform to Main Street),,42.3621100,-71.0861740,1
 762,762,1,elevator,place-lech,Platform to North First Street lobby,Lechmere Elevator 762 (Platform to North First Street lobby),,42.3716640,-71.0766900,1
@@ -243,8 +246,6 @@ facility_id,facility_code,facility_class,facility_type,stop_id,facility_short_na
 780,780,1,elevator,place-WML-0442,"Platform to buses, Union Station","Worcester Elevator 780 (Platform to buses, Union Station)",,42.2609140,-71.7949640,1
 781,781,1,elevator,place-WML-0442,Platform to pedestrian bridge,Worcester Elevator 781 (Platform to pedestrian bridge),,42.2617530,-71.7920920,1
 782,782,1,elevator,place-WML-0442,Parking lot to pedestrian bridge ,Worcester Elevator 782 (Parking lot to pedestrian bridge ),,42.2620220,-71.7922330,1
-800,800,1,elevator,place-ogmnl,"Busway, Commuter Rail, parking lot to lobby","Oak Grove Elevator 800 (Busway, Commuter Rail, parking lot to lobby)",,42.4370180,-71.0707110,1
-801,801,1,elevator,place-ogmnl,Orange Line platform to paid lobby,Oak Grove Elevator 801 (Orange Line platform to paid lobby),,42.4370240,-71.0709570,1
 802,802,1,elevator,place-state,"Oak Grove platform to Forest Hills, Wonderland platforms","State Elevator 802 (Oak Grove platform to Forest Hills, Wonderland platforms)",,,,1
 803,803,1,elevator,place-state,"Forest Hills platform to Washington Street, Milk Street","State Elevator 803 (Forest Hills platform to Washington Street, Milk Street)",,,,1
 804,804,1,elevator,place-pktrm,"Government Center & North lobby to Tremont Street, Winter Street","Park Street Elevator 804 (Government Center & North lobby to Tremont Street, Winter Street)",,,,1
@@ -511,6 +512,7 @@ bike-WML-0091,,3,bike-storage,place-WML-0091,Bike rack,West Newton bike rack,,,,
 bike-WML-0102,,3,bike-storage,place-WML-0102,Bike rack,Auburndale bike rack,,,,0
 bike-WML-0135,,3,bike-storage,place-WML-0135,Bike rack,Wellesley Hills bike rack,,,,0
 bike-WML-0147,,3,bike-storage,place-WML-0147,Covered bike rack,Wellesley Square covered bike rack,,,,0
+bike-WML-0177,,3,bike-storage,place-WML-0177,Covered bike rack,Natick Center covered bike rack,,,,0
 bike-WML-0199,,3,bike-storage,place-WML-0199,Bike rack,West Natick bike rack,,,,0
 bike-WML-0214,,3,bike-storage,place-WML-0214,Bike rack,Framingham bike rack,,,,0
 bike-WML-0252,,3,bike-storage,place-WML-0252,Bike rack,Ashland bike rack,,,,0
@@ -641,22 +643,23 @@ ev-WML-0442-garage,,6,electric-car-chargers,place-WML-0442,EV Chargers,Worcester
 ev-alfcl-garage,,6,electric-car-chargers,place-alfcl,EV Chargers,Alewife Garage EV Chargers,,,,0
 ev-brntn-garage,,6,electric-car-chargers,place-brntn,EV Chargers,Braintree Garage EV Chargers,,,,0
 ev-forhl,,6,electric-car-chargers,place-forhl,EV Chargers,Forest Hills Parking Lot EV Chargers,,,,0
+ev-nqncy-garage-hancock,,6,electric-car-chargers,place-nqncy,Hancock Street EV Chargers,North Quincy Hancock Street Parking Lot EV Chargers,,,,0
 ev-qamnl-garage,,6,electric-car-chargers,place-qamnl,EV Chargers,Quincy Adams Garage EV Chargers,,,,0
 ev-wondl-garage,,6,electric-car-chargers,place-wondl,EV Chargers,Wonderland Garage EV Chargers,,,,0
 ev-woodl-garage,,6,electric-car-chargers,place-woodl,EV Chargers,Woodland Garage EV Chargers,,,,0
-fake_36ef_bfa5_401,,1,elevator,place-WML-0442,Lobby to platform,Worcester Elevator (Lobby to platform),,,,1
-fake_3b81_7260_398,,1,elevator,place-NEC-1659,Lobby and platform to garage,Wickford Junction Elevator (Lobby and platform to garage),,,,1
-fake_3b81_7260_399,,1,elevator,place-NEC-1659,Lobby and platform to garage,Wickford Junction Elevator (Lobby and platform to garage),,,,1
-fake_3b81_c387_400,,1,elevator,place-NEC-1659,North end of platform to garage,Wickford Junction Elevator (North end of platform to garage),,,,1
-fake_5a7e_af2a_395,,1,elevator,place-NEC-2173,Lobby to pedestrian bridge,Route 128 Elevator (Lobby to pedestrian bridge),,,,1
-fake_7a57_3d92_396,,1,elevator,place-NEC-1768,Walkway to platform,TF Green Airport Elevator (Walkway to platform),,,,1
-fake_7a57_3d92_397,,1,elevator,place-NEC-1768,Walkway to platform,TF Green Airport Elevator (Walkway to platform),,,,1
-fake_99c7_af2a_392,,1,elevator,place-NHRML-0254,Lobby to pedestrian bridge,Lowell Elevator (Lobby to pedestrian bridge),,,,1
-fake_99c7_c4e9_391,,1,elevator,place-NHRML-0254,Platform 1 to pedestrian bridge,Lowell Elevator (Platform 1 to pedestrian bridge),,,,1
-fake_b748_c4e7_402,,1,elevator,place-NEC-1891,"Track 1 (outbound platform) to Pine St, Barton St","Pawtucket/Central Falls Elevator (Track 1 (outbound platform) to Pine St, Barton St)",,41.8788300,-71.3920940,1
-fake_b748_c4e7_403,,1,elevator,place-NEC-1891,"Track 1 (outbound platform) to Pine St, Barton St","Pawtucket/Central Falls Elevator (Track 1 (outbound platform) to Pine St, Barton St)",,41.8788660,-71.3920310,1
-fake_c2ed_07bd_393,,1,elevator,place-NEC-1851,Lobby to tracks 1 and 2,Providence Elevator (Lobby to tracks 1 and 2),,,,1
-fake_c2ed_e7ea_394,,1,elevator,place-NEC-1851,Lobby to tracks 3 and 5,Providence Elevator (Lobby to tracks 3 and 5),,,,1
+fake_36ef_bfa5_399,,1,elevator,place-WML-0442,Lobby to platform,Worcester Elevator (Lobby to platform),,,,1
+fake_3b81_7260_396,,1,elevator,place-NEC-1659,Lobby and platform to garage,Wickford Junction Elevator (Lobby and platform to garage),,,,1
+fake_3b81_7260_397,,1,elevator,place-NEC-1659,Lobby and platform to garage,Wickford Junction Elevator (Lobby and platform to garage),,,,1
+fake_3b81_c387_398,,1,elevator,place-NEC-1659,North end of platform to garage,Wickford Junction Elevator (North end of platform to garage),,,,1
+fake_5a7e_af2a_393,,1,elevator,place-NEC-2173,Lobby to pedestrian bridge,Route 128 Elevator (Lobby to pedestrian bridge),,,,1
+fake_7a57_3d92_394,,1,elevator,place-NEC-1768,Walkway to platform,TF Green Airport Elevator (Walkway to platform),,,,1
+fake_7a57_3d92_395,,1,elevator,place-NEC-1768,Walkway to platform,TF Green Airport Elevator (Walkway to platform),,,,1
+fake_99c7_af2a_390,,1,elevator,place-NHRML-0254,Lobby to pedestrian bridge,Lowell Elevator (Lobby to pedestrian bridge),,,,1
+fake_99c7_c4e9_389,,1,elevator,place-NHRML-0254,Platform 1 to pedestrian bridge,Lowell Elevator (Platform 1 to pedestrian bridge),,,,1
+fake_b748_c4e7_400,,1,elevator,place-NEC-1891,"Track 1 (outbound platform) to Pine St, Barton St","Pawtucket/Central Falls Elevator (Track 1 (outbound platform) to Pine St, Barton St)",,41.8788300,-71.3920940,1
+fake_b748_c4e7_401,,1,elevator,place-NEC-1891,"Track 1 (outbound platform) to Pine St, Barton St","Pawtucket/Central Falls Elevator (Track 1 (outbound platform) to Pine St, Barton St)",,41.8788660,-71.3920310,1
+fake_c2ed_07bd_391,,1,elevator,place-NEC-1851,Lobby to tracks 1 and 2,Providence Elevator (Lobby to tracks 1 and 2),,,,1
+fake_c2ed_e7ea_392,,1,elevator,place-NEC-1851,Lobby to tracks 3 and 5,Providence Elevator (Lobby to tracks 3 and 5),,,,1
 fvm-201001,,4,fare-vending-machine,place-aqucl,Fare vending machine 201001,Aquarium fare vending machine 201001,,,,0
 fvm-201002,,4,fare-vending-machine,place-aqucl,Fare vending machine 201002,Aquarium fare vending machine 201002,,,,0
 fvm-201003,,4,fare-vending-machine,place-aqucl,Fare vending machine 201003,Aquarium fare vending machine 201003,,,,0
@@ -1281,6 +1284,9 @@ highlevel-WML-0025-5,,2,fully-elevated-platform,place-WML-0025,High-level platfo
 highlevel-WML-0025-7,,2,fully-elevated-platform,place-WML-0025,High-level platform (Track 7),Lansdowne high-level platform (Track 7),,,,1
 highlevel-WML-0035-1,,2,fully-elevated-platform,place-WML-0035,High-level platform (Track 1/Outbound),Boston Landing high-level platform (Track 1/Outbound),,,,1
 highlevel-WML-0035-2,,2,fully-elevated-platform,place-WML-0035,High-level platform (Track 2/South Station),Boston Landing high-level platform (Track 2/South Station),,,,1
+highlevel-WML-0177-1,,2,fully-elevated-platform,place-WML-0177,High-level platform (Track 2),Natick Center high-level platform (Track 2),,,,1
+highlevel-WML-0177-2,,2,fully-elevated-platform,place-WML-0177,High-level platform (Track 1),Natick Center high-level platform (Track 1),,,,1
+highlevel-WR-0163-1,,2,fully-elevated-platform,place-WR-0163,High-level platform,North Wilmington high-level platform,,,,1
 highlevel-WR-0264-2,,2,fully-elevated-platform,place-WR-0264,High-level platform,Lawrence high-level platform,,,,1
 highlevel-bbsta-1,,2,fully-elevated-platform,place-bbsta,High-level platform (Commuter Rail - Track 1),Back Bay high-level platform (Commuter Rail - Track 1),,,,1
 highlevel-bbsta-2,,2,fully-elevated-platform,place-bbsta,High-level platform (Commuter Rail - Track 2),Back Bay high-level platform (Commuter Rail - Track 2),,,,1
@@ -1473,6 +1479,7 @@ park-matt,,3,parking-area,place-matt,Parking Lot,Mattapan Parking Lot,,42.268132
 park-miltt,,3,parking-area,place-miltt,Parking Lot,Milton Parking Lot,,42.2701770,-71.0670260,0
 park-mlmnl,,3,parking-area,place-mlmnl,Parking Lot,Malden Center Parking Lot,,42.4268300,-71.0753050,0
 park-north-garage,,3,parking-area,place-north,Garage,North Station Garage,,42.3660830,-71.0621400,0
+park-nqncy-garage-hancock,,3,parking-area,place-nqncy,Hancock Street Parking Lot,North Quincy Hancock Street Parking Lot,,42.2769183,-71.0308176,0
 park-nqncy-newport,,3,parking-area,place-nqncy,Newport Avenue Parking Lot,North Quincy Newport Avenue Parking Lot,,42.2748050,-71.0295140,0
 park-ogmnl,,3,parking-area,place-ogmnl,Banks Place Parking Lot,Oak Grove Banks Place Parking Lot,,42.4362460,-71.0711940,0
 park-orhte,,3,parking-area,place-orhte,Barnes Avenue Parking Lot,Orient Heights Barnes Avenue Parking Lot,,42.3864830,-71.0021180,0
@@ -1603,7 +1610,9 @@ ramp-NEC-2108,,2,ramp,place-NEC-2108,Ramp access,Sharon ramp access,,,,1
 ramp-NEC-2139,,2,ramp,place-NEC-2139,Ramp access,Canton Junction ramp access,,,,1
 ramp-NEC-2203,,2,ramp,place-NEC-2203,Ramp access,Hyde Park ramp access,,,,1
 ramp-NHRML-0073,,2,ramp,place-NHRML-0073,Ramp access,Wedgemere ramp access,,,,1
+ramp-NHRML-0078,,2,ramp,place-NHRML-0078,Ramp access,Winchester Center ramp access,,,,1
 ramp-NHRML-0127,,2,ramp,place-NHRML-0127,Ramp access,Anderson/Woburn ramp access,,,,1
+ramp-WML-0177,,2,ramp,place-WML-0177,Ramp access,Natick Center ramp access,,,,1
 ramp-WML-0252,,2,ramp,place-WML-0252,Ramp access,Ashland ramp access,,,,1
 ramp-WML-0274,,2,ramp,place-WML-0274,Ramp access,Southborough ramp access,,,,1
 ramp-WML-0340,,2,ramp,place-WML-0340,Ramp access,Westborough ramp access,,,,1
@@ -1630,7 +1639,6 @@ retailsale-302002,,4,fare-vending-retailer,,Navarrete Grocery,Navarrete Grocery,
 retailsale-302003,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3810932,-71.2359621,0
 retailsale-302004,,4,fare-vending-retailer,,Star Market,Star Market,,42.3885509,-71.1911520,0
 retailsale-302005,,4,fare-vending-retailer,,LA Market/Nine Red Pearls,LA Market/Nine Red Pearls,,42.4058921,-71.1310653,0
-retailsale-302006,,4,fare-vending-retailer,,Family Food Mart,Family Food Mart,,42.4051382,-71.0288797,0
 retailsale-302007,,4,fare-vending-retailer,,River St Premium Petrol,River St Premium Petrol,,42.2710481,-71.0736874,0
 retailsale-302008,,4,fare-vending-retailer,,VIP Wireless,VIP Wireless,,42.3078902,-71.0832737,0
 retailsale-302009,,4,fare-vending-retailer,,Star Convenience Beer & Wine,Star Convenience Beer & Wine,,42.4043776,-71.0482581,0
@@ -1649,7 +1657,6 @@ retailsale-302021,,4,fare-vending-retailer,,City Food Mart,City Food Mart,,42.39
 retailsale-302022,,4,fare-vending-retailer,,Richdale Food Shops,Richdale Food Shops,,42.3930565,-71.0341433,0
 retailsale-302023,,4,fare-vending-retailer,,Express Newsstand,Express Newsstand,,42.3674410,-71.0765648,0
 retailsale-302024,,4,fare-vending-retailer,,Wonderland Convenience,Wonderland Convenience,,42.4151878,-70.9922362,0
-retailsale-302025,,4,fare-vending-retailer,,Brothers Supermarket,Brothers Supermarket,,42.3005844,-71.0663747,0
 retailsale-302026,,4,fare-vending-retailer,,Brookline Sunoco,Brookline Sunoco,,42.3464401,-71.1285818,0
 retailsale-302027,,4,fare-vending-retailer,,North Station Ticket Office,North Station Ticket Office,,42.3653391,-71.0607946,0
 retailsale-302028,,4,fare-vending-retailer,,Back Bay Ticket Office,Back Bay Ticket Office,,42.3475035,-71.0749320,0
@@ -1687,7 +1694,6 @@ retailsale-302059,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,
 retailsale-302060,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.2843512,-71.0911426,0
 retailsale-302061,,4,fare-vending-retailer,,PLS Check Cashing,PLS Check Cashing,,42.4087858,-71.0023938,0
 retailsale-302062,,4,fare-vending-retailer,,Star Market,Star Market,,42.3753899,-71.1491354,0
-retailsale-302063,,4,fare-vending-retailer,,Central Square Check Cashing,Central Square Check Cashing,,42.3756579,-71.0393117,0
 retailsale-302064,,4,fare-vending-retailer,,The Village Market,The Village Market,,42.1940461,-70.7268527,0
 retailsale-302065,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3534351,-71.1384988,0
 retailsale-302066,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3693842,-71.0398025,0
@@ -1700,7 +1706,6 @@ retailsale-302072,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3722419,-71.09
 retailsale-302073,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3661731,-71.1055079,0
 retailsale-302074,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3355405,-71.0461785,0
 retailsale-302075,,4,fare-vending-retailer,,Sunrise Market,Sunrise Market,,42.5504229,-71.1771919,0
-retailsale-302076,,4,fare-vending-retailer,,Framingham One Stop Market,Framingham One Stop Market,,42.2762809,-71.4162764,0
 retailsale-302077,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3363834,-71.1508517,0
 retailsale-302078,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.3500228,-71.1656966,0
 retailsale-302079,,4,fare-vending-retailer,,7-Eleven,7-Eleven,,42.2211359,-70.9696057,0
@@ -1710,11 +1715,9 @@ retailsale-302082,,4,fare-vending-retailer,,Norfolk Food Mart,Norfolk Food Mart,
 retailsale-302083,,4,fare-vending-retailer,,Village Market,Village Market,,42.3604414,-71.2615517,0
 retailsale-302084,,4,fare-vending-retailer,,Shaw's,Shaw's,,42.2010889,-71.0002808,0
 retailsale-302085,,4,fare-vending-retailer,place-WR-0329,"LAZ Parking, MVRTA Garage","LAZ Parking, MVRTA Garage",,42.7742967,-71.0858472,0
-retailsale-302086,,4,fare-vending-retailer,,Comm Ave Sonoco,Comm Ave Sonoco,,42.3504701,-71.1135182,0
 retailsale-302087,,4,fare-vending-retailer,,Broadway Liquors,Broadway Liquors,,42.4072050,-71.0566714,0
 retailsale-302088,,4,fare-vending-retailer,,Lee's Supermarket,Lee's Supermarket,,42.3442321,-71.1430262,0
 retailsale-302089,,4,fare-vending-retailer,place-NHRML-0127,Anderson Regional Trans Ctr,Anderson Regional Trans Ctr,,42.5175490,-71.1448046,0
-retailsale-302090,,4,fare-vending-retailer,,JP Convenience,JP Convenience,,42.3168436,-71.1133066,0
 retailsale-302091,,4,fare-vending-retailer,,Cafe LaFrance,Cafe LaFrance,,41.8305626,-71.4131686,0
 retailsale-302092,,4,fare-vending-retailer,,Montachusett RTA,Montachusett RTA,,42.5809968,-71.7926968,0
 retailsale-302093,,4,fare-vending-retailer,,Star Food Mart,Star Food Mart,,42.2555445,-71.1240197,0
@@ -1737,6 +1740,7 @@ retailsale-302109,,4,fare-vending-retailer,,Safy Market,Safy Market,,42.4155895,
 retailsale-302110,,4,fare-vending-retailer,,Prattville Mart,Prattville Mart,,42.4053400,-71.0349720,0
 retailsale-302111,,4,fare-vending-retailer,,Veronica's,Veronica's,,42.3761544,-71.2551102,0
 retailsale-302112,,4,fare-vending-retailer,,Supreme Food,Supreme Food,,42.4631918,-70.9631362,0
+retailsale-302113,,4,fare-vending-retailer,,Town of Winthrop Harbormaster,Town of Winthrop Harbormaster,,42.3671344,-70.9720205,0
 subplat-DB-0095-2,,2,elevated-subplatform,place-DB-0095,Mini-high platform (Track 2),Readville mini-high platform (Track 2),,,,1
 subplat-DB-0095-3,,2,elevated-subplatform,place-DB-0095,Mini-high platform (Track 3),Readville mini-high platform (Track 3),,,,1
 subplat-DB-0095-4,,2,elevated-subplatform,place-DB-0095,Mini-high platform (Track 4),Readville mini-high platform (Track 4),,,,1

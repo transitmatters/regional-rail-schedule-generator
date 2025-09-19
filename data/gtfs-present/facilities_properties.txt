@@ -1,108 +1,4 @@
 facility_id,property_id,value
-102,direction,up
-102,excludes-stop,9328
-102,excludes-stop,door-ogmnl-banks
-102,excludes-stop,door-ogmnl-washel
-102,excludes-stop,node-102-lobby
-102,excludes-stop,node-102-street
-102,excludes-stop,node-103-lobby
-102,excludes-stop,node-103-platform
-102,excludes-stop,node-104-lobby
-102,excludes-stop,node-104-street
-102,excludes-stop,node-105-crplatform
-102,excludes-stop,node-105-lobby
-102,excludes-stop,node-743-lobby
-102,excludes-stop,node-743-platform
-102,excludes-stop,node-744-lobby
-102,excludes-stop,node-745-lobby
-102,excludes-stop,node-745-street
-102,excludes-stop,node-746-lobby
-102,excludes-stop,node-746-platform
-102,excludes-stop,node-800-crplatform
-102,excludes-stop,node-800-lobby
-102,excludes-stop,node-800-street
-102,excludes-stop,node-801-lobby
-102,excludes-stop,node-801-platform
-102,excludes-stop,node-ogmnl-banksstair-lobby
-102,excludes-stop,node-ogmnl-banksstair-street
-102,excludes-stop,node-ogmnl-crstair-crplatform
-102,excludes-stop,node-ogmnl-crstair-lobby
-102,excludes-stop,node-ogmnl-farepaid
-102,excludes-stop,node-ogmnl-fareunpaid
-102,excludes-stop,node-ogmnl-olstair-lobby
-102,excludes-stop,node-ogmnl-olstair-platform
-102,excludes-stop,node-ogmnl-washstair-lobby
-102,excludes-stop,node-ogmnl-washstair-street
-103,direction,up
-103,excludes-stop,9328
-103,excludes-stop,WR-0053-S
-103,excludes-stop,door-ogmnl-banks
-103,excludes-stop,door-ogmnl-wash
-103,excludes-stop,door-ogmnl-washel
-103,excludes-stop,node-102-lobby
-103,excludes-stop,node-102-street
-103,excludes-stop,node-103-lobby
-103,excludes-stop,node-103-platform
-103,excludes-stop,node-104-lobby
-103,excludes-stop,node-104-street
-103,excludes-stop,node-105-crplatform
-103,excludes-stop,node-105-lobby
-103,excludes-stop,node-743-lobby
-103,excludes-stop,node-743-platform
-103,excludes-stop,node-744-lobby
-103,excludes-stop,node-745-lobby
-103,excludes-stop,node-745-street
-103,excludes-stop,node-746-lobby
-103,excludes-stop,node-746-platform
-103,excludes-stop,node-800-crplatform
-103,excludes-stop,node-800-lobby
-103,excludes-stop,node-800-street
-103,excludes-stop,node-801-lobby
-103,excludes-stop,node-801-platform
-103,excludes-stop,node-ogmnl-banksstair-lobby
-103,excludes-stop,node-ogmnl-banksstair-street
-103,excludes-stop,node-ogmnl-crstair-crplatform
-103,excludes-stop,node-ogmnl-crstair-lobby
-103,excludes-stop,node-ogmnl-farepaid
-103,excludes-stop,node-ogmnl-fareunpaid
-103,excludes-stop,node-ogmnl-olstair-lobby
-103,excludes-stop,node-ogmnl-olstair-platform
-103,excludes-stop,node-ogmnl-washstair-lobby
-103,excludes-stop,node-ogmnl-washstair-street
-104,direction,up
-104,excludes-stop,9328
-104,excludes-stop,door-ogmnl-wash
-104,excludes-stop,door-ogmnl-washel
-104,excludes-stop,node-102-lobby
-104,excludes-stop,node-102-street
-104,excludes-stop,node-103-lobby
-104,excludes-stop,node-103-platform
-104,excludes-stop,node-104-lobby
-104,excludes-stop,node-104-street
-104,excludes-stop,node-105-crplatform
-104,excludes-stop,node-105-lobby
-104,excludes-stop,node-743-lobby
-104,excludes-stop,node-743-platform
-104,excludes-stop,node-744-lobby
-104,excludes-stop,node-745-lobby
-104,excludes-stop,node-745-street
-104,excludes-stop,node-746-lobby
-104,excludes-stop,node-746-platform
-104,excludes-stop,node-800-crplatform
-104,excludes-stop,node-800-lobby
-104,excludes-stop,node-800-street
-104,excludes-stop,node-801-lobby
-104,excludes-stop,node-801-platform
-104,excludes-stop,node-ogmnl-banksstair-lobby
-104,excludes-stop,node-ogmnl-banksstair-street
-104,excludes-stop,node-ogmnl-crstair-crplatform
-104,excludes-stop,node-ogmnl-crstair-lobby
-104,excludes-stop,node-ogmnl-farepaid
-104,excludes-stop,node-ogmnl-fareunpaid
-104,excludes-stop,node-ogmnl-olstair-lobby
-104,excludes-stop,node-ogmnl-olstair-platform
-104,excludes-stop,node-ogmnl-washstair-lobby
-104,excludes-stop,node-ogmnl-washstair-street
 105,direction,up
 105,excludes-stop,70036
 105,excludes-stop,9328
@@ -111,14 +7,14 @@ facility_id,property_id,value
 105,excludes-stop,door-ogmnl-banks
 105,excludes-stop,door-ogmnl-wash
 105,excludes-stop,door-ogmnl-washel
-105,excludes-stop,node-102-lobby
-105,excludes-stop,node-102-street
-105,excludes-stop,node-103-lobby
-105,excludes-stop,node-103-platform
-105,excludes-stop,node-104-lobby
-105,excludes-stop,node-104-street
 105,excludes-stop,node-105-crplatform
 105,excludes-stop,node-105-lobby
+105,excludes-stop,node-451-lobby
+105,excludes-stop,node-451-street
+105,excludes-stop,node-452-lobby
+105,excludes-stop,node-452-street
+105,excludes-stop,node-453-lobby
+105,excludes-stop,node-453-platform
 105,excludes-stop,node-743-lobby
 105,excludes-stop,node-743-platform
 105,excludes-stop,node-744-lobby
@@ -126,11 +22,6 @@ facility_id,property_id,value
 105,excludes-stop,node-745-street
 105,excludes-stop,node-746-lobby
 105,excludes-stop,node-746-platform
-105,excludes-stop,node-800-crplatform
-105,excludes-stop,node-800-lobby
-105,excludes-stop,node-800-street
-105,excludes-stop,node-801-lobby
-105,excludes-stop,node-801-platform
 105,excludes-stop,node-ogmnl-banksstair-lobby
 105,excludes-stop,node-ogmnl-banksstair-street
 105,excludes-stop,node-ogmnl-crstair-crplatform
@@ -1761,7 +1652,6 @@ facility_id,property_id,value
 307,excludes-stop,29011
 307,excludes-stop,29012
 307,excludes-stop,29013
-307,excludes-stop,29014
 307,excludes-stop,node-307-lobby
 307,excludes-stop,node-307-platform
 307,excludes-stop,node-308-lobby
@@ -1794,7 +1684,6 @@ facility_id,property_id,value
 308,excludes-stop,29011
 308,excludes-stop,29012
 308,excludes-stop,29013
-308,excludes-stop,29014
 308,excludes-stop,node-307-lobby
 308,excludes-stop,node-307-platform
 308,excludes-stop,node-308-lobby
@@ -3090,7 +2979,12 @@ facility_id,property_id,value
 348,excludes-stop,node-qamnl-southstairs-top
 348,excludes-stop,node-qamnl-third-lobby
 349,direction,up
-349,excludes-stop,141
+349,excludes-stop,14112
+349,excludes-stop,14118
+349,excludes-stop,14120
+349,excludes-stop,14121
+349,excludes-stop,14122
+349,excludes-stop,14123
 349,excludes-stop,9070061
 349,excludes-stop,door-alfcl-alewife
 349,excludes-stop,door-alfcl-alewifes
@@ -3133,6 +3027,7 @@ facility_id,property_id,value
 349,excludes-stop,node-961-top
 349,excludes-stop,node-alfcl-buswaynorthstairs-bottom
 349,excludes-stop,node-alfcl-buswaynorthstairs-top
+349,excludes-stop,node-alfcl-buswayplatform-middle
 349,excludes-stop,node-alfcl-buswayramp-bottom
 349,excludes-stop,node-alfcl-buswayramp-landing
 349,excludes-stop,node-alfcl-buswayramp-top
@@ -3180,7 +3075,12 @@ facility_id,property_id,value
 349,excludes-stop,node-alfcl-wgaragestairs-second
 349,excludes-stop,node-alfcl-wgaragestairs-third
 350,direction,down
-350,excludes-stop,141
+350,excludes-stop,14112
+350,excludes-stop,14118
+350,excludes-stop,14120
+350,excludes-stop,14121
+350,excludes-stop,14122
+350,excludes-stop,14123
 350,excludes-stop,9070061
 350,excludes-stop,door-alfcl-alewife
 350,excludes-stop,door-alfcl-alewifes
@@ -3223,6 +3123,7 @@ facility_id,property_id,value
 350,excludes-stop,node-961-top
 350,excludes-stop,node-alfcl-buswaynorthstairs-bottom
 350,excludes-stop,node-alfcl-buswaynorthstairs-top
+350,excludes-stop,node-alfcl-buswayplatform-middle
 350,excludes-stop,node-alfcl-buswayramp-bottom
 350,excludes-stop,node-alfcl-buswayramp-landing
 350,excludes-stop,node-alfcl-buswayramp-top
@@ -3270,7 +3171,12 @@ facility_id,property_id,value
 350,excludes-stop,node-alfcl-wgaragestairs-second
 350,excludes-stop,node-alfcl-wgaragestairs-third
 351,direction,down
-351,excludes-stop,141
+351,excludes-stop,14112
+351,excludes-stop,14118
+351,excludes-stop,14120
+351,excludes-stop,14121
+351,excludes-stop,14122
+351,excludes-stop,14123
 351,excludes-stop,9070061
 351,excludes-stop,door-alfcl-alewife
 351,excludes-stop,door-alfcl-alewifes
@@ -3314,6 +3220,7 @@ facility_id,property_id,value
 351,excludes-stop,node-961-top
 351,excludes-stop,node-alfcl-buswaynorthstairs-bottom
 351,excludes-stop,node-alfcl-buswaynorthstairs-top
+351,excludes-stop,node-alfcl-buswayplatform-middle
 351,excludes-stop,node-alfcl-buswayramp-bottom
 351,excludes-stop,node-alfcl-buswayramp-landing
 351,excludes-stop,node-alfcl-buswayramp-top
@@ -3361,7 +3268,12 @@ facility_id,property_id,value
 351,excludes-stop,node-alfcl-wgaragestairs-second
 351,excludes-stop,node-alfcl-wgaragestairs-third
 352,direction,up
-352,excludes-stop,141
+352,excludes-stop,14112
+352,excludes-stop,14118
+352,excludes-stop,14120
+352,excludes-stop,14121
+352,excludes-stop,14122
+352,excludes-stop,14123
 352,excludes-stop,9070061
 352,excludes-stop,door-alfcl-alewife
 352,excludes-stop,door-alfcl-alewifes
@@ -3405,6 +3317,7 @@ facility_id,property_id,value
 352,excludes-stop,node-961-top
 352,excludes-stop,node-alfcl-buswaynorthstairs-bottom
 352,excludes-stop,node-alfcl-buswaynorthstairs-top
+352,excludes-stop,node-alfcl-buswayplatform-middle
 352,excludes-stop,node-alfcl-buswayramp-bottom
 352,excludes-stop,node-alfcl-buswayramp-landing
 352,excludes-stop,node-alfcl-buswayramp-top
@@ -3452,6 +3365,12 @@ facility_id,property_id,value
 352,excludes-stop,node-alfcl-wgaragestairs-second
 352,excludes-stop,node-alfcl-wgaragestairs-third
 353,direction,up
+353,excludes-stop,14112
+353,excludes-stop,14118
+353,excludes-stop,14120
+353,excludes-stop,14121
+353,excludes-stop,14122
+353,excludes-stop,14123
 353,excludes-stop,9070061
 353,excludes-stop,door-alfcl-alewife
 353,excludes-stop,door-alfcl-alewifes
@@ -3542,7 +3461,12 @@ facility_id,property_id,value
 353,excludes-stop,node-alfcl-wgaragestairs-second
 353,excludes-stop,node-alfcl-wgaragestairs-third
 354,direction,up
-354,excludes-stop,141
+354,excludes-stop,14112
+354,excludes-stop,14118
+354,excludes-stop,14120
+354,excludes-stop,14121
+354,excludes-stop,14122
+354,excludes-stop,14123
 354,excludes-stop,9070061
 354,excludes-stop,door-alfcl-alewife
 354,excludes-stop,door-alfcl-alewifes
@@ -3586,6 +3510,7 @@ facility_id,property_id,value
 354,excludes-stop,node-961-top
 354,excludes-stop,node-alfcl-buswaynorthstairs-bottom
 354,excludes-stop,node-alfcl-buswaynorthstairs-top
+354,excludes-stop,node-alfcl-buswayplatform-middle
 354,excludes-stop,node-alfcl-buswayramp-bottom
 354,excludes-stop,node-alfcl-buswayramp-landing
 354,excludes-stop,node-alfcl-buswayramp-top
@@ -3633,7 +3558,12 @@ facility_id,property_id,value
 354,excludes-stop,node-alfcl-wgaragestairs-second
 354,excludes-stop,node-alfcl-wgaragestairs-third
 355,direction,up
-355,excludes-stop,141
+355,excludes-stop,14112
+355,excludes-stop,14118
+355,excludes-stop,14120
+355,excludes-stop,14121
+355,excludes-stop,14122
+355,excludes-stop,14123
 355,excludes-stop,9070061
 355,excludes-stop,door-alfcl-alewife
 355,excludes-stop,door-alfcl-alewifes
@@ -3677,6 +3607,7 @@ facility_id,property_id,value
 355,excludes-stop,node-961-top
 355,excludes-stop,node-alfcl-buswaynorthstairs-bottom
 355,excludes-stop,node-alfcl-buswaynorthstairs-top
+355,excludes-stop,node-alfcl-buswayplatform-middle
 355,excludes-stop,node-alfcl-buswayramp-bottom
 355,excludes-stop,node-alfcl-buswayramp-landing
 355,excludes-stop,node-alfcl-buswayramp-top
@@ -3724,7 +3655,12 @@ facility_id,property_id,value
 355,excludes-stop,node-alfcl-wgaragestairs-second
 355,excludes-stop,node-alfcl-wgaragestairs-third
 356,direction,up
-356,excludes-stop,141
+356,excludes-stop,14112
+356,excludes-stop,14118
+356,excludes-stop,14120
+356,excludes-stop,14121
+356,excludes-stop,14122
+356,excludes-stop,14123
 356,excludes-stop,9070061
 356,excludes-stop,door-alfcl-alewife
 356,excludes-stop,door-alfcl-alewifes
@@ -3768,6 +3704,7 @@ facility_id,property_id,value
 356,excludes-stop,node-961-top
 356,excludes-stop,node-alfcl-buswaynorthstairs-bottom
 356,excludes-stop,node-alfcl-buswaynorthstairs-top
+356,excludes-stop,node-alfcl-buswayplatform-middle
 356,excludes-stop,node-alfcl-buswayramp-bottom
 356,excludes-stop,node-alfcl-buswayramp-landing
 356,excludes-stop,node-alfcl-buswayramp-top
@@ -3815,7 +3752,12 @@ facility_id,property_id,value
 356,excludes-stop,node-alfcl-wgaragestairs-second
 356,excludes-stop,node-alfcl-wgaragestairs-third
 357,direction,up
-357,excludes-stop,141
+357,excludes-stop,14112
+357,excludes-stop,14118
+357,excludes-stop,14120
+357,excludes-stop,14121
+357,excludes-stop,14122
+357,excludes-stop,14123
 357,excludes-stop,9070061
 357,excludes-stop,door-alfcl-alewife
 357,excludes-stop,door-alfcl-alewifes
@@ -3859,6 +3801,7 @@ facility_id,property_id,value
 357,excludes-stop,node-961-top
 357,excludes-stop,node-alfcl-buswaynorthstairs-bottom
 357,excludes-stop,node-alfcl-buswaynorthstairs-top
+357,excludes-stop,node-alfcl-buswayplatform-middle
 357,excludes-stop,node-alfcl-buswayramp-bottom
 357,excludes-stop,node-alfcl-buswayramp-landing
 357,excludes-stop,node-alfcl-buswayramp-top
@@ -6411,6 +6354,7 @@ facility_id,property_id,value
 407,direction,down
 407,excludes-stop,70047
 407,excludes-stop,7096
+407,excludes-stop,70961
 407,excludes-stop,7097
 407,excludes-stop,door-aport-bremen
 407,excludes-stop,door-aport-buses
@@ -6445,6 +6389,7 @@ facility_id,property_id,value
 408,direction,up
 408,excludes-stop,70047
 408,excludes-stop,7096
+408,excludes-stop,70961
 408,excludes-stop,7097
 408,excludes-stop,door-aport-bremen
 408,excludes-stop,door-aport-buses
@@ -6479,6 +6424,7 @@ facility_id,property_id,value
 409,direction,up
 409,excludes-stop,70048
 409,excludes-stop,7096
+409,excludes-stop,70961
 409,excludes-stop,7097
 409,excludes-stop,door-aport-bremen
 409,excludes-stop,door-aport-buses
@@ -6513,6 +6459,7 @@ facility_id,property_id,value
 410,direction,down
 410,excludes-stop,70048
 410,excludes-stop,7096
+410,excludes-stop,70961
 410,excludes-stop,7097
 410,excludes-stop,door-aport-bremen
 410,excludes-stop,door-aport-buses
@@ -7706,6 +7653,7 @@ facility_id,property_id,value
 439,excludes-stop,node-coecl-wbfarepaid
 439,excludes-stop,node-coecl-wbfareunpaid
 440,direction,up
+440,excludes-stop,15879
 440,excludes-stop,15880
 440,excludes-stop,5879
 440,excludes-stop,5880
@@ -7736,6 +7684,7 @@ facility_id,property_id,value
 440,excludes-stop,node-orhte-sara-farepaid
 440,excludes-stop,node-orhte-sara-fareunpaid
 441,direction,up
+441,excludes-stop,15879
 441,excludes-stop,15880
 441,excludes-stop,5879
 441,excludes-stop,5880
@@ -8111,8 +8060,96 @@ facility_id,property_id,value
 450,excludes-stop,node-knncl-sbmain-platform
 450,excludes-stop,node-knncl-sbsec-farepaid
 450,excludes-stop,node-knncl-sbsec-fareunpaid
+451,direction,up
+451,excludes-stop,9328
+451,excludes-stop,door-ogmnl-wash
+451,excludes-stop,door-ogmnl-washel
+451,excludes-stop,node-105-crplatform
+451,excludes-stop,node-105-lobby
+451,excludes-stop,node-451-lobby
+451,excludes-stop,node-451-street
+451,excludes-stop,node-452-lobby
+451,excludes-stop,node-452-street
+451,excludes-stop,node-453-lobby
+451,excludes-stop,node-453-platform
+451,excludes-stop,node-743-lobby
+451,excludes-stop,node-743-platform
+451,excludes-stop,node-744-lobby
+451,excludes-stop,node-745-lobby
+451,excludes-stop,node-745-street
+451,excludes-stop,node-746-lobby
+451,excludes-stop,node-746-platform
+451,excludes-stop,node-ogmnl-banksstair-lobby
+451,excludes-stop,node-ogmnl-banksstair-street
+451,excludes-stop,node-ogmnl-crstair-crplatform
+451,excludes-stop,node-ogmnl-crstair-lobby
+451,excludes-stop,node-ogmnl-farepaid
+451,excludes-stop,node-ogmnl-fareunpaid
+451,excludes-stop,node-ogmnl-olstair-lobby
+451,excludes-stop,node-ogmnl-olstair-platform
+451,excludes-stop,node-ogmnl-washstair-lobby
+451,excludes-stop,node-ogmnl-washstair-street
+452,direction,up
+452,excludes-stop,9328
+452,excludes-stop,door-ogmnl-banks
+452,excludes-stop,door-ogmnl-washel
+452,excludes-stop,node-105-crplatform
+452,excludes-stop,node-105-lobby
+452,excludes-stop,node-451-lobby
+452,excludes-stop,node-451-street
+452,excludes-stop,node-452-lobby
+452,excludes-stop,node-452-street
+452,excludes-stop,node-453-lobby
+452,excludes-stop,node-453-platform
+452,excludes-stop,node-743-lobby
+452,excludes-stop,node-743-platform
+452,excludes-stop,node-744-lobby
+452,excludes-stop,node-745-lobby
+452,excludes-stop,node-745-street
+452,excludes-stop,node-746-lobby
+452,excludes-stop,node-746-platform
+452,excludes-stop,node-ogmnl-banksstair-lobby
+452,excludes-stop,node-ogmnl-banksstair-street
+452,excludes-stop,node-ogmnl-crstair-crplatform
+452,excludes-stop,node-ogmnl-crstair-lobby
+452,excludes-stop,node-ogmnl-farepaid
+452,excludes-stop,node-ogmnl-fareunpaid
+452,excludes-stop,node-ogmnl-olstair-lobby
+452,excludes-stop,node-ogmnl-olstair-platform
+452,excludes-stop,node-ogmnl-washstair-lobby
+452,excludes-stop,node-ogmnl-washstair-street
+453,direction,up
+453,excludes-stop,9328
+453,excludes-stop,WR-0053-S
+453,excludes-stop,door-ogmnl-banks
+453,excludes-stop,door-ogmnl-wash
+453,excludes-stop,door-ogmnl-washel
+453,excludes-stop,node-105-crplatform
+453,excludes-stop,node-105-lobby
+453,excludes-stop,node-451-lobby
+453,excludes-stop,node-451-street
+453,excludes-stop,node-452-lobby
+453,excludes-stop,node-452-street
+453,excludes-stop,node-453-lobby
+453,excludes-stop,node-453-platform
+453,excludes-stop,node-743-lobby
+453,excludes-stop,node-743-platform
+453,excludes-stop,node-744-lobby
+453,excludes-stop,node-745-lobby
+453,excludes-stop,node-745-street
+453,excludes-stop,node-746-lobby
+453,excludes-stop,node-746-platform
+453,excludes-stop,node-ogmnl-banksstair-lobby
+453,excludes-stop,node-ogmnl-banksstair-street
+453,excludes-stop,node-ogmnl-crstair-crplatform
+453,excludes-stop,node-ogmnl-crstair-lobby
+453,excludes-stop,node-ogmnl-farepaid
+453,excludes-stop,node-ogmnl-fareunpaid
+453,excludes-stop,node-ogmnl-olstair-lobby
+453,excludes-stop,node-ogmnl-olstair-platform
+453,excludes-stop,node-ogmnl-washstair-lobby
+453,excludes-stop,node-ogmnl-washstair-street
 50,alternate-service-text,The elevator at Framingham connecting the Inbound and Outbound platforms is out of service. Please proceed to Concord street to cross over to the outbound platform.
-50,excludes-stop,WML-0214-B
 501,direction,up
 501,excludes-stop,70022
 501,excludes-stop,70042
@@ -8534,7 +8571,6 @@ facility_id,property_id,value
 509,excludes-stop,node-portr-weststairs-crplatform
 509,excludes-stop,node-portr-weststairs-street
 51,alternate-service-text,The elevator at Framingham connecting the Inbound and Outbound platforms is out of service. Please proceed to Concord street to cross over to the outbound platform.
-51,excludes-stop,WML-0214-B
 510,direction,up
 510,excludes-stop,FR-0034
 510,excludes-stop,FR-0034-01
@@ -8640,7 +8676,6 @@ facility_id,property_id,value
 511,excludes-stop,node-portr-weststairs-crplatform
 511,excludes-stop,node-portr-weststairs-street
 512,direction,up
-512,excludes-stop,76129
 512,excludes-stop,door-harsq-brattle
 512,excludes-stop,door-harsq-church
 512,excludes-stop,door-harsq-yard
@@ -8680,7 +8715,6 @@ facility_id,property_id,value
 512,excludes-stop,node-harsq-upperramp-upper
 512,excludes-stop,node-harsq-yardstair-lobby
 513,direction,down
-513,excludes-stop,76129
 513,excludes-stop,door-harsq-brattle
 513,excludes-stop,door-harsq-church
 513,excludes-stop,door-harsq-yard
@@ -8720,7 +8754,6 @@ facility_id,property_id,value
 513,excludes-stop,node-harsq-upperramp-upper
 513,excludes-stop,node-harsq-yardstair-lobby
 514,direction,up
-514,excludes-stop,76129
 514,excludes-stop,door-harsq-brattle
 514,excludes-stop,door-harsq-church
 514,excludes-stop,door-harsq-yard
@@ -8760,7 +8793,6 @@ facility_id,property_id,value
 514,excludes-stop,node-harsq-upperramp-upper
 514,excludes-stop,node-harsq-yardstair-lobby
 515,direction,down
-515,excludes-stop,76129
 515,excludes-stop,door-harsq-brattle
 515,excludes-stop,door-harsq-church
 515,excludes-stop,door-harsq-yard
@@ -8806,7 +8838,6 @@ facility_id,property_id,value
 516,excludes-stop,76124
 516,excludes-stop,76125
 516,excludes-stop,76126
-516,excludes-stop,76127
 516,excludes-stop,76129
 516,excludes-stop,door-harsq-brattle
 516,excludes-stop,door-harsq-square
@@ -9436,6 +9467,7 @@ facility_id,property_id,value
 711,excludes-stop,node-wondl-plazacenter
 711,excludes-stop,node-wondl-revereramp-top
 712,alternate-service-text,"To access the Wonderland platform or Saratoga St busway from the Bowdoin platform, use Orient Heights Elevator 713 located in the Bennington St busway. To access the Bowdoin platform or Bennington St busway from the Wonderland platform, use Orient Heights Elevator 715 located in the Saratoga St busway."
+712,excludes-stop,15879
 712,excludes-stop,15880
 712,excludes-stop,5879
 712,excludes-stop,5880
@@ -9493,6 +9525,7 @@ facility_id,property_id,value
 713,excludes-stop,node-orhte-sara-farepaid
 713,excludes-stop,node-orhte-sara-fareunpaid
 714,alternate-service-text,"To access the Bowdoin platform or Bennington St busway from the Wonderland platform, use Orient Heights Elevator 715 located in the Saratoga St busway. To access the Wonderland platform or Saratoga St busway from the Bowdoin platform, use Orient Heights Elevator 713 located in the Bennington St busway."
+714,excludes-stop,15879
 714,excludes-stop,15880
 714,excludes-stop,5879
 714,excludes-stop,5880
@@ -9805,12 +9838,6 @@ facility_id,property_id,value
 724,excludes-stop,node-forhl-splatstairs-lobby
 724,excludes-stop,node-forhl-splatstairs-platform
 724,excludes-stop,node-forhl-upperdoor
-725,excludes-stop,WML-0035-B0
-725,excludes-stop,WML-0035-B1
-726,excludes-stop,WML-0035-B0
-726,excludes-stop,WML-0035-B1
-727,excludes-stop,WML-0035-B0
-727,excludes-stop,WML-0035-B1
 728,alternate-service-text,Please find station personnel or use a station call box or for assistance navigating between the lobby and lower busway.
 728,excludes-stop,17861
 728,excludes-stop,70010
@@ -10248,14 +10275,14 @@ facility_id,property_id,value
 743,excludes-stop,door-ogmnl-banks
 743,excludes-stop,door-ogmnl-wash
 743,excludes-stop,door-ogmnl-washel
-743,excludes-stop,node-102-lobby
-743,excludes-stop,node-102-street
-743,excludes-stop,node-103-lobby
-743,excludes-stop,node-103-platform
-743,excludes-stop,node-104-lobby
-743,excludes-stop,node-104-street
 743,excludes-stop,node-105-crplatform
 743,excludes-stop,node-105-lobby
+743,excludes-stop,node-451-lobby
+743,excludes-stop,node-451-street
+743,excludes-stop,node-452-lobby
+743,excludes-stop,node-452-street
+743,excludes-stop,node-453-lobby
+743,excludes-stop,node-453-platform
 743,excludes-stop,node-743-lobby
 743,excludes-stop,node-743-platform
 743,excludes-stop,node-744-lobby
@@ -10263,11 +10290,6 @@ facility_id,property_id,value
 743,excludes-stop,node-745-street
 743,excludes-stop,node-746-lobby
 743,excludes-stop,node-746-platform
-743,excludes-stop,node-800-crplatform
-743,excludes-stop,node-800-lobby
-743,excludes-stop,node-800-street
-743,excludes-stop,node-801-lobby
-743,excludes-stop,node-801-platform
 743,excludes-stop,node-ogmnl-banksstair-lobby
 743,excludes-stop,node-ogmnl-banksstair-street
 743,excludes-stop,node-ogmnl-crstair-crplatform
@@ -10282,14 +10304,14 @@ facility_id,property_id,value
 744,excludes-stop,9328
 744,excludes-stop,door-ogmnl-banks
 744,excludes-stop,door-ogmnl-wash
-744,excludes-stop,node-102-lobby
-744,excludes-stop,node-102-street
-744,excludes-stop,node-103-lobby
-744,excludes-stop,node-103-platform
-744,excludes-stop,node-104-lobby
-744,excludes-stop,node-104-street
 744,excludes-stop,node-105-crplatform
 744,excludes-stop,node-105-lobby
+744,excludes-stop,node-451-lobby
+744,excludes-stop,node-451-street
+744,excludes-stop,node-452-lobby
+744,excludes-stop,node-452-street
+744,excludes-stop,node-453-lobby
+744,excludes-stop,node-453-platform
 744,excludes-stop,node-743-lobby
 744,excludes-stop,node-743-platform
 744,excludes-stop,node-744-lobby
@@ -10297,11 +10319,6 @@ facility_id,property_id,value
 744,excludes-stop,node-745-street
 744,excludes-stop,node-746-lobby
 744,excludes-stop,node-746-platform
-744,excludes-stop,node-800-crplatform
-744,excludes-stop,node-800-lobby
-744,excludes-stop,node-800-street
-744,excludes-stop,node-801-lobby
-744,excludes-stop,node-801-platform
 744,excludes-stop,node-ogmnl-banksstair-lobby
 744,excludes-stop,node-ogmnl-banksstair-street
 744,excludes-stop,node-ogmnl-crstair-crplatform
@@ -10317,14 +10334,14 @@ facility_id,property_id,value
 745,excludes-stop,WR-0053-S
 745,excludes-stop,door-ogmnl-wash
 745,excludes-stop,door-ogmnl-washel
-745,excludes-stop,node-102-lobby
-745,excludes-stop,node-102-street
-745,excludes-stop,node-103-lobby
-745,excludes-stop,node-103-platform
-745,excludes-stop,node-104-lobby
-745,excludes-stop,node-104-street
 745,excludes-stop,node-105-crplatform
 745,excludes-stop,node-105-lobby
+745,excludes-stop,node-451-lobby
+745,excludes-stop,node-451-street
+745,excludes-stop,node-452-lobby
+745,excludes-stop,node-452-street
+745,excludes-stop,node-453-lobby
+745,excludes-stop,node-453-platform
 745,excludes-stop,node-743-lobby
 745,excludes-stop,node-743-platform
 745,excludes-stop,node-744-lobby
@@ -10332,11 +10349,6 @@ facility_id,property_id,value
 745,excludes-stop,node-745-street
 745,excludes-stop,node-746-lobby
 745,excludes-stop,node-746-platform
-745,excludes-stop,node-800-crplatform
-745,excludes-stop,node-800-lobby
-745,excludes-stop,node-800-street
-745,excludes-stop,node-801-lobby
-745,excludes-stop,node-801-platform
 745,excludes-stop,node-ogmnl-banksstair-lobby
 745,excludes-stop,node-ogmnl-banksstair-street
 745,excludes-stop,node-ogmnl-crstair-crplatform
@@ -10353,14 +10365,14 @@ facility_id,property_id,value
 746,excludes-stop,door-ogmnl-banks
 746,excludes-stop,door-ogmnl-wash
 746,excludes-stop,door-ogmnl-washel
-746,excludes-stop,node-102-lobby
-746,excludes-stop,node-102-street
-746,excludes-stop,node-103-lobby
-746,excludes-stop,node-103-platform
-746,excludes-stop,node-104-lobby
-746,excludes-stop,node-104-street
 746,excludes-stop,node-105-crplatform
 746,excludes-stop,node-105-lobby
+746,excludes-stop,node-451-lobby
+746,excludes-stop,node-451-street
+746,excludes-stop,node-452-lobby
+746,excludes-stop,node-452-street
+746,excludes-stop,node-453-lobby
+746,excludes-stop,node-453-platform
 746,excludes-stop,node-743-lobby
 746,excludes-stop,node-743-platform
 746,excludes-stop,node-744-lobby
@@ -10368,11 +10380,6 @@ facility_id,property_id,value
 746,excludes-stop,node-745-street
 746,excludes-stop,node-746-lobby
 746,excludes-stop,node-746-platform
-746,excludes-stop,node-800-crplatform
-746,excludes-stop,node-800-lobby
-746,excludes-stop,node-800-street
-746,excludes-stop,node-801-lobby
-746,excludes-stop,node-801-platform
 746,excludes-stop,node-ogmnl-banksstair-lobby
 746,excludes-stop,node-ogmnl-banksstair-street
 746,excludes-stop,node-ogmnl-crstair-crplatform
@@ -10386,9 +10393,18 @@ facility_id,property_id,value
 747,alternate-service-text,"A shuttle bus will be available to transport customers between Winchester Center and North Stations. To exit, exit the train at North Station and find station personnel or use a station call box to request the shuttle bus to Winchester Center. To board, find station personnel or use a station call box at Winchester Center to request the shuttle bus to North Station."
 747,excludes-stop,NHRML-0078
 747,excludes-stop,NHRML-0078-01
-748,alternate-service-text,"A shuttle bus will be available to transport customers between Winchester Center and North Stations. To exit, exit the train at North Station and find station personnel or use a station call box to request the shuttle bus to Winchester Center. To board, find station personnel or use a station call box at Winchester Center to request the shuttle bus to North Station."
+748,alternate-service-text,Please use nearby Winchester Center Elevator 749.
 748,excludes-stop,NHRML-0078
 748,excludes-stop,NHRML-0078-02
+749,alternate-service-text,Please use nearby Winchester Center Elevator 748.
+749,excludes-stop,NHRML-0078
+749,excludes-stop,NHRML-0078-02
+750,alternate-service-text,To exit: Go to the east end of the platform. Take the ramp to Washington St. To board: Go east on North Ave for one block. Turn right on Washington St. Take the ramp to the outbound platform.
+750,excludes-stop,WML-0177
+750,excludes-stop,WML-0177-02
+751,alternate-service-text,To exit: Go to the east end of the platform. Take the ramp to Washington St. To board: Go south on Main St. Turn left on South Ave and go one block. Turn left on Washington St. Take the ramp to the inbound platform.
+751,excludes-stop,WML-0177
+751,excludes-stop,WML-0177-01
 756,alternate-service-text,Please use nearby Kendall/MIT Elevator 757.
 756,excludes-stop,70072
 756,excludes-stop,door-knncl-nbmain
@@ -10596,76 +10612,6 @@ facility_id,property_id,value
 779,excludes-stop,node-NBM-0374-northstair-platform
 779,excludes-stop,node-NBM-0374-southstair-bridge
 779,excludes-stop,node-NBM-0374-southstair-platform
-800,alternate-service-text,"To exit, upon exiting the faregates, turn left and proceed to Oak Grove Elevator 745 to access the busway and parking lot. To board, proceed to the station entrance located near the busway and use Oak Grove Elevator 745 to access the lobby. Alternatively, customers may utilize the Oak Grove Elevator 744 (Lobby to Washington St) located at the station entrance on Washington St."
-800,excludes-stop,9328
-800,excludes-stop,door-ogmnl-wash
-800,excludes-stop,door-ogmnl-washel
-800,excludes-stop,node-102-lobby
-800,excludes-stop,node-102-street
-800,excludes-stop,node-103-lobby
-800,excludes-stop,node-103-platform
-800,excludes-stop,node-104-lobby
-800,excludes-stop,node-104-street
-800,excludes-stop,node-105-crplatform
-800,excludes-stop,node-105-lobby
-800,excludes-stop,node-743-lobby
-800,excludes-stop,node-743-platform
-800,excludes-stop,node-744-lobby
-800,excludes-stop,node-745-lobby
-800,excludes-stop,node-745-street
-800,excludes-stop,node-746-lobby
-800,excludes-stop,node-746-platform
-800,excludes-stop,node-800-crplatform
-800,excludes-stop,node-800-lobby
-800,excludes-stop,node-800-street
-800,excludes-stop,node-801-lobby
-800,excludes-stop,node-801-platform
-800,excludes-stop,node-ogmnl-banksstair-lobby
-800,excludes-stop,node-ogmnl-banksstair-street
-800,excludes-stop,node-ogmnl-crstair-crplatform
-800,excludes-stop,node-ogmnl-crstair-lobby
-800,excludes-stop,node-ogmnl-farepaid
-800,excludes-stop,node-ogmnl-fareunpaid
-800,excludes-stop,node-ogmnl-olstair-lobby
-800,excludes-stop,node-ogmnl-olstair-platform
-800,excludes-stop,node-ogmnl-washstair-lobby
-800,excludes-stop,node-ogmnl-washstair-street
-801,alternate-service-text,"A shuttle bus will be available to transport customers between Oak Grove and Malden Center. To exit at Oak Grove, exit the train at Malden Center and find station personnel or use a station call box to request the shuttle bus to Oak Grove. To board the Orange Line, find station personnel or use a station call box to request the shuttle bus to Malden Center."
-801,excludes-stop,9328
-801,excludes-stop,WR-0053-S
-801,excludes-stop,door-ogmnl-banks
-801,excludes-stop,door-ogmnl-wash
-801,excludes-stop,door-ogmnl-washel
-801,excludes-stop,node-102-lobby
-801,excludes-stop,node-102-street
-801,excludes-stop,node-103-lobby
-801,excludes-stop,node-103-platform
-801,excludes-stop,node-104-lobby
-801,excludes-stop,node-104-street
-801,excludes-stop,node-105-crplatform
-801,excludes-stop,node-105-lobby
-801,excludes-stop,node-743-lobby
-801,excludes-stop,node-743-platform
-801,excludes-stop,node-744-lobby
-801,excludes-stop,node-745-lobby
-801,excludes-stop,node-745-street
-801,excludes-stop,node-746-lobby
-801,excludes-stop,node-746-platform
-801,excludes-stop,node-800-crplatform
-801,excludes-stop,node-800-lobby
-801,excludes-stop,node-800-street
-801,excludes-stop,node-801-lobby
-801,excludes-stop,node-801-platform
-801,excludes-stop,node-ogmnl-banksstair-lobby
-801,excludes-stop,node-ogmnl-banksstair-street
-801,excludes-stop,node-ogmnl-crstair-crplatform
-801,excludes-stop,node-ogmnl-crstair-lobby
-801,excludes-stop,node-ogmnl-farepaid
-801,excludes-stop,node-ogmnl-fareunpaid
-801,excludes-stop,node-ogmnl-olstair-lobby
-801,excludes-stop,node-ogmnl-olstair-platform
-801,excludes-stop,node-ogmnl-washstair-lobby
-801,excludes-stop,node-ogmnl-washstair-street
 802,alternate-service-text,Please use nearby State Elevator 967. 
 802,excludes-stop,70022
 802,excludes-stop,70042
@@ -11259,7 +11205,12 @@ facility_id,property_id,value
 812,excludes-stop,node-pktrm-wintfare-paid
 812,excludes-stop,node-pktrm-wintfare-unpaid
 813,alternate-service-text,"To exit, use Elevator 961 located at the opposite end of the platform. To board, travel east down the Alewife Linear Path to the Russell Field entrance, and use Elevator 961."
-813,excludes-stop,141
+813,excludes-stop,14112
+813,excludes-stop,14118
+813,excludes-stop,14120
+813,excludes-stop,14121
+813,excludes-stop,14122
+813,excludes-stop,14123
 813,excludes-stop,9070061
 813,excludes-stop,door-alfcl-alewife
 813,excludes-stop,door-alfcl-alewifes
@@ -11303,6 +11254,7 @@ facility_id,property_id,value
 813,excludes-stop,node-961-top
 813,excludes-stop,node-alfcl-buswaynorthstairs-bottom
 813,excludes-stop,node-alfcl-buswaynorthstairs-top
+813,excludes-stop,node-alfcl-buswayplatform-middle
 813,excludes-stop,node-alfcl-buswayramp-bottom
 813,excludes-stop,node-alfcl-buswayramp-landing
 813,excludes-stop,node-alfcl-buswayramp-top
@@ -11350,7 +11302,12 @@ facility_id,property_id,value
 813,excludes-stop,node-alfcl-wgaragestairs-second
 813,excludes-stop,node-alfcl-wgaragestairs-third
 814,alternate-service-text,Please use the nearby Alewife Elevator 815.
-814,excludes-stop,141
+814,excludes-stop,14112
+814,excludes-stop,14118
+814,excludes-stop,14120
+814,excludes-stop,14121
+814,excludes-stop,14122
+814,excludes-stop,14123
 814,excludes-stop,9070061
 814,excludes-stop,door-alfcl-alewife
 814,excludes-stop,door-alfcl-alewifes
@@ -11394,6 +11351,7 @@ facility_id,property_id,value
 814,excludes-stop,node-961-top
 814,excludes-stop,node-alfcl-buswaynorthstairs-bottom
 814,excludes-stop,node-alfcl-buswaynorthstairs-top
+814,excludes-stop,node-alfcl-buswayplatform-middle
 814,excludes-stop,node-alfcl-buswayramp-bottom
 814,excludes-stop,node-alfcl-buswayramp-landing
 814,excludes-stop,node-alfcl-buswayramp-top
@@ -11441,7 +11399,12 @@ facility_id,property_id,value
 814,excludes-stop,node-alfcl-wgaragestairs-second
 814,excludes-stop,node-alfcl-wgaragestairs-third
 815,alternate-service-text,Please use the nearby Alewife Elevator 814.
-815,excludes-stop,141
+815,excludes-stop,14112
+815,excludes-stop,14118
+815,excludes-stop,14120
+815,excludes-stop,14121
+815,excludes-stop,14122
+815,excludes-stop,14123
 815,excludes-stop,9070061
 815,excludes-stop,door-alfcl-alewife
 815,excludes-stop,door-alfcl-alewifes
@@ -11485,6 +11448,7 @@ facility_id,property_id,value
 815,excludes-stop,node-961-top
 815,excludes-stop,node-alfcl-buswaynorthstairs-bottom
 815,excludes-stop,node-alfcl-buswaynorthstairs-top
+815,excludes-stop,node-alfcl-buswayplatform-middle
 815,excludes-stop,node-alfcl-buswayramp-bottom
 815,excludes-stop,node-alfcl-buswayramp-landing
 815,excludes-stop,node-alfcl-buswayramp-top
@@ -11604,7 +11568,6 @@ facility_id,property_id,value
 817,excludes-stop,node-davis-holland-lobby
 821,alternate-service-text,"To exit, use Harvard Elevator 973 located at the end of upper busway. To board, use Harvard Elevator 973 located at the corner of Brattle St and Brattle Sq."
 821,excludes-stop,76126
-821,excludes-stop,76129
 821,excludes-stop,door-harsq-brattle
 821,excludes-stop,door-harsq-church
 821,excludes-stop,door-harsq-yard
@@ -11830,7 +11793,6 @@ facility_id,property_id,value
 840,excludes-stop,29011
 840,excludes-stop,29012
 840,excludes-stop,29013
-840,excludes-stop,29014
 840,excludes-stop,door-sull-main
 840,excludes-stop,node-307-lobby
 840,excludes-stop,node-307-platform
@@ -13050,7 +13012,6 @@ facility_id,property_id,value
 881,excludes-stop,29011
 881,excludes-stop,29012
 881,excludes-stop,29013
-881,excludes-stop,29014
 881,excludes-stop,70030
 881,excludes-stop,door-sull-main
 881,excludes-stop,node-307-lobby
@@ -15134,6 +15095,7 @@ facility_id,property_id,value
 931,alternate-service-text,"To access the Bowdoin platform or Bremen St lobby from the Wonderland platform, use Airport Elevator 956 located in the unpaid section of the busway lobby. To access the Wonderland platform or Airport busway from the Bowdoin platform, use Airport Elevator 955 located in the unpaid section of the Bremen St lobby."
 931,excludes-stop,70047
 931,excludes-stop,7096
+931,excludes-stop,70961
 931,excludes-stop,7097
 931,excludes-stop,door-aport-bremen
 931,excludes-stop,door-aport-buses
@@ -15168,6 +15130,7 @@ facility_id,property_id,value
 932,alternate-service-text,"To access the Wonderland platform or Airport busway from the Bowdoin platform, use Airport Elevator 955 located in the unpaid section of the Bremen St lobby. To access the Bowdoin platform or Bremen St lobby from the Wonderland platform, use Airport Elevator 956 located in the unpaid section of the busway lobby."
 932,excludes-stop,70048
 932,excludes-stop,7096
+932,excludes-stop,70961
 932,excludes-stop,7097
 932,excludes-stop,door-aport-bremen
 932,excludes-stop,door-aport-buses
@@ -15766,6 +15729,7 @@ facility_id,property_id,value
 955,excludes-stop,70047
 955,excludes-stop,70048
 955,excludes-stop,7096
+955,excludes-stop,70961
 955,excludes-stop,7097
 955,excludes-stop,node-407-bridge
 955,excludes-stop,node-407-platform
@@ -15799,6 +15763,7 @@ facility_id,property_id,value
 956,excludes-stop,70047
 956,excludes-stop,70048
 956,excludes-stop,7096
+956,excludes-stop,70961
 956,excludes-stop,7097
 956,excludes-stop,node-407-bridge
 956,excludes-stop,node-407-platform
@@ -15867,7 +15832,12 @@ facility_id,property_id,value
 958,excludes-stop,node-fldcr-farepaid
 958,excludes-stop,node-fldcr-fareunpaid
 961,alternate-service-text,"To exit, use Elevator 813 located at the opposite end of the platform to access the main lobby. To board, travel west down the Alewife Linear Path to the main station entrance and use Elevator 813."
-961,excludes-stop,141
+961,excludes-stop,14112
+961,excludes-stop,14118
+961,excludes-stop,14120
+961,excludes-stop,14121
+961,excludes-stop,14122
+961,excludes-stop,14123
 961,excludes-stop,9070061
 961,excludes-stop,door-alfcl-alewife
 961,excludes-stop,door-alfcl-alewifes
@@ -15910,6 +15880,7 @@ facility_id,property_id,value
 961,excludes-stop,node-961-top
 961,excludes-stop,node-alfcl-buswaynorthstairs-bottom
 961,excludes-stop,node-alfcl-buswaynorthstairs-top
+961,excludes-stop,node-alfcl-buswayplatform-middle
 961,excludes-stop,node-alfcl-buswayramp-bottom
 961,excludes-stop,node-alfcl-buswayramp-landing
 961,excludes-stop,node-alfcl-buswayramp-top
@@ -16322,7 +16293,6 @@ facility_id,property_id,value
 972,excludes-stop,node-kencl-wbstair-platform
 973,alternate-service-text,"To exit, use Harvard Elevator 821 located in the main lobby. To board, use Harvard Elevator 821 located at the corner of JFK St, Brattle St and Mass Ave (Harvard Sq)."
 973,excludes-stop,76126
-973,excludes-stop,76129
 973,excludes-stop,door-harsq-church
 973,excludes-stop,door-harsq-square
 973,excludes-stop,door-harsq-yard
@@ -17480,6 +17450,9 @@ bike-WML-0135,secured,2
 bike-WML-0147,capacity,12
 bike-WML-0147,enclosed,1
 bike-WML-0147,secured,2
+bike-WML-0177,capacity,40
+bike-WML-0177,enclosed,1
+bike-WML-0177,secured,2
 bike-WML-0199,capacity,32
 bike-WML-0199,enclosed,2
 bike-WML-0199,secured,2
@@ -17852,28 +17825,29 @@ ev-WML-0442-garage,capacity,4
 ev-alfcl-garage,capacity,6
 ev-brntn-garage,capacity,5
 ev-forhl,capacity,3
+ev-nqncy-garage-hancock,capacity,4
 ev-qamnl-garage,capacity,2
 ev-wondl-garage,capacity,4
 ev-woodl-garage,capacity,4
-fake_5a7e_af2a_395,excludes-stop,NEC-2173
-fake_99c7_af2a_392,excludes-stop,NHRML-0254
-fake_99c7_c4e9_391,excludes-stop,NHRML-0254
-fake_b748_c4e7_402,excludes-stop,NEC-1891
-fake_b748_c4e7_402,excludes-stop,NEC-1891-02
-fake_b748_c4e7_402,excludes-stop,door-NEC-1891-barton
-fake_b748_c4e7_402,excludes-stop,door-NEC-1891-pinebus
-fake_b748_c4e7_402,excludes-stop,door-NEC-1891-pinedrop
-fake_b748_c4e7_403,excludes-stop,NEC-1891
-fake_b748_c4e7_403,excludes-stop,NEC-1891-02
-fake_b748_c4e7_403,excludes-stop,door-NEC-1891-barton
-fake_b748_c4e7_403,excludes-stop,door-NEC-1891-pinebus
-fake_b748_c4e7_403,excludes-stop,door-NEC-1891-pinedrop
-fake_c2ed_07bd_393,excludes-stop,NEC-1851
-fake_c2ed_07bd_393,excludes-stop,NEC-1851-03
-fake_c2ed_07bd_393,excludes-stop,NEC-1851-05
-fake_c2ed_e7ea_394,excludes-stop,NEC-1851
-fake_c2ed_e7ea_394,excludes-stop,NEC-1851-01
-fake_c2ed_e7ea_394,excludes-stop,NEC-1851-02
+fake_5a7e_af2a_393,excludes-stop,NEC-2173
+fake_99c7_af2a_390,excludes-stop,NHRML-0254
+fake_99c7_c4e9_389,excludes-stop,NHRML-0254
+fake_b748_c4e7_400,excludes-stop,NEC-1891
+fake_b748_c4e7_400,excludes-stop,NEC-1891-02
+fake_b748_c4e7_400,excludes-stop,door-NEC-1891-barton
+fake_b748_c4e7_400,excludes-stop,door-NEC-1891-pinebus
+fake_b748_c4e7_400,excludes-stop,door-NEC-1891-pinedrop
+fake_b748_c4e7_401,excludes-stop,NEC-1891
+fake_b748_c4e7_401,excludes-stop,NEC-1891-02
+fake_b748_c4e7_401,excludes-stop,door-NEC-1891-barton
+fake_b748_c4e7_401,excludes-stop,door-NEC-1891-pinebus
+fake_b748_c4e7_401,excludes-stop,door-NEC-1891-pinedrop
+fake_c2ed_07bd_391,excludes-stop,NEC-1851
+fake_c2ed_07bd_391,excludes-stop,NEC-1851-03
+fake_c2ed_07bd_391,excludes-stop,NEC-1851-05
+fake_c2ed_e7ea_392,excludes-stop,NEC-1851
+fake_c2ed_e7ea_392,excludes-stop,NEC-1851-01
+fake_c2ed_e7ea_392,excludes-stop,NEC-1851-02
 fvm-201001,enclosed,1
 fvm-201001,excludes-stop,door-aqucl-mcknorth
 fvm-201001,excludes-stop,door-aqucl-mcksouth
@@ -20322,6 +20296,11 @@ highlevel-WML-0035-1,excludes-stop,WML-0035-02
 highlevel-WML-0035-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-WML-0035-2,excludes-stop,WML-0035-01
 highlevel-WML-0035-2,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-WML-0177-1,excludes-stop,WML-0177-01
+highlevel-WML-0177-1,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-WML-0177-2,excludes-stop,WML-0177-02
+highlevel-WML-0177-2,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-WR-0163-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-WR-0264-2,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-bbsta-1,excludes-stop,11384
 highlevel-bbsta-1,excludes-stop,176
@@ -21017,7 +20996,6 @@ park-ER-0115-garage,owner,MBTA
 park-ER-0115-garage,payment-app,PayByPhone
 park-ER-0115-garage,payment-app-id,4237
 park-ER-0115-garage,payment-app-url,https://www.paybyphone.com/
-park-ER-0115-garage,payment-form-accepted,cash
 park-ER-0115-garage,payment-form-accepted,mobile-app
 park-ER-0115-garage,weekday-typical-utilization,127
 park-ER-0117-ellis,attended,2
@@ -21053,7 +21031,6 @@ park-ER-0117-garage,owner,MBTA
 park-ER-0117-garage,payment-app,PayByPhone
 park-ER-0117-garage,payment-app-id,4237
 park-ER-0117-garage,payment-app-url,https://www.paybyphone.com/
-park-ER-0117-garage,payment-form-accepted,cash
 park-ER-0117-garage,payment-form-accepted,mobile-app
 park-ER-0117-garage,weekday-typical-utilization,127
 park-ER-0128,attended,2
@@ -21657,8 +21634,6 @@ park-FS-0049,note,"Take advantage of free weekday parking (regularly $4 per day)
 park-FS-0049,operator,Kraft Group
 park-FS-0049,overnight-allowed,no
 park-FS-0049,owner,Private
-park-FS-0049,payment-form-accepted,invoice
-park-FS-0049,payment-form-accepted,mobile-app
 park-GB-0198,attended,2
 park-GB-0198,capacity,117
 park-GB-0198,capacity-accessible,5
@@ -22244,9 +22219,8 @@ park-NBM-0546,municipality,New Bedford
 park-NBM-0546,operator,New Bedford Port Authority
 park-NBM-0546,overnight-allowed,yes-except-snow
 park-NBM-0546,owner,New Bedford Port Authority
-park-NBM-0546,payment-app,xpresspark
+park-NBM-0546,payment-form-accepted,XpressPark
 park-NBM-0546,payment-form-accepted,credit-debit-card
-park-NBM-0546,payment-form-accepted,mobile-app
 park-NEC-1659-garage,attended,1
 park-NEC-1659-garage,capacity,1100
 park-NEC-1659-garage,contact,Rhode Island Department of Transportation
@@ -22844,13 +22818,18 @@ park-WML-0177,capacity,71
 park-WML-0177,capacity-accessible,4
 park-WML-0177,contact,"Town of Natick, Community & Economic Development Office"
 park-WML-0177,contact-phone,508-647-6450
-park-WML-0177,contact-url,http://www.natickma.gov/166/Transportation-Parking
+park-WML-0177,contact-url,https://www.natickma.gov/2154/Parking-Driving
 park-WML-0177,enclosed,2
-park-WML-0177,fee-daily,Town permit required
+park-WML-0177,fee-daily,$7
 park-WML-0177,municipality,Natick
 park-WML-0177,note,"Town of Natick is responsible for parking maintenance, payments, and snow removal."
 park-WML-0177,operator,Town of Natick
+park-WML-0177,overnight-allowed,no
 park-WML-0177,owner,City/Town
+park-WML-0177,payment-app,PassportParking
+park-WML-0177,payment-app-id,4309
+park-WML-0177,payment-app-url,https://ppprk.com/park/
+park-WML-0177,payment-form-accepted,mobile-app
 park-WML-0199,attended,2
 park-WML-0199,capacity,178
 park-WML-0199,capacity-accessible,6
@@ -23392,7 +23371,7 @@ park-forhl,payment-form-accepted,mobile-app
 park-forhl,weekday-typical-utilization,180
 park-longw,attended,2
 park-longw,capacity,11
-park-longw,contact,LRTA Parking
+park-longw,contact,"Town of Brookline, Transportation Division"
 park-longw,contact-phone,617-730-2177
 park-longw,contact-url,http://www.brooklinema.gov/147/Parking-Meters
 park-longw,enclosed,2
@@ -23480,6 +23459,24 @@ park-north-garage,operator,ProPark
 park-north-garage,owner,Private
 park-north-garage,payment-form-accepted,cash
 park-north-garage,payment-form-accepted,credit-debit-card
+park-nqncy-garage-hancock,attended,1
+park-nqncy-garage-hancock,capacity,836
+park-nqncy-garage-hancock,capacity-accessible,18
+park-nqncy-garage-hancock,car-sharing,Zipcar
+park-nqncy-garage-hancock,contact,MBTA Customer Support
+park-nqncy-garage-hancock,contact-phone,617-222-3200
+park-nqncy-garage-hancock,contact-url,https://www.mbta.com/customer-support
+park-nqncy-garage-hancock,enclosed,1
+park-nqncy-garage-hancock,fee-daily,Mon-Fri: $5 | Sat-Sun: $3
+park-nqncy-garage-hancock,municipality,Quincy
+park-nqncy-garage-hancock,operator,Keolis Commuter Services
+park-nqncy-garage-hancock,overnight-allowed,yes-except-snow
+park-nqncy-garage-hancock,owner,MBTA
+park-nqncy-garage-hancock,payment-app,PayByPhone
+park-nqncy-garage-hancock,payment-app-id,4277
+park-nqncy-garage-hancock,payment-app-url,https://www.paybyphone.com/
+park-nqncy-garage-hancock,payment-form-accepted,invoice
+park-nqncy-garage-hancock,payment-form-accepted,mobile-app
 park-nqncy-newport,attended,2
 park-nqncy-newport,capacity,353
 park-nqncy-newport,capacity-accessible,12
@@ -23491,6 +23488,7 @@ park-nqncy-newport,enclosed,2
 park-nqncy-newport,fee-daily,Mon-Fri: $5 | Sat-Sun: $3
 park-nqncy-newport,fee-monthly,$87.50
 park-nqncy-newport,municipality,Quincy
+park-nqncy-newport,note,Permanently Closed as of 9/15/25
 park-nqncy-newport,operator,Keolis Commuter Services
 park-nqncy-newport,overnight-allowed,no
 park-nqncy-newport,owner,MBTA
@@ -24000,12 +23998,6 @@ retailsale-302005,dispenses,fare-media
 retailsale-302005,enclosed,1
 retailsale-302005,payment-form-accepted,cash
 retailsale-302005,payment-form-accepted,credit-debit-card
-retailsale-302006,address,"324 Revere Beach Pkwy, Chelsea, MA 02150"
-retailsale-302006,contact-phone,617-889-9853
-retailsale-302006,dispenses,fare-media
-retailsale-302006,enclosed,1
-retailsale-302006,payment-form-accepted,cash
-retailsale-302006,payment-form-accepted,credit-debit-card
 retailsale-302007,address,"82 River Street, Mattapan, MA 02126"
 retailsale-302007,contact-phone,617-296-7032
 retailsale-302007,dispenses,fare-media
@@ -24114,12 +24106,6 @@ retailsale-302024,dispenses,fare-media
 retailsale-302024,enclosed,1
 retailsale-302024,payment-form-accepted,cash
 retailsale-302024,payment-form-accepted,credit-debit-card
-retailsale-302025,address,"430 Geneva Ave, Dorchester, MA 02122"
-retailsale-302025,contact-phone,617-265-3931
-retailsale-302025,dispenses,fare-media
-retailsale-302025,enclosed,1
-retailsale-302025,payment-form-accepted,cash
-retailsale-302025,payment-form-accepted,credit-debit-card
 retailsale-302026,address,"454 Harvard Street, Brookline, MA 02446"
 retailsale-302026,contact-phone,617-713-0651
 retailsale-302026,dispenses,fare-media
@@ -24339,12 +24325,6 @@ retailsale-302062,dispenses,fare-media
 retailsale-302062,enclosed,1
 retailsale-302062,payment-form-accepted,cash
 retailsale-302062,payment-form-accepted,credit-debit-card
-retailsale-302063,address,"230 Meridian Street, East Boston, MA 02128"
-retailsale-302063,contact-phone,617-561-0445
-retailsale-302063,dispenses,fare-media
-retailsale-302063,enclosed,1
-retailsale-302063,payment-form-accepted,cash
-retailsale-302063,payment-form-accepted,credit-debit-card
 retailsale-302064,address,"71 Front Street, Scituate, MA 02066"
 retailsale-302064,contact-phone,781-545-4896
 retailsale-302064,dispenses,fare-media
@@ -24417,12 +24397,6 @@ retailsale-302075,dispenses,fare-media
 retailsale-302075,enclosed,1
 retailsale-302075,payment-form-accepted,cash
 retailsale-302075,payment-form-accepted,credit-debit-card
-retailsale-302076,address,"20 Irving Street, Framingham, MA 01702"
-retailsale-302076,contact-phone,508-861-3295
-retailsale-302076,dispenses,fare-media
-retailsale-302076,enclosed,1
-retailsale-302076,payment-form-accepted,cash
-retailsale-302076,payment-form-accepted,credit-debit-card
 retailsale-302077,address,"2002 Beacon St, Brighton, MA 02135"
 retailsale-302077,contact-phone,617-738-9692
 retailsale-302077,dispenses,fare-media
@@ -24477,12 +24451,6 @@ retailsale-302085,dispenses,fare-media
 retailsale-302085,enclosed,1
 retailsale-302085,payment-form-accepted,cash
 retailsale-302085,payment-form-accepted,credit-debit-card
-retailsale-302086,address,"850 Commonwealth Ave., Boston, MA 02115"
-retailsale-302086,contact-phone,617-232-1188
-retailsale-302086,dispenses,fare-media
-retailsale-302086,enclosed,1
-retailsale-302086,payment-form-accepted,cash
-retailsale-302086,payment-form-accepted,credit-debit-card
 retailsale-302087,address,"20 Norwood St, Everett, MA 02149"
 retailsale-302087,contact-phone,617-387-0393
 retailsale-302087,dispenses,fare-media
@@ -24501,12 +24469,6 @@ retailsale-302089,dispenses,fare-media
 retailsale-302089,enclosed,1
 retailsale-302089,payment-form-accepted,cash
 retailsale-302089,payment-form-accepted,credit-debit-card
-retailsale-302090,address,"546 Centre St, Boston, MA 02130"
-retailsale-302090,contact-phone,617-942-7670
-retailsale-302090,dispenses,fare-media
-retailsale-302090,enclosed,1
-retailsale-302090,payment-form-accepted,cash
-retailsale-302090,payment-form-accepted,credit-debit-card
 retailsale-302091,address,"100 Gaspee St, Providence, RI 02903"
 retailsale-302091,contact-phone,401-273-3010
 retailsale-302091,dispenses,fare-media
@@ -24638,6 +24600,12 @@ retailsale-302112,dispenses,fare-media
 retailsale-302112,enclosed,1
 retailsale-302112,payment-form-accepted,cash
 retailsale-302112,payment-form-accepted,credit-debit-card
+retailsale-302113,address,"707 Shirley Street, Winthrop, MA 02152"
+retailsale-302113,contact-phone,617-207-9092
+retailsale-302113,dispenses,fare-media
+retailsale-302113,enclosed,1
+retailsale-302113,payment-form-accepted,cash
+retailsale-302113,payment-form-accepted,credit-debit-card
 subplat-DB-0095-2,excludes-stop,FB-0095-04
 subplat-DB-0095-2,excludes-stop,FB-0095-05
 subplat-DB-0095-2,excludes-stop,NEC-2192-03
