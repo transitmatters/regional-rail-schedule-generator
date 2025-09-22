@@ -320,13 +320,71 @@ def _filter_shuttle_routes_from_file(input_file_path: str, output_file_path: str
                 outfile.write(line)
 
 
+def _get_holiday_only_service_ids(gtfs_directory: str):
+    """Get service IDs that only appear in calendar_dates.txt (holiday-only services)."""
+    # These are the specific holiday service IDs that only appear in calendar_dates.txt
+    # and not in calendar.txt (based on analysis of the actual data)
+    holiday_only_services = {
+        "IndigenousPeoplesDay",
+        "VeteransDay",
+        "VeteransDay-DayafterThanksgivingDay",
+        "ThanksgivingDay",
+        "DayafterThanksgivingDay",
+    }
+
+    return holiday_only_services
+
+
+def _filter_holiday_services_from_file(input_file_path: str, output_file_path: str, holiday_only_services: set):
+    """Filter out holiday-only services from a GTFS file."""
+    with open(input_file_path, "r") as infile, open(output_file_path, "w") as outfile:
+        # Read header
+        header = infile.readline()
+        outfile.write(header)
+
+        # Filter out lines containing holiday-only services
+        for line in infile:
+            # Split line to check service_id column (2nd column in most GTFS files)
+            parts = line.split(",")
+            if len(parts) >= 2:
+                service_id = parts[1].strip()  # service_id is typically the 2nd column
+                if service_id not in holiday_only_services:
+                    outfile.write(line)
+            else:
+                # If we can't parse the line properly, include it to be safe
+                outfile.write(line)
+
+
+def _filter_gtfs_file(input_file_path: str, output_file_path: str, file_name: str, holiday_only_services: set):
+    """Apply appropriate filtering based on file type."""
+    if file_name in ["routes.txt", "route_patterns.txt", "trips.txt", "stop_times.txt", "relevant_stop_times.txt"]:
+        # Apply both shuttle and holiday filtering to these files
+        with tempfile.NamedTemporaryFile(mode="w", delete=False) as temp_file:
+            temp_path = temp_file.name
+
+        # First filter shuttles
+        _filter_shuttle_routes_from_file(input_file_path, temp_path)
+        # Then filter holiday-only services
+        _filter_holiday_services_from_file(temp_path, output_file_path, holiday_only_services)
+
+        # Clean up temp file
+        os.unlink(temp_path)
+    else:
+        # For other files, just copy as-is
+        shutil.copy2(input_file_path, output_file_path)
+
+
 def archive_scenario_gtfs(scenario_name: str):
     output_filename = os.path.abspath(os.path.join(__file__, "..", "..", "data", f"{scenario_name}.tar.gz"))
     directory_path = os.path.abspath(os.path.join(__file__, "..", "..", "data", scenario_name))
 
-    # For gtfs-present, only include files that are common to all GTFS bundles and filter shuttle routes
+    # Get holiday-only service IDs
+    holiday_only_services = _get_holiday_only_service_ids(directory_path)
+
+    # Determine which files to include
     if scenario_name == "gtfs-present":
-        common_files = {
+        # For gtfs-present, only include files that are common to all GTFS bundles
+        files_to_include = {
             "calendar.txt",
             "relevant_stop_times.txt",
             "route_patterns.txt",
@@ -336,17 +394,18 @@ def archive_scenario_gtfs(scenario_name: str):
             "transfers.txt",
             "trips.txt",
         }
-
-        # Create a temporary directory for filtered files
-        with tempfile.TemporaryDirectory() as temp_dir:
-            with tarfile.open(output_filename, "w:gz") as tar:
-                for file_name in common_files:
-                    file_path = os.path.join(directory_path, file_name)
-                    if os.path.exists(file_path):
-                        # Filter shuttle routes from the file
-                        temp_file_path = os.path.join(temp_dir, file_name)
-                        _filter_shuttle_routes_from_file(file_path, temp_file_path)
-                        tar.add(temp_file_path, arcname=file_name)
+        file_list = [f for f in files_to_include if os.path.exists(os.path.join(directory_path, f))]
     else:
+        # For regional-rail and expansion bundles, include all files
+        file_list = [f for f in os.listdir(directory_path) if os.path.isfile(os.path.join(directory_path, f))]
+
+    # Create a temporary directory for filtered files
+    with tempfile.TemporaryDirectory() as temp_dir:
         with tarfile.open(output_filename, "w:gz") as tar:
-            tar.add(directory_path, arcname=os.path.basename(directory_path))
+            for file_name in file_list:
+                file_path = os.path.join(directory_path, file_name)
+                # Apply appropriate filtering to the file
+                temp_file_path = os.path.join(temp_dir, file_name)
+                _filter_gtfs_file(file_path, temp_file_path, file_name, holiday_only_services)
+                # Add file with directory structure (scenario_name/file_name)
+                tar.add(temp_file_path, arcname=f"{scenario_name}/{file_name}")
