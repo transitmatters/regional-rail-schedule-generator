@@ -23,6 +23,50 @@ class Station(object):
 
 
 @dataclass
+class InfillStation(Station):
+    """
+    A specialized Station class for infill stations that provides consistent ID prefixes
+    based on the route type.
+    
+    Route types and their corresponding prefixes:
+    - 'regional_rail': Regional Rail infill stations -> 'place-rr-'
+    - 'green_line_extension': Green Line Extension -> 'place-glx-'
+    - 'blue_line': Blue Line extensions -> 'place-blx-'
+    - 'orange_line': Orange Line extensions -> 'place-olx-'
+    - 'red_line': Red Line extensions -> 'place-rlx-'
+    - 'silver_line': Silver Line extensions -> 'place-slx-'
+    """
+    route_type: str = "regional_rail"
+    
+    # Mapping of route types to their ID prefixes
+    _PREFIX_MAP = {
+        "regional_rail": "place-rr-",
+        "green_line_extension": "place-glx-",
+        "blue_line_extension": "place-blx-",
+        "orange_line_extension": "place-olx-",
+        "red_line_extension": "place-rlx-",
+        "silver_line_extension": "place-slx-"
+    }
+    
+    def __post_init__(self):
+        # Get the prefix for this route type
+        prefix = self._PREFIX_MAP.get(self.route_type, "place-rr-")
+
+        # Convert station name to lowercase, replace spaces and special chars with hyphens
+        station_slug = self.name.lower()
+        station_slug = station_slug.replace(" ", "-").replace("/", "-").replace("'", "")
+        station_slug = station_slug.replace("(", "").replace(")", "")
+        station_slug = station_slug.replace(".", "")
+        # Remove multiple consecutive hyphens
+        while "--" in station_slug:
+            station_slug = station_slug.replace("--", "-")
+        # Remove leading/trailing hyphens
+        station_slug = station_slug.strip("-")
+        
+        self.id = f"{prefix}{station_slug}"
+
+
+@dataclass
 class RoutePattern(object):
     id: str
     stations: List[Union[str, Station]]
