@@ -38,7 +38,9 @@ class GtfsWriter(object):
         self.calendar_rows = []
         self.amenity_rows = []
 
-    def add_route(self, route: Route):
+    def add_route(self, route: Route, route_type_override: str = None):
+        # Use override if provided, otherwise use route's type, default to "2" (rail) for synthetic routes
+        route_type = route_type_override or getattr(route, 'route_type', None) or "2"
         self.route_rows.append(
             {
                 "route_id": route.id,
@@ -46,7 +48,7 @@ class GtfsWriter(object):
                 "route_short_name": "",
                 "route_long_name": route.long_name,
                 "route_desc": "",
-                "route_type": "",
+                "route_type": route_type,
                 "route_url": "",
                 "route_color": "",
                 "route_text_color": "",

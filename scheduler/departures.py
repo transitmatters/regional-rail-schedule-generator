@@ -8,8 +8,7 @@ from synthesize.util import listify, get_pairs
 
 from scheduler.network import create_scheduler_network, SchedulerNetwork
 from scheduler.scheduling_problem import SchedulingProblem
-from scheduler.ordering import get_orderings
-from scheduler.optimize import solve_departure_offsets_for_orderings
+from scheduler.optimize import solve_departure_offsets
 
 
 @listify
@@ -83,8 +82,7 @@ def _create_departure_offset_getter(network: SchedulerNetwork) -> Dict[str, int]
             trips_per_period=route_pattern_id_to_tph,
             network=network,
         )
-        orderings = get_orderings(problem)
-        offsets = solve_departure_offsets_for_orderings(problem, orderings)
+        offsets = solve_departure_offsets(problem)
         tph_dict_cache[key] = offsets
         return offsets
 
