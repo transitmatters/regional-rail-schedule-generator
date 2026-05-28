@@ -16,6 +16,7 @@ needham,1,1,1
 fairmount,1,1,1
 franklin-norwood,1,1,1
 franklin-forge-park,1,1,1
+franklin-foxboro,1,1,1
 greenbush,1,1,1
 plymouth,1,1,1
 new-bedford,1,1,1

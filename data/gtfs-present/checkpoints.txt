@@ -11,6 +11,7 @@ airbs,Airport Station Busway
 alban,Albany Garage
 alewf,Alewife Station
 aleyn,Adams @ Alleyne
+alews,Alewife
 alfcl,Alewife
 almnt,Arlmont Village
 alrmp,Allston Trpk Ramps
@@ -24,8 +25,10 @@ appma,Appleton Street & Massachusetts Avenue
 aqucl,Aquarium
 arlct,Arlington Center
 arlht,Arlington Heights
+arlst,Arlington
 arlwi,Arlington/Winchester Line
 armnl,Arlington
+ashmn,Ashmont
 ashmt,Ashmont Terminal
 asmnl,Ashmont
 astao,Assembly
@@ -49,9 +52,11 @@ bdfch,Bedford & Chauncy Streets
 bdfrd,Bedford Center
 bdfwd,Bedford Woods
 bdoin,Bowdoin Street
+beach,Beachmont
 belco,Belgrade & Corinth Streets (Roslindale Square)
 bell,Bell Circle
 belsq,Bellingham Square (Chelsea)
+bennt,Bennett Alley
 bethi,Beth Israel Hospital @ Fenway
 bevsq,Beverly Square
 bhdud,Blue Hill Avenue @ Dudley Street
@@ -67,7 +72,6 @@ bmmnl,Beachmont
 bndhl,Brandon Hall
 bntns,Benton Square
 bocnh,Boylston @ Chestnut Hill Avenue
-bocla,Boylston St @ Clarendon St
 boham,Boylston @ Hammond
 bomnl,Bowdoin
 boshi,Boston Street @ High Street
@@ -82,6 +86,7 @@ brfli,Broadway @ Felton Street
 brghm,Brigham Circle (Bus)
 brhlb,Brockton/Holbrook Line
 brico,Packard's Corner
+brigh,Brigham Circle
 brkcn,Brook Road @ Central Avenue
 brkhl,Brookline Hills
 brkpk,Brookline Avenue @ Park Drive
@@ -101,12 +106,10 @@ bucen,Boston University Central
 buchb,Buchanan Circle (East Lynn)
 buest,Boston University East
 bumed,BU Medical Campus
-bunco,Bunker Hill & Concord Street
 burlc,Burlington Center
 butlr,Butler
 bvmnl,Brookline Village
 bwcen,Broadway & Central (Revere)
-bwsvl,Bow Street (Somerville)
 bwybc,Broadway & Beacon
 bwysq,Broadway Square @ Salem Street
 cabgr,C @ Cabot Garage
@@ -114,11 +117,14 @@ cacom,Causeway Street & Commercial Street
 camar,Cambridge Street @ Arlington Road
 camwd,Cambridge Street @ Windsor Street
 cancr,Canton Center
+canjs,Canton Junction Station
 capst,Capen Street
 ccmnl,Community College
+ccoll,Community College
 cdrwd,Cedarwood
 cedgr,Cedar Grove
 cenav,Central Avenue
+cenmn,Central St @ Main St
 cenpk,Centennial Park (Peabody)
 censq,"Central Square, Lynn (Busway)"
 chest,Chestnut Street & Western Avenue (Lynn)
@@ -128,9 +134,12 @@ chill,Chestnut Hill Avenue
 chlst,Chelsea
 chmnl,Charles/MGH
 chncl,Chinatown
+chntn,Chinatown
 chnut,Chestnut Avenue (Burlington)
+chrls,Charles/MGH
 chswk,Chiswick Road
 clarh,Clarendon Hill
+cleve,Cleveland Circle
 clift,Cliftondale Square (Saugus)
 clmnl,Cleveland Circle
 clmof,Calvin Road @ Moffat Road (Broad Meadows Middle School)
@@ -148,10 +157,7 @@ cobcr,Cobbs Corner (Canton)
 codmn,Codman Square
 codwd,Coddington Street @ Woodward Avenue (Quincy High School)
 coecl,Copley
-colce,Jackson Square
 coldt,Columbia Road @ Dorchester Avenue
-colma,Massachusetts Avenue
-colda,Columbus Avenue @ Dartmouth Street
 colsq,Columbian Square
 compk,Common Park
 compm,Commonwealth Avenue @ Pamela Court
@@ -161,6 +167,7 @@ conrd,Silver Line Way
 const,Congress Street @ State Street
 cool,Coolidge Corner
 coold,Adams & Cooledge
+coply,Copley
 copsq,Copley Square @ Stuart Street
 copst,Copley (Bus)
 coqui,Columbia Road @ Quincy Street
@@ -209,6 +216,7 @@ evrtc,Everett Square
 ewalp,East Walpole
 ewymt,East Weymouth (Bus)
 fahsp,Centre Street @ Faulkner Hospital
+fgpbs,Forge Park/495 Station
 fbkst,Fairbanks Street
 fedfr,Federal & Franklin
 fells,Front of Fellsway Garage on street
@@ -225,9 +233,11 @@ fldcr,Fields Corner
 fnypk,Fenway Park
 focor,Four Corners (Woburn)
 forhl,Forest Hills
+forhn,Forest Hills
 forvr,Fore River Shipyard
 fourc,Four Corners (Dorchester)
 fpond,Fresh Pond Parkway @ Concord Street
+frkbs,Franklin Station
 frkwa,Franklin Street @ Water Street
 frnpk,Franklin Park
 frpky,Fresh Pond Parkway
@@ -250,7 +260,6 @@ grcpl,Granite & Copeland
 green,Greenwood & Hyde Park
 grigg,Griggs Street
 grmnt,Germantown
-grnsb,Green Street
 grnst,Green Street
 grnwd,Greenwood Commuter Rail
 gtown,Georgetowne
@@ -259,7 +268,9 @@ haecl,Haymarket
 hanbe,Hancock @ Beale/Beach
 harsq,Harvard
 harvd,Harvard Avenue
+haymo,Haymarket
 hayms,Haymarket
+hayvi,Haymarket
 heath,Heath Street Loop
 hhgat,Harvard
 hihar,High Street @ Harvard Avenue
@@ -297,11 +308,13 @@ jaksn,Jackson Square
 jasst,Jackson Square Station
 jefpt,Jeffries Point Loop @ Maverick Street
 jfk,JFK/UMass
+jfkred,JFK/UMass
 jpctr,Jamaica Plain Center (Monument)
 jqnsb,Jersey & Queensberry
 kane,Kane Square
 kenbs,Kenmore (Busway)
 kencl,Kenmore
+kendl,Kendall/MIT
 keyst,Keystone Apartments
 kings,O'Callaghan Way & Kings
 kndl,Kendall Station (Busway)
@@ -330,6 +343,7 @@ lxcnt,Lexington Center
 maboy,Massachusetts Avenue & Boylston Street
 make,Massachusetts Avenue @ Lake Street
 malcx,Malcom X Boulevard @ Roxbury Street
+maldn,Malden Center Station
 malst,Malden Center Station
 maput,Massachusetts Avenue & Putnam Avenue
 marbl,Marblehead
@@ -390,6 +404,7 @@ mtsty,Mount Auburn @ Story Street
 mvbcl,Maverick
 mwood,Maplewood Square
 mysml,Market Basket (former Mystic Mall)
+najnc,Nantasket Junction Station
 navyy,First Avenue
 nbway,North Broadway (Malden)
 ncsta,North Cambridge Station
@@ -404,11 +419,13 @@ newct,Newton Centre
 newoc,New Ocean Street & Eastern Avenue
 newtn,Newton Highlands
 newto,Newton Centre
+nfkbs,Norfolk Station
 ngate,Northgate Shopping Center
 nhvws,North Harvard & Western
 nobev,North Beverly
 north,North Station
 nostr,North Street
+noths,North Station
 nqncy,North Quincy
 nrand,North Randolph
 nshor,Northshore Mall
@@ -421,6 +438,7 @@ nwthl,Newton Highlands
 nwtup,Newton Upper Falls
 nwtvl,Newtonville
 oak,Oak Hill (Newton)
+oakgr,Oak Grove
 oakpk,Oak Park (Bedford)
 oaksq,Oak Square
 oakvl,Oaklandvale
@@ -432,6 +450,7 @@ orhw,Orient Heights to Waldemar
 osbrn,O'Callaghan Way & Osborne Street
 otdow,Otis Street & Downer Avenue
 otsum,Otis & Summer Streets
+park,Park Street
 parkc,Park Circle
 pckrd,Granite Street @ Packards Lane
 pebdy,Peabody Square (Peabody)
@@ -450,7 +469,6 @@ pomet,Poplar Street @ Metropolitan Avenue
 portr,Porter Square
 powdr,Powder House
 ppth,Pemberton Point (Hull)
-prkbn,Park Drive @ Beacon Street
 prksq,Park Square (Charles Street)
 prkwl,Parker Street @ Wheeler
 prlcg,Pearl Street @ Congress Street
@@ -459,8 +477,10 @@ proby,Prospect Street @ Broadway
 prpct,Broadway @ Prospect Street
 prplz,President Plaza
 prsgc,Presidents Golf Course
+pru,Prudential
 pshly,Point Shirley
 qadam,Quincy Adams Station (Busway)
+qadrd,Quincy Adams
 qamnl,Quincy Adams
 qnctr,Quincy Center
 quncy,Quincy Bus Garage
@@ -473,6 +493,8 @@ rdstn,Redstone Shopping Plaza
 readc,Reading Commuter Rail Depot
 readv,Readville Station
 resbu,Reservoir Busway
+resup,Reservoir
+rever,Revere Beach
 revhs,Revere House
 rindg,Rindge Avenue
 rivcm,River Street @ Cummins Highway
@@ -481,6 +503,7 @@ rivsd,Riverside
 rosec,Roosevelt Circle
 rossq,Roslindale Square
 roxbs,Roxbury Crossing Station (Bus)
+roxng,Roxbury Crossing Station
 rsmnl,Reservoir
 rugg,Ruggles
 rvcen,River Street @ Central Avenue
@@ -489,7 +512,9 @@ salem,Salem Depot
 saspr,Salem Street @ Sprague Street
 saug,Saugus Center
 saugpl,Saugus Plaza
+savin,Savin Hill
 sbmnl,Stony Brook
+scien,Science Park/West End
 sbpfd,Sawmill Brook Pkwy
 sdmnl,Suffolk Downs
 seasl,Seaport Boulevard @ Sleeper Street
@@ -498,6 +523,7 @@ shmnl,Savin Hill
 shosp,Shattuck Hospital
 shpyd,Hingham Shipyard
 shunt,Centre Street & South Huntington Avenue
+shwmt,Shawmut
 sjarl,Saint James Avenue
 sllwr,Sullivan Square
 slmct,Salem Center
@@ -523,19 +549,22 @@ sring,Spring Street @ Centre Street
 ssplz,South Shore Plaza
 sstat,South Station
 state,State
+stato,State
 statx,State (Express Bus)
 sthld,Sutherland Road
 stims,Stimson Street @ Washington Street
 stjim,Saint James Avenue @ Dartmouth Street
-stonb,Stony Brook
 stone,Stoneham Square
+stony,Stony Brook
 stpul,Saint Paul Street
+suff,Suffolk Downs
 sull,Sullivan Square
 sumav,Summit Avenue
 sunms,Network Drive (old Sun Microsystems)
 svrhm,Seaver & Humboldt
 sweet,Sweester Circle
 symcl,Symphony
+symph,Symphony Hall Station
 tapst,Tappan Street
 tc128,TradeCenter 128
 teele,Teele Square @ Broadway
@@ -554,7 +583,6 @@ tozer,Tozer Road (Beverly)
 tpthd,Totten Pond Road @ Third Avenue
 trade,World Trade Center
 tred,Tremont Street @ Darthmouth/West Dedham Streets
-treru,Tremont Street @ Ruggles Street
 trkhl,Turkey Hill Loop
 trmas,Tremont & Massachusetts Avenue
 trmb1,Terminal B Stop 1 (Logan Airport)
@@ -562,6 +590,7 @@ trmb2,Terminal B Stop 2 (Logan Airport)
 trmcd,Terminal C (formerly D) (Logan Airport)
 tufts,Tufts Square
 tumed,Washington Street @ Tufts Medical Center
+tumc,Tufts Medical Center
 tumnl,Tufts Medical Center
 umass,"University of Massachusetts, Boston"
 union,Union Square
@@ -573,7 +602,6 @@ upwav,Upham & Waverly
 vaded,VA Hospital (Dedham)
 vahsp,VA Hospital
 valrd,Valley Road
-vasma,Vassar @ Massachusetts Avenue
 vasme,Vassar @ Memorial Drive
 vfcor,VFW Parkway @ Corey Street
 vinsq,Vinnin Square
@@ -630,6 +658,7 @@ wobur,Woburn Line
 wolsq,Wolcott Square
 wondl,Wonderland
 wondw,Wonderland Station West
+wood,Wood Island
 woodc,Woodlawn
 woodi,Wood Island Station
 woodl,Woodland

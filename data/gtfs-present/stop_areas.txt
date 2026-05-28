@@ -23,7 +23,6 @@ stop_id,area_id
 1691,area_route_354_outside_downtown
 1692,area_route_354_outside_downtown
 1693,area_route_354_outside_downtown
-1694,area_route_354_outside_downtown
 1695,area_route_354_outside_downtown
 1696,area_route_354_outside_downtown
 1697,area_route_354_outside_downtown
@@ -435,7 +434,6 @@ stop_id,area_id
 8233,area_route_354_outside_downtown
 8234,area_route_354_outside_downtown
 8235,area_route_354_outside_downtown
-8236,area_route_354_outside_downtown
 8237,area_route_354_outside_downtown
 8239,area_route_354_outside_downtown
 8240,area_route_354_outside_downtown
@@ -448,6 +446,9 @@ stop_id,area_id
 82471,area_route_354_outside_downtown
 8309,area_route_426_downtown
 8309,area_route_450_downtown
+83091,area_route_426_downtown
+83091,area_route_450_downtown
+84611,area_sl_south_station
 9125,area_route_354_outside_downtown
 91251,area_route_354_outside_downtown
 BNT-0000,area_commuter_rail_zone_1a
@@ -461,9 +462,9 @@ BNT-0000-07,area_commuter_rail_zone_1a
 BNT-0000-08,area_commuter_rail_zone_1a
 BNT-0000-09,area_commuter_rail_zone_1a
 BNT-0000-10,area_commuter_rail_zone_1a
-Boat-George,area_ferry_f1_georges_island
-Boat-Hingham,area_ferry_f1_hingham_hull
-Boat-Hull,area_ferry_f1_hingham_hull
+Boat-George,area_ferry_f1f2h_georges_island
+Boat-Hingham,area_ferry_f1f2h_hingham_hull
+Boat-Hull,area_ferry_f1f2h_hingham_hull
 CM-0493-S,area_cf_zone_buzzards
 CM-0547-S,area_cf_zone_buzzards
 CM-0564-S,area_cf_zone_buzzards

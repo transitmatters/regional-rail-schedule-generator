@@ -1,6 +1,6 @@
 line_id,line_short_name,line_long_name,line_desc,line_url,line_color,line_text_color,line_sort_order
 line-Red,,Red Line,,,DA291C,FFFFFF,10010
-line-Mattapan,,Mattapan Trolley,,,DA291C,FFFFFF,10011
+line-Mattapan,,Mattapan Line,,,DA291C,FFFFFF,10011
 line-Orange,,Orange Line,,,ED8B00,FFFFFF,10020
 line-Green,,Green Line,,,00843D,FFFFFF,10032
 line-Blue,,Blue Line,,,003DA5,FFFFFF,10040
@@ -21,14 +21,14 @@ line-Providence,,Providence/Stoughton Line,,,80276C,FFFFFF,20013
 line-Foxboro,,Foxboro Event Service,,,80276C,FFFFFF,20014
 line-CapeFlyer,,CapeFlyer,,,006595,FFFFFF,21000
 line-Boat-F4,,Charlestown Ferry,,,008EAA,FFFFFF,30001
-line-Boat-F1,,Hingham/Hull Ferry,,,008EAA,FFFFFF,30002
+line-Boat-F1,,Hingham Ferry,,,008EAA,FFFFFF,30002
+line-Boat-F2H,,Hingham/Hull Ferry,,,008EAA,FFFFFF,30003
 line-Boat-EastBoston,,East Boston Ferry,,,008EAA,FFFFFF,30005
 line-Boat-Lynn,,Lynn Ferry,,,008EAA,FFFFFF,30007
 line-Boat-F6,,Winthrop Ferry,,,008EAA,FFFFFF,30008
 line-Boat-F7,,Quincy Ferry,,,008EAA,FFFFFF,30009
 line-Boat-F8,,Winthrop/Quincy Ferry,,,008EAA,FFFFFF,30010
 line-1,1,Harvard - Nubian via Massachusetts Avenue,,,FFC72C,000000,40010
-line-747,CT2,Sullivan - Ruggles,,,FFC72C,000000,40020
 line-171708,CT3/171,"Beth Israel Deaconess, Boston Medical Center, or Nubian - Andrew or Logan Airport",,,FFC72C,000000,40030
 line-4,4,North Station - Design Center,,,FFC72C,000000,50040
 line-10,10,City Point - Copley,,,FFC72C,000000,50050
@@ -139,5 +139,5 @@ line-502504,502/504,Watertown Yard - Downtown Boston via Copley,,,FFC72C,000000,
 line-505553554,505/553/554,"Roberts, Waltham Center, or Waverley - Newton Corner",,,FFC72C,000000,55050
 line-556558,556/558,Riverside or Waltham Highlands - Newton Corner,,,FFC72C,000000,55560
 line-712713,712/713,Winthrop - Orient Heights,,,FFC72C,000000,57120
-line-714,714,"Pemberton Point, Hull - Hingham",,,FFC72C,000000,57140
-line-716,716,Cobbs Corner - Mattapan,,,FFC72C,000000,57160
+line-714,714,Hull Ferry - Hingham Depot,,,FFC72C,000000,57140
+line-716,716,Canton Village Shoppes - Mattapan Station,,,FFC72C,000000,57160

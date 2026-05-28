@@ -3,6 +3,7 @@ from synthesize.time import all_day_15, all_day_30, Timetable
 
 from scenarios.expansion.infill_stations import (
     station_ceylon_park,
+    station_foxboro_center,
     station_river_street,
 )
 from scenarios.expansion.trainset import emu_trainset
@@ -29,6 +30,9 @@ timetable = Timetable(
         "Norwood Central": "0:31",
         "Windsor Gardens": "0:33",
         "Walpole": "0:37",
+        "Foxboro": "0:39",
+        "Foxboro Center": "0:42",
+        "Mansfield": "0:45",
         "Norfolk": "0:41",
         "Franklin": "0:45",
         "Forge Park/495": "0:48",
@@ -65,6 +69,14 @@ franklin_stations = (
     "Forge Park/495",
 )
 
+foxboro_stations = (
+    "Windsor Gardens",
+    "Walpole",
+    "Foxboro",
+    station_foxboro_center,
+    "Mansfield",
+)
+
 fairmount = Route(
     name="Fairmount Line",
     id="CR-Fairmount",
@@ -97,6 +109,13 @@ franklin = Route(
             id="franklin-forge-park",
             name="Franklin/Forge Park",
             stations=(fairmount_stations + norwood_stations + franklin_stations),
+            timetable=timetable,
+            schedule=all_day_30,
+        ),
+        RoutePattern(
+            id="franklin-foxboro",
+            name="Franklin/Foxboro",
+            stations=(fairmount_stations + norwood_stations + foxboro_stations),
             timetable=timetable,
             schedule=all_day_30,
         ),

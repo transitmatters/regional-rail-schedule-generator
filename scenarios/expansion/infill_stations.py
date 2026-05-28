@@ -252,3 +252,10 @@ station_millennium_park = Station(
     location=(0, 0),
     municipality="Boston",
 )
+
+station_foxboro_center = Station(
+    name="Foxboro Center",
+    id="place-rr-foxboro-center",
+    location=(42.065, -71.247),
+    municipality="Foxborough",
+)

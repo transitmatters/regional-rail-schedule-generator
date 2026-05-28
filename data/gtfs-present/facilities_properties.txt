@@ -478,6 +478,13 @@ facility_id,property_id,value
 134,excludes-stop,node-rcmnl-stairs-platform
 135,direction,up
 135,excludes-stop,17861
+135,excludes-stop,17865
+135,excludes-stop,17866
+135,excludes-stop,17867
+135,excludes-stop,17868
+135,excludes-stop,17869
+135,excludes-stop,17870
+135,excludes-stop,17871
 135,excludes-stop,70010
 135,excludes-stop,70011
 135,excludes-stop,NEC-2265
@@ -508,6 +515,8 @@ facility_id,property_id,value
 135,excludes-stop,node-850-platform
 135,excludes-stop,node-851-bottom
 135,excludes-stop,node-851-top
+135,excludes-stop,node-rugg-bus1crosswalk-1
+135,excludes-stop,node-rugg-bus1crosswalk-2
 135,excludes-stop,node-rugg-bus1stairs-busway
 135,excludes-stop,node-rugg-bus1stairs-lobby
 135,excludes-stop,node-rugg-bus2stairs-busway
@@ -532,6 +541,13 @@ facility_id,property_id,value
 136,excludes-stop,17861
 136,excludes-stop,17862
 136,excludes-stop,17863
+136,excludes-stop,17865
+136,excludes-stop,17866
+136,excludes-stop,17867
+136,excludes-stop,17868
+136,excludes-stop,17869
+136,excludes-stop,17870
+136,excludes-stop,17871
 136,excludes-stop,NEC-2265
 136,excludes-stop,NEC-2265-01
 136,excludes-stop,NEC-2265-02
@@ -560,6 +576,8 @@ facility_id,property_id,value
 136,excludes-stop,node-850-platform
 136,excludes-stop,node-851-bottom
 136,excludes-stop,node-851-top
+136,excludes-stop,node-rugg-bus1crosswalk-1
+136,excludes-stop,node-rugg-bus1crosswalk-2
 136,excludes-stop,node-rugg-bus1stairs-busway
 136,excludes-stop,node-rugg-bus1stairs-lobby
 136,excludes-stop,node-rugg-bus2stairs-busway
@@ -584,6 +602,13 @@ facility_id,property_id,value
 137,excludes-stop,17861
 137,excludes-stop,17862
 137,excludes-stop,17863
+137,excludes-stop,17865
+137,excludes-stop,17866
+137,excludes-stop,17867
+137,excludes-stop,17868
+137,excludes-stop,17869
+137,excludes-stop,17870
+137,excludes-stop,17871
 137,excludes-stop,NEC-2265
 137,excludes-stop,NEC-2265-01
 137,excludes-stop,NEC-2265-02
@@ -612,6 +637,8 @@ facility_id,property_id,value
 137,excludes-stop,node-850-platform
 137,excludes-stop,node-851-bottom
 137,excludes-stop,node-851-top
+137,excludes-stop,node-rugg-bus1crosswalk-1
+137,excludes-stop,node-rugg-bus1crosswalk-2
 137,excludes-stop,node-rugg-bus1stairs-busway
 137,excludes-stop,node-rugg-bus1stairs-lobby
 137,excludes-stop,node-rugg-bus2stairs-busway
@@ -633,6 +660,13 @@ facility_id,property_id,value
 137,excludes-stop,node-rugg-track2ramp-bottom
 137,excludes-stop,node-rugg-track2ramp-top
 138,direction,up
+138,excludes-stop,17865
+138,excludes-stop,17866
+138,excludes-stop,17867
+138,excludes-stop,17868
+138,excludes-stop,17869
+138,excludes-stop,17870
+138,excludes-stop,17871
 138,excludes-stop,NEC-2265-02
 138,excludes-stop,door-rugg-buses
 138,excludes-stop,door-rugg-columbus
@@ -657,6 +691,8 @@ facility_id,property_id,value
 138,excludes-stop,node-850-platform
 138,excludes-stop,node-851-bottom
 138,excludes-stop,node-851-top
+138,excludes-stop,node-rugg-bus1crosswalk-1
+138,excludes-stop,node-rugg-bus1crosswalk-2
 138,excludes-stop,node-rugg-bus1stairs-busway
 138,excludes-stop,node-rugg-bus1stairs-lobby
 138,excludes-stop,node-rugg-bus2stairs-busway
@@ -708,6 +744,8 @@ facility_id,property_id,value
 140,excludes-stop,NEC-2276-01
 140,excludes-stop,NEC-2276-02
 140,excludes-stop,NEC-2276-03
+140,excludes-stop,NEC-2276-B
+140,excludes-stop,NEC-2276-B2
 140,excludes-stop,WML-0012-05
 140,excludes-stop,WML-0012-07
 140,excludes-stop,door-bbsta-buswayn
@@ -776,6 +814,8 @@ facility_id,property_id,value
 141,excludes-stop,NEC-2276-01
 141,excludes-stop,NEC-2276-02
 141,excludes-stop,NEC-2276-03
+141,excludes-stop,NEC-2276-B
+141,excludes-stop,NEC-2276-B2
 141,excludes-stop,WML-0012-05
 141,excludes-stop,WML-0012-07
 141,excludes-stop,door-bbsta-buswayn
@@ -843,6 +883,8 @@ facility_id,property_id,value
 142,excludes-stop,70014
 142,excludes-stop,70015
 142,excludes-stop,NEC-2276-02
+142,excludes-stop,NEC-2276-B
+142,excludes-stop,NEC-2276-B2
 142,excludes-stop,WML-0012-05
 142,excludes-stop,WML-0012-07
 142,excludes-stop,door-bbsta-buswayn
@@ -910,6 +952,8 @@ facility_id,property_id,value
 143,excludes-stop,70014
 143,excludes-stop,70015
 143,excludes-stop,NEC-2276-02
+143,excludes-stop,NEC-2276-B
+143,excludes-stop,NEC-2276-B2
 143,excludes-stop,WML-0012-05
 143,excludes-stop,WML-0012-07
 143,excludes-stop,door-bbsta-buswayn
@@ -978,6 +1022,8 @@ facility_id,property_id,value
 144,excludes-stop,70015
 144,excludes-stop,NEC-2276-01
 144,excludes-stop,NEC-2276-03
+144,excludes-stop,NEC-2276-B
+144,excludes-stop,NEC-2276-B2
 144,excludes-stop,WML-0012-05
 144,excludes-stop,WML-0012-07
 144,excludes-stop,door-bbsta-buswayn
@@ -1329,6 +1375,7 @@ facility_id,property_id,value
 302,excludes-stop,BNT-0000-08
 302,excludes-stop,BNT-0000-09
 302,excludes-stop,BNT-0000-10
+302,excludes-stop,BNT-0000-B2
 302,excludes-stop,door-north-causewaye
 302,excludes-stop,door-north-causewayexite
 302,excludes-stop,door-north-causewayexitw
@@ -1433,6 +1480,7 @@ facility_id,property_id,value
 303,excludes-stop,BNT-0000-08
 303,excludes-stop,BNT-0000-09
 303,excludes-stop,BNT-0000-10
+303,excludes-stop,BNT-0000-B2
 303,excludes-stop,door-north-causewaye
 303,excludes-stop,door-north-causewayexite
 303,excludes-stop,door-north-causewayexitw
@@ -1538,6 +1586,7 @@ facility_id,property_id,value
 304,excludes-stop,BNT-0000-08
 304,excludes-stop,BNT-0000-09
 304,excludes-stop,BNT-0000-10
+304,excludes-stop,BNT-0000-B2
 304,excludes-stop,door-north-causewaye
 304,excludes-stop,door-north-causewayexite
 304,excludes-stop,door-north-causewayexitw
@@ -1875,7 +1924,8 @@ facility_id,property_id,value
 315,excludes-stop,node-hymnl-ebstairs-platform
 315,excludes-stop,node-hymnl-farepaid
 315,excludes-stop,node-hymnl-fareunpaid
-315,excludes-stop,node-hymnl-massentrance
+315,excludes-stop,node-hymnl-massentrance-lobby
+315,excludes-stop,node-hymnl-massentrance-street
 315,excludes-stop,node-hymnl-newbury-farepaid
 315,excludes-stop,node-hymnl-newbury-fareunpaid
 315,excludes-stop,node-hymnl-newburyexit
@@ -3939,7 +3989,7 @@ facility_id,property_id,value
 362,excludes-stop,node-knncl-sbmain-platform
 362,excludes-stop,node-knncl-sbsec-farepaid
 362,excludes-stop,node-knncl-sbsec-fareunpaid
-364,alternate-service-text,"If exiting, travel down the concourse and use the elevator located through the glass doors and to the left of the MBTA's CharlieCard store. This elevator will take you to the lobby of 101 Arch Street, located on Summer Street. If boarding, travel to 101 Arch Street (across from Macyâs on Summer Street). Take the elevator in the back left corner of the lobby to the concourse. Take a right and find the Oak Grove-bound platform ahead."
+364,alternate-service-text,"If exiting, travel down the concourse and use the elevator located through the glass doors and to the left of the MBTA's CharlieCard store. This elevator will take you to the lobby of 101 Arch Street, located on Summer Street. If boarding, travel to 101 Arch Street (across from Macy's on Summer Street). Take the elevator in the back left corner of the lobby to the concourse. Take a right and find the Oak Grove-bound platform ahead."
 364,direction,up
 364,excludes-stop,door-dwnxg-101arch
 364,excludes-stop,door-dwnxg-chauncy
@@ -4459,6 +4509,7 @@ facility_id,property_id,value
 382,excludes-stop,NEC-2287-11
 382,excludes-stop,NEC-2287-12
 382,excludes-stop,NEC-2287-13
+382,excludes-stop,NEC-2287-B2
 382,excludes-stop,door-sstat-atlantic
 382,excludes-stop,door-sstat-bus
 382,excludes-stop,door-sstat-dewey
@@ -4598,6 +4649,7 @@ facility_id,property_id,value
 384,excludes-stop,BNT-0000-08
 384,excludes-stop,BNT-0000-09
 384,excludes-stop,BNT-0000-10
+384,excludes-stop,BNT-0000-B2
 384,excludes-stop,door-north-causewaye
 384,excludes-stop,door-north-causewayexite
 384,excludes-stop,door-north-causewayexitw
@@ -4700,6 +4752,7 @@ facility_id,property_id,value
 385,excludes-stop,BNT-0000-08
 385,excludes-stop,BNT-0000-09
 385,excludes-stop,BNT-0000-10
+385,excludes-stop,BNT-0000-B2
 385,excludes-stop,door-north-causewaye
 385,excludes-stop,door-north-causewayexite
 385,excludes-stop,door-north-causewayexitw
@@ -4805,6 +4858,7 @@ facility_id,property_id,value
 386,excludes-stop,NEC-2287-11
 386,excludes-stop,NEC-2287-12
 386,excludes-stop,NEC-2287-13
+386,excludes-stop,NEC-2287-B2
 386,excludes-stop,door-sstat-atlantic
 386,excludes-stop,door-sstat-bus
 386,excludes-stop,door-sstat-dewey
@@ -4912,6 +4966,7 @@ facility_id,property_id,value
 387,excludes-stop,NEC-2287-11
 387,excludes-stop,NEC-2287-12
 387,excludes-stop,NEC-2287-13
+387,excludes-stop,NEC-2287-B2
 387,excludes-stop,door-sstat-atlantic
 387,excludes-stop,door-sstat-bus
 387,excludes-stop,door-sstat-dewey
@@ -5019,6 +5074,7 @@ facility_id,property_id,value
 388,excludes-stop,NEC-2287-11
 388,excludes-stop,NEC-2287-12
 388,excludes-stop,NEC-2287-13
+388,excludes-stop,NEC-2287-B2
 388,excludes-stop,door-sstat-atlantic
 388,excludes-stop,door-sstat-bus
 388,excludes-stop,door-sstat-dewey
@@ -5128,6 +5184,7 @@ facility_id,property_id,value
 389,excludes-stop,NEC-2287-11
 389,excludes-stop,NEC-2287-12
 389,excludes-stop,NEC-2287-13
+389,excludes-stop,NEC-2287-B2
 389,excludes-stop,door-sstat-atlantic
 389,excludes-stop,door-sstat-bus
 389,excludes-stop,door-sstat-dewey
@@ -5238,6 +5295,7 @@ facility_id,property_id,value
 390,excludes-stop,NEC-2287-11
 390,excludes-stop,NEC-2287-12
 390,excludes-stop,NEC-2287-13
+390,excludes-stop,NEC-2287-B2
 390,excludes-stop,door-sstat-atlantic
 390,excludes-stop,door-sstat-bus
 390,excludes-stop,door-sstat-dewey
@@ -5345,6 +5403,7 @@ facility_id,property_id,value
 391,excludes-stop,BNT-0000-08
 391,excludes-stop,BNT-0000-09
 391,excludes-stop,BNT-0000-10
+391,excludes-stop,BNT-0000-B2
 391,excludes-stop,door-north-causewayexite
 391,excludes-stop,door-north-causewayexitw
 391,excludes-stop,door-north-crcanal
@@ -5448,6 +5507,7 @@ facility_id,property_id,value
 392,excludes-stop,BNT-0000-08
 392,excludes-stop,BNT-0000-09
 392,excludes-stop,BNT-0000-10
+392,excludes-stop,BNT-0000-B2
 392,excludes-stop,door-north-causewayexite
 392,excludes-stop,door-north-causewayexitw
 392,excludes-stop,door-north-crcanal
@@ -5552,6 +5612,7 @@ facility_id,property_id,value
 393,excludes-stop,BNT-0000-08
 393,excludes-stop,BNT-0000-09
 393,excludes-stop,BNT-0000-10
+393,excludes-stop,BNT-0000-B2
 393,excludes-stop,door-north-causewayexite
 393,excludes-stop,door-north-causewayexitw
 393,excludes-stop,door-north-crcanal
@@ -5827,6 +5888,7 @@ facility_id,property_id,value
 398,excludes-stop,70079
 398,excludes-stop,74611
 398,excludes-stop,74617
+398,excludes-stop,84611
 398,excludes-stop,NEC-2287
 398,excludes-stop,NEC-2287-01
 398,excludes-stop,NEC-2287-02
@@ -5841,6 +5903,7 @@ facility_id,property_id,value
 398,excludes-stop,NEC-2287-11
 398,excludes-stop,NEC-2287-12
 398,excludes-stop,NEC-2287-13
+398,excludes-stop,NEC-2287-B2
 398,excludes-stop,door-sstat-atlantic
 398,excludes-stop,door-sstat-bus
 398,excludes-stop,door-sstat-dewey
@@ -5936,6 +5999,7 @@ facility_id,property_id,value
 398,excludes-stop,node-sstat-south-fareunpaid
 399,direction,up
 399,excludes-stop,74611
+399,excludes-stop,84611
 399,excludes-stop,NEC-2287
 399,excludes-stop,NEC-2287-01
 399,excludes-stop,NEC-2287-02
@@ -5950,6 +6014,7 @@ facility_id,property_id,value
 399,excludes-stop,NEC-2287-11
 399,excludes-stop,NEC-2287-12
 399,excludes-stop,NEC-2287-13
+399,excludes-stop,NEC-2287-B2
 399,excludes-stop,door-sstat-atlantic
 399,excludes-stop,door-sstat-bus
 399,excludes-stop,door-sstat-dewey
@@ -6046,6 +6111,7 @@ facility_id,property_id,value
 400,direction,up
 400,excludes-stop,70080
 400,excludes-stop,74611
+400,excludes-stop,84611
 400,excludes-stop,NEC-2287
 400,excludes-stop,NEC-2287-01
 400,excludes-stop,NEC-2287-02
@@ -6060,6 +6126,7 @@ facility_id,property_id,value
 400,excludes-stop,NEC-2287-11
 400,excludes-stop,NEC-2287-12
 400,excludes-stop,NEC-2287-13
+400,excludes-stop,NEC-2287-B2
 400,excludes-stop,door-sstat-atlantic
 400,excludes-stop,door-sstat-bus
 400,excludes-stop,door-sstat-dewey
@@ -6493,6 +6560,7 @@ facility_id,property_id,value
 410,excludes-stop,node-aport-wbpaidstairs-platform
 411,direction,up
 411,excludes-stop,74617
+411,excludes-stop,84611
 411,excludes-stop,NEC-2287
 411,excludes-stop,NEC-2287-01
 411,excludes-stop,NEC-2287-02
@@ -6507,6 +6575,7 @@ facility_id,property_id,value
 411,excludes-stop,NEC-2287-11
 411,excludes-stop,NEC-2287-12
 411,excludes-stop,NEC-2287-13
+411,excludes-stop,NEC-2287-B2
 411,excludes-stop,door-sstat-atlantic
 411,excludes-stop,door-sstat-bus
 411,excludes-stop,door-sstat-dewey
@@ -6932,6 +7001,7 @@ facility_id,property_id,value
 418,excludes-stop,node-crtst-wtcmainstair-platform
 419,direction,down
 419,excludes-stop,74611
+419,excludes-stop,84611
 419,excludes-stop,NEC-2287
 419,excludes-stop,NEC-2287-01
 419,excludes-stop,NEC-2287-02
@@ -6946,6 +7016,7 @@ facility_id,property_id,value
 419,excludes-stop,NEC-2287-11
 419,excludes-stop,NEC-2287-12
 419,excludes-stop,NEC-2287-13
+419,excludes-stop,NEC-2287-B2
 419,excludes-stop,door-sstat-atlantic
 419,excludes-stop,door-sstat-bus
 419,excludes-stop,door-sstat-dewey
@@ -7043,6 +7114,7 @@ facility_id,property_id,value
 420,excludes-stop,70079
 420,excludes-stop,74611
 420,excludes-stop,74617
+420,excludes-stop,84611
 420,excludes-stop,NEC-2287
 420,excludes-stop,NEC-2287-01
 420,excludes-stop,NEC-2287-02
@@ -7057,6 +7129,7 @@ facility_id,property_id,value
 420,excludes-stop,NEC-2287-11
 420,excludes-stop,NEC-2287-12
 420,excludes-stop,NEC-2287-13
+420,excludes-stop,NEC-2287-B2
 420,excludes-stop,door-sstat-atlantic
 420,excludes-stop,door-sstat-bus
 420,excludes-stop,door-sstat-dewey
@@ -7168,6 +7241,7 @@ facility_id,property_id,value
 423,excludes-stop,node-shmnl-syd-fareunpaid
 423,excludes-stop,node-shmnl-sydstair-lobby
 424,direction,up
+424,excludes-stop,84611
 424,excludes-stop,NEC-2287
 424,excludes-stop,NEC-2287-01
 424,excludes-stop,NEC-2287-02
@@ -7182,6 +7256,7 @@ facility_id,property_id,value
 424,excludes-stop,NEC-2287-11
 424,excludes-stop,NEC-2287-12
 424,excludes-stop,NEC-2287-13
+424,excludes-stop,NEC-2287-B2
 424,excludes-stop,door-sstat-atlantic
 424,excludes-stop,door-sstat-bus
 424,excludes-stop,door-sstat-finctr
@@ -7308,7 +7383,9 @@ facility_id,property_id,value
 426,excludes-stop,node-chmnl-sbstairs-lobby
 426,excludes-stop,node-chmnl-sbstairs-platform
 427,direction,up
-427,excludes-stop,323
+427,excludes-stop,32301
+427,excludes-stop,32302
+427,excludes-stop,32303
 427,excludes-stop,70089
 427,excludes-stop,door-fldcr-busway
 427,excludes-stop,door-fldcr-charles
@@ -7860,6 +7937,7 @@ facility_id,property_id,value
 447,excludes-stop,BNT-0000-08
 447,excludes-stop,BNT-0000-09
 447,excludes-stop,BNT-0000-10
+447,excludes-stop,BNT-0000-B2
 447,excludes-stop,door-north-causewaye
 447,excludes-stop,door-north-causewayexite
 447,excludes-stop,door-north-causewayexitw
@@ -8150,6 +8228,7 @@ facility_id,property_id,value
 453,excludes-stop,node-ogmnl-washstair-lobby
 453,excludes-stop,node-ogmnl-washstair-street
 50,alternate-service-text,The elevator at Framingham connecting the Inbound and Outbound platforms is out of service. Please proceed to Concord street to cross over to the outbound platform.
+50,excludes-stop,WML-0214-B
 501,direction,up
 501,excludes-stop,70022
 501,excludes-stop,70042
@@ -8571,6 +8650,7 @@ facility_id,property_id,value
 509,excludes-stop,node-portr-weststairs-crplatform
 509,excludes-stop,node-portr-weststairs-street
 51,alternate-service-text,The elevator at Framingham connecting the Inbound and Outbound platforms is out of service. Please proceed to Concord street to cross over to the outbound platform.
+51,excludes-stop,WML-0214-B
 510,direction,up
 510,excludes-stop,FR-0034
 510,excludes-stop,FR-0034-01
@@ -9022,6 +9102,7 @@ facility_id,property_id,value
 6,excludes-stop,node-state-wonderlandoldstatestairs-ebplatform
 6,excludes-stop,node-state-wonderlandoldstatestairs-landing
 6476,alternate-service-text,"To exit, use South Station Elevator 926 located on the unpaid side of the faregates, to the left of the subway monitoring office. To board, use South Station Elevator 926 located in front of the main South Station entrance at the corner Atlantic Ave and Summer St."
+6476,excludes-stop,84611
 6476,excludes-stop,NEC-2287
 6476,excludes-stop,NEC-2287-01
 6476,excludes-stop,NEC-2287-02
@@ -9036,6 +9117,7 @@ facility_id,property_id,value
 6476,excludes-stop,NEC-2287-11
 6476,excludes-stop,NEC-2287-12
 6476,excludes-stop,NEC-2287-13
+6476,excludes-stop,NEC-2287-B2
 6476,excludes-stop,door-sstat-atlantic
 6476,excludes-stop,door-sstat-bus
 6476,excludes-stop,door-sstat-dewey
@@ -9267,10 +9349,10 @@ facility_id,property_id,value
 703,excludes-stop,node-wondl-oceanstairs-plaza
 703,excludes-stop,node-wondl-plazacenter
 703,excludes-stop,node-wondl-revereramp-top
-704,alternate-service-text,"To travel from the Fitchburg platform to the North Station platform, travel to the east end of the platform and proceed down the ramp to the small parking lot. Continue east on Railroad St. to Main St. At Main St., turn right and continue to Maple St. At Maple St., turn right and continue to the walkway that leads to the platform. To travel from the North Station platform to the Fitchburg platform, travel east on Maple St towards Main St. At Main St., turn left and continue to Railroad St. At Rairoad St., turn lefr and continue to the station, where a ramp to the Fitchburg platform is located next the small parking lot."
+704,alternate-service-text,"To travel from the Fitchburg platform to the North Station platform, travel to the east end of the platform and proceed down the ramp to the small parking lot. Continue east on Railroad St to Main St. At Main St, turn right and continue to Maple St. At Maple St, turn right and continue to the walkway that leads to the platform. To travel from the North Station platform to the Fitchburg platform, travel east on Maple St towards Main St. At Main St, turn left and continue to Railroad St. At Railroad St, turn left and continue to the station, where a ramp to the Fitchburg platform is located next the small parking lot."
 704,excludes-stop,FR-0253
 704,excludes-stop,FR-0253-02
-705,alternate-service-text,"To travel from the North Station platform to the Fitchburg platform, travel east on Maple St towards Main St. At Main St., turn left and continue to Railroad St. At Rairoad St., turn lefr and continue to the station, where a ramp to the Fitchburg platform is located next the small parking lot. To travel from the Fitchburg platform to the North Station platform, travel to the east end of the platform and proceed down the ramp to the small parking lot. Continue east on Railroad St. to Main St. At Main St., turn right and continue to Maple St. At Maple St., turn right and continue to the walkway that leads to the platform."
+705,alternate-service-text,"To travel from the North Station platform to the Fitchburg platform, travel east on Maple St towards Main St. At Main St, turn left and continue to Railroad St. At Railroad St, turn left and continue to the station, where a ramp to the Fitchburg platform is located next the small parking lot. To travel from the Fitchburg platform to the North Station platform, travel to the east end of the platform and proceed down the ramp to the small parking lot. Continue east on Railroad St to Main St. At Main St, turn right and continue to Maple St. At Maple St, turn right and continue to the walkway that leads to the platform."
 705,excludes-stop,FR-0253
 705,excludes-stop,FR-0253-01
 708,alternate-service-text,"To access the pedestrian bridge from the main lobby, use Wonderland Elevators 701, 702 or 703. Exit the elevator at level 2, then turn left and proceed to the pedestrian bridge. To access the main lobby from the pedestrian bridge, proceed to the parking garage--level 2, and use Wonderland Elevators 701, 702 or 703."
@@ -9838,8 +9920,21 @@ facility_id,property_id,value
 724,excludes-stop,node-forhl-splatstairs-lobby
 724,excludes-stop,node-forhl-splatstairs-platform
 724,excludes-stop,node-forhl-upperdoor
+725,excludes-stop,WML-0035-B3
+725,excludes-stop,WML-0035-B4
+726,excludes-stop,WML-0035-B3
+726,excludes-stop,WML-0035-B4
+727,excludes-stop,WML-0035-B3
+727,excludes-stop,WML-0035-B4
 728,alternate-service-text,Please find station personnel or use a station call box or for assistance navigating between the lobby and lower busway.
 728,excludes-stop,17861
+728,excludes-stop,17865
+728,excludes-stop,17866
+728,excludes-stop,17867
+728,excludes-stop,17868
+728,excludes-stop,17869
+728,excludes-stop,17870
+728,excludes-stop,17871
 728,excludes-stop,70010
 728,excludes-stop,70011
 728,excludes-stop,NEC-2265
@@ -9870,6 +9965,8 @@ facility_id,property_id,value
 728,excludes-stop,node-850-platform
 728,excludes-stop,node-851-bottom
 728,excludes-stop,node-851-top
+728,excludes-stop,node-rugg-bus1crosswalk-1
+728,excludes-stop,node-rugg-bus1crosswalk-2
 728,excludes-stop,node-rugg-bus1stairs-busway
 728,excludes-stop,node-rugg-bus1stairs-lobby
 728,excludes-stop,node-rugg-bus2stairs-busway
@@ -9890,6 +9987,50 @@ facility_id,property_id,value
 728,excludes-stop,node-rugg-olsstairs-platform
 728,excludes-stop,node-rugg-track2ramp-bottom
 728,excludes-stop,node-rugg-track2ramp-top
+729,alternate-service-text,"Please use the elevator next to this one, Braintree elevator 730."
+729,excludes-stop,door-brntn-busway
+729,excludes-stop,door-brntn-faregates
+729,excludes-stop,node-333-bottom
+729,excludes-stop,node-333-top
+729,excludes-stop,node-334-lobby
+729,excludes-stop,node-334-platform
+729,excludes-stop,node-335-lobby
+729,excludes-stop,node-335-platform
+729,excludes-stop,node-811-lobby
+729,excludes-stop,node-811-platform
+729,excludes-stop,node-brntn-crramp-bottom
+729,excludes-stop,node-brntn-crramp-top
+729,excludes-stop,node-brntn-crstairs-bottom
+729,excludes-stop,node-brntn-crstairs-top
+729,excludes-stop,node-brntn-farepaid
+729,excludes-stop,node-brntn-fareunpaid
+729,excludes-stop,node-brntn-nplatstairs-lobby
+729,excludes-stop,node-brntn-nplatstairs-platform
+729,excludes-stop,node-brntn-parking
+729,excludes-stop,node-brntn-splatstairs-lobby
+729,excludes-stop,node-brntn-splatstairs-platform
+730,alternate-service-text,"Please use the elevator next to this one, Braintree elevator 729."
+730,excludes-stop,door-brntn-busway
+730,excludes-stop,door-brntn-faregates
+730,excludes-stop,node-333-bottom
+730,excludes-stop,node-333-top
+730,excludes-stop,node-334-lobby
+730,excludes-stop,node-334-platform
+730,excludes-stop,node-335-lobby
+730,excludes-stop,node-335-platform
+730,excludes-stop,node-811-lobby
+730,excludes-stop,node-811-platform
+730,excludes-stop,node-brntn-crramp-bottom
+730,excludes-stop,node-brntn-crramp-top
+730,excludes-stop,node-brntn-crstairs-bottom
+730,excludes-stop,node-brntn-crstairs-top
+730,excludes-stop,node-brntn-farepaid
+730,excludes-stop,node-brntn-fareunpaid
+730,excludes-stop,node-brntn-nplatstairs-lobby
+730,excludes-stop,node-brntn-nplatstairs-platform
+730,excludes-stop,node-brntn-parking
+730,excludes-stop,node-brntn-splatstairs-lobby
+730,excludes-stop,node-brntn-splatstairs-platform
 731,alternate-service-text,"To exit, use North Station Elevator 912 located in the lobby to access the corner of Haverhill St and Causeway St. To board, cross Causeway St, and at the corner of Haverhill St and Causeway St, use North Station Elevator 912 to access the lobby."
 731,excludes-stop,BNT-0000
 731,excludes-stop,BNT-0000-01
@@ -9902,6 +10043,7 @@ facility_id,property_id,value
 731,excludes-stop,BNT-0000-08
 731,excludes-stop,BNT-0000-09
 731,excludes-stop,BNT-0000-10
+731,excludes-stop,BNT-0000-B2
 731,excludes-stop,door-north-causewayexite
 731,excludes-stop,door-north-causewayexitw
 731,excludes-stop,door-north-causeways
@@ -10004,6 +10146,7 @@ facility_id,property_id,value
 732,excludes-stop,BNT-0000-08
 732,excludes-stop,BNT-0000-09
 732,excludes-stop,BNT-0000-10
+732,excludes-stop,BNT-0000-B2
 732,excludes-stop,door-north-causewayexite
 732,excludes-stop,door-north-causewayexitw
 732,excludes-stop,door-north-causeways
@@ -10269,6 +10412,74 @@ facility_id,property_id,value
 736,excludes-stop,node-qamnl-southstairs-bottom
 736,excludes-stop,node-qamnl-southstairs-top
 736,excludes-stop,node-qamnl-third-lobby
+739,alternate-service-text,"Please use the elevator next to this one, North Quincy elevator 740."
+739,excludes-stop,door-nqncy-hancock
+739,excludes-stop,door-nqncy-newport
+739,excludes-stop,door-nqncy-squantum
+739,excludes-stop,node-325-lobby
+739,excludes-stop,node-325-platform
+739,excludes-stop,node-326-lobby
+739,excludes-stop,node-326-platform
+739,excludes-stop,node-327-lobby
+739,excludes-stop,node-327-street
+739,excludes-stop,node-383-lobby
+739,excludes-stop,node-383-street
+739,excludes-stop,node-897-lobby
+739,excludes-stop,node-897-street
+739,excludes-stop,node-898-lobby
+739,excludes-stop,node-898-street
+739,excludes-stop,node-899-lobby
+739,excludes-stop,node-899-platform
+739,excludes-stop,node-900-lobby
+739,excludes-stop,node-900-platform
+739,excludes-stop,node-nqncy-hstair-lobby
+739,excludes-stop,node-nqncy-hstair-street
+739,excludes-stop,node-nqncy-nhfarepaid
+739,excludes-stop,node-nqncy-nhfareunpaid
+739,excludes-stop,node-nqncy-nhpstair-lobby
+739,excludes-stop,node-nqncy-nhpstair-platform
+739,excludes-stop,node-nqncy-nstair-lobby
+739,excludes-stop,node-nqncy-nstair-street
+739,excludes-stop,node-nqncy-senterramp-bus
+739,excludes-stop,node-nqncy-senterstair-bus
+739,excludes-stop,node-nqncy-sfarepaid
+739,excludes-stop,node-nqncy-sfareunpaid
+739,excludes-stop,node-nqncy-spstair-lobby
+739,excludes-stop,node-nqncy-spstair-platform
+740,alternate-service-text,"Please use the elevator next to this one, North Quincy elevator 739."
+740,excludes-stop,door-nqncy-hancock
+740,excludes-stop,door-nqncy-newport
+740,excludes-stop,door-nqncy-squantum
+740,excludes-stop,node-325-lobby
+740,excludes-stop,node-325-platform
+740,excludes-stop,node-326-lobby
+740,excludes-stop,node-326-platform
+740,excludes-stop,node-327-lobby
+740,excludes-stop,node-327-street
+740,excludes-stop,node-383-lobby
+740,excludes-stop,node-383-street
+740,excludes-stop,node-897-lobby
+740,excludes-stop,node-897-street
+740,excludes-stop,node-898-lobby
+740,excludes-stop,node-898-street
+740,excludes-stop,node-899-lobby
+740,excludes-stop,node-899-platform
+740,excludes-stop,node-900-lobby
+740,excludes-stop,node-900-platform
+740,excludes-stop,node-nqncy-hstair-lobby
+740,excludes-stop,node-nqncy-hstair-street
+740,excludes-stop,node-nqncy-nhfarepaid
+740,excludes-stop,node-nqncy-nhfareunpaid
+740,excludes-stop,node-nqncy-nhpstair-lobby
+740,excludes-stop,node-nqncy-nhpstair-platform
+740,excludes-stop,node-nqncy-nstair-lobby
+740,excludes-stop,node-nqncy-nstair-street
+740,excludes-stop,node-nqncy-senterramp-bus
+740,excludes-stop,node-nqncy-senterstair-bus
+740,excludes-stop,node-nqncy-sfarepaid
+740,excludes-stop,node-nqncy-sfareunpaid
+740,excludes-stop,node-nqncy-spstair-lobby
+740,excludes-stop,node-nqncy-spstair-platform
 743,alternate-service-text,Please use nearby Oak Grove Elevator 746.
 743,excludes-stop,9328
 743,excludes-stop,WR-0053-S
@@ -10393,18 +10604,25 @@ facility_id,property_id,value
 747,alternate-service-text,"A shuttle bus will be available to transport customers between Winchester Center and North Stations. To exit, exit the train at North Station and find station personnel or use a station call box to request the shuttle bus to Winchester Center. To board, find station personnel or use a station call box at Winchester Center to request the shuttle bus to North Station."
 747,excludes-stop,NHRML-0078
 747,excludes-stop,NHRML-0078-01
+747,excludes-stop,NHRML-0078-B
 748,alternate-service-text,Please use nearby Winchester Center Elevator 749.
 748,excludes-stop,NHRML-0078
 748,excludes-stop,NHRML-0078-02
+748,excludes-stop,NHRML-0078-B
 749,alternate-service-text,Please use nearby Winchester Center Elevator 748.
 749,excludes-stop,NHRML-0078
 749,excludes-stop,NHRML-0078-02
-750,alternate-service-text,To exit: Go to the east end of the platform. Take the ramp to Washington St. To board: Go east on North Ave for one block. Turn right on Washington St. Take the ramp to the outbound platform.
+749,excludes-stop,NHRML-0078-B
+750,alternate-service-text,To exit: Go to the east end of the platform. Take the ramp to Washington St. To board: Go east on North Ave for one block. Turn right on Washington St. Take the ramp to theÂ Track 1 platform.
 750,excludes-stop,WML-0177
 750,excludes-stop,WML-0177-02
-751,alternate-service-text,To exit: Go to the east end of the platform. Take the ramp to Washington St. To board: Go south on Main St. Turn left on South Ave and go one block. Turn left on Washington St. Take the ramp to the inbound platform.
+750,excludes-stop,WML-0177-B0
+750,excludes-stop,WML-0177-B1
+751,alternate-service-text,To exit: Go to the east end of the platform. Take the ramp to Washington St.\nTo board: Go south on Main St. Turn left on South Ave and go one block. Turn left on Washington St. Take the ramp to the Track 2 platform.
 751,excludes-stop,WML-0177
 751,excludes-stop,WML-0177-01
+751,excludes-stop,WML-0177-B0
+751,excludes-stop,WML-0177-B1
 756,alternate-service-text,Please use nearby Kendall/MIT Elevator 757.
 756,excludes-stop,70072
 756,excludes-stop,door-knncl-nbmain
@@ -10582,6 +10800,7 @@ facility_id,property_id,value
 772,excludes-stop,node-772-top
 772,excludes-stop,node-mdftf-stairs-bottom
 772,excludes-stop,node-mdftf-stairs-top
+778,alternate-service-text,To exit: Go to the north end of the platform. Take the ramp to the parking lot.\nTo board: Take the path near the accessible drop-off/pick-up area. Take the ramp to the platform.
 778,excludes-stop,door-NBM-0374-elevator
 778,excludes-stop,door-NBM-0374-ramp
 778,excludes-stop,node-778-bridge
@@ -10597,6 +10816,7 @@ facility_id,property_id,value
 778,excludes-stop,node-NBM-0374-northstair-platform
 778,excludes-stop,node-NBM-0374-southstair-bridge
 778,excludes-stop,node-NBM-0374-southstair-platform
+779,alternate-service-text,To exit: Go to the north end of the platform. Take the ramp to the parking lot.\nTo board: Take the path near the accessible drop-off/pick-up area. Take the ramp to the platform.
 779,excludes-stop,door-NBM-0374-elevator
 779,excludes-stop,door-NBM-0374-ramp
 779,excludes-stop,node-778-bridge
@@ -11986,6 +12206,13 @@ facility_id,property_id,value
 847,excludes-stop,node-rcmnl-stairs-platform
 848,alternate-service-text,"To exit, use Ruggles Elevator 728 located on the opposite side of the lobby. To board, cross the inner busway lane to the center platform and use Ruggles Elevator 728."
 848,excludes-stop,17861
+848,excludes-stop,17865
+848,excludes-stop,17866
+848,excludes-stop,17867
+848,excludes-stop,17868
+848,excludes-stop,17869
+848,excludes-stop,17870
+848,excludes-stop,17871
 848,excludes-stop,70010
 848,excludes-stop,70011
 848,excludes-stop,NEC-2265
@@ -12016,6 +12243,8 @@ facility_id,property_id,value
 848,excludes-stop,node-850-platform
 848,excludes-stop,node-851-bottom
 848,excludes-stop,node-851-top
+848,excludes-stop,node-rugg-bus1crosswalk-1
+848,excludes-stop,node-rugg-bus1crosswalk-2
 848,excludes-stop,node-rugg-bus1stairs-busway
 848,excludes-stop,node-rugg-bus1stairs-lobby
 848,excludes-stop,node-rugg-bus2stairs-busway
@@ -12040,6 +12269,13 @@ facility_id,property_id,value
 849,excludes-stop,17861
 849,excludes-stop,17862
 849,excludes-stop,17863
+849,excludes-stop,17865
+849,excludes-stop,17866
+849,excludes-stop,17867
+849,excludes-stop,17868
+849,excludes-stop,17869
+849,excludes-stop,17870
+849,excludes-stop,17871
 849,excludes-stop,70010
 849,excludes-stop,70011
 849,excludes-stop,NEC-2265-02
@@ -12067,6 +12303,8 @@ facility_id,property_id,value
 849,excludes-stop,node-850-platform
 849,excludes-stop,node-851-bottom
 849,excludes-stop,node-851-top
+849,excludes-stop,node-rugg-bus1crosswalk-1
+849,excludes-stop,node-rugg-bus1crosswalk-2
 849,excludes-stop,node-rugg-bus1stairs-busway
 849,excludes-stop,node-rugg-bus1stairs-lobby
 849,excludes-stop,node-rugg-bus2stairs-busway
@@ -12091,6 +12329,13 @@ facility_id,property_id,value
 850,excludes-stop,17861
 850,excludes-stop,17862
 850,excludes-stop,17863
+850,excludes-stop,17865
+850,excludes-stop,17866
+850,excludes-stop,17867
+850,excludes-stop,17868
+850,excludes-stop,17869
+850,excludes-stop,17870
+850,excludes-stop,17871
 850,excludes-stop,NEC-2265
 850,excludes-stop,NEC-2265-01
 850,excludes-stop,NEC-2265-02
@@ -12119,6 +12364,8 @@ facility_id,property_id,value
 850,excludes-stop,node-850-platform
 850,excludes-stop,node-851-bottom
 850,excludes-stop,node-851-top
+850,excludes-stop,node-rugg-bus1crosswalk-1
+850,excludes-stop,node-rugg-bus1crosswalk-2
 850,excludes-stop,node-rugg-bus1stairs-busway
 850,excludes-stop,node-rugg-bus1stairs-lobby
 850,excludes-stop,node-rugg-bus2stairs-busway
@@ -12140,6 +12387,13 @@ facility_id,property_id,value
 850,excludes-stop,node-rugg-track2ramp-bottom
 850,excludes-stop,node-rugg-track2ramp-top
 851,alternate-service-text,"A shuttle bus will be available to transport customers between Forsyth St entrance and the Ruggles upper busway (lobby). Please see station personnel or use a station call box to request the shuttle bus. Alternatively, upon request, assistance navigating between the Forsyth St entrance and the Ruggles upper busway can be provided."
+851,excludes-stop,17865
+851,excludes-stop,17866
+851,excludes-stop,17867
+851,excludes-stop,17868
+851,excludes-stop,17869
+851,excludes-stop,17870
+851,excludes-stop,17871
 851,excludes-stop,NEC-2265-02
 851,excludes-stop,door-rugg-buses
 851,excludes-stop,door-rugg-columbus
@@ -12164,6 +12418,8 @@ facility_id,property_id,value
 851,excludes-stop,node-850-platform
 851,excludes-stop,node-851-bottom
 851,excludes-stop,node-851-top
+851,excludes-stop,node-rugg-bus1crosswalk-1
+851,excludes-stop,node-rugg-bus1crosswalk-2
 851,excludes-stop,node-rugg-bus1stairs-busway
 851,excludes-stop,node-rugg-bus1stairs-lobby
 851,excludes-stop,node-rugg-bus2stairs-busway
@@ -12215,6 +12471,8 @@ facility_id,property_id,value
 853,excludes-stop,NEC-2276-01
 853,excludes-stop,NEC-2276-02
 853,excludes-stop,NEC-2276-03
+853,excludes-stop,NEC-2276-B
+853,excludes-stop,NEC-2276-B2
 853,excludes-stop,WML-0012-05
 853,excludes-stop,WML-0012-07
 853,excludes-stop,door-bbsta-buswayn
@@ -12283,6 +12541,8 @@ facility_id,property_id,value
 854,excludes-stop,70015
 854,excludes-stop,NEC-2276-01
 854,excludes-stop,NEC-2276-03
+854,excludes-stop,NEC-2276-B
+854,excludes-stop,NEC-2276-B2
 854,excludes-stop,WML-0012-05
 854,excludes-stop,WML-0012-07
 854,excludes-stop,door-bbsta-buswayn
@@ -12350,6 +12610,8 @@ facility_id,property_id,value
 855,excludes-stop,70014
 855,excludes-stop,70015
 855,excludes-stop,NEC-2276-02
+855,excludes-stop,NEC-2276-B
+855,excludes-stop,NEC-2276-B2
 855,excludes-stop,WML-0012-05
 855,excludes-stop,WML-0012-07
 855,excludes-stop,door-bbsta-buswayn
@@ -12419,6 +12681,8 @@ facility_id,property_id,value
 856,excludes-stop,NEC-2276-01
 856,excludes-stop,NEC-2276-02
 856,excludes-stop,NEC-2276-03
+856,excludes-stop,NEC-2276-B
+856,excludes-stop,NEC-2276-B2
 856,excludes-stop,door-bbsta-buswayn
 856,excludes-stop,door-bbsta-busways
 856,excludes-stop,door-bbsta-clarcolum
@@ -12884,7 +13148,7 @@ facility_id,property_id,value
 870,excludes-stop,node-dwnxg-wintexitfare-unpaid
 870,excludes-stop,node-dwnxg-wintwashfare-paid
 870,excludes-stop,node-dwnxg-wintwashfare-unpaid
-872,alternate-service-text,"A shuttle bus will be available to transport customers between Andrew and Broadway. To exit at Andrew, exit the train at Broadway and find station personnel or use a station call box to request the shuttle bus to Andrew. To board the Red Line, find station personnel or use a station call box to request the shuttle bus to Broadway."
+872,alternate-service-text,"A shuttle bus will be available to transport customers between Andrew and Broadway. To exit at Andrew, take the train to Broadway and find station personnel or use a station call box to request the shuttle bus to Andrew. To board the Red Line, find station personnel or use a station call box to request the shuttle bus to Broadway."
 872,excludes-stop,13
 872,excludes-stop,door-andrw-busway
 872,excludes-stop,door-andrw-dotave
@@ -13481,6 +13745,7 @@ facility_id,property_id,value
 900,excludes-stop,node-nqncy-spstair-lobby
 900,excludes-stop,node-nqncy-spstair-platform
 901,alternate-service-text,"To exit the Red Line, use nearby South Station Elevator 918. To exit the Silver Line, take South Station Elevator 927 to the Alewife platform, then take South Station Elevator 919 to the Airport/Design Center/Chelsea platform. At the Silver Line platform, use South Station Elevator 918 to access the lobby. To board the Red Line, use South Station Elevator 918 located on the opposide side of the lobby."
+901,excludes-stop,84611
 901,excludes-stop,NEC-2287
 901,excludes-stop,NEC-2287-01
 901,excludes-stop,NEC-2287-02
@@ -13495,6 +13760,7 @@ facility_id,property_id,value
 901,excludes-stop,NEC-2287-11
 901,excludes-stop,NEC-2287-12
 901,excludes-stop,NEC-2287-13
+901,excludes-stop,NEC-2287-B2
 901,excludes-stop,door-sstat-atlantic
 901,excludes-stop,door-sstat-bus
 901,excludes-stop,door-sstat-dewey
@@ -13864,6 +14130,7 @@ facility_id,property_id,value
 909,excludes-stop,BNT-0000-08
 909,excludes-stop,BNT-0000-09
 909,excludes-stop,BNT-0000-10
+909,excludes-stop,BNT-0000-B2
 909,excludes-stop,door-north-causewaye
 909,excludes-stop,door-north-causewayexite
 909,excludes-stop,door-north-causewayexitw
@@ -13968,6 +14235,7 @@ facility_id,property_id,value
 910,excludes-stop,BNT-0000-08
 910,excludes-stop,BNT-0000-09
 910,excludes-stop,BNT-0000-10
+910,excludes-stop,BNT-0000-B2
 910,excludes-stop,door-north-causewayexite
 910,excludes-stop,door-north-causewayexitw
 910,excludes-stop,door-north-causeways
@@ -14073,6 +14341,7 @@ facility_id,property_id,value
 911,excludes-stop,BNT-0000-08
 911,excludes-stop,BNT-0000-09
 911,excludes-stop,BNT-0000-10
+911,excludes-stop,BNT-0000-B2
 911,excludes-stop,door-north-causewayexite
 911,excludes-stop,door-north-causewayexitw
 911,excludes-stop,door-north-causeways
@@ -14175,6 +14444,7 @@ facility_id,property_id,value
 912,excludes-stop,BNT-0000-08
 912,excludes-stop,BNT-0000-09
 912,excludes-stop,BNT-0000-10
+912,excludes-stop,BNT-0000-B2
 912,excludes-stop,door-north-causewayexite
 912,excludes-stop,door-north-causewayexitw
 912,excludes-stop,door-north-causeways
@@ -14432,6 +14702,7 @@ facility_id,property_id,value
 917,excludes-stop,node-prmnl-wbstair-lobby
 917,excludes-stop,node-prmnl-wbstair-platform
 918,alternate-service-text,"To exit the Red Line, use nearby South Station Elevator 901. To board the Red Line, use South Station Elevator 901 located on the opposide side of the lobby. To board the Silver Line, take Elevator 901 to the Silver Line drop-off platform, then take South Station Elevator 927 to the Alewife platform. At the Alewife platform, use nearby South Station Elevator 919 to access the Airport/Design Center/Chelsea platform."
+918,excludes-stop,84611
 918,excludes-stop,NEC-2287
 918,excludes-stop,NEC-2287-01
 918,excludes-stop,NEC-2287-02
@@ -14446,6 +14717,7 @@ facility_id,property_id,value
 918,excludes-stop,NEC-2287-11
 918,excludes-stop,NEC-2287-12
 918,excludes-stop,NEC-2287-13
+918,excludes-stop,NEC-2287-B2
 918,excludes-stop,door-sstat-atlantic
 918,excludes-stop,door-sstat-bus
 918,excludes-stop,door-sstat-dewey
@@ -14542,6 +14814,7 @@ facility_id,property_id,value
 919,alternate-service-text,"To exit the Red Line, take nearby South Station Elevator 927 to the Silver Line drop-off platform, then use South Station Elevator 901 to access the lobby. To board the Red Line, use South Station Elevator 901 located in the lobby, on the paid side of the faregates, to access the Silver Line drop-off platform. At the Silver Line platform, use South Station Elevator 927 to access the Alewife platform."
 919,excludes-stop,70079
 919,excludes-stop,74617
+919,excludes-stop,84611
 919,excludes-stop,NEC-2287
 919,excludes-stop,NEC-2287-01
 919,excludes-stop,NEC-2287-02
@@ -14556,6 +14829,7 @@ facility_id,property_id,value
 919,excludes-stop,NEC-2287-11
 919,excludes-stop,NEC-2287-12
 919,excludes-stop,NEC-2287-13
+919,excludes-stop,NEC-2287-B2
 919,excludes-stop,door-sstat-atlantic
 919,excludes-stop,door-sstat-bus
 919,excludes-stop,door-sstat-dewey
@@ -14709,7 +14983,7 @@ facility_id,property_id,value
 921,excludes-stop,node-prmnl-prustair-street
 921,excludes-stop,node-prmnl-wbstair-lobby
 921,excludes-stop,node-prmnl-wbstair-platform
-922,alternate-service-text,"To exit, exit the train at Tufts Mediical Center, then take an Oak Grove-bound train to Chinatown and use Chinatown Elevator 876. To board, proceed to the Silver Line SL5 bus stop at Washington St and Essex St, and take an SL5 (Downtown) bus to Tufts Medical Center (stay on bus past the Temple Pl stop). Alternatively, if possible, travel 0.2 miles south on Washington St to Tufts Medical Center."
+922,alternate-service-text,"To exit, exit the train at Tufts Medical Center, then take an Oak Grove-bound train to Chinatown and use Chinatown Elevator 876. To board, proceed to the Silver Line SL5 bus stop at Washington St and Essex St, and take an SL5 (Downtown) bus to Tufts Medical Center (stay on bus past the Temple Pl stop). Alternatively, if possible, travel 0.2 miles south on Washington St to Tufts Medical Center."
 922,excludes-stop,70019
 922,excludes-stop,door-chncl-foresthills
 922,excludes-stop,door-chncl-ogelevator
@@ -14870,6 +15144,7 @@ facility_id,property_id,value
 925,excludes-stop,node-aqucl-wbstatestairs-lobby
 925,excludes-stop,node-aqucl-wbstatestairs-platform
 926,alternate-service-text,"To exit, South Station Elevator 949 located on the opposite side of the lobby. Alternatively, travel up the ramp towards the Commuter Rail Concourse, and at the base of the escalator, turn left and proceed down the hallway. At the end of the hallway, use South Station Elevator 6476 to access the Commuter Rail Concourse. To board, cross Atlantic Ave towards Dewey Sq and use South Station Elevator 949."
+926,excludes-stop,84611
 926,excludes-stop,NEC-2287
 926,excludes-stop,NEC-2287-01
 926,excludes-stop,NEC-2287-02
@@ -14884,6 +15159,7 @@ facility_id,property_id,value
 926,excludes-stop,NEC-2287-11
 926,excludes-stop,NEC-2287-12
 926,excludes-stop,NEC-2287-13
+926,excludes-stop,NEC-2287-B2
 926,excludes-stop,door-sstat-atlantic
 926,excludes-stop,door-sstat-bus
 926,excludes-stop,door-sstat-dewey
@@ -14979,6 +15255,7 @@ facility_id,property_id,value
 927,alternate-service-text,"To exit the Red Line, take nearby South Station Elevator 919 to the Airport/Design Center/Chelsea platform, then use South Station Elevator 918 to access the lobby. To board the Red Line, take South Station Elevator 918 to the Airport/Design Center/Chelsea platform, then use South Station Elevator 919 to access the Alewife platform."
 927,excludes-stop,70079
 927,excludes-stop,74611
+927,excludes-stop,84611
 927,excludes-stop,NEC-2287
 927,excludes-stop,NEC-2287-01
 927,excludes-stop,NEC-2287-02
@@ -14993,6 +15270,7 @@ facility_id,property_id,value
 927,excludes-stop,NEC-2287-11
 927,excludes-stop,NEC-2287-12
 927,excludes-stop,NEC-2287-13
+927,excludes-stop,NEC-2287-B2
 927,excludes-stop,door-sstat-atlantic
 927,excludes-stop,door-sstat-bus
 927,excludes-stop,door-sstat-dewey
@@ -15086,11 +15364,9 @@ facility_id,property_id,value
 927,excludes-stop,node-sstat-reservestair-lobby
 927,excludes-stop,node-sstat-south-farepaid
 927,excludes-stop,node-sstat-south-fareunpaid
-928,alternate-service-text,Please contact station personnel or conductor for assistance.
-928,excludes-stop,14748
-929,alternate-service-text,Please nearby Lynn Elevator 930.
+929,alternate-service-text,Please use nearby Lynn Elevator 930.
 929,excludes-stop,14748
-930,alternate-service-text,Please nearby Lynn Elevator 929. 
+930,alternate-service-text,Please use nearby Lynn Elevator 929. 
 930,excludes-stop,14748
 931,alternate-service-text,"To access the Bowdoin platform or Bremen St lobby from the Wonderland platform, use Airport Elevator 956 located in the unpaid section of the busway lobby. To access the Wonderland platform or Airport busway from the Bowdoin platform, use Airport Elevator 955 located in the unpaid section of the Bremen St lobby."
 931,excludes-stop,70047
@@ -15562,6 +15838,7 @@ facility_id,property_id,value
 948,excludes-stop,node-kencl-wbstair-lobby
 948,excludes-stop,node-kencl-wbstair-platform
 949,alternate-service-text,"To exit, use South Station Elevator 926 located on opposite side of the lobby, to the left of the subway monitoring office. Alternatively, travel up the ramp towards the Commuter Rail Concourse, and at the base of the escalator, turn left and continue down the hallway. At the end of the hallway, use South Station Elevator 6476 to access the Commuter Rail Concourse. To board, cross Atlantic Ave towards the South Station main entrance and Elevator 926 to access the subway lobby.  Alternatively, enter the South Station Commuter Rail Concourse and use Elevator 6476 located to the left of the information desk."
+949,excludes-stop,84611
 949,excludes-stop,NEC-2287
 949,excludes-stop,NEC-2287-01
 949,excludes-stop,NEC-2287-02
@@ -15576,6 +15853,7 @@ facility_id,property_id,value
 949,excludes-stop,NEC-2287-11
 949,excludes-stop,NEC-2287-12
 949,excludes-stop,NEC-2287-13
+949,excludes-stop,NEC-2287-B2
 949,excludes-stop,door-sstat-atlantic
 949,excludes-stop,door-sstat-bus
 949,excludes-stop,door-sstat-finctr
@@ -15794,7 +16072,9 @@ facility_id,property_id,value
 956,excludes-stop,node-aport-wbpaidstairs-bridge
 956,excludes-stop,node-aport-wbpaidstairs-platform
 957,alternate-service-text,"To exit, exit the train at Savin Hill, then take an Ashmont-bound train to Fields Corner and use Fields Corner Elevator 958. To board, use Fields Corner Elevator 958 to access the Ashmont platform. Take an Ashmont-bound train to Shawmut, then transfer to an Alewife-bound train. "
-957,excludes-stop,323
+957,excludes-stop,32301
+957,excludes-stop,32302
+957,excludes-stop,32303
 957,excludes-stop,70089
 957,excludes-stop,door-fldcr-busway
 957,excludes-stop,door-fldcr-charles
@@ -15813,7 +16093,9 @@ facility_id,property_id,value
 957,excludes-stop,node-fldcr-farepaid
 957,excludes-stop,node-fldcr-fareunpaid
 958,alternate-service-text,"To exit, exit the train at Shawmut, then take an Alewife-bound train to Fields Corner and use Fields Corner Elevator 957. To board, use Fields Corner Elevator 957 to access the Alewife platform. Take an Alewife-bound train to Savin Hill, then transfer to an Ashmont-bound train."
-958,excludes-stop,323
+958,excludes-stop,32301
+958,excludes-stop,32302
+958,excludes-stop,32303
 958,excludes-stop,70090
 958,excludes-stop,door-fldcr-busway
 958,excludes-stop,door-fldcr-charles
@@ -16130,7 +16412,7 @@ facility_id,property_id,value
 967,excludes-stop,node-state-waterststairs-lobby
 967,excludes-stop,node-state-wonderlandoldstatestairs-ebplatform
 967,excludes-stop,node-state-wonderlandoldstatestairs-landing
-968,alternate-service-text,"To board, travel along the busway to the Mattapan trolley/busway lobby and use Ashmont Elevator 969."
+968,alternate-service-text,"To board, travel along the busway to the Mattapan Line/busway lobby and use Ashmont Elevator 969."
 968,excludes-stop,334
 968,excludes-stop,70093
 968,excludes-stop,70261
@@ -16956,9 +17238,12 @@ facility_id,property_id,value
 993,excludes-stop,WML-0025
 993,excludes-stop,WML-0025-05
 994,alternate-service-text,Please use nearby Beverly Elevator 995.
+994,excludes-stop,ER-0183-B
 995,alternate-service-text,Please use nearby Beverly Elevator 994.
+995,excludes-stop,ER-0183-B
 996,alternate-service-text,Please use nearby Salem Elevator 997.
-997,alternate-service-text,Please use nearby Salem Elevator 996.
+996,excludes-stop,ER-0168-B
+997,excludes-stop,ER-0168-B
 998,alternate-service-text,Please use nearby Downtown Crossing Elevator 999.
 998,excludes-stop,70020
 998,excludes-stop,70077
@@ -17438,6 +17723,9 @@ bike-SB-0189,secured,2
 bike-WML-0025,capacity,10
 bike-WML-0025,enclosed,2
 bike-WML-0025,secured,2
+bike-WML-0035,capacity,24
+bike-WML-0035,enclosed,1
+bike-WML-0035,secured,2
 bike-WML-0091,capacity,16
 bike-WML-0091,enclosed,2
 bike-WML-0091,secured,2
@@ -17509,7 +17797,7 @@ bike-asmnl,enclosed,1
 bike-asmnl,secured,1
 bike-balsq-pedalpark,capacity,50
 bike-balsq-pedalpark,enclosed,1
-bike-balsq-pedalpark,secured,2
+bike-balsq-pedalpark,secured,1
 bike-balsq-racks,capacity,18
 bike-balsq-racks,enclosed,2
 bike-balsq-racks,secured,2
@@ -17566,7 +17854,7 @@ bike-eliot,enclosed,1
 bike-eliot,secured,2
 bike-esomr-pedalpark,capacity,52
 bike-esomr-pedalpark,enclosed,1
-bike-esomr-pedalpark,secured,2
+bike-esomr-pedalpark,secured,1
 bike-fenwy,capacity,18
 bike-fenwy,enclosed,2
 bike-fenwy,secured,2
@@ -17603,7 +17891,7 @@ bike-lech-northfirst,secured,2
 bike-lech-northstorage,capacity,6
 bike-lech-northstorage,enclosed,2
 bike-lech-northstorage,secured,2
-bike-lech-obrieneb,capacity,8
+bike-lech-obrieneb,capacity,16
 bike-lech-obrieneb,enclosed,2
 bike-lech-obrieneb,secured,2
 bike-lech-obrienwb,capacity,8
@@ -17611,7 +17899,7 @@ bike-lech-obrienwb,enclosed,2
 bike-lech-obrienwb,secured,2
 bike-lech-storage,capacity,182
 bike-lech-storage,enclosed,1
-bike-lech-storage,secured,2
+bike-lech-storage,secured,1
 bike-longw,capacity,15
 bike-longw,enclosed,2
 bike-longw,secured,2
@@ -17623,10 +17911,10 @@ bike-matt,enclosed,2
 bike-matt,secured,2
 bike-mdftf-pedalpark,capacity,50
 bike-mdftf-pedalpark,enclosed,1
-bike-mdftf-pedalpark,secured,2
+bike-mdftf-pedalpark,secured,1
 bike-mgngl-pedalpark,capacity,36
 bike-mgngl-pedalpark,enclosed,1
-bike-mgngl-pedalpark,secured,2
+bike-mgngl-pedalpark,secured,1
 bike-miltt,capacity,26
 bike-miltt,enclosed,2
 bike-miltt,secured,2
@@ -17644,7 +17932,7 @@ bike-north,enclosed,2
 bike-north,secured,2
 bike-nqncy,capacity,101
 bike-nqncy,enclosed,1
-bike-nqncy,secured,2
+bike-nqncy,secured,1
 bike-nubn,capacity,60
 bike-nubn,enclosed,1
 bike-nubn,secured,1
@@ -17690,6 +17978,9 @@ bike-smary,secured,2
 bike-sstat,capacity,38
 bike-sstat,enclosed,2
 bike-sstat,secured,2
+bike-sstat-garage,capacity,72
+bike-sstat-garage,enclosed,1
+bike-sstat-garage,secured,1
 bike-sull,capacity,62
 bike-sull,enclosed,1
 bike-sull,secured,2
@@ -17704,7 +17995,7 @@ bike-unsqu-rackwest,enclosed,2
 bike-unsqu-rackwest,secured,2
 bike-unsqu-storage,capacity,86
 bike-unsqu-storage,enclosed,1
-bike-unsqu-storage,secured,2
+bike-unsqu-storage,secured,1
 bike-waban,capacity,12
 bike-waban,enclosed,2
 bike-waban,secured,2
@@ -17805,6 +18096,27 @@ charliecard-sstat,note,Sunday hours: 7:00A - 7:00P
 charliecard-sstat,note,Weekday hours: 7:00A - 7:00P
 charliecard-wondl,dispenses,fare-media
 charliecard-wondl,note,Weekday hours: 7:00A - 1:30P
+elev_5a7e_af2a_396,excludes-stop,NEC-2173
+elev_99c7_af2a_390,excludes-stop,NHRML-0254
+elev_99c7_c4e9_389,excludes-stop,NHRML-0254
+elev_b748_c4e7_402,alternate-service-text,Please use the elevator located directly across the hallway.
+elev_b748_c4e7_402,excludes-stop,NEC-1891
+elev_b748_c4e7_402,excludes-stop,NEC-1891-02
+elev_b748_c4e7_402,excludes-stop,door-NEC-1891-barton
+elev_b748_c4e7_402,excludes-stop,door-NEC-1891-pinebus
+elev_b748_c4e7_402,excludes-stop,door-NEC-1891-pinedrop
+elev_b748_c4e7_403,alternate-service-text,Please use the elevator located directly across the hallway.
+elev_b748_c4e7_403,excludes-stop,NEC-1891
+elev_b748_c4e7_403,excludes-stop,NEC-1891-02
+elev_b748_c4e7_403,excludes-stop,door-NEC-1891-barton
+elev_b748_c4e7_403,excludes-stop,door-NEC-1891-pinebus
+elev_b748_c4e7_403,excludes-stop,door-NEC-1891-pinedrop
+elev_c2ed_07bd_394,excludes-stop,NEC-1851
+elev_c2ed_07bd_394,excludes-stop,NEC-1851-03
+elev_c2ed_07bd_394,excludes-stop,NEC-1851-05
+elev_c2ed_e7ea_395,excludes-stop,NEC-1851
+elev_c2ed_e7ea_395,excludes-stop,NEC-1851-01
+elev_c2ed_e7ea_395,excludes-stop,NEC-1851-02
 ev-ER-0168-garage,capacity,4
 ev-FR-0301,capacity,4
 ev-FR-0451-garage,capacity,4
@@ -17825,29 +18137,10 @@ ev-WML-0442-garage,capacity,4
 ev-alfcl-garage,capacity,6
 ev-brntn-garage,capacity,5
 ev-forhl,capacity,3
-ev-nqncy-garage-hancock,capacity,4
+ev-nqncy-garage,capacity,4
 ev-qamnl-garage,capacity,2
 ev-wondl-garage,capacity,4
 ev-woodl-garage,capacity,4
-fake_5a7e_af2a_393,excludes-stop,NEC-2173
-fake_99c7_af2a_390,excludes-stop,NHRML-0254
-fake_99c7_c4e9_389,excludes-stop,NHRML-0254
-fake_b748_c4e7_400,excludes-stop,NEC-1891
-fake_b748_c4e7_400,excludes-stop,NEC-1891-02
-fake_b748_c4e7_400,excludes-stop,door-NEC-1891-barton
-fake_b748_c4e7_400,excludes-stop,door-NEC-1891-pinebus
-fake_b748_c4e7_400,excludes-stop,door-NEC-1891-pinedrop
-fake_b748_c4e7_401,excludes-stop,NEC-1891
-fake_b748_c4e7_401,excludes-stop,NEC-1891-02
-fake_b748_c4e7_401,excludes-stop,door-NEC-1891-barton
-fake_b748_c4e7_401,excludes-stop,door-NEC-1891-pinebus
-fake_b748_c4e7_401,excludes-stop,door-NEC-1891-pinedrop
-fake_c2ed_07bd_391,excludes-stop,NEC-1851
-fake_c2ed_07bd_391,excludes-stop,NEC-1851-03
-fake_c2ed_07bd_391,excludes-stop,NEC-1851-05
-fake_c2ed_e7ea_392,excludes-stop,NEC-1851
-fake_c2ed_e7ea_392,excludes-stop,NEC-1851-01
-fake_c2ed_e7ea_392,excludes-stop,NEC-1851-02
 fvm-201001,enclosed,1
 fvm-201001,excludes-stop,door-aqucl-mcknorth
 fvm-201001,excludes-stop,door-aqucl-mcksouth
@@ -20300,6 +20593,7 @@ highlevel-WML-0177-1,excludes-stop,WML-0177-01
 highlevel-WML-0177-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-WML-0177-2,excludes-stop,WML-0177-02
 highlevel-WML-0177-2,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-WML-0442-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-WR-0163-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-WR-0264-2,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-bbsta-1,excludes-stop,11384
@@ -20632,6 +20926,7 @@ highlevel-sstat-1,excludes-stop,70079
 highlevel-sstat-1,excludes-stop,70080
 highlevel-sstat-1,excludes-stop,74611
 highlevel-sstat-1,excludes-stop,74617
+highlevel-sstat-1,excludes-stop,84611
 highlevel-sstat-1,excludes-stop,NEC-2287-02
 highlevel-sstat-1,excludes-stop,NEC-2287-03
 highlevel-sstat-1,excludes-stop,NEC-2287-04
@@ -20649,6 +20944,7 @@ highlevel-sstat-10,excludes-stop,70079
 highlevel-sstat-10,excludes-stop,70080
 highlevel-sstat-10,excludes-stop,74611
 highlevel-sstat-10,excludes-stop,74617
+highlevel-sstat-10,excludes-stop,84611
 highlevel-sstat-10,excludes-stop,NEC-2287-01
 highlevel-sstat-10,excludes-stop,NEC-2287-02
 highlevel-sstat-10,excludes-stop,NEC-2287-03
@@ -20666,6 +20962,7 @@ highlevel-sstat-11,excludes-stop,70079
 highlevel-sstat-11,excludes-stop,70080
 highlevel-sstat-11,excludes-stop,74611
 highlevel-sstat-11,excludes-stop,74617
+highlevel-sstat-11,excludes-stop,84611
 highlevel-sstat-11,excludes-stop,NEC-2287-01
 highlevel-sstat-11,excludes-stop,NEC-2287-02
 highlevel-sstat-11,excludes-stop,NEC-2287-03
@@ -20683,6 +20980,7 @@ highlevel-sstat-12,excludes-stop,70079
 highlevel-sstat-12,excludes-stop,70080
 highlevel-sstat-12,excludes-stop,74611
 highlevel-sstat-12,excludes-stop,74617
+highlevel-sstat-12,excludes-stop,84611
 highlevel-sstat-12,excludes-stop,NEC-2287-01
 highlevel-sstat-12,excludes-stop,NEC-2287-02
 highlevel-sstat-12,excludes-stop,NEC-2287-03
@@ -20700,6 +20998,7 @@ highlevel-sstat-13,excludes-stop,70079
 highlevel-sstat-13,excludes-stop,70080
 highlevel-sstat-13,excludes-stop,74611
 highlevel-sstat-13,excludes-stop,74617
+highlevel-sstat-13,excludes-stop,84611
 highlevel-sstat-13,excludes-stop,NEC-2287-01
 highlevel-sstat-13,excludes-stop,NEC-2287-02
 highlevel-sstat-13,excludes-stop,NEC-2287-03
@@ -20717,6 +21016,7 @@ highlevel-sstat-2,excludes-stop,70079
 highlevel-sstat-2,excludes-stop,70080
 highlevel-sstat-2,excludes-stop,74611
 highlevel-sstat-2,excludes-stop,74617
+highlevel-sstat-2,excludes-stop,84611
 highlevel-sstat-2,excludes-stop,NEC-2287-01
 highlevel-sstat-2,excludes-stop,NEC-2287-03
 highlevel-sstat-2,excludes-stop,NEC-2287-04
@@ -20734,6 +21034,7 @@ highlevel-sstat-3,excludes-stop,70079
 highlevel-sstat-3,excludes-stop,70080
 highlevel-sstat-3,excludes-stop,74611
 highlevel-sstat-3,excludes-stop,74617
+highlevel-sstat-3,excludes-stop,84611
 highlevel-sstat-3,excludes-stop,NEC-2287-01
 highlevel-sstat-3,excludes-stop,NEC-2287-02
 highlevel-sstat-3,excludes-stop,NEC-2287-04
@@ -20751,6 +21052,7 @@ highlevel-sstat-4,excludes-stop,70079
 highlevel-sstat-4,excludes-stop,70080
 highlevel-sstat-4,excludes-stop,74611
 highlevel-sstat-4,excludes-stop,74617
+highlevel-sstat-4,excludes-stop,84611
 highlevel-sstat-4,excludes-stop,NEC-2287-01
 highlevel-sstat-4,excludes-stop,NEC-2287-02
 highlevel-sstat-4,excludes-stop,NEC-2287-03
@@ -20768,6 +21070,7 @@ highlevel-sstat-5,excludes-stop,70079
 highlevel-sstat-5,excludes-stop,70080
 highlevel-sstat-5,excludes-stop,74611
 highlevel-sstat-5,excludes-stop,74617
+highlevel-sstat-5,excludes-stop,84611
 highlevel-sstat-5,excludes-stop,NEC-2287-01
 highlevel-sstat-5,excludes-stop,NEC-2287-02
 highlevel-sstat-5,excludes-stop,NEC-2287-03
@@ -20785,6 +21088,7 @@ highlevel-sstat-6,excludes-stop,70079
 highlevel-sstat-6,excludes-stop,70080
 highlevel-sstat-6,excludes-stop,74611
 highlevel-sstat-6,excludes-stop,74617
+highlevel-sstat-6,excludes-stop,84611
 highlevel-sstat-6,excludes-stop,NEC-2287-01
 highlevel-sstat-6,excludes-stop,NEC-2287-02
 highlevel-sstat-6,excludes-stop,NEC-2287-03
@@ -20802,6 +21106,7 @@ highlevel-sstat-7,excludes-stop,70079
 highlevel-sstat-7,excludes-stop,70080
 highlevel-sstat-7,excludes-stop,74611
 highlevel-sstat-7,excludes-stop,74617
+highlevel-sstat-7,excludes-stop,84611
 highlevel-sstat-7,excludes-stop,NEC-2287-01
 highlevel-sstat-7,excludes-stop,NEC-2287-02
 highlevel-sstat-7,excludes-stop,NEC-2287-03
@@ -20819,6 +21124,7 @@ highlevel-sstat-8,excludes-stop,70079
 highlevel-sstat-8,excludes-stop,70080
 highlevel-sstat-8,excludes-stop,74611
 highlevel-sstat-8,excludes-stop,74617
+highlevel-sstat-8,excludes-stop,84611
 highlevel-sstat-8,excludes-stop,NEC-2287-01
 highlevel-sstat-8,excludes-stop,NEC-2287-02
 highlevel-sstat-8,excludes-stop,NEC-2287-03
@@ -20836,6 +21142,7 @@ highlevel-sstat-9,excludes-stop,70079
 highlevel-sstat-9,excludes-stop,70080
 highlevel-sstat-9,excludes-stop,74611
 highlevel-sstat-9,excludes-stop,74617
+highlevel-sstat-9,excludes-stop,84611
 highlevel-sstat-9,excludes-stop,NEC-2287-01
 highlevel-sstat-9,excludes-stop,NEC-2287-02
 highlevel-sstat-9,excludes-stop,NEC-2287-03
@@ -20981,7 +21288,7 @@ park-DB-2258,fee-daily,free
 park-DB-2258,municipality,Boston
 park-ER-0115-garage,attended,1
 park-ER-0115-garage,capacity,350
-park-ER-0115-garage,capacity-accessible,6
+park-ER-0115-garage,capacity-accessible,7
 park-ER-0115-garage,car-sharing,Zipcar
 park-ER-0115-garage,contact,MBTA Customer Support
 park-ER-0115-garage,contact-phone,617-222-3200
@@ -21014,25 +21321,6 @@ park-ER-0117-ellis,payment-app,PayByPhone
 park-ER-0117-ellis,payment-app-id,18307
 park-ER-0117-ellis,payment-app-url,https://www.paybyphone.com/
 park-ER-0117-ellis,payment-form-accepted,mobile-app
-park-ER-0117-garage,attended,1
-park-ER-0117-garage,capacity,329
-park-ER-0117-garage,capacity-accessible,13
-park-ER-0117-garage,car-sharing,Zipcar
-park-ER-0117-garage,contact,MBTA Customer Support
-park-ER-0117-garage,contact-phone,617-222-3200
-park-ER-0117-garage,contact-url,https://www.mbta.com/customer-support
-park-ER-0117-garage,enclosed,1
-park-ER-0117-garage,fee-daily,Mon-Fri: $2 | Sat-Sun: $2
-park-ER-0117-garage,fee-monthly,$35
-park-ER-0117-garage,municipality,Lynn
-park-ER-0117-garage,operator,Keolis Commuter Services
-park-ER-0117-garage,overnight-allowed,yes
-park-ER-0117-garage,owner,MBTA
-park-ER-0117-garage,payment-app,PayByPhone
-park-ER-0117-garage,payment-app-id,4237
-park-ER-0117-garage,payment-app-url,https://www.paybyphone.com/
-park-ER-0117-garage,payment-form-accepted,mobile-app
-park-ER-0117-garage,weekday-typical-utilization,127
 park-ER-0128,attended,2
 park-ER-0128,capacity,144
 park-ER-0128,capacity-accessible,6
@@ -21053,8 +21341,8 @@ park-ER-0128,payment-form-accepted,invoice
 park-ER-0128,payment-form-accepted,mobile-app
 park-ER-0128,weekday-typical-utilization,131
 park-ER-0168-garage,attended,1
-park-ER-0168-garage,capacity,635
-park-ER-0168-garage,capacity-accessible,17
+park-ER-0168-garage,capacity,698
+park-ER-0168-garage,capacity-accessible,15
 park-ER-0168-garage,car-sharing,Zipcar
 park-ER-0168-garage,contact,MBTA Customer Support
 park-ER-0168-garage,contact-phone,617-222-3200
@@ -21182,7 +21470,7 @@ park-FB-0109,attended,2
 park-FB-0109,capacity,45
 park-FB-0109,contact,Dedham Town Hall
 park-FB-0109,contact-phone,781-751-9100
-park-FB-0109,contact-url,http://www.dedham-ma.gov/Home/Components/BusinessDirectory/BusinessDirectory/116/759
+park-FB-0109,contact-url,http://www.dedham-ma.gov/
 park-FB-0109,enclosed,2
 park-FB-0109,fee-daily,free
 park-FB-0109,municipality,Dedham
@@ -21248,7 +21536,7 @@ park-FB-0143,payment-form-accepted,mobile-app
 park-FB-0143,weekday-typical-utilization,102
 park-FB-0148,attended,2
 park-FB-0148,capacity,781
-park-FB-0148,capacity-accessible,14
+park-FB-0148,capacity-accessible,17
 park-FB-0148,contact,MBTA Customer Support
 park-FB-0148,contact-phone,617-222-3200
 park-FB-0148,contact-url,https://www.mbta.com/customer-support
@@ -21285,7 +21573,7 @@ park-FB-0191,payment-form-accepted,invoice
 park-FB-0191,payment-form-accepted,mobile-app
 park-FB-0191,weekday-typical-utilization,222
 park-FB-0230,attended,2
-park-FB-0230,capacity,630
+park-FB-0230,capacity,540
 park-FB-0230,capacity-accessible,11
 park-FB-0230,contact,MBTA Customer Support
 park-FB-0230,contact-phone,617-222-3200
@@ -21840,7 +22128,7 @@ park-GRB-0233,payment-form-accepted,invoice
 park-GRB-0233,payment-form-accepted,mobile-app
 park-GRB-0233,weekday-typical-utilization,181
 park-GRB-0276,attended,2
-park-GRB-0276,capacity,296
+park-GRB-0276,capacity,317
 park-GRB-0276,capacity-accessible,22
 park-GRB-0276,contact,MBTA Customer Support
 park-GRB-0276,contact-phone,617-222-3200
@@ -22155,7 +22443,7 @@ park-NB-0127,note,"Town of Needham is responsible for parking maintenance, payme
 park-NB-0127,operator,Town of Needham
 park-NB-0127,owner,City/Town
 park-NB-0137,attended,2
-park-NB-0137,capacity,99
+park-NB-0137,capacity,87
 park-NB-0137,capacity-accessible,3
 park-NB-0137,contact,MBTA Customer Support
 park-NB-0137,contact-phone,617-222-3200
@@ -22210,17 +22498,17 @@ park-NBM-0523,payment-form-accepted,mobile-app
 park-NBM-0546,attended,2
 park-NBM-0546,capacity,150
 park-NBM-0546,capacity-accessible,13
-park-NBM-0546,contact,New Bedford Port Authority
-park-NBM-0546,contact-phone,508-961-3000
-park-NBM-0546,contact-url,https://portofnewbedford.org/
+park-NBM-0546,contact,Seastreak
+park-NBM-0546,contact-phone,1-800-262-8743
 park-NBM-0546,enclosed,2
-park-NBM-0546,fee-daily,Mon-Fri: $4 | Sat-Sun: $2 | Overnight: $15 per day
+park-NBM-0546,fee-daily,"Daily: $5,  text ICRAIL to #44989 | Overnight: $15, text FERRYPK to #44989. Or get an invoice in the mail."
 park-NBM-0546,municipality,New Bedford 
-park-NBM-0546,operator,New Bedford Port Authority
+park-NBM-0546,note,Daily parking: text ICRAIL to #44989. Overnight/multi-day parking: text FERRYPK to #44989.
+park-NBM-0546,operator,Seastreak
 park-NBM-0546,overnight-allowed,yes-except-snow
 park-NBM-0546,owner,New Bedford Port Authority
-park-NBM-0546,payment-form-accepted,XpressPark
 park-NBM-0546,payment-form-accepted,credit-debit-card
+park-NBM-0546,payment-form-accepted,mobile-app
 park-NEC-1659-garage,attended,1
 park-NEC-1659-garage,capacity,1100
 park-NEC-1659-garage,contact,Rhode Island Department of Transportation
@@ -22277,7 +22565,7 @@ park-NEC-1919,contact,MBTA Customer Support
 park-NEC-1919,contact-phone,617-222-3200
 park-NEC-1919,contact-url,https://www.mbta.com/customer-support
 park-NEC-1919,enclosed,2
-park-NEC-1919,fee-daily,"The South Attleboro Parking Lot will be free starting October 1st, 2024, until October 1st, 2025."
+park-NEC-1919,fee-daily,"The South Attleboro Parking Lot will be free starting October 1st, 2024"
 park-NEC-1919,municipality,Attleboro
 park-NEC-1919,note,Temporary Price Reduction. 
 park-NEC-1919,operator,Keolis Commuter Services
@@ -22292,20 +22580,19 @@ park-NEC-1919,weekday-typical-utilization,579
 park-NEC-1969,attended,2
 park-NEC-1969,capacity,780
 park-NEC-1969,capacity-accessible,16
-park-NEC-1969,contact,SP Plus Corporation
+park-NEC-1969,contact,Greater Attleboro and Taunton Regional Transit Authority
 park-NEC-1969,contact-phone,401-274-5586
-park-NEC-1969,contact-url,http://www.gatra.org/index.php/special-services/parking-passes/
+park-NEC-1969,contact-url,https://www.gatra.org/attleboro-commuter-parking-lot/
 park-NEC-1969,enclosed,2
-park-NEC-1969,fee-daily,$5
-park-NEC-1969,fee-monthly,$90
+park-NEC-1969,fee-daily,"$5.00 plus fees and taxes per vehicle per day. A violation for non payment of daily parking will result in an additional $48.00 fee. Daily and multi-day payment is done through app.Metropolis.io. Vehicles in the parking lot off Riverfront Drive are captured on entry and exit. Once payment is linked, you will be charged on vehicle exit. If parking in the Mill St Parking lot, scan a QR code in the lot to start your session."
+park-NEC-1969,fee-monthly,"$90 plus fees per month per vehicle. Available at the Attleboro MBTA train station.  To register online for your Attleboro parking pass, go to App.metropolis.io"
 park-NEC-1969,municipality,Attleboro
-park-NEC-1969,note,"Greater Attleboro/Taunton RTA is responsible for parking maintenance, payments, and snow removal."
+park-NEC-1969,note,"Daily and Multi-Day Payment is done through the App.Metropolis.io If using the parking lot off Riverfront Drive your vehicle is captured on entry and exit. Once payment is linked, you will be charged on vehicle exit. If parking in the Mill St Parking lot, you will need to scan a QR code in the lot to start your session."
 park-NEC-1969,operator,Greater Attleboro/Taunton Regional Transit Authority
 park-NEC-1969,overnight-allowed,yes-snow-unknown
 park-NEC-1969,owner,Local transit authority
-park-NEC-1969,payment-app,Parkmobile
-park-NEC-1969,payment-app-id,881
-park-NEC-1969,payment-app-url,https://parkmobile.io/
+park-NEC-1969,payment-app,Metropolis
+park-NEC-1969,payment-app-url,https://app.metropolis.io/sign-in
 park-NEC-1969,payment-form-accepted,mobile-app
 park-NEC-2040,attended,2
 park-NEC-2040,capacity,806
@@ -22543,11 +22830,12 @@ park-NHRML-0254-garage,contact,Lowell Regional Transit Authority
 park-NHRML-0254-garage,contact-phone,978-459-0164 ext. 206
 park-NHRML-0254-garage,contact-url,http://lrta.com/parking/
 park-NHRML-0254-garage,enclosed,1
-park-NHRML-0254-garage,fee-daily,"$8 daily, $16 overnight"
+park-NHRML-0254-garage,fee-daily,"1 hr: $2, 2 hrs: $3, 3 hrs: $4, 4 hrs: $5, 5 hrs: $6, 6 hrs: $7, 7 hrs: $8, 8 hrs: $9, 9 hrs: $10, 10 hrs: $11, 11 hrs: $12, 12-24 hrs: $13. Lost Ticket Fee: $13"
 park-NHRML-0254-garage,fee-monthly,$70
 park-NHRML-0254-garage,municipality,Lowell
 park-NHRML-0254-garage,note,"LRTA is responsible for garage maintenance, payments, and snow removal. Max Garage clearance is 6'8"""
 park-NHRML-0254-garage,operator,Lowell Regional Transit Authority
+park-NHRML-0254-garage,overnight-allowed,yes-snow-unknown
 park-NHRML-0254-garage,owner,Local transit authority
 park-NHRML-0254-garage,payment-form-accepted,cash
 park-PB-0158,attended,2
@@ -22666,7 +22954,7 @@ park-PB-0356,payment-form-accepted,mobile-app
 park-PB-0356,weekday-typical-utilization,2
 park-SB-0156,attended,2
 park-SB-0156,capacity,215
-park-SB-0156,capacity-accessible,4
+park-SB-0156,capacity-accessible,8
 park-SB-0156,contact,MBTA Customer Support
 park-SB-0156,contact-phone,617-222-3200
 park-SB-0156,contact-url,https://www.mbta.com/customer-support
@@ -23221,7 +23509,7 @@ park-bcnfd,payment-form-accepted,credit-debit-card
 park-bcnfd,payment-form-accepted,mobile-app
 park-bmmnl,attended,2
 park-bmmnl,capacity,416
-park-bmmnl,capacity-accessible,6
+park-bmmnl,capacity-accessible,8
 park-bmmnl,car-sharing,Zipcar
 park-bmmnl,contact,MBTA Customer Support
 park-bmmnl,contact-phone,617-222-3200
@@ -23312,7 +23600,7 @@ park-butlr,payment-form-accepted,invoice
 park-butlr,payment-form-accepted,mobile-app
 park-butlr,weekday-typical-utilization,33
 park-chhil,attended,2
-park-chhil,capacity,53
+park-chhil,capacity,56
 park-chhil,capacity-accessible,3
 park-chhil,contact,MBTA Customer Support
 park-chhil,contact-phone,617-222-3200
@@ -23329,7 +23617,7 @@ park-chhil,payment-app-id,4251
 park-chhil,payment-app-url,https://www.paybyphone.com/
 park-chhil,payment-form-accepted,invoice
 park-chhil,payment-form-accepted,mobile-app
-park-chhil,weekday-typical-utilization,53
+park-chhil,weekday-typical-utilization,56
 park-eliot,attended,2
 park-eliot,capacity,52
 park-eliot,capacity-accessible,3
@@ -23386,8 +23674,8 @@ park-longw,payment-form-accepted,cash
 park-longw,payment-form-accepted,credit-debit-card
 park-longw,payment-form-accepted,mobile-app
 park-matt,attended,2
-park-matt,capacity,50
-park-matt,capacity-accessible,4
+park-matt,capacity,53
+park-matt,capacity-accessible,2
 park-matt,car-sharing,Zipcar
 park-matt,contact,MBTA Customer Support
 park-matt,contact-phone,617-222-3200
@@ -23459,44 +23747,24 @@ park-north-garage,operator,ProPark
 park-north-garage,owner,Private
 park-north-garage,payment-form-accepted,cash
 park-north-garage,payment-form-accepted,credit-debit-card
-park-nqncy-garage-hancock,attended,1
-park-nqncy-garage-hancock,capacity,836
-park-nqncy-garage-hancock,capacity-accessible,18
-park-nqncy-garage-hancock,car-sharing,Zipcar
-park-nqncy-garage-hancock,contact,MBTA Customer Support
-park-nqncy-garage-hancock,contact-phone,617-222-3200
-park-nqncy-garage-hancock,contact-url,https://www.mbta.com/customer-support
-park-nqncy-garage-hancock,enclosed,1
-park-nqncy-garage-hancock,fee-daily,Mon-Fri: $5 | Sat-Sun: $3
-park-nqncy-garage-hancock,municipality,Quincy
-park-nqncy-garage-hancock,operator,Keolis Commuter Services
-park-nqncy-garage-hancock,overnight-allowed,yes-except-snow
-park-nqncy-garage-hancock,owner,MBTA
-park-nqncy-garage-hancock,payment-app,PayByPhone
-park-nqncy-garage-hancock,payment-app-id,4277
-park-nqncy-garage-hancock,payment-app-url,https://www.paybyphone.com/
-park-nqncy-garage-hancock,payment-form-accepted,invoice
-park-nqncy-garage-hancock,payment-form-accepted,mobile-app
-park-nqncy-newport,attended,2
-park-nqncy-newport,capacity,353
-park-nqncy-newport,capacity-accessible,12
-park-nqncy-newport,car-sharing,Zipcar
-park-nqncy-newport,contact,MBTA Customer Support
-park-nqncy-newport,contact-phone,617-222-3200
-park-nqncy-newport,contact-url,https://www.mbta.com/customer-support
-park-nqncy-newport,enclosed,2
-park-nqncy-newport,fee-daily,Mon-Fri: $5 | Sat-Sun: $3
-park-nqncy-newport,fee-monthly,$87.50
-park-nqncy-newport,municipality,Quincy
-park-nqncy-newport,note,Permanently Closed as of 9/15/25
-park-nqncy-newport,operator,Keolis Commuter Services
-park-nqncy-newport,overnight-allowed,no
-park-nqncy-newport,owner,MBTA
-park-nqncy-newport,payment-app,PayByPhone
-park-nqncy-newport,payment-app-id,4365
-park-nqncy-newport,payment-app-url,https://www.paybyphone.com/
-park-nqncy-newport,payment-form-accepted,invoice
-park-nqncy-newport,payment-form-accepted,mobile-app
+park-nqncy-garage,attended,1
+park-nqncy-garage,capacity,832
+park-nqncy-garage,capacity-accessible,18
+park-nqncy-garage,car-sharing,Zipcar
+park-nqncy-garage,contact,MBTA Customer Support
+park-nqncy-garage,contact-phone,617-222-3200
+park-nqncy-garage,contact-url,https://www.mbta.com/customer-support
+park-nqncy-garage,enclosed,1
+park-nqncy-garage,fee-daily,Mon-Fri: $5 | Sat-Sun: $3
+park-nqncy-garage,municipality,Quincy
+park-nqncy-garage,operator,Keolis Commuter Services
+park-nqncy-garage,overnight-allowed,yes
+park-nqncy-garage,owner,MBTA
+park-nqncy-garage,payment-app,PayByPhone
+park-nqncy-garage,payment-app-id,4277
+park-nqncy-garage,payment-app-url,https://www.paybyphone.com/
+park-nqncy-garage,payment-form-accepted,invoice
+park-nqncy-garage,payment-form-accepted,mobile-app
 park-ogmnl,attended,2
 park-ogmnl,capacity,729
 park-ogmnl,capacity-accessible,13
@@ -23704,7 +23972,8 @@ park-welln-garage,payment-form-accepted,cash
 park-welln-garage,payment-form-accepted,credit-debit-card
 park-welln-lot,attended,2
 park-welln-lot,capacity,1335
-park-welln-lot,capacity-accessible,29
+park-welln-lot,capacity-accessible,28
+park-welln-lot,car-sharing,Zipcar
 park-welln-lot,contact,MBTA Customer Support
 park-welln-lot,contact-phone,617-222-3200
 park-welln-lot,contact-url,https://www.mbta.com/customer-support
@@ -23722,8 +23991,9 @@ park-welln-lot,payment-form-accepted,invoice
 park-welln-lot,payment-form-accepted,mobile-app
 park-welln-lot,weekday-typical-utilization,1263
 park-wlsta,attended,2
-park-wlsta,capacity,118
-park-wlsta,capacity-accessible,5
+park-wlsta,capacity,531
+park-wlsta,capacity-accessible,12
+park-wlsta,car-sharing,Zipcar
 park-wlsta,contact,MBTA Customer Support
 park-wlsta,contact-phone,617-222-3200
 park-wlsta,contact-url,https://www.mbta.com/customer-support
@@ -23858,8 +24128,10 @@ portlift-haecl-1,excludes-stop,70025
 portlift-haecl-1,excludes-stop,70203
 portlift-haecl-1,note,Customers can board/exit certain trains using mobile lift
 portlift-harvd-0,excludes-stop,70131
+portlift-harvd-0,excludes-stop,9070130
 portlift-harvd-0,note,Customers can board/exit certain trains using mobile lift
 portlift-harvd-1,excludes-stop,70130
+portlift-harvd-1,excludes-stop,9070130
 portlift-harvd-1,note,Customers can board/exit certain trains using mobile lift
 portlift-hsmnl,note,Customers can board/exit certain trains using mobile lift
 portlift-kencl,note,Customers can board/exit certain trains using mobile lift
@@ -23962,6 +24234,66 @@ portlift-woodl-0,excludes-stop,70163
 portlift-woodl-0,note,Customers can board/exit certain trains using mobile lift
 portlift-woodl-1,excludes-stop,70162
 portlift-woodl-1,note,Customers can board/exit certain trains using mobile lift
+ramp-Boat-Aquarium,maximum-steepness,steep
+ramp-Boat-Aquarium,minimum-steepness,steep
+ramp-Boat-Aquarium,narrow-boarding,yes
+ramp-Boat-Aquarium,tripping-hazards,no
+ramp-Boat-Blossom,maximum-steepness,very-steep
+ramp-Boat-Blossom,minimum-steepness,not-steep
+ramp-Boat-Blossom,narrow-boarding,no
+ramp-Boat-Blossom,tripping-hazards,no
+ramp-Boat-Charlestown,maximum-steepness,very-steep
+ramp-Boat-Charlestown,minimum-steepness,very-steep
+ramp-Boat-Charlestown,narrow-boarding,yes
+ramp-Boat-Charlestown,tripping-hazards,no
+ramp-Boat-Fan,maximum-steepness,not-steep
+ramp-Boat-Fan,minimum-steepness,not-steep
+ramp-Boat-Fan,narrow-boarding,no
+ramp-Boat-Fan,tripping-hazards,no
+ramp-Boat-Hingham,maximum-steepness,very-steep
+ramp-Boat-Hingham,minimum-steepness,very-steep
+ramp-Boat-Hingham,narrow-boarding,no
+ramp-Boat-Hingham,tripping-hazards,no
+ramp-Boat-Hull,maximum-steepness,not-steep
+ramp-Boat-Hull,minimum-steepness,not-steep
+ramp-Boat-Hull,narrow-boarding,no
+ramp-Boat-Hull,tripping-hazards,no
+ramp-Boat-Lewis,maximum-steepness,steep
+ramp-Boat-Lewis,minimum-steepness,not-steep
+ramp-Boat-Lewis,narrow-boarding,yes
+ramp-Boat-Lewis,tripping-hazards,no
+ramp-Boat-Logan,maximum-steepness,steep
+ramp-Boat-Logan,minimum-steepness,steep
+ramp-Boat-Logan,narrow-boarding,no
+ramp-Boat-Logan,tripping-hazards,no
+ramp-Boat-Long,maximum-steepness,not-steep
+ramp-Boat-Long,minimum-steepness,not-steep
+ramp-Boat-Long,narrow-boarding,no
+ramp-Boat-Long,tripping-hazards,no
+ramp-Boat-Long-North-5B,maximum-steepness,steep
+ramp-Boat-Long-North-5B,minimum-steepness,steep
+ramp-Boat-Long-North-5B,narrow-boarding,yes
+ramp-Boat-Long-North-5B,tripping-hazards,no
+ramp-Boat-Long-North-5C,maximum-steepness,very-steep
+ramp-Boat-Long-North-5C,minimum-steepness,steep
+ramp-Boat-Long-North-5C,narrow-boarding,no
+ramp-Boat-Long-North-5C,tripping-hazards,no
+ramp-Boat-Long-South,maximum-steepness,very-steep
+ramp-Boat-Long-South,minimum-steepness,not-steep
+ramp-Boat-Long-South,narrow-boarding,yes
+ramp-Boat-Long-South,tripping-hazards,yes
+ramp-Boat-Quincy,maximum-steepness,very-steep
+ramp-Boat-Quincy,minimum-steepness,very-steep
+ramp-Boat-Quincy,narrow-boarding,yes
+ramp-Boat-Quincy,tripping-hazards,no
+ramp-Boat-Rowes,maximum-steepness,very-steep
+ramp-Boat-Rowes,minimum-steepness,very-steep
+ramp-Boat-Rowes,narrow-boarding,yes
+ramp-Boat-Rowes,tripping-hazards,no
+ramp-Boat-Winthrop,maximum-steepness,steep
+ramp-Boat-Winthrop,minimum-steepness,steep
+ramp-Boat-Winthrop,narrow-boarding,yes
+ramp-Boat-Winthrop,tripping-hazards,no
 retailsale-302000,address,"370 Western Ave, Brighton, MA 02135"
 retailsale-302000,contact-phone,617-787-5266
 retailsale-302000,dispenses,fare-media
@@ -24325,12 +24657,6 @@ retailsale-302062,dispenses,fare-media
 retailsale-302062,enclosed,1
 retailsale-302062,payment-form-accepted,cash
 retailsale-302062,payment-form-accepted,credit-debit-card
-retailsale-302064,address,"71 Front Street, Scituate, MA 02066"
-retailsale-302064,contact-phone,781-545-4896
-retailsale-302064,dispenses,fare-media
-retailsale-302064,enclosed,1
-retailsale-302064,payment-form-accepted,cash
-retailsale-302064,payment-form-accepted,credit-debit-card
 retailsale-302065,address,"509 Cambridge St., Allston, MA 02134"
 retailsale-302065,contact-phone,617-782-3900
 retailsale-302065,dispenses,fare-media
@@ -24600,12 +24926,6 @@ retailsale-302112,dispenses,fare-media
 retailsale-302112,enclosed,1
 retailsale-302112,payment-form-accepted,cash
 retailsale-302112,payment-form-accepted,credit-debit-card
-retailsale-302113,address,"707 Shirley Street, Winthrop, MA 02152"
-retailsale-302113,contact-phone,617-207-9092
-retailsale-302113,dispenses,fare-media
-retailsale-302113,enclosed,1
-retailsale-302113,payment-form-accepted,cash
-retailsale-302113,payment-form-accepted,credit-debit-card
 subplat-DB-0095-2,excludes-stop,FB-0095-04
 subplat-DB-0095-2,excludes-stop,FB-0095-05
 subplat-DB-0095-2,excludes-stop,NEC-2192-03
@@ -24791,7 +25111,6 @@ subplat-WML-0364-1,excludes-stop,WML-0364-02
 subplat-WML-0364-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-WML-0364-2,excludes-stop,WML-0364-01
 subplat-WML-0364-2,note,Mini high level platform is available to provide level boarding to certain cars in a train set
-subplat-WML-0442-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-WR-0075-1,excludes-stop,WR-0075-02
 subplat-WR-0075-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-WR-0075-2,excludes-stop,WR-0075-01
@@ -24890,8 +25209,12 @@ subplat-spmnl-0,note,Mini high level platform is available to provide level boar
 subplat-spmnl-1,excludes-stop,70207
 subplat-spmnl-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-wascm-0,excludes-stop,70121
+subplat-wascm-0,excludes-stop,9070120
+subplat-wascm-0,excludes-stop,9070121
 subplat-wascm-0,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-wascm-1,excludes-stop,70120
+subplat-wascm-1,excludes-stop,9070120
+subplat-wascm-1,excludes-stop,9070121
 subplat-wascm-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 ticket-bbsta,address,"145 Dartmouth St, Boston, MA 02116"
 ticket-bbsta,dispenses,fare-media
