@@ -2,6 +2,8 @@
 
 Generate a new GTFS schedule bundle for a proposed new MBTA service
 
+The bundles in `data/` (`gtfs-present.tar.gz`, `gtfs-regional-rail.tar.gz`) are used by [Regional Rail Explorer](https://github.com/transitmatters/regional-rail-explorer).
+
 ### How to update GTFS Bundles
 
 To update the GTFS bundles, you need to pull down a bundle for a specific date, and then re-run the scenario generation.
@@ -164,3 +166,10 @@ Dev setup is fairly simple.
   - Then run `poetry install` to download dependencies
 
 After that all commands you need will be found in the `Makefile`
+
+```bash
+poetry run python -m pytest  # Run tests (what CI runs)
+poetry run make lint         # flake8 + black --check
+poetry run make format       # black
+make install-git-hooks       # Run `make lint` before each push
+```
