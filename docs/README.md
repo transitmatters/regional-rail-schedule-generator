@@ -32,7 +32,7 @@ station_revere_center = InfillStation(
     id="",  # Auto-generated: place-rr-revere-center
     location=(42.4154533, -70.9922548),
     municipality="Revere",
-    route_type="regional_rail"  # Optional, this is the default
+    route_type="regional_rail",  # Optional, this is the default
 )
 
 # Green Line Extension station
@@ -41,7 +41,7 @@ station_needham_heights = InfillStation(
     id="",  # Auto-generated: place-glx-union-square-west
     location=(42.2936, -71.2364),
     municipality="Needham",
-    route_type="green_line_extension"
+    route_type="green_line_extension",
 )
 
 # Blue Line Extension station
@@ -50,7 +50,7 @@ station_lynn_central = InfillStation(
     id="",  # Auto-generated: place-blx-lynn-central
     location=(42.4629, -70.9457),
     municipality="Lynn",
-    route_type="blue_line_extension"
+    route_type="blue_line_extension",
 )
 
 # Red Line Extension station
@@ -59,7 +59,7 @@ station_arlington = InfillStation(
     id="",  # Auto-generated: place-rlx-arlington-heights
     location=(42.4259, -71.1763),
     municipality="Arlington",
-    route_type="red_line_extension"
+    route_type="red_line_extension",
 )
 ```
 
@@ -108,7 +108,7 @@ Then a list of all stations in the line
 stations = (
     "Lynn",
     "River Works",
-    ...
+    ...,
 )
 ```
 
@@ -139,7 +139,7 @@ Then in the scenario you are adding the line to, import your new route and add i
 subgraphs = [
     [red],
     [blue],
-    ...
+    ...,
 ]
 ```
 
@@ -158,18 +158,30 @@ archive_scenario_gtfs("gtfs-regional-rail")
 
 ## Dev Setup
 
-Dev setup is fairly simple.
+### Requirements
 
-- Python 3.12 with recent poetry (2.0.0 or later)
-  - Verify with `python --version && poetry --version`
-  - `poetry self update` to update poetry
-  - Then run `poetry install` to download dependencies
+- Python 3.14 (pinned in `.python-version`; [mise](https://mise.jdx.dev/) or `uv` will pick it up automatically)
+- [uv](https://docs.astral.sh/uv/) for dependency management
+  - Install: `curl -LsSf https://astral.sh/uv/install.sh | sh`
+  - Verify: `uv --version`
+- [git-lfs](https://git-lfs.com/), since the generated bundles in `data/` are stored in Git LFS
 
-After that all commands you need will be found in the `Makefile`
+### Installation
 
 ```bash
-poetry run python -m pytest  # Run tests (what CI runs)
-poetry run make lint         # flake8 + black --check
-poetry run make format       # black
-make install-git-hooks       # Run `make lint` before each push
+uv sync                 # Create .venv and install all dependencies (including dev tools)
+make install-git-hooks  # Install the pre-commit hook (Ruff lint + format)
 ```
+
+### Common commands
+
+All commands live in the `Makefile`:
+
+```bash
+make test                     # Run tests with pytest (what CI runs)
+make lint                     # ruff check + ruff format --check
+make format                   # Auto-fix lint issues and format with Ruff
+make build date=YYYY-MM-DD    # Regenerate every GTFS bundle in data/
+```
+
+To run any other script, prefix it with `uv run`, e.g. `uv run python -m scenarios.regional_rail`.
