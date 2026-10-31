@@ -26,9 +26,6 @@ existing-network:
 regional-rail:
 	uv run python -m scenarios.regional_rail
 
-expansion:
-	uv run python -m scenarios.expansion
-
 generate-timetable:
 	uv run python -m generate.generate_timetable $(gtfs_path) $(route_id) $(output_path)
 
@@ -37,4 +34,3 @@ build:
 	make update-gtfs
 	make existing-network
 	make regional-rail
-	make expansion
