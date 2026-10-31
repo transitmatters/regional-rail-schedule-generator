@@ -1,4 +1,6 @@
-.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
 .venv
 *.code-workspace
 env
@@ -7,3 +9,5 @@ data/*.pickle
 *.pyc
 .DS_Store
 *.bak
+.ruff_cache
+.pytest_cache

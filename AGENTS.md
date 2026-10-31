@@ -12,10 +12,10 @@ Guidance for AI coding agents working on the Regional Rail Schedule Generator, w
 ## Commands
 
 ```bash
-poetry install                # Python 3.12 + Poetry
-poetry run python -m pytest   # Tests in scheduler/tests (what CI runs)
-poetry run make lint          # flake8 + black --check (120 character lines)
-poetry run make format        # black
+uv sync                       # Python 3.14 + uv
+make test                     # Tests in scheduler/tests (what CI runs)
+make lint                     # ruff check + ruff format --check (120 character lines)
+make format                   # ruff check --fix + ruff format
 make build date=YYYY-MM-DD    # Regenerate every GTFS bundle in data/
 ```
 
