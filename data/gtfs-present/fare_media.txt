@@ -2,4 +2,6 @@ fare_media_id,fare_media_name,fare_media_type
 cash,Cash,0
 credit_debit,Credit/debit card,0
 charlieticket,CharlieTicket,1
+charliecard,CharlieCard,2
+contactless_credit_debit,Contactless payment,3
 mticket,mTicket app,4
