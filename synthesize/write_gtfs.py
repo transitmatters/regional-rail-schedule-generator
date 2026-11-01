@@ -1,4 +1,4 @@
-from typing import Union, List, Dict
+from typing import Union, List, Dict, Tuple
 import csv
 import shutil
 import os
@@ -307,105 +307,105 @@ def write_scenario_gtfs(scenario: Scenario, directory_path: str):
     writer.write()
 
 
-def _filter_shuttle_routes_from_file(input_file_path: str, output_file_path: str):
-    """Filter out shuttle routes from a GTFS file."""
-    with open(input_file_path, "r") as infile, open(output_file_path, "w") as outfile:
-        # Read header
-        header = infile.readline()
-        outfile.write(header)
+# The bundles are only read by Regional Rail Explorer, so they hold just the files and columns it uses.
+# Keep this in sync with RRE's src/types/gtfs.ts and src/server/network/network.ts: if RRE starts
+# reading another file or column, add it here. Files not listed (including the full stop_times.txt,
+# which RRE never reads) are left out of the archive.
+BUNDLE_COLUMNS = {
+    "calendar.txt": ["service_id", *DAYS_OF_WEEK],
+    "relevant_stop_times.txt": ["trip_id", "arrival_time", "stop_id"],
+    "trips.txt": ["route_id", "service_id", "trip_id", "direction_id", "route_pattern_id"],
+    "stops.txt": ["stop_id", "stop_name", "stop_desc", "location_type", "parent_station", "wheelchair_boarding"],
+    "transfers.txt": ["from_stop_id", "to_stop_id", "min_transfer_time"],
+    "routes.txt": ["route_id", "route_long_name"],
+    "route_patterns.txt": ["route_pattern_id", "route_id"],
+    # Only in scenario bundles; None keeps every column
+    "amenities.txt": None,
+}
 
-        # Filter out lines containing shuttle routes
-        for line in infile:
-            if "Shuttle-" not in line:
-                outfile.write(line)
+# Holiday-only services that appear in calendar_dates.txt but not calendar.txt
+HOLIDAY_ONLY_SERVICE_IDS = {
+    "IndigenousPeoplesDay",
+    "VeteransDay",
+    "VeteransDay-DayafterThanksgivingDay",
+    "ThanksgivingDay",
+    "DayafterThanksgivingDay",
+}
 
-
-def _get_holiday_only_service_ids(gtfs_directory: str):
-    """Get service IDs that only appear in calendar_dates.txt (holiday-only services)."""
-    # These are the specific holiday service IDs that only appear in calendar_dates.txt
-    # and not in calendar.txt (based on analysis of the actual data)
-    holiday_only_services = {
-        "IndigenousPeoplesDay",
-        "VeteransDay",
-        "VeteransDay-DayafterThanksgivingDay",
-        "ThanksgivingDay",
-        "DayafterThanksgivingDay",
-    }
-
-    return holiday_only_services
-
-
-def _filter_holiday_services_from_file(input_file_path: str, output_file_path: str, holiday_only_services: set):
-    """Filter out holiday-only services from a GTFS file."""
-    with open(input_file_path, "r") as infile, open(output_file_path, "w") as outfile:
-        # Read header
-        header = infile.readline()
-        outfile.write(header)
-
-        # Filter out lines containing holiday-only services
-        for line in infile:
-            # Split line to check service_id column (2nd column in most GTFS files)
-            parts = line.split(",")
-            if len(parts) >= 2:
-                service_id = parts[1].strip()  # service_id is typically the 2nd column
-                if service_id not in holiday_only_services:
-                    outfile.write(line)
-            else:
-                # If we can't parse the line properly, include it to be safe
-                outfile.write(line)
+Rows = List[Dict[str, str]]
 
 
-def _filter_gtfs_file(input_file_path: str, output_file_path: str, file_name: str, holiday_only_services: set):
-    """Apply appropriate filtering based on file type."""
-    if file_name in ["routes.txt", "route_patterns.txt", "trips.txt", "stop_times.txt", "relevant_stop_times.txt"]:
-        # Apply both shuttle and holiday filtering to these files
-        with tempfile.NamedTemporaryFile(mode="w", delete=False) as temp_file:
-            temp_path = temp_file.name
+def _is_shuttle(row: Dict[str, str]) -> bool:
+    return any("Shuttle-" in value for value in row.values() if value)
 
-        # First filter shuttles
-        _filter_shuttle_routes_from_file(input_file_path, temp_path)
-        # Then filter holiday-only services
-        _filter_holiday_services_from_file(temp_path, output_file_path, holiday_only_services)
 
-        # Clean up temp file
-        os.unlink(temp_path)
-    else:
-        # For other files, just copy as-is
-        shutil.copy2(input_file_path, output_file_path)
+def prune_bundle(rows_by_file: Dict[str, Rows]) -> Dict[str, Rows]:
+    """Drop the rows RRE can't use: shuttles, holiday-only trips, and anything not reachable from a
+    relevant stop time. Takes and returns rows keyed by file name; files not in BUNDLE_COLUMNS are dropped."""
+    pruned = {name: rows for name, rows in rows_by_file.items() if name in BUNDLE_COLUMNS}
+    for name in ("routes.txt", "route_patterns.txt"):
+        if name in pruned:
+            pruned[name] = [row for row in pruned[name] if not _is_shuttle(row)]
+
+    trips = [
+        row for row in pruned["trips.txt"] if not _is_shuttle(row) and row["service_id"] not in HOLIDAY_ONLY_SERVICE_IDS
+    ]
+    trip_ids = {row["trip_id"] for row in trips}
+    stop_times = [
+        row for row in pruned["relevant_stop_times.txt"] if row["trip_id"] in trip_ids and not _is_shuttle(row)
+    ]
+    trip_ids_with_stop_times = {row["trip_id"] for row in stop_times}
+    pruned["relevant_stop_times.txt"] = stop_times
+    pruned["trips.txt"] = [row for row in trips if row["trip_id"] in trip_ids_with_stop_times]
+
+    # Keep every station so RRE's station list doesn't change, but only the platforms that are served
+    served_stop_ids = {row["stop_id"] for row in stop_times}
+    stops = [
+        row
+        for row in pruned["stops.txt"]
+        if row["location_type"] == LocationType.STATION
+        or (row["location_type"] == LocationType.STOP and row["stop_id"] in served_stop_ids)
+    ]
+    kept_stop_ids = {row["stop_id"] for row in stops}
+    pruned["stops.txt"] = stops
+    pruned["transfers.txt"] = [
+        row
+        for row in pruned["transfers.txt"]
+        if row["from_stop_id"] in kept_stop_ids and row["to_stop_id"] in kept_stop_ids
+    ]
+    return pruned
+
+
+def _read_csv(file_path: str) -> Tuple[List[str], Rows]:
+    with open(file_path, newline="") as file:
+        reader = csv.DictReader(file)
+        return reader.fieldnames, list(reader)
+
+
+def _write_csv(file_path: str, rows: Rows, columns: Union[None, List[str]], header: List[str]):
+    with open(file_path, "w", newline="") as file:
+        writer = csv.DictWriter(file, fieldnames=columns or header, extrasaction="ignore", lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(rows)
 
 
 def archive_scenario_gtfs(scenario_name: str):
     output_filename = os.path.abspath(os.path.join(__file__, "..", "..", "data", f"{scenario_name}.tar.gz"))
     directory_path = os.path.abspath(os.path.join(__file__, "..", "..", "data", scenario_name))
 
-    # Get holiday-only service IDs
-    holiday_only_services = _get_holiday_only_service_ids(directory_path)
+    rows_by_file = {}
+    headers = {}
+    for file_name in BUNDLE_COLUMNS:
+        file_path = os.path.join(directory_path, file_name)
+        if os.path.exists(file_path):
+            headers[file_name], rows_by_file[file_name] = _read_csv(file_path)
+    pruned = prune_bundle(rows_by_file)
 
-    # Determine which files to include
-    if scenario_name == "gtfs-present":
-        # For gtfs-present, only include files that are common to all GTFS bundles
-        files_to_include = {
-            "calendar.txt",
-            "relevant_stop_times.txt",
-            "route_patterns.txt",
-            "routes.txt",
-            "stop_times.txt",
-            "stops.txt",
-            "transfers.txt",
-            "trips.txt",
-        }
-        file_list = [f for f in files_to_include if os.path.exists(os.path.join(directory_path, f))]
-    else:
-        # For scenario bundles (e.g. regional-rail), include all files
-        file_list = [f for f in os.listdir(directory_path) if os.path.isfile(os.path.join(directory_path, f))]
-
-    # Create a temporary directory for filtered files
     with tempfile.TemporaryDirectory() as temp_dir:
         with tarfile.open(output_filename, "w:gz") as tar:
-            for file_name in file_list:
-                file_path = os.path.join(directory_path, file_name)
-                # Apply appropriate filtering to the file
+            for file_name, rows in pruned.items():
                 temp_file_path = os.path.join(temp_dir, file_name)
-                _filter_gtfs_file(file_path, temp_file_path, file_name, holiday_only_services)
+                _write_csv(temp_file_path, rows, BUNDLE_COLUMNS[file_name], headers[file_name])
                 # Add file with directory structure (scenario_name/file_name)
                 tar.add(temp_file_path, arcname=f"{scenario_name}/{file_name}")
+    print(f"Wrote {output_filename}")
