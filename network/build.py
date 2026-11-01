@@ -165,7 +165,7 @@ def link_routes(route_dicts, route_pattern_dicts):
     routes = []
     for route_dict in route_dicts:
         route_id = route_dict["route_id"]
-        route = Route(id=route_id, long_name=route_dict["route_long_name"])
+        route = Route(id=route_id, long_name=route_dict["route_long_name"], route_type=route_dict.get("route_type", ""))
         matching_route_patterns = [
             route_pattern_dict
             for route_pattern_dict in route_pattern_dicts
@@ -190,32 +190,35 @@ def ensure_trips_are_sorted(trips_by_id):
         trip.stop_times = list(sorted(trip.stop_times, key=lambda st: st.time))
 
 
-def build_network_from_gtfs():
-    # Do the loading...
-    calendar_dicts = load_calendar()
-    calendar_attribute_dicts = load_calendar_attributes()
-    stop_dicts = load_stops()
-    stop_time_dicts = load_relevant_stop_times()
-    transfer_dicts = load_transfers()
-    trip_dicts = load_trips()
-    route_dicts = load_routes()
-    route_pattern_dicts = load_route_patterns()
-    shapes = load_shapes()
-    # Now do the linking...
-    station_dicts = get_stations_from_stops(stop_dicts)
-    services_by_id = link_services(calendar_dicts, calendar_attribute_dicts)
-    routes_by_id = link_routes(route_dicts, route_pattern_dicts)
-    shapes_by_id = get_shapes_by_id(shapes)
-    trips_by_id = link_trips(trip_dicts, services_by_id, shapes_by_id)
+def load_gtfs_dicts():
+    return {
+        "calendar": load_calendar(),
+        "calendar_attributes": load_calendar_attributes(),
+        "stops": load_stops(),
+        "stop_times": load_relevant_stop_times(),
+        "transfers": load_transfers(),
+        "trips": load_trips(),
+        "routes": load_routes(),
+        "route_patterns": load_route_patterns(),
+        "shapes": load_shapes(),
+    }
+
+
+def link_network_from_dicts(dicts):
+    station_dicts = get_stations_from_stops(dicts["stops"])
+    services_by_id = link_services(dicts["calendar"], dicts["calendar_attributes"])
+    routes_by_id = link_routes(dicts["routes"], dicts["route_patterns"])
+    shapes_by_id = get_shapes_by_id(dicts["shapes"])
+    trips_by_id = link_trips(dicts["trips"], services_by_id, shapes_by_id)
     stations = [link_station(d) for d in station_dicts]
     all_stops = []
     for station in stations:
-        for child_stop in link_child_stops(station, stop_dicts):
+        for child_stop in link_child_stops(station, dicts["stops"]):
             all_stops.append(child_stop)
-            link_stop_times(child_stop, stop_time_dicts, trips_by_id)
+            link_stop_times(child_stop, dicts["stop_times"], trips_by_id)
     for station in stations:
         for stop in station.child_stops:
-            link_transfers(stop, all_stops, transfer_dicts)
+            link_transfers(stop, all_stops, dicts["transfers"])
     ensure_trips_are_sorted(trips_by_id)
     return Network(
         stations_by_id=index_by(stations, lambda st: st.id),
@@ -224,3 +227,7 @@ def build_network_from_gtfs():
         routes_by_id=routes_by_id,
         services_by_id=services_by_id,
     )
+
+
+def build_network_from_gtfs():
+    return link_network_from_dicts(load_gtfs_dicts())

@@ -167,6 +167,7 @@ class RoutePattern(object):
 class Route(object):
     id: str
     long_name: str
+    route_type: str = ""  # GTFS route_type: 0=tram, 1=subway, 2=rail, 3=bus
     representative_trip: Trip = None
     route_patterns: List[RoutePattern] = field(default_factory=list)
 
