@@ -396,7 +396,7 @@ def archive_scenario_gtfs(scenario_name: str):
         }
         file_list = [f for f in files_to_include if os.path.exists(os.path.join(directory_path, f))]
     else:
-        # For regional-rail and expansion bundles, include all files
+        # For scenario bundles (e.g. regional-rail), include all files
         file_list = [f for f in os.listdir(directory_path) if os.path.isfile(os.path.join(directory_path, f))]
 
     # Create a temporary directory for filtered files

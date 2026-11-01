@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Guidance for AI coding agents working on the Regional Rail Schedule Generator, which builds GTFS bundles for today's MBTA service and for proposed Regional Rail and expansion scenarios. Setup and how-tos for adding stops, routes, and scenarios for humans live in [docs/README.md](docs/README.md); read it first.
+Guidance for AI coding agents working on the Regional Rail Schedule Generator, which builds GTFS bundles for today's MBTA service and for proposed Regional Rail scenarios. Setup and how-tos for adding stops, routes, and scenarios for humans live in [docs/README.md](docs/README.md); read it first.
 
 ## Ground rules
 
