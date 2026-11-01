@@ -5,3 +5,8 @@ commuter_rail,commuter_rail,NBM-0374-01,NBM-0374
 commuter_rail,commuter_rail,NBM-0374-01,NBM-0374-02
 commuter_rail,commuter_rail,NBM-0374-02,NBM-0374
 commuter_rail,commuter_rail,NBM-0374-02,NBM-0374-01
+ferry_f6,ferry_f6,,
+ferry_f7,ferry_f7,,
+ferry_f8,ferry_f8,,
+ferry_f10,ferry_f10,,
+ferry_f1f2h,ferry_f1f2h,,

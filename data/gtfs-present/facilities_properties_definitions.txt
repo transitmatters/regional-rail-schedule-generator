@@ -27,3 +27,7 @@ secured,"Indicates if the facility requires special access for security; for exa
 weekday-arrive-before,Typical morning time at which a 'parking-area' or 'bike-storage' facility fills to capacity on weekdays,Timestamp in the format required in stop_times.txt
 weekday-typical-utilization,"Typical number of capacity units that a 'parking-area' or 'bike-storage' facility fills to on weekdays; for example, 100 at a parking garage indicates that 100 parking spaces are typically filled",Integer
 weekday-utilization-summary,Descriptive information about the typical utilization of a facility on weekdays; may refer user to 'weekday-arrive-before' or 'weekday-typical-utilization' fields,Text
+maximum-steepness,"Highest possible gradient of a ramp or gangway. Note that for ferries, this value may change as the tides / boat type change","Stipulated by ADA accessibility standards: very-steep (over 10% slope), steep (between 8.3% – 10% slope), not-steep (less than 8.3% slope)"
+minimum-steepness,"Lowest possible gradient of a ramp or gangway. Note that for ferries, this value may change as the tides / boat type change","Stipulated by ADA accessibility standards: very-steep (over 10% slope), steep (between 8.3% – 10% slope), not-steep (less than 8.3% slope)"
+tripping-hazards,Ramp system with irregular wooden planks that have not been maintained,Text
+narrow-boarding,Gangways are less than 36 inches wide,Text
