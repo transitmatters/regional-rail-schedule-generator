@@ -84,7 +84,7 @@ def create_station_from_station_defn(station_defn: defn.Station) -> Station:
         vehicle_type=VehicleType.COMMUTER_RAIL,
         location_type=LocationType.STATION,
         wheelchair_boarding="1",
-        zone_id="",  # TODO: abolish fare zones
+        zone_id=station_defn.zone_id,
         on_street="",
         at_street="",
         level_id="",
