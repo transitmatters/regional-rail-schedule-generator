@@ -18,6 +18,7 @@ from network.models import (
 )
 from synthesize.amenities import Amenities
 from synthesize.evaluate import Scenario
+from synthesize.walking_transfers import get_walking_transfer_rows, load_walking_distances
 import tempfile
 
 
@@ -399,6 +400,9 @@ def archive_scenario_gtfs(scenario_name: str):
         file_path = os.path.join(directory_path, file_name)
         if os.path.exists(file_path):
             headers[file_name], rows_by_file[file_name] = _read_csv(file_path)
+    rows_by_file["transfers.txt"] += get_walking_transfer_rows(
+        rows_by_file["stops.txt"], rows_by_file["transfers.txt"], load_walking_distances()
+    )
     pruned = prune_bundle(rows_by_file)
 
     with tempfile.TemporaryDirectory() as temp_dir:
