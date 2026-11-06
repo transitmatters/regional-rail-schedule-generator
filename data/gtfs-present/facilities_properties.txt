@@ -762,6 +762,8 @@ facility_id,property_id,value
 140,excludes-stop,NEC-2276-01
 140,excludes-stop,NEC-2276-02
 140,excludes-stop,NEC-2276-03
+140,excludes-stop,NEC-2276-B
+140,excludes-stop,NEC-2276-B2
 140,excludes-stop,WML-0012-05
 140,excludes-stop,WML-0012-07
 140,excludes-stop,door-bbsta-buswayn
@@ -830,6 +832,8 @@ facility_id,property_id,value
 141,excludes-stop,NEC-2276-01
 141,excludes-stop,NEC-2276-02
 141,excludes-stop,NEC-2276-03
+141,excludes-stop,NEC-2276-B
+141,excludes-stop,NEC-2276-B2
 141,excludes-stop,WML-0012-05
 141,excludes-stop,WML-0012-07
 141,excludes-stop,door-bbsta-buswayn
@@ -897,6 +901,8 @@ facility_id,property_id,value
 142,excludes-stop,70014
 142,excludes-stop,70015
 142,excludes-stop,NEC-2276-02
+142,excludes-stop,NEC-2276-B
+142,excludes-stop,NEC-2276-B2
 142,excludes-stop,WML-0012-05
 142,excludes-stop,WML-0012-07
 142,excludes-stop,door-bbsta-buswayn
@@ -964,6 +970,8 @@ facility_id,property_id,value
 143,excludes-stop,70014
 143,excludes-stop,70015
 143,excludes-stop,NEC-2276-02
+143,excludes-stop,NEC-2276-B
+143,excludes-stop,NEC-2276-B2
 143,excludes-stop,WML-0012-05
 143,excludes-stop,WML-0012-07
 143,excludes-stop,door-bbsta-buswayn
@@ -1032,6 +1040,8 @@ facility_id,property_id,value
 144,excludes-stop,70015
 144,excludes-stop,NEC-2276-01
 144,excludes-stop,NEC-2276-03
+144,excludes-stop,NEC-2276-B
+144,excludes-stop,NEC-2276-B2
 144,excludes-stop,WML-0012-05
 144,excludes-stop,WML-0012-07
 144,excludes-stop,door-bbsta-buswayn
@@ -8950,6 +8960,7 @@ facility_id,property_id,value
 453,excludes-stop,node-ogmnl-washstair-lobby
 453,excludes-stop,node-ogmnl-washstair-street
 50,alternate-service-text,The elevator at Framingham connecting the Inbound and Outbound platforms is out of service. Please proceed to Concord street to cross over to the outbound platform.
+50,excludes-stop,WML-0214-B
 501,direction,up
 501,excludes-stop,70022
 501,excludes-stop,70042
@@ -9372,6 +9383,7 @@ facility_id,property_id,value
 509,excludes-stop,node-portr-weststairs-crplatform
 509,excludes-stop,node-portr-weststairs-street
 51,alternate-service-text,The elevator at Framingham connecting the Inbound and Outbound platforms is out of service. Please proceed to Concord street to cross over to the outbound platform.
+51,excludes-stop,WML-0214-B
 510,direction,up
 510,excludes-stop,FR-0034
 510,excludes-stop,FR-0034-01
@@ -10694,6 +10706,12 @@ facility_id,property_id,value
 724,excludes-stop,node-forhl-splatstairs-lobby
 724,excludes-stop,node-forhl-splatstairs-platform
 724,excludes-stop,node-forhl-upperdoor
+725,excludes-stop,WML-0035-B3
+725,excludes-stop,WML-0035-B4
+726,excludes-stop,WML-0035-B3
+726,excludes-stop,WML-0035-B4
+727,excludes-stop,WML-0035-B3
+727,excludes-stop,WML-0035-B4
 728,alternate-service-text,Please find station personnel or use a station call box or for assistance navigating between the lobby and lower busway.
 728,excludes-stop,17861
 728,excludes-stop,17865
@@ -11397,9 +11415,13 @@ facility_id,property_id,value
 750,alternate-service-text,To exit: Go to the east end of the platform. Take the ramp to Washington St. To board: Go east on North Ave for one block. Turn right on Washington St. Take the ramp to the Track 1 platform.
 750,excludes-stop,WML-0177
 750,excludes-stop,WML-0177-02
+750,excludes-stop,WML-0177-B0
+750,excludes-stop,WML-0177-B1
 751,alternate-service-text,To exit: Go to the east end of the platform. Take the ramp to Washington St.\nTo board: Go south on Main St. Turn left on South Ave and go one block. Turn left on Washington St. Take the ramp to the Track 2 platform.
 751,excludes-stop,WML-0177
 751,excludes-stop,WML-0177-01
+751,excludes-stop,WML-0177-B0
+751,excludes-stop,WML-0177-B1
 753,alternate-service-text,Please use nearby Elevator 754
 753,excludes-stop,70079
 753,excludes-stop,70080
@@ -13656,6 +13678,8 @@ facility_id,property_id,value
 853,excludes-stop,NEC-2276-01
 853,excludes-stop,NEC-2276-02
 853,excludes-stop,NEC-2276-03
+853,excludes-stop,NEC-2276-B
+853,excludes-stop,NEC-2276-B2
 853,excludes-stop,WML-0012-05
 853,excludes-stop,WML-0012-07
 853,excludes-stop,door-bbsta-buswayn
@@ -13724,6 +13748,8 @@ facility_id,property_id,value
 854,excludes-stop,70015
 854,excludes-stop,NEC-2276-01
 854,excludes-stop,NEC-2276-03
+854,excludes-stop,NEC-2276-B
+854,excludes-stop,NEC-2276-B2
 854,excludes-stop,WML-0012-05
 854,excludes-stop,WML-0012-07
 854,excludes-stop,door-bbsta-buswayn
@@ -13791,6 +13817,8 @@ facility_id,property_id,value
 855,excludes-stop,70014
 855,excludes-stop,70015
 855,excludes-stop,NEC-2276-02
+855,excludes-stop,NEC-2276-B
+855,excludes-stop,NEC-2276-B2
 855,excludes-stop,WML-0012-05
 855,excludes-stop,WML-0012-07
 855,excludes-stop,door-bbsta-buswayn
@@ -13860,6 +13888,8 @@ facility_id,property_id,value
 856,excludes-stop,NEC-2276-01
 856,excludes-stop,NEC-2276-02
 856,excludes-stop,NEC-2276-03
+856,excludes-stop,NEC-2276-B
+856,excludes-stop,NEC-2276-B2
 856,excludes-stop,door-bbsta-buswayn
 856,excludes-stop,door-bbsta-busways
 856,excludes-stop,door-bbsta-clarcolum
@@ -25360,8 +25390,8 @@ park-qamnl-garage,payment-app-url,https://www.paybyphone.com/
 park-qamnl-garage,payment-form-accepted,invoice
 park-qamnl-garage,payment-form-accepted,mobile-app
 park-qamnl-lot,attended,2
-park-qamnl-lot,capacity,278
-park-qamnl-lot,capacity-accessible,8
+park-qamnl-lot,capacity,204
+park-qamnl-lot,capacity-accessible,0
 park-qamnl-lot,contact,MBTA Customer Support
 park-qamnl-lot,contact-phone,617-222-3200
 park-qamnl-lot,contact-url,https://www.mbta.com/customer-support
