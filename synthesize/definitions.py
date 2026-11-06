@@ -20,6 +20,8 @@ class Station(object):
     id: str
     location: str
     municipality: str
+    # MBTA fare zone (e.g. "CR-zone-3"). Infill stations take the zone of their neighbours on the line.
+    zone_id: str = ""
 
 
 @dataclass

@@ -457,6 +457,8 @@ Shuttle-BackBayForestHillsViaCopley,0,Outbound,Forest Hills
 Shuttle-BackBayForestHillsViaCopley,1,Inbound,Back Bay
 Shuttle-BackBayForestHillsViaRugglesBusway,0,South,Forest Hills
 Shuttle-BackBayForestHillsViaRugglesBusway,1,North,Back Bay
+Shuttle-BackBayFraminghamExpress,0,Outbound,Worcester
+Shuttle-BackBayFraminghamExpress,1,Inbound,South Station
 Shuttle-BackBayJackson,0,South,Forest Hills
 Shuttle-BackBayJackson,1,North,Oak Grove
 Shuttle-BackBayKenmore,0,Outbound,Kenmore
@@ -465,6 +467,8 @@ Shuttle-BackBayRuggles,0,South,Forest Hills
 Shuttle-BackBayRuggles,1,North,Oak Grove
 Shuttle-BackBayStMarys,0,West,Cleveland Circle
 Shuttle-BackBayStMarys,1,East,Government Center
+Shuttle-BackBayWellesleyHillsLocalViaRiverside,0,Outbound,Wellesley Hills
+Shuttle-BackBayWellesleyHillsLocalViaRiverside,1,Inbound,Back Bay
 Shuttle-BallardvaleMaldenCenter,0,Outbound,Haverhill
 Shuttle-BallardvaleMaldenCenter,1,Inbound,North Station
 Shuttle-BallardvaleNorthStation,0,Outbound,Haverhill
@@ -587,6 +591,8 @@ Shuttle-ForgeParkWalpole,0,Outbound,Forge Park/495
 Shuttle-ForgeParkWalpole,1,Inbound,South Station
 Shuttle-FoxboroWalpole,0,Outbound,Foxboro
 Shuttle-FoxboroWalpole,1,Inbound,Walpole
+Shuttle-FraminghamSouthStationExpress,0,Outbound,Worcester
+Shuttle-FraminghamSouthStationExpress,1,Inbound,South Station
 Shuttle-GovernmentCenterMedfordTufts,0,Inbound,Government Center
 Shuttle-GovernmentCenterMedfordTufts,1,Outbound,Medford/Tufts
 Shuttle-GovernmentCenterMedfordViaUnionSq,0,West,Government Center
@@ -733,6 +739,8 @@ Shuttle-ShirleyWachusett,0,Outbound,Wachusett
 Shuttle-ShirleyWachusett,1,Inbound,Shirley
 Shuttle-SouthStationSouthWeymouth,0,Outbound,Kingston or Plymouth
 Shuttle-SouthStationSouthWeymouth,1,Inbound,South Station
+Shuttle-SouthStationWellesleyHillsLocalViaRiverside,0,Outbound,Wellesley Hills
+Shuttle-SouthStationWellesleyHillsLocalViaRiverside,1,Inbound,South Station
 Shuttle-StateSullivan,0,South,Forest Hills
 Shuttle-StateSullivan,1,North,Oak Grove
 Shuttle-SuffolkDownsWonderland,0,West,Bowdoin
