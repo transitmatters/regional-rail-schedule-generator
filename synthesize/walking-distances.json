@@ -1,0 +1,7499 @@
+{
+    "place-DB-2222_place-capst": {
+        "distance_m": 1797,
+        "distance_mi": 1.117,
+        "duration_s": 1438,
+        "location_1": [
+            42.271466,
+            -71.095782
+        ],
+        "location_2": [
+            42.267563,
+            -71.087338
+        ],
+        "place1": "place-DB-2222",
+        "place2": "place-capst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-DB-2222_place-matt": {
+        "distance_m": 790,
+        "distance_mi": 0.491,
+        "duration_s": 632,
+        "location_1": [
+            42.271466,
+            -71.095782
+        ],
+        "location_2": [
+            42.26762,
+            -71.092486
+        ],
+        "place1": "place-DB-2222",
+        "place2": "place-matt",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-DB-2222_place-valrd": {
+        "distance_m": 2163,
+        "distance_mi": 1.344,
+        "duration_s": 1732,
+        "location_1": [
+            42.271466,
+            -71.095782
+        ],
+        "location_2": [
+            42.268347,
+            -71.081343
+        ],
+        "place1": "place-DB-2222",
+        "place2": "place-valrd",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-DB-2230_place-capst": {
+        "distance_m": 2336,
+        "distance_mi": 1.452,
+        "duration_s": 1903,
+        "location_1": [
+            42.280994,
+            -71.085475
+        ],
+        "location_2": [
+            42.267563,
+            -71.087338
+        ],
+        "place1": "place-DB-2230",
+        "place2": "place-capst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-DB-2230_place-cenav": {
+        "distance_m": 1958,
+        "distance_mi": 1.217,
+        "duration_s": 1566,
+        "location_1": [
+            42.280994,
+            -71.085475
+        ],
+        "location_2": [
+            42.270027,
+            -71.073444
+        ],
+        "place1": "place-DB-2230",
+        "place2": "place-cenav",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-DB-2230_place-matt": {
+        "distance_m": 2018,
+        "distance_mi": 1.254,
+        "duration_s": 1616,
+        "location_1": [
+            42.280994,
+            -71.085475
+        ],
+        "location_2": [
+            42.26762,
+            -71.092486
+        ],
+        "place1": "place-DB-2230",
+        "place2": "place-matt",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-DB-2230_place-valrd": {
+        "distance_m": 2763,
+        "distance_mi": 1.717,
+        "duration_s": 2210,
+        "location_1": [
+            42.280994,
+            -71.085475
+        ],
+        "location_2": [
+            42.268347,
+            -71.081343
+        ],
+        "place1": "place-DB-2230",
+        "place2": "place-valrd",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-DB-2240_place-asmnl": {
+        "distance_m": 1674,
+        "distance_mi": 1.04,
+        "duration_s": 1339,
+        "location_1": [
+            42.292246,
+            -71.07814
+        ],
+        "location_2": [
+            42.28452,
+            -71.063777
+        ],
+        "place1": "place-DB-2240",
+        "place2": "place-asmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-DB-2240_place-smmnl": {
+        "distance_m": 1257,
+        "distance_mi": 0.781,
+        "duration_s": 1005,
+        "location_1": [
+            42.292246,
+            -71.07814
+        ],
+        "location_2": [
+            42.2931258,
+            -71.065738
+        ],
+        "place1": "place-DB-2240",
+        "place2": "place-smmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-DB-2249_place-fldcr": {
+        "distance_m": 1680,
+        "distance_mi": 1.044,
+        "duration_s": 1354,
+        "location_1": [
+            42.305037,
+            -71.076833
+        ],
+        "location_2": [
+            42.300093,
+            -71.061667
+        ],
+        "place1": "place-DB-2249",
+        "place2": "place-fldcr",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-DB-2249_place-smmnl": {
+        "distance_m": 2126,
+        "distance_mi": 1.321,
+        "duration_s": 1703,
+        "location_1": [
+            42.305037,
+            -71.076833
+        ],
+        "location_2": [
+            42.2931258,
+            -71.065738
+        ],
+        "place1": "place-DB-2249",
+        "place2": "place-smmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-DB-2258_place-andrw": {
+        "distance_m": 2126,
+        "distance_mi": 1.321,
+        "duration_s": 1701,
+        "location_1": [
+            42.319125,
+            -71.068627
+        ],
+        "location_2": [
+            42.330154,
+            -71.057655
+        ],
+        "place1": "place-DB-2258",
+        "place2": "place-andrw",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-DB-2258_place-jfk": {
+        "distance_m": 1902,
+        "distance_mi": 1.182,
+        "duration_s": 1522,
+        "location_1": [
+            42.319125,
+            -71.068627
+        ],
+        "location_2": [
+            42.320685,
+            -71.052391
+        ],
+        "place1": "place-DB-2258",
+        "place2": "place-jfk",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-DB-2258_place-shmnl": {
+        "distance_m": 1735,
+        "distance_mi": 1.078,
+        "duration_s": 1393,
+        "location_1": [
+            42.319125,
+            -71.068627
+        ],
+        "location_2": [
+            42.31129,
+            -71.053331
+        ],
+        "place1": "place-DB-2258",
+        "place2": "place-shmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-DB-2265_place-andrw": {
+        "distance_m": 1399,
+        "distance_mi": 0.869,
+        "duration_s": 1119,
+        "location_1": [
+            42.327415,
+            -71.065674
+        ],
+        "location_2": [
+            42.330154,
+            -71.057655
+        ],
+        "place1": "place-DB-2265",
+        "place2": "place-andrw",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-DB-2265_place-jfk": {
+        "distance_m": 1707,
+        "distance_mi": 1.061,
+        "duration_s": 1366,
+        "location_1": [
+            42.327415,
+            -71.065674
+        ],
+        "location_2": [
+            42.320685,
+            -71.052391
+        ],
+        "place1": "place-DB-2265",
+        "place2": "place-jfk",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-DB-2265_place-nubn": {
+        "distance_m": 2140,
+        "distance_mi": 1.33,
+        "duration_s": 1712,
+        "location_1": [
+            42.327415,
+            -71.065674
+        ],
+        "location_2": [
+            42.329544,
+            -71.083982
+        ],
+        "place1": "place-DB-2265",
+        "place2": "place-nubn",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-WML-0025_place-amory": {
+        "distance_m": 1415,
+        "distance_mi": 0.879,
+        "duration_s": 1132,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.350992,
+            -71.114748
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-amory",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-WML-0025_place-bland": {
+        "distance_m": 464,
+        "distance_mi": 0.288,
+        "duration_s": 371,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.349293,
+            -71.100258
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-bland",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-WML-0025_place-brmnl": {
+        "distance_m": 2009,
+        "distance_mi": 1.248,
+        "duration_s": 1608,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.334229,
+            -71.104609
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-brmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-WML-0025_place-bucen": {
+        "distance_m": 789,
+        "distance_mi": 0.49,
+        "duration_s": 631,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.350082,
+            -71.106865
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-bucen",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-WML-0025_place-buest": {
+        "distance_m": 698,
+        "distance_mi": 0.434,
+        "duration_s": 558,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.349735,
+            -71.103889
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-buest",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-WML-0025_place-fenwy": {
+        "distance_m": 520,
+        "distance_mi": 0.323,
+        "duration_s": 416,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.345403,
+            -71.104213
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-fenwy",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-WML-0025_place-hwsst": {
+        "distance_m": 1001,
+        "distance_mi": 0.622,
+        "duration_s": 801,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.344906,
+            -71.111145
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-hwsst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-WML-0025_place-hymnl": {
+        "distance_m": 1267,
+        "distance_mi": 0.787,
+        "duration_s": 1014,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.347888,
+            -71.087903
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-hymnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-WML-0025_place-kencl": {
+        "distance_m": 607,
+        "distance_mi": 0.377,
+        "duration_s": 486,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.348949,
+            -71.095169
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-kencl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-WML-0025_place-kntst": {
+        "distance_m": 1276,
+        "distance_mi": 0.793,
+        "duration_s": 1020,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.344074,
+            -71.114197
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-kntst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-WML-0025_place-lngmd": {
+        "distance_m": 1656,
+        "distance_mi": 1.029,
+        "duration_s": 1328,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.33596,
+            -71.100052
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-lngmd",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-WML-0025_place-longw": {
+        "distance_m": 1276,
+        "distance_mi": 0.793,
+        "duration_s": 1020,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.341702,
+            -71.109956
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-longw",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-WML-0025_place-masta": {
+        "distance_m": 1958,
+        "distance_mi": 1.217,
+        "duration_s": 1566,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.341512,
+            -71.083423
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-masta",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-WML-0025_place-mfa": {
+        "distance_m": 1405,
+        "distance_mi": 0.873,
+        "duration_s": 1127,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.337711,
+            -71.095512
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-mfa",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-WML-0025_place-nuniv": {
+        "distance_m": 1608,
+        "distance_mi": 0.999,
+        "duration_s": 1286,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.340401,
+            -71.088806
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-nuniv",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-WML-0025_place-prmnl": {
+        "distance_m": 1794,
+        "distance_mi": 1.115,
+        "duration_s": 1435,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.34557,
+            -71.081696
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-prmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-WML-0025_place-rugg": {
+        "distance_m": 1829,
+        "distance_mi": 1.136,
+        "duration_s": 1463,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.336377,
+            -71.088961
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-rugg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-WML-0025_place-smary": {
+        "distance_m": 748,
+        "distance_mi": 0.465,
+        "duration_s": 599,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.345974,
+            -71.107353
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-smary",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-WML-0025_place-stpul": {
+        "distance_m": 1534,
+        "distance_mi": 0.953,
+        "duration_s": 1227,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.343327,
+            -71.116997
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-stpul",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-WML-0025_place-symcl": {
+        "distance_m": 1762,
+        "distance_mi": 1.095,
+        "duration_s": 1409,
+        "location_1": [
+            42.347581,
+            -71.099974
+        ],
+        "location_2": [
+            42.342687,
+            -71.085056
+        ],
+        "place1": "place-WML-0025",
+        "place2": "place-symcl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-WML-0035_place-alsgr": {
+        "distance_m": 1333,
+        "distance_mi": 0.828,
+        "duration_s": 1067,
+        "location_1": [
+            42.357293,
+            -71.139883
+        ],
+        "location_2": [
+            42.348701,
+            -71.137955
+        ],
+        "place1": "place-WML-0035",
+        "place2": "place-alsgr",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-WML-0035_place-brico": {
+        "distance_m": 1625,
+        "distance_mi": 1.01,
+        "duration_s": 1300,
+        "location_1": [
+            42.357293,
+            -71.139883
+        ],
+        "location_2": [
+            42.351967,
+            -71.125031
+        ],
+        "place1": "place-WML-0035",
+        "place2": "place-brico",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-WML-0035_place-grigg": {
+        "distance_m": 1494,
+        "distance_mi": 0.928,
+        "duration_s": 1196,
+        "location_1": [
+            42.357293,
+            -71.139883
+        ],
+        "location_2": [
+            42.348545,
+            -71.134949
+        ],
+        "place1": "place-WML-0035",
+        "place2": "place-grigg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-WML-0035_place-harvd": {
+        "distance_m": 1459,
+        "distance_mi": 0.907,
+        "duration_s": 1168,
+        "location_1": [
+            42.357293,
+            -71.139883
+        ],
+        "location_2": [
+            42.350243,
+            -71.131355
+        ],
+        "place1": "place-WML-0035",
+        "place2": "place-harvd",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-WML-0035_place-wascm": {
+        "distance_m": 1874,
+        "distance_mi": 1.164,
+        "duration_s": 1499,
+        "location_1": [
+            42.357293,
+            -71.139883
+        ],
+        "location_2": [
+            42.343864,
+            -71.142853
+        ],
+        "place1": "place-WML-0035",
+        "place2": "place-wascm",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-WML-0035_place-wrnst": {
+        "distance_m": 1328,
+        "distance_mi": 0.825,
+        "duration_s": 1062,
+        "location_1": [
+            42.357293,
+            -71.139883
+        ],
+        "location_2": [
+            42.348343,
+            -71.140457
+        ],
+        "place1": "place-WML-0035",
+        "place2": "place-wrnst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-WML-0102_place-river": {
+        "distance_m": 1303,
+        "distance_mi": 0.81,
+        "duration_s": 1042,
+        "location_1": [
+            42.345833,
+            -71.250373
+        ],
+        "location_2": [
+            42.337352,
+            -71.252685
+        ],
+        "place1": "place-WML-0102",
+        "place2": "place-river",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-WML-0102_place-woodl": {
+        "distance_m": 2423,
+        "distance_mi": 1.506,
+        "duration_s": 1940,
+        "location_1": [
+            42.345833,
+            -71.250373
+        ],
+        "location_2": [
+            42.332902,
+            -71.243362
+        ],
+        "place1": "place-WML-0102",
+        "place2": "place-woodl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-alsgr_place-bcnfd": {
+        "distance_m": 1739,
+        "distance_mi": 1.081,
+        "duration_s": 1391,
+        "location_1": [
+            42.348701,
+            -71.137955
+        ],
+        "location_2": [
+            42.335765,
+            -71.140455
+        ],
+        "place1": "place-alsgr",
+        "place2": "place-bcnfd",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-alsgr_place-bcnwa": {
+        "distance_m": 1402,
+        "distance_mi": 0.871,
+        "duration_s": 1122,
+        "location_1": [
+            42.348701,
+            -71.137955
+        ],
+        "location_2": [
+            42.339394,
+            -71.13533
+        ],
+        "place1": "place-alsgr",
+        "place2": "place-bcnwa",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-alsgr_place-bndhl": {
+        "distance_m": 1605,
+        "distance_mi": 0.997,
+        "duration_s": 1284,
+        "location_1": [
+            42.348701,
+            -71.137955
+        ],
+        "location_2": [
+            42.340023,
+            -71.129082
+        ],
+        "place1": "place-alsgr",
+        "place2": "place-bndhl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-alsgr_place-cool": {
+        "distance_m": 1766,
+        "distance_mi": 1.097,
+        "duration_s": 1413,
+        "location_1": [
+            42.348701,
+            -71.137955
+        ],
+        "location_2": [
+            42.342116,
+            -71.121263
+        ],
+        "place1": "place-alsgr",
+        "place2": "place-cool",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-alsgr_place-denrd": {
+        "distance_m": 1456,
+        "distance_mi": 0.905,
+        "duration_s": 1165,
+        "location_1": [
+            42.348701,
+            -71.137955
+        ],
+        "location_2": [
+            42.337656,
+            -71.142156
+        ],
+        "place1": "place-alsgr",
+        "place2": "place-denrd",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-alsgr_place-engav": {
+        "distance_m": 1684,
+        "distance_mi": 1.046,
+        "duration_s": 1348,
+        "location_1": [
+            42.348701,
+            -71.137955
+        ],
+        "location_2": [
+            42.337104,
+            -71.144852
+        ],
+        "place1": "place-alsgr",
+        "place2": "place-engav",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-alsgr_place-fbkst": {
+        "distance_m": 1459,
+        "distance_mi": 0.907,
+        "duration_s": 1167,
+        "location_1": [
+            42.348701,
+            -71.137955
+        ],
+        "location_2": [
+            42.339725,
+            -71.131073
+        ],
+        "place1": "place-alsgr",
+        "place2": "place-fbkst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-alsgr_place-sumav": {
+        "distance_m": 1474,
+        "distance_mi": 0.916,
+        "duration_s": 1179,
+        "location_1": [
+            42.348701,
+            -71.137955
+        ],
+        "location_2": [
+            42.34111,
+            -71.12561
+        ],
+        "place1": "place-alsgr",
+        "place2": "place-sumav",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-alsgr_place-tapst": {
+        "distance_m": 1459,
+        "distance_mi": 0.907,
+        "duration_s": 1166,
+        "location_1": [
+            42.348701,
+            -71.137955
+        ],
+        "location_2": [
+            42.338459,
+            -71.138702
+        ],
+        "place1": "place-alsgr",
+        "place2": "place-tapst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-amory_place-cool": {
+        "distance_m": 1428,
+        "distance_mi": 0.887,
+        "duration_s": 1142,
+        "location_1": [
+            42.350992,
+            -71.114748
+        ],
+        "location_2": [
+            42.342116,
+            -71.121263
+        ],
+        "place1": "place-amory",
+        "place2": "place-cool",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-amory_place-fenwy": {
+        "distance_m": 1286,
+        "distance_mi": 0.799,
+        "duration_s": 1029,
+        "location_1": [
+            42.350992,
+            -71.114748
+        ],
+        "location_2": [
+            42.345403,
+            -71.104213
+        ],
+        "place1": "place-amory",
+        "place2": "place-fenwy",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-amory_place-hwsst": {
+        "distance_m": 1122,
+        "distance_mi": 0.697,
+        "duration_s": 898,
+        "location_1": [
+            42.350992,
+            -71.114748
+        ],
+        "location_2": [
+            42.344906,
+            -71.111145
+        ],
+        "place1": "place-amory",
+        "place2": "place-hwsst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-amory_place-kntst": {
+        "distance_m": 913,
+        "distance_mi": 0.567,
+        "duration_s": 730,
+        "location_1": [
+            42.350992,
+            -71.114748
+        ],
+        "location_2": [
+            42.344074,
+            -71.114197
+        ],
+        "place1": "place-amory",
+        "place2": "place-kntst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-amory_place-longw": {
+        "distance_m": 1516,
+        "distance_mi": 0.942,
+        "duration_s": 1213,
+        "location_1": [
+            42.350992,
+            -71.114748
+        ],
+        "location_2": [
+            42.341702,
+            -71.109956
+        ],
+        "place1": "place-amory",
+        "place2": "place-longw",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-amory_place-smary": {
+        "distance_m": 1173,
+        "distance_mi": 0.729,
+        "duration_s": 938,
+        "location_1": [
+            42.350992,
+            -71.114748
+        ],
+        "location_2": [
+            42.345974,
+            -71.107353
+        ],
+        "place1": "place-amory",
+        "place2": "place-smary",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-amory_place-stpul": {
+        "distance_m": 1056,
+        "distance_mi": 0.656,
+        "duration_s": 844,
+        "location_1": [
+            42.350992,
+            -71.114748
+        ],
+        "location_2": [
+            42.343327,
+            -71.116997
+        ],
+        "place1": "place-amory",
+        "place2": "place-stpul",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-amory_place-sumav": {
+        "distance_m": 1808,
+        "distance_mi": 1.123,
+        "duration_s": 1446,
+        "location_1": [
+            42.350992,
+            -71.114748
+        ],
+        "location_2": [
+            42.34111,
+            -71.12561
+        ],
+        "place1": "place-amory",
+        "place2": "place-sumav",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-aqucl_place-boyls": {
+        "distance_m": 1504,
+        "distance_mi": 0.935,
+        "duration_s": 1203,
+        "location_1": [
+            42.359784,
+            -71.051652
+        ],
+        "location_2": [
+            42.35302,
+            -71.06459
+        ],
+        "place1": "place-aqucl",
+        "place2": "place-boyls",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-aqucl_place-chmnl": {
+        "distance_m": 1731,
+        "distance_mi": 1.076,
+        "duration_s": 1387,
+        "location_1": [
+            42.359784,
+            -71.051652
+        ],
+        "location_2": [
+            42.361166,
+            -71.070628
+        ],
+        "place1": "place-aqucl",
+        "place2": "place-chmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-aqucl_place-chncl": {
+        "distance_m": 1385,
+        "distance_mi": 0.861,
+        "duration_s": 1108,
+        "location_1": [
+            42.359784,
+            -71.051652
+        ],
+        "location_2": [
+            42.352547,
+            -71.062752
+        ],
+        "place1": "place-aqucl",
+        "place2": "place-chncl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-aqucl_place-crtst": {
+        "distance_m": 1076,
+        "distance_mi": 0.669,
+        "duration_s": 861,
+        "location_1": [
+            42.359784,
+            -71.051652
+        ],
+        "location_2": [
+            42.35245,
+            -71.04685
+        ],
+        "place1": "place-aqucl",
+        "place2": "place-crtst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-aqucl_place-dwnxg": {
+        "distance_m": 984,
+        "distance_mi": 0.611,
+        "duration_s": 787,
+        "location_1": [
+            42.359784,
+            -71.051652
+        ],
+        "location_2": [
+            42.355518,
+            -71.060225
+        ],
+        "place1": "place-aqucl",
+        "place2": "place-dwnxg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-aqucl_place-haecl": {
+        "distance_m": 708,
+        "distance_mi": 0.44,
+        "duration_s": 566,
+        "location_1": [
+            42.359784,
+            -71.051652
+        ],
+        "location_2": [
+            42.363021,
+            -71.05829
+        ],
+        "place1": "place-aqucl",
+        "place2": "place-haecl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-aqucl_place-north": {
+        "distance_m": 1123,
+        "distance_mi": 0.698,
+        "duration_s": 898,
+        "location_1": [
+            42.359784,
+            -71.051652
+        ],
+        "location_2": [
+            42.365577,
+            -71.06129
+        ],
+        "place1": "place-aqucl",
+        "place2": "place-north",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-aqucl_place-pktrm": {
+        "distance_m": 1134,
+        "distance_mi": 0.705,
+        "duration_s": 907,
+        "location_1": [
+            42.359784,
+            -71.051652
+        ],
+        "location_2": [
+            42.3563946,
+            -71.0624242
+        ],
+        "place1": "place-aqucl",
+        "place2": "place-pktrm",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-aqucl_place-spmnl": {
+        "distance_m": 1682,
+        "distance_mi": 1.045,
+        "duration_s": 1348,
+        "location_1": [
+            42.359784,
+            -71.051652
+        ],
+        "location_2": [
+            42.366664,
+            -71.067666
+        ],
+        "place1": "place-aqucl",
+        "place2": "place-spmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-aqucl_place-sstat": {
+        "distance_m": 1055,
+        "distance_mi": 0.656,
+        "duration_s": 844,
+        "location_1": [
+            42.359784,
+            -71.051652
+        ],
+        "location_2": [
+            42.352271,
+            -71.055242
+        ],
+        "place1": "place-aqucl",
+        "place2": "place-sstat",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-aqucl_place-tumnl": {
+        "distance_m": 1750,
+        "distance_mi": 1.087,
+        "duration_s": 1400,
+        "location_1": [
+            42.359784,
+            -71.051652
+        ],
+        "location_2": [
+            42.349662,
+            -71.063917
+        ],
+        "place1": "place-aqucl",
+        "place2": "place-tumnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-aqucl_place-wtcst": {
+        "distance_m": 1740,
+        "distance_mi": 1.081,
+        "duration_s": 1392,
+        "location_1": [
+            42.359784,
+            -71.051652
+        ],
+        "location_2": [
+            42.34863,
+            -71.04246
+        ],
+        "place1": "place-aqucl",
+        "place2": "place-wtcst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-armnl_place-bbsta": {
+        "distance_m": 902,
+        "distance_mi": 0.56,
+        "duration_s": 722,
+        "location_1": [
+            42.351902,
+            -71.070893
+        ],
+        "location_2": [
+            42.34735,
+            -71.075727
+        ],
+        "place1": "place-armnl",
+        "place2": "place-bbsta",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-armnl_place-bomnl": {
+        "distance_m": 1616,
+        "distance_mi": 1.004,
+        "duration_s": 1292,
+        "location_1": [
+            42.351902,
+            -71.070893
+        ],
+        "location_2": [
+            42.361365,
+            -71.062037
+        ],
+        "place1": "place-armnl",
+        "place2": "place-bomnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-armnl_place-brdwy": {
+        "distance_m": 1881,
+        "distance_mi": 1.169,
+        "duration_s": 1504,
+        "location_1": [
+            42.351902,
+            -71.070893
+        ],
+        "location_2": [
+            42.342622,
+            -71.056967
+        ],
+        "place1": "place-armnl",
+        "place2": "place-brdwy",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-armnl_place-chmnl": {
+        "distance_m": 1248,
+        "distance_mi": 0.775,
+        "duration_s": 980,
+        "location_1": [
+            42.351902,
+            -71.070893
+        ],
+        "location_2": [
+            42.361166,
+            -71.070628
+        ],
+        "place1": "place-armnl",
+        "place2": "place-chmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-armnl_place-chncl": {
+        "distance_m": 746,
+        "distance_mi": 0.464,
+        "duration_s": 597,
+        "location_1": [
+            42.351902,
+            -71.070893
+        ],
+        "location_2": [
+            42.352547,
+            -71.062752
+        ],
+        "place1": "place-armnl",
+        "place2": "place-chncl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-armnl_place-dwnxg": {
+        "distance_m": 1115,
+        "distance_mi": 0.693,
+        "duration_s": 892,
+        "location_1": [
+            42.351902,
+            -71.070893
+        ],
+        "location_2": [
+            42.355518,
+            -71.060225
+        ],
+        "place1": "place-armnl",
+        "place2": "place-dwnxg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-armnl_place-masta": {
+        "distance_m": 1842,
+        "distance_mi": 1.145,
+        "duration_s": 1474,
+        "location_1": [
+            42.351902,
+            -71.070893
+        ],
+        "location_2": [
+            42.341512,
+            -71.083423
+        ],
+        "place1": "place-armnl",
+        "place2": "place-masta",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-armnl_place-sstat": {
+        "distance_m": 1399,
+        "distance_mi": 0.869,
+        "duration_s": 1120,
+        "location_1": [
+            42.351902,
+            -71.070893
+        ],
+        "location_2": [
+            42.352271,
+            -71.055242
+        ],
+        "place1": "place-armnl",
+        "place2": "place-sstat",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-armnl_place-state": {
+        "distance_m": 1557,
+        "distance_mi": 0.967,
+        "duration_s": 1246,
+        "location_1": [
+            42.351902,
+            -71.070893
+        ],
+        "location_2": [
+            42.358978,
+            -71.057598
+        ],
+        "place1": "place-armnl",
+        "place2": "place-state",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-armnl_place-tumnl": {
+        "distance_m": 884,
+        "distance_mi": 0.549,
+        "duration_s": 707,
+        "location_1": [
+            42.351902,
+            -71.070893
+        ],
+        "location_2": [
+            42.349662,
+            -71.063917
+        ],
+        "place1": "place-armnl",
+        "place2": "place-tumnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-babck_place-bndhl": {
+        "distance_m": 1871,
+        "distance_mi": 1.163,
+        "duration_s": 1498,
+        "location_1": [
+            42.351616,
+            -71.119924
+        ],
+        "location_2": [
+            42.340023,
+            -71.129082
+        ],
+        "place1": "place-babck",
+        "place2": "place-bndhl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-babck_place-cool": {
+        "distance_m": 1276,
+        "distance_mi": 0.793,
+        "duration_s": 1020,
+        "location_1": [
+            42.351616,
+            -71.119924
+        ],
+        "location_2": [
+            42.342116,
+            -71.121263
+        ],
+        "place1": "place-babck",
+        "place2": "place-cool",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-babck_place-fbkst": {
+        "distance_m": 2033,
+        "distance_mi": 1.263,
+        "duration_s": 1627,
+        "location_1": [
+            42.351616,
+            -71.119924
+        ],
+        "location_2": [
+            42.339725,
+            -71.131073
+        ],
+        "place1": "place-babck",
+        "place2": "place-fbkst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-babck_place-fenwy": {
+        "distance_m": 1722,
+        "distance_mi": 1.07,
+        "duration_s": 1377,
+        "location_1": [
+            42.351616,
+            -71.119924
+        ],
+        "location_2": [
+            42.345403,
+            -71.104213
+        ],
+        "place1": "place-babck",
+        "place2": "place-fenwy",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-babck_place-hwsst": {
+        "distance_m": 1454,
+        "distance_mi": 0.903,
+        "duration_s": 1163,
+        "location_1": [
+            42.351616,
+            -71.119924
+        ],
+        "location_2": [
+            42.344906,
+            -71.111145
+        ],
+        "place1": "place-babck",
+        "place2": "place-hwsst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-babck_place-kntst": {
+        "distance_m": 1188,
+        "distance_mi": 0.738,
+        "duration_s": 950,
+        "location_1": [
+            42.351616,
+            -71.119924
+        ],
+        "location_2": [
+            42.344074,
+            -71.114197
+        ],
+        "place1": "place-babck",
+        "place2": "place-kntst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-babck_place-longw": {
+        "distance_m": 1893,
+        "distance_mi": 1.176,
+        "duration_s": 1514,
+        "location_1": [
+            42.351616,
+            -71.119924
+        ],
+        "location_2": [
+            42.341702,
+            -71.109956
+        ],
+        "place1": "place-babck",
+        "place2": "place-longw",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-babck_place-smary": {
+        "distance_m": 1608,
+        "distance_mi": 0.999,
+        "duration_s": 1286,
+        "location_1": [
+            42.351616,
+            -71.119924
+        ],
+        "location_2": [
+            42.345974,
+            -71.107353
+        ],
+        "place1": "place-babck",
+        "place2": "place-smary",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-babck_place-stpul": {
+        "distance_m": 1179,
+        "distance_mi": 0.733,
+        "duration_s": 943,
+        "location_1": [
+            42.351616,
+            -71.119924
+        ],
+        "location_2": [
+            42.343327,
+            -71.116997
+        ],
+        "place1": "place-babck",
+        "place2": "place-stpul",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-babck_place-sumav": {
+        "distance_m": 1555,
+        "distance_mi": 0.966,
+        "duration_s": 1244,
+        "location_1": [
+            42.351616,
+            -71.119924
+        ],
+        "location_2": [
+            42.34111,
+            -71.12561
+        ],
+        "place1": "place-babck",
+        "place2": "place-sumav",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-balsq_place-davis": {
+        "distance_m": 1191,
+        "distance_mi": 0.74,
+        "duration_s": 953,
+        "location_1": [
+            42.399889,
+            -71.111003
+        ],
+        "location_2": [
+            42.39674,
+            -71.121815
+        ],
+        "place1": "place-balsq",
+        "place2": "place-davis",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-balsq_place-portr": {
+        "distance_m": 1607,
+        "distance_mi": 0.999,
+        "duration_s": 1286,
+        "location_1": [
+            42.399889,
+            -71.111003
+        ],
+        "location_2": [
+            42.3884,
+            -71.119149
+        ],
+        "place1": "place-balsq",
+        "place2": "place-portr",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bbsta_place-boyls": {
+        "distance_m": 1301,
+        "distance_mi": 0.808,
+        "duration_s": 1040,
+        "location_1": [
+            42.34735,
+            -71.075727
+        ],
+        "location_2": [
+            42.35302,
+            -71.06459
+        ],
+        "place1": "place-bbsta",
+        "place2": "place-boyls",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bbsta_place-chmnl": {
+        "distance_m": 1985,
+        "distance_mi": 1.233,
+        "duration_s": 1570,
+        "location_1": [
+            42.34735,
+            -71.075727
+        ],
+        "location_2": [
+            42.361166,
+            -71.070628
+        ],
+        "place1": "place-bbsta",
+        "place2": "place-chmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bbsta_place-coecl": {
+        "distance_m": 361,
+        "distance_mi": 0.224,
+        "duration_s": 289,
+        "location_1": [
+            42.34735,
+            -71.075727
+        ],
+        "location_2": [
+            42.349974,
+            -71.077447
+        ],
+        "place1": "place-bbsta",
+        "place2": "place-coecl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bbsta_place-hymnl": {
+        "distance_m": 1299,
+        "distance_mi": 0.807,
+        "duration_s": 1039,
+        "location_1": [
+            42.34735,
+            -71.075727
+        ],
+        "location_2": [
+            42.347888,
+            -71.087903
+        ],
+        "place1": "place-bbsta",
+        "place2": "place-hymnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bbsta_place-kencl": {
+        "distance_m": 2001,
+        "distance_mi": 1.243,
+        "duration_s": 1602,
+        "location_1": [
+            42.34735,
+            -71.075727
+        ],
+        "location_2": [
+            42.348949,
+            -71.095169
+        ],
+        "place1": "place-bbsta",
+        "place2": "place-kencl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bbsta_place-nuniv": {
+        "distance_m": 1487,
+        "distance_mi": 0.924,
+        "duration_s": 1193,
+        "location_1": [
+            42.34735,
+            -71.075727
+        ],
+        "location_2": [
+            42.340401,
+            -71.088806
+        ],
+        "place1": "place-bbsta",
+        "place2": "place-nuniv",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bbsta_place-pktrm": {
+        "distance_m": 1681,
+        "distance_mi": 1.045,
+        "duration_s": 1344,
+        "location_1": [
+            42.34735,
+            -71.075727
+        ],
+        "location_2": [
+            42.3563946,
+            -71.0624242
+        ],
+        "place1": "place-bbsta",
+        "place2": "place-pktrm",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bbsta_place-prmnl": {
+        "distance_m": 647,
+        "distance_mi": 0.402,
+        "duration_s": 522,
+        "location_1": [
+            42.34735,
+            -71.075727
+        ],
+        "location_2": [
+            42.34557,
+            -71.081696
+        ],
+        "place1": "place-bbsta",
+        "place2": "place-prmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bbsta_place-symcl": {
+        "distance_m": 1065,
+        "distance_mi": 0.662,
+        "duration_s": 856,
+        "location_1": [
+            42.34735,
+            -71.075727
+        ],
+        "location_2": [
+            42.342687,
+            -71.085056
+        ],
+        "place1": "place-bbsta",
+        "place2": "place-symcl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bckhl_place-brkhl": {
+        "distance_m": 1591,
+        "distance_mi": 0.989,
+        "duration_s": 1274,
+        "location_1": [
+            42.330139,
+            -71.111313
+        ],
+        "location_2": [
+            42.331316,
+            -71.126683
+        ],
+        "place1": "place-bckhl",
+        "place2": "place-brkhl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bckhl_place-bvmnl": {
+        "distance_m": 770,
+        "distance_mi": 0.478,
+        "duration_s": 616,
+        "location_1": [
+            42.330139,
+            -71.111313
+        ],
+        "location_2": [
+            42.332608,
+            -71.116857
+        ],
+        "place1": "place-bckhl",
+        "place2": "place-bvmnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bckhl_place-cool": {
+        "distance_m": 1974,
+        "distance_mi": 1.227,
+        "duration_s": 1579,
+        "location_1": [
+            42.330139,
+            -71.111313
+        ],
+        "location_2": [
+            42.342116,
+            -71.121263
+        ],
+        "place1": "place-bckhl",
+        "place2": "place-cool",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bckhl_place-jaksn": {
+        "distance_m": 1566,
+        "distance_mi": 0.973,
+        "duration_s": 1253,
+        "location_1": [
+            42.330139,
+            -71.111313
+        ],
+        "location_2": [
+            42.323132,
+            -71.099592
+        ],
+        "place1": "place-bckhl",
+        "place2": "place-jaksn",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bckhl_place-kntst": {
+        "distance_m": 1864,
+        "distance_mi": 1.158,
+        "duration_s": 1491,
+        "location_1": [
+            42.330139,
+            -71.111313
+        ],
+        "location_2": [
+            42.344074,
+            -71.114197
+        ],
+        "place1": "place-bckhl",
+        "place2": "place-kntst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bckhl_place-longw": {
+        "distance_m": 1616,
+        "distance_mi": 1.004,
+        "duration_s": 1293,
+        "location_1": [
+            42.330139,
+            -71.111313
+        ],
+        "location_2": [
+            42.341702,
+            -71.109956
+        ],
+        "place1": "place-bckhl",
+        "place2": "place-longw",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bckhl_place-rcmnl": {
+        "distance_m": 1702,
+        "distance_mi": 1.058,
+        "duration_s": 1362,
+        "location_1": [
+            42.330139,
+            -71.111313
+        ],
+        "location_2": [
+            42.331397,
+            -71.095451
+        ],
+        "place1": "place-bckhl",
+        "place2": "place-rcmnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bckhl_place-sbmnl": {
+        "distance_m": 1939,
+        "distance_mi": 1.205,
+        "duration_s": 1551,
+        "location_1": [
+            42.330139,
+            -71.111313
+        ],
+        "location_2": [
+            42.317062,
+            -71.104248
+        ],
+        "place1": "place-bckhl",
+        "place2": "place-sbmnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bckhl_place-stpul": {
+        "distance_m": 2036,
+        "distance_mi": 1.265,
+        "duration_s": 1628,
+        "location_1": [
+            42.330139,
+            -71.111313
+        ],
+        "location_2": [
+            42.343327,
+            -71.116997
+        ],
+        "place1": "place-bckhl",
+        "place2": "place-stpul",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bcnfd_place-bcnwa": {
+        "distance_m": 889,
+        "distance_mi": 0.552,
+        "duration_s": 711,
+        "location_1": [
+            42.335765,
+            -71.140455
+        ],
+        "location_2": [
+            42.339394,
+            -71.13533
+        ],
+        "place1": "place-bcnfd",
+        "place2": "place-bcnwa",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bcnfd_place-bndhl": {
+        "distance_m": 1438,
+        "distance_mi": 0.894,
+        "duration_s": 1151,
+        "location_1": [
+            42.335765,
+            -71.140455
+        ],
+        "location_2": [
+            42.340023,
+            -71.129082
+        ],
+        "place1": "place-bcnfd",
+        "place2": "place-bndhl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bcnfd_place-chill": {
+        "distance_m": 1310,
+        "distance_mi": 0.814,
+        "duration_s": 1048,
+        "location_1": [
+            42.335765,
+            -71.140455
+        ],
+        "location_2": [
+            42.338169,
+            -71.15316
+        ],
+        "place1": "place-bcnfd",
+        "place2": "place-chill",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bcnfd_place-chswk": {
+        "distance_m": 1305,
+        "distance_mi": 0.811,
+        "duration_s": 1045,
+        "location_1": [
+            42.335765,
+            -71.140455
+        ],
+        "location_2": [
+            42.340805,
+            -71.150711
+        ],
+        "place1": "place-bcnfd",
+        "place2": "place-chswk",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bcnfd_place-clmnl": {
+        "distance_m": 910,
+        "distance_mi": 0.565,
+        "duration_s": 728,
+        "location_1": [
+            42.335765,
+            -71.140455
+        ],
+        "location_2": [
+            42.336142,
+            -71.149326
+        ],
+        "place1": "place-bcnfd",
+        "place2": "place-clmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bcnfd_place-denrd": {
+        "distance_m": 301,
+        "distance_mi": 0.187,
+        "duration_s": 241,
+        "location_1": [
+            42.335765,
+            -71.140455
+        ],
+        "location_2": [
+            42.337656,
+            -71.142156
+        ],
+        "place1": "place-bcnfd",
+        "place2": "place-denrd",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bcnfd_place-engav": {
+        "distance_m": 548,
+        "distance_mi": 0.341,
+        "duration_s": 439,
+        "location_1": [
+            42.335765,
+            -71.140455
+        ],
+        "location_2": [
+            42.337104,
+            -71.144852
+        ],
+        "place1": "place-bcnfd",
+        "place2": "place-engav",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bcnfd_place-fbkst": {
+        "distance_m": 1221,
+        "distance_mi": 0.759,
+        "duration_s": 977,
+        "location_1": [
+            42.335765,
+            -71.140455
+        ],
+        "location_2": [
+            42.339725,
+            -71.131073
+        ],
+        "place1": "place-bcnfd",
+        "place2": "place-fbkst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bcnfd_place-grigg": {
+        "distance_m": 1927,
+        "distance_mi": 1.197,
+        "duration_s": 1542,
+        "location_1": [
+            42.335765,
+            -71.140455
+        ],
+        "location_2": [
+            42.348545,
+            -71.134949
+        ],
+        "place1": "place-bcnfd",
+        "place2": "place-grigg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bcnfd_place-sougr": {
+        "distance_m": 1728,
+        "distance_mi": 1.074,
+        "duration_s": 1382,
+        "location_1": [
+            42.335765,
+            -71.140455
+        ],
+        "location_2": [
+            42.3396,
+            -71.157661
+        ],
+        "place1": "place-bcnfd",
+        "place2": "place-sougr",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bcnfd_place-sthld": {
+        "distance_m": 1023,
+        "distance_mi": 0.636,
+        "duration_s": 819,
+        "location_1": [
+            42.335765,
+            -71.140455
+        ],
+        "location_2": [
+            42.341614,
+            -71.146202
+        ],
+        "place1": "place-bcnfd",
+        "place2": "place-sthld",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bcnfd_place-sumav": {
+        "distance_m": 1723,
+        "distance_mi": 1.071,
+        "duration_s": 1379,
+        "location_1": [
+            42.335765,
+            -71.140455
+        ],
+        "location_2": [
+            42.34111,
+            -71.12561
+        ],
+        "place1": "place-bcnfd",
+        "place2": "place-sumav",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bcnfd_place-tapst": {
+        "distance_m": 553,
+        "distance_mi": 0.344,
+        "duration_s": 442,
+        "location_1": [
+            42.335765,
+            -71.140455
+        ],
+        "location_2": [
+            42.338459,
+            -71.138702
+        ],
+        "place1": "place-bcnfd",
+        "place2": "place-tapst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bcnfd_place-wascm": {
+        "distance_m": 1127,
+        "distance_mi": 0.7,
+        "duration_s": 901,
+        "location_1": [
+            42.335765,
+            -71.140455
+        ],
+        "location_2": [
+            42.343864,
+            -71.142853
+        ],
+        "place1": "place-bcnfd",
+        "place2": "place-wascm",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bcnfd_place-wrnst": {
+        "distance_m": 1720,
+        "distance_mi": 1.069,
+        "duration_s": 1376,
+        "location_1": [
+            42.335765,
+            -71.140455
+        ],
+        "location_2": [
+            42.348343,
+            -71.140457
+        ],
+        "place1": "place-bcnfd",
+        "place2": "place-wrnst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bcnwa_place-brkhl": {
+        "distance_m": 1535,
+        "distance_mi": 0.954,
+        "duration_s": 1229,
+        "location_1": [
+            42.339394,
+            -71.13533
+        ],
+        "location_2": [
+            42.331316,
+            -71.126683
+        ],
+        "place1": "place-bcnwa",
+        "place2": "place-brkhl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bcnwa_place-chill": {
+        "distance_m": 1628,
+        "distance_mi": 1.012,
+        "duration_s": 1302,
+        "location_1": [
+            42.339394,
+            -71.13533
+        ],
+        "location_2": [
+            42.338169,
+            -71.15316
+        ],
+        "place1": "place-bcnwa",
+        "place2": "place-chill",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bcnwa_place-chswk": {
+        "distance_m": 1541,
+        "distance_mi": 0.958,
+        "duration_s": 1233,
+        "location_1": [
+            42.339394,
+            -71.13533
+        ],
+        "location_2": [
+            42.340805,
+            -71.150711
+        ],
+        "place1": "place-bcnwa",
+        "place2": "place-chswk",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bcnwa_place-grigg": {
+        "distance_m": 1567,
+        "distance_mi": 0.974,
+        "duration_s": 1253,
+        "location_1": [
+            42.339394,
+            -71.13533
+        ],
+        "location_2": [
+            42.348545,
+            -71.134949
+        ],
+        "place1": "place-bcnwa",
+        "place2": "place-grigg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bcnwa_place-harvd": {
+        "distance_m": 1944,
+        "distance_mi": 1.208,
+        "duration_s": 1556,
+        "location_1": [
+            42.339394,
+            -71.13533
+        ],
+        "location_2": [
+            42.350243,
+            -71.131355
+        ],
+        "place1": "place-bcnwa",
+        "place2": "place-harvd",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bcnwa_place-rsmnl": {
+        "distance_m": 1504,
+        "distance_mi": 0.935,
+        "duration_s": 1203,
+        "location_1": [
+            42.339394,
+            -71.13533
+        ],
+        "location_2": [
+            42.335088,
+            -71.148758
+        ],
+        "place1": "place-bcnwa",
+        "place2": "place-rsmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bcnwa_place-sthld": {
+        "distance_m": 1162,
+        "distance_mi": 0.722,
+        "duration_s": 931,
+        "location_1": [
+            42.339394,
+            -71.13533
+        ],
+        "location_2": [
+            42.341614,
+            -71.146202
+        ],
+        "place1": "place-bcnwa",
+        "place2": "place-sthld",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bcnwa_place-wascm": {
+        "distance_m": 817,
+        "distance_mi": 0.508,
+        "duration_s": 654,
+        "location_1": [
+            42.339394,
+            -71.13533
+        ],
+        "location_2": [
+            42.343864,
+            -71.142853
+        ],
+        "place1": "place-bcnwa",
+        "place2": "place-wascm",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bcnwa_place-wrnst": {
+        "distance_m": 1410,
+        "distance_mi": 0.876,
+        "duration_s": 1128,
+        "location_1": [
+            42.339394,
+            -71.13533
+        ],
+        "location_2": [
+            42.348343,
+            -71.140457
+        ],
+        "place1": "place-bcnwa",
+        "place2": "place-wrnst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bland_place-fenwy": {
+        "distance_m": 766,
+        "distance_mi": 0.476,
+        "duration_s": 612,
+        "location_1": [
+            42.349293,
+            -71.100258
+        ],
+        "location_2": [
+            42.345403,
+            -71.104213
+        ],
+        "place1": "place-bland",
+        "place2": "place-fenwy",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bland_place-hwsst": {
+        "distance_m": 1156,
+        "distance_mi": 0.718,
+        "duration_s": 924,
+        "location_1": [
+            42.349293,
+            -71.100258
+        ],
+        "location_2": [
+            42.344906,
+            -71.111145
+        ],
+        "place1": "place-bland",
+        "place2": "place-hwsst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bland_place-kntst": {
+        "distance_m": 1423,
+        "distance_mi": 0.884,
+        "duration_s": 1138,
+        "location_1": [
+            42.349293,
+            -71.100258
+        ],
+        "location_2": [
+            42.344074,
+            -71.114197
+        ],
+        "place1": "place-bland",
+        "place2": "place-kntst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bland_place-lngmd": {
+        "distance_m": 1997,
+        "distance_mi": 1.241,
+        "duration_s": 1597,
+        "location_1": [
+            42.349293,
+            -71.100258
+        ],
+        "location_2": [
+            42.33596,
+            -71.100052
+        ],
+        "place1": "place-bland",
+        "place2": "place-lngmd",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bland_place-longw": {
+        "distance_m": 1442,
+        "distance_mi": 0.896,
+        "duration_s": 1154,
+        "location_1": [
+            42.349293,
+            -71.100258
+        ],
+        "location_2": [
+            42.341702,
+            -71.109956
+        ],
+        "place1": "place-bland",
+        "place2": "place-longw",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bland_place-mfa": {
+        "distance_m": 1774,
+        "distance_mi": 1.102,
+        "duration_s": 1423,
+        "location_1": [
+            42.349293,
+            -71.100258
+        ],
+        "location_2": [
+            42.337711,
+            -71.095512
+        ],
+        "place1": "place-bland",
+        "place2": "place-mfa",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bland_place-nuniv": {
+        "distance_m": 1932,
+        "distance_mi": 1.2,
+        "duration_s": 1546,
+        "location_1": [
+            42.349293,
+            -71.100258
+        ],
+        "location_2": [
+            42.340401,
+            -71.088806
+        ],
+        "place1": "place-bland",
+        "place2": "place-nuniv",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bland_place-prmnl": {
+        "distance_m": 1817,
+        "distance_mi": 1.129,
+        "duration_s": 1454,
+        "location_1": [
+            42.349293,
+            -71.100258
+        ],
+        "location_2": [
+            42.34557,
+            -71.081696
+        ],
+        "place1": "place-bland",
+        "place2": "place-prmnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bland_place-smary": {
+        "distance_m": 886,
+        "distance_mi": 0.551,
+        "duration_s": 709,
+        "location_1": [
+            42.349293,
+            -71.100258
+        ],
+        "location_2": [
+            42.345974,
+            -71.107353
+        ],
+        "place1": "place-bland",
+        "place2": "place-smary",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bland_place-stpul": {
+        "distance_m": 1656,
+        "distance_mi": 1.029,
+        "duration_s": 1324,
+        "location_1": [
+            42.349293,
+            -71.100258
+        ],
+        "location_2": [
+            42.343327,
+            -71.116997
+        ],
+        "place1": "place-bland",
+        "place2": "place-stpul",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bland_place-symcl": {
+        "distance_m": 1802,
+        "distance_mi": 1.12,
+        "duration_s": 1442,
+        "location_1": [
+            42.349293,
+            -71.100258
+        ],
+        "location_2": [
+            42.342687,
+            -71.085056
+        ],
+        "place1": "place-bland",
+        "place2": "place-symcl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bndhl_place-brico": {
+        "distance_m": 1846,
+        "distance_mi": 1.147,
+        "duration_s": 1479,
+        "location_1": [
+            42.340023,
+            -71.129082
+        ],
+        "location_2": [
+            42.351967,
+            -71.125031
+        ],
+        "place1": "place-bndhl",
+        "place2": "place-brico",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bndhl_place-brkhl": {
+        "distance_m": 1469,
+        "distance_mi": 0.913,
+        "duration_s": 1174,
+        "location_1": [
+            42.340023,
+            -71.129082
+        ],
+        "location_2": [
+            42.331316,
+            -71.126683
+        ],
+        "place1": "place-bndhl",
+        "place2": "place-brkhl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bndhl_place-bvmnl": {
+        "distance_m": 1708,
+        "distance_mi": 1.061,
+        "duration_s": 1365,
+        "location_1": [
+            42.340023,
+            -71.129082
+        ],
+        "location_2": [
+            42.332608,
+            -71.116857
+        ],
+        "place1": "place-bndhl",
+        "place2": "place-bvmnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bndhl_place-grigg": {
+        "distance_m": 1657,
+        "distance_mi": 1.03,
+        "duration_s": 1326,
+        "location_1": [
+            42.340023,
+            -71.129082
+        ],
+        "location_2": [
+            42.348545,
+            -71.134949
+        ],
+        "place1": "place-bndhl",
+        "place2": "place-grigg",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bndhl_place-harvd": {
+        "distance_m": 1741,
+        "distance_mi": 1.082,
+        "duration_s": 1393,
+        "location_1": [
+            42.340023,
+            -71.129082
+        ],
+        "location_2": [
+            42.350243,
+            -71.131355
+        ],
+        "place1": "place-bndhl",
+        "place2": "place-harvd",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bndhl_place-longw": {
+        "distance_m": 1824,
+        "distance_mi": 1.133,
+        "duration_s": 1460,
+        "location_1": [
+            42.340023,
+            -71.129082
+        ],
+        "location_2": [
+            42.341702,
+            -71.109956
+        ],
+        "place1": "place-bndhl",
+        "place2": "place-longw",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bndhl_place-sthld": {
+        "distance_m": 1765,
+        "distance_mi": 1.097,
+        "duration_s": 1413,
+        "location_1": [
+            42.340023,
+            -71.129082
+        ],
+        "location_2": [
+            42.341614,
+            -71.146202
+        ],
+        "place1": "place-bndhl",
+        "place2": "place-sthld",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bndhl_place-wascm": {
+        "distance_m": 1419,
+        "distance_mi": 0.882,
+        "duration_s": 1136,
+        "location_1": [
+            42.340023,
+            -71.129082
+        ],
+        "location_2": [
+            42.343864,
+            -71.142853
+        ],
+        "place1": "place-bndhl",
+        "place2": "place-wascm",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bndhl_place-wrnst": {
+        "distance_m": 1680,
+        "distance_mi": 1.044,
+        "duration_s": 1344,
+        "location_1": [
+            42.340023,
+            -71.129082
+        ],
+        "location_2": [
+            42.348343,
+            -71.140457
+        ],
+        "place1": "place-bndhl",
+        "place2": "place-wrnst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bomnl_place-boyls": {
+        "distance_m": 1112,
+        "distance_mi": 0.691,
+        "duration_s": 890,
+        "location_1": [
+            42.361365,
+            -71.062037
+        ],
+        "location_2": [
+            42.35302,
+            -71.06459
+        ],
+        "place1": "place-bomnl",
+        "place2": "place-boyls",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bomnl_place-ccmnl": {
+        "distance_m": 2081,
+        "distance_mi": 1.293,
+        "duration_s": 1665,
+        "location_1": [
+            42.361365,
+            -71.062037
+        ],
+        "location_2": [
+            42.373622,
+            -71.069533
+        ],
+        "place1": "place-bomnl",
+        "place2": "place-ccmnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bomnl_place-chmnl": {
+        "distance_m": 782,
+        "distance_mi": 0.486,
+        "duration_s": 628,
+        "location_1": [
+            42.361365,
+            -71.062037
+        ],
+        "location_2": [
+            42.361166,
+            -71.070628
+        ],
+        "place1": "place-bomnl",
+        "place2": "place-chmnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bomnl_place-chncl": {
+        "distance_m": 1246,
+        "distance_mi": 0.774,
+        "duration_s": 997,
+        "location_1": [
+            42.361365,
+            -71.062037
+        ],
+        "location_2": [
+            42.352547,
+            -71.062752
+        ],
+        "place1": "place-bomnl",
+        "place2": "place-chncl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bomnl_place-crtst": {
+        "distance_m": 1762,
+        "distance_mi": 1.095,
+        "duration_s": 1410,
+        "location_1": [
+            42.361365,
+            -71.062037
+        ],
+        "location_2": [
+            42.35245,
+            -71.04685
+        ],
+        "place1": "place-bomnl",
+        "place2": "place-crtst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bomnl_place-dwnxg": {
+        "distance_m": 912,
+        "distance_mi": 0.567,
+        "duration_s": 730,
+        "location_1": [
+            42.361365,
+            -71.062037
+        ],
+        "location_2": [
+            42.355518,
+            -71.060225
+        ],
+        "place1": "place-bomnl",
+        "place2": "place-dwnxg",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bomnl_place-haecl": {
+        "distance_m": 520,
+        "distance_mi": 0.323,
+        "duration_s": 416,
+        "location_1": [
+            42.361365,
+            -71.062037
+        ],
+        "location_2": [
+            42.363021,
+            -71.05829
+        ],
+        "place1": "place-bomnl",
+        "place2": "place-haecl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bomnl_place-north": {
+        "distance_m": 657,
+        "distance_mi": 0.408,
+        "duration_s": 526,
+        "location_1": [
+            42.361365,
+            -71.062037
+        ],
+        "location_2": [
+            42.365577,
+            -71.06129
+        ],
+        "place1": "place-bomnl",
+        "place2": "place-north",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bomnl_place-pktrm": {
+        "distance_m": 771,
+        "distance_mi": 0.479,
+        "duration_s": 617,
+        "location_1": [
+            42.361365,
+            -71.062037
+        ],
+        "location_2": [
+            42.3563946,
+            -71.0624242
+        ],
+        "place1": "place-bomnl",
+        "place2": "place-pktrm",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bomnl_place-spmnl": {
+        "distance_m": 949,
+        "distance_mi": 0.59,
+        "duration_s": 761,
+        "location_1": [
+            42.361365,
+            -71.062037
+        ],
+        "location_2": [
+            42.366664,
+            -71.067666
+        ],
+        "place1": "place-bomnl",
+        "place2": "place-spmnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bomnl_place-sstat": {
+        "distance_m": 1361,
+        "distance_mi": 0.846,
+        "duration_s": 1089,
+        "location_1": [
+            42.361365,
+            -71.062037
+        ],
+        "location_2": [
+            42.352271,
+            -71.055242
+        ],
+        "place1": "place-bomnl",
+        "place2": "place-sstat",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bomnl_place-tumnl": {
+        "distance_m": 1599,
+        "distance_mi": 0.994,
+        "duration_s": 1279,
+        "location_1": [
+            42.361365,
+            -71.062037
+        ],
+        "location_2": [
+            42.349662,
+            -71.063917
+        ],
+        "place1": "place-bomnl",
+        "place2": "place-tumnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-boyls_place-brdwy": {
+        "distance_m": 1800,
+        "distance_mi": 1.118,
+        "duration_s": 1439,
+        "location_1": [
+            42.35302,
+            -71.06459
+        ],
+        "location_2": [
+            42.342622,
+            -71.056967
+        ],
+        "place1": "place-boyls",
+        "place2": "place-brdwy",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-boyls_place-chmnl": {
+        "distance_m": 1168,
+        "distance_mi": 0.726,
+        "duration_s": 934,
+        "location_1": [
+            42.35302,
+            -71.06459
+        ],
+        "location_2": [
+            42.361166,
+            -71.070628
+        ],
+        "place1": "place-boyls",
+        "place2": "place-chmnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-boyls_place-chncl": {
+        "distance_m": 250,
+        "distance_mi": 0.155,
+        "duration_s": 200,
+        "location_1": [
+            42.35302,
+            -71.06459
+        ],
+        "location_2": [
+            42.352547,
+            -71.062752
+        ],
+        "place1": "place-boyls",
+        "place2": "place-chncl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-boyls_place-crtst": {
+        "distance_m": 1778,
+        "distance_mi": 1.105,
+        "duration_s": 1422,
+        "location_1": [
+            42.35302,
+            -71.06459
+        ],
+        "location_2": [
+            42.35245,
+            -71.04685
+        ],
+        "place1": "place-boyls",
+        "place2": "place-crtst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-boyls_place-dwnxg": {
+        "distance_m": 532,
+        "distance_mi": 0.331,
+        "duration_s": 426,
+        "location_1": [
+            42.35302,
+            -71.06459
+        ],
+        "location_2": [
+            42.355518,
+            -71.060225
+        ],
+        "place1": "place-boyls",
+        "place2": "place-dwnxg",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-boyls_place-sstat": {
+        "distance_m": 909,
+        "distance_mi": 0.565,
+        "duration_s": 727,
+        "location_1": [
+            42.35302,
+            -71.06459
+        ],
+        "location_2": [
+            42.352271,
+            -71.055242
+        ],
+        "place1": "place-boyls",
+        "place2": "place-sstat",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-boyls_place-state": {
+        "distance_m": 988,
+        "distance_mi": 0.614,
+        "duration_s": 791,
+        "location_1": [
+            42.35302,
+            -71.06459
+        ],
+        "location_2": [
+            42.358978,
+            -71.057598
+        ],
+        "place1": "place-boyls",
+        "place2": "place-state",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-boyls_place-tumnl": {
+        "distance_m": 496,
+        "distance_mi": 0.308,
+        "duration_s": 397,
+        "location_1": [
+            42.35302,
+            -71.06459
+        ],
+        "location_2": [
+            42.349662,
+            -71.063917
+        ],
+        "place1": "place-boyls",
+        "place2": "place-tumnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brdwy_place-chncl": {
+        "distance_m": 1654,
+        "distance_mi": 1.028,
+        "duration_s": 1323,
+        "location_1": [
+            42.342622,
+            -71.056967
+        ],
+        "location_2": [
+            42.352547,
+            -71.062752
+        ],
+        "place1": "place-brdwy",
+        "place2": "place-chncl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brdwy_place-conrd": {
+        "distance_m": 2120,
+        "distance_mi": 1.317,
+        "duration_s": 1696,
+        "location_1": [
+            42.342622,
+            -71.056967
+        ],
+        "location_2": [
+            42.347154,
+            -71.038385
+        ],
+        "place1": "place-brdwy",
+        "place2": "place-conrd",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brdwy_place-crtst": {
+        "distance_m": 1621,
+        "distance_mi": 1.007,
+        "duration_s": 1299,
+        "location_1": [
+            42.342622,
+            -71.056967
+        ],
+        "location_2": [
+            42.35245,
+            -71.04685
+        ],
+        "place1": "place-brdwy",
+        "place2": "place-crtst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brdwy_place-tumnl": {
+        "distance_m": 1356,
+        "distance_mi": 0.843,
+        "duration_s": 1085,
+        "location_1": [
+            42.342622,
+            -71.056967
+        ],
+        "location_2": [
+            42.349662,
+            -71.063917
+        ],
+        "place1": "place-brdwy",
+        "place2": "place-tumnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brdwy_place-wtcst": {
+        "distance_m": 1840,
+        "distance_mi": 1.143,
+        "duration_s": 1473,
+        "location_1": [
+            42.342622,
+            -71.056967
+        ],
+        "location_2": [
+            42.34863,
+            -71.04246
+        ],
+        "place1": "place-brdwy",
+        "place2": "place-wtcst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brico_place-cool": {
+        "distance_m": 1504,
+        "distance_mi": 0.935,
+        "duration_s": 1204,
+        "location_1": [
+            42.351967,
+            -71.125031
+        ],
+        "location_2": [
+            42.342116,
+            -71.121263
+        ],
+        "place1": "place-brico",
+        "place2": "place-cool",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brico_place-fbkst": {
+        "distance_m": 2007,
+        "distance_mi": 1.247,
+        "duration_s": 1608,
+        "location_1": [
+            42.351967,
+            -71.125031
+        ],
+        "location_2": [
+            42.339725,
+            -71.131073
+        ],
+        "place1": "place-brico",
+        "place2": "place-fbkst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-brico_place-hwsst": {
+        "distance_m": 1857,
+        "distance_mi": 1.154,
+        "duration_s": 1485,
+        "location_1": [
+            42.351967,
+            -71.125031
+        ],
+        "location_2": [
+            42.344906,
+            -71.111145
+        ],
+        "place1": "place-brico",
+        "place2": "place-hwsst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-brico_place-kntst": {
+        "distance_m": 1561,
+        "distance_mi": 0.97,
+        "duration_s": 1248,
+        "location_1": [
+            42.351967,
+            -71.125031
+        ],
+        "location_2": [
+            42.344074,
+            -71.114197
+        ],
+        "place1": "place-brico",
+        "place2": "place-kntst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-brico_place-smary": {
+        "distance_m": 2013,
+        "distance_mi": 1.251,
+        "duration_s": 1610,
+        "location_1": [
+            42.351967,
+            -71.125031
+        ],
+        "location_2": [
+            42.345974,
+            -71.107353
+        ],
+        "place1": "place-brico",
+        "place2": "place-smary",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brico_place-stpul": {
+        "distance_m": 1546,
+        "distance_mi": 0.961,
+        "duration_s": 1237,
+        "location_1": [
+            42.351967,
+            -71.125031
+        ],
+        "location_2": [
+            42.343327,
+            -71.116997
+        ],
+        "place1": "place-brico",
+        "place2": "place-stpul",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-brico_place-sumav": {
+        "distance_m": 1556,
+        "distance_mi": 0.967,
+        "duration_s": 1245,
+        "location_1": [
+            42.351967,
+            -71.125031
+        ],
+        "location_2": [
+            42.34111,
+            -71.12561
+        ],
+        "place1": "place-brico",
+        "place2": "place-sumav",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-brkhl_place-cool": {
+        "distance_m": 1571,
+        "distance_mi": 0.976,
+        "duration_s": 1258,
+        "location_1": [
+            42.331316,
+            -71.126683
+        ],
+        "location_2": [
+            42.342116,
+            -71.121263
+        ],
+        "place1": "place-brkhl",
+        "place2": "place-cool",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brkhl_place-denrd": {
+        "distance_m": 1598,
+        "distance_mi": 0.993,
+        "duration_s": 1278,
+        "location_1": [
+            42.331316,
+            -71.126683
+        ],
+        "location_2": [
+            42.337656,
+            -71.142156
+        ],
+        "place1": "place-brkhl",
+        "place2": "place-denrd",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brkhl_place-fbkst": {
+        "distance_m": 1333,
+        "distance_mi": 0.828,
+        "duration_s": 1067,
+        "location_1": [
+            42.331316,
+            -71.126683
+        ],
+        "location_2": [
+            42.339725,
+            -71.131073
+        ],
+        "place1": "place-brkhl",
+        "place2": "place-fbkst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-brkhl_place-hsmnl": {
+        "distance_m": 1847,
+        "distance_mi": 1.148,
+        "duration_s": 1478,
+        "location_1": [
+            42.331316,
+            -71.126683
+        ],
+        "location_2": [
+            42.328316,
+            -71.110252
+        ],
+        "place1": "place-brkhl",
+        "place2": "place-hsmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brkhl_place-mispk": {
+        "distance_m": 1642,
+        "distance_mi": 1.02,
+        "duration_s": 1316,
+        "location_1": [
+            42.331316,
+            -71.126683
+        ],
+        "location_2": [
+            42.333195,
+            -71.109756
+        ],
+        "place1": "place-brkhl",
+        "place2": "place-mispk",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-brkhl_place-rvrwy": {
+        "distance_m": 1412,
+        "distance_mi": 0.877,
+        "duration_s": 1130,
+        "location_1": [
+            42.331316,
+            -71.126683
+        ],
+        "location_2": [
+            42.331684,
+            -71.111931
+        ],
+        "place1": "place-brkhl",
+        "place2": "place-rvrwy",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-brkhl_place-stpul": {
+        "distance_m": 1767,
+        "distance_mi": 1.098,
+        "duration_s": 1414,
+        "location_1": [
+            42.331316,
+            -71.126683
+        ],
+        "location_2": [
+            42.343327,
+            -71.116997
+        ],
+        "place1": "place-brkhl",
+        "place2": "place-stpul",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-brkhl_place-sumav": {
+        "distance_m": 1508,
+        "distance_mi": 0.937,
+        "duration_s": 1206,
+        "location_1": [
+            42.331316,
+            -71.126683
+        ],
+        "location_2": [
+            42.34111,
+            -71.12561
+        ],
+        "place1": "place-brkhl",
+        "place2": "place-sumav",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-brkhl_place-tapst": {
+        "distance_m": 1438,
+        "distance_mi": 0.894,
+        "duration_s": 1151,
+        "location_1": [
+            42.331316,
+            -71.126683
+        ],
+        "location_2": [
+            42.338459,
+            -71.138702
+        ],
+        "place1": "place-brkhl",
+        "place2": "place-tapst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brmnl_place-bvmnl": {
+        "distance_m": 1260,
+        "distance_mi": 0.783,
+        "duration_s": 1008,
+        "location_1": [
+            42.334229,
+            -71.104609
+        ],
+        "location_2": [
+            42.332608,
+            -71.116857
+        ],
+        "place1": "place-brmnl",
+        "place2": "place-bvmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brmnl_place-fenwy": {
+        "distance_m": 1617,
+        "distance_mi": 1.005,
+        "duration_s": 1294,
+        "location_1": [
+            42.334229,
+            -71.104609
+        ],
+        "location_2": [
+            42.345403,
+            -71.104213
+        ],
+        "place1": "place-brmnl",
+        "place2": "place-fenwy",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brmnl_place-hwsst": {
+        "distance_m": 1690,
+        "distance_mi": 1.05,
+        "duration_s": 1352,
+        "location_1": [
+            42.334229,
+            -71.104609
+        ],
+        "location_2": [
+            42.344906,
+            -71.111145
+        ],
+        "place1": "place-brmnl",
+        "place2": "place-hwsst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-brmnl_place-jaksn": {
+        "distance_m": 1766,
+        "distance_mi": 1.097,
+        "duration_s": 1414,
+        "location_1": [
+            42.334229,
+            -71.104609
+        ],
+        "location_2": [
+            42.323132,
+            -71.099592
+        ],
+        "place1": "place-brmnl",
+        "place2": "place-jaksn",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brmnl_place-kntst": {
+        "distance_m": 1599,
+        "distance_mi": 0.994,
+        "duration_s": 1279,
+        "location_1": [
+            42.334229,
+            -71.104609
+        ],
+        "location_2": [
+            42.344074,
+            -71.114197
+        ],
+        "place1": "place-brmnl",
+        "place2": "place-kntst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-brmnl_place-longw": {
+        "distance_m": 1281,
+        "distance_mi": 0.796,
+        "duration_s": 1025,
+        "location_1": [
+            42.334229,
+            -71.104609
+        ],
+        "location_2": [
+            42.341702,
+            -71.109956
+        ],
+        "place1": "place-brmnl",
+        "place2": "place-longw",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brmnl_place-rcmnl": {
+        "distance_m": 846,
+        "distance_mi": 0.526,
+        "duration_s": 677,
+        "location_1": [
+            42.334229,
+            -71.104609
+        ],
+        "location_2": [
+            42.331397,
+            -71.095451
+        ],
+        "place1": "place-brmnl",
+        "place2": "place-rcmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brmnl_place-rugg": {
+        "distance_m": 1505,
+        "distance_mi": 0.935,
+        "duration_s": 1204,
+        "location_1": [
+            42.334229,
+            -71.104609
+        ],
+        "location_2": [
+            42.336377,
+            -71.088961
+        ],
+        "place1": "place-brmnl",
+        "place2": "place-rugg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brmnl_place-smary": {
+        "distance_m": 1965,
+        "distance_mi": 1.221,
+        "duration_s": 1572,
+        "location_1": [
+            42.334229,
+            -71.104609
+        ],
+        "location_2": [
+            42.345974,
+            -71.107353
+        ],
+        "place1": "place-brmnl",
+        "place2": "place-smary",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-brmnl_place-stpul": {
+        "distance_m": 1823,
+        "distance_mi": 1.133,
+        "duration_s": 1458,
+        "location_1": [
+            42.334229,
+            -71.104609
+        ],
+        "location_2": [
+            42.343327,
+            -71.116997
+        ],
+        "place1": "place-brmnl",
+        "place2": "place-stpul",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bucen_place-cool": {
+        "distance_m": 1746,
+        "distance_mi": 1.085,
+        "duration_s": 1397,
+        "location_1": [
+            42.350082,
+            -71.106865
+        ],
+        "location_2": [
+            42.342116,
+            -71.121263
+        ],
+        "place1": "place-bucen",
+        "place2": "place-cool",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bucen_place-fenwy": {
+        "distance_m": 676,
+        "distance_mi": 0.42,
+        "duration_s": 541,
+        "location_1": [
+            42.350082,
+            -71.106865
+        ],
+        "location_2": [
+            42.345403,
+            -71.104213
+        ],
+        "place1": "place-bucen",
+        "place2": "place-fenwy",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bucen_place-hwsst": {
+        "distance_m": 853,
+        "distance_mi": 0.53,
+        "duration_s": 682,
+        "location_1": [
+            42.350082,
+            -71.106865
+        ],
+        "location_2": [
+            42.344906,
+            -71.111145
+        ],
+        "place1": "place-bucen",
+        "place2": "place-hwsst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bucen_place-kntst": {
+        "distance_m": 1120,
+        "distance_mi": 0.696,
+        "duration_s": 896,
+        "location_1": [
+            42.350082,
+            -71.106865
+        ],
+        "location_2": [
+            42.344074,
+            -71.114197
+        ],
+        "place1": "place-bucen",
+        "place2": "place-kntst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bucen_place-longw": {
+        "distance_m": 1180,
+        "distance_mi": 0.733,
+        "duration_s": 944,
+        "location_1": [
+            42.350082,
+            -71.106865
+        ],
+        "location_2": [
+            42.341702,
+            -71.109956
+        ],
+        "place1": "place-bucen",
+        "place2": "place-longw",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bucen_place-smary": {
+        "distance_m": 584,
+        "distance_mi": 0.363,
+        "duration_s": 467,
+        "location_1": [
+            42.350082,
+            -71.106865
+        ],
+        "location_2": [
+            42.345974,
+            -71.107353
+        ],
+        "place1": "place-bucen",
+        "place2": "place-smary",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bucen_place-stpul": {
+        "distance_m": 1353,
+        "distance_mi": 0.841,
+        "duration_s": 1082,
+        "location_1": [
+            42.350082,
+            -71.106865
+        ],
+        "location_2": [
+            42.343327,
+            -71.116997
+        ],
+        "place1": "place-bucen",
+        "place2": "place-stpul",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-buest_place-fenwy": {
+        "distance_m": 871,
+        "distance_mi": 0.541,
+        "duration_s": 697,
+        "location_1": [
+            42.349735,
+            -71.103889
+        ],
+        "location_2": [
+            42.345403,
+            -71.104213
+        ],
+        "place1": "place-buest",
+        "place2": "place-fenwy",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-buest_place-hwsst": {
+        "distance_m": 1070,
+        "distance_mi": 0.665,
+        "duration_s": 856,
+        "location_1": [
+            42.349735,
+            -71.103889
+        ],
+        "location_2": [
+            42.344906,
+            -71.111145
+        ],
+        "place1": "place-buest",
+        "place2": "place-hwsst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-buest_place-kntst": {
+        "distance_m": 1337,
+        "distance_mi": 0.831,
+        "duration_s": 1070,
+        "location_1": [
+            42.349735,
+            -71.103889
+        ],
+        "location_2": [
+            42.344074,
+            -71.114197
+        ],
+        "place1": "place-buest",
+        "place2": "place-kntst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-buest_place-lngmd": {
+        "distance_m": 2172,
+        "distance_mi": 1.35,
+        "duration_s": 1738,
+        "location_1": [
+            42.349735,
+            -71.103889
+        ],
+        "location_2": [
+            42.33596,
+            -71.100052
+        ],
+        "place1": "place-buest",
+        "place2": "place-lngmd",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-buest_place-longw": {
+        "distance_m": 1397,
+        "distance_mi": 0.868,
+        "duration_s": 1117,
+        "location_1": [
+            42.349735,
+            -71.103889
+        ],
+        "location_2": [
+            42.341702,
+            -71.109956
+        ],
+        "place1": "place-buest",
+        "place2": "place-longw",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-buest_place-mfa": {
+        "distance_m": 2046,
+        "distance_mi": 1.271,
+        "duration_s": 1640,
+        "location_1": [
+            42.349735,
+            -71.103889
+        ],
+        "location_2": [
+            42.337711,
+            -71.095512
+        ],
+        "place1": "place-buest",
+        "place2": "place-mfa",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-buest_place-smary": {
+        "distance_m": 800,
+        "distance_mi": 0.497,
+        "duration_s": 640,
+        "location_1": [
+            42.349735,
+            -71.103889
+        ],
+        "location_2": [
+            42.345974,
+            -71.107353
+        ],
+        "place1": "place-buest",
+        "place2": "place-smary",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-buest_place-stpul": {
+        "distance_m": 1569,
+        "distance_mi": 0.975,
+        "duration_s": 1256,
+        "location_1": [
+            42.349735,
+            -71.103889
+        ],
+        "location_2": [
+            42.343327,
+            -71.116997
+        ],
+        "place1": "place-buest",
+        "place2": "place-stpul",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bvmnl_place-cool": {
+        "distance_m": 1403,
+        "distance_mi": 0.872,
+        "duration_s": 1122,
+        "location_1": [
+            42.332608,
+            -71.116857
+        ],
+        "location_2": [
+            42.342116,
+            -71.121263
+        ],
+        "place1": "place-bvmnl",
+        "place2": "place-cool",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bvmnl_place-fbkst": {
+        "distance_m": 1700,
+        "distance_mi": 1.056,
+        "duration_s": 1358,
+        "location_1": [
+            42.332608,
+            -71.116857
+        ],
+        "location_2": [
+            42.339725,
+            -71.131073
+        ],
+        "place1": "place-bvmnl",
+        "place2": "place-fbkst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bvmnl_place-fenwd": {
+        "distance_m": 1131,
+        "distance_mi": 0.703,
+        "duration_s": 905,
+        "location_1": [
+            42.332608,
+            -71.116857
+        ],
+        "location_2": [
+            42.333706,
+            -71.105728
+        ],
+        "place1": "place-bvmnl",
+        "place2": "place-fenwd",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bvmnl_place-hsmnl": {
+        "distance_m": 1025,
+        "distance_mi": 0.637,
+        "duration_s": 820,
+        "location_1": [
+            42.332608,
+            -71.116857
+        ],
+        "location_2": [
+            42.328316,
+            -71.110252
+        ],
+        "place1": "place-bvmnl",
+        "place2": "place-hsmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bvmnl_place-hwsst": {
+        "distance_m": 1808,
+        "distance_mi": 1.123,
+        "duration_s": 1446,
+        "location_1": [
+            42.332608,
+            -71.116857
+        ],
+        "location_2": [
+            42.344906,
+            -71.111145
+        ],
+        "place1": "place-bvmnl",
+        "place2": "place-hwsst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bvmnl_place-kntst": {
+        "distance_m": 1533,
+        "distance_mi": 0.953,
+        "duration_s": 1226,
+        "location_1": [
+            42.332608,
+            -71.116857
+        ],
+        "location_2": [
+            42.344074,
+            -71.114197
+        ],
+        "place1": "place-bvmnl",
+        "place2": "place-kntst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bvmnl_place-lngmd": {
+        "distance_m": 1684,
+        "distance_mi": 1.046,
+        "duration_s": 1348,
+        "location_1": [
+            42.332608,
+            -71.116857
+        ],
+        "location_2": [
+            42.33596,
+            -71.100052
+        ],
+        "place1": "place-bvmnl",
+        "place2": "place-lngmd",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-bvmnl_place-mispk": {
+        "distance_m": 807,
+        "distance_mi": 0.501,
+        "duration_s": 648,
+        "location_1": [
+            42.332608,
+            -71.116857
+        ],
+        "location_2": [
+            42.333195,
+            -71.109756
+        ],
+        "place1": "place-bvmnl",
+        "place2": "place-mispk",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bvmnl_place-rvrwy": {
+        "distance_m": 591,
+        "distance_mi": 0.367,
+        "duration_s": 473,
+        "location_1": [
+            42.332608,
+            -71.116857
+        ],
+        "location_2": [
+            42.331684,
+            -71.111931
+        ],
+        "place1": "place-bvmnl",
+        "place2": "place-rvrwy",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bvmnl_place-stpul": {
+        "distance_m": 1567,
+        "distance_mi": 0.974,
+        "duration_s": 1254,
+        "location_1": [
+            42.332608,
+            -71.116857
+        ],
+        "location_2": [
+            42.343327,
+            -71.116997
+        ],
+        "place1": "place-bvmnl",
+        "place2": "place-stpul",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-bvmnl_place-sumav": {
+        "distance_m": 1649,
+        "distance_mi": 1.025,
+        "duration_s": 1319,
+        "location_1": [
+            42.332608,
+            -71.116857
+        ],
+        "location_2": [
+            42.34111,
+            -71.12561
+        ],
+        "place1": "place-bvmnl",
+        "place2": "place-sumav",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-capst_place-rr-river-street": {
+        "distance_m": 2207,
+        "distance_mi": 1.371,
+        "duration_s": 1770,
+        "location_1": [
+            42.267563,
+            -71.087338
+        ],
+        "location_2": [
+            42.2637601,
+            -71.1045547
+        ],
+        "place1": "place-capst",
+        "place2": "place-rr-river-street",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-ccmnl_place-chmnl": {
+        "distance_m": 1823,
+        "distance_mi": 1.133,
+        "duration_s": 1460,
+        "location_1": [
+            42.373622,
+            -71.069533
+        ],
+        "location_2": [
+            42.361166,
+            -71.070628
+        ],
+        "place1": "place-ccmnl",
+        "place2": "place-chmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-ccmnl_place-esomr": {
+        "distance_m": 1931,
+        "distance_mi": 1.2,
+        "duration_s": 1545,
+        "location_1": [
+            42.373622,
+            -71.069533
+        ],
+        "location_2": [
+            42.379467,
+            -71.086625
+        ],
+        "place1": "place-ccmnl",
+        "place2": "place-esomr",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-ccmnl_place-lech": {
+        "distance_m": 833,
+        "distance_mi": 0.518,
+        "duration_s": 667,
+        "location_1": [
+            42.373622,
+            -71.069533
+        ],
+        "location_2": [
+            42.371572,
+            -71.076584
+        ],
+        "place1": "place-ccmnl",
+        "place2": "place-lech",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-ccmnl_place-spmnl": {
+        "distance_m": 1193,
+        "distance_mi": 0.741,
+        "duration_s": 954,
+        "location_1": [
+            42.373622,
+            -71.069533
+        ],
+        "location_2": [
+            42.366664,
+            -71.067666
+        ],
+        "place1": "place-ccmnl",
+        "place2": "place-spmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-cedgr_place-smmnl": {
+        "distance_m": 2564,
+        "distance_mi": 1.593,
+        "duration_s": 2050,
+        "location_1": [
+            42.279629,
+            -71.060394
+        ],
+        "location_2": [
+            42.2931258,
+            -71.065738
+        ],
+        "place1": "place-cedgr",
+        "place2": "place-smmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chhil_place-chill": {
+        "distance_m": 2099,
+        "distance_mi": 1.304,
+        "duration_s": 1680,
+        "location_1": [
+            42.326753,
+            -71.164699
+        ],
+        "location_2": [
+            42.338169,
+            -71.15316
+        ],
+        "place1": "place-chhil",
+        "place2": "place-chill",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-chhil_place-lake": {
+        "distance_m": 1818,
+        "distance_mi": 1.13,
+        "duration_s": 1454,
+        "location_1": [
+            42.326753,
+            -71.164699
+        ],
+        "location_2": [
+            42.340081,
+            -71.166769
+        ],
+        "place1": "place-chhil",
+        "place2": "place-lake",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chhil_place-sougr": {
+        "distance_m": 2033,
+        "distance_mi": 1.263,
+        "duration_s": 1627,
+        "location_1": [
+            42.326753,
+            -71.164699
+        ],
+        "location_2": [
+            42.3396,
+            -71.157661
+        ],
+        "place1": "place-chhil",
+        "place2": "place-sougr",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-chill_place-clmnl": {
+        "distance_m": 447,
+        "distance_mi": 0.278,
+        "duration_s": 357,
+        "location_1": [
+            42.338169,
+            -71.15316
+        ],
+        "location_2": [
+            42.336142,
+            -71.149326
+        ],
+        "place1": "place-chill",
+        "place2": "place-clmnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chill_place-denrd": {
+        "distance_m": 1066,
+        "distance_mi": 0.662,
+        "duration_s": 852,
+        "location_1": [
+            42.338169,
+            -71.15316
+        ],
+        "location_2": [
+            42.337656,
+            -71.142156
+        ],
+        "place1": "place-chill",
+        "place2": "place-denrd",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chill_place-engav": {
+        "distance_m": 822,
+        "distance_mi": 0.511,
+        "duration_s": 658,
+        "location_1": [
+            42.338169,
+            -71.15316
+        ],
+        "location_2": [
+            42.337104,
+            -71.144852
+        ],
+        "place1": "place-chill",
+        "place2": "place-engav",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chill_place-rsmnl": {
+        "distance_m": 532,
+        "distance_mi": 0.331,
+        "duration_s": 426,
+        "location_1": [
+            42.338169,
+            -71.15316
+        ],
+        "location_2": [
+            42.335088,
+            -71.148758
+        ],
+        "place1": "place-chill",
+        "place2": "place-rsmnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chill_place-tapst": {
+        "distance_m": 1345,
+        "distance_mi": 0.836,
+        "duration_s": 1076,
+        "location_1": [
+            42.338169,
+            -71.15316
+        ],
+        "location_2": [
+            42.338459,
+            -71.138702
+        ],
+        "place1": "place-chill",
+        "place2": "place-tapst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chmnl_place-chncl": {
+        "distance_m": 1363,
+        "distance_mi": 0.847,
+        "duration_s": 1090,
+        "location_1": [
+            42.361166,
+            -71.070628
+        ],
+        "location_2": [
+            42.352547,
+            -71.062752
+        ],
+        "place1": "place-chmnl",
+        "place2": "place-chncl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chmnl_place-coecl": {
+        "distance_m": 1734,
+        "distance_mi": 1.077,
+        "duration_s": 1369,
+        "location_1": [
+            42.361166,
+            -71.070628
+        ],
+        "location_2": [
+            42.349974,
+            -71.077447
+        ],
+        "place1": "place-chmnl",
+        "place2": "place-coecl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chmnl_place-gover": {
+        "distance_m": 1102,
+        "distance_mi": 0.685,
+        "duration_s": 883,
+        "location_1": [
+            42.361166,
+            -71.070628
+        ],
+        "location_2": [
+            42.359705,
+            -71.059215
+        ],
+        "place1": "place-chmnl",
+        "place2": "place-gover",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chmnl_place-haecl": {
+        "distance_m": 1262,
+        "distance_mi": 0.784,
+        "duration_s": 1012,
+        "location_1": [
+            42.361166,
+            -71.070628
+        ],
+        "location_2": [
+            42.363021,
+            -71.05829
+        ],
+        "place1": "place-chmnl",
+        "place2": "place-haecl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chmnl_place-lech": {
+        "distance_m": 1689,
+        "distance_mi": 1.049,
+        "duration_s": 1353,
+        "location_1": [
+            42.361166,
+            -71.070628
+        ],
+        "location_2": [
+            42.371572,
+            -71.076584
+        ],
+        "place1": "place-chmnl",
+        "place2": "place-lech",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chmnl_place-north": {
+        "distance_m": 1172,
+        "distance_mi": 0.728,
+        "duration_s": 939,
+        "location_1": [
+            42.361166,
+            -71.070628
+        ],
+        "location_2": [
+            42.365577,
+            -71.06129
+        ],
+        "place1": "place-chmnl",
+        "place2": "place-north",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chmnl_place-spmnl": {
+        "distance_m": 783,
+        "distance_mi": 0.487,
+        "duration_s": 630,
+        "location_1": [
+            42.361166,
+            -71.070628
+        ],
+        "location_2": [
+            42.366664,
+            -71.067666
+        ],
+        "place1": "place-chmnl",
+        "place2": "place-spmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chmnl_place-state": {
+        "distance_m": 1242,
+        "distance_mi": 0.772,
+        "duration_s": 995,
+        "location_1": [
+            42.361166,
+            -71.070628
+        ],
+        "location_2": [
+            42.358978,
+            -71.057598
+        ],
+        "place1": "place-chmnl",
+        "place2": "place-state",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chmnl_place-tumnl": {
+        "distance_m": 1609,
+        "distance_mi": 1.0,
+        "duration_s": 1286,
+        "location_1": [
+            42.361166,
+            -71.070628
+        ],
+        "location_2": [
+            42.349662,
+            -71.063917
+        ],
+        "place1": "place-chmnl",
+        "place2": "place-tumnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chncl_place-coecl": {
+        "distance_m": 1296,
+        "distance_mi": 0.805,
+        "duration_s": 1037,
+        "location_1": [
+            42.352547,
+            -71.062752
+        ],
+        "location_2": [
+            42.349974,
+            -71.077447
+        ],
+        "place1": "place-chncl",
+        "place2": "place-coecl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chncl_place-crtst": {
+        "distance_m": 1545,
+        "distance_mi": 0.96,
+        "duration_s": 1236,
+        "location_1": [
+            42.352547,
+            -71.062752
+        ],
+        "location_2": [
+            42.35245,
+            -71.04685
+        ],
+        "place1": "place-chncl",
+        "place2": "place-crtst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chncl_place-gover": {
+        "distance_m": 984,
+        "distance_mi": 0.611,
+        "duration_s": 787,
+        "location_1": [
+            42.352547,
+            -71.062752
+        ],
+        "location_2": [
+            42.359705,
+            -71.059215
+        ],
+        "place1": "place-chncl",
+        "place2": "place-gover",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chncl_place-pktrm": {
+        "distance_m": 608,
+        "distance_mi": 0.378,
+        "duration_s": 486,
+        "location_1": [
+            42.352547,
+            -71.062752
+        ],
+        "location_2": [
+            42.3563946,
+            -71.0624242
+        ],
+        "place1": "place-chncl",
+        "place2": "place-pktrm",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chncl_place-sstat": {
+        "distance_m": 677,
+        "distance_mi": 0.421,
+        "duration_s": 542,
+        "location_1": [
+            42.352547,
+            -71.062752
+        ],
+        "location_2": [
+            42.352271,
+            -71.055242
+        ],
+        "place1": "place-chncl",
+        "place2": "place-sstat",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chswk_place-clmnl": {
+        "distance_m": 812,
+        "distance_mi": 0.505,
+        "duration_s": 649,
+        "location_1": [
+            42.340805,
+            -71.150711
+        ],
+        "location_2": [
+            42.336142,
+            -71.149326
+        ],
+        "place1": "place-chswk",
+        "place2": "place-clmnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chswk_place-denrd": {
+        "distance_m": 1014,
+        "distance_mi": 0.63,
+        "duration_s": 812,
+        "location_1": [
+            42.340805,
+            -71.150711
+        ],
+        "location_2": [
+            42.337656,
+            -71.142156
+        ],
+        "place1": "place-chswk",
+        "place2": "place-denrd",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chswk_place-engav": {
+        "distance_m": 771,
+        "distance_mi": 0.479,
+        "duration_s": 617,
+        "location_1": [
+            42.340805,
+            -71.150711
+        ],
+        "location_2": [
+            42.337104,
+            -71.144852
+        ],
+        "place1": "place-chswk",
+        "place2": "place-engav",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chswk_place-rsmnl": {
+        "distance_m": 915,
+        "distance_mi": 0.569,
+        "duration_s": 732,
+        "location_1": [
+            42.340805,
+            -71.150711
+        ],
+        "location_2": [
+            42.335088,
+            -71.148758
+        ],
+        "place1": "place-chswk",
+        "place2": "place-rsmnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-chswk_place-tapst": {
+        "distance_m": 1236,
+        "distance_mi": 0.768,
+        "duration_s": 989,
+        "location_1": [
+            42.340805,
+            -71.150711
+        ],
+        "location_2": [
+            42.338459,
+            -71.138702
+        ],
+        "place1": "place-chswk",
+        "place2": "place-tapst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-clmnl_place-lake": {
+        "distance_m": 1635,
+        "distance_mi": 1.016,
+        "duration_s": 1308,
+        "location_1": [
+            42.336142,
+            -71.149326
+        ],
+        "location_2": [
+            42.340081,
+            -71.166769
+        ],
+        "place1": "place-clmnl",
+        "place2": "place-lake",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-clmnl_place-rsmnl": {
+        "distance_m": 267,
+        "distance_mi": 0.166,
+        "duration_s": 214,
+        "location_1": [
+            42.336142,
+            -71.149326
+        ],
+        "location_2": [
+            42.335088,
+            -71.148758
+        ],
+        "place1": "place-clmnl",
+        "place2": "place-rsmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-clmnl_place-sougr": {
+        "distance_m": 875,
+        "distance_mi": 0.544,
+        "duration_s": 700,
+        "location_1": [
+            42.336142,
+            -71.149326
+        ],
+        "location_2": [
+            42.3396,
+            -71.157661
+        ],
+        "place1": "place-clmnl",
+        "place2": "place-sougr",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-clmnl_place-sthld": {
+        "distance_m": 881,
+        "distance_mi": 0.547,
+        "duration_s": 704,
+        "location_1": [
+            42.336142,
+            -71.149326
+        ],
+        "location_2": [
+            42.341614,
+            -71.146202
+        ],
+        "place1": "place-clmnl",
+        "place2": "place-sthld",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-clmnl_place-wascm": {
+        "distance_m": 1301,
+        "distance_mi": 0.808,
+        "duration_s": 1041,
+        "location_1": [
+            42.336142,
+            -71.149326
+        ],
+        "location_2": [
+            42.343864,
+            -71.142853
+        ],
+        "place1": "place-clmnl",
+        "place2": "place-wascm",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-clmnl_place-wrnst": {
+        "distance_m": 1899,
+        "distance_mi": 1.18,
+        "duration_s": 1519,
+        "location_1": [
+            42.336142,
+            -71.149326
+        ],
+        "location_2": [
+            42.348343,
+            -71.140457
+        ],
+        "place1": "place-clmnl",
+        "place2": "place-wrnst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-cntsq_place-unsqu": {
+        "distance_m": 1674,
+        "distance_mi": 1.04,
+        "duration_s": 1339,
+        "location_1": [
+            42.365486,
+            -71.103802
+        ],
+        "location_2": [
+            42.377359,
+            -71.094761
+        ],
+        "place1": "place-cntsq",
+        "place2": "place-unsqu",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-coecl_place-dwnxg": {
+        "distance_m": 1665,
+        "distance_mi": 1.035,
+        "duration_s": 1331,
+        "location_1": [
+            42.349974,
+            -71.077447
+        ],
+        "location_2": [
+            42.355518,
+            -71.060225
+        ],
+        "place1": "place-coecl",
+        "place2": "place-dwnxg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-coecl_place-knncl": {
+        "distance_m": 2943,
+        "distance_mi": 1.829,
+        "duration_s": 2337,
+        "location_1": [
+            42.349974,
+            -71.077447
+        ],
+        "location_2": [
+            42.3624908,
+            -71.0861765
+        ],
+        "place1": "place-coecl",
+        "place2": "place-knncl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-coecl_place-masta": {
+        "distance_m": 1259,
+        "distance_mi": 0.782,
+        "duration_s": 1007,
+        "location_1": [
+            42.349974,
+            -71.077447
+        ],
+        "location_2": [
+            42.341512,
+            -71.083423
+        ],
+        "place1": "place-coecl",
+        "place2": "place-masta",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-coecl_place-tumnl": {
+        "distance_m": 1443,
+        "distance_mi": 0.897,
+        "duration_s": 1154,
+        "location_1": [
+            42.349974,
+            -71.077447
+        ],
+        "location_2": [
+            42.349662,
+            -71.063917
+        ],
+        "place1": "place-coecl",
+        "place2": "place-tumnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-cool_place-fenwd": {
+        "distance_m": 1968,
+        "distance_mi": 1.223,
+        "duration_s": 1574,
+        "location_1": [
+            42.342116,
+            -71.121263
+        ],
+        "location_2": [
+            42.333706,
+            -71.105728
+        ],
+        "place1": "place-cool",
+        "place2": "place-fenwd",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-cool_place-fenwy": {
+        "distance_m": 1625,
+        "distance_mi": 1.01,
+        "duration_s": 1300,
+        "location_1": [
+            42.342116,
+            -71.121263
+        ],
+        "location_2": [
+            42.345403,
+            -71.104213
+        ],
+        "place1": "place-cool",
+        "place2": "place-fenwy",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-cool_place-grigg": {
+        "distance_m": 1666,
+        "distance_mi": 1.035,
+        "duration_s": 1333,
+        "location_1": [
+            42.342116,
+            -71.121263
+        ],
+        "location_2": [
+            42.348545,
+            -71.134949
+        ],
+        "place1": "place-cool",
+        "place2": "place-grigg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-cool_place-harvd": {
+        "distance_m": 1437,
+        "distance_mi": 0.893,
+        "duration_s": 1149,
+        "location_1": [
+            42.342116,
+            -71.121263
+        ],
+        "location_2": [
+            42.350243,
+            -71.131355
+        ],
+        "place1": "place-cool",
+        "place2": "place-harvd",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-cool_place-longw": {
+        "distance_m": 1108,
+        "distance_mi": 0.688,
+        "duration_s": 886,
+        "location_1": [
+            42.342116,
+            -71.121263
+        ],
+        "location_2": [
+            42.341702,
+            -71.109956
+        ],
+        "place1": "place-cool",
+        "place2": "place-longw",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-cool_place-mispk": {
+        "distance_m": 2011,
+        "distance_mi": 1.25,
+        "duration_s": 1611,
+        "location_1": [
+            42.342116,
+            -71.121263
+        ],
+        "location_2": [
+            42.333195,
+            -71.109756
+        ],
+        "place1": "place-cool",
+        "place2": "place-mispk",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-cool_place-rvrwy": {
+        "distance_m": 1795,
+        "distance_mi": 1.115,
+        "duration_s": 1436,
+        "location_1": [
+            42.342116,
+            -71.121263
+        ],
+        "location_2": [
+            42.331684,
+            -71.111931
+        ],
+        "place1": "place-cool",
+        "place2": "place-rvrwy",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-crtst_place-dwnxg": {
+        "distance_m": 1427,
+        "distance_mi": 0.887,
+        "duration_s": 1141,
+        "location_1": [
+            42.35245,
+            -71.04685
+        ],
+        "location_2": [
+            42.355518,
+            -71.060225
+        ],
+        "place1": "place-crtst",
+        "place2": "place-dwnxg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-crtst_place-gover": {
+        "distance_m": 1468,
+        "distance_mi": 0.912,
+        "duration_s": 1174,
+        "location_1": [
+            42.35245,
+            -71.04685
+        ],
+        "location_2": [
+            42.359705,
+            -71.059215
+        ],
+        "place1": "place-crtst",
+        "place2": "place-gover",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-crtst_place-haecl": {
+        "distance_m": 1707,
+        "distance_mi": 1.061,
+        "duration_s": 1366,
+        "location_1": [
+            42.35245,
+            -71.04685
+        ],
+        "location_2": [
+            42.363021,
+            -71.05829
+        ],
+        "place1": "place-crtst",
+        "place2": "place-haecl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-crtst_place-pktrm": {
+        "distance_m": 1662,
+        "distance_mi": 1.033,
+        "duration_s": 1330,
+        "location_1": [
+            42.35245,
+            -71.04685
+        ],
+        "location_2": [
+            42.3563946,
+            -71.0624242
+        ],
+        "place1": "place-crtst",
+        "place2": "place-pktrm",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-crtst_place-state": {
+        "distance_m": 1266,
+        "distance_mi": 0.787,
+        "duration_s": 1012,
+        "location_1": [
+            42.35245,
+            -71.04685
+        ],
+        "location_2": [
+            42.358978,
+            -71.057598
+        ],
+        "place1": "place-crtst",
+        "place2": "place-state",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-crtst_place-tumnl": {
+        "distance_m": 1870,
+        "distance_mi": 1.162,
+        "duration_s": 1496,
+        "location_1": [
+            42.35245,
+            -71.04685
+        ],
+        "location_2": [
+            42.349662,
+            -71.063917
+        ],
+        "place1": "place-crtst",
+        "place2": "place-tumnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-davis_place-mdftf": {
+        "distance_m": 1497,
+        "distance_mi": 0.93,
+        "duration_s": 1198,
+        "location_1": [
+            42.39674,
+            -71.121815
+        ],
+        "location_2": [
+            42.407975,
+            -71.117044
+        ],
+        "place1": "place-davis",
+        "place2": "place-mdftf",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-davis_place-mgngl": {
+        "distance_m": 1659,
+        "distance_mi": 1.031,
+        "duration_s": 1328,
+        "location_1": [
+            42.39674,
+            -71.121815
+        ],
+        "location_2": [
+            42.393682,
+            -71.1063879
+        ],
+        "place1": "place-davis",
+        "place2": "place-mgngl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-denrd_place-grigg": {
+        "distance_m": 1658,
+        "distance_mi": 1.03,
+        "duration_s": 1326,
+        "location_1": [
+            42.337656,
+            -71.142156
+        ],
+        "location_2": [
+            42.348545,
+            -71.134949
+        ],
+        "place1": "place-denrd",
+        "place2": "place-grigg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-denrd_place-rsmnl": {
+        "distance_m": 888,
+        "distance_mi": 0.552,
+        "duration_s": 710,
+        "location_1": [
+            42.337656,
+            -71.142156
+        ],
+        "location_2": [
+            42.335088,
+            -71.148758
+        ],
+        "place1": "place-denrd",
+        "place2": "place-rsmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-denrd_place-sougr": {
+        "distance_m": 1495,
+        "distance_mi": 0.929,
+        "duration_s": 1196,
+        "location_1": [
+            42.337656,
+            -71.142156
+        ],
+        "location_2": [
+            42.3396,
+            -71.157661
+        ],
+        "place1": "place-denrd",
+        "place2": "place-sougr",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-denrd_place-sthld": {
+        "distance_m": 741,
+        "distance_mi": 0.46,
+        "duration_s": 593,
+        "location_1": [
+            42.337656,
+            -71.142156
+        ],
+        "location_2": [
+            42.341614,
+            -71.146202
+        ],
+        "place1": "place-denrd",
+        "place2": "place-sthld",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-denrd_place-wascm": {
+        "distance_m": 845,
+        "distance_mi": 0.525,
+        "duration_s": 676,
+        "location_1": [
+            42.337656,
+            -71.142156
+        ],
+        "location_2": [
+            42.343864,
+            -71.142853
+        ],
+        "place1": "place-denrd",
+        "place2": "place-wascm",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-denrd_place-wrnst": {
+        "distance_m": 1438,
+        "distance_mi": 0.894,
+        "duration_s": 1150,
+        "location_1": [
+            42.337656,
+            -71.142156
+        ],
+        "location_2": [
+            42.348343,
+            -71.140457
+        ],
+        "place1": "place-denrd",
+        "place2": "place-wrnst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-dwnxg_place-gover": {
+        "distance_m": 618,
+        "distance_mi": 0.384,
+        "duration_s": 495,
+        "location_1": [
+            42.355518,
+            -71.060225
+        ],
+        "location_2": [
+            42.359705,
+            -71.059215
+        ],
+        "place1": "place-dwnxg",
+        "place2": "place-gover",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-dwnxg_place-spmnl": {
+        "distance_m": 1676,
+        "distance_mi": 1.041,
+        "duration_s": 1342,
+        "location_1": [
+            42.355518,
+            -71.060225
+        ],
+        "location_2": [
+            42.366664,
+            -71.067666
+        ],
+        "place1": "place-dwnxg",
+        "place2": "place-spmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-engav_place-grigg": {
+        "distance_m": 1886,
+        "distance_mi": 1.172,
+        "duration_s": 1508,
+        "location_1": [
+            42.337104,
+            -71.144852
+        ],
+        "location_2": [
+            42.348545,
+            -71.134949
+        ],
+        "place1": "place-engav",
+        "place2": "place-grigg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-engav_place-rsmnl": {
+        "distance_m": 644,
+        "distance_mi": 0.4,
+        "duration_s": 516,
+        "location_1": [
+            42.337104,
+            -71.144852
+        ],
+        "location_2": [
+            42.335088,
+            -71.148758
+        ],
+        "place1": "place-engav",
+        "place2": "place-rsmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-engav_place-sougr": {
+        "distance_m": 1251,
+        "distance_mi": 0.777,
+        "duration_s": 1002,
+        "location_1": [
+            42.337104,
+            -71.144852
+        ],
+        "location_2": [
+            42.3396,
+            -71.157661
+        ],
+        "place1": "place-engav",
+        "place2": "place-sougr",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-engav_place-sthld": {
+        "distance_m": 734,
+        "distance_mi": 0.456,
+        "duration_s": 588,
+        "location_1": [
+            42.337104,
+            -71.144852
+        ],
+        "location_2": [
+            42.341614,
+            -71.146202
+        ],
+        "place1": "place-engav",
+        "place2": "place-sthld",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-engav_place-wascm": {
+        "distance_m": 1072,
+        "distance_mi": 0.666,
+        "duration_s": 858,
+        "location_1": [
+            42.337104,
+            -71.144852
+        ],
+        "location_2": [
+            42.343864,
+            -71.142853
+        ],
+        "place1": "place-engav",
+        "place2": "place-wascm",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-engav_place-wrnst": {
+        "distance_m": 1665,
+        "distance_mi": 1.035,
+        "duration_s": 1333,
+        "location_1": [
+            42.337104,
+            -71.144852
+        ],
+        "location_2": [
+            42.348343,
+            -71.140457
+        ],
+        "place1": "place-engav",
+        "place2": "place-wrnst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-esomr_place-sull": {
+        "distance_m": 1433,
+        "distance_mi": 0.89,
+        "duration_s": 1146,
+        "location_1": [
+            42.379467,
+            -71.086625
+        ],
+        "location_2": [
+            42.383975,
+            -71.076994
+        ],
+        "place1": "place-esomr",
+        "place2": "place-sull",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-esomr_place-unsqu": {
+        "distance_m": 1008,
+        "distance_mi": 0.626,
+        "duration_s": 807,
+        "location_1": [
+            42.379467,
+            -71.086625
+        ],
+        "location_2": [
+            42.377359,
+            -71.094761
+        ],
+        "place1": "place-esomr",
+        "place2": "place-unsqu",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-estav_place-orhte": {
+        "distance_m": 2429,
+        "distance_mi": 1.509,
+        "duration_s": 1944,
+        "location_1": [
+            42.388374,
+            -71.023859
+        ],
+        "location_2": [
+            42.386867,
+            -71.004736
+        ],
+        "place1": "place-estav",
+        "place2": "place-orhte",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-estav_place-wimnl": {
+        "distance_m": 1584,
+        "distance_mi": 0.984,
+        "duration_s": 1268,
+        "location_1": [
+            42.388374,
+            -71.023859
+        ],
+        "location_2": [
+            42.3796403,
+            -71.0228654
+        ],
+        "place1": "place-estav",
+        "place2": "place-wimnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-fbkst_place-grigg": {
+        "distance_m": 1624,
+        "distance_mi": 1.009,
+        "duration_s": 1299,
+        "location_1": [
+            42.339725,
+            -71.131073
+        ],
+        "location_2": [
+            42.348545,
+            -71.134949
+        ],
+        "place1": "place-fbkst",
+        "place2": "place-grigg",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-fbkst_place-harvd": {
+        "distance_m": 1902,
+        "distance_mi": 1.182,
+        "duration_s": 1522,
+        "location_1": [
+            42.339725,
+            -71.131073
+        ],
+        "location_2": [
+            42.350243,
+            -71.131355
+        ],
+        "place1": "place-fbkst",
+        "place2": "place-harvd",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-fbkst_place-rsmnl": {
+        "distance_m": 1836,
+        "distance_mi": 1.141,
+        "duration_s": 1469,
+        "location_1": [
+            42.339725,
+            -71.131073
+        ],
+        "location_2": [
+            42.335088,
+            -71.148758
+        ],
+        "place1": "place-fbkst",
+        "place2": "place-rsmnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-fbkst_place-sthld": {
+        "distance_m": 1525,
+        "distance_mi": 0.948,
+        "duration_s": 1222,
+        "location_1": [
+            42.339725,
+            -71.131073
+        ],
+        "location_2": [
+            42.341614,
+            -71.146202
+        ],
+        "place1": "place-fbkst",
+        "place2": "place-sthld",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-fbkst_place-wascm": {
+        "distance_m": 1180,
+        "distance_mi": 0.733,
+        "duration_s": 944,
+        "location_1": [
+            42.339725,
+            -71.131073
+        ],
+        "location_2": [
+            42.343864,
+            -71.142853
+        ],
+        "place1": "place-fbkst",
+        "place2": "place-wascm",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-fbkst_place-wrnst": {
+        "distance_m": 1502,
+        "distance_mi": 0.933,
+        "duration_s": 1202,
+        "location_1": [
+            42.339725,
+            -71.131073
+        ],
+        "location_2": [
+            42.348343,
+            -71.140457
+        ],
+        "place1": "place-fbkst",
+        "place2": "place-wrnst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-fenwd_place-fenwy": {
+        "distance_m": 1727,
+        "distance_mi": 1.073,
+        "duration_s": 1382,
+        "location_1": [
+            42.333706,
+            -71.105728
+        ],
+        "location_2": [
+            42.345403,
+            -71.104213
+        ],
+        "place1": "place-fenwd",
+        "place2": "place-fenwy",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-fenwd_place-hwsst": {
+        "distance_m": 1686,
+        "distance_mi": 1.048,
+        "duration_s": 1350,
+        "location_1": [
+            42.333706,
+            -71.105728
+        ],
+        "location_2": [
+            42.344906,
+            -71.111145
+        ],
+        "place1": "place-fenwd",
+        "place2": "place-hwsst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-fenwd_place-jaksn": {
+        "distance_m": 1739,
+        "distance_mi": 1.081,
+        "duration_s": 1392,
+        "location_1": [
+            42.333706,
+            -71.105728
+        ],
+        "location_2": [
+            42.323132,
+            -71.099592
+        ],
+        "place1": "place-fenwd",
+        "place2": "place-jaksn",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-fenwd_place-kntst": {
+        "distance_m": 1596,
+        "distance_mi": 0.992,
+        "duration_s": 1277,
+        "location_1": [
+            42.333706,
+            -71.105728
+        ],
+        "location_2": [
+            42.344074,
+            -71.114197
+        ],
+        "place1": "place-fenwd",
+        "place2": "place-kntst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-fenwd_place-longw": {
+        "distance_m": 1278,
+        "distance_mi": 0.794,
+        "duration_s": 1023,
+        "location_1": [
+            42.333706,
+            -71.105728
+        ],
+        "location_2": [
+            42.341702,
+            -71.109956
+        ],
+        "place1": "place-fenwd",
+        "place2": "place-longw",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-fenwd_place-rcmnl": {
+        "distance_m": 926,
+        "distance_mi": 0.575,
+        "duration_s": 741,
+        "location_1": [
+            42.333706,
+            -71.105728
+        ],
+        "location_2": [
+            42.331397,
+            -71.095451
+        ],
+        "place1": "place-fenwd",
+        "place2": "place-rcmnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-fenwd_place-rugg": {
+        "distance_m": 1631,
+        "distance_mi": 1.013,
+        "duration_s": 1305,
+        "location_1": [
+            42.333706,
+            -71.105728
+        ],
+        "location_2": [
+            42.336377,
+            -71.088961
+        ],
+        "place1": "place-fenwd",
+        "place2": "place-rugg",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-fenwd_place-smary": {
+        "distance_m": 2018,
+        "distance_mi": 1.254,
+        "duration_s": 1614,
+        "location_1": [
+            42.333706,
+            -71.105728
+        ],
+        "location_2": [
+            42.345974,
+            -71.107353
+        ],
+        "place1": "place-fenwd",
+        "place2": "place-smary",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-fenwd_place-stpul": {
+        "distance_m": 1820,
+        "distance_mi": 1.131,
+        "duration_s": 1456,
+        "location_1": [
+            42.333706,
+            -71.105728
+        ],
+        "location_2": [
+            42.343327,
+            -71.116997
+        ],
+        "place1": "place-fenwd",
+        "place2": "place-stpul",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-fenwy_place-hwsst": {
+        "distance_m": 719,
+        "distance_mi": 0.447,
+        "duration_s": 575,
+        "location_1": [
+            42.345403,
+            -71.104213
+        ],
+        "location_2": [
+            42.344906,
+            -71.111145
+        ],
+        "place1": "place-fenwy",
+        "place2": "place-hwsst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-fenwy_place-kntst": {
+        "distance_m": 994,
+        "distance_mi": 0.618,
+        "duration_s": 795,
+        "location_1": [
+            42.345403,
+            -71.104213
+        ],
+        "location_2": [
+            42.344074,
+            -71.114197
+        ],
+        "place1": "place-fenwy",
+        "place2": "place-kntst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-fenwy_place-lngmd": {
+        "distance_m": 1355,
+        "distance_mi": 0.842,
+        "duration_s": 1084,
+        "location_1": [
+            42.345403,
+            -71.104213
+        ],
+        "location_2": [
+            42.33596,
+            -71.100052
+        ],
+        "place1": "place-fenwy",
+        "place2": "place-lngmd",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-fenwy_place-mfa": {
+        "distance_m": 1263,
+        "distance_mi": 0.785,
+        "duration_s": 1010,
+        "location_1": [
+            42.345403,
+            -71.104213
+        ],
+        "location_2": [
+            42.337711,
+            -71.095512
+        ],
+        "place1": "place-fenwy",
+        "place2": "place-mfa",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-fenwy_place-mispk": {
+        "distance_m": 1890,
+        "distance_mi": 1.174,
+        "duration_s": 1514,
+        "location_1": [
+            42.345403,
+            -71.104213
+        ],
+        "location_2": [
+            42.333195,
+            -71.109756
+        ],
+        "place1": "place-fenwy",
+        "place2": "place-mispk",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-fenwy_place-nuniv": {
+        "distance_m": 1806,
+        "distance_mi": 1.122,
+        "duration_s": 1444,
+        "location_1": [
+            42.345403,
+            -71.104213
+        ],
+        "location_2": [
+            42.340401,
+            -71.088806
+        ],
+        "place1": "place-fenwy",
+        "place2": "place-nuniv",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-fenwy_place-rugg": {
+        "distance_m": 1930,
+        "distance_mi": 1.199,
+        "duration_s": 1544,
+        "location_1": [
+            42.345403,
+            -71.104213
+        ],
+        "location_2": [
+            42.336377,
+            -71.088961
+        ],
+        "place1": "place-fenwy",
+        "place2": "place-rugg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-fenwy_place-smary": {
+        "distance_m": 466,
+        "distance_mi": 0.29,
+        "duration_s": 373,
+        "location_1": [
+            42.345403,
+            -71.104213
+        ],
+        "location_2": [
+            42.345974,
+            -71.107353
+        ],
+        "place1": "place-fenwy",
+        "place2": "place-smary",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-fenwy_place-stpul": {
+        "distance_m": 1251,
+        "distance_mi": 0.777,
+        "duration_s": 1001,
+        "location_1": [
+            42.345403,
+            -71.104213
+        ],
+        "location_2": [
+            42.343327,
+            -71.116997
+        ],
+        "place1": "place-fenwy",
+        "place2": "place-stpul",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-fenwy_place-symcl": {
+        "distance_m": 1960,
+        "distance_mi": 1.218,
+        "duration_s": 1568,
+        "location_1": [
+            42.345403,
+            -71.104213
+        ],
+        "location_2": [
+            42.342687,
+            -71.085056
+        ],
+        "place1": "place-fenwy",
+        "place2": "place-symcl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-fldcr_place-rr-ceylon-park": {
+        "distance_m": 1814,
+        "distance_mi": 1.127,
+        "duration_s": 1455,
+        "location_1": [
+            42.300093,
+            -71.061667
+        ],
+        "location_2": [
+            42.3097728,
+            -71.0735888
+        ],
+        "place1": "place-fldcr",
+        "place2": "place-rr-ceylon-park",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-gilmn_place-unsqu": {
+        "distance_m": 1492,
+        "distance_mi": 0.927,
+        "duration_s": 1194,
+        "location_1": [
+            42.387928,
+            -71.096766
+        ],
+        "location_2": [
+            42.377359,
+            -71.094761
+        ],
+        "place1": "place-gilmn",
+        "place2": "place-unsqu",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-gover_place-sstat": {
+        "distance_m": 1066,
+        "distance_mi": 0.662,
+        "duration_s": 853,
+        "location_1": [
+            42.359705,
+            -71.059215
+        ],
+        "location_2": [
+            42.352271,
+            -71.055242
+        ],
+        "place1": "place-gover",
+        "place2": "place-sstat",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-gover_place-tumnl": {
+        "distance_m": 1343,
+        "distance_mi": 0.835,
+        "duration_s": 1074,
+        "location_1": [
+            42.359705,
+            -71.059215
+        ],
+        "location_2": [
+            42.349662,
+            -71.063917
+        ],
+        "place1": "place-gover",
+        "place2": "place-tumnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-grigg_place-stpul": {
+        "distance_m": 2043,
+        "distance_mi": 1.269,
+        "duration_s": 1634,
+        "location_1": [
+            42.348545,
+            -71.134949
+        ],
+        "location_2": [
+            42.343327,
+            -71.116997
+        ],
+        "place1": "place-grigg",
+        "place2": "place-stpul",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-grigg_place-sumav": {
+        "distance_m": 1519,
+        "distance_mi": 0.944,
+        "duration_s": 1215,
+        "location_1": [
+            42.348545,
+            -71.134949
+        ],
+        "location_2": [
+            42.34111,
+            -71.12561
+        ],
+        "place1": "place-grigg",
+        "place2": "place-sumav",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-grigg_place-tapst": {
+        "distance_m": 1623,
+        "distance_mi": 1.008,
+        "duration_s": 1298,
+        "location_1": [
+            42.348545,
+            -71.134949
+        ],
+        "location_2": [
+            42.338459,
+            -71.138702
+        ],
+        "place1": "place-grigg",
+        "place2": "place-tapst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-haecl_place-sstat": {
+        "distance_m": 1375,
+        "distance_mi": 0.854,
+        "duration_s": 1100,
+        "location_1": [
+            42.363021,
+            -71.05829
+        ],
+        "location_2": [
+            42.352271,
+            -71.055242
+        ],
+        "place1": "place-haecl",
+        "place2": "place-sstat",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-harvd_place-kntst": {
+        "distance_m": 2040,
+        "distance_mi": 1.268,
+        "duration_s": 1632,
+        "location_1": [
+            42.350243,
+            -71.131355
+        ],
+        "location_2": [
+            42.344074,
+            -71.114197
+        ],
+        "place1": "place-harvd",
+        "place2": "place-kntst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-harvd_place-stpul": {
+        "distance_m": 1814,
+        "distance_mi": 1.127,
+        "duration_s": 1451,
+        "location_1": [
+            42.350243,
+            -71.131355
+        ],
+        "location_2": [
+            42.343327,
+            -71.116997
+        ],
+        "place1": "place-harvd",
+        "place2": "place-stpul",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-harvd_place-sumav": {
+        "distance_m": 1466,
+        "distance_mi": 0.911,
+        "duration_s": 1172,
+        "location_1": [
+            42.350243,
+            -71.131355
+        ],
+        "location_2": [
+            42.34111,
+            -71.12561
+        ],
+        "place1": "place-harvd",
+        "place2": "place-sumav",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-harvd_place-tapst": {
+        "distance_m": 2001,
+        "distance_mi": 1.243,
+        "duration_s": 1600,
+        "location_1": [
+            42.350243,
+            -71.131355
+        ],
+        "location_2": [
+            42.338459,
+            -71.138702
+        ],
+        "place1": "place-harvd",
+        "place2": "place-tapst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-hsmnl_place-jaksn": {
+        "distance_m": 1362,
+        "distance_mi": 0.846,
+        "duration_s": 1090,
+        "location_1": [
+            42.328316,
+            -71.110252
+        ],
+        "location_2": [
+            42.323132,
+            -71.099592
+        ],
+        "place1": "place-hsmnl",
+        "place2": "place-jaksn",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-hsmnl_place-longw": {
+        "distance_m": 1871,
+        "distance_mi": 1.163,
+        "duration_s": 1498,
+        "location_1": [
+            42.328316,
+            -71.110252
+        ],
+        "location_2": [
+            42.341702,
+            -71.109956
+        ],
+        "place1": "place-hsmnl",
+        "place2": "place-longw",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-hsmnl_place-rcmnl": {
+        "distance_m": 1722,
+        "distance_mi": 1.07,
+        "duration_s": 1378,
+        "location_1": [
+            42.328316,
+            -71.110252
+        ],
+        "location_2": [
+            42.331397,
+            -71.095451
+        ],
+        "place1": "place-hsmnl",
+        "place2": "place-rcmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-hsmnl_place-sbmnl": {
+        "distance_m": 1720,
+        "distance_mi": 1.069,
+        "duration_s": 1376,
+        "location_1": [
+            42.328316,
+            -71.110252
+        ],
+        "location_2": [
+            42.317062,
+            -71.104248
+        ],
+        "place1": "place-hsmnl",
+        "place2": "place-sbmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-hwsst_place-lngmd": {
+        "distance_m": 1697,
+        "distance_mi": 1.054,
+        "duration_s": 1359,
+        "location_1": [
+            42.344906,
+            -71.111145
+        ],
+        "location_2": [
+            42.33596,
+            -71.100052
+        ],
+        "place1": "place-hwsst",
+        "place2": "place-lngmd",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-hwsst_place-longw": {
+        "distance_m": 465,
+        "distance_mi": 0.289,
+        "duration_s": 372,
+        "location_1": [
+            42.344906,
+            -71.111145
+        ],
+        "location_2": [
+            42.341702,
+            -71.109956
+        ],
+        "place1": "place-hwsst",
+        "place2": "place-longw",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-hwsst_place-mfa": {
+        "distance_m": 1896,
+        "distance_mi": 1.178,
+        "duration_s": 1517,
+        "location_1": [
+            42.344906,
+            -71.111145
+        ],
+        "location_2": [
+            42.337711,
+            -71.095512
+        ],
+        "place1": "place-hwsst",
+        "place2": "place-mfa",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-hwsst_place-mispk": {
+        "distance_m": 1840,
+        "distance_mi": 1.143,
+        "duration_s": 1475,
+        "location_1": [
+            42.344906,
+            -71.111145
+        ],
+        "location_2": [
+            42.333195,
+            -71.109756
+        ],
+        "place1": "place-hwsst",
+        "place2": "place-mispk",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-hwsst_place-rvrwy": {
+        "distance_m": 1846,
+        "distance_mi": 1.147,
+        "duration_s": 1477,
+        "location_1": [
+            42.344906,
+            -71.111145
+        ],
+        "location_2": [
+            42.331684,
+            -71.111931
+        ],
+        "place1": "place-hwsst",
+        "place2": "place-rvrwy",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-hymnl_place-masta": {
+        "distance_m": 851,
+        "distance_mi": 0.529,
+        "duration_s": 680,
+        "location_1": [
+            42.347888,
+            -71.087903
+        ],
+        "location_2": [
+            42.341512,
+            -71.083423
+        ],
+        "place1": "place-hymnl",
+        "place2": "place-masta",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-hymnl_place-mfa": {
+        "distance_m": 1457,
+        "distance_mi": 0.905,
+        "duration_s": 1166,
+        "location_1": [
+            42.347888,
+            -71.087903
+        ],
+        "location_2": [
+            42.337711,
+            -71.095512
+        ],
+        "place1": "place-hymnl",
+        "place2": "place-mfa",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-hymnl_place-nuniv": {
+        "distance_m": 1052,
+        "distance_mi": 0.654,
+        "duration_s": 842,
+        "location_1": [
+            42.347888,
+            -71.087903
+        ],
+        "location_2": [
+            42.340401,
+            -71.088806
+        ],
+        "place1": "place-hymnl",
+        "place2": "place-nuniv",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-hymnl_place-prmnl": {
+        "distance_m": 648,
+        "distance_mi": 0.403,
+        "duration_s": 518,
+        "location_1": [
+            42.347888,
+            -71.087903
+        ],
+        "location_2": [
+            42.34557,
+            -71.081696
+        ],
+        "place1": "place-hymnl",
+        "place2": "place-prmnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-hymnl_place-rugg": {
+        "distance_m": 1450,
+        "distance_mi": 0.901,
+        "duration_s": 1160,
+        "location_1": [
+            42.347888,
+            -71.087903
+        ],
+        "location_2": [
+            42.336377,
+            -71.088961
+        ],
+        "place1": "place-hymnl",
+        "place2": "place-rugg",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-hymnl_place-symcl": {
+        "distance_m": 657,
+        "distance_mi": 0.408,
+        "duration_s": 526,
+        "location_1": [
+            42.347888,
+            -71.087903
+        ],
+        "location_2": [
+            42.342687,
+            -71.085056
+        ],
+        "place1": "place-hymnl",
+        "place2": "place-symcl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-jaksn_place-lngmd": {
+        "distance_m": 1842,
+        "distance_mi": 1.145,
+        "duration_s": 1474,
+        "location_1": [
+            42.323132,
+            -71.099592
+        ],
+        "location_2": [
+            42.33596,
+            -71.100052
+        ],
+        "place1": "place-jaksn",
+        "place2": "place-lngmd",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-jaksn_place-mispk": {
+        "distance_m": 1844,
+        "distance_mi": 1.146,
+        "duration_s": 1478,
+        "location_1": [
+            42.323132,
+            -71.099592
+        ],
+        "location_2": [
+            42.333195,
+            -71.109756
+        ],
+        "place1": "place-jaksn",
+        "place2": "place-mispk",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-jaksn_place-nubn": {
+        "distance_m": 1815,
+        "distance_mi": 1.128,
+        "duration_s": 1451,
+        "location_1": [
+            42.323132,
+            -71.099592
+        ],
+        "location_2": [
+            42.329544,
+            -71.083982
+        ],
+        "place1": "place-jaksn",
+        "place2": "place-nubn",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-jaksn_place-rvrwy": {
+        "distance_m": 1765,
+        "distance_mi": 1.097,
+        "duration_s": 1412,
+        "location_1": [
+            42.323132,
+            -71.099592
+        ],
+        "location_2": [
+            42.331684,
+            -71.111931
+        ],
+        "place1": "place-jaksn",
+        "place2": "place-rvrwy",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-kencl_place-lngmd": {
+        "distance_m": 1884,
+        "distance_mi": 1.171,
+        "duration_s": 1511,
+        "location_1": [
+            42.348949,
+            -71.095169
+        ],
+        "location_2": [
+            42.33596,
+            -71.100052
+        ],
+        "place1": "place-kencl",
+        "place2": "place-lngmd",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-kencl_place-masta": {
+        "distance_m": 1533,
+        "distance_mi": 0.953,
+        "duration_s": 1227,
+        "location_1": [
+            42.348949,
+            -71.095169
+        ],
+        "location_2": [
+            42.341512,
+            -71.083423
+        ],
+        "place1": "place-kencl",
+        "place2": "place-masta",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-kencl_place-mfa": {
+        "distance_m": 1634,
+        "distance_mi": 1.015,
+        "duration_s": 1310,
+        "location_1": [
+            42.348949,
+            -71.095169
+        ],
+        "location_2": [
+            42.337711,
+            -71.095512
+        ],
+        "place1": "place-kencl",
+        "place2": "place-mfa",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-kencl_place-nuniv": {
+        "distance_m": 1467,
+        "distance_mi": 0.912,
+        "duration_s": 1174,
+        "location_1": [
+            42.348949,
+            -71.095169
+        ],
+        "location_2": [
+            42.340401,
+            -71.088806
+        ],
+        "place1": "place-kencl",
+        "place2": "place-nuniv",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-kencl_place-prmnl": {
+        "distance_m": 1353,
+        "distance_mi": 0.841,
+        "duration_s": 1082,
+        "location_1": [
+            42.348949,
+            -71.095169
+        ],
+        "location_2": [
+            42.34557,
+            -71.081696
+        ],
+        "place1": "place-kencl",
+        "place2": "place-prmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-kencl_place-rugg": {
+        "distance_m": 1861,
+        "distance_mi": 1.156,
+        "duration_s": 1489,
+        "location_1": [
+            42.348949,
+            -71.095169
+        ],
+        "location_2": [
+            42.336377,
+            -71.088961
+        ],
+        "place1": "place-kencl",
+        "place2": "place-rugg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-kencl_place-symcl": {
+        "distance_m": 1338,
+        "distance_mi": 0.831,
+        "duration_s": 1070,
+        "location_1": [
+            42.348949,
+            -71.095169
+        ],
+        "location_2": [
+            42.342687,
+            -71.085056
+        ],
+        "place1": "place-kencl",
+        "place2": "place-symcl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-knncl_place-lech": {
+        "distance_m": 1566,
+        "distance_mi": 0.973,
+        "duration_s": 1253,
+        "location_1": [
+            42.3624908,
+            -71.0861765
+        ],
+        "location_2": [
+            42.371572,
+            -71.076584
+        ],
+        "place1": "place-knncl",
+        "place2": "place-lech",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-knncl_place-spmnl": {
+        "distance_m": 2105,
+        "distance_mi": 1.308,
+        "duration_s": 1687,
+        "location_1": [
+            42.3624908,
+            -71.0861765
+        ],
+        "location_2": [
+            42.366664,
+            -71.067666
+        ],
+        "place1": "place-knncl",
+        "place2": "place-spmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-kntst_place-lngmd": {
+        "distance_m": 1607,
+        "distance_mi": 0.999,
+        "duration_s": 1286,
+        "location_1": [
+            42.344074,
+            -71.114197
+        ],
+        "location_2": [
+            42.33596,
+            -71.100052
+        ],
+        "place1": "place-kntst",
+        "place2": "place-lngmd",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-kntst_place-longw": {
+        "distance_m": 736,
+        "distance_mi": 0.457,
+        "duration_s": 589,
+        "location_1": [
+            42.344074,
+            -71.114197
+        ],
+        "location_2": [
+            42.341702,
+            -71.109956
+        ],
+        "place1": "place-kntst",
+        "place2": "place-longw",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-kntst_place-mispk": {
+        "distance_m": 1750,
+        "distance_mi": 1.087,
+        "duration_s": 1402,
+        "location_1": [
+            42.344074,
+            -71.114197
+        ],
+        "location_2": [
+            42.333195,
+            -71.109756
+        ],
+        "place1": "place-kntst",
+        "place2": "place-mispk",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-kntst_place-rvrwy": {
+        "distance_m": 1685,
+        "distance_mi": 1.047,
+        "duration_s": 1348,
+        "location_1": [
+            42.344074,
+            -71.114197
+        ],
+        "location_2": [
+            42.331684,
+            -71.111931
+        ],
+        "place1": "place-kntst",
+        "place2": "place-rvrwy",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-lake_place-rsmnl": {
+        "distance_m": 1720,
+        "distance_mi": 1.069,
+        "duration_s": 1376,
+        "location_1": [
+            42.340081,
+            -71.166769
+        ],
+        "location_2": [
+            42.335088,
+            -71.148758
+        ],
+        "place1": "place-lake",
+        "place2": "place-rsmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-lech_place-sull": {
+        "distance_m": 2468,
+        "distance_mi": 1.534,
+        "duration_s": 1974,
+        "location_1": [
+            42.371572,
+            -71.076584
+        ],
+        "location_2": [
+            42.383975,
+            -71.076994
+        ],
+        "place1": "place-lech",
+        "place2": "place-sull",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-lngmd_place-longw": {
+        "distance_m": 1289,
+        "distance_mi": 0.801,
+        "duration_s": 1032,
+        "location_1": [
+            42.33596,
+            -71.100052
+        ],
+        "location_2": [
+            42.341702,
+            -71.109956
+        ],
+        "place1": "place-lngmd",
+        "place2": "place-longw",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-lngmd_place-masta": {
+        "distance_m": 1649,
+        "distance_mi": 1.025,
+        "duration_s": 1319,
+        "location_1": [
+            42.33596,
+            -71.100052
+        ],
+        "location_2": [
+            42.341512,
+            -71.083423
+        ],
+        "place1": "place-lngmd",
+        "place2": "place-masta",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-lngmd_place-nubn": {
+        "distance_m": 1884,
+        "distance_mi": 1.171,
+        "duration_s": 1507,
+        "location_1": [
+            42.33596,
+            -71.100052
+        ],
+        "location_2": [
+            42.329544,
+            -71.083982
+        ],
+        "place1": "place-lngmd",
+        "place2": "place-nubn",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-lngmd_place-rcmnl": {
+        "distance_m": 841,
+        "distance_mi": 0.523,
+        "duration_s": 673,
+        "location_1": [
+            42.33596,
+            -71.100052
+        ],
+        "location_2": [
+            42.331397,
+            -71.095451
+        ],
+        "place1": "place-lngmd",
+        "place2": "place-rcmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-lngmd_place-rugg": {
+        "distance_m": 1084,
+        "distance_mi": 0.674,
+        "duration_s": 868,
+        "location_1": [
+            42.33596,
+            -71.100052
+        ],
+        "location_2": [
+            42.336377,
+            -71.088961
+        ],
+        "place1": "place-lngmd",
+        "place2": "place-rugg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-lngmd_place-smary": {
+        "distance_m": 1735,
+        "distance_mi": 1.078,
+        "duration_s": 1388,
+        "location_1": [
+            42.33596,
+            -71.100052
+        ],
+        "location_2": [
+            42.345974,
+            -71.107353
+        ],
+        "place1": "place-lngmd",
+        "place2": "place-smary",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-longw_place-mfa": {
+        "distance_m": 1639,
+        "distance_mi": 1.018,
+        "duration_s": 1311,
+        "location_1": [
+            42.341702,
+            -71.109956
+        ],
+        "location_2": [
+            42.337711,
+            -71.095512
+        ],
+        "place1": "place-longw",
+        "place2": "place-mfa",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-longw_place-mispk": {
+        "distance_m": 1432,
+        "distance_mi": 0.89,
+        "duration_s": 1148,
+        "location_1": [
+            42.341702,
+            -71.109956
+        ],
+        "location_2": [
+            42.333195,
+            -71.109756
+        ],
+        "place1": "place-longw",
+        "place2": "place-mispk",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-longw_place-rvrwy": {
+        "distance_m": 1437,
+        "distance_mi": 0.893,
+        "duration_s": 1150,
+        "location_1": [
+            42.341702,
+            -71.109956
+        ],
+        "location_2": [
+            42.331684,
+            -71.111931
+        ],
+        "place1": "place-longw",
+        "place2": "place-rvrwy",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-longw_place-smary": {
+        "distance_m": 771,
+        "distance_mi": 0.479,
+        "duration_s": 616,
+        "location_1": [
+            42.341702,
+            -71.109956
+        ],
+        "location_2": [
+            42.345974,
+            -71.107353
+        ],
+        "place1": "place-longw",
+        "place2": "place-smary",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-longw_place-stpul": {
+        "distance_m": 959,
+        "distance_mi": 0.596,
+        "duration_s": 768,
+        "location_1": [
+            42.341702,
+            -71.109956
+        ],
+        "location_2": [
+            42.343327,
+            -71.116997
+        ],
+        "place1": "place-longw",
+        "place2": "place-stpul",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-longw_place-sumav": {
+        "distance_m": 1511,
+        "distance_mi": 0.939,
+        "duration_s": 1209,
+        "location_1": [
+            42.341702,
+            -71.109956
+        ],
+        "location_2": [
+            42.34111,
+            -71.12561
+        ],
+        "place1": "place-longw",
+        "place2": "place-sumav",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-masta_place-mfa": {
+        "distance_m": 1222,
+        "distance_mi": 0.759,
+        "duration_s": 978,
+        "location_1": [
+            42.341512,
+            -71.083423
+        ],
+        "location_2": [
+            42.337711,
+            -71.095512
+        ],
+        "place1": "place-masta",
+        "place2": "place-mfa",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-masta_place-nubn": {
+        "distance_m": 1690,
+        "distance_mi": 1.05,
+        "duration_s": 1352,
+        "location_1": [
+            42.341512,
+            -71.083423
+        ],
+        "location_2": [
+            42.329544,
+            -71.083982
+        ],
+        "place1": "place-masta",
+        "place2": "place-nubn",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-masta_place-nuniv": {
+        "distance_m": 598,
+        "distance_mi": 0.372,
+        "duration_s": 479,
+        "location_1": [
+            42.341512,
+            -71.083423
+        ],
+        "location_2": [
+            42.340401,
+            -71.088806
+        ],
+        "place1": "place-masta",
+        "place2": "place-nuniv",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-masta_place-prmnl": {
+        "distance_m": 620,
+        "distance_mi": 0.385,
+        "duration_s": 496,
+        "location_1": [
+            42.341512,
+            -71.083423
+        ],
+        "location_2": [
+            42.34557,
+            -71.081696
+        ],
+        "place1": "place-masta",
+        "place2": "place-prmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-masta_place-symcl": {
+        "distance_m": 196,
+        "distance_mi": 0.122,
+        "duration_s": 156,
+        "location_1": [
+            42.341512,
+            -71.083423
+        ],
+        "location_2": [
+            42.342687,
+            -71.085056
+        ],
+        "place1": "place-masta",
+        "place2": "place-symcl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-matt_place-rr-river-street": {
+        "distance_m": 1185,
+        "distance_mi": 0.736,
+        "duration_s": 952,
+        "location_1": [
+            42.26762,
+            -71.092486
+        ],
+        "location_2": [
+            42.2637601,
+            -71.1045547
+        ],
+        "place1": "place-matt",
+        "place2": "place-rr-river-street",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-mfa_place-nubn": {
+        "distance_m": 1554,
+        "distance_mi": 0.966,
+        "duration_s": 1244,
+        "location_1": [
+            42.337711,
+            -71.095512
+        ],
+        "location_2": [
+            42.329544,
+            -71.083982
+        ],
+        "place1": "place-mfa",
+        "place2": "place-nubn",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-mfa_place-rcmnl": {
+        "distance_m": 958,
+        "distance_mi": 0.595,
+        "duration_s": 767,
+        "location_1": [
+            42.337711,
+            -71.095512
+        ],
+        "location_2": [
+            42.331397,
+            -71.095451
+        ],
+        "place1": "place-mfa",
+        "place2": "place-rcmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-mfa_place-rugg": {
+        "distance_m": 657,
+        "distance_mi": 0.408,
+        "duration_s": 526,
+        "location_1": [
+            42.337711,
+            -71.095512
+        ],
+        "location_2": [
+            42.336377,
+            -71.088961
+        ],
+        "place1": "place-mfa",
+        "place2": "place-rugg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-mfa_place-smary": {
+        "distance_m": 1643,
+        "distance_mi": 1.021,
+        "duration_s": 1315,
+        "location_1": [
+            42.337711,
+            -71.095512
+        ],
+        "location_2": [
+            42.345974,
+            -71.107353
+        ],
+        "place1": "place-mfa",
+        "place2": "place-smary",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-mgngl_place-portr": {
+        "distance_m": 1682,
+        "distance_mi": 1.045,
+        "duration_s": 1346,
+        "location_1": [
+            42.393682,
+            -71.1063879
+        ],
+        "location_2": [
+            42.3884,
+            -71.119149
+        ],
+        "place1": "place-mgngl",
+        "place2": "place-portr",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-mispk_place-rcmnl": {
+        "distance_m": 1273,
+        "distance_mi": 0.791,
+        "duration_s": 1021,
+        "location_1": [
+            42.333195,
+            -71.109756
+        ],
+        "location_2": [
+            42.331397,
+            -71.095451
+        ],
+        "place1": "place-mispk",
+        "place2": "place-rcmnl",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-mispk_place-smary": {
+        "distance_m": 2171,
+        "distance_mi": 1.349,
+        "duration_s": 1739,
+        "location_1": [
+            42.333195,
+            -71.109756
+        ],
+        "location_2": [
+            42.345974,
+            -71.107353
+        ],
+        "place1": "place-mispk",
+        "place2": "place-smary",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-mispk_place-stpul": {
+        "distance_m": 1973,
+        "distance_mi": 1.226,
+        "duration_s": 1580,
+        "location_1": [
+            42.333195,
+            -71.109756
+        ],
+        "location_2": [
+            42.343327,
+            -71.116997
+        ],
+        "place1": "place-mispk",
+        "place2": "place-stpul",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-mispk_place-sumav": {
+        "distance_m": 2257,
+        "distance_mi": 1.402,
+        "duration_s": 1808,
+        "location_1": [
+            42.333195,
+            -71.109756
+        ],
+        "location_2": [
+            42.34111,
+            -71.12561
+        ],
+        "place1": "place-mispk",
+        "place2": "place-sumav",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-north_place-sstat": {
+        "distance_m": 1724,
+        "distance_mi": 1.071,
+        "duration_s": 1379,
+        "location_1": [
+            42.365577,
+            -71.06129
+        ],
+        "location_2": [
+            42.352271,
+            -71.055242
+        ],
+        "place1": "place-north",
+        "place2": "place-sstat",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-nubn_place-nuniv": {
+        "distance_m": 1598,
+        "distance_mi": 0.993,
+        "duration_s": 1279,
+        "location_1": [
+            42.329544,
+            -71.083982
+        ],
+        "location_2": [
+            42.340401,
+            -71.088806
+        ],
+        "place1": "place-nubn",
+        "place2": "place-nuniv",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-nubn_place-rcmnl": {
+        "distance_m": 1082,
+        "distance_mi": 0.672,
+        "duration_s": 865,
+        "location_1": [
+            42.329544,
+            -71.083982
+        ],
+        "location_2": [
+            42.331397,
+            -71.095451
+        ],
+        "place1": "place-nubn",
+        "place2": "place-rcmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-nubn_place-rugg": {
+        "distance_m": 1054,
+        "distance_mi": 0.655,
+        "duration_s": 844,
+        "location_1": [
+            42.329544,
+            -71.083982
+        ],
+        "location_2": [
+            42.336377,
+            -71.088961
+        ],
+        "place1": "place-nubn",
+        "place2": "place-rugg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-nubn_place-symcl": {
+        "distance_m": 1884,
+        "distance_mi": 1.171,
+        "duration_s": 1508,
+        "location_1": [
+            42.329544,
+            -71.083982
+        ],
+        "location_2": [
+            42.342687,
+            -71.085056
+        ],
+        "place1": "place-nubn",
+        "place2": "place-symcl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-nuniv_place-rcmnl": {
+        "distance_m": 1346,
+        "distance_mi": 0.836,
+        "duration_s": 1076,
+        "location_1": [
+            42.340401,
+            -71.088806
+        ],
+        "location_2": [
+            42.331397,
+            -71.095451
+        ],
+        "place1": "place-nuniv",
+        "place2": "place-rcmnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-nuniv_place-rugg": {
+        "distance_m": 561,
+        "distance_mi": 0.349,
+        "duration_s": 448,
+        "location_1": [
+            42.340401,
+            -71.088806
+        ],
+        "location_2": [
+            42.336377,
+            -71.088961
+        ],
+        "place1": "place-nuniv",
+        "place2": "place-rugg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-pktrm_place-state": {
+        "distance_m": 606,
+        "distance_mi": 0.377,
+        "duration_s": 485,
+        "location_1": [
+            42.3563946,
+            -71.0624242
+        ],
+        "location_2": [
+            42.358978,
+            -71.057598
+        ],
+        "place1": "place-pktrm",
+        "place2": "place-state",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-pktrm_place-tumnl": {
+        "distance_m": 967,
+        "distance_mi": 0.601,
+        "duration_s": 773,
+        "location_1": [
+            42.3563946,
+            -71.0624242
+        ],
+        "location_2": [
+            42.349662,
+            -71.063917
+        ],
+        "place1": "place-pktrm",
+        "place2": "place-tumnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-prmnl_place-rugg": {
+        "distance_m": 1417,
+        "distance_mi": 0.88,
+        "duration_s": 1134,
+        "location_1": [
+            42.34557,
+            -71.081696
+        ],
+        "location_2": [
+            42.336377,
+            -71.088961
+        ],
+        "place1": "place-prmnl",
+        "place2": "place-rugg",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-prmnl_place-tumnl": {
+        "distance_m": 1875,
+        "distance_mi": 1.165,
+        "duration_s": 1500,
+        "location_1": [
+            42.34557,
+            -71.081696
+        ],
+        "location_2": [
+            42.349662,
+            -71.063917
+        ],
+        "place1": "place-prmnl",
+        "place2": "place-tumnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-rbmnl_place-rr-revere-center": {
+        "distance_m": 1011,
+        "distance_mi": 0.628,
+        "duration_s": 811,
+        "location_1": [
+            42.4078425,
+            -70.9925332
+        ],
+        "location_2": [
+            42.4154533,
+            -70.9922548
+        ],
+        "place1": "place-rbmnl",
+        "place2": "place-rr-revere-center",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-rcmnl_place-rvrwy": {
+        "distance_m": 1523,
+        "distance_mi": 0.946,
+        "duration_s": 1220,
+        "location_1": [
+            42.331397,
+            -71.095451
+        ],
+        "location_2": [
+            42.331684,
+            -71.111931
+        ],
+        "place1": "place-rcmnl",
+        "place2": "place-rvrwy",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-rcmnl_place-symcl": {
+        "distance_m": 1768,
+        "distance_mi": 1.099,
+        "duration_s": 1414,
+        "location_1": [
+            42.331397,
+            -71.095451
+        ],
+        "location_2": [
+            42.342687,
+            -71.085056
+        ],
+        "place1": "place-rcmnl",
+        "place2": "place-symcl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-rr-revere-center_place-wondl": {
+        "distance_m": 329,
+        "distance_mi": 0.204,
+        "duration_s": 263,
+        "location_1": [
+            42.4154533,
+            -70.9922548
+        ],
+        "location_2": [
+            42.41342,
+            -70.991648
+        ],
+        "place1": "place-rr-revere-center",
+        "place2": "place-wondl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-rsmnl_place-sougr": {
+        "distance_m": 955,
+        "distance_mi": 0.593,
+        "duration_s": 764,
+        "location_1": [
+            42.335088,
+            -71.148758
+        ],
+        "location_2": [
+            42.3396,
+            -71.157661
+        ],
+        "place1": "place-rsmnl",
+        "place2": "place-sougr",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-rsmnl_place-sthld": {
+        "distance_m": 1016,
+        "distance_mi": 0.631,
+        "duration_s": 812,
+        "location_1": [
+            42.335088,
+            -71.148758
+        ],
+        "location_2": [
+            42.341614,
+            -71.146202
+        ],
+        "place1": "place-rsmnl",
+        "place2": "place-sthld",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-rsmnl_place-tapst": {
+        "distance_m": 1168,
+        "distance_mi": 0.726,
+        "duration_s": 934,
+        "location_1": [
+            42.335088,
+            -71.148758
+        ],
+        "location_2": [
+            42.338459,
+            -71.138702
+        ],
+        "place1": "place-rsmnl",
+        "place2": "place-tapst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-rsmnl_place-wascm": {
+        "distance_m": 1452,
+        "distance_mi": 0.902,
+        "duration_s": 1162,
+        "location_1": [
+            42.335088,
+            -71.148758
+        ],
+        "location_2": [
+            42.343864,
+            -71.142853
+        ],
+        "place1": "place-rsmnl",
+        "place2": "place-wascm",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-rugg_place-symcl": {
+        "distance_m": 983,
+        "distance_mi": 0.611,
+        "duration_s": 786,
+        "location_1": [
+            42.336377,
+            -71.088961
+        ],
+        "location_2": [
+            42.342687,
+            -71.085056
+        ],
+        "place1": "place-rugg",
+        "place2": "place-symcl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    },
+    "place-rvrwy_place-stpul": {
+        "distance_m": 1857,
+        "distance_mi": 1.154,
+        "duration_s": 1485,
+        "location_1": [
+            42.331684,
+            -71.111931
+        ],
+        "location_2": [
+            42.343327,
+            -71.116997
+        ],
+        "place1": "place-rvrwy",
+        "place2": "place-stpul",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-rvrwy_place-sumav": {
+        "distance_m": 2040,
+        "distance_mi": 1.268,
+        "duration_s": 1633,
+        "location_1": [
+            42.331684,
+            -71.111931
+        ],
+        "location_2": [
+            42.34111,
+            -71.12561
+        ],
+        "place1": "place-rvrwy",
+        "place2": "place-sumav",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-sougr_place-tapst": {
+        "distance_m": 1774,
+        "distance_mi": 1.102,
+        "duration_s": 1420,
+        "location_1": [
+            42.3396,
+            -71.157661
+        ],
+        "location_2": [
+            42.338459,
+            -71.138702
+        ],
+        "place1": "place-sougr",
+        "place2": "place-tapst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-spmnl_place-state": {
+        "distance_m": 1405,
+        "distance_mi": 0.873,
+        "duration_s": 1126,
+        "location_1": [
+            42.366664,
+            -71.067666
+        ],
+        "location_2": [
+            42.358978,
+            -71.057598
+        ],
+        "place1": "place-spmnl",
+        "place2": "place-state",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-sstat_place-state": {
+        "distance_m": 864,
+        "distance_mi": 0.537,
+        "duration_s": 692,
+        "location_1": [
+            42.352271,
+            -71.055242
+        ],
+        "location_2": [
+            42.358978,
+            -71.057598
+        ],
+        "place1": "place-sstat",
+        "place2": "place-state",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-sstat_place-tumnl": {
+        "distance_m": 988,
+        "distance_mi": 0.614,
+        "duration_s": 790,
+        "location_1": [
+            42.352271,
+            -71.055242
+        ],
+        "location_2": [
+            42.349662,
+            -71.063917
+        ],
+        "place1": "place-sstat",
+        "place2": "place-tumnl",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-sthld_place-tapst": {
+        "distance_m": 909,
+        "distance_mi": 0.565,
+        "duration_s": 728,
+        "location_1": [
+            42.341614,
+            -71.146202
+        ],
+        "location_2": [
+            42.338459,
+            -71.138702
+        ],
+        "place1": "place-sthld",
+        "place2": "place-tapst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-sumav_place-wascm": {
+        "distance_m": 1640,
+        "distance_mi": 1.019,
+        "duration_s": 1313,
+        "location_1": [
+            42.34111,
+            -71.12561
+        ],
+        "location_2": [
+            42.343864,
+            -71.142853
+        ],
+        "place1": "place-sumav",
+        "place2": "place-wascm",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 1
+    },
+    "place-sumav_place-wrnst": {
+        "distance_m": 1549,
+        "distance_mi": 0.963,
+        "duration_s": 1239,
+        "location_1": [
+            42.34111,
+            -71.12561
+        ],
+        "location_2": [
+            42.348343,
+            -71.140457
+        ],
+        "place1": "place-sumav",
+        "place2": "place-wrnst",
+        "wheelchair_boarding_1": 2,
+        "wheelchair_boarding_2": 2
+    },
+    "place-tapst_place-wascm": {
+        "distance_m": 847,
+        "distance_mi": 0.526,
+        "duration_s": 677,
+        "location_1": [
+            42.338459,
+            -71.138702
+        ],
+        "location_2": [
+            42.343864,
+            -71.142853
+        ],
+        "place1": "place-tapst",
+        "place2": "place-wascm",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 1
+    },
+    "place-tapst_place-wrnst": {
+        "distance_m": 1440,
+        "distance_mi": 0.895,
+        "duration_s": 1152,
+        "location_1": [
+            42.338459,
+            -71.138702
+        ],
+        "location_2": [
+            42.348343,
+            -71.140457
+        ],
+        "place1": "place-tapst",
+        "place2": "place-wrnst",
+        "wheelchair_boarding_1": 1,
+        "wheelchair_boarding_2": 2
+    }
+}
