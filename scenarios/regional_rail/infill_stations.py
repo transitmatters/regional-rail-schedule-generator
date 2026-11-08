@@ -215,3 +215,12 @@ station_plymouth_center = Station(
     municipality="Plymouth",
     zone_id="CR-zone-8",
 )
+
+station_foxboro_center = Station(
+    name="Foxboro Center",
+    id="place-rr-foxboro-center",
+    location=(42.065, -71.247),
+    municipality="Foxborough",
+    # Between Foxboro (zone 4) and Mansfield (zone 6); takes the zone of Foxboro, its nearer neighbour
+    zone_id="CR-zone-4",
+)
