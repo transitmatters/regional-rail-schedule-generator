@@ -15,6 +15,7 @@ RAPID_TRANSIT = (
     "Green-C",
     "Green-D",
     "Green-E",
+    "Mattapan",
 )
 
 SILVER_LINE = (
