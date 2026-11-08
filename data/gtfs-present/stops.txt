@@ -345,7 +345,6 @@ stop_id,stop_code,stop_name,stop_desc,platform_code,platform_name,stop_lat,stop_
 1216,1216,Columbus Ave @ Dimock St,,,,42.319416,-71.098297,LocalBus,,https://www.mbta.com/stops/1216,,0,,1,Boston,Columbus Avenue,Dimock Street,3
 1219,1219,Columbus Ave @ Centre St,,,,42.325015,-71.09808,LocalBus,,https://www.mbta.com/stops/1219,,0,,1,Boston,Columbus Avenue,Centre Street,3
 122,122,Columbia Rd @ Buttonwood St,,,,42.321113,-71.056267,LocalBus,,https://www.mbta.com/stops/122,,0,,1,Boston,Columbia Road,Buttonwood Street,3
-122015,122015,Houghton's Pond,,,,42.209496,-71.096595,LocalBus,,https://www.mbta.com/stops/122015,,0,,1,Milton,,,3
 1221,1221,Columbus Ave @ Cedar St,,,,42.328012,-71.096921,LocalBus,,https://www.mbta.com/stops/1221,,0,,1,Boston,Columbus Avenue,,3
 1222,1222,Columbus Ave @ Malcolm X Blvd,,,,42.331191,-71.094468,LocalBus,,https://www.mbta.com/stops/1222,,0,,1,Boston,Columbus Avenue,Tremont Street,3
 12231,12231,Galileo Way @ Main St,,,,42.363253,-71.089678,LocalBus,,https://www.mbta.com/stops/12231,,0,,1,Cambridge,Galileo Way,Main Street,3
@@ -7331,20 +7330,28 @@ WML-0035,,Boston Landing,Boston Landing - Commuter Rail,,Commuter Rail,42.357293
 WML-0035-01,,Boston Landing,Boston Landing - Commuter Rail - Track 1 (Outbound),1,Track 1 (Outbound),42.357293,-71.139883,CR-zone-1A,,https://www.mbta.com/stops/place-WML-0035,,0,place-WML-0035,1,Boston,,,2
 WML-0035-02,,Boston Landing,Boston Landing - Commuter Rail - Track 2 (South Station),2,Track 2 (South Station),42.357293,-71.139883,CR-zone-1A,,https://www.mbta.com/stops/place-WML-0035,,0,place-WML-0035,1,Boston,,,2
 WML-0035-B,,Boston Landing,Boston Landing - Commuter Rail Shuttle,,Commuter Rail Shuttle,42.357313,-71.141258,,,,,0,place-WML-0035,1,Boston,,,3
+WML-0035-B3,,Boston Landing - Guest St @ New Balance Way,Boston Landing - Commuter Rail Boston Shuttle - Guest St @ New Balance Way,,Boston Shuttle,42.356636,-71.14328,LocalBus,,https://www.mbta.com/stops/place-WML-0035,,0,place-WML-0035,1,Boston,Guest Street,New Balance Way,3
+WML-0035-B4,,Boston Landing - Guest St opp New Balance Way,Boston Landing - Commuter Rail Outbound Shuttle - Guest St @ New Balance Way,,Outbound Shuttle,42.356714,-71.14318,LocalBus,,https://www.mbta.com/stops/place-WML-0035,,0,place-WML-0035,1,Boston,Guest Street,New Balance Way,3
 place-WML-0081,,Newtonville,,,,42.351702,-71.205408,CR-zone-1,"770 Washington St, Newton, MA 02460",https://www.mbta.com/stops/place-WML-0081,,1,,2,Newton,,,
 WML-0081-02,,Newtonville,Newtonville - Commuter Rail - Track 2 (All Trains),2,Commuter Rail - Track 2 (All Trains),42.351702,-71.205408,CR-zone-1,,https://www.mbta.com/stops/place-WML-0081,,0,place-WML-0081,2,Newton,,,2
+WML-0081-B2,,Newtonville - Washington St @ Walnut St,Newtonville - Commuter Rail Outbound Shuttle - Washington St @ Walnut St,,Outbound Shuttle,42.351609,-71.207938,LocalBus,,https://www.mbta.com/stops/place-WML-0081,,0,place-WML-0081,1,Newton,Washington Street,Walnut Street,3
+WML-0081-B3,,Newtonville - Washington St @ Walnut St,Newtonville - Commuter Rail Boston Shuttle - Washington St @ Walnut St,,Boston Shuttle,42.351626,-71.206722,LocalBus,,https://www.mbta.com/stops/place-WML-0081,,0,place-WML-0081,1,Newton,Washington Street,Walnut Street,3
 door-WML-0081-harvard,,Harvard St,Harvard St,,,42.352499,-71.202209,,,,level_in_street,2,place-WML-0081,2,Newton,,,
 door-WML-0081-walnut,,Walnut St,Walnut St,,,42.351356,-71.20701,,,,level_in_street,2,place-WML-0081,2,Newton,,,
 node-WML-0081-harvardstairs-bottom,,Newtonville,Newtonville - Bottom of stairs for Harvard St,,,42.352441,-71.202367,,,,level_-1_platform,3,place-WML-0081,1,Newton,,,
 node-WML-0081-walnutstairs-bottom,,Newtonville,Newtonville - Bottom of stairs for Walnut St,,,42.351373,-71.206839,,,,level_-1_platform,3,place-WML-0081,1,Newton,,,
 place-WML-0091,,West Newton,,,,42.347878,-71.230528,CR-zone-2,"1395 Washington St, Newton, MA 02465",https://www.mbta.com/stops/place-WML-0091,,1,,2,Newton,,,
 WML-0091-02,,West Newton,West Newton - Commuter Rail - Track 2 (All Trains),2,Commuter Rail - Track 2 (All Trains),42.347878,-71.230528,CR-zone-2,,https://www.mbta.com/stops/place-WML-0091,,0,place-WML-0091,2,Newton,,,2
+WML-0091-B2,,West Newton - Washington St @ Cherry St,West Newton - Commuter Rail Outbound Shuttle - Washington St @ Cherry St,,Outbound Shuttle,42.349243,-71.227825,LocalBus,,https://www.mbta.com/stops/place-WML-0091,,0,place-WML-0091,1,Newton,Washington Street,Cherry Street,3
+WML-0091-B3,,West Newton - Washington St @ Highland St,West Newton - Commuter Rail Boston Shuttle - Washington St @ Highland St,,Boston Shuttle,42.34919,-71.22746,LocalBus,,https://www.mbta.com/stops/place-WML-0091,,0,place-WML-0091,1,Newton,Washington Street,Highland Street,3
 door-WML-0091-ebwas,,Washington St (East),Washington St (East),,,42.347974,-71.228818,,,,level_in_street,2,place-WML-0091,2,Newton,,,
 door-WML-0091-wbwas,,Washington St (West),Washington St (West),,,42.347664,-71.232233,,,,level_in_street,2,place-WML-0091,2,Newton,,,
 node-WML-0091-ebwasstairs-bottom,,West Newton,West Newton - Bottom of stairs for Washington St (East),,,42.347983,-71.228852,,,,level_-1_platform,3,place-WML-0091,1,Newton,,,
 node-WML-0091-wbwasstairs-bottom,,West Newton,West Newton - Bottom of stairs for Washington St (West),,,42.347677,-71.232199,,,,level_-1_platform,3,place-WML-0091,1,Newton,,,
 place-WML-0102,,Auburndale,,,,42.345833,-71.250373,CR-zone-2,"Auburn St and Woodland Rd, Newton, MA 02466",https://www.mbta.com/stops/place-WML-0102,,1,,2,Newton,,,
 WML-0102-02,,Auburndale,Auburndale - Commuter Rail - Track 2 (All Trains),2,Commuter Rail - Track 2 (All Trains),42.345833,-71.250373,CR-zone-2,,https://www.mbta.com/stops/place-WML-0102,,0,place-WML-0102,2,Newton,,,2
+WML-0102-B1,,Auburndale - 375 Auburn St,Auburndale - Commuter Rail Outbound Shuttle - 375 Auburn St,,Outbound Shuttle,42.346248,-71.249353,LocalBus,,https://www.mbta.com/stops/place-WML-0102,,0,place-WML-0102,1,Newton,,,3
+WML-0102-B2,,Auburndale - Auburn St opp Melrose St,Auburndale - Commuter Rail Boston Shuttle - Auburn St opp Melrose St,,Boston Shuttle,42.346288,-71.248493,LocalBus,,https://www.mbta.com/stops/place-WML-0102,,0,place-WML-0102,1,Newton,Auburn Street,Melrose Street,3
 door-WML-0102-auburn,,Auburn St,Auburn St,,,42.346332,-71.246948,,,,level_in_street,2,place-WML-0102,2,Newton,,,
 door-WML-0102-woodland,,Woodland Rd,Woodland Rd,,,42.345139,-71.252126,,,,level_in_street,2,place-WML-0102,2,Newton,,,
 node-WML-0102-auburnstairs-bottom,,Auburndale,Auburndale - Bottom of stairs for Auburn St,,,42.346302,-71.247122,,,,level_-1_platform,3,place-WML-0102,1,Newton,,,
@@ -7357,23 +7364,31 @@ place-WML-0135,,Wellesley Hills,,,,42.31037,-71.277044,CR-zone-3,"341 Washington
 WML-0135,,Wellesley Hills,Wellesley Hills - Commuter Rail,,Commuter Rail,42.31037,-71.277044,CR-zone-3,,https://www.mbta.com/stops/place-WML-0135,,0,place-WML-0135,2,Wellesley,,,2
 WML-0135-01,,Wellesley Hills,Wellesley Hills - Commuter Rail - Track 1,1,Track 1,42.31037,-71.277044,CR-zone-3,,https://www.mbta.com/stops/place-WML-0135,,0,place-WML-0135,2,Wellesley,,,2
 WML-0135-02,,Wellesley Hills,Wellesley Hills - Commuter Rail - Track 2,2,Track 2,42.31037,-71.277044,CR-zone-3,,https://www.mbta.com/stops/place-WML-0135,,0,place-WML-0135,2,Wellesley,,,2
+WML-0135-B0,,Wellesley Hills - Washington St opp Abbott Rd,Wellesley Hills - Commuter Rail Outbound Shuttle - Washington St opp Abbott Rd,,Outbound Shuttle,42.31014,-71.27672,LocalBus,,https://www.mbta.com/stops/place-WML-0135,,0,place-WML-0135,1,Wellesley,Washington Street,,3
+WML-0135-B1,,Wellesley Hills - Washington St @ Abbott Rd,Wellesley Hills - Commuter Rail Boston Shuttle - Washington St @ Abbott Rd,,Boston Shuttle,42.31009,-71.27658,LocalBus,,https://www.mbta.com/stops/place-WML-0135,,0,place-WML-0135,1,Wellesley,Washington Street,Abbott Road,3
 place-WML-0147,,Wellesley Square,,,,42.297526,-71.294173,CR-zone-3,"1 Grove St, Wellesley, MA 02482",https://www.mbta.com/stops/place-WML-0147,,1,,1,Wellesley,,,
 WML-0147,,Wellesley Square,Wellesley Square - Commuter Rail,,Commuter Rail,42.297526,-71.294173,CR-zone-3,,https://www.mbta.com/stops/place-WML-0147,,0,place-WML-0147,1,Wellesley,,,2
 WML-0147-01,,Wellesley Square,Wellesley Square - Commuter Rail - Track 1,1,Track 1,42.296963,-71.295709,CR-zone-3,,https://www.mbta.com/stops/place-WML-0147,,0,place-WML-0147,1,Wellesley,,,2
 WML-0147-02,,Wellesley Square,Wellesley Square - Commuter Rail - Track 2,2,Track 2,42.296559,-71.296746,CR-zone-3,,https://www.mbta.com/stops/place-WML-0147,,0,place-WML-0147,1,Wellesley,,,2
+WML-0147-B0,,Wellesley Square - Central St @ Railroad Ave,Wellesley Square - Commuter Rail Outbound Shuttle - Central St @ Railroad Ave,,Outbound Shuttle,42.29657,-71.29367,LocalBus,,https://www.mbta.com/stops/place-WML-0147,,0,place-WML-0147,1,Wellesley,Central Street,Railroad Avenue,3
+WML-0147-B1,,Wellesley Square - Central St opp Railroad Ave,Wellesley Square - Commuter Rail Boston Shuttle - Central St opp Railroad Ave,,Boston Shuttle,42.29644,-71.29367,LocalBus,,https://www.mbta.com/stops/place-WML-0147,,0,place-WML-0147,1,Wellesley,Central Street,,3
 place-WML-0177,,Natick Center,,,,42.285719,-71.347133,CR-zone-4,"1 Walnut St, Natick, MA 01760",https://www.mbta.com/stops/place-WML-0177,,1,,1,Natick,,,
 WML-0177,,Natick Center,Natick Center - Commuter Rail,,Commuter Rail,42.285719,-71.347133,CR-zone-4,,https://www.mbta.com/stops/place-WML-0177,,0,place-WML-0177,1,Natick,,,2
 WML-0177-01,,Natick Center,Natick Center - Commuter Rail - Track 1,1,Track 1,42.285719,-71.347133,CR-zone-4,,https://www.mbta.com/stops/place-WML-0177,,0,place-WML-0177,1,Natick,,,2
 WML-0177-02,,Natick Center,Natick Center - Commuter Rail - Track 2,2,Track 2,42.285719,-71.347133,CR-zone-4,,https://www.mbta.com/stops/place-WML-0177,,0,place-WML-0177,1,Natick,,,2
+WML-0177-B0,,Natick Center - South Ave opp Adams St,Natick Center - Commuter Rail Outbound Shuttle - South Ave opp Adams St,,Outbound Shuttle,42.28535,-71.3469,LocalBus,,https://www.mbta.com/stops/place-WML-0177,,0,place-WML-0177,1,Natick,South Avenue,,3
+WML-0177-B1,,Natick Center - South Ave @ Washington St,Natick Center - Commuter Rail Boston Shuttle - South Ave @ Washington St,,Boston Shuttle,42.28529,-71.34666,LocalBus,,https://www.mbta.com/stops/place-WML-0177,,0,place-WML-0177,1,Natick,South Avenue,Washington Street,3
 place-WML-0199,,West Natick,,,,42.283064,-71.391797,CR-zone-4,"249 West Central St, Natick, MA 01760",https://www.mbta.com/stops/place-WML-0199,,1,,1,Natick,,,
 WML-0199,,West Natick,West Natick - Commuter Rail,,Commuter Rail,42.283064,-71.391797,CR-zone-4,,https://www.mbta.com/stops/place-WML-0199,,0,place-WML-0199,1,Natick,,,2
 WML-0199-01,,West Natick,West Natick - Commuter Rail - Track 1,1,Track 1,42.283064,-71.391797,CR-zone-4,,https://www.mbta.com/stops/place-WML-0199,,0,place-WML-0199,1,Natick,,,2
 WML-0199-02,,West Natick,West Natick - Commuter Rail - Track 2,2,Track 2,42.283064,-71.391797,CR-zone-4,,https://www.mbta.com/stops/place-WML-0199,,0,place-WML-0199,1,Natick,,,2
+WML-0199-B0,,West Natick - W Central St @ West Natick Parking Lot,West Natick - Commuter Rail Outbound Shuttle - W Central St @ West Natick Parking Lot,,Outbound Shuttle,42.28192,-71.39095,LocalBus,,https://www.mbta.com/stops/place-WML-0199,,0,place-WML-0199,1,Natick,West Central Street,,3
+WML-0199-B1,,West Natick - W Central St opp West Natick Parking Lot,West Natick - Commuter Rail Boston Shuttle - W Central St opp West Natick Parking Lot,,Boston Shuttle,42.28181,-71.3912,LocalBus,,https://www.mbta.com/stops/place-WML-0199,,0,place-WML-0199,1,Natick,West Central Street,,3
 place-WML-0214,,Framingham,,,,42.276108,-71.420055,CR-zone-5,"417 Waverly St, Framingham, MA 01702",https://www.mbta.com/stops/place-WML-0214,,1,,1,Framingham,,,
 WML-0214,,Framingham,Framingham - Commuter Rail,,Commuter Rail,42.276108,-71.420055,CR-zone-5,,https://www.mbta.com/stops/place-WML-0214,,0,place-WML-0214,1,Framingham,,,2
 WML-0214-01,,Framingham,Framingham - Commuter Rail - Track 1,1,Track 1,42.276108,-71.420055,CR-zone-5,,https://www.mbta.com/stops/place-WML-0214,,0,place-WML-0214,1,Framingham,,,2
 WML-0214-02,,Framingham,Framingham - Commuter Rail - Track 2,2,Track 2,42.276108,-71.420055,CR-zone-5,,https://www.mbta.com/stops/place-WML-0214,,0,place-WML-0214,1,Framingham,,,2
-WML-0214-B,,Framingham - Waverly St Parking Lot,Framingham - Commuter Rail Shuttle - Waverly St Parking Lot,,Commuter Rail Shuttle,42.276089,-71.419768,,,,,0,place-WML-0214,1,Framingham,Waverly Street,,3
+WML-0214-B,,Framingham - Waverly St Parking Lot,Framingham - Commuter Rail Shuttle - Waverly St Parking Lot,,Commuter Rail Shuttle,42.276089,-71.419768,LocalBus,,https://www.mbta.com/stops/place-WML-0214,,0,place-WML-0214,1,Framingham,Waverly Street,,3
 place-WML-0252,,Ashland,,,,42.26149,-71.482161,CR-zone-6,"Pleasant St and Cordaville Rd, Ashland, MA 01721",https://www.mbta.com/stops/place-WML-0252,,1,,1,Ashland,,,
 WML-0252,,Ashland,Ashland - Commuter Rail,,Commuter Rail,42.26149,-71.482161,CR-zone-6,,https://www.mbta.com/stops/place-WML-0252,,0,place-WML-0252,1,Ashland,,,2
 WML-0252-01,,Ashland,Ashland - Commuter Rail - Track 1 (Outbound),1,Track 1 (Outbound),42.26149,-71.482161,CR-zone-6,,https://www.mbta.com/stops/place-WML-0252,,0,place-WML-0252,1,Ashland,,,2
@@ -7809,7 +7824,8 @@ NEC-2276,,Back Bay,Back Bay - Commuter Rail,,Commuter Rail,42.34735,-71.075727,C
 NEC-2276-01,,Back Bay,Back Bay - Commuter Rail - Track 1,1,Commuter Rail - Track 1,42.347283,-71.075312,CR-zone-1A,,https://www.mbta.com/stops/place-bbsta,level_-1_cr_platform,0,place-bbsta,1,Boston,,,2
 NEC-2276-02,,Back Bay,Back Bay - Commuter Rail - Track 2,2,Commuter Rail - Track 2,42.347196,-71.075299,CR-zone-1A,,https://www.mbta.com/stops/place-bbsta,level_-1_cr_platform,0,place-bbsta,1,Boston,,,2
 NEC-2276-03,,Back Bay,Back Bay - Commuter Rail - Track 3,3,Commuter Rail - Track 3,42.347283,-71.075312,CR-zone-1A,,https://www.mbta.com/stops/place-bbsta,level_-1_cr_platform,0,place-bbsta,1,Boston,,,2
-NEC-2276-B,,Back Bay - Dartmouth St @ Back Bay Station,Back Bay - Commuter Rail Outbound Shuttle - Dartmouth St @ Back Bay Station,,Outbound Shuttle,42.347497,-71.075894,,,,,0,place-bbsta,1,Boston,Dartmouth Street,Back Bay Station,3
+NEC-2276-B,,Back Bay - Dartmouth St @ Back Bay Station,Back Bay - Commuter Rail Outbound Shuttle - Dartmouth St @ Back Bay Station,,Outbound Shuttle,42.347497,-71.075894,LocalBus,,https://www.mbta.com/stops/place-bbsta,,0,place-bbsta,1,Boston,Dartmouth Street,Back Bay Station,3
+NEC-2276-B2,,Back Bay - Clarendon St @ Stanhope St,Back Bay - Commuter Rail Shuttle - Clarendon St @ Stanhope St,,Commuter Rail Shuttle,42.34794,-71.07396,LocalBus,,https://www.mbta.com/stops/place-bbsta,,0,place-bbsta,1,Boston,Clarendon St,Stanhope St,3
 WML-0012-05,,Back Bay,Back Bay - Commuter Rail - Track 5,5,Commuter Rail - Track 5,42.34759,-71.075393,CR-zone-1A,,https://www.mbta.com/stops/place-bbsta,level_-1_cr_platform,0,place-bbsta,1,Boston,,,2
 WML-0012-07,,Back Bay,Back Bay - Commuter Rail - Track 7,7,Commuter Rail - Track 7,42.34759,-71.075393,CR-zone-1A,,https://www.mbta.com/stops/place-bbsta,level_-1_cr_platform,0,place-bbsta,1,Boston,,,2
 door-bbsta-buswayn,,"Clarendon St, Buses (North)","Clarendon St, Buses (North)",,,42.347654,-71.074699,,,,level_in_street,2,place-bbsta,1,Boston,,,

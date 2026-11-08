@@ -283,7 +283,6 @@ hnock,Hancock Street (Quincy)
 holyk,Holyoke Street @ O'Callaghan Way (Lynn)
 hpaml,Hyde Park Avenue @ American Legion Highway
 hpave,Hyde Park Avenue @ Cummins Highway
-hpond,Houghton Pond
 hrand,Holbrook/Randolph Commuter Rail Depot
 hrtwl,Bedford Street @ Hartwell Avenue
 hrugg,Huntington & Ruggles

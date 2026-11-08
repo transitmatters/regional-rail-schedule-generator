@@ -473,10 +473,6 @@ trip_id,trip_property_id,value
 78540863,trip_type,supplemental
 78540928,note,Does not run during school vacation
 78540928,trip_type,supplemental
-78579362,note,Waits at Maverick for last Blue Line train
-78579362,trip_type,wait
-78579425,note,Waits at Wonderland for last Blue Line train
-78579425,trip_type,wait
 78590149,note,Does not run during school vacation
 78590149,trip_type,supplemental
 78590683,note,Waits at Back Bay for last Orange Line train
@@ -969,100 +965,180 @@ trip_id,trip_property_id,value
 79307948,trip_type,wait
 79307979,note,Does not run during school vacation
 79307979,trip_type,supplemental
-FBWMLConstruction-859927-874,note,Waits at Readville for Train 776
-FBWMLConstruction-859927-874,trip_type,wait
-FBWMLConstruction-859938-908,note,Waits at Readville for Train 1708
-FBWMLConstruction-859938-908,trip_type,wait
-FBWMLConstruction-859966-984,note,Waits at Readville for Train 784
-FBWMLConstruction-859966-984,trip_type,wait
-FBWMLConstruction-859934-892,note,Waits at Readville for Train 792
-FBWMLConstruction-859934-892,trip_type,wait
-FBWMLConstruction-859920-856,note,Waits at Readville for Train 1756
-FBWMLConstruction-859920-856,trip_type,wait
-FBWMLConstruction-859776-1047,note,Waits at Braintree for Train 2047
-FBWMLConstruction-859776-1047,trip_type,wait
-FBWMLConstruction-859857-2055,note,Waits at East Taunton for Train 1905
-FBWMLConstruction-859857-2055,trip_type,wait
-FBWMLConstruction-859858-2059,note,Waits at East Taunton for Train 1909
-FBWMLConstruction-859858-2059,trip_type,wait
-FBWMLConstruction-859859-2061,note,Waits at East Taunton for Train 1911
-FBWMLConstruction-859859-2061,trip_type,wait
-FBWMLConstruction-859861-2065,note,Waits at East Taunton for Train 1915
-FBWMLConstruction-859861-2065,trip_type,wait
-FBWMLConstruction-859862-2067,note,Waits at East Taunton for Train 1917
-FBWMLConstruction-859862-2067,trip_type,wait
-FBWMLConstruction-859863-2069,note,Waits at East Taunton for Train 1919
-FBWMLConstruction-859863-2069,trip_type,wait
-FBWMLConstruction-859864-2075,note,Waits at East Taunton for Train 1925
-FBWMLConstruction-859864-2075,trip_type,wait
-FBWMLConstruction-859866-2089,note,Waits at East Taunton for Train 1939
-FBWMLConstruction-859866-2089,trip_type,wait
-FBWMLConstruction-859828-1971,note,Waits at East Taunton for Train 2021
-FBWMLConstruction-859828-1971,trip_type,wait
-FBWMLConstruction-859834-1983,note,Waits at East Taunton for Train 2033
-FBWMLConstruction-859834-1983,trip_type,wait
-FBWMLConstruction-859836-1987,note,Waits at East Taunton for Train 2037
-FBWMLConstruction-859836-1987,trip_type,wait
-FBWMLConstruction-859838-1991,note,Waits at East Taunton for Train 2041
-FBWMLConstruction-859838-1991,trip_type,wait
-FBWMLConstruction-859841-2010,note,Waits at East Taunton for Train 1960
-FBWMLConstruction-859841-2010,trip_type,wait
-FBWMLConstruction-859842-2016,note,Waits at East Taunton for Train 1966
-FBWMLConstruction-859842-2016,trip_type,wait
-FBWMLConstruction-859844-2022,note,Waits at East Taunton for Train 1972
-FBWMLConstruction-859844-2022,trip_type,wait
-FBWMLConstruction-859845-2024,note,Waits at East Taunton for Train 1974
-FBWMLConstruction-859845-2024,trip_type,wait
-FBWMLConstruction-859846-2026,note,Waits at East Taunton for Train 1976
-FBWMLConstruction-859846-2026,trip_type,wait
-FBWMLConstruction-859847-2028,note,Waits at East Taunton for Train 1978
-FBWMLConstruction-859847-2028,trip_type,wait
-FBWMLConstruction-859849-2030,note,Waits at East Taunton for Train 1980
-FBWMLConstruction-859849-2030,trip_type,wait
-FBWMLConstruction-859851-2034,note,Waits at East Taunton for Train 1984
-FBWMLConstruction-859851-2034,trip_type,wait
-FBWMLConstruction-859853-2038,note,Waits at East Taunton for Train 1988
-FBWMLConstruction-859853-2038,trip_type,wait
-FBWMLConstruction-859855-2044,note,Waits at East Taunton for Train 1994
-FBWMLConstruction-859855-2044,trip_type,wait
-FBWMLConstruction-859816-1912,note,Waits at East Taunton for Train 2062
-FBWMLConstruction-859816-1912,trip_type,wait
-FBWMLConstruction-859822-1936,note,Waits at East Taunton for Train 2086
-FBWMLConstruction-859822-1936,trip_type,wait
-FBWMLConstruction-859824-1942,note,Waits at East Taunton for Train 2092
-FBWMLConstruction-859824-1942,trip_type,wait
-FBWMLConstruction-860142-1775,note,Waits at Readville for Train 875
-FBWMLConstruction-860142-1775,trip_type,wait
-FBWMLConstruction-860158-1785,note,Waits at Readville for Train 885
-FBWMLConstruction-860158-1785,trip_type,wait
-FBWMLConstruction-860205-793,note,Waits at Readville for Train 893
-FBWMLConstruction-860205-793,trip_type,wait
-FBWMLConstruction-860199-689,note,Waits at Forest Hills for Train 889
-FBWMLConstruction-860199-689,trip_type,wait
-FBWMLConstruction-860196-693,note,Waits at Forest Hills for Train 893
-FBWMLConstruction-860196-693,trip_type,wait
-FBWMLConstruction-859882-565,note,Waits at West Natick for Train 1561
-FBWMLConstruction-859882-565,trip_type,wait
-FBWMLConstruction-859878-553,note,Waits at West Natick for Train 1551
-FBWMLConstruction-859878-553,trip_type,wait
-FBWMLConstruction-859880-559,note,Waits at West Natick for Train 1555
-FBWMLConstruction-859880-559,trip_type,wait
-FBWMLConstruction-859884-571,note,Waits at West Natick for Train 1567
-FBWMLConstruction-859884-571,trip_type,wait
-FBWMLConstruction-859802-1512,note,Waits at West Natick for Train 510
-FBWMLConstruction-859802-1512,trip_type,wait
-FBWMLConstruction-859803-1516,note,Waits at West Natick for Train 514
-FBWMLConstruction-859803-1516,trip_type,wait
-FBWMLConstruction-860280-1522,note,Waits at West Natick for Train 518
-FBWMLConstruction-860280-1522,trip_type,wait
-FBWMLConstruction-859875-515,note,Waits at Framingham for Train 1511
-FBWMLConstruction-859875-515,trip_type,wait
-FBWMLConstruction-859807-1558,note,Waits at Framingham for Train 556
-FBWMLConstruction-859807-1558,trip_type,wait
-FBWMLConstruction-859809-1562,note,Waits at Framingham for Train 560
-FBWMLConstruction-859809-1562,trip_type,wait
-FBWMLConstruction-860280-1522,note,Waits at Framingham for Train 520
-FBWMLConstruction-860280-1522,trip_type,wait
+Tower1Phase2-884025-6036,note,Waits at Readville for Train 7040
+Tower1Phase2-884025-6036,trip_type,wait
+Tower1Phase2-884031-6042,note,Waits at Readville for Train 7050
+Tower1Phase2-884031-6042,trip_type,wait
+Tower1Phase2-884180-8323,note,Waits at Braintree for Train 8031
+Tower1Phase2-884180-8323,trip_type,wait
+Tower1Phase2-882905-8177,note,Waits at East Taunton for Train 8027
+Tower1Phase2-882905-8177,trip_type,wait
+Tower1Phase2-882969-8059,note,Waits at East Taunton for Train 8109
+Tower1Phase2-882969-8059,trip_type,wait
+Tower1Phase2-883325-8075,note,Waits at East Taunton for Train 8125
+Tower1Phase2-883325-8075,trip_type,wait
+Tower1Phase2-882909-8055,note,Waits at East Taunton for Train 8105
+Tower1Phase2-882909-8055,trip_type,wait
+Tower1Phase2-882912-8053,note,Waits at East Taunton for Train 8103
+Tower1Phase2-882912-8053,trip_type,wait
+Tower1Phase2-882943-8051,note,Waits at East Taunton for Train 8101
+Tower1Phase2-882943-8051,trip_type,wait
+Tower1Phase2-883010-8163,note,Waits at East Taunton for Train 8013
+Tower1Phase2-883010-8163,trip_type,wait
+Tower1Phase2-882893-8057,note,Waits at East Taunton for Train 8107
+Tower1Phase2-882893-8057,trip_type,wait
+Tower1Phase2-882882-8061,note,Waits at East Taunton for Train 8111
+Tower1Phase2-882882-8061,trip_type,wait
+Tower1Phase2-882860-8173,note,Waits at East Taunton for Train 8023
+Tower1Phase2-882860-8173,trip_type,wait
+Tower1Phase2-882947-8065,note,Waits at East Taunton for Train 8115
+Tower1Phase2-882947-8065,trip_type,wait
+Tower1Phase2-883025-8171,note,Waits at East Taunton for Train 8021
+Tower1Phase2-883025-8171,trip_type,wait
+Tower1Phase2-883022-8130,note,Waits at East Taunton for Train 8080
+Tower1Phase2-883022-8130,trip_type,wait
+Tower1Phase2-882966-8022,note,Waits at East Taunton for Train 8172
+Tower1Phase2-882966-8022,trip_type,wait
+Tower1Phase2-883323-8032,note,Waits at East Taunton for Train 8182
+Tower1Phase2-883323-8032,trip_type,wait
+Tower1Phase2-882948-8014,note,Waits at East Taunton for Train 8164
+Tower1Phase2-882948-8014,trip_type,wait
+Tower1Phase2-882907-8018,note,Waits at East Taunton for Train 8168
+Tower1Phase2-882907-8018,trip_type,wait
+Tower1Phase2-882889-8016,note,Waits at East Taunton for Train 8166
+Tower1Phase2-882889-8016,trip_type,wait
+Tower1Phase2-883009-8010,note,Waits at East Taunton for Train 8160
+Tower1Phase2-883009-8010,trip_type,wait
+Tower1Phase2-883003-8126,note,Waits at East Taunton for Train 8076
+Tower1Phase2-883003-8126,trip_type,wait
+Tower1Phase2-882876-8020,note,Waits at East Taunton for Train 8170
+Tower1Phase2-882876-8020,trip_type,wait
+Tower1Phase2-882996-8108,note,Waits at East Taunton for Train 8058
+Tower1Phase2-882996-8108,trip_type,wait
+Tower1Phase2-882963-8006,note,Waits at East Taunton for Train 8156
+Tower1Phase2-882963-8006,trip_type,wait
+Tower1Phase2-882878-8024,note,Waits at East Taunton for Train 8174
+Tower1Phase2-882878-8024,trip_type,wait
+Tower1Phase2-882950-8028,note,Waits at East Taunton for Train 8178
+Tower1Phase2-882950-8028,trip_type,wait
+Tower1Phase2-884032-6301,note,Waits at Canton Junction for Train 6001
+Tower1Phase2-884032-6301,trip_type,wait
+Tower1Phase2-884033-6303,note,Waits at Canton Junction for Train 6003
+Tower1Phase2-884033-6303,trip_type,wait
+Tower1Phase2-884037-6307,note,Waits at Canton Junction for Train 6007
+Tower1Phase2-884037-6307,trip_type,wait
+Tower1Phase2-884038-6309,note,Waits at Canton Junction for Train 6009
+Tower1Phase2-884038-6309,trip_type,wait
+Tower1Phase2-884040-6311,note,Waits at Canton Junction for Train 6011
+Tower1Phase2-884040-6311,trip_type,wait
+Tower1Phase2-884042-6315,note,Waits at Canton Junction for Train 6015
+Tower1Phase2-884042-6315,trip_type,wait
+Tower1Phase2-884044-6317,note,Waits at Canton Junction for Train 6017
+Tower1Phase2-884044-6317,trip_type,wait
+Tower1Phase2-884046-6319,note,Waits at Canton Junction for Train 6019
+Tower1Phase2-884046-6319,trip_type,wait
+Tower1Phase2-884048-6321,note,Waits at Canton Junction for Train 6021
+Tower1Phase2-884048-6321,trip_type,wait
+Tower1Phase2-884050-6325,note,Waits at Canton Junction for Train 6025
+Tower1Phase2-884050-6325,trip_type,wait
+Tower1Phase2-884053-6329,note,Waits at Canton Junction for Train 6029
+Tower1Phase2-884053-6329,trip_type,wait
+Tower1Phase2-884055-6331,note,Waits at Canton Junction for Train 6031
+Tower1Phase2-884055-6331,trip_type,wait
+Tower1Phase2-884059-6335,note,Waits at Canton Junction for Train 6035
+Tower1Phase2-884059-6335,trip_type,wait
+Tower1Phase2-884061-6337,note,Waits at Canton Junction for Train 6037
+Tower1Phase2-884061-6337,trip_type,wait
+Tower1Phase2-884035-6305,note,Waits at Canton Junction for Train 6005
+Tower1Phase2-884035-6305,trip_type,wait
+Tower1Phase2-884057-6333,note,Waits at Canton Junction for Train 6033
+Tower1Phase2-884057-6333,trip_type,wait
+Tower1Phase2-884256-7135,note,Waits at Readville for Train 6033
+Tower1Phase2-884256-7135,trip_type,wait
+Tower1Phase2-884122-7043,note,Waits at Readville for Train 6041
+Tower1Phase2-884122-7043,trip_type,wait
+Tower1Phase2-884095-6431,note,Waits at Forest Hills for Train 6039
+Tower1Phase2-884095-6431,trip_type,wait
+Tower1Phase2-884063-6339,note,Waits at Canton Junction for Train 6039
+Tower1Phase2-884063-6339,trip_type,wait
+Tower1Phase2-884097-6433,note,Waits at Forest Hills for Train 6041
+Tower1Phase2-884097-6433,trip_type,wait
+Tower1Phase2-883993-6004,note,Waits at Canton Junction for Train 6304
+Tower1Phase2-883993-6004,trip_type,wait
+Tower1Phase2-883995-6006,note,Waits at Canton Junction for Train 6306
+Tower1Phase2-883995-6006,trip_type,wait
+Tower1Phase2-883999-6010,note,Waits at Canton Junction for Train 6310
+Tower1Phase2-883999-6010,trip_type,wait
+Tower1Phase2-884003-6014,note,Waits at Canton Junction for Train 6314
+Tower1Phase2-884003-6014,trip_type,wait
+Tower1Phase2-884005-6016,note,Waits at Canton Junction for Train 6316
+Tower1Phase2-884005-6016,trip_type,wait
+Tower1Phase2-884007-6018,note,Waits at Canton Junction for Train 6318
+Tower1Phase2-884007-6018,trip_type,wait
+Tower1Phase2-884009-6020,note,Waits at Canton Junction for Train 6320
+Tower1Phase2-884009-6020,trip_type,wait
+Tower1Phase2-884013-6024,note,Waits at Canton Junction for Train 6324
+Tower1Phase2-884013-6024,trip_type,wait
+Tower1Phase2-884015-6026,note,Waits at Canton Junction for Train 6326
+Tower1Phase2-884015-6026,trip_type,wait
+Tower1Phase2-884017-6028,note,Waits at Canton Junction for Train 6328
+Tower1Phase2-884017-6028,trip_type,wait
+Tower1Phase2-884019-6030,note,Waits at Canton Junction for Train 6330
+Tower1Phase2-884019-6030,trip_type,wait
+Tower1Phase2-884021-6032,note,Waits at Canton Junction for Train 6332
+Tower1Phase2-884021-6032,trip_type,wait
+Tower1Phase2-884023-6034,note,Waits at Canton Junction for Train 6334
+Tower1Phase2-884023-6034,trip_type,wait
+Tower1Phase2-884015-6026,note,Waits at Canton Junction for Train 6336
+Tower1Phase2-884015-6026,trip_type,wait
+Tower1Phase2-884027-6038,note,Waits at Canton Junction for Train 6338
+Tower1Phase2-884027-6038,trip_type,wait
+Tower1Phase2-884029-6040,note,Waits at Canton Junction for Train 6340
+Tower1Phase2-884029-6040,trip_type,wait
+CP16-883410-6508,note,Waits at Readville for Train 7508
+CP16-883410-6508,trip_type,wait
+CP16-883438-6512,note,Waits at Readville for Train 7512
+CP16-883438-6512,trip_type,wait
+CP16-883403-6504,note,Waits at Readville for Train 7504
+CP16-883403-6504,trip_type,wait
+CP16-883427-6502,note,Waits at Readville for Train 7502
+CP16-883427-6502,trip_type,wait
+CP16-883455-6514,note,Waits at Readville for Train 7514
+CP16-883455-6514,trip_type,wait
+CP16-883401-6506,note,Waits at Readville for Train 7506
+CP16-883401-6506,trip_type,wait
+CP16-883549-6516,note,Waits at Readville for Train 7516
+CP16-883549-6516,trip_type,wait
+CP16-883421-6510,note,Waits at Readville for Train 7510
+CP16-883421-6510,trip_type,wait
+CP16-883569-6518,note,Waits at Readville for Train 7518
+CP16-883569-6518,trip_type,wait
+CP16-883586-6520,note,Waits at Readville for Train 7520
+CP16-883586-6520,trip_type,wait
+CP16-883597-8817,note,Waits at Braintree for Train 8525
+CP16-883597-8817,trip_type,wait
+CP16-883508-8667,note,Waits at East Taunton for Train 8517
+CP16-883508-8667,trip_type,wait
+CP16-883479-7503,note,Waits at Readville for Train 6503
+CP16-883479-7503,trip_type,wait
+CP16-883446-7501,note,Waits at Readville for Train 6501
+CP16-883446-7501,trip_type,wait
+CP16-883406-7505,note,Waits at Readville for Train 6505
+CP16-883406-7505,trip_type,wait
+CP16-883414-7509,note,Waits at Readville for Train 6509
+CP16-883414-7509,trip_type,wait
+CP16-883560-7507,note,Waits at Readville for Train 6507
+CP16-883560-7507,trip_type,wait
+CP16-883473-7511,note,Waits at Readville for Train 6511
+CP16-883473-7511,trip_type,wait
+CP16-883462-7513,note,Waits at Readville for Train 6513
+CP16-883462-7513,trip_type,wait
+CP16-883552-7515,note,Waits at Readville for Train 6515
+CP16-883552-7515,trip_type,wait
+CP16-883573-7517,note,Waits at Readville for Train 6517
+CP16-883573-7517,trip_type,wait
+CP16-883594-7519,note,Waits at Readville for Train 6519
+CP16-883594-7519,trip_type,wait
 FBTieJobPhase17006patch-879368-6036,note,Waits at Readville for Train 7040
 FBTieJobPhase17006patch-879368-6036,trip_type,wait
 FBTieJobPhase17006patch-879514-6332,note,Waits at Readville for Train 7046
@@ -1159,54 +1235,6 @@ FBTieJobPhase17006patch-879638-5308,note,Waits at Framingham for Train 5030
 FBTieJobPhase17006patch-879638-5308,trip_type,wait
 FBTieJobPhase17006patch-879668-5306,note,Waits at Framingham for Train 5012
 FBTieJobPhase17006patch-879668-5306,trip_type,wait
-NorthBase-825779-429,note,Waits at Littleton/Route 495 for Train 1427
-NorthBase-825779-429,trip_type,wait
-NorthBase-825657-1408,note,Waits at Littleton/Route 495 for Train 406
-NorthBase-825657-1408,trip_type,wait
-SouthBase-793087-5806,note,Waits at Readville for Train 5706
-SouthBase-793087-5806,trip_type,wait
-SouthBase-793105-5892,note,Waits at Readville for Train 5792
-SouthBase-793105-5892,trip_type,wait
-SouthBase-793090-5824,note,Waits at Readville for Train 5724
-SouthBase-793090-5824,trip_type,wait
-SouthBase-793103-5884,note,Waits at Readville for Train 5784
-SouthBase-793103-5884,trip_type,wait
-SouthBase-793100-5868,note,Waits at Readville for Train 5768
-SouthBase-793100-5868,trip_type,wait
-SouthBase-793102-5878,note,Waits at Readville for Train 5778
-SouthBase-793102-5878,trip_type,wait
-SouthBase-793098-5856,note,Waits at Readville for Train 5754
-SouthBase-793098-5856,trip_type,wait
-SouthBase-793091-5830,note,Waits at Readville for Train 5730
-SouthBase-793091-5830,trip_type,wait
-SouthBase-793093-5838,note,Waits at Readville for Train 5738
-SouthBase-793093-5838,trip_type,wait
-SouthBase-793095-5846,note,Waits at Readville for Train 5746
-SouthBase-793095-5846,trip_type,wait
-SouthBase-793124-6047,note,Waits at Braintree for Train 7047
-SouthBase-793124-6047,trip_type,wait
-SouthBase-793169-6979,note,Waits at East Taunton for Train 7029
-SouthBase-793169-6979,trip_type,wait
-SouthBase-830380-5715,note,Waits at Readville for Train 5815
-SouthBase-830380-5715,trip_type,wait
-SouthBase-830432-5721,note,Waits at Readville for Train 5821
-SouthBase-830432-5721,trip_type,wait
-SouthBase-830456-5731,note,Waits at Readville for Train 5831
-SouthBase-830456-5731,trip_type,wait
-SouthBase-830458-5739,note,Waits at Readville for Train 5839
-SouthBase-830458-5739,trip_type,wait
-SouthBase-830461-5747,note,Waits at Readville for Train 5847
-SouthBase-830461-5747,trip_type,wait
-SouthBase-830454-5755,note,Waits at Readville for Train 5855
-SouthBase-830454-5755,trip_type,wait
-SouthBase-830452-5767,note,Waits at Readville for Train 5867
-SouthBase-830452-5767,trip_type,wait
-SouthBase-830460-5777,note,Waits at Readville for Train 5877
-SouthBase-830460-5777,trip_type,wait
-SouthBase-830449-5785,note,Waits at Readville for Train 5885
-SouthBase-830449-5785,trip_type,wait
-SouthBase-830429-5793,note,Waits at Readville for Train 5893
-SouthBase-830429-5793,trip_type,wait
 NorthFall26WKDYBase-881997-4015,note,Waits at Littleton/Route 495 for Train 4309
 NorthFall26WKDYBase-881997-4015,trip_type,wait
 NorthFall26WKDYBase-882128-4302,note,Waits at Littleton/Route 495 for Train 4006
