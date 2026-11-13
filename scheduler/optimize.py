@@ -1,138 +1,155 @@
-from typing import List
-from dataclasses import dataclass
+from typing import Dict, List, Tuple
+
 import cvxpy as cp
 
-from synthesize.util import get_pairs, listify
-
-from scheduler.network import Service, Node
-from scheduler.ordering import Ordering
 from scheduler.scheduling_problem import SchedulingProblem
 
 
-@dataclass
-class OptimizeContext:
-    ordering: Ordering
-    problem: SchedulingProblem
-
-    def __post_init__(self):
-        self._variables = {}
-
-    def _get_or_create_variable(self, name: str, **kwargs):
-        existing = self._variables.get(name)
-        if existing:
-            return existing
-        variable = cp.Variable(name=name, **kwargs)
-        self._variables[name] = variable
-        return variable
-
-    def get_departure_offset_variable(self, service: Service):
-        return self._get_or_create_variable(f"departure_offset_{service}", nonneg=True)
-
-
-def get_indexed_arrival_expression(ctx: OptimizeContext, service: Service, index: int, node: Node):
-    offset = ctx.get_departure_offset_variable(service)
-    headway = ctx.problem.get_service_headway(service)
-    trip_time = service.trip_time_to_node_seconds(node)
-    if trip_time is None:
-        raise ValueError("Got invalid trip time")
-    return offset + headway * index + trip_time
-
-
-@listify
-def get_ordered_arrival_expressions_for_node(ctx: OptimizeContext, node: Node):
-    arrivals_by_id = ctx.ordering.arrival_orderings[node]
-    for index, service in arrivals_by_id:
-        yield get_indexed_arrival_expression(ctx, service, index, node)
-
-
-@listify
-def get_constraints_for_node(ctx: OptimizeContext, node: Node):
-    arrival_expressions = get_ordered_arrival_expressions_for_node(ctx, node)
-    for arrival_expr_a, arrival_expr_b in get_pairs(arrival_expressions):
-        yield arrival_expr_a + ctx.problem.exclusion_time <= arrival_expr_b
-
-
-def get_global_constraints(ctx: OptimizeContext):
-    for idx, service in enumerate(ctx.ordering.dispatch_ordering):
-        headway = ctx.problem.get_service_headway(service)
-        offset = ctx.get_departure_offset_variable(service)
-        if idx == 0:
-            yield offset == 0
-        else:
-            yield offset + 1 <= headway
-    for service_a, service_b in get_pairs(ctx.ordering.dispatch_ordering):
-        offset_a = ctx.get_departure_offset_variable(service_a)
-        offset_b = ctx.get_departure_offset_variable(service_b)
-        yield offset_a <= offset_b
-
-
-def get_scheduler_constraints(ctx: OptimizeContext):
-    constraints = list(get_global_constraints(ctx))
-    for node in ctx.problem.nodes.values():
-        constraints += get_constraints_for_node(ctx, node)
-    return constraints
-
-
-def get_objective_for_node(ctx: OptimizeContext, node: Node):
-    obj = 0
-    total_arrivals = len(ctx.ordering.arrival_orderings[node])
-    weight = 1 / total_arrivals
-    arrival_exprs = get_ordered_arrival_expressions_for_node(ctx, node)
-    desired_headway = ctx.problem.period // total_arrivals
-    for first, second in get_pairs(arrival_exprs):
-        term = ((second - first) - desired_headway) ** 2
-        obj += term
-    first = arrival_exprs[0]
-    last = arrival_exprs[-1]
-    term = ((first + ctx.problem.period - last) - desired_headway) ** 2
-    return weight * obj
-
-
-def get_scheduler_objective(ctx: OptimizeContext):
-    obj = 0
-    for node in ctx.problem.nodes.values():
-        obj += get_objective_for_node(ctx, node)
-    return obj
-
-
-def solve_departure_offsets(problem: SchedulingProblem, ordering: Ordering):
-    ctx = OptimizeContext(problem=problem, ordering=ordering)
-    constraints = get_scheduler_constraints(ctx)
-    objective = get_scheduler_objective(ctx)
-    cvx_problem = cp.Problem(cp.Minimize(objective), constraints)
-    cvx_problem.solve()
-    if cvx_problem.status in ["infeasible", "unbounded"]:
-        return float("inf"), None, None
-    offsets = {}
-    arrivals = {}
-    for service in problem.services.values():
-        departure_offset = ctx.get_departure_offset_variable(service)
-        offsets[service.id] = round(departure_offset.value)
-    for node in problem.nodes.values():
-        exprs = get_ordered_arrival_expressions_for_node(ctx, node)
-        arrivals[node.id] = [round(e.value) for e in exprs]
-    return cvx_problem.value, offsets, arrivals
-
-
-def solve_departure_offsets_for_orderings(
+def _get_visits_at_nodes(
     problem: SchedulingProblem,
-    orderings: List[Ordering],
-    debug=True,
-):
-    best_offsets = None
-    best_arrivals = None
-    best_ordering = None
-    best_value = float("inf")
-    for ordering in orderings:
-        value, offsets, arrivals = solve_departure_offsets(problem, ordering)
-        if value < best_value:
-            best_ordering = ordering
-            best_value = value
-            best_offsets = offsets
-            best_arrivals = arrivals
+) -> Dict[str, List[Tuple[str, int]]]:
+    """For each node with active services, return a list of (service_id, trip_index) visits."""
+    visits_at_node = {}
+    for node_id, node in problem.nodes.items():
+        visits = []
+        for service_id, service in problem.services.items():
+            if node in service.calls_at_nodes:
+                tph = problem.trips_per_period.get(service_id, 0)
+                for k in range(tph):
+                    visits.append((service_id, k))
+        if len(visits) > 1:
+            visits_at_node[node_id] = visits
+    return visits_at_node
+
+
+def _count_visit_pairs(visits_at_node: Dict[str, List[Tuple[str, int]]]) -> int:
+    """Count total unordered pairs across all nodes (for binary variable allocation)."""
+    count = 0
+    for visits in visits_at_node.values():
+        n = len(visits)
+        count += n * (n - 1) // 2
+    return count
+
+
+def _count_wrap_variables(visits_at_node: Dict[str, List[Tuple[str, int]]]) -> int:
+    """Count total visits across all nodes (for period-wrap binary allocation)."""
+    return sum(len(v) for v in visits_at_node.values())
+
+
+def solve_departure_offsets(problem: SchedulingProblem, debug=True) -> Dict[str, int]:
+    """
+    Solve for departure offsets using a single MILP with binary ordering variables,
+    replacing the previous enumerate-all-orderings + QP approach.
+
+    At each shared node, binary variables determine the relative ordering of
+    train visits (mapped into canonical [0, period) time via wrap variables),
+    and big-M constraints enforce minimum exclusion time. The objective maximizes
+    the minimum gap between consecutive arrivals at each node.
+    """
+    services = problem.services
+    nodes = problem.nodes
+    period = problem.period
+    exclusion = problem.exclusion_time
+    M = period
+
+    if not services:
+        return {}
+
+    visits_at_node = _get_visits_at_nodes(problem)
+
+    offset_vars = {sid: cp.Variable(name=f"offset_{sid}", nonneg=True) for sid in services}
+
+    def raw_arrival(sid, k, node_id):
+        service = services[sid]
+        node = nodes[node_id]
+        headway = problem.get_service_headway(sid)
+        trip_time = service.trip_time_to_node_seconds(node)
+        return offset_vars[sid] + headway * k + trip_time
+
+    # Allocate all binary variables as vectors to avoid CVXPY scalar bug.
+    num_pairs = _count_visit_pairs(visits_at_node)
+    num_wraps = _count_wrap_variables(visits_at_node)
+    z_vec = cp.Variable(max(num_pairs, 1), boolean=True, name="z") if num_pairs > 0 else None
+    w_vec = cp.Variable(max(num_wraps, 1), boolean=True, name="w") if num_wraps > 0 else None
+    z_idx = 0
+    w_idx = 0
+
+    constraints = []
+
+    first_sid = next(iter(services))
+    constraints.append(offset_vars[first_sid] == 0)
+
+    for sid in services:
+        headway = problem.get_service_headway(sid)
+        constraints.append(offset_vars[sid] <= headway)
+
+    min_gap_vars = {}
+
+    for node_id, visits in visits_at_node.items():
+        n = len(visits)
+        min_gap = cp.Variable(name=f"min_gap_{node_id}", nonneg=True)
+        min_gap_vars[node_id] = min_gap
+
+        # For each visit, introduce a binary wrap variable so that canonical
+        # arrivals live in [0, period). This correctly handles services whose
+        # raw arrival times exceed one period at shared nodes.
+        canon = {}
+        for v_idx, (sid, k) in enumerate(visits):
+            raw = raw_arrival(sid, k, node_id)
+            w = w_vec[w_idx]
+            w_idx += 1
+            ca = raw - w * period
+            constraints.append(ca >= 0)
+            constraints.append(ca <= period - 1)
+            canon[(sid, k)] = ca
+
+        # Wrap-around gap via first/last canonical arrival.
+        first_arr = cp.Variable(name=f"first_{node_id}")
+        last_arr = cp.Variable(name=f"last_{node_id}")
+        for key in canon:
+            constraints.append(first_arr <= canon[key])
+            constraints.append(last_arr >= canon[key])
+        constraints.append(first_arr + period - last_arr >= min_gap)
+
+        for i in range(n):
+            for j in range(i + 1, n):
+                v_i = visits[i]
+                v_j = visits[j]
+                a_i = canon[v_i]
+                a_j = canon[v_j]
+
+                z = z_vec[z_idx]
+                z_idx += 1
+                # z=1 => i before j; z=0 => j before i (in canonical time)
+                constraints.append(a_i + exclusion - a_j <= M * (1 - z))
+                constraints.append(a_j + exclusion - a_i <= M * z)
+                constraints.append(a_j - a_i >= min_gap - M * (1 - z))
+                constraints.append(a_i - a_j >= min_gap - M * z)
+
+    if not min_gap_vars:
+        return {sid: 0 for sid in services}
+
+    objective = cp.Maximize(cp.sum(list(min_gap_vars.values())))
+    prob = cp.Problem(objective, constraints)
+    prob.solve()
+
+    if prob.status in ("infeasible", "unbounded"):
+        raise ValueError(f"Solver returned status: {prob.status}")
+
+    offsets = {sid: round(var.value) for sid, var in offset_vars.items()}
+
     if debug:
         print("---------")
-        print(best_ordering)
-        for node_id, arrivals in best_arrivals.items():
+        for node_id, visits in visits_at_node.items():
+            arrivals = []
+            for sid, k in visits:
+                service = services[sid]
+                node = nodes[node_id]
+                headway = problem.get_service_headway(sid)
+                trip_time = service.trip_time_to_node_seconds(node)
+                arr = (offsets[sid] + headway * k + trip_time) % period
+                arrivals.append(arr)
+            arrivals.sort()
             print(node_id, [a // 60 for a in arrivals])
-    return best_offsets
+
+    return offsets
